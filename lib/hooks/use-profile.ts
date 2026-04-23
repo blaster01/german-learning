@@ -37,6 +37,13 @@ export function useProfile(): { profile: Profile; loading: boolean; refetch: () 
     };
   }, [tick]);
 
+  // Re-fetch whenever a session dispatches "profile-updated"
+  useEffect(() => {
+    const handler = () => setTick((t) => t + 1);
+    window.addEventListener("profile-updated", handler);
+    return () => window.removeEventListener("profile-updated", handler);
+  }, []);
+
   return {
     profile,
     loading,

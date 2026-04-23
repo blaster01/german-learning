@@ -10,7 +10,17 @@ export type LastResult = {
 
 export type SessionSnapshot = {
   phase: SessionPhase;
-  items: ExerciseItem[];
-  index: number;
+  /** Working queue — starts as the initial 15 items, grows when wrongs are re-queued. */
+  queue: ExerciseItem[];
+  /** Current position in the queue. */
+  cursor: number;
+  /** Number of attempts submitted for each itemId (first attempt = 0 before submit). */
+  attemptsByItem: Record<string, number>;
+  /** Set of itemIds that are fully resolved (correct OR exhausted 3 attempts). */
+  resolved: string[];
+  /** Denominator for progress bar (original session length, usually 15). */
+  targetCount: number;
   lastResult?: LastResult;
+  /** Correct answer text to show in FeedbackPanel on a wrong response. */
+  lastCorrectAnswer?: string;
 };

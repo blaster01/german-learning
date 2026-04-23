@@ -8,11 +8,14 @@ import { cn } from "@/lib/utils";
 export function FeedbackPanel({
   result,
   correctMessage,
+  correctAnswerText,
   xpAwarded,
   onContinue,
 }: {
   result: LastResult;
   correctMessage?: string;
+  /** Shown when the answer was wrong — the text of the correct answer. */
+  correctAnswerText?: string;
   xpAwarded?: number;
   onContinue: () => void;
 }) {
@@ -53,8 +56,16 @@ export function FeedbackPanel({
                 ) : null}
               </>
             ) : (
-              <div className="space-y-1 text-sm text-foreground/80">
+              <div className="space-y-2 text-sm text-foreground/80">
                 {result.hint ? <p>{result.hint}</p> : null}
+                {correctAnswerText ? (
+                  <div className="rounded-lg border border-destructive/30 bg-destructive/10 px-3 py-2">
+                    <span className="text-xs font-semibold uppercase tracking-wide text-destructive/70">
+                      Correct answer
+                    </span>
+                    <p className="mt-0.5 font-medium text-foreground">{correctAnswerText}</p>
+                  </div>
+                ) : null}
                 {result.errorTags.length > 0 ? (
                   <p className="font-mono text-xs text-muted-foreground">{result.errorTags.join(" · ")}</p>
                 ) : null}

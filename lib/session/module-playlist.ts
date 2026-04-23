@@ -1,0 +1,214 @@
+import type { ExerciseItem } from "@/lib/content/schema";
+import { getModuleBySlug } from "@/lib/content/loader";
+
+export type SessionMode = "new" | "mixed" | "review";
+
+/** Serialisable card entry — dates are epoch-ms numbers, not Date objects. */
+export type SeenEntry = {
+  itemId: string;
+  due: number;
+  lastReview: number | null;
+};
+
+// ============================================================
+// Deterministic daily-stable shuffle
+// ============================================================
+
+function hashStr(s: string): number {
+  let h = 0x9e3779b9;
+  for (let i = 0; i < s.length; i++) {
+    h = Math.imul(h ^ s.charCodeAt(i), 0x9e3779b9);
+  }
+  return h >>> 0;
+}
+
+function mulberry32(seed: number): () => number {
+  return function () {
+    seed |= 0;
+    seed = (seed + 0x6d2b79f5) | 0;
+    let z = Math.imul(seed ^ (seed >>> 15), 1 | seed);
+    z ^= z + Math.imul(z ^ (z >>> 7), 61 | z);
+    return ((z ^ (z >>> 14)) >>> 0) / 4294967296;
+  };
+}
+
+function shuffleWithSeed<T>(arr: T[], seed: string): T[] {
+  const rng = mulberry32(hashStr(seed));
+  const out = [...arr];
+  for (let i = out.length - 1; i > 0; i--) {
+    const j = Math.floor(rng() * (i + 1));
+    const tmp = out[i] as T;
+    out[i] = out[j] as T;
+    out[j] = tmp;
+  }
+  return out;
+}
+
+/** Stable seed that changes daily so variety rotates each day. */
+function dailySeed(slug: string): string {
+  const d = new Date();
+  return `${slug}-${d.getFullYear()}-${d.getMonth()}-${d.getDate()}`;
+}
+
+// ============================================================
+// Group helpers
+// ============================================================
+
+type Group = {
+  groupId: string;
+  items: ExerciseItem[];
+};
+
+/** Bucket items by groupId (preserving intra-group order). */
+function buildGroups(items: ExerciseItem[]): Group[] {
+  const map = new Map<string, ExerciseItem[]>();
+  for (const item of items) {
+    const gid = item.metadata.groupId ?? item.id;
+    if (!map.has(gid)) map.set(gid, []);
+    map.get(gid)!.push(item);
+  }
+  const groups: Group[] = [];
+  for (const [groupId, groupItems] of map) {
+    groups.push({ groupId, items: groupItems });
+  }
+  return groups;
+}
+
+/** Flatten groups until we have at least `target` items (whole groups only). */
+function takeGroups(groups: Group[], target: number): ExerciseItem[] {
+  const out: ExerciseItem[] = [];
+  for (const g of groups) {
+    if (out.length >= target) break;
+    out.push(...g.items);
+  }
+  return out;
+}
+
+// ============================================================
+// Main builder — synchronous, injectable seenIds
+// ============================================================
+
+/**
+ * Build a session playlist for a module in new / mixed / review mode.
+ *
+ * `seenIds` is a map from itemId → { due, lastReview } where dates are
+ * epoch-ms numbers so the map can be constructed from serialisable data
+ * (server action payloads, JSON, etc.).
+ *
+ * Returns up to `target` items (usually 15), respecting group boundaries
+ * so related exercises (same groupId) travel together.
+ *
+ * new    — groups where no item has a seen card, shuffled daily.
+ * review — seen items sorted due-first, groups preserved.
+ * mixed  — 70% new + 30% review, interleaved, falling back if one side is empty.
+ */
+export function buildModulePlaylist(
+  slug: string,
+  mode: SessionMode,
+  seenIds: ReadonlyMap<string, { due: number; lastReview: number | null }>,
+  target = 15,
+): ExerciseItem[] {
+  const mod = getModuleBySlug(slug);
+  if (!mod) return [];
+
+  const allItems: ExerciseItem[] = [
+    ...mod.tiers[1],
+    ...mod.tiers[2],
+    ...mod.tiers[3],
+  ];
+
+  const allGroups = buildGroups(allItems);
+
+  if (mode === "new") {
+    const newGroups = allGroups.filter((g) =>
+      g.items.every((item) => !seenIds.has(item.id))
+    );
+    const shuffled = shuffleWithSeed(newGroups, dailySeed(slug));
+    return takeGroups(shuffled, target);
+  }
+
+  if (mode === "review") {
+    const seenGroups = allGroups.filter((g) =>
+      g.items.some((item) => seenIds.has(item.id))
+    );
+    seenGroups.sort((a, b) => {
+      const dueA = Math.min(
+        ...a.items
+          .filter((i) => seenIds.has(i.id))
+          .map((i) => seenIds.get(i.id)!.due)
+      );
+      const dueB = Math.min(
+        ...b.items
+          .filter((i) => seenIds.has(i.id))
+          .map((i) => seenIds.get(i.id)!.due)
+      );
+      return dueA - dueB;
+    });
+    return takeGroups(seenGroups, target);
+  }
+
+  // mixed: 70% new, 30% review
+  const newTarget = Math.ceil(target * 0.7);
+  const reviewTarget = Math.floor(target * 0.3);
+
+  const newGroups = shuffleWithSeed(
+    allGroups.filter((g) => g.items.every((item) => !seenIds.has(item.id))),
+    dailySeed(slug)
+  );
+  const seenGroups = allGroups
+    .filter((g) => g.items.some((item) => seenIds.has(item.id)))
+    .sort((a, b) => {
+      const dueA = Math.min(
+        ...a.items.filter((i) => seenIds.has(i.id)).map((i) => seenIds.get(i.id)!.due)
+      );
+      const dueB = Math.min(
+        ...b.items.filter((i) => seenIds.has(i.id)).map((i) => seenIds.get(i.id)!.due)
+      );
+      return dueA - dueB;
+    });
+
+  const newItems = takeGroups(newGroups, newTarget);
+  const reviewItems = takeGroups(seenGroups, reviewTarget);
+
+  if (newItems.length === 0) return reviewItems.slice(0, target);
+  if (reviewItems.length === 0) return newItems.slice(0, target);
+
+  // Interleave: 2 new, 1 review
+  const interleaved: ExerciseItem[] = [];
+  const ni = [...newItems];
+  const ri = [...reviewItems];
+  while (ni.length > 0 || ri.length > 0) {
+    if (ni.length > 0) interleaved.push(ni.shift()!);
+    if (ni.length > 0) interleaved.push(ni.shift()!);
+    if (ri.length > 0) interleaved.push(ri.shift()!);
+  }
+  return interleaved.slice(0, target);
+}
+
+// ============================================================
+// Mode availability check (still needs repo — kept async)
+// ============================================================
+
+import type { ProgressRepo } from "@/lib/storage/repo";
+
+export async function isModeAvailable(
+  slug: string,
+  mode: SessionMode,
+  repo: ProgressRepo
+): Promise<boolean> {
+  if (mode === "new") return true;
+
+  const mod = getModuleBySlug(slug);
+  if (!mod) return false;
+
+  const seenCards = await repo.getSeenCards();
+  const seenSet = new Set(seenCards.map((c) => c.itemId));
+
+  const allIds = [
+    ...mod.tiers[1],
+    ...mod.tiers[2],
+    ...mod.tiers[3],
+  ].map((i) => i.id);
+
+  return allIds.some((id) => seenSet.has(id));
+}

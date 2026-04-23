@@ -2,6 +2,7 @@ import type { ExerciseItem } from "@/lib/content/schema";
 import type { ValidationResult } from "@/lib/validators/types";
 import { failure, success } from "@/lib/validators/types";
 import { matchAny } from "@/lib/validators/exact";
+import { matchAnyFuzzy } from "@/lib/validators/fuzzy";
 import { validateTokenOrder } from "@/lib/validators/token-order";
 
 export function validateExerciseItem(item: ExerciseItem, attempt: unknown): ValidationResult {
@@ -19,7 +20,7 @@ export function validateExerciseItem(item: ExerciseItem, attempt: unknown): Vali
     case "cloze": {
       if (typeof attempt !== "string") return failure(["match:any"], "Type your answer.");
       const extra = item.acceptableAnswers ?? [];
-      return matchAny([item.answer, ...extra], attempt);
+      return matchAnyFuzzy([item.answer, ...extra], attempt);
     }
     case "builder":
       return validateTokenOrder(item.solution, attempt);
@@ -28,7 +29,7 @@ export function validateExerciseItem(item: ExerciseItem, attempt: unknown): Vali
     case "timed": {
       if (typeof attempt !== "string") return failure(["match:any"], "Type your answer.");
       const extra = item.acceptableAnswers ?? [];
-      return matchAny([item.answer, ...extra], attempt);
+      return matchAnyFuzzy([item.answer, ...extra], attempt);
     }
   }
 }

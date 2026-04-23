@@ -2,13 +2,28 @@
 
 import { cn } from "@/lib/utils";
 
-export function ProgressBar({ current, total, className }: { current: number; total: number; className?: string }) {
-  const pct = total <= 0 ? 0 : Math.round(((current + 1) / total) * 100);
+export function ProgressBar({
+  resolved,
+  target,
+  className,
+}: {
+  /** Number of questions fully resolved (correct or exhausted). */
+  resolved: number;
+  /** Total target questions for this session (denominator). */
+  target: number;
+  className?: string;
+}) {
+  const pct = target <= 0 ? 0 : Math.min(100, Math.round((resolved / target) * 100));
+  const remaining = Math.max(0, target - resolved);
   return (
     <div className={cn("w-full", className)}>
       <div className="flex justify-between pb-1.5 text-xs text-muted-foreground">
-        <span>Question {Math.min(current + 1, total)} of {total}</span>
-        <span className="font-medium text-primary">{pct}%</span>
+        <span>{resolved} of {target} complete</span>
+        {remaining > 0 ? (
+          <span className="font-medium text-primary">{remaining} left</span>
+        ) : (
+          <span className="font-medium text-success">Done!</span>
+        )}
       </div>
       <div className="h-1.5 w-full overflow-hidden rounded-full bg-muted">
         <div

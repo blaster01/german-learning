@@ -1,8 +1,7 @@
-import Link from "next/link";
 import type { ContentModule, TierIndex } from "@/lib/content/loader";
 import { ProgressRing } from "@/components/ui/progress-ring";
 import { SegmentedBar } from "@/components/ui/segmented-bar";
-import { Badge } from "@/components/ui/badge";
+import { LessonTileActions } from "@/components/learn/lesson-tile-actions";
 import { cn } from "@/lib/utils";
 
 export type TileMastery = {
@@ -32,35 +31,33 @@ export function LessonTile({
   );
 
   const totalItems = tiers.reduce((s, t) => s + t.max, 0);
-  const firstTierHref = `/systems/${mod.systemId}/${mod.slug}`;
 
   return (
-    <Link
-      href={firstTierHref}
+    <div
       className={cn(
-        "group flex items-center gap-4 rounded-2xl border p-4 transition",
+        "flex flex-col gap-4 rounded-2xl border p-4 transition sm:flex-row sm:items-center",
         isComplete
-          ? "border-primary/30 bg-primary/5 hover:bg-primary/10"
+          ? "border-primary/30 bg-primary/5"
           : isStarted
-            ? "border-border/80 bg-card shadow-card hover:shadow-card-lg"
-            : "border-border/60 bg-card shadow-card hover:shadow-card-lg",
+            ? "border-border/80 bg-card shadow-card"
+            : "border-border/60 bg-card shadow-card",
       )}
     >
       {/* progress ring */}
-      <ProgressRing value={pct} size={52} strokeWidth={4} className="shrink-0" />
+      <ProgressRing value={pct} size={52} strokeWidth={4} className="shrink-0 self-start sm:self-center" />
 
       {/* info */}
       <div className="min-w-0 flex-1 space-y-1.5">
-        <div className="flex items-start justify-between gap-2">
-          <p className="font-semibold leading-tight">{mod.title}</p>
-          <Badge variant={isComplete ? "success" : isStarted ? "default" : "muted"} className="shrink-0">
-            {isComplete ? "Done" : isStarted ? "Active" : "Start"}
-          </Badge>
-        </div>
+        <p className="font-semibold leading-tight">{mod.title}</p>
         <p className="truncate text-sm text-muted-foreground">{mod.description}</p>
         <SegmentedBar segments={tiers} className="mt-2" />
         <p className="text-xs text-muted-foreground">{totalItems} items across 3 tiers</p>
       </div>
-    </Link>
+
+      {/* action buttons */}
+      <div className="shrink-0 self-end sm:self-center">
+        <LessonTileActions slug={mod.slug} />
+      </div>
+    </div>
   );
 }

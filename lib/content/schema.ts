@@ -9,6 +9,7 @@ export const metadataSchema = z.object({
   module: z.string(),
   tier: z.number().int().min(1).max(3),
   tags: z.array(z.string()).default([]),
+  groupId: z.string().optional(),
 });
 
 const feedbackSchema = z

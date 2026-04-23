@@ -30,9 +30,17 @@ export type ReviewSummary = {
   profile: Profile;
 };
 
+export type SeenCard = {
+  itemId: string;
+  due: Date;
+  lastReview: Date | null;
+};
+
 export type ProgressRepo = {
   recordReview(item: ExerciseItem, ok: boolean, errorTags?: string[]): Promise<ReviewSummary>;
   getDueItems(limit: number, now?: Date): Promise<ReviewQueueEntry[]>;
+  /** Return all cards the user has ever answered (used for new/review/mixed bucketing). */
+  getSeenCards(): Promise<SeenCard[]>;
   getTagStats(): Promise<TagMastery[]>;
   getProfile(): Promise<Profile>;
   setDailyGoal(xp: number): Promise<void>;

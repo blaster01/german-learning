@@ -23,7 +23,6 @@ export function SiteHeader() {
         <nav className="hidden items-center gap-1 sm:flex">
           {[
             { href: "/", label: "Learn" },
-            { href: "/review", label: "Review" },
             { href: "/profile", label: "Profile" },
           ].map(({ href, label }) => (
             <Link
@@ -63,13 +62,13 @@ export function SiteHeader() {
 
           {/* Continue CTA */}
           <Link
-            href="/review/run"
+            href="/"
             className={cn(
               buttonVariants({ variant: "primary", size: "sm" }),
               "hidden sm:inline-flex",
             )}
           >
-            Continue
+            Learn
           </Link>
 
           <ThemeToggle />

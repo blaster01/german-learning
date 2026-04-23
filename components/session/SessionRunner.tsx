@@ -18,6 +18,7 @@ export type SessionRunnerProps = {
     item: ExerciseItem;
     ok: boolean;
     errorTags: string[];
+    isFirstAttempt: boolean;
   }) => Promise<{ xpAwarded?: number } | void> | void;
   exitHref?: string;
 };
@@ -43,16 +44,26 @@ export function SessionRunner({ items, sessionKey, onResult, exitHref = "/" }: S
   const submit = useCallback(
     async (attempt: unknown) => {
       const before = store.getState().snapshot;
-      const currentItem = before.items[before.index];
+      const currentItem = before.queue[before.cursor];
+      // Determine if this is the first attempt before submitting
+      const isFirstAttempt = !before.attemptsByItem[currentItem?.id ?? ""];
+
       store.getState().submit(attempt);
+
       const after = store.getState().snapshot;
       if (after.phase === "feedback" && after.lastResult && currentItem) {
-        const result = await onResult?.({
-          item: currentItem,
-          ok: after.lastResult.ok,
-          errorTags: after.lastResult.errorTags,
-        });
-        setLastXp(result && typeof result === "object" ? result.xpAwarded : undefined);
+        // Only call onResult (and award XP) on the first attempt
+        if (isFirstAttempt) {
+          const result = await onResult?.({
+            item: currentItem,
+            ok: after.lastResult.ok,
+            errorTags: after.lastResult.errorTags,
+            isFirstAttempt: true,
+          });
+          setLastXp(result && typeof result === "object" ? result.xpAwarded : undefined);
+        } else {
+          setLastXp(undefined);
+        }
       }
     },
     [onResult, store],
@@ -63,7 +74,7 @@ export function SessionRunner({ items, sessionKey, onResult, exitHref = "/" }: S
     store.getState().continue();
   }, [store]);
 
-  const item = snapshot.items[snapshot.index];
+  const item = snapshot.queue[snapshot.cursor];
   const Engine = item ? getEngineComponent(item) : null;
 
   useEffect(() => {
@@ -125,7 +136,7 @@ export function SessionRunner({ items, sessionKey, onResult, exitHref = "/" }: S
 
   return (
     <div className="space-y-5">
-      <ProgressBar current={snapshot.index} total={snapshot.items.length} />
+      <ProgressBar resolved={snapshot.resolved.length} target={snapshot.targetCount} />
       {/* work card */}
       <div className="rounded-2xl border border-border/60 bg-card p-6 shadow-card">
         {showEngine && item && Engine ? (
@@ -133,11 +144,12 @@ export function SessionRunner({ items, sessionKey, onResult, exitHref = "/" }: S
         ) : null}
       </div>
       {/* spacer for fixed feedback sheet */}
-      {showFeedback ? <div className="h-48" aria-hidden /> : null}
+      {showFeedback ? <div className="h-52" aria-hidden /> : null}
       {showFeedback && snapshot.lastResult ? (
         <FeedbackPanel
           result={snapshot.lastResult}
           correctMessage={item?.feedback?.correct}
+          correctAnswerText={snapshot.lastCorrectAnswer}
           xpAwarded={lastXp}
           onContinue={cont}
         />

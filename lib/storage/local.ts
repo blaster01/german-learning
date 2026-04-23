@@ -2,7 +2,7 @@ import Dexie, { type Table } from "dexie";
 import type { Card } from "ts-fsrs";
 import type { ExerciseItem } from "@/lib/content/schema";
 import { gradeCard, newCard } from "@/lib/srs/fsrs-helpers";
-import type { Profile, ProgressRepo, ReviewQueueEntry, ReviewSummary, TagMastery } from "@/lib/storage/repo";
+import type { Profile, ProgressRepo, ReviewQueueEntry, ReviewSummary, SeenCard, TagMastery } from "@/lib/storage/repo";
 import { daysBetween, todayKey, yesterdayKey } from "@/lib/date/day";
 
 /* ------------------------------------------------------------------ */
@@ -154,6 +154,18 @@ export class LocalProgressRepo implements ProgressRepo {
       .filter((r) => r.due.getTime() <= ts)
       .sort((a, b) => a.due.getTime() - b.due.getTime());
     return due.slice(0, limit).map((r) => ({ itemId: r.itemId, due: r.due }));
+  }
+
+  async getSeenCards(): Promise<SeenCard[]> {
+    const rows = await this.db.itemCards.toArray();
+    return rows.map((r) => {
+      const card = deserializeCard(r.card);
+      return {
+        itemId: r.itemId,
+        due: card.due,
+        lastReview: card.last_review ?? null,
+      };
+    });
   }
 
   async getTagStats(): Promise<TagMastery[]> {
