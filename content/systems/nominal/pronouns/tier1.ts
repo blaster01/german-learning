@@ -4,5835 +4,7158 @@ import type { ExerciseItem } from "@/lib/content/schema";
 
 export const pronounsTier1: ExerciseItem[] = [
   {
-    "id": "nom-pro-t1-001",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Sie redet die ganze Zeit über ____.",
-    "answer": "dich",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:3969480056"
-    }
-  },
-  {
-    "id": "nom-pro-t1-002",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Wirklich, ____ kannst nichts tun.",
-    "answer": "du",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:1753068746"
-    }
-  },
-  {
-    "id": "nom-pro-t1-003",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Vielleicht bleibe ____ noch einen Tag in Boston.",
-    "answer": "ich",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:1346362948"
-    }
-  },
-  {
-    "id": "nom-pro-t1-004",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Kann ____ mit Karte zahlen?",
-    "answer": "ich",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:492613899"
-    }
-  },
-  {
-    "id": "nom-pro-t1-005",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Ja, ____ verstehe dich gut.",
-    "answer": "ich",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:1993206172"
-    }
-  },
-  {
-    "id": "nom-pro-t1-006",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Johns Frau mag es nicht, wenn ____ im Wohnzimmer raucht.",
-    "answer": "er",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:3275686956"
-    }
-  },
-  {
-    "id": "nom-pro-t1-007",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Nein, ____ bin nicht verheiratet.",
-    "answer": "ich",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:3923664651"
-    }
-  },
-  {
-    "id": "nom-pro-t1-008",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Was soll ____ John jetzt sagen?",
-    "answer": "ich",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:3863021645"
-    }
-  },
-  {
-    "id": "nom-pro-t1-009",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Aber wer bist ____ dann?",
-    "answer": "du",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:2333689690"
-    }
-  },
-  {
-    "id": "nom-pro-t1-010",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Verstehen Sie, was ____ meine?",
-    "answer": "ich",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:1011975936"
-    }
-  },
-  {
-    "id": "nom-pro-t1-011",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Als ____ aufwachte, schneite es.",
-    "answer": "ich",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:217171980"
-    }
-  },
-  {
-    "id": "nom-pro-t1-012",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Leider hatte ____ keine Wahl.",
-    "answer": "ich",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:1425753084"
-    }
-  },
-  {
-    "id": "nom-pro-t1-013",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Dieses Buch ist besser als alle, die ____ gelesen habe.",
-    "answer": "ich",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:984442057"
-    }
-  },
-  {
-    "id": "nom-pro-t1-014",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Und wo bist ____ inzwischen gewesen?",
-    "answer": "du",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:3419268380"
-    }
-  },
-  {
-    "id": "nom-pro-t1-015",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Lass ____ zusammen essen gehen.",
-    "answer": "uns",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:2604648259"
-    }
-  },
-  {
-    "id": "nom-pro-t1-016",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Falls etwas passiert, kannst ____ mich gerne anrufen.",
-    "answer": "du",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:1074813189"
-    }
-  },
-  {
-    "id": "nom-pro-t1-017",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "All dies wird eines Tages ____ gehören.",
-    "answer": "dir",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:1972495103"
-    }
-  },
-  {
-    "id": "nom-pro-t1-018",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "John weiß, was ____ tun.",
-    "answer": "wir",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:4072320682"
-    }
-  },
-  {
-    "id": "nom-pro-t1-019",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Kannst ____ mir deine Handy-Nummer geben?",
-    "answer": "du",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:3542757511"
-    }
-  },
-  {
-    "id": "nom-pro-t1-020",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Sprich nie wieder so mit ____!",
-    "answer": "mir",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:56594115"
-    }
-  },
-  {
-    "id": "nom-pro-t1-021",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Vielleicht könnt ihr etwas vorschlagen, was ____ morgen machen können.",
-    "answer": "wir",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:1628638673"
-    }
-  },
-  {
-    "id": "nom-pro-t1-022",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Lasst ____ diesen Weg gehen.",
-    "answer": "uns",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:3419989674"
-    }
-  },
-  {
-    "id": "nom-pro-t1-023",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Dieses Lied gefällt ____ wirklich.",
-    "answer": "mir",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:1163918821"
-    }
-  },
-  {
-    "id": "nom-pro-t1-024",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Was habt ihr heute für ____?",
-    "answer": "mich",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:2259311697"
-    }
-  },
-  {
-    "id": "nom-pro-t1-025",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Die Zeit für eine Reise kann ____ mir nicht leisten.",
-    "answer": "ich",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:1047331376"
-    }
-  },
-  {
-    "id": "nom-pro-t1-026",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Bist ____ dir sicher, dass John keine Freundin hat?",
-    "answer": "du",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:292045816"
-    }
-  },
-  {
-    "id": "nom-pro-t1-027",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Es tut ____ leid, aber dadurch wurde das Leid der Familie noch vergrößert.",
-    "answer": "mir",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:532034444"
-    }
-  },
-  {
-    "id": "nom-pro-t1-028",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Sie wollen ____ nicht teilnehmen lassen.",
-    "answer": "mich",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:2309966059"
-    }
-  },
-  {
-    "id": "nom-pro-t1-029",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Das ist sehr lieb von ____, danke.",
-    "answer": "dir",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:1192809848"
-    }
-  },
-  {
-    "id": "nom-pro-t1-030",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Genau das habe ____ gemeint.",
-    "answer": "ich",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:646834820"
-    }
-  },
-  {
-    "id": "nom-pro-t1-031",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Ihr werdet ____ wohl nicht amüsieren.",
-    "answer": "euch",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:3382669872"
-    }
-  },
-  {
-    "id": "nom-pro-t1-032",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Die Menschen brachten ____ nicht absichtlich her.",
-    "answer": "uns",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:1111577440"
-    }
-  },
-  {
-    "id": "nom-pro-t1-033",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Okay, ____ werde es versuchen.",
-    "answer": "ich",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:1031876157"
-    }
-  },
-  {
-    "id": "nom-pro-t1-034",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Menschen, die Hunde nicht mögen, sind ____ suspekt.",
-    "answer": "mir",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:4208523438"
-    }
-  },
-  {
-    "id": "nom-pro-t1-035",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Zeig ____ ein anderes Beispiel.",
-    "answer": "mir",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:3847829237"
-    }
-  },
-  {
-    "id": "nom-pro-t1-036",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Trotzdem gehen ____ einen Schritt weiter.",
-    "answer": "wir",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:3575949115"
-    }
-  },
-  {
-    "id": "nom-pro-t1-037",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Was würde mit ____ passieren?",
-    "answer": "ihm",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:1349334107"
-    }
-  },
-  {
-    "id": "nom-pro-t1-038",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Aber ____ will da nicht hin.",
-    "answer": "ich",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:2093984325"
-    }
-  },
-  {
-    "id": "nom-pro-t1-039",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Nehmen ____ mal an, sie hat recht.",
-    "answer": "wir",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:2393956127"
-    }
-  },
-  {
-    "id": "nom-pro-t1-040",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Sag ____ die richtige Antwort.",
-    "answer": "mir",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:3312354310"
-    }
-  },
-  {
-    "id": "nom-pro-t1-041",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "John ist nicht so jung wie ____.",
-    "answer": "ich",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:2729529297"
-    }
-  },
-  {
-    "id": "nom-pro-t1-042",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Können Sie uns einen Extrarabatt von % geben, falls ____ von diesem Artikel Stück nehmen?",
-    "answer": "wir",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:1650705135"
-    }
-  },
-  {
-    "id": "nom-pro-t1-043",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "John kann nicht auf ____ warten.",
-    "answer": "dich",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:1192956257"
-    }
-  },
-  {
-    "id": "nom-pro-t1-044",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Sonst gehe ____ zur Konkurrenz.",
-    "answer": "ich",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:3111412543"
-    }
-  },
-  {
-    "id": "nom-pro-t1-045",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Aber erst muss ____ etwas klarstellen.",
-    "answer": "ich",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:1026415664"
-    }
-  },
-  {
-    "id": "nom-pro-t1-046",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Jemand musste ____ zur Vernunft bringen.",
-    "answer": "dich",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:574437817"
-    }
-  },
-  {
-    "id": "nom-pro-t1-047",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Warum fragst ____ nicht deine Mutter?",
-    "answer": "du",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:2356448666"
-    }
-  },
-  {
-    "id": "nom-pro-t1-048",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Was magst ____ lieber, Rockmusik oder klassische Musik?",
-    "answer": "du",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:2131938180"
-    }
-  },
-  {
-    "id": "nom-pro-t1-049",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Es wird ____ nicht zu Kopf steigen.",
-    "answer": "mir",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:777346845"
-    }
-  },
-  {
-    "id": "nom-pro-t1-050",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Sein Cousin, dessen Namen ____ vergessen habe, war ein Krankenpfleger.",
-    "answer": "ich",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:3758609315"
-    }
-  },
-  {
-    "id": "nom-pro-t1-051",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Gedankenverloren hörte ____, wie sein Name gerufen wurde.",
-    "answer": "er",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:3950552487"
-    }
-  },
-  {
-    "id": "nom-pro-t1-052",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Möchtest ____ etwas dazu sagen?",
-    "answer": "du",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:18631481"
-    }
-  },
-  {
-    "id": "nom-pro-t1-053",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Die Meinungen der anderen sind ____ egal.",
-    "answer": "mir",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:2648852218"
-    }
-  },
-  {
-    "id": "nom-pro-t1-054",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Könnten Sie ____ eine Minute lang zuhören?",
-    "answer": "mir",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:1459933528"
-    }
-  },
-  {
-    "id": "nom-pro-t1-055",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Kannst ____ bitte die Tür schließen?",
-    "answer": "du",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:2702560578"
-    }
-  },
-  {
-    "id": "nom-pro-t1-056",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Nur Wasser für ____, danke.",
-    "answer": "mich",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:670309945"
-    }
-  },
-  {
-    "id": "nom-pro-t1-057",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Ohne Pistole kannst ____ niemanden töten.",
-    "answer": "du",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:2109834589"
-    }
-  },
-  {
-    "id": "nom-pro-t1-058",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Darauf müssen ____ uns konzentrieren.",
-    "answer": "wir",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:1032609500"
-    }
-  },
-  {
-    "id": "nom-pro-t1-059",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Seit einem Monat haben ____ ein bisschen Schnee.",
-    "answer": "wir",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:670802420"
-    }
-  },
-  {
-    "id": "nom-pro-t1-060",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Es sind schon fast Jahre vergangen, aber ____ bist unverändert schön.",
-    "answer": "du",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:2795104723"
-    }
-  },
-  {
-    "id": "nom-pro-t1-061",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Mama, ____ muss jetzt gehen.",
-    "answer": "ich",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:1159530237"
-    }
-  },
-  {
-    "id": "nom-pro-t1-062",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Die aufzugeben bin ____ nicht bereit.",
-    "answer": "ich",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:849804667"
-    }
-  },
-  {
-    "id": "nom-pro-t1-063",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Sie sind sehr nett und ____ hätte gerne noch einen weiteren Drink.",
-    "answer": "ich",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:2333222690"
-    }
-  },
-  {
-    "id": "nom-pro-t1-064",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Der einzig Merkwürdige hier bist ____.",
-    "answer": "du",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:3044027382"
-    }
-  },
-  {
-    "id": "nom-pro-t1-065",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Müssen ____ flach auf dem Boden liegen?",
-    "answer": "wir",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:465110064"
-    }
-  },
-  {
-    "id": "nom-pro-t1-066",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Der Nachtisch wird ____ bestimmt schmecken.",
-    "answer": "dir",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:1458142572"
-    }
-  },
-  {
-    "id": "nom-pro-t1-067",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Das Kleid ist zu kurz für ____.",
-    "answer": "mich",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:3159899214"
-    }
-  },
-  {
-    "id": "nom-pro-t1-068",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Doch, darum brauchst ____ mich.",
-    "answer": "du",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:1461240106"
-    }
-  },
-  {
-    "id": "nom-pro-t1-069",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Deshalb muss ____ das tun.",
-    "answer": "ich",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:2163954881"
-    }
-  },
-  {
-    "id": "nom-pro-t1-070",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "John fragte Jane, wohin ____ den Sack mit Hundefutter stellen sollte.",
-    "answer": "er",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:3420389804"
-    }
-  },
-  {
-    "id": "nom-pro-t1-071",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "In diesem Fall denke ____, dass er Recht hat.",
-    "answer": "ich",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:343782956"
-    }
-  },
-  {
-    "id": "nom-pro-t1-072",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Dann werde ____ dich also verlassen.",
-    "answer": "ich",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:3213862073"
-    }
-  },
-  {
-    "id": "nom-pro-t1-073",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Endlich erreichten ____ den Gipfel des Fuji.",
-    "answer": "wir",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:2159953707"
-    }
-  },
-  {
-    "id": "nom-pro-t1-074",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Deshalb lasse ____ dich hier schlafen.",
-    "answer": "ich",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:4184279256"
-    }
-  },
-  {
-    "id": "nom-pro-t1-075",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Reist ____ oft ins Ausland?",
-    "answer": "du",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:866262343"
-    }
-  },
-  {
-    "id": "nom-pro-t1-076",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Auch dafür müssen ____ vernünftige Grenzen setzen.",
-    "answer": "wir",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:927387787"
-    }
-  },
-  {
-    "id": "nom-pro-t1-077",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Weißt ____, was es bedeutet?",
-    "answer": "du",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:1622631598"
-    }
-  },
-  {
-    "id": "nom-pro-t1-078",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Lass ____ mal ein Auge drauf werfen.",
-    "answer": "mich",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:3344912032"
-    }
-  },
-  {
-    "id": "nom-pro-t1-079",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Das sage ____ meinem Papa!",
-    "answer": "ich",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:1494505035"
-    }
-  },
-  {
-    "id": "nom-pro-t1-080",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Glaubst ____, das würde Spaß machen?",
-    "answer": "du",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:4115955766"
-    }
-  },
-  {
-    "id": "nom-pro-t1-081",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Sie baten ____ hierher zu kommen.",
-    "answer": "mich",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:47136538"
-    }
-  },
-  {
-    "id": "nom-pro-t1-082",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Kannst ____ das Geschirr in den Schrank stellen?",
-    "answer": "du",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:2164548432"
-    }
-  },
-  {
-    "id": "nom-pro-t1-083",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Sind deine Eltern damit einverstanden, dass ____ Flugbegleiter wirst?",
-    "answer": "du",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:3461622088"
-    }
-  },
-  {
-    "id": "nom-pro-t1-084",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Das passiert, wenn ____ zu stark ziehst.",
-    "answer": "du",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:3226348164"
-    }
-  },
-  {
-    "id": "nom-pro-t1-085",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Und nennen Sie ____ nicht so.",
-    "answer": "mich",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:1859490660"
-    }
-  },
-  {
-    "id": "nom-pro-t1-086",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Der Gedanke allein macht ____ krank.",
-    "answer": "mich",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:3358590265"
-    }
-  },
-  {
-    "id": "nom-pro-t1-087",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Wenn ____ nicht hier wäre, würde dieses Büro in drei Tagen ins Chaos versinken.",
-    "answer": "ich",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:3395169884"
-    }
-  },
-  {
-    "id": "nom-pro-t1-088",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Sag Bescheid, wenn ____ irgendwie behilflich sein kann!",
-    "answer": "ich",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:3957343399"
-    }
-  },
-  {
-    "id": "nom-pro-t1-089",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Ihr müsst ____ eine Suite buchen.",
-    "answer": "uns",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:3279716279"
-    }
-  },
-  {
-    "id": "nom-pro-t1-090",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Welche Gemüse möchtest ____ kaufen?",
-    "answer": "du",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:1185588166"
-    }
-  },
-  {
-    "id": "nom-pro-t1-091",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Genau daran wollte ____ Sie erinnern.",
-    "answer": "ich",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:2425228188"
-    }
-  },
-  {
-    "id": "nom-pro-t1-092",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Zum Glück bist ____ da, um sie zu retten!",
-    "answer": "du",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:2259842749"
-    }
-  },
-  {
-    "id": "nom-pro-t1-093",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Stell dir vor, dein Vater würde uns zusammen sehen, was würde ____ sagen?",
-    "answer": "er",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:4066715405"
-    }
-  },
-  {
-    "id": "nom-pro-t1-094",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Aber ____ wollte nicht verrückt klingen.",
-    "answer": "ich",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:297245543"
-    }
-  },
-  {
-    "id": "nom-pro-t1-095",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Können ____ uns irgendwo unterhalten?",
-    "answer": "wir",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:2953438933"
-    }
-  },
-  {
-    "id": "nom-pro-t1-096",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Verschwinden ____ hier, ehe es zu spät ist!",
-    "answer": "wir",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:3361679972"
-    }
-  },
-  {
-    "id": "nom-pro-t1-097",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Sie hat ____ erklärt, warum sie zu spät zu seiner Party kam.",
-    "answer": "ihm",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:3140533864"
-    }
-  },
-  {
-    "id": "nom-pro-t1-098",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Schauen ____ mal hinten nach.",
-    "answer": "wir",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:4157907744"
-    }
-  },
-  {
-    "id": "nom-pro-t1-099",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Mist, sie haben ____ entdeckt.",
-    "answer": "mich",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:884557626"
-    }
-  },
-  {
-    "id": "nom-pro-t1-100",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Der Boss muss ____ Medizin geben.",
-    "answer": "dir",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:1664838549"
-    }
-  },
-  {
-    "id": "nom-pro-t1-101",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Es sind alle sehr stolz auf ____.",
-    "answer": "euch",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:2776649294"
-    }
-  },
-  {
-    "id": "nom-pro-t1-102",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Hast du geweint, als ____ fort war?",
-    "answer": "ich",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:3827998593"
-    }
-  },
-  {
-    "id": "nom-pro-t1-103",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Bitte schicken Sie es ____ per Fax.",
-    "answer": "mir",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:3345767756"
-    }
-  },
-  {
-    "id": "nom-pro-t1-104",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Diese Nachricht macht ____ traurig.",
-    "answer": "mich",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:3071511907"
-    }
-  },
-  {
-    "id": "nom-pro-t1-105",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Kannst ____ dir einen blauen Ferrari vorstellen?",
-    "answer": "du",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:2213321774"
-    }
-  },
-  {
-    "id": "nom-pro-t1-106",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Willst ____ mit mir tanzen?",
-    "answer": "du",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:3815446690"
-    }
-  },
-  {
-    "id": "nom-pro-t1-107",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Ihr solltet nicht über John lachen, wenn ____ einen Fehler macht!",
-    "answer": "er",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:3871748710"
-    }
-  },
-  {
-    "id": "nom-pro-t1-108",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Und deswegen unterrichte ____ keine Geografie.",
-    "answer": "ich",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:2833030120"
-    }
-  },
-  {
-    "id": "nom-pro-t1-109",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Das Bild erinnert ____ an meine Studentenzeit.",
-    "answer": "mich",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:3502501885"
-    }
-  },
-  {
-    "id": "nom-pro-t1-110",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Meist erreiche ____ meine Großmutter nur per Handy.",
-    "answer": "ich",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:760088416"
-    }
-  },
-  {
-    "id": "nom-pro-t1-111",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Super, ____ denke, das ist wirklich gut für die Familie.",
-    "answer": "ich",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:2367460241"
-    }
-  },
-  {
-    "id": "nom-pro-t1-112",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Wecke ____ um sieben auf.",
-    "answer": "uns",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:3923651060"
-    }
-  },
-  {
-    "id": "nom-pro-t1-113",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "John sagt, ____ habe im Augenblick nicht sehr viel Geld bei sich.",
-    "answer": "er",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:918859100"
-    }
-  },
-  {
-    "id": "nom-pro-t1-114",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Und ____ wirst großartig darin sein.",
-    "answer": "du",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:3534530527"
-    }
-  },
-  {
-    "id": "nom-pro-t1-115",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Kannst ____ John nicht einfach bitten, uns zu helfen?",
-    "answer": "du",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:322354208"
-    }
-  },
-  {
-    "id": "nom-pro-t1-116",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Ja, aber ____ hatte keine Ahnung, wozu.",
-    "answer": "ich",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:3523131398"
-    }
-  },
-  {
-    "id": "nom-pro-t1-117",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Keine Bewegung oder ____ werden schießen.",
-    "answer": "wir",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:3579414394"
-    }
-  },
-  {
-    "id": "nom-pro-t1-118",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Am Anfang hatten ____ nur sechs Mitarbeiter.",
-    "answer": "wir",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:2568241501"
-    }
-  },
-  {
-    "id": "nom-pro-t1-119",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Jane wird ____ nicht fangen.",
-    "answer": "uns",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:2933031146"
-    }
-  },
-  {
-    "id": "nom-pro-t1-120",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Das Haus ist zu groß für ____ und außerdem ist es zu teuer.",
-    "answer": "uns",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:3748780345"
-    }
-  },
-  {
-    "id": "nom-pro-t1-121",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Hatten Sie wirklich Sex mit ____?",
-    "answer": "ihm",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:1513537088"
-    }
-  },
-  {
-    "id": "nom-pro-t1-122",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Dieses Rennen muss ____ wirklich gewinnen.",
-    "answer": "er",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:4208930415"
-    }
-  },
-  {
-    "id": "nom-pro-t1-123",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Wie lange willst ____ es behalten?",
-    "answer": "du",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:3523542647"
-    }
-  },
-  {
-    "id": "nom-pro-t1-124",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Lassen Sie ____ hier anfangen!",
-    "answer": "uns",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:1102813461"
-    }
-  },
-  {
-    "id": "nom-pro-t1-125",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Am Schluss waren ____ gute Freunde.",
-    "answer": "wir",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:2536269345"
-    }
-  },
-  {
-    "id": "nom-pro-t1-126",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Vielleicht können ____ sie doch schlagen.",
-    "answer": "wir",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:4136342346"
-    }
-  },
-  {
-    "id": "nom-pro-t1-127",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Wo hast ____ das erfahren?",
-    "answer": "du",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:3810966046"
-    }
-  },
-  {
-    "id": "nom-pro-t1-128",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Dafür willst ____ bestimmt wach sein.",
-    "answer": "du",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:2829650531"
-    }
-  },
-  {
-    "id": "nom-pro-t1-129",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Zum Beispiel, magst ____ Deutsch?",
-    "answer": "du",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:1125361480"
-    }
-  },
-  {
-    "id": "nom-pro-t1-130",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Jedenfalls ist ____ jetzt eventuell in Paris.",
-    "answer": "er",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:1304149749"
-    }
-  },
-  {
-    "id": "nom-pro-t1-131",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Es zielt direkt auf ____.",
-    "answer": "uns",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:2794826048"
-    }
-  },
-  {
-    "id": "nom-pro-t1-132",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Nur weil ein Mann reich ist, heißt das noch nicht, dass ____ auch glücklich ist.",
-    "answer": "er",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:2720490317"
-    }
-  },
-  {
-    "id": "nom-pro-t1-133",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Wende ____ nicht den Rücken zu.",
-    "answer": "mir",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:1042649761"
-    }
-  },
-  {
-    "id": "nom-pro-t1-134",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Warst ____ jemals im Ausland?",
-    "answer": "du",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:1579916780"
-    }
-  },
-  {
-    "id": "nom-pro-t1-135",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Es ist absolut notwendig, dass ____ es finden.",
-    "answer": "wir",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:700694147"
-    }
-  },
-  {
-    "id": "nom-pro-t1-136",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Möge die Kraft mit ____ sein!",
-    "answer": "dir",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:4193711165"
-    }
-  },
-  {
-    "id": "nom-pro-t1-137",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "In dieser Bar musst ____ bar zahlen.",
-    "answer": "du",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:3485818141"
-    }
-  },
-  {
-    "id": "nom-pro-t1-138",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Wo arbeitete John, ehe ____ hierherkam?",
-    "answer": "er",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:2129344869"
-    }
-  },
-  {
-    "id": "nom-pro-t1-139",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Wofür brauchst ____ das Geld?",
-    "answer": "du",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:2544026923"
-    }
-  },
-  {
-    "id": "nom-pro-t1-140",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Mein Hund schlief neben ____.",
-    "answer": "mir",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:1283082277"
-    }
-  },
-  {
-    "id": "nom-pro-t1-141",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Wofür wirst ____ es benutzen?",
-    "answer": "du",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:1582287779"
-    }
-  },
-  {
-    "id": "nom-pro-t1-142",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Kannst du mir sagen, wo auf dieser Karte ____ mich befinde?",
-    "answer": "ich",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:1733325211"
-    }
-  },
-  {
-    "id": "nom-pro-t1-143",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Das Essen stillte seinen Hunger. Jetzt hat ____ keinen Hunger mehr.",
-    "answer": "er",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:4091279259"
-    }
-  },
-  {
-    "id": "nom-pro-t1-144",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Diesmal hast ____ dich selbst übertroffen.",
-    "answer": "du",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:4231496833"
-    }
-  },
-  {
-    "id": "nom-pro-t1-145",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Hoffentlich verirrst ____ dich nicht.",
-    "answer": "du",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:3599694057"
-    }
-  },
-  {
-    "id": "nom-pro-t1-146",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Erstens fehlen ____ die finanziellen Mittel.",
-    "answer": "uns",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:1482429021"
-    }
-  },
-  {
-    "id": "nom-pro-t1-147",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Vielleicht wird es ____ zu heiß.",
-    "answer": "ihm",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:2414307296"
-    }
-  },
-  {
-    "id": "nom-pro-t1-148",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Heute spreche ____ über die Bedeutung des Sports in der modernen Gesellschaft.",
-    "answer": "ich",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:3905821224"
-    }
-  },
-  {
-    "id": "nom-pro-t1-149",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Diesen Punkt habe ____ bereits beantwortet.",
-    "answer": "ich",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:2578358946"
-    }
-  },
-  {
-    "id": "nom-pro-t1-150",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Bist ____ jetzt zufrieden? Jawohl.",
-    "answer": "du",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:1857316871"
-    }
-  },
-  {
-    "id": "nom-pro-t1-151",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Hier können ____ ein Taxi nehmen.",
-    "answer": "wir",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:1908504696"
-    }
-  },
-  {
-    "id": "nom-pro-t1-152",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Gerade habe ____ mir das Foto angesehen.",
-    "answer": "ich",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:4027072561"
-    }
-  },
-  {
-    "id": "nom-pro-t1-153",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Ruf ____ irgendwann mal an.",
-    "answer": "mich",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:3302972907"
-    }
-  },
-  {
-    "id": "nom-pro-t1-154",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Bei sowas würde ____ nie lügen.",
-    "answer": "ich",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:3241660132"
-    }
-  },
-  {
-    "id": "nom-pro-t1-155",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Das ist ____ ein großes Vergnügen.",
-    "answer": "mir",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:1199467400"
-    }
-  },
-  {
-    "id": "nom-pro-t1-156",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Mein Zuhause ist nicht bei ____.",
-    "answer": "dir",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:2119754330"
-    }
-  },
-  {
-    "id": "nom-pro-t1-157",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Warum bittest ____ John nicht herein?",
-    "answer": "du",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:4247689908"
-    }
-  },
-  {
-    "id": "nom-pro-t1-158",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "John muss jede Nacht mindestens neun Stunden schlafen, sonst funktioniert ____ nicht.",
-    "answer": "er",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:177273475"
-    }
-  },
-  {
-    "id": "nom-pro-t1-159",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Zweifellos haben ____ einander viel zu lehren.",
-    "answer": "wir",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:1235027058"
-    }
-  },
-  {
-    "id": "nom-pro-t1-160",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Sag ____, wem diese Bücher gehören.",
-    "answer": "mir",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:4182834910"
-    }
-  },
-  {
-    "id": "nom-pro-t1-161",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Hier drin können ____ uns verstecken.",
-    "answer": "wir",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:1620525114"
-    }
-  },
-  {
-    "id": "nom-pro-t1-162",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Dann haben ____ den gleichen Feind.",
-    "answer": "wir",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:2861924446"
-    }
-  },
-  {
-    "id": "nom-pro-t1-163",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Aber ____ ist so nett und süß.",
-    "answer": "er",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:3265796538"
-    }
-  },
-  {
-    "id": "nom-pro-t1-164",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Übrigens, ____ muss dir etwas sagen.",
-    "answer": "ich",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:2666014390"
-    }
-  },
-  {
-    "id": "nom-pro-t1-165",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Dieser Brief ist persönlich, ____ will nicht, dass jemand anders ihn liest.",
-    "answer": "ich",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:2649095410"
-    }
-  },
-  {
-    "id": "nom-pro-t1-166",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Jetzt will ____ lieber einen Drink.",
-    "answer": "ich",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:4098932560"
-    }
-  },
-  {
-    "id": "nom-pro-t1-167",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Ihr Geheimnis ist bei ____ sicher.",
-    "answer": "uns",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:194305301"
-    }
-  },
-  {
-    "id": "nom-pro-t1-168",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Das ist genau, worauf ____ wartet.",
-    "answer": "er",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:999200213"
-    }
-  },
-  {
-    "id": "nom-pro-t1-169",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Sie erkennen ____ und Jane natürlich nicht.",
-    "answer": "mich",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:3163704913"
-    }
-  },
-  {
-    "id": "nom-pro-t1-170",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Aber ____ muss meine Mutter mitnehmen.",
-    "answer": "ich",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:3871497265"
-    }
-  },
-  {
-    "id": "nom-pro-t1-171",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "John macht sowas, wenn ____ traurig ist.",
-    "answer": "er",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:1482960223"
-    }
-  },
-  {
-    "id": "nom-pro-t1-172",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Was ____ als Nächstes tat, war für mich schon eine Überraschung.",
-    "answer": "er",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:761082997"
-    }
-  },
-  {
-    "id": "nom-pro-t1-173",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Schließlich erreichten ____ den Gipfel des Bergs.",
-    "answer": "wir",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:1793841322"
-    }
-  },
-  {
-    "id": "nom-pro-t1-174",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Soweit ____ weiß, ist er ehrlich.",
-    "answer": "ich",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:280582086"
-    }
-  },
-  {
-    "id": "nom-pro-t1-175",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Mit Glück überleben ____ die Nacht.",
-    "answer": "wir",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:831430909"
-    }
-  },
-  {
-    "id": "nom-pro-t1-176",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Jeder muss einen Bericht darüber schreiben, was ____ gesehen hat.",
-    "answer": "er",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:2322277604"
-    }
-  },
-  {
-    "id": "nom-pro-t1-177",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Johns Vergangenheit hat ____ eingeholt.",
-    "answer": "ihn",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:2928440319"
-    }
-  },
-  {
-    "id": "nom-pro-t1-178",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Das Radio geht ____ auf die Nerven.",
-    "answer": "mir",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:3461055270"
-    }
-  },
-  {
-    "id": "nom-pro-t1-179",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Die Polizei könnte ____ dafür verhaften.",
-    "answer": "dich",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:1198470237"
-    }
-  },
-  {
-    "id": "nom-pro-t1-180",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Jemand hat versucht, ____ zu ermorden.",
-    "answer": "dich",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:2618615446"
-    }
-  },
-  {
-    "id": "nom-pro-t1-181",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Er verbirgt irgendetwas und ____ hilfst ihm.",
-    "answer": "du",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:3219005538"
-    }
-  },
-  {
-    "id": "nom-pro-t1-182",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Danke, ____ fahre jetzt rauf.",
-    "answer": "ich",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:3355149625"
-    }
-  },
-  {
-    "id": "nom-pro-t1-183",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Wie häufig fütterst ____ die Fische?",
-    "answer": "du",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:1508234733"
-    }
-  },
-  {
-    "id": "nom-pro-t1-184",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Hier kannst ____ nicht parken.",
-    "answer": "du",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:3970441942"
-    }
-  },
-  {
-    "id": "nom-pro-t1-185",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Das ist das erste Mal, dass ____ ihn lächeln sehe.",
-    "answer": "ich",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:642053279"
-    }
-  },
-  {
-    "id": "nom-pro-t1-186",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Sie kann ____ nicht aufhalten.",
-    "answer": "uns",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:2084551490"
-    }
-  },
-  {
-    "id": "nom-pro-t1-187",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Lange davor war ____ dein Freund.",
-    "answer": "ich",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:1788304934"
-    }
-  },
-  {
-    "id": "nom-pro-t1-188",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Jetzt kann ____ kaum noch auf einen Baum klettern.",
-    "answer": "ich",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:1644442129"
-    }
-  },
-  {
-    "id": "nom-pro-t1-189",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Ist es ____ nicht in den Sinn gekommen, die Fenster zu schließen?",
-    "answer": "euch",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:709037680"
-    }
-  },
-  {
-    "id": "nom-pro-t1-190",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Sie, ____ und Macintosh wären ein prima Team.",
-    "answer": "ich",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:1301718123"
-    }
-  },
-  {
-    "id": "nom-pro-t1-191",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Das kommt, weil ____ lächerlich aussiehst.",
-    "answer": "du",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:1042775406"
-    }
-  },
-  {
-    "id": "nom-pro-t1-192",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Davor wollte ____ dich beschützen.",
-    "answer": "ich",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:1483750818"
-    }
-  },
-  {
-    "id": "nom-pro-t1-193",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Das können Sie ____ nicht befehlen.",
-    "answer": "mir",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:313539645"
-    }
-  },
-  {
-    "id": "nom-pro-t1-194",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Sollen ____ eine Pause machen?",
-    "answer": "wir",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:164160548"
-    }
-  },
-  {
-    "id": "nom-pro-t1-195",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Sie ist sogar einverstanden, dass ____ es schreibst.",
-    "answer": "du",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:1744665063"
-    }
-  },
-  {
-    "id": "nom-pro-t1-196",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Kann ____ einen Rock zu einem Rockkonzert tragen?",
-    "answer": "ich",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:1793571330"
-    }
-  },
-  {
-    "id": "nom-pro-t1-197",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Es ist nicht zu fassen, dass ____ drei Töchter hast.",
-    "answer": "du",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:714769058"
-    }
-  },
-  {
-    "id": "nom-pro-t1-198",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Und ____ müssen bald dorthin zurück.",
-    "answer": "wir",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:540488014"
-    }
-  },
-  {
-    "id": "nom-pro-t1-199",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Seine törichten Freunde wollen ____ morgen früh angreifen.",
-    "answer": "uns",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:1423279121"
-    }
-  },
-  {
-    "id": "nom-pro-t1-200",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Warum kapierst ____ das nicht?",
-    "answer": "du",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:2531342062"
-    }
-  },
-  {
-    "id": "nom-pro-t1-201",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Gewöhnlich frühstücke ____ um acht.",
-    "answer": "ich",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:2353586230"
-    }
-  },
-  {
-    "id": "nom-pro-t1-202",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "In ein paar Minuten servieren ____ Frühstück.",
-    "answer": "wir",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:2937968008"
-    }
-  },
-  {
-    "id": "nom-pro-t1-203",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Das wollte ____ um nichts in der Welt verpassen!",
-    "answer": "ich",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:2767779883"
-    }
-  },
-  {
-    "id": "nom-pro-t1-204",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Hast ____ irgendwelche weiteren Fragen?",
-    "answer": "du",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:97872800"
-    }
-  },
-  {
-    "id": "nom-pro-t1-205",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Warum willst ____ nicht mitkommen?",
-    "answer": "du",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:1694957965"
-    }
-  },
-  {
-    "id": "nom-pro-t1-206",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Stell ____ in die Reihe.",
-    "answer": "dich",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:3973641519"
-    }
-  },
-  {
-    "id": "nom-pro-t1-207",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Haltet ____ natürlich vom Fluss fern.",
-    "answer": "euch",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:4170169707"
-    }
-  },
-  {
-    "id": "nom-pro-t1-208",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Sie halfen ____, die Operation durchzuführen.",
-    "answer": "ihm",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:133730905"
-    }
-  },
-  {
-    "id": "nom-pro-t1-209",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "John glaubte an mich und ____ bin ihm dafür dankbar.",
-    "answer": "ich",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:2738792336"
-    }
-  },
-  {
-    "id": "nom-pro-t1-210",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Diese Verantwortung ist eine Last für ____.",
-    "answer": "ihn",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:3517368365"
-    }
-  },
-  {
-    "id": "nom-pro-t1-211",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Außerdem hast ____ einen neuen Gast.",
-    "answer": "du",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:873767421"
-    }
-  },
-  {
-    "id": "nom-pro-t1-212",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Sie hämmerten in meinem Kopf und machten ____ wahnsinnig.",
-    "answer": "mich",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:2899764234"
-    }
-  },
-  {
-    "id": "nom-pro-t1-213",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "So beenden ____ nicht den Unterricht.",
-    "answer": "wir",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:3153743279"
-    }
-  },
-  {
-    "id": "nom-pro-t1-214",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Aha, ____ weißt doch was.",
-    "answer": "du",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:3273657687"
-    }
-  },
-  {
-    "id": "nom-pro-t1-215",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Die Kuh gibt ____ Milch.",
-    "answer": "uns",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:3418006778"
-    }
-  },
-  {
-    "id": "nom-pro-t1-216",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Gib ____ wenigstens noch einen Kuss.",
-    "answer": "mir",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:2945539205"
-    }
-  },
-  {
-    "id": "nom-pro-t1-217",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Schande, denn ____ mochte diesen Pulli irgendwie.",
-    "answer": "ich",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:3054557298"
-    }
-  },
-  {
-    "id": "nom-pro-t1-218",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Und dafür schulden ____ ihm Dank.",
-    "answer": "wir",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:2484711163"
-    }
-  },
-  {
-    "id": "nom-pro-t1-219",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Er ist zweimal so alt wie ____.",
-    "answer": "ich",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:1784861923"
-    }
-  },
-  {
-    "id": "nom-pro-t1-220",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Hol ____ die Stiefel, Mädel.",
-    "answer": "mir",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:3227497390"
-    }
-  },
-  {
-    "id": "nom-pro-t1-221",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Wenn du Interesse hast, sag Bescheid; dann gebe ____ dir seine Nummer.",
-    "answer": "ich",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:1242557310"
-    }
-  },
-  {
-    "id": "nom-pro-t1-222",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Soviel ____ weiß, ist er nicht verheiratet.",
-    "answer": "ich",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:3551166101"
-    }
-  },
-  {
-    "id": "nom-pro-t1-223",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Egal welche Zeitung ____ liest, die Story wird immer die gleiche sein.",
-    "answer": "du",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:1751222145"
-    }
-  },
-  {
-    "id": "nom-pro-t1-224",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Keine Sorge, ____ schlafe woanders.",
-    "answer": "ich",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:2519063488"
-    }
-  },
-  {
-    "id": "nom-pro-t1-225",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Bravo, ____ bist die Schönste.",
-    "answer": "du",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:3309219148"
-    }
-  },
-  {
-    "id": "nom-pro-t1-226",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Danke, ____ bin schon satt.",
-    "answer": "ich",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:196637882"
-    }
-  },
-  {
-    "id": "nom-pro-t1-227",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Wenn ____ anhalten, steig aus.",
-    "answer": "wir",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:2518571979"
-    }
-  },
-  {
-    "id": "nom-pro-t1-228",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Mit ihr verbringen Sie mehr Zeit als mit ____.",
-    "answer": "mir",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:642498497"
-    }
-  },
-  {
-    "id": "nom-pro-t1-229",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Vorhin hat hier eine Frau nach ____ gesucht.",
-    "answer": "dir",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:796865487"
-    }
-  },
-  {
-    "id": "nom-pro-t1-230",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Vielleicht durfte ____ den Staat nicht verlassen.",
-    "answer": "er",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:3746083710"
-    }
-  },
-  {
-    "id": "nom-pro-t1-231",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Ob ____ eine Zugabe spielen oder nicht, hängt vom Publikum ab.",
-    "answer": "wir",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:2550533872"
-    }
-  },
-  {
-    "id": "nom-pro-t1-232",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Womit kann ____ dir helfen?",
-    "answer": "ich",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:1190902469"
-    }
-  },
-  {
-    "id": "nom-pro-t1-233",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Zugleich müssen ____ jedoch vernünftig bleiben.",
-    "answer": "wir",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:299968655"
-    }
-  },
-  {
-    "id": "nom-pro-t1-234",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Ihr kennt diesen Song nicht, also versucht ____ nicht mitzusingen.",
-    "answer": "ihn",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:3177520758"
-    }
-  },
-  {
-    "id": "nom-pro-t1-235",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Und dann werden ____ ihn begraben.",
-    "answer": "wir",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:3792142091"
-    }
-  },
-  {
-    "id": "nom-pro-t1-236",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Seitdem habe ____ nie wieder von ihm gehört.",
-    "answer": "ich",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:1770071111"
-    }
-  },
-  {
-    "id": "nom-pro-t1-237",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Deswegen kann ____ diese Auszeichnung nicht annehmen.",
-    "answer": "ich",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:2932428423"
-    }
-  },
-  {
-    "id": "nom-pro-t1-238",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Haben Sie bei ____ einen Termin?",
-    "answer": "ihm",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:3834994819"
-    }
-  },
-  {
-    "id": "nom-pro-t1-239",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Lege ____ auf den Bauch.",
-    "answer": "dich",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:858952642"
-    }
-  },
-  {
-    "id": "nom-pro-t1-240",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Dann musst ____ mich decken.",
-    "answer": "du",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:2655296898"
-    }
-  },
-  {
-    "id": "nom-pro-t1-241",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Jetzt musst ____ pressen, Jane.",
-    "answer": "du",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:1717882743"
-    }
-  },
-  {
-    "id": "nom-pro-t1-242",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Kannst ____ das hier unterschreiben?",
-    "answer": "du",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:2677011597"
-    }
-  },
-  {
-    "id": "nom-pro-t1-243",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Wenn er mir die Wahrheit gesagt hätte, hätte ____ ihm vergeben.",
-    "answer": "ich",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:2490483859"
-    }
-  },
-  {
-    "id": "nom-pro-t1-244",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Eine so kurze Erklärung wäre ____ nicht eingefallen.",
-    "answer": "mir",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:1568482923"
-    }
-  },
-  {
-    "id": "nom-pro-t1-245",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Am Montag arbeite ____ nicht.",
-    "answer": "ich",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:53955539"
-    }
-  },
-  {
-    "id": "nom-pro-t1-246",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Sie möchte mit ____ allen etwas besprechen.",
-    "answer": "uns",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:3333628524"
-    }
-  },
-  {
-    "id": "nom-pro-t1-247",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Moment, ____ empfange ein Signal.",
-    "answer": "ich",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:2454857278"
-    }
-  },
-  {
-    "id": "nom-pro-t1-248",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Kennst ____ den Grund, warum der Himmel blau aussieht?",
-    "answer": "du",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:3670787446"
-    }
-  },
-  {
-    "id": "nom-pro-t1-249",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Vielleicht sollten ____ dir nicht trauen.",
-    "answer": "wir",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:1577462079"
-    }
-  },
-  {
-    "id": "nom-pro-t1-250",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Diese Sitte ist ____ fremd.",
-    "answer": "uns",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:1289005072"
-    }
-  },
-  {
-    "id": "nom-pro-t1-251",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Vielleicht will ____ dann hierher zurückkommen.",
-    "answer": "er",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:3352736181"
-    }
-  },
-  {
-    "id": "nom-pro-t1-252",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Die Bedingung behagt ____ ganz und gar nicht.",
-    "answer": "mir",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:935203578"
-    }
-  },
-  {
-    "id": "nom-pro-t1-253",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Sie können sich jederzeit an ____ wenden.",
-    "answer": "mich",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:2172498154"
-    }
-  },
-  {
-    "id": "nom-pro-t1-254",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Sie wollte ____ auseinander bringen.",
-    "answer": "uns",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:3515704571"
-    }
-  },
-  {
-    "id": "nom-pro-t1-255",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Die sind alle zusammen nicht so schlau wie ____.",
-    "answer": "du",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:127552883"
-    }
-  },
-  {
-    "id": "nom-pro-t1-256",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Also, willst ____ vielleicht reinkommen?",
-    "answer": "du",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:27063653"
-    }
-  },
-  {
-    "id": "nom-pro-t1-257",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Niemand kann ____ hier kontrollieren.",
-    "answer": "uns",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:1097049713"
-    }
-  },
-  {
-    "id": "nom-pro-t1-258",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Lasst ____ weitermachen, wenn John einverstanden ist.",
-    "answer": "uns",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:1436895573"
-    }
-  },
-  {
-    "id": "nom-pro-t1-259",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Lieber Mr. Warne, ____ bin erfreut.",
-    "answer": "ich",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:2490889080"
-    }
-  },
-  {
-    "id": "nom-pro-t1-260",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Aber diese Sachen musst ____ nicht erwähnen.",
-    "answer": "du",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:3137184259"
-    }
-  },
-  {
-    "id": "nom-pro-t1-261",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Dinge, die ____ aufregen sollten, prallen einfach von mir ab.",
-    "answer": "mich",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:155107647"
-    }
-  },
-  {
-    "id": "nom-pro-t1-262",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "So etwas wollen ____ nicht erleben.",
-    "answer": "wir",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:3609839151"
-    }
-  },
-  {
-    "id": "nom-pro-t1-263",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Wie oft wäschst ____ deine Kleidung?",
-    "answer": "du",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:2101700069"
-    }
-  },
-  {
-    "id": "nom-pro-t1-264",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Fehler zu machen, macht ____ menschlich.",
-    "answer": "uns",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:1699105003"
-    }
-  },
-  {
-    "id": "nom-pro-t1-265",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "John und ____ kamen gleichzeitig dort an.",
-    "answer": "ich",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:1271223751"
-    }
-  },
-  {
-    "id": "nom-pro-t1-266",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Beeilung, bevor ____ sie verlieren.",
-    "answer": "wir",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:3713409775"
-    }
-  },
-  {
-    "id": "nom-pro-t1-267",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Wann werden ____ mit diesem Flug in Berlin ankommen?",
-    "answer": "wir",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:540665001"
-    }
-  },
-  {
-    "id": "nom-pro-t1-268",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Kein einziger Fahrgast wollte ____ zuhören.",
-    "answer": "mir",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:3957724388"
-    }
-  },
-  {
-    "id": "nom-pro-t1-269",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Die sind zu fein für ____.",
-    "answer": "mich",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:958489307"
-    }
-  },
-  {
-    "id": "nom-pro-t1-270",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Sei heute nicht gemein zu ____.",
-    "answer": "mir",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:639011309"
-    }
-  },
-  {
-    "id": "nom-pro-t1-271",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Die Tochter schnappen ____ auch bald.",
-    "answer": "wir",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:187146336"
-    }
-  },
-  {
-    "id": "nom-pro-t1-272",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Anfangs fand John Französisch schwer, doch jetzt hält ____ es für leicht.",
-    "answer": "er",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:1562975805"
-    }
-  },
-  {
-    "id": "nom-pro-t1-273",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Kann ____ Ihre Bestellung aufnehmen?",
-    "answer": "ich",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:2300960478"
-    }
-  },
-  {
-    "id": "nom-pro-t1-274",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Nun will ____ meinen Lebenstraum erfüllen.",
-    "answer": "ich",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:613495872"
-    }
-  },
-  {
-    "id": "nom-pro-t1-275",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Da kann ____ mich besser verteidigen.",
-    "answer": "ich",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:4061566525"
-    }
-  },
-  {
-    "id": "nom-pro-t1-276",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Den Fehler werde ____ gewiss nie wiederholen.",
-    "answer": "ich",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:3114713597"
-    }
-  },
-  {
-    "id": "nom-pro-t1-277",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Diesen neuen Titel empfehlen ____ vorbehaltlos.",
-    "answer": "wir",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:1559855263"
-    }
-  },
-  {
-    "id": "nom-pro-t1-278",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Hast ____ inzwischen einen Partner gefunden?",
-    "answer": "du",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:3357777782"
-    }
-  },
-  {
-    "id": "nom-pro-t1-279",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Könnt ihr es ____ bestellen?",
-    "answer": "mir",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:1271913026"
-    }
-  },
-  {
-    "id": "nom-pro-t1-280",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "John sagte, dass ____ ohne ihn starten können.",
-    "answer": "wir",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:200268507"
-    }
-  },
-  {
-    "id": "nom-pro-t1-281",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Sie können ____ entweder beschützen oder vernichten.",
-    "answer": "euch",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:4151760371"
-    }
-  },
-  {
-    "id": "nom-pro-t1-282",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Überlassen Sie das Fahren ____.",
-    "answer": "mir",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:2620711017"
-    }
-  },
-  {
-    "id": "nom-pro-t1-283",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Sie untersuchen ____ von Kopf bis Fuß.",
-    "answer": "ihn",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:976221152"
-    }
-  },
-  {
-    "id": "nom-pro-t1-284",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Normalerweise gehe ____ am Freitag auf den Markt.",
-    "answer": "ich",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:3398638617"
-    }
-  },
-  {
-    "id": "nom-pro-t1-285",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Sie erinnern ____ an einen entfernten Cousin.",
-    "answer": "mich",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:2855570100"
-    }
-  },
-  {
-    "id": "nom-pro-t1-286",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Sie halten ____ alle für einen Narren.",
-    "answer": "mich",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:118956532"
-    }
-  },
-  {
-    "id": "nom-pro-t1-287",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "John wäscht sich stets die Hände, bevor ____ etwas isst.",
-    "answer": "er",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:422313978"
-    }
-  },
-  {
-    "id": "nom-pro-t1-288",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Die Ratte hat ____ heute sitzen lassen.",
-    "answer": "mich",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:2585508931"
-    }
-  },
-  {
-    "id": "nom-pro-t1-289",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Kann ____ euch irgendwie überzeugen?",
-    "answer": "ich",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:3225664642"
-    }
-  },
-  {
-    "id": "nom-pro-t1-290",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Weißt ____, wann John zurückkehren wird?",
-    "answer": "du",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:3031587432"
-    }
-  },
-  {
-    "id": "nom-pro-t1-291",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Dazu möchte ____ Jane gratulieren.",
-    "answer": "ich",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:3199241290"
-    }
-  },
-  {
-    "id": "nom-pro-t1-292",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "John ist nicht mehr der Mann, der ____ einst war.",
-    "answer": "er",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:1101629230"
-    }
-  },
-  {
-    "id": "nom-pro-t1-293",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Wisst ihr, wo ____ uns befinden?",
-    "answer": "wir",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:27181478"
-    }
-  },
-  {
-    "id": "nom-pro-t1-294",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Die Theorie ist ____ zu abstrakt.",
-    "answer": "mir",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:595947968"
-    }
-  },
-  {
-    "id": "nom-pro-t1-295",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Kommt darauf an, worauf ____ suchst.",
-    "answer": "du",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:452267818"
-    }
-  },
-  {
-    "id": "nom-pro-t1-296",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Der Gedanke macht ____ krank.",
-    "answer": "mich",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:3148835434"
-    }
-  },
-  {
-    "id": "nom-pro-t1-297",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Jetzt lass ____ zur Schule eilen.",
-    "answer": "uns",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:3663440981"
-    }
-  },
-  {
-    "id": "nom-pro-t1-298",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Aus meiner Sicht hast ____ Unrecht.",
-    "answer": "du",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:3866032569"
-    }
-  },
-  {
-    "id": "nom-pro-t1-299",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Es muss sehr aufregend sein, was ____ tust.",
-    "answer": "du",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:3018133391"
-    }
-  },
-  {
-    "id": "nom-pro-t1-300",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Darauf müssen ____ unsere Aufmerksamkeit richten.",
-    "answer": "wir",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:2703237694"
-    }
-  },
-  {
-    "id": "nom-pro-t1-301",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Nachdem ____ jeden Text gehört hast, schreibe einen kurzen Bericht.",
-    "answer": "du",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:3487731645"
-    }
-  },
-  {
-    "id": "nom-pro-t1-302",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Der Unfall ist ____ noch lebhaft im Gedächtnis.",
-    "answer": "ihm",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:2437814533"
-    }
-  },
-  {
-    "id": "nom-pro-t1-303",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Soll ____ mein Hemd ausziehen?",
-    "answer": "ich",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:3012560601"
-    }
-  },
-  {
-    "id": "nom-pro-t1-304",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "John, ____ kannst dich umdrehen.",
-    "answer": "du",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:3502046906"
-    }
-  },
-  {
-    "id": "nom-pro-t1-305",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Fragen oder Anregungen zu unserem Produkt beantworten ____ gerne.",
-    "answer": "wir",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:4085557407"
-    }
-  },
-  {
-    "id": "nom-pro-t1-306",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Okay, ____ hattest einen schlechten Start.",
-    "answer": "du",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:3285682017"
-    }
-  },
-  {
-    "id": "nom-pro-t1-307",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Sie möchten ____ nicht loswerden.",
-    "answer": "mich",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:665562855"
-    }
-  },
-  {
-    "id": "nom-pro-t1-308",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "An kalten Tagen können Sie bei ____ ein elektrisches Heizgerät mieten.",
-    "answer": "uns",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:1844949419"
-    }
-  },
-  {
-    "id": "nom-pro-t1-309",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Eigentlich wollte ____ dich heute beeindrucken.",
-    "answer": "ich",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:231783380"
-    }
-  },
-  {
-    "id": "nom-pro-t1-310",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Zu jener Zeit war ____ immer pünktlich.",
-    "answer": "ich",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:2891625127"
-    }
-  },
-  {
-    "id": "nom-pro-t1-311",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Es ist nicht an ____ das Urteil zu fällen.",
-    "answer": "uns",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:3635487419"
-    }
-  },
-  {
-    "id": "nom-pro-t1-312",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Natürlich werden ____ alle Gewalttaten verurteilen.",
-    "answer": "wir",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:3450964508"
-    }
-  },
-  {
-    "id": "nom-pro-t1-313",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Wenigstens war ____ freiwillig eine Jungfrau.",
-    "answer": "ich",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:703941053"
-    }
-  },
-  {
-    "id": "nom-pro-t1-314",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Ihr werdet ____ daran gewöhnen.",
-    "answer": "euch",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:2072600844"
-    }
-  },
-  {
-    "id": "nom-pro-t1-315",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Was sollte ____ tun, um Zeit zu sparen?",
-    "answer": "ich",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:71466281"
-    }
-  },
-  {
-    "id": "nom-pro-t1-316",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Aber zunächst möchte ____ etwas klären.",
-    "answer": "ich",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:246870047"
-    }
-  },
-  {
-    "id": "nom-pro-t1-317",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Aber Großvater, ____ wollten bleiben und zusehen.",
-    "answer": "wir",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:3697715467"
-    }
-  },
-  {
-    "id": "nom-pro-t1-318",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Es bringt ____ weder Geld noch Ruhm.",
-    "answer": "uns",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:893194758"
-    }
-  },
-  {
-    "id": "nom-pro-t1-319",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Kannst ____ ein Geheimnis bewahren?",
-    "answer": "du",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:3820264351"
-    }
-  },
-  {
-    "id": "nom-pro-t1-320",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Es ist nur ein Verdacht, den ____ habe.",
-    "answer": "ich",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:1556744360"
-    }
-  },
-  {
-    "id": "nom-pro-t1-321",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Die Kinder waren so laut, dass ____ nicht studieren konnte.",
-    "answer": "ich",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:3530231842"
-    }
-  },
-  {
-    "id": "nom-pro-t1-322",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Als Belohnung habe ____ Spaghetti gemacht.",
-    "answer": "ich",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:3042321115"
-    }
-  },
-  {
-    "id": "nom-pro-t1-323",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Das erscheint ____ ein bisschen albern.",
-    "answer": "mir",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:671659985"
-    }
-  },
-  {
-    "id": "nom-pro-t1-324",
-    "engine": "cloze",
-    "prompt": "Fill in the correct pronoun:",
-    "stimulus": "Erstens, ____ hat einen Namen.",
-    "answer": "er",
-    "metadata": {
-      "cefr": "B1",
-      "system": "nominal",
-      "module": "pronouns",
-      "tier": 1,
-      "tags": [
-        "grammar:pronoun",
-        "cloze"
-      ],
-      "groupId": "pro:1676393257"
-    }
-  }
+    id: "nom-pro-t1-001",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Sie redet die ganze Zeit über ____.",
+    answer: "dich",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:3969480056",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-002",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Wirklich, ____ kannst nichts tun.",
+    answer: "du",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:1753068746",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-003",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Vielleicht bleibe ____ noch einen Tag in Boston.",
+    answer: "ich",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:1346362948",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-004",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Kann ____ mit Karte zahlen?",
+    answer: "ich",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:492613899",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-005",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Ja, ____ verstehe dich gut.",
+    answer: "ich",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:1993206172",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-006",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Johns Frau mag es nicht, wenn ____ im Wohnzimmer raucht.",
+    answer: "er",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:3275686956",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-007",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Nein, ____ bin nicht verheiratet.",
+    answer: "ich",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:3923664651",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-008",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Was soll ____ John jetzt sagen?",
+    answer: "ich",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:3863021645",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-009",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Aber wer bist ____ dann?",
+    answer: "du",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:2333689690",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-010",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Verstehen Sie, was ____ meine?",
+    answer: "ich",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:1011975936",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-011",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Als ____ aufwachte, schneite es.",
+    answer: "ich",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:217171980",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-012",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Leider hatte ____ keine Wahl.",
+    answer: "ich",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:1425753084",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-013",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Dieses Buch ist besser als alle, die ____ gelesen habe.",
+    answer: "ich",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:984442057",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-014",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Und wo bist ____ inzwischen gewesen?",
+    answer: "du",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:3419268380",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-015",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Lass ____ zusammen essen gehen.",
+    answer: "uns",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:2604648259",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-016",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Falls etwas passiert, kannst ____ mich gerne anrufen.",
+    answer: "du",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:1074813189",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-017",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "All dies wird eines Tages ____ gehören.",
+    answer: "dir",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:1972495103",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-018",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "John weiß, was ____ tun.",
+    answer: "wir",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:4072320682",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-019",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Kannst ____ mir deine Handy-Nummer geben?",
+    answer: "du",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:3542757511",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-020",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Sprich nie wieder so mit ____!",
+    answer: "mir",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:56594115",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-021",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus:
+      "Vielleicht könnt ihr etwas vorschlagen, was ____ morgen machen können.",
+    answer: "wir",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:1628638673",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-022",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Lasst ____ diesen Weg gehen.",
+    answer: "uns",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:3419989674",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-023",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Dieses Lied gefällt ____ wirklich.",
+    answer: "mir",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:1163918821",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-024",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Was habt ihr heute für ____?",
+    answer: "mich",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:2259311697",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-025",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Die Zeit für eine Reise kann ____ mir nicht leisten.",
+    answer: "ich",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:1047331376",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-026",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Bist ____ dir sicher, dass John keine Freundin hat?",
+    answer: "du",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:292045816",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-027",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus:
+      "Es tut ____ leid, aber dadurch wurde das Leid der Familie noch vergrößert.",
+    answer: "mir",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:532034444",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-028",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Sie wollen ____ nicht teilnehmen lassen.",
+    answer: "mich",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:2309966059",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-029",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Das ist sehr lieb von ____, danke.",
+    answer: "dir",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:1192809848",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-030",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Genau das habe ____ gemeint.",
+    answer: "ich",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:646834820",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-031",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Ihr werdet ____ wohl nicht amüsieren.",
+    answer: "euch",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:3382669872",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-032",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Die Menschen brachten ____ nicht absichtlich her.",
+    answer: "uns",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:1111577440",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-033",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Okay, ____ werde es versuchen.",
+    answer: "ich",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:1031876157",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-034",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Menschen, die Hunde nicht mögen, sind ____ suspekt.",
+    answer: "mir",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:4208523438",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-035",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Zeig ____ ein anderes Beispiel.",
+    answer: "mir",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:3847829237",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-036",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Trotzdem gehen ____ einen Schritt weiter.",
+    answer: "wir",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:3575949115",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-037",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Was würde mit ____ passieren?",
+    answer: "ihm",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:1349334107",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-038",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Aber ____ will da nicht hin.",
+    answer: "ich",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:2093984325",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-039",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Nehmen ____ mal an, sie hat recht.",
+    answer: "wir",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:2393956127",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-040",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Sag ____ die richtige Antwort.",
+    answer: "mir",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:3312354310",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-041",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "John ist nicht so jung wie ____.",
+    answer: "ich",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:2729529297",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-042",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus:
+      "Können Sie uns einen Extrarabatt von % geben, falls ____ von diesem Artikel Stück nehmen?",
+    answer: "wir",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:1650705135",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-043",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "John kann nicht auf ____ warten.",
+    answer: "dich",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:1192956257",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-044",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Sonst gehe ____ zur Konkurrenz.",
+    answer: "ich",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:3111412543",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-045",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Aber erst muss ____ etwas klarstellen.",
+    answer: "ich",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:1026415664",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-046",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Jemand musste ____ zur Vernunft bringen.",
+    answer: "dich",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:574437817",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-047",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Warum fragst ____ nicht deine Mutter?",
+    answer: "du",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:2356448666",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-048",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Was magst ____ lieber, Rockmusik oder klassische Musik?",
+    answer: "du",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:2131938180",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-049",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Es wird ____ nicht zu Kopf steigen.",
+    answer: "mir",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:777346845",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-050",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus:
+      "Sein Cousin, dessen Namen ____ vergessen habe, war ein Krankenpfleger.",
+    answer: "ich",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:3758609315",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-051",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Gedankenverloren hörte ____, wie sein Name gerufen wurde.",
+    answer: "er",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:3950552487",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-052",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Möchtest ____ etwas dazu sagen?",
+    answer: "du",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:18631481",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-053",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Die Meinungen der anderen sind ____ egal.",
+    answer: "mir",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:2648852218",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-054",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Könnten Sie ____ eine Minute lang zuhören?",
+    answer: "mir",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:1459933528",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-055",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Kannst ____ bitte die Tür schließen?",
+    answer: "du",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:2702560578",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-056",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Nur Wasser für ____, danke.",
+    answer: "mich",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:670309945",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-057",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Ohne Pistole kannst ____ niemanden töten.",
+    answer: "du",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:2109834589",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-058",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Darauf müssen ____ uns konzentrieren.",
+    answer: "wir",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:1032609500",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-059",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Seit einem Monat haben ____ ein bisschen Schnee.",
+    answer: "wir",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:670802420",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-060",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus:
+      "Es sind schon fast Jahre vergangen, aber ____ bist unverändert schön.",
+    answer: "du",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:2795104723",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-061",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Mama, ____ muss jetzt gehen.",
+    answer: "ich",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:1159530237",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-062",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Die aufzugeben bin ____ nicht bereit.",
+    answer: "ich",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:849804667",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-063",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus:
+      "Sie sind sehr nett und ____ hätte gerne noch einen weiteren Drink.",
+    answer: "ich",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:2333222690",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-064",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Der einzig Merkwürdige hier bist ____.",
+    answer: "du",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:3044027382",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-065",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Müssen ____ flach auf dem Boden liegen?",
+    answer: "wir",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:465110064",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-066",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Der Nachtisch wird ____ bestimmt schmecken.",
+    answer: "dir",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:1458142572",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-067",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Das Kleid ist zu kurz für ____.",
+    answer: "mich",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:3159899214",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-068",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Doch, darum brauchst ____ mich.",
+    answer: "du",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:1461240106",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-069",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Deshalb muss ____ das tun.",
+    answer: "ich",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:2163954881",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-070",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus:
+      "John fragte Jane, wohin ____ den Sack mit Hundefutter stellen sollte.",
+    answer: "er",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:3420389804",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-071",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "In diesem Fall denke ____, dass er Recht hat.",
+    answer: "ich",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:343782956",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-072",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Dann werde ____ dich also verlassen.",
+    answer: "ich",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:3213862073",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-073",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Endlich erreichten ____ den Gipfel des Fuji.",
+    answer: "wir",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:2159953707",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-074",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Deshalb lasse ____ dich hier schlafen.",
+    answer: "ich",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:4184279256",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-075",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Reist ____ oft ins Ausland?",
+    answer: "du",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:866262343",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-076",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Auch dafür müssen ____ vernünftige Grenzen setzen.",
+    answer: "wir",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:927387787",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-077",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Weißt ____, was es bedeutet?",
+    answer: "du",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:1622631598",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-078",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Lass ____ mal ein Auge drauf werfen.",
+    answer: "mich",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:3344912032",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-079",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Das sage ____ meinem Papa!",
+    answer: "ich",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:1494505035",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-080",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Glaubst ____, das würde Spaß machen?",
+    answer: "du",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:4115955766",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-081",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Sie baten ____ hierher zu kommen.",
+    answer: "mich",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:47136538",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-082",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Kannst ____ das Geschirr in den Schrank stellen?",
+    answer: "du",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:2164548432",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-083",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus:
+      "Sind deine Eltern damit einverstanden, dass ____ Flugbegleiter wirst?",
+    answer: "du",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:3461622088",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-084",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Das passiert, wenn ____ zu stark ziehst.",
+    answer: "du",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:3226348164",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-085",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Und nennen Sie ____ nicht so.",
+    answer: "mich",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:1859490660",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-086",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Der Gedanke allein macht ____ krank.",
+    answer: "mich",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:3358590265",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-087",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus:
+      "Wenn ____ nicht hier wäre, würde dieses Büro in drei Tagen ins Chaos versinken.",
+    answer: "ich",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:3395169884",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-088",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Sag Bescheid, wenn ____ irgendwie behilflich sein kann!",
+    answer: "ich",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:3957343399",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-089",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Ihr müsst ____ eine Suite buchen.",
+    answer: "uns",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:3279716279",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-090",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Welche Gemüse möchtest ____ kaufen?",
+    answer: "du",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:1185588166",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-091",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Genau daran wollte ____ Sie erinnern.",
+    answer: "ich",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:2425228188",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-092",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Zum Glück bist ____ da, um sie zu retten!",
+    answer: "du",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:2259842749",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-093",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus:
+      "Stell dir vor, dein Vater würde uns zusammen sehen, was würde ____ sagen?",
+    answer: "er",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:4066715405",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-094",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Aber ____ wollte nicht verrückt klingen.",
+    answer: "ich",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:297245543",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-095",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Können ____ uns irgendwo unterhalten?",
+    answer: "wir",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:2953438933",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-096",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Verschwinden ____ hier, ehe es zu spät ist!",
+    answer: "wir",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:3361679972",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-097",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Sie hat ____ erklärt, warum sie zu spät zu seiner Party kam.",
+    answer: "ihm",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:3140533864",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-098",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Schauen ____ mal hinten nach.",
+    answer: "wir",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:4157907744",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-099",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Mist, sie haben ____ entdeckt.",
+    answer: "mich",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:884557626",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-100",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Der Boss muss ____ Medizin geben.",
+    answer: "dir",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:1664838549",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-101",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Es sind alle sehr stolz auf ____.",
+    answer: "euch",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:2776649294",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-102",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Hast du geweint, als ____ fort war?",
+    answer: "ich",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:3827998593",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-103",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Bitte schicken Sie es ____ per Fax.",
+    answer: "mir",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:3345767756",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-104",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Diese Nachricht macht ____ traurig.",
+    answer: "mich",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:3071511907",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-105",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Kannst ____ dir einen blauen Ferrari vorstellen?",
+    answer: "du",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:2213321774",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-106",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Willst ____ mit mir tanzen?",
+    answer: "du",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:3815446690",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-107",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus:
+      "Ihr solltet nicht über John lachen, wenn ____ einen Fehler macht!",
+    answer: "er",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:3871748710",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-108",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Und deswegen unterrichte ____ keine Geografie.",
+    answer: "ich",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:2833030120",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-109",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Das Bild erinnert ____ an meine Studentenzeit.",
+    answer: "mich",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:3502501885",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-110",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Meist erreiche ____ meine Großmutter nur per Handy.",
+    answer: "ich",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:760088416",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-111",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Super, ____ denke, das ist wirklich gut für die Familie.",
+    answer: "ich",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:2367460241",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-112",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Wecke ____ um sieben auf.",
+    answer: "uns",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:3923651060",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-113",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus:
+      "John sagt, ____ habe im Augenblick nicht sehr viel Geld bei sich.",
+    answer: "er",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:918859100",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-114",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Und ____ wirst großartig darin sein.",
+    answer: "du",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:3534530527",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-115",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Kannst ____ John nicht einfach bitten, uns zu helfen?",
+    answer: "du",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:322354208",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-116",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Ja, aber ____ hatte keine Ahnung, wozu.",
+    answer: "ich",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:3523131398",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-117",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Keine Bewegung oder ____ werden schießen.",
+    answer: "wir",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:3579414394",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-118",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Am Anfang hatten ____ nur sechs Mitarbeiter.",
+    answer: "wir",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:2568241501",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-119",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Jane wird ____ nicht fangen.",
+    answer: "uns",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:2933031146",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-120",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Das Haus ist zu groß für ____ und außerdem ist es zu teuer.",
+    answer: "uns",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:3748780345",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-121",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Hatten Sie wirklich Sex mit ____?",
+    answer: "ihm",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:1513537088",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-122",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Dieses Rennen muss ____ wirklich gewinnen.",
+    answer: "er",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:4208930415",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-123",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Wie lange willst ____ es behalten?",
+    answer: "du",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:3523542647",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-124",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Lassen Sie ____ hier anfangen!",
+    answer: "uns",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:1102813461",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-125",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Am Schluss waren ____ gute Freunde.",
+    answer: "wir",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:2536269345",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-126",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Vielleicht können ____ sie doch schlagen.",
+    answer: "wir",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:4136342346",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-127",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Wo hast ____ das erfahren?",
+    answer: "du",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:3810966046",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-128",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Dafür willst ____ bestimmt wach sein.",
+    answer: "du",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:2829650531",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-129",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Zum Beispiel, magst ____ Deutsch?",
+    answer: "du",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:1125361480",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-130",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Jedenfalls ist ____ jetzt eventuell in Paris.",
+    answer: "er",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:1304149749",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-131",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Es zielt direkt auf ____.",
+    answer: "uns",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:2794826048",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-132",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus:
+      "Nur weil ein Mann reich ist, heißt das noch nicht, dass ____ auch glücklich ist.",
+    answer: "er",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:2720490317",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-133",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Wende ____ nicht den Rücken zu.",
+    answer: "mir",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:1042649761",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-134",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Warst ____ jemals im Ausland?",
+    answer: "du",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:1579916780",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-135",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Es ist absolut notwendig, dass ____ es finden.",
+    answer: "wir",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:700694147",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-136",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Möge die Kraft mit ____ sein!",
+    answer: "dir",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:4193711165",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-137",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "In dieser Bar musst ____ bar zahlen.",
+    answer: "du",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:3485818141",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-138",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Wo arbeitete John, ehe ____ hierherkam?",
+    answer: "er",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:2129344869",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-139",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Wofür brauchst ____ das Geld?",
+    answer: "du",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:2544026923",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-140",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Mein Hund schlief neben ____.",
+    answer: "mir",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:1283082277",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-141",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Wofür wirst ____ es benutzen?",
+    answer: "du",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:1582287779",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-142",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Kannst du mir sagen, wo auf dieser Karte ____ mich befinde?",
+    answer: "ich",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:1733325211",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-143",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus:
+      "Das Essen stillte seinen Hunger. Jetzt hat ____ keinen Hunger mehr.",
+    answer: "er",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:4091279259",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-144",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Diesmal hast ____ dich selbst übertroffen.",
+    answer: "du",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:4231496833",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-145",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Hoffentlich verirrst ____ dich nicht.",
+    answer: "du",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:3599694057",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-146",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Erstens fehlen ____ die finanziellen Mittel.",
+    answer: "uns",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:1482429021",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-147",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Vielleicht wird es ____ zu heiß.",
+    answer: "ihm",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:2414307296",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-148",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus:
+      "Heute spreche ____ über die Bedeutung des Sports in der modernen Gesellschaft.",
+    answer: "ich",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:3905821224",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-149",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Diesen Punkt habe ____ bereits beantwortet.",
+    answer: "ich",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:2578358946",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-150",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Bist ____ jetzt zufrieden? Jawohl.",
+    answer: "du",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:1857316871",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-151",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Hier können ____ ein Taxi nehmen.",
+    answer: "wir",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:1908504696",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-152",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Gerade habe ____ mir das Foto angesehen.",
+    answer: "ich",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:4027072561",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-153",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Ruf ____ irgendwann mal an.",
+    answer: "mich",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:3302972907",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-154",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Bei sowas würde ____ nie lügen.",
+    answer: "ich",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:3241660132",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-155",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Das ist ____ ein großes Vergnügen.",
+    answer: "mir",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:1199467400",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-156",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Mein Zuhause ist nicht bei ____.",
+    answer: "dir",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:2119754330",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-157",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Warum bittest ____ John nicht herein?",
+    answer: "du",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:4247689908",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-158",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus:
+      "John muss jede Nacht mindestens neun Stunden schlafen, sonst funktioniert ____ nicht.",
+    answer: "er",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:177273475",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-159",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Zweifellos haben ____ einander viel zu lehren.",
+    answer: "wir",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:1235027058",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-160",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Sag ____, wem diese Bücher gehören.",
+    answer: "mir",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:4182834910",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-161",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Hier drin können ____ uns verstecken.",
+    answer: "wir",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:1620525114",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-162",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Dann haben ____ den gleichen Feind.",
+    answer: "wir",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:2861924446",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-163",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Aber ____ ist so nett und süß.",
+    answer: "er",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:3265796538",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-164",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Übrigens, ____ muss dir etwas sagen.",
+    answer: "ich",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:2666014390",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-165",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus:
+      "Dieser Brief ist persönlich, ____ will nicht, dass jemand anders ihn liest.",
+    answer: "ich",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:2649095410",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-166",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Jetzt will ____ lieber einen Drink.",
+    answer: "ich",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:4098932560",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-167",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Ihr Geheimnis ist bei ____ sicher.",
+    answer: "uns",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:194305301",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-168",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Das ist genau, worauf ____ wartet.",
+    answer: "er",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:999200213",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-169",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Sie erkennen ____ und Jane natürlich nicht.",
+    answer: "mich",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:3163704913",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-170",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Aber ____ muss meine Mutter mitnehmen.",
+    answer: "ich",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:3871497265",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-171",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "John macht sowas, wenn ____ traurig ist.",
+    answer: "er",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:1482960223",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-172",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus:
+      "Was ____ als Nächstes tat, war für mich schon eine Überraschung.",
+    answer: "er",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:761082997",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-173",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Schließlich erreichten ____ den Gipfel des Bergs.",
+    answer: "wir",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:1793841322",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-174",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Soweit ____ weiß, ist er ehrlich.",
+    answer: "ich",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:280582086",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-175",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Mit Glück überleben ____ die Nacht.",
+    answer: "wir",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:831430909",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-176",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus:
+      "Jeder muss einen Bericht darüber schreiben, was ____ gesehen hat.",
+    answer: "er",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:2322277604",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-177",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Johns Vergangenheit hat ____ eingeholt.",
+    answer: "ihn",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:2928440319",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-178",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Das Radio geht ____ auf die Nerven.",
+    answer: "mir",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:3461055270",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-179",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Die Polizei könnte ____ dafür verhaften.",
+    answer: "dich",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:1198470237",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-180",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Jemand hat versucht, ____ zu ermorden.",
+    answer: "dich",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:2618615446",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-181",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Er verbirgt irgendetwas und ____ hilfst ihm.",
+    answer: "du",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:3219005538",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-182",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Danke, ____ fahre jetzt rauf.",
+    answer: "ich",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:3355149625",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-183",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Wie häufig fütterst ____ die Fische?",
+    answer: "du",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:1508234733",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-184",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Hier kannst ____ nicht parken.",
+    answer: "du",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:3970441942",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-185",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Das ist das erste Mal, dass ____ ihn lächeln sehe.",
+    answer: "ich",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:642053279",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-186",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Sie kann ____ nicht aufhalten.",
+    answer: "uns",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:2084551490",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-187",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Lange davor war ____ dein Freund.",
+    answer: "ich",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:1788304934",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-188",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Jetzt kann ____ kaum noch auf einen Baum klettern.",
+    answer: "ich",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:1644442129",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-189",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus:
+      "Ist es ____ nicht in den Sinn gekommen, die Fenster zu schließen?",
+    answer: "euch",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:709037680",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-190",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Sie, ____ und Macintosh wären ein prima Team.",
+    answer: "ich",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:1301718123",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-191",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Das kommt, weil ____ lächerlich aussiehst.",
+    answer: "du",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:1042775406",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-192",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Davor wollte ____ dich beschützen.",
+    answer: "ich",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:1483750818",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-193",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Das können Sie ____ nicht befehlen.",
+    answer: "mir",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:313539645",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-194",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Sollen ____ eine Pause machen?",
+    answer: "wir",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:164160548",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-195",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Sie ist sogar einverstanden, dass ____ es schreibst.",
+    answer: "du",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:1744665063",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-196",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Kann ____ einen Rock zu einem Rockkonzert tragen?",
+    answer: "ich",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:1793571330",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-197",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Es ist nicht zu fassen, dass ____ drei Töchter hast.",
+    answer: "du",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:714769058",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-198",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Und ____ müssen bald dorthin zurück.",
+    answer: "wir",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:540488014",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-199",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Seine törichten Freunde wollen ____ morgen früh angreifen.",
+    answer: "uns",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:1423279121",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-200",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Warum kapierst ____ das nicht?",
+    answer: "du",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:2531342062",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-201",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Gewöhnlich frühstücke ____ um acht.",
+    answer: "ich",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:2353586230",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-202",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "In ein paar Minuten servieren ____ Frühstück.",
+    answer: "wir",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:2937968008",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-203",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Das wollte ____ um nichts in der Welt verpassen!",
+    answer: "ich",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:2767779883",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-204",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Hast ____ irgendwelche weiteren Fragen?",
+    answer: "du",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:97872800",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-205",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Warum willst ____ nicht mitkommen?",
+    answer: "du",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:1694957965",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-206",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Stell ____ in die Reihe.",
+    answer: "dich",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:3973641519",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-207",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Haltet ____ natürlich vom Fluss fern.",
+    answer: "euch",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:4170169707",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-208",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Sie halfen ____, die Operation durchzuführen.",
+    answer: "ihm",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:133730905",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-209",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "John glaubte an mich und ____ bin ihm dafür dankbar.",
+    answer: "ich",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:2738792336",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-210",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Diese Verantwortung ist eine Last für ____.",
+    answer: "ihn",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:3517368365",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-211",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Außerdem hast ____ einen neuen Gast.",
+    answer: "du",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:873767421",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-212",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Sie hämmerten in meinem Kopf und machten ____ wahnsinnig.",
+    answer: "mich",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:2899764234",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-213",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "So beenden ____ nicht den Unterricht.",
+    answer: "wir",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:3153743279",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-214",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Aha, ____ weißt doch was.",
+    answer: "du",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:3273657687",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-215",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Die Kuh gibt ____ Milch.",
+    answer: "uns",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:3418006778",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-216",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Gib ____ wenigstens noch einen Kuss.",
+    answer: "mir",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:2945539205",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-217",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Schande, denn ____ mochte diesen Pulli irgendwie.",
+    answer: "ich",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:3054557298",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-218",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Und dafür schulden ____ ihm Dank.",
+    answer: "wir",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:2484711163",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-219",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Er ist zweimal so alt wie ____.",
+    answer: "ich",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:1784861923",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-220",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Hol ____ die Stiefel, Mädel.",
+    answer: "mir",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:3227497390",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-221",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus:
+      "Wenn du Interesse hast, sag Bescheid; dann gebe ____ dir seine Nummer.",
+    answer: "ich",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:1242557310",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-222",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Soviel ____ weiß, ist er nicht verheiratet.",
+    answer: "ich",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:3551166101",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-223",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus:
+      "Egal welche Zeitung ____ liest, die Story wird immer die gleiche sein.",
+    answer: "du",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:1751222145",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-224",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Keine Sorge, ____ schlafe woanders.",
+    answer: "ich",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:2519063488",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-225",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Bravo, ____ bist die Schönste.",
+    answer: "du",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:3309219148",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-226",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Danke, ____ bin schon satt.",
+    answer: "ich",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:196637882",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-227",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Wenn ____ anhalten, steig aus.",
+    answer: "wir",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:2518571979",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-228",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Mit ihr verbringen Sie mehr Zeit als mit ____.",
+    answer: "mir",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:642498497",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-229",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Vorhin hat hier eine Frau nach ____ gesucht.",
+    answer: "dir",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:796865487",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-230",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Vielleicht durfte ____ den Staat nicht verlassen.",
+    answer: "er",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:3746083710",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-231",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Ob ____ eine Zugabe spielen oder nicht, hängt vom Publikum ab.",
+    answer: "wir",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:2550533872",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-232",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Womit kann ____ dir helfen?",
+    answer: "ich",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:1190902469",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-233",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Zugleich müssen ____ jedoch vernünftig bleiben.",
+    answer: "wir",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:299968655",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-234",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus:
+      "Ihr kennt diesen Song nicht, also versucht ____ nicht mitzusingen.",
+    answer: "ihn",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:3177520758",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-235",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Und dann werden ____ ihn begraben.",
+    answer: "wir",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:3792142091",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-236",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Seitdem habe ____ nie wieder von ihm gehört.",
+    answer: "ich",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:1770071111",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-237",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Deswegen kann ____ diese Auszeichnung nicht annehmen.",
+    answer: "ich",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:2932428423",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-238",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Haben Sie bei ____ einen Termin?",
+    answer: "ihm",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:3834994819",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-239",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Lege ____ auf den Bauch.",
+    answer: "dich",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:858952642",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-240",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Dann musst ____ mich decken.",
+    answer: "du",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:2655296898",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-241",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Jetzt musst ____ pressen, Jane.",
+    answer: "du",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:1717882743",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-242",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Kannst ____ das hier unterschreiben?",
+    answer: "du",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:2677011597",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-243",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Wenn er mir die Wahrheit gesagt hätte, hätte ____ ihm vergeben.",
+    answer: "ich",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:2490483859",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-244",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Eine so kurze Erklärung wäre ____ nicht eingefallen.",
+    answer: "mir",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:1568482923",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-245",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Am Montag arbeite ____ nicht.",
+    answer: "ich",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:53955539",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-246",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Sie möchte mit ____ allen etwas besprechen.",
+    answer: "uns",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:3333628524",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-247",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Moment, ____ empfange ein Signal.",
+    answer: "ich",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:2454857278",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-248",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Kennst ____ den Grund, warum der Himmel blau aussieht?",
+    answer: "du",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:3670787446",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-249",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Vielleicht sollten ____ dir nicht trauen.",
+    answer: "wir",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:1577462079",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-250",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Diese Sitte ist ____ fremd.",
+    answer: "uns",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:1289005072",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-251",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Vielleicht will ____ dann hierher zurückkommen.",
+    answer: "er",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:3352736181",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-252",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Die Bedingung behagt ____ ganz und gar nicht.",
+    answer: "mir",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:935203578",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-253",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Sie können sich jederzeit an ____ wenden.",
+    answer: "mich",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:2172498154",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-254",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Sie wollte ____ auseinander bringen.",
+    answer: "uns",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:3515704571",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-255",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Die sind alle zusammen nicht so schlau wie ____.",
+    answer: "du",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:127552883",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-256",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Also, willst ____ vielleicht reinkommen?",
+    answer: "du",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:27063653",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-257",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Niemand kann ____ hier kontrollieren.",
+    answer: "uns",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:1097049713",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-258",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Lasst ____ weitermachen, wenn John einverstanden ist.",
+    answer: "uns",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:1436895573",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-259",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Lieber Mr. Warne, ____ bin erfreut.",
+    answer: "ich",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:2490889080",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-260",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Aber diese Sachen musst ____ nicht erwähnen.",
+    answer: "du",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:3137184259",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-261",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Dinge, die ____ aufregen sollten, prallen einfach von mir ab.",
+    answer: "mich",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:155107647",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-262",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "So etwas wollen ____ nicht erleben.",
+    answer: "wir",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:3609839151",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-263",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Wie oft wäschst ____ deine Kleidung?",
+    answer: "du",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:2101700069",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-264",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Fehler zu machen, macht ____ menschlich.",
+    answer: "uns",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:1699105003",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-265",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "John und ____ kamen gleichzeitig dort an.",
+    answer: "ich",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:1271223751",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-266",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Beeilung, bevor ____ sie verlieren.",
+    answer: "wir",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:3713409775",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-267",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Wann werden ____ mit diesem Flug in Berlin ankommen?",
+    answer: "wir",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:540665001",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-268",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Kein einziger Fahrgast wollte ____ zuhören.",
+    answer: "mir",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:3957724388",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-269",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Die sind zu fein für ____.",
+    answer: "mich",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:958489307",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-270",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Sei heute nicht gemein zu ____.",
+    answer: "mir",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:639011309",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-271",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Die Tochter schnappen ____ auch bald.",
+    answer: "wir",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:187146336",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-272",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus:
+      "Anfangs fand John Französisch schwer, doch jetzt hält ____ es für leicht.",
+    answer: "er",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:1562975805",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-273",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Kann ____ Ihre Bestellung aufnehmen?",
+    answer: "ich",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:2300960478",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-274",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Nun will ____ meinen Lebenstraum erfüllen.",
+    answer: "ich",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:613495872",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-275",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Da kann ____ mich besser verteidigen.",
+    answer: "ich",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:4061566525",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-276",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Den Fehler werde ____ gewiss nie wiederholen.",
+    answer: "ich",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:3114713597",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-277",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Diesen neuen Titel empfehlen ____ vorbehaltlos.",
+    answer: "wir",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:1559855263",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-278",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Hast ____ inzwischen einen Partner gefunden?",
+    answer: "du",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:3357777782",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-279",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Könnt ihr es ____ bestellen?",
+    answer: "mir",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:1271913026",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-280",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "John sagte, dass ____ ohne ihn starten können.",
+    answer: "wir",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:200268507",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-281",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Sie können ____ entweder beschützen oder vernichten.",
+    answer: "euch",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:4151760371",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-282",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Überlassen Sie das Fahren ____.",
+    answer: "mir",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:2620711017",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-283",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Sie untersuchen ____ von Kopf bis Fuß.",
+    answer: "ihn",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:976221152",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-284",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Normalerweise gehe ____ am Freitag auf den Markt.",
+    answer: "ich",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:3398638617",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-285",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Sie erinnern ____ an einen entfernten Cousin.",
+    answer: "mich",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:2855570100",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-286",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Sie halten ____ alle für einen Narren.",
+    answer: "mich",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:118956532",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-287",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "John wäscht sich stets die Hände, bevor ____ etwas isst.",
+    answer: "er",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:422313978",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-288",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Die Ratte hat ____ heute sitzen lassen.",
+    answer: "mich",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:2585508931",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-289",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Kann ____ euch irgendwie überzeugen?",
+    answer: "ich",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:3225664642",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-290",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Weißt ____, wann John zurückkehren wird?",
+    answer: "du",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:3031587432",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-291",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Dazu möchte ____ Jane gratulieren.",
+    answer: "ich",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:3199241290",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-292",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "John ist nicht mehr der Mann, der ____ einst war.",
+    answer: "er",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:1101629230",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-293",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Wisst ihr, wo ____ uns befinden?",
+    answer: "wir",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:27181478",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-294",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Die Theorie ist ____ zu abstrakt.",
+    answer: "mir",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:595947968",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-295",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Kommt darauf an, worauf ____ suchst.",
+    answer: "du",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:452267818",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-296",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Der Gedanke macht ____ krank.",
+    answer: "mich",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:3148835434",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-297",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Jetzt lass ____ zur Schule eilen.",
+    answer: "uns",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:3663440981",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-298",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Aus meiner Sicht hast ____ Unrecht.",
+    answer: "du",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:3866032569",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-299",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Es muss sehr aufregend sein, was ____ tust.",
+    answer: "du",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:3018133391",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-300",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Darauf müssen ____ unsere Aufmerksamkeit richten.",
+    answer: "wir",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:2703237694",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-301",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus:
+      "Nachdem ____ jeden Text gehört hast, schreibe einen kurzen Bericht.",
+    answer: "du",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:3487731645",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-302",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Der Unfall ist ____ noch lebhaft im Gedächtnis.",
+    answer: "ihm",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:2437814533",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-303",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Soll ____ mein Hemd ausziehen?",
+    answer: "ich",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:3012560601",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-304",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "John, ____ kannst dich umdrehen.",
+    answer: "du",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:3502046906",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-305",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus:
+      "Fragen oder Anregungen zu unserem Produkt beantworten ____ gerne.",
+    answer: "wir",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:4085557407",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-306",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Okay, ____ hattest einen schlechten Start.",
+    answer: "du",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:3285682017",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-307",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Sie möchten ____ nicht loswerden.",
+    answer: "mich",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:665562855",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-308",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus:
+      "An kalten Tagen können Sie bei ____ ein elektrisches Heizgerät mieten.",
+    answer: "uns",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:1844949419",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-309",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Eigentlich wollte ____ dich heute beeindrucken.",
+    answer: "ich",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:231783380",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-310",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Zu jener Zeit war ____ immer pünktlich.",
+    answer: "ich",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:2891625127",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-311",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Es ist nicht an ____ das Urteil zu fällen.",
+    answer: "uns",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:3635487419",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-312",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Natürlich werden ____ alle Gewalttaten verurteilen.",
+    answer: "wir",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:3450964508",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-313",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Wenigstens war ____ freiwillig eine Jungfrau.",
+    answer: "ich",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:703941053",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-314",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Ihr werdet ____ daran gewöhnen.",
+    answer: "euch",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:2072600844",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-315",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Was sollte ____ tun, um Zeit zu sparen?",
+    answer: "ich",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:71466281",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-316",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Aber zunächst möchte ____ etwas klären.",
+    answer: "ich",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:246870047",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-317",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Aber Großvater, ____ wollten bleiben und zusehen.",
+    answer: "wir",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:3697715467",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-318",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Es bringt ____ weder Geld noch Ruhm.",
+    answer: "uns",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:893194758",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-319",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Kannst ____ ein Geheimnis bewahren?",
+    answer: "du",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:3820264351",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-320",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Es ist nur ein Verdacht, den ____ habe.",
+    answer: "ich",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:1556744360",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-321",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Die Kinder waren so laut, dass ____ nicht studieren konnte.",
+    answer: "ich",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:3530231842",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-322",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Als Belohnung habe ____ Spaghetti gemacht.",
+    answer: "ich",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:3042321115",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-323",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Das erscheint ____ ein bisschen albern.",
+    answer: "mir",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:671659985",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
+  {
+    id: "nom-pro-t1-324",
+    engine: "cloze",
+    prompt: "Fill in the correct pronoun:",
+    stimulus: "Erstens, ____ hat einen Namen.",
+    answer: "er",
+    metadata: {
+      cefr: "B1",
+      system: "nominal",
+      module: "pronouns",
+      tier: 1,
+      tags: ["grammar:pronoun", "cloze"],
+      groupId: "pro:1676393257",
+    },
+    feedback: {
+      correct: "Correct pronoun and case.",
+      common: {
+        "match:any":
+          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+      },
+    },
+  },
 ];

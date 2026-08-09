@@ -1,4 +1,10 @@
-export type SystemId = "nominal" | "verb" | "syntax" | "flow" | "vocab" | "performance";
+export type SystemId =
+  | "nominal"
+  | "verb"
+  | "syntax"
+  | "flow"
+  | "vocab"
+  | "performance";
 
 export type SkillSystem = {
   id: SystemId;

@@ -4,9 +4,14 @@ import { useEffect, useRef, useState } from "react";
 import type { TimedItem } from "@/lib/content/schema";
 import type { EngineProps } from "@/lib/engines/types";
 import { Button } from "@/components/ui/button";
+import { SpeakButton } from "@/components/ui/speak-button";
 import { cn } from "@/lib/utils";
 
-export function TimedProduction({ item, disabled, onSubmit }: EngineProps<TimedItem>) {
+export function TimedProduction({
+  item,
+  disabled,
+  onSubmit,
+}: EngineProps<TimedItem>) {
   const [value, setValue] = useState("");
   const limit = item.timeLimitSec ?? 45;
   const [left, setLeft] = useState(limit);
@@ -50,7 +55,12 @@ export function TimedProduction({ item, disabled, onSubmit }: EngineProps<TimedI
           {left}s
         </span>
       </div>
-      {item.stimulus ? <p className="text-base text-muted-foreground">{item.stimulus}</p> : null}
+      {item.stimulus ? (
+        <div className="flex items-start gap-2">
+          <p className="text-base text-muted-foreground">{item.stimulus}</p>
+          <SpeakButton text={item.stimulus} size="sm" />
+        </div>
+      ) : null}
       <input
         className="w-full rounded-full border border-border bg-card px-5 py-3 text-base outline-none transition placeholder:text-muted-foreground focus:border-primary focus:ring-2 focus:ring-primary/30 disabled:opacity-50"
         value={value}

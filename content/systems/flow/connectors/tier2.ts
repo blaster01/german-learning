@@ -4,3570 +4,4484 @@ import type { ExerciseItem } from "@/lib/content/schema";
 
 export const connectorsTier2: ExerciseItem[] = [
   {
-    "id": "flow-con-t2-001",
-    "engine": "cloze",
-    "prompt": "Fill in the correct connector:",
-    "stimulus": "Sieh zu, ____ du pünktlich zurück bist.",
-    "answer": "dass",
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:subordinate"
-      ],
-      "groupId": "con:1402113641"
-    }
-  },
-  {
-    "id": "flow-con-t2-002",
-    "engine": "mc",
-    "prompt": "Choose the correct connector:",
-    "stimulus": "Sieh zu, ____ du pünktlich zurück bist.",
-    "options": [
-      "als",
-      "obwohl",
-      "damit",
-      "dass"
-    ],
-    "answer": 3,
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:subordinate",
-        "mc"
-      ],
-      "groupId": "con:1402113641"
-    }
-  },
-  {
-    "id": "flow-con-t2-003",
-    "engine": "cloze",
-    "prompt": "Fill in the correct connector:",
-    "stimulus": "Bald sind wir pleite, ____ wir nicht aufhören, Geld auszugeben.",
-    "answer": "wenn",
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:subordinate"
-      ],
-      "groupId": "con:1725988923"
-    }
-  },
-  {
-    "id": "flow-con-t2-004",
-    "engine": "mc",
-    "prompt": "Choose the correct connector:",
-    "stimulus": "Bald sind wir pleite, ____ wir nicht aufhören, Geld auszugeben.",
-    "options": [
-      "als",
-      "dass",
-      "wenn",
-      "während"
-    ],
-    "answer": 2,
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:subordinate",
-        "mc"
-      ],
-      "groupId": "con:1725988923"
-    }
-  },
-  {
-    "id": "flow-con-t2-005",
-    "engine": "cloze",
-    "prompt": "Fill in the correct connector:",
-    "stimulus": "Die Granate ist explodiert, ____ der Terrorist sie werfen konnte.",
-    "answer": "bevor",
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:subordinate"
-      ],
-      "groupId": "con:3074594085"
-    }
-  },
-  {
-    "id": "flow-con-t2-006",
-    "engine": "mc",
-    "prompt": "Choose the correct connector:",
-    "stimulus": "Die Granate ist explodiert, ____ der Terrorist sie werfen konnte.",
-    "options": [
-      "dass",
-      "falls",
-      "bevor",
-      "während"
-    ],
-    "answer": 2,
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:subordinate",
-        "mc"
-      ],
-      "groupId": "con:3074594085"
-    }
-  },
-  {
-    "id": "flow-con-t2-007",
-    "engine": "cloze",
-    "prompt": "Fill in the correct connector:",
-    "stimulus": "Meine Quellen sagen mir, ____ die Russen etwas planen.",
-    "answer": "dass",
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:subordinate"
-      ],
-      "groupId": "con:4037874966"
-    }
-  },
-  {
-    "id": "flow-con-t2-008",
-    "engine": "mc",
-    "prompt": "Choose the correct connector:",
-    "stimulus": "Meine Quellen sagen mir, ____ die Russen etwas planen.",
-    "options": [
-      "dass",
-      "nachdem",
-      "seitdem",
-      "als"
-    ],
-    "answer": 0,
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:subordinate",
-        "mc"
-      ],
-      "groupId": "con:4037874966"
-    }
-  },
-  {
-    "id": "flow-con-t2-009",
-    "engine": "cloze",
-    "prompt": "Fill in the correct connector:",
-    "stimulus": "Sie betrachten es ____ eine Vorsichtsmaßnahme.",
-    "answer": "als",
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:subordinate"
-      ],
-      "groupId": "con:590735058"
-    }
-  },
-  {
-    "id": "flow-con-t2-010",
-    "engine": "mc",
-    "prompt": "Choose the correct connector:",
-    "stimulus": "Sie betrachten es ____ eine Vorsichtsmaßnahme.",
-    "options": [
-      "damit",
-      "seitdem",
-      "als",
-      "dass"
-    ],
-    "answer": 2,
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:subordinate",
-        "mc"
-      ],
-      "groupId": "con:590735058"
-    }
-  },
-  {
-    "id": "flow-con-t2-011",
-    "engine": "cloze",
-    "prompt": "Fill in the correct connector:",
-    "stimulus": "John machte mir ein Angebot, ____ ich nicht ablehnen konnte.",
-    "answer": "dass",
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:subordinate"
-      ],
-      "groupId": "con:3704280355"
-    }
-  },
-  {
-    "id": "flow-con-t2-012",
-    "engine": "mc",
-    "prompt": "Choose the correct connector:",
-    "stimulus": "John machte mir ein Angebot, ____ ich nicht ablehnen konnte.",
-    "options": [
-      "bevor",
-      "obwohl",
-      "falls",
-      "dass"
-    ],
-    "answer": 3,
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:subordinate",
-        "mc"
-      ],
-      "groupId": "con:3704280355"
-    }
-  },
-  {
-    "id": "flow-con-t2-013",
-    "engine": "cloze",
-    "prompt": "Fill in the correct connector:",
-    "stimulus": "Ich bin froh, ____ ich dich amüsiere.",
-    "answer": "dass",
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:subordinate"
-      ],
-      "groupId": "con:3263222934"
-    }
-  },
-  {
-    "id": "flow-con-t2-014",
-    "engine": "mc",
-    "prompt": "Choose the correct connector:",
-    "stimulus": "Ich bin froh, ____ ich dich amüsiere.",
-    "options": [
-      "dass",
-      "wenn",
-      "nachdem",
-      "bevor"
-    ],
-    "answer": 0,
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:subordinate",
-        "mc"
-      ],
-      "groupId": "con:3263222934"
-    }
-  },
-  {
-    "id": "flow-con-t2-015",
-    "engine": "cloze",
-    "prompt": "Fill in the correct connector:",
-    "stimulus": "Ich dachte mir, ich sollte dort ____ Erstes nachsehen.",
-    "answer": "als",
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:subordinate"
-      ],
-      "groupId": "con:3061924243"
-    }
-  },
-  {
-    "id": "flow-con-t2-016",
-    "engine": "mc",
-    "prompt": "Choose the correct connector:",
-    "stimulus": "Ich dachte mir, ich sollte dort ____ Erstes nachsehen.",
-    "options": [
-      "bevor",
-      "obwohl",
-      "seitdem",
-      "als"
-    ],
-    "answer": 3,
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:subordinate",
-        "mc"
-      ],
-      "groupId": "con:3061924243"
-    }
-  },
-  {
-    "id": "flow-con-t2-017",
-    "engine": "cloze",
-    "prompt": "Fill in the correct connector:",
-    "stimulus": "Du weißt, ____ es bescheuert ist, oder?",
-    "answer": "dass",
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:subordinate"
-      ],
-      "groupId": "con:625068690"
-    }
-  },
-  {
-    "id": "flow-con-t2-018",
-    "engine": "mc",
-    "prompt": "Choose the correct connector:",
-    "stimulus": "Du weißt, ____ es bescheuert ist, oder?",
-    "options": [
-      "dass",
-      "sobald",
-      "während",
-      "obwohl"
-    ],
-    "answer": 0,
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:subordinate",
-        "mc"
-      ],
-      "groupId": "con:625068690"
-    }
-  },
-  {
-    "id": "flow-con-t2-019",
-    "engine": "cloze",
-    "prompt": "Fill in the correct connector:",
-    "stimulus": "Wenn du hinsiehst, wird dir auffallen, ____ er links abbiegt.",
-    "answer": "dass",
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:subordinate"
-      ],
-      "groupId": "con:4109666829"
-    }
-  },
-  {
-    "id": "flow-con-t2-020",
-    "engine": "mc",
-    "prompt": "Choose the correct connector:",
-    "stimulus": "Wenn du hinsiehst, wird dir auffallen, ____ er links abbiegt.",
-    "options": [
-      "obwohl",
-      "damit",
-      "seitdem",
-      "dass"
-    ],
-    "answer": 3,
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:subordinate",
-        "mc"
-      ],
-      "groupId": "con:4109666829"
-    }
-  },
-  {
-    "id": "flow-con-t2-021",
-    "engine": "cloze",
-    "prompt": "Fill in the correct connector:",
-    "stimulus": "Er will, ____ wir einsteigen.",
-    "answer": "dass",
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:subordinate"
-      ],
-      "groupId": "con:3295302086"
-    }
-  },
-  {
-    "id": "flow-con-t2-022",
-    "engine": "mc",
-    "prompt": "Choose the correct connector:",
-    "stimulus": "Er will, ____ wir einsteigen.",
-    "options": [
-      "obwohl",
-      "während",
-      "dass",
-      "seitdem"
-    ],
-    "answer": 2,
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:subordinate",
-        "mc"
-      ],
-      "groupId": "con:3295302086"
-    }
-  },
-  {
-    "id": "flow-con-t2-023",
-    "engine": "cloze",
-    "prompt": "Fill in the correct connector:",
-    "stimulus": "Der Dichter lebte etwas mehr ____ zwanzig Jahre hier.",
-    "answer": "als",
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:subordinate"
-      ],
-      "groupId": "con:1283605111"
-    }
-  },
-  {
-    "id": "flow-con-t2-024",
-    "engine": "mc",
-    "prompt": "Choose the correct connector:",
-    "stimulus": "Der Dichter lebte etwas mehr ____ zwanzig Jahre hier.",
-    "options": [
-      "seitdem",
-      "als",
-      "damit",
-      "dass"
-    ],
-    "answer": 1,
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:subordinate",
-        "mc"
-      ],
-      "groupId": "con:1283605111"
-    }
-  },
-  {
-    "id": "flow-con-t2-025",
-    "engine": "cloze",
-    "prompt": "Fill in the correct connector:",
-    "stimulus": "Bitte lass es mich bis Mittwoch wissen, ____ du nicht teilnehmen kannst.",
-    "answer": "wenn",
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:subordinate"
-      ],
-      "groupId": "con:428868412"
-    }
-  },
-  {
-    "id": "flow-con-t2-026",
-    "engine": "mc",
-    "prompt": "Choose the correct connector:",
-    "stimulus": "Bitte lass es mich bis Mittwoch wissen, ____ du nicht teilnehmen kannst.",
-    "options": [
-      "damit",
-      "seitdem",
-      "als",
-      "wenn"
-    ],
-    "answer": 3,
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:subordinate",
-        "mc"
-      ],
-      "groupId": "con:428868412"
-    }
-  },
-  {
-    "id": "flow-con-t2-027",
-    "engine": "cloze",
-    "prompt": "Fill in the correct connector:",
-    "stimulus": "Ich muss verschwinden, ____ sie auftauchen.",
-    "answer": "bevor",
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:subordinate"
-      ],
-      "groupId": "con:1942356294"
-    }
-  },
-  {
-    "id": "flow-con-t2-028",
-    "engine": "mc",
-    "prompt": "Choose the correct connector:",
-    "stimulus": "Ich muss verschwinden, ____ sie auftauchen.",
-    "options": [
-      "weil",
-      "als",
-      "bevor",
-      "seitdem"
-    ],
-    "answer": 2,
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:subordinate",
-        "mc"
-      ],
-      "groupId": "con:1942356294"
-    }
-  },
-  {
-    "id": "flow-con-t2-029",
-    "engine": "cloze",
-    "prompt": "Fill in the correct connector:",
-    "stimulus": "Ich denke, es ist gut, ____ Bücher noch existieren, aber sie machen mich schläfrig.",
-    "answer": "dass",
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:subordinate"
-      ],
-      "groupId": "con:918988775"
-    }
-  },
-  {
-    "id": "flow-con-t2-030",
-    "engine": "mc",
-    "prompt": "Choose the correct connector:",
-    "stimulus": "Ich denke, es ist gut, ____ Bücher noch existieren, aber sie machen mich schläfrig.",
-    "options": [
-      "bevor",
-      "weil",
-      "seitdem",
-      "dass"
-    ],
-    "answer": 3,
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:subordinate",
-        "mc"
-      ],
-      "groupId": "con:918988775"
-    }
-  },
-  {
-    "id": "flow-con-t2-031",
-    "engine": "cloze",
-    "prompt": "Fill in the correct connector:",
-    "stimulus": "Wir sind schneller gegangen ____ üblich.",
-    "answer": "als",
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:subordinate"
-      ],
-      "groupId": "con:3492677151"
-    }
-  },
-  {
-    "id": "flow-con-t2-032",
-    "engine": "mc",
-    "prompt": "Choose the correct connector:",
-    "stimulus": "Wir sind schneller gegangen ____ üblich.",
-    "options": [
-      "sobald",
-      "nachdem",
-      "als",
-      "weil"
-    ],
-    "answer": 2,
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:subordinate",
-        "mc"
-      ],
-      "groupId": "con:3492677151"
-    }
-  },
-  {
-    "id": "flow-con-t2-033",
-    "engine": "cloze",
-    "prompt": "Fill in the correct connector:",
-    "stimulus": "Benutze deinen Schlüssel, ____ die Glocke ertönt.",
-    "answer": "wenn",
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:subordinate"
-      ],
-      "groupId": "con:608276444"
-    }
-  },
-  {
-    "id": "flow-con-t2-034",
-    "engine": "mc",
-    "prompt": "Choose the correct connector:",
-    "stimulus": "Benutze deinen Schlüssel, ____ die Glocke ertönt.",
-    "options": [
-      "falls",
-      "während",
-      "obwohl",
-      "wenn"
-    ],
-    "answer": 3,
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:subordinate",
-        "mc"
-      ],
-      "groupId": "con:608276444"
-    }
-  },
-  {
-    "id": "flow-con-t2-035",
-    "engine": "cloze",
-    "prompt": "Fill in the correct connector:",
-    "stimulus": "Sie denkt, ich sei mieser ____ Abschaum.",
-    "answer": "als",
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:subordinate"
-      ],
-      "groupId": "con:2175539312"
-    }
-  },
-  {
-    "id": "flow-con-t2-036",
-    "engine": "mc",
-    "prompt": "Choose the correct connector:",
-    "stimulus": "Sie denkt, ich sei mieser ____ Abschaum.",
-    "options": [
-      "sobald",
-      "seitdem",
-      "wenn",
-      "als"
-    ],
-    "answer": 3,
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:subordinate",
-        "mc"
-      ],
-      "groupId": "con:2175539312"
-    }
-  },
-  {
-    "id": "flow-con-t2-037",
-    "engine": "cloze",
-    "prompt": "Fill in the correct connector:",
-    "stimulus": "Letztendlich wird jemand John sagen müssen, ____ er sich zu benehmen hat.",
-    "answer": "dass",
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:subordinate"
-      ],
-      "groupId": "con:133233628"
-    }
-  },
-  {
-    "id": "flow-con-t2-038",
-    "engine": "mc",
-    "prompt": "Choose the correct connector:",
-    "stimulus": "Letztendlich wird jemand John sagen müssen, ____ er sich zu benehmen hat.",
-    "options": [
-      "dass",
-      "sobald",
-      "obwohl",
-      "bevor"
-    ],
-    "answer": 0,
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:subordinate",
-        "mc"
-      ],
-      "groupId": "con:133233628"
-    }
-  },
-  {
-    "id": "flow-con-t2-039",
-    "engine": "cloze",
-    "prompt": "Fill in the correct connector:",
-    "stimulus": "Standardmäßig ist das Zeichenblatt höher ____ breit.",
-    "answer": "als",
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:subordinate"
-      ],
-      "groupId": "con:1042203514"
-    }
-  },
-  {
-    "id": "flow-con-t2-040",
-    "engine": "mc",
-    "prompt": "Choose the correct connector:",
-    "stimulus": "Standardmäßig ist das Zeichenblatt höher ____ breit.",
-    "options": [
-      "falls",
-      "bevor",
-      "obwohl",
-      "als"
-    ],
-    "answer": 3,
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:subordinate",
-        "mc"
-      ],
-      "groupId": "con:1042203514"
-    }
-  },
-  {
-    "id": "flow-con-t2-041",
-    "engine": "cloze",
-    "prompt": "Fill in the correct connector:",
-    "stimulus": "Ich denke, ____ du genial bist.",
-    "answer": "dass",
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:subordinate"
-      ],
-      "groupId": "con:1989955960"
-    }
-  },
-  {
-    "id": "flow-con-t2-042",
-    "engine": "mc",
-    "prompt": "Choose the correct connector:",
-    "stimulus": "Ich denke, ____ du genial bist.",
-    "options": [
-      "bevor",
-      "nachdem",
-      "seitdem",
-      "dass"
-    ],
-    "answer": 3,
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:subordinate",
-        "mc"
-      ],
-      "groupId": "con:1989955960"
-    }
-  },
-  {
-    "id": "flow-con-t2-043",
-    "engine": "cloze",
-    "prompt": "Fill in the correct connector:",
-    "stimulus": "Er verdient mehr Geld, ____ er ausgeben kann.",
-    "answer": "als",
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:subordinate"
-      ],
-      "groupId": "con:4197518224"
-    }
-  },
-  {
-    "id": "flow-con-t2-044",
-    "engine": "mc",
-    "prompt": "Choose the correct connector:",
-    "stimulus": "Er verdient mehr Geld, ____ er ausgeben kann.",
-    "options": [
-      "als",
-      "falls",
-      "damit",
-      "wenn"
-    ],
-    "answer": 0,
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:subordinate",
-        "mc"
-      ],
-      "groupId": "con:4197518224"
-    }
-  },
-  {
-    "id": "flow-con-t2-045",
-    "engine": "cloze",
-    "prompt": "Fill in the correct connector:",
-    "stimulus": "Diese Verschwörung reicht höher hinauf ____ gedacht.",
-    "answer": "als",
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:subordinate"
-      ],
-      "groupId": "con:4225979028"
-    }
-  },
-  {
-    "id": "flow-con-t2-046",
-    "engine": "mc",
-    "prompt": "Choose the correct connector:",
-    "stimulus": "Diese Verschwörung reicht höher hinauf ____ gedacht.",
-    "options": [
-      "während",
-      "falls",
-      "sobald",
-      "als"
-    ],
-    "answer": 3,
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:subordinate",
-        "mc"
-      ],
-      "groupId": "con:4225979028"
-    }
-  },
-  {
-    "id": "flow-con-t2-047",
-    "engine": "cloze",
-    "prompt": "Fill in the correct connector:",
-    "stimulus": "Er war brillant, sogar ____ Junge.",
-    "answer": "als",
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:subordinate"
-      ],
-      "groupId": "con:178997327"
-    }
-  },
-  {
-    "id": "flow-con-t2-048",
-    "engine": "mc",
-    "prompt": "Choose the correct connector:",
-    "stimulus": "Er war brillant, sogar ____ Junge.",
-    "options": [
-      "weil",
-      "als",
-      "dass",
-      "wenn"
-    ],
-    "answer": 1,
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:subordinate",
-        "mc"
-      ],
-      "groupId": "con:178997327"
-    }
-  },
-  {
-    "id": "flow-con-t2-049",
-    "engine": "cloze",
-    "prompt": "Fill in the correct connector:",
-    "stimulus": "Wir sind lediglich ____ neugierige Beobachter gekommen.",
-    "answer": "als",
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:subordinate"
-      ],
-      "groupId": "con:17957026"
-    }
-  },
-  {
-    "id": "flow-con-t2-050",
-    "engine": "mc",
-    "prompt": "Choose the correct connector:",
-    "stimulus": "Wir sind lediglich ____ neugierige Beobachter gekommen.",
-    "options": [
-      "bevor",
-      "als",
-      "nachdem",
-      "dass"
-    ],
-    "answer": 1,
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:subordinate",
-        "mc"
-      ],
-      "groupId": "con:17957026"
-    }
-  },
-  {
-    "id": "flow-con-t2-051",
-    "engine": "cloze",
-    "prompt": "Fill in the correct connector:",
-    "stimulus": "Meine Freundin glaubt, ____ sie kotzen muss.",
-    "answer": "dass",
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:subordinate"
-      ],
-      "groupId": "con:3671102538"
-    }
-  },
-  {
-    "id": "flow-con-t2-052",
-    "engine": "mc",
-    "prompt": "Choose the correct connector:",
-    "stimulus": "Meine Freundin glaubt, ____ sie kotzen muss.",
-    "options": [
-      "dass",
-      "bevor",
-      "wenn",
-      "weil"
-    ],
-    "answer": 0,
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:subordinate",
-        "mc"
-      ],
-      "groupId": "con:3671102538"
-    }
-  },
-  {
-    "id": "flow-con-t2-053",
-    "engine": "cloze",
-    "prompt": "Fill in the correct connector:",
-    "stimulus": "Das war ____ ernsthafter Kommentar gedacht.",
-    "answer": "als",
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:subordinate"
-      ],
-      "groupId": "con:534985809"
-    }
-  },
-  {
-    "id": "flow-con-t2-054",
-    "engine": "mc",
-    "prompt": "Choose the correct connector:",
-    "stimulus": "Das war ____ ernsthafter Kommentar gedacht.",
-    "options": [
-      "obwohl",
-      "sobald",
-      "falls",
-      "als"
-    ],
-    "answer": 3,
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:subordinate",
-        "mc"
-      ],
-      "groupId": "con:534985809"
-    }
-  },
-  {
-    "id": "flow-con-t2-055",
-    "engine": "cloze",
-    "prompt": "Fill in the correct connector:",
-    "stimulus": "Das Gehalt eines Lehrers ist niedriger ____ das eines Rechtsanwalts.",
-    "answer": "als",
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:subordinate"
-      ],
-      "groupId": "con:1708467847"
-    }
-  },
-  {
-    "id": "flow-con-t2-056",
-    "engine": "mc",
-    "prompt": "Choose the correct connector:",
-    "stimulus": "Das Gehalt eines Lehrers ist niedriger ____ das eines Rechtsanwalts.",
-    "options": [
-      "während",
-      "als",
-      "falls",
-      "seitdem"
-    ],
-    "answer": 1,
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:subordinate",
-        "mc"
-      ],
-      "groupId": "con:1708467847"
-    }
-  },
-  {
-    "id": "flow-con-t2-057",
-    "engine": "cloze",
-    "prompt": "Fill in the correct connector:",
-    "stimulus": "Ihr habt mir nichts, ____ Schmerz und Elend gebracht.",
-    "answer": "als",
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:subordinate"
-      ],
-      "groupId": "con:2697499305"
-    }
-  },
-  {
-    "id": "flow-con-t2-058",
-    "engine": "mc",
-    "prompt": "Choose the correct connector:",
-    "stimulus": "Ihr habt mir nichts, ____ Schmerz und Elend gebracht.",
-    "options": [
-      "als",
-      "sobald",
-      "wenn",
-      "seitdem"
-    ],
-    "answer": 0,
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:subordinate",
-        "mc"
-      ],
-      "groupId": "con:2697499305"
-    }
-  },
-  {
-    "id": "flow-con-t2-059",
-    "engine": "cloze",
-    "prompt": "Fill in the correct connector:",
-    "stimulus": "Wir bezeichneten unsere Bewegung nie ____ politisch.",
-    "answer": "als",
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:subordinate"
-      ],
-      "groupId": "con:1348192290"
-    }
-  },
-  {
-    "id": "flow-con-t2-060",
-    "engine": "mc",
-    "prompt": "Choose the correct connector:",
-    "stimulus": "Wir bezeichneten unsere Bewegung nie ____ politisch.",
-    "options": [
-      "während",
-      "weil",
-      "damit",
-      "als"
-    ],
-    "answer": 3,
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:subordinate",
-        "mc"
-      ],
-      "groupId": "con:1348192290"
-    }
-  },
-  {
-    "id": "flow-con-t2-061",
-    "engine": "cloze",
-    "prompt": "Fill in the correct connector:",
-    "stimulus": "Ich konnte nicht ahnen, ____ das passieren würde.",
-    "answer": "dass",
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:subordinate"
-      ],
-      "groupId": "con:3238996607"
-    }
-  },
-  {
-    "id": "flow-con-t2-062",
-    "engine": "mc",
-    "prompt": "Choose the correct connector:",
-    "stimulus": "Ich konnte nicht ahnen, ____ das passieren würde.",
-    "options": [
-      "während",
-      "dass",
-      "weil",
-      "wenn"
-    ],
-    "answer": 1,
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:subordinate",
-        "mc"
-      ],
-      "groupId": "con:3238996607"
-    }
-  },
-  {
-    "id": "flow-con-t2-063",
-    "engine": "cloze",
-    "prompt": "Fill in the correct connector:",
-    "stimulus": "Ich juble einfach, ____ alle anderen jubeln.",
-    "answer": "wenn",
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:subordinate"
-      ],
-      "groupId": "con:2721697744"
-    }
-  },
-  {
-    "id": "flow-con-t2-064",
-    "engine": "mc",
-    "prompt": "Choose the correct connector:",
-    "stimulus": "Ich juble einfach, ____ alle anderen jubeln.",
-    "options": [
-      "obwohl",
-      "als",
-      "wenn",
-      "damit"
-    ],
-    "answer": 2,
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:subordinate",
-        "mc"
-      ],
-      "groupId": "con:2721697744"
-    }
-  },
-  {
-    "id": "flow-con-t2-065",
-    "engine": "cloze",
-    "prompt": "Fill in the correct connector:",
-    "stimulus": "Beide Restaurants servieren sowohl lokale ____ auch kontinentale Spezialitäten.",
-    "answer": "als",
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:subordinate"
-      ],
-      "groupId": "con:3603601784"
-    }
-  },
-  {
-    "id": "flow-con-t2-066",
-    "engine": "mc",
-    "prompt": "Choose the correct connector:",
-    "stimulus": "Beide Restaurants servieren sowohl lokale ____ auch kontinentale Spezialitäten.",
-    "options": [
-      "als",
-      "seitdem",
-      "während",
-      "obwohl"
-    ],
-    "answer": 0,
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:subordinate",
-        "mc"
-      ],
-      "groupId": "con:3603601784"
-    }
-  },
-  {
-    "id": "flow-con-t2-067",
-    "engine": "cloze",
-    "prompt": "Fill in the correct connector:",
-    "stimulus": "Ich verspreche, ____ diese Diskussion die letzte ihrer sein wird.",
-    "answer": "dass",
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:subordinate"
-      ],
-      "groupId": "con:3183554610"
-    }
-  },
-  {
-    "id": "flow-con-t2-068",
-    "engine": "mc",
-    "prompt": "Choose the correct connector:",
-    "stimulus": "Ich verspreche, ____ diese Diskussion die letzte ihrer sein wird.",
-    "options": [
-      "dass",
-      "seitdem",
-      "falls",
-      "als"
-    ],
-    "answer": 0,
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:subordinate",
-        "mc"
-      ],
-      "groupId": "con:3183554610"
-    }
-  },
-  {
-    "id": "flow-con-t2-069",
-    "engine": "cloze",
-    "prompt": "Fill in the correct connector:",
-    "stimulus": "Sie würde zittern, ____ du sie berührst.",
-    "answer": "wenn",
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:subordinate"
-      ],
-      "groupId": "con:2802115174"
-    }
-  },
-  {
-    "id": "flow-con-t2-070",
-    "engine": "mc",
-    "prompt": "Choose the correct connector:",
-    "stimulus": "Sie würde zittern, ____ du sie berührst.",
-    "options": [
-      "wenn",
-      "damit",
-      "seitdem",
-      "falls"
-    ],
-    "answer": 0,
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:subordinate",
-        "mc"
-      ],
-      "groupId": "con:2802115174"
-    }
-  },
-  {
-    "id": "flow-con-t2-071",
-    "engine": "cloze",
-    "prompt": "Fill in the correct connector:",
-    "stimulus": "Er war nie besser ____ unter Johns Regie.",
-    "answer": "als",
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:subordinate"
-      ],
-      "groupId": "con:1751134796"
-    }
-  },
-  {
-    "id": "flow-con-t2-072",
-    "engine": "mc",
-    "prompt": "Choose the correct connector:",
-    "stimulus": "Er war nie besser ____ unter Johns Regie.",
-    "options": [
-      "als",
-      "sobald",
-      "obwohl",
-      "wenn"
-    ],
-    "answer": 0,
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:subordinate",
-        "mc"
-      ],
-      "groupId": "con:1751134796"
-    }
-  },
-  {
-    "id": "flow-con-t2-073",
-    "engine": "cloze",
-    "prompt": "Fill in the correct connector:",
-    "stimulus": "Ich glaube nicht, ____ John an dem Skandal beteiligt war.",
-    "answer": "dass",
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:subordinate"
-      ],
-      "groupId": "con:356046695"
-    }
-  },
-  {
-    "id": "flow-con-t2-074",
-    "engine": "mc",
-    "prompt": "Choose the correct connector:",
-    "stimulus": "Ich glaube nicht, ____ John an dem Skandal beteiligt war.",
-    "options": [
-      "als",
-      "obwohl",
-      "wenn",
-      "dass"
-    ],
-    "answer": 3,
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:subordinate",
-        "mc"
-      ],
-      "groupId": "con:356046695"
-    }
-  },
-  {
-    "id": "flow-con-t2-075",
-    "engine": "cloze",
-    "prompt": "Fill in the correct connector:",
-    "stimulus": "Ich möchte, ____ Sie das Treffen organisieren.",
-    "answer": "dass",
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:subordinate"
-      ],
-      "groupId": "con:2737210638"
-    }
-  },
-  {
-    "id": "flow-con-t2-076",
-    "engine": "mc",
-    "prompt": "Choose the correct connector:",
-    "stimulus": "Ich möchte, ____ Sie das Treffen organisieren.",
-    "options": [
-      "dass",
-      "wenn",
-      "als",
-      "seitdem"
-    ],
-    "answer": 0,
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:subordinate",
-        "mc"
-      ],
-      "groupId": "con:2737210638"
-    }
-  },
-  {
-    "id": "flow-con-t2-077",
-    "engine": "cloze",
-    "prompt": "Fill in the correct connector:",
-    "stimulus": "Ich habe es meinem Arzt zu verdanken, ____ ich noch am Leben bin.",
-    "answer": "dass",
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:subordinate"
-      ],
-      "groupId": "con:2633843138"
-    }
-  },
-  {
-    "id": "flow-con-t2-078",
-    "engine": "mc",
-    "prompt": "Choose the correct connector:",
-    "stimulus": "Ich habe es meinem Arzt zu verdanken, ____ ich noch am Leben bin.",
-    "options": [
-      "dass",
-      "damit",
-      "obwohl",
-      "nachdem"
-    ],
-    "answer": 0,
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:subordinate",
-        "mc"
-      ],
-      "groupId": "con:2633843138"
-    }
-  },
-  {
-    "id": "flow-con-t2-079",
-    "engine": "cloze",
-    "prompt": "Fill in the correct connector:",
-    "stimulus": "Dann ist es kein Wunder, ____ sie deine Ex ist.",
-    "answer": "dass",
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:subordinate"
-      ],
-      "groupId": "con:2706440506"
-    }
-  },
-  {
-    "id": "flow-con-t2-080",
-    "engine": "mc",
-    "prompt": "Choose the correct connector:",
-    "stimulus": "Dann ist es kein Wunder, ____ sie deine Ex ist.",
-    "options": [
-      "damit",
-      "bevor",
-      "dass",
-      "als"
-    ],
-    "answer": 2,
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:subordinate",
-        "mc"
-      ],
-      "groupId": "con:2706440506"
-    }
-  },
-  {
-    "id": "flow-con-t2-081",
-    "engine": "cloze",
-    "prompt": "Fill in the correct connector:",
-    "stimulus": "Anderenfalls kann es vorkommen, ____ Objekte nicht einheitlich dargestellt werden.",
-    "answer": "dass",
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:subordinate"
-      ],
-      "groupId": "con:1120421277"
-    }
-  },
-  {
-    "id": "flow-con-t2-082",
-    "engine": "mc",
-    "prompt": "Choose the correct connector:",
-    "stimulus": "Anderenfalls kann es vorkommen, ____ Objekte nicht einheitlich dargestellt werden.",
-    "options": [
-      "bevor",
-      "dass",
-      "obwohl",
-      "weil"
-    ],
-    "answer": 1,
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:subordinate",
-        "mc"
-      ],
-      "groupId": "con:1120421277"
-    }
-  },
-  {
-    "id": "flow-con-t2-083",
-    "engine": "cloze",
-    "prompt": "Fill in the correct connector:",
-    "stimulus": "Ich arbeitete ____ Buchhalter im Familienunternehmen.",
-    "answer": "als",
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:subordinate"
-      ],
-      "groupId": "con:3234663176"
-    }
-  },
-  {
-    "id": "flow-con-t2-084",
-    "engine": "mc",
-    "prompt": "Choose the correct connector:",
-    "stimulus": "Ich arbeitete ____ Buchhalter im Familienunternehmen.",
-    "options": [
-      "wenn",
-      "nachdem",
-      "als",
-      "seitdem"
-    ],
-    "answer": 2,
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:subordinate",
-        "mc"
-      ],
-      "groupId": "con:3234663176"
-    }
-  },
-  {
-    "id": "flow-con-t2-085",
-    "engine": "cloze",
-    "prompt": "Fill in the correct connector:",
-    "stimulus": "Sie muss sich ____ Wertegemeinschaft erweisen.",
-    "answer": "als",
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:subordinate"
-      ],
-      "groupId": "con:588734508"
-    }
-  },
-  {
-    "id": "flow-con-t2-086",
-    "engine": "mc",
-    "prompt": "Choose the correct connector:",
-    "stimulus": "Sie muss sich ____ Wertegemeinschaft erweisen.",
-    "options": [
-      "als",
-      "seitdem",
-      "wenn",
-      "während"
-    ],
-    "answer": 0,
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:subordinate",
-        "mc"
-      ],
-      "groupId": "con:588734508"
-    }
-  },
-  {
-    "id": "flow-con-t2-087",
-    "engine": "cloze",
-    "prompt": "Fill in the correct connector:",
-    "stimulus": "Sag mir, ____ du ein Feuerzeug hast.",
-    "answer": "dass",
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:subordinate"
-      ],
-      "groupId": "con:991472276"
-    }
-  },
-  {
-    "id": "flow-con-t2-088",
-    "engine": "mc",
-    "prompt": "Choose the correct connector:",
-    "stimulus": "Sag mir, ____ du ein Feuerzeug hast.",
-    "options": [
-      "obwohl",
-      "falls",
-      "dass",
-      "wenn"
-    ],
-    "answer": 2,
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:subordinate",
-        "mc"
-      ],
-      "groupId": "con:991472276"
-    }
-  },
-  {
-    "id": "flow-con-t2-089",
-    "engine": "cloze",
-    "prompt": "Fill in the correct connector:",
-    "stimulus": "Ich habe einen Kellner eingestellt, ____ du gehen kannst.",
-    "answer": "damit",
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:subordinate"
-      ],
-      "groupId": "con:814384271"
-    }
-  },
-  {
-    "id": "flow-con-t2-090",
-    "engine": "mc",
-    "prompt": "Choose the correct connector:",
-    "stimulus": "Ich habe einen Kellner eingestellt, ____ du gehen kannst.",
-    "options": [
-      "seitdem",
-      "obwohl",
-      "weil",
-      "damit"
-    ],
-    "answer": 3,
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:subordinate",
-        "mc"
-      ],
-      "groupId": "con:814384271"
-    }
-  },
-  {
-    "id": "flow-con-t2-091",
-    "engine": "cloze",
-    "prompt": "Fill in the correct connector:",
-    "stimulus": "Ich hasse Staub mehr ____ alles andere.",
-    "answer": "als",
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:subordinate"
-      ],
-      "groupId": "con:2985961450"
-    }
-  },
-  {
-    "id": "flow-con-t2-092",
-    "engine": "mc",
-    "prompt": "Choose the correct connector:",
-    "stimulus": "Ich hasse Staub mehr ____ alles andere.",
-    "options": [
-      "als",
-      "weil",
-      "nachdem",
-      "falls"
-    ],
-    "answer": 0,
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:subordinate",
-        "mc"
-      ],
-      "groupId": "con:2985961450"
-    }
-  },
-  {
-    "id": "flow-con-t2-093",
-    "engine": "cloze",
-    "prompt": "Fill in the correct connector:",
-    "stimulus": "Diese Rechtsgrundlage erscheint somit ____ geeignet.",
-    "answer": "als",
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:subordinate"
-      ],
-      "groupId": "con:2245981666"
-    }
-  },
-  {
-    "id": "flow-con-t2-094",
-    "engine": "mc",
-    "prompt": "Choose the correct connector:",
-    "stimulus": "Diese Rechtsgrundlage erscheint somit ____ geeignet.",
-    "options": [
-      "bevor",
-      "wenn",
-      "falls",
-      "als"
-    ],
-    "answer": 3,
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:subordinate",
-        "mc"
-      ],
-      "groupId": "con:2245981666"
-    }
-  },
-  {
-    "id": "flow-con-t2-095",
-    "engine": "cloze",
-    "prompt": "Fill in the correct connector:",
-    "stimulus": "Einige Leute könnten das ____ Verhaltensmuster bezeichnen.",
-    "answer": "als",
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:subordinate"
-      ],
-      "groupId": "con:2065768486"
-    }
-  },
-  {
-    "id": "flow-con-t2-096",
-    "engine": "mc",
-    "prompt": "Choose the correct connector:",
-    "stimulus": "Einige Leute könnten das ____ Verhaltensmuster bezeichnen.",
-    "options": [
-      "als",
-      "falls",
-      "damit",
-      "weil"
-    ],
-    "answer": 0,
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:subordinate",
-        "mc"
-      ],
-      "groupId": "con:2065768486"
-    }
-  },
-  {
-    "id": "flow-con-t2-097",
-    "engine": "cloze",
-    "prompt": "Fill in the correct connector:",
-    "stimulus": "Ich glaube, ____ wir uns eventuell nicht ganz verstanden haben.",
-    "answer": "dass",
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:subordinate"
-      ],
-      "groupId": "con:1252067104"
-    }
-  },
-  {
-    "id": "flow-con-t2-098",
-    "engine": "mc",
-    "prompt": "Choose the correct connector:",
-    "stimulus": "Ich glaube, ____ wir uns eventuell nicht ganz verstanden haben.",
-    "options": [
-      "seitdem",
-      "sobald",
-      "dass",
-      "falls"
-    ],
-    "answer": 2,
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:subordinate",
-        "mc"
-      ],
-      "groupId": "con:1252067104"
-    }
-  },
-  {
-    "id": "flow-con-t2-099",
-    "engine": "cloze",
-    "prompt": "Fill in the correct connector:",
-    "stimulus": "Ich hatte ____ Kind eine Katze.",
-    "answer": "als",
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:subordinate"
-      ],
-      "groupId": "con:4122076785"
-    }
-  },
-  {
-    "id": "flow-con-t2-100",
-    "engine": "mc",
-    "prompt": "Choose the correct connector:",
-    "stimulus": "Ich hatte ____ Kind eine Katze.",
-    "options": [
-      "falls",
-      "als",
-      "damit",
-      "während"
-    ],
-    "answer": 1,
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:subordinate",
-        "mc"
-      ],
-      "groupId": "con:4122076785"
-    }
-  },
-  {
-    "id": "flow-con-t2-101",
-    "engine": "cloze",
-    "prompt": "Fill in the correct connector:",
-    "stimulus": "Selbst ____ sie dich umbringen, wird dein Name ewig weiterleben.",
-    "answer": "wenn",
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:subordinate"
-      ],
-      "groupId": "con:3449276865"
-    }
-  },
-  {
-    "id": "flow-con-t2-102",
-    "engine": "mc",
-    "prompt": "Choose the correct connector:",
-    "stimulus": "Selbst ____ sie dich umbringen, wird dein Name ewig weiterleben.",
-    "options": [
-      "nachdem",
-      "wenn",
-      "während",
-      "sobald"
-    ],
-    "answer": 1,
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:subordinate",
-        "mc"
-      ],
-      "groupId": "con:3449276865"
-    }
-  },
-  {
-    "id": "flow-con-t2-103",
-    "engine": "cloze",
-    "prompt": "Fill in the correct connector:",
-    "stimulus": "Du solltest jetzt einfach auflegen, ____ ich eine Pizza bestellen kann.",
-    "answer": "damit",
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:subordinate"
-      ],
-      "groupId": "con:3997172808"
-    }
-  },
-  {
-    "id": "flow-con-t2-104",
-    "engine": "mc",
-    "prompt": "Choose the correct connector:",
-    "stimulus": "Du solltest jetzt einfach auflegen, ____ ich eine Pizza bestellen kann.",
-    "options": [
-      "falls",
-      "obwohl",
-      "dass",
-      "damit"
-    ],
-    "answer": 3,
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:subordinate",
-        "mc"
-      ],
-      "groupId": "con:3997172808"
-    }
-  },
-  {
-    "id": "flow-con-t2-105",
-    "engine": "cloze",
-    "prompt": "Fill in the correct connector:",
-    "stimulus": "Ich kann mich gelegentlich ____ identifizieren.",
-    "answer": "damit",
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:subordinate"
-      ],
-      "groupId": "con:2771069019"
-    }
-  },
-  {
-    "id": "flow-con-t2-106",
-    "engine": "mc",
-    "prompt": "Choose the correct connector:",
-    "stimulus": "Ich kann mich gelegentlich ____ identifizieren.",
-    "options": [
-      "nachdem",
-      "weil",
-      "damit",
-      "sobald"
-    ],
-    "answer": 2,
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:subordinate",
-        "mc"
-      ],
-      "groupId": "con:2771069019"
-    }
-  },
-  {
-    "id": "flow-con-t2-107",
-    "engine": "cloze",
-    "prompt": "Fill in the correct connector:",
-    "stimulus": "Sag ihr, ____ ich später zurückrufe.",
-    "answer": "dass",
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:subordinate"
-      ],
-      "groupId": "con:3354203475"
-    }
-  },
-  {
-    "id": "flow-con-t2-108",
-    "engine": "mc",
-    "prompt": "Choose the correct connector:",
-    "stimulus": "Sag ihr, ____ ich später zurückrufe.",
-    "options": [
-      "obwohl",
-      "dass",
-      "seitdem",
-      "während"
-    ],
-    "answer": 1,
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:subordinate",
-        "mc"
-      ],
-      "groupId": "con:3354203475"
-    }
-  },
-  {
-    "id": "flow-con-t2-109",
-    "engine": "cloze",
-    "prompt": "Fill in the correct connector:",
-    "stimulus": "Er erwartet, ____ das ganze Koks hier ist.",
-    "answer": "dass",
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:subordinate"
-      ],
-      "groupId": "con:3819257322"
-    }
-  },
-  {
-    "id": "flow-con-t2-110",
-    "engine": "mc",
-    "prompt": "Choose the correct connector:",
-    "stimulus": "Er erwartet, ____ das ganze Koks hier ist.",
-    "options": [
-      "bevor",
-      "falls",
-      "nachdem",
-      "dass"
-    ],
-    "answer": 3,
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:subordinate",
-        "mc"
-      ],
-      "groupId": "con:3819257322"
-    }
-  },
-  {
-    "id": "flow-con-t2-111",
-    "engine": "cloze",
-    "prompt": "Fill in the correct connector:",
-    "stimulus": "Deine Großmutter hat immer gesagt, ____ du ein schlechter Same bist.",
-    "answer": "dass",
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:subordinate"
-      ],
-      "groupId": "con:3674743811"
-    }
-  },
-  {
-    "id": "flow-con-t2-112",
-    "engine": "mc",
-    "prompt": "Choose the correct connector:",
-    "stimulus": "Deine Großmutter hat immer gesagt, ____ du ein schlechter Same bist.",
-    "options": [
-      "weil",
-      "dass",
-      "obwohl",
-      "falls"
-    ],
-    "answer": 1,
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:subordinate",
-        "mc"
-      ],
-      "groupId": "con:3674743811"
-    }
-  },
-  {
-    "id": "flow-con-t2-113",
-    "engine": "cloze",
-    "prompt": "Fill in the correct connector:",
-    "stimulus": "Erstens sind große Unternehmen heutzutage multinational, ____ Regierungen weiter national sind.",
-    "answer": "während",
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:subordinate"
-      ],
-      "groupId": "con:235084324"
-    }
-  },
-  {
-    "id": "flow-con-t2-114",
-    "engine": "mc",
-    "prompt": "Choose the correct connector:",
-    "stimulus": "Erstens sind große Unternehmen heutzutage multinational, ____ Regierungen weiter national sind.",
-    "options": [
-      "während",
-      "bevor",
-      "als",
-      "wenn"
-    ],
-    "answer": 0,
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:subordinate",
-        "mc"
-      ],
-      "groupId": "con:235084324"
-    }
-  },
-  {
-    "id": "flow-con-t2-115",
-    "engine": "cloze",
-    "prompt": "Fill in the correct connector:",
-    "stimulus": "Wir sind der Meinung, ____ seine Suspendierung vollkommen ungerecht war.",
-    "answer": "dass",
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:subordinate"
-      ],
-      "groupId": "con:3262093797"
-    }
-  },
-  {
-    "id": "flow-con-t2-116",
-    "engine": "mc",
-    "prompt": "Choose the correct connector:",
-    "stimulus": "Wir sind der Meinung, ____ seine Suspendierung vollkommen ungerecht war.",
-    "options": [
-      "dass",
-      "bevor",
-      "damit",
-      "nachdem"
-    ],
-    "answer": 0,
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:subordinate",
-        "mc"
-      ],
-      "groupId": "con:3262093797"
-    }
-  },
-  {
-    "id": "flow-con-t2-117",
-    "engine": "cloze",
-    "prompt": "Fill in the correct connector:",
-    "stimulus": "Das Stillen ist einfacher, ____ das Baby neben dir schläft.",
-    "answer": "wenn",
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:subordinate"
-      ],
-      "groupId": "con:1140413732"
-    }
-  },
-  {
-    "id": "flow-con-t2-118",
-    "engine": "mc",
-    "prompt": "Choose the correct connector:",
-    "stimulus": "Das Stillen ist einfacher, ____ das Baby neben dir schläft.",
-    "options": [
-      "als",
-      "dass",
-      "wenn",
-      "weil"
-    ],
-    "answer": 2,
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:subordinate",
-        "mc"
-      ],
-      "groupId": "con:1140413732"
-    }
-  },
-  {
-    "id": "flow-con-t2-119",
-    "engine": "cloze",
-    "prompt": "Fill in the correct connector:",
-    "stimulus": "Leute verkleiden sich ____ ihre Lieblingsfilmfigur.",
-    "answer": "als",
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:subordinate"
-      ],
-      "groupId": "con:2576703314"
-    }
-  },
-  {
-    "id": "flow-con-t2-120",
-    "engine": "mc",
-    "prompt": "Choose the correct connector:",
-    "stimulus": "Leute verkleiden sich ____ ihre Lieblingsfilmfigur.",
-    "options": [
-      "als",
-      "nachdem",
-      "während",
-      "seitdem"
-    ],
-    "answer": 0,
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:subordinate",
-        "mc"
-      ],
-      "groupId": "con:2576703314"
-    }
-  },
-  {
-    "id": "flow-con-t2-121",
-    "engine": "cloze",
-    "prompt": "Fill in the correct connector:",
-    "stimulus": "Der architektonische Stil der Kirche ist sowohl elegant ____ auch streng.",
-    "answer": "als",
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:subordinate"
-      ],
-      "groupId": "con:376817239"
-    }
-  },
-  {
-    "id": "flow-con-t2-122",
-    "engine": "mc",
-    "prompt": "Choose the correct connector:",
-    "stimulus": "Der architektonische Stil der Kirche ist sowohl elegant ____ auch streng.",
-    "options": [
-      "obwohl",
-      "nachdem",
-      "als",
-      "während"
-    ],
-    "answer": 2,
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:subordinate",
-        "mc"
-      ],
-      "groupId": "con:376817239"
-    }
-  },
-  {
-    "id": "flow-con-t2-123",
-    "engine": "cloze",
-    "prompt": "Fill in the correct connector:",
-    "stimulus": "Pass auf, ____ du Sporen nicht einatmest; sie sind tödlich.",
-    "answer": "dass",
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:subordinate"
-      ],
-      "groupId": "con:1119742165"
-    }
-  },
-  {
-    "id": "flow-con-t2-124",
-    "engine": "mc",
-    "prompt": "Choose the correct connector:",
-    "stimulus": "Pass auf, ____ du Sporen nicht einatmest; sie sind tödlich.",
-    "options": [
-      "dass",
-      "sobald",
-      "damit",
-      "seitdem"
-    ],
-    "answer": 0,
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:subordinate",
-        "mc"
-      ],
-      "groupId": "con:1119742165"
-    }
-  },
-  {
-    "id": "flow-con-t2-125",
-    "engine": "cloze",
-    "prompt": "Fill in the correct connector:",
-    "stimulus": "Nicht ____ eines Gewitters anschließen oder verwenden.",
-    "answer": "während",
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:subordinate"
-      ],
-      "groupId": "con:637424"
-    }
-  },
-  {
-    "id": "flow-con-t2-126",
-    "engine": "mc",
-    "prompt": "Choose the correct connector:",
-    "stimulus": "Nicht ____ eines Gewitters anschließen oder verwenden.",
-    "options": [
-      "dass",
-      "seitdem",
-      "während",
-      "bevor"
-    ],
-    "answer": 2,
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:subordinate",
-        "mc"
-      ],
-      "groupId": "con:637424"
-    }
-  },
-  {
-    "id": "flow-con-t2-127",
-    "engine": "cloze",
-    "prompt": "Fill in the correct connector:",
-    "stimulus": "Sie können den Wochentag ausschreiben oder ____ Abkürzung eingeben.",
-    "answer": "als",
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:subordinate"
-      ],
-      "groupId": "con:2490491936"
-    }
-  },
-  {
-    "id": "flow-con-t2-128",
-    "engine": "mc",
-    "prompt": "Choose the correct connector:",
-    "stimulus": "Sie können den Wochentag ausschreiben oder ____ Abkürzung eingeben.",
-    "options": [
-      "obwohl",
-      "weil",
-      "als",
-      "sobald"
-    ],
-    "answer": 2,
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:subordinate",
-        "mc"
-      ],
-      "groupId": "con:2490491936"
-    }
-  },
-  {
-    "id": "flow-con-t2-129",
-    "engine": "cloze",
-    "prompt": "Fill in the correct connector:",
-    "stimulus": "Ich glaube, du hast mehr zu beichten ____ jeder andere hier.",
-    "answer": "als",
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:subordinate"
-      ],
-      "groupId": "con:3844484036"
-    }
-  },
-  {
-    "id": "flow-con-t2-130",
-    "engine": "mc",
-    "prompt": "Choose the correct connector:",
-    "stimulus": "Ich glaube, du hast mehr zu beichten ____ jeder andere hier.",
-    "options": [
-      "als",
-      "obwohl",
-      "dass",
-      "während"
-    ],
-    "answer": 0,
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:subordinate",
-        "mc"
-      ],
-      "groupId": "con:3844484036"
-    }
-  },
-  {
-    "id": "flow-con-t2-131",
-    "engine": "cloze",
-    "prompt": "Fill in the correct connector:",
-    "stimulus": "Ich weiß, ____ du keine Nutte bist.",
-    "answer": "dass",
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:subordinate"
-      ],
-      "groupId": "con:2582624847"
-    }
-  },
-  {
-    "id": "flow-con-t2-132",
-    "engine": "mc",
-    "prompt": "Choose the correct connector:",
-    "stimulus": "Ich weiß, ____ du keine Nutte bist.",
-    "options": [
-      "falls",
-      "bevor",
-      "dass",
-      "während"
-    ],
-    "answer": 2,
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:subordinate",
-        "mc"
-      ],
-      "groupId": "con:2582624847"
-    }
-  },
-  {
-    "id": "flow-con-t2-133",
-    "engine": "cloze",
-    "prompt": "Fill in the correct connector:",
-    "stimulus": "Ich befürchte, ____ ich mich dort langweile.",
-    "answer": "dass",
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:subordinate"
-      ],
-      "groupId": "con:3528572135"
-    }
-  },
-  {
-    "id": "flow-con-t2-134",
-    "engine": "mc",
-    "prompt": "Choose the correct connector:",
-    "stimulus": "Ich befürchte, ____ ich mich dort langweile.",
-    "options": [
-      "während",
-      "falls",
-      "dass",
-      "nachdem"
-    ],
-    "answer": 2,
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:subordinate",
-        "mc"
-      ],
-      "groupId": "con:3528572135"
-    }
-  },
-  {
-    "id": "flow-con-t2-135",
-    "engine": "cloze",
-    "prompt": "Fill in the correct connector:",
-    "stimulus": "Ich hoffe, er ist auch mal so aufgelöst, ____ er mit mir Schluss macht.",
-    "answer": "wenn",
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:subordinate"
-      ],
-      "groupId": "con:1288789113"
-    }
-  },
-  {
-    "id": "flow-con-t2-136",
-    "engine": "mc",
-    "prompt": "Choose the correct connector:",
-    "stimulus": "Ich hoffe, er ist auch mal so aufgelöst, ____ er mit mir Schluss macht.",
-    "options": [
-      "damit",
-      "weil",
-      "dass",
-      "wenn"
-    ],
-    "answer": 3,
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:subordinate",
-        "mc"
-      ],
-      "groupId": "con:1288789113"
-    }
-  },
-  {
-    "id": "flow-con-t2-137",
-    "engine": "cloze",
-    "prompt": "Fill in the correct connector:",
-    "stimulus": "Wenigstens hoffe ich, ____ er ein Schwindler ist.",
-    "answer": "dass",
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:subordinate"
-      ],
-      "groupId": "con:1626722855"
-    }
-  },
-  {
-    "id": "flow-con-t2-138",
-    "engine": "mc",
-    "prompt": "Choose the correct connector:",
-    "stimulus": "Wenigstens hoffe ich, ____ er ein Schwindler ist.",
-    "options": [
-      "bevor",
-      "sobald",
-      "dass",
-      "seitdem"
-    ],
-    "answer": 2,
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:subordinate",
-        "mc"
-      ],
-      "groupId": "con:1626722855"
-    }
-  },
-  {
-    "id": "flow-con-t2-139",
-    "engine": "cloze",
-    "prompt": "Fill in the correct connector:",
-    "stimulus": "Lies sorgfältig die Anweisungen, ____ du anfängst.",
-    "answer": "bevor",
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:subordinate"
-      ],
-      "groupId": "con:2850580995"
-    }
-  },
-  {
-    "id": "flow-con-t2-140",
-    "engine": "mc",
-    "prompt": "Choose the correct connector:",
-    "stimulus": "Lies sorgfältig die Anweisungen, ____ du anfängst.",
-    "options": [
-      "sobald",
-      "als",
-      "seitdem",
-      "bevor"
-    ],
-    "answer": 3,
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:subordinate",
-        "mc"
-      ],
-      "groupId": "con:2850580995"
-    }
-  },
-  {
-    "id": "flow-con-t2-141",
-    "engine": "cloze",
-    "prompt": "Fill in the correct connector:",
-    "stimulus": "Mehr ____ dreißig Jahre lebte ich mit Gefühl, ich sei ein Ausgestoßener.",
-    "answer": "als",
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:subordinate"
-      ],
-      "groupId": "con:3522276989"
-    }
-  },
-  {
-    "id": "flow-con-t2-142",
-    "engine": "mc",
-    "prompt": "Choose the correct connector:",
-    "stimulus": "Mehr ____ dreißig Jahre lebte ich mit Gefühl, ich sei ein Ausgestoßener.",
-    "options": [
-      "sobald",
-      "als",
-      "während",
-      "seitdem"
-    ],
-    "answer": 1,
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:subordinate",
-        "mc"
-      ],
-      "groupId": "con:3522276989"
-    }
-  },
-  {
-    "id": "flow-con-t2-143",
-    "engine": "cloze",
-    "prompt": "Fill in the correct connector:",
-    "stimulus": "Verzeih, ____ ich etwas misstrauisch bin.",
-    "answer": "wenn",
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:subordinate"
-      ],
-      "groupId": "con:4121198826"
-    }
-  },
-  {
-    "id": "flow-con-t2-144",
-    "engine": "mc",
-    "prompt": "Choose the correct connector:",
-    "stimulus": "Verzeih, ____ ich etwas misstrauisch bin.",
-    "options": [
-      "wenn",
-      "weil",
-      "als",
-      "seitdem"
-    ],
-    "answer": 0,
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:subordinate",
-        "mc"
-      ],
-      "groupId": "con:4121198826"
-    }
-  },
-  {
-    "id": "flow-con-t2-145",
-    "engine": "cloze",
-    "prompt": "Fill in the correct connector:",
-    "stimulus": "Die Fußabdrücke besagen, ____ ein Mensch verantwortlich ist.",
-    "answer": "dass",
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:subordinate"
-      ],
-      "groupId": "con:459726031"
-    }
-  },
-  {
-    "id": "flow-con-t2-146",
-    "engine": "mc",
-    "prompt": "Choose the correct connector:",
-    "stimulus": "Die Fußabdrücke besagen, ____ ein Mensch verantwortlich ist.",
-    "options": [
-      "seitdem",
-      "damit",
-      "weil",
-      "dass"
-    ],
-    "answer": 3,
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:subordinate",
-        "mc"
-      ],
-      "groupId": "con:459726031"
-    }
-  },
-  {
-    "id": "flow-con-t2-147",
-    "engine": "cloze",
-    "prompt": "Fill in the correct connector:",
-    "stimulus": "Lass uns ____ Karten spielen.",
-    "answer": "stattdessen",
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:main"
-      ],
-      "groupId": "con:3811932225"
-    }
-  },
-  {
-    "id": "flow-con-t2-148",
-    "engine": "mc",
-    "prompt": "Choose the correct connector:",
-    "stimulus": "Lass uns ____ Karten spielen.",
-    "options": [
-      "jedoch",
-      "deshalb",
-      "außerdem",
-      "stattdessen"
-    ],
-    "answer": 3,
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:main",
-        "mc"
-      ],
-      "groupId": "con:3811932225"
-    }
-  },
-  {
-    "id": "flow-con-t2-149",
-    "engine": "cloze",
-    "prompt": "Fill in the correct connector:",
-    "stimulus": "Weil ich verzweifelt bin, ____.",
-    "answer": "deshalb",
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:main"
-      ],
-      "groupId": "con:1187796693"
-    }
-  },
-  {
-    "id": "flow-con-t2-150",
-    "engine": "mc",
-    "prompt": "Choose the correct connector:",
-    "stimulus": "Weil ich verzweifelt bin, ____.",
-    "options": [
-      "daher",
-      "denn",
-      "stattdessen",
-      "deshalb"
-    ],
-    "answer": 3,
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:main",
-        "mc"
-      ],
-      "groupId": "con:1187796693"
-    }
-  },
-  {
-    "id": "flow-con-t2-151",
-    "engine": "cloze",
-    "prompt": "Fill in the correct connector:",
-    "stimulus": "Ich werde ____ den Standpunkt der Kommission getreu vertreten.",
-    "answer": "jedoch",
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:main"
-      ],
-      "groupId": "con:3210288963"
-    }
-  },
-  {
-    "id": "flow-con-t2-152",
-    "engine": "mc",
-    "prompt": "Choose the correct connector:",
-    "stimulus": "Ich werde ____ den Standpunkt der Kommission getreu vertreten.",
-    "options": [
-      "denn",
-      "daher",
-      "sondern",
-      "jedoch"
-    ],
-    "answer": 3,
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:main",
-        "mc"
-      ],
-      "groupId": "con:3210288963"
-    }
-  },
-  {
-    "id": "flow-con-t2-153",
-    "engine": "cloze",
-    "prompt": "Fill in the correct connector:",
-    "stimulus": "Das Schaf Dolly ändert ____ alles.",
-    "answer": "jedoch",
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:main"
-      ],
-      "groupId": "con:1364084545"
-    }
-  },
-  {
-    "id": "flow-con-t2-154",
-    "engine": "mc",
-    "prompt": "Choose the correct connector:",
-    "stimulus": "Das Schaf Dolly ändert ____ alles.",
-    "options": [
-      "sondern",
-      "hingegen",
-      "denn",
-      "jedoch"
-    ],
-    "answer": 3,
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:main",
-        "mc"
-      ],
-      "groupId": "con:1364084545"
-    }
-  },
-  {
-    "id": "flow-con-t2-155",
-    "engine": "cloze",
-    "prompt": "Fill in the correct connector:",
-    "stimulus": "Ich fühle mich nicht mehr sehr britisch, ____ immer schottischer.",
-    "answer": "sondern",
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:main"
-      ],
-      "groupId": "con:4273182439"
-    }
-  },
-  {
-    "id": "flow-con-t2-156",
-    "engine": "mc",
-    "prompt": "Choose the correct connector:",
-    "stimulus": "Ich fühle mich nicht mehr sehr britisch, ____ immer schottischer.",
-    "options": [
-      "deshalb",
-      "außerdem",
-      "dennoch",
-      "sondern"
-    ],
-    "answer": 3,
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:main",
-        "mc"
-      ],
-      "groupId": "con:4273182439"
-    }
-  },
-  {
-    "id": "flow-con-t2-157",
-    "engine": "cloze",
-    "prompt": "Fill in the correct connector:",
-    "stimulus": "Ihrer Meinung nach könnten ____ noch Konflikte entstehen.",
-    "answer": "trotzdem",
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:main"
-      ],
-      "groupId": "con:725391746"
-    }
-  },
-  {
-    "id": "flow-con-t2-158",
-    "engine": "mc",
-    "prompt": "Choose the correct connector:",
-    "stimulus": "Ihrer Meinung nach könnten ____ noch Konflikte entstehen.",
-    "options": [
-      "stattdessen",
-      "hingegen",
-      "daher",
-      "trotzdem"
-    ],
-    "answer": 3,
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:main",
-        "mc"
-      ],
-      "groupId": "con:725391746"
-    }
-  },
-  {
-    "id": "flow-con-t2-159",
-    "engine": "cloze",
-    "prompt": "Fill in the correct connector:",
-    "stimulus": "Und kein Golf donnerstags, ____ du musst Jane ins Ballett bringen.",
-    "answer": "denn",
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:main"
-      ],
-      "groupId": "con:2191981532"
-    }
-  },
-  {
-    "id": "flow-con-t2-160",
-    "engine": "mc",
-    "prompt": "Choose the correct connector:",
-    "stimulus": "Und kein Golf donnerstags, ____ du musst Jane ins Ballett bringen.",
-    "options": [
-      "deshalb",
-      "daher",
-      "trotzdem",
-      "denn"
-    ],
-    "answer": 3,
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:main",
-        "mc"
-      ],
-      "groupId": "con:2191981532"
-    }
-  },
-  {
-    "id": "flow-con-t2-161",
-    "engine": "cloze",
-    "prompt": "Fill in the correct connector:",
-    "stimulus": "Das ist nicht lila, ____ Lavendel.",
-    "answer": "sondern",
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:main"
-      ],
-      "groupId": "con:1330441881"
-    }
-  },
-  {
-    "id": "flow-con-t2-162",
-    "engine": "mc",
-    "prompt": "Choose the correct connector:",
-    "stimulus": "Das ist nicht lila, ____ Lavendel.",
-    "options": [
-      "sondern",
-      "stattdessen",
-      "außerdem",
-      "daher"
-    ],
-    "answer": 0,
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:main",
-        "mc"
-      ],
-      "groupId": "con:1330441881"
-    }
-  },
-  {
-    "id": "flow-con-t2-163",
-    "engine": "cloze",
-    "prompt": "Fill in the correct connector:",
-    "stimulus": "Die infizierten Datendateien verbreiten den Virus ____ nicht.",
-    "answer": "jedoch",
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:main"
-      ],
-      "groupId": "con:1489297985"
-    }
-  },
-  {
-    "id": "flow-con-t2-164",
-    "engine": "mc",
-    "prompt": "Choose the correct connector:",
-    "stimulus": "Die infizierten Datendateien verbreiten den Virus ____ nicht.",
-    "options": [
-      "sondern",
-      "trotzdem",
-      "jedoch",
-      "dennoch"
-    ],
-    "answer": 2,
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:main",
-        "mc"
-      ],
-      "groupId": "con:1489297985"
-    }
-  },
-  {
-    "id": "flow-con-t2-165",
-    "engine": "cloze",
-    "prompt": "Fill in the correct connector:",
-    "stimulus": "Der Zusatzstoff sollte ____ unbefristet zugelassen werden.",
-    "answer": "daher",
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:main"
-      ],
-      "groupId": "con:1864359915"
-    }
-  },
-  {
-    "id": "flow-con-t2-166",
-    "engine": "mc",
-    "prompt": "Choose the correct connector:",
-    "stimulus": "Der Zusatzstoff sollte ____ unbefristet zugelassen werden.",
-    "options": [
-      "trotzdem",
-      "daher",
-      "denn",
-      "hingegen"
-    ],
-    "answer": 1,
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:main",
-        "mc"
-      ],
-      "groupId": "con:1864359915"
-    }
-  },
-  {
-    "id": "flow-con-t2-167",
-    "engine": "cloze",
-    "prompt": "Fill in the correct connector:",
-    "stimulus": "Andere Aktionen können ____ einen kontinuierlichen Wert erzeugen.",
-    "answer": "jedoch",
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:main"
-      ],
-      "groupId": "con:2260420057"
-    }
-  },
-  {
-    "id": "flow-con-t2-168",
-    "engine": "mc",
-    "prompt": "Choose the correct connector:",
-    "stimulus": "Andere Aktionen können ____ einen kontinuierlichen Wert erzeugen.",
-    "options": [
-      "deshalb",
-      "außerdem",
-      "jedoch",
-      "trotzdem"
-    ],
-    "answer": 2,
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:main",
-        "mc"
-      ],
-      "groupId": "con:2260420057"
-    }
-  },
-  {
-    "id": "flow-con-t2-169",
-    "engine": "cloze",
-    "prompt": "Fill in the correct connector:",
-    "stimulus": "Vielleicht war er ____ so aufgebracht.",
-    "answer": "deshalb",
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:main"
-      ],
-      "groupId": "con:1864107690"
-    }
-  },
-  {
-    "id": "flow-con-t2-170",
-    "engine": "mc",
-    "prompt": "Choose the correct connector:",
-    "stimulus": "Vielleicht war er ____ so aufgebracht.",
-    "options": [
-      "hingegen",
-      "denn",
-      "deshalb",
-      "stattdessen"
-    ],
-    "answer": 2,
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:main",
-        "mc"
-      ],
-      "groupId": "con:1864107690"
-    }
-  },
-  {
-    "id": "flow-con-t2-171",
-    "engine": "cloze",
-    "prompt": "Fill in the correct connector:",
-    "stimulus": "Einige Wirkungen sind ____ universal oder zumindest sehr verbreitet.",
-    "answer": "jedoch",
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:main"
-      ],
-      "groupId": "con:417103215"
-    }
-  },
-  {
-    "id": "flow-con-t2-172",
-    "engine": "mc",
-    "prompt": "Choose the correct connector:",
-    "stimulus": "Einige Wirkungen sind ____ universal oder zumindest sehr verbreitet.",
-    "options": [
-      "sondern",
-      "deshalb",
-      "dennoch",
-      "jedoch"
-    ],
-    "answer": 3,
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:main",
-        "mc"
-      ],
-      "groupId": "con:417103215"
-    }
-  },
-  {
-    "id": "flow-con-t2-173",
-    "engine": "cloze",
-    "prompt": "Fill in the correct connector:",
-    "stimulus": "Genau ____ warten wir nicht auf einen Durchsuchungsbefehl.",
-    "answer": "deshalb",
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:main"
-      ],
-      "groupId": "con:1647773668"
-    }
-  },
-  {
-    "id": "flow-con-t2-174",
-    "engine": "mc",
-    "prompt": "Choose the correct connector:",
-    "stimulus": "Genau ____ warten wir nicht auf einen Durchsuchungsbefehl.",
-    "options": [
-      "deshalb",
-      "denn",
-      "hingegen",
-      "dennoch"
-    ],
-    "answer": 0,
-    "metadata": {
-      "cefr": "B1",
-      "system": "flow",
-      "module": "connectors",
-      "tier": 2,
-      "tags": [
-        "connector:main",
-        "mc"
-      ],
-      "groupId": "con:1647773668"
-    }
-  }
+    id: "flow-con-t2-001",
+    engine: "cloze",
+    prompt: "Fill in the correct connector:",
+    stimulus: "Sieh zu, ____ du pünktlich zurück bist.",
+    answer: "dass",
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:subordinate"],
+      groupId: "con:1402113641",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-002",
+    engine: "mc",
+    prompt: "Choose the correct connector:",
+    stimulus: "Sieh zu, ____ du pünktlich zurück bist.",
+    options: ["als", "obwohl", "damit", "dass"],
+    answer: 3,
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:subordinate", "mc"],
+      groupId: "con:1402113641",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-003",
+    engine: "cloze",
+    prompt: "Fill in the correct connector:",
+    stimulus: "Bald sind wir pleite, ____ wir nicht aufhören, Geld auszugeben.",
+    answer: "wenn",
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:subordinate"],
+      groupId: "con:1725988923",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-004",
+    engine: "mc",
+    prompt: "Choose the correct connector:",
+    stimulus: "Bald sind wir pleite, ____ wir nicht aufhören, Geld auszugeben.",
+    options: ["als", "dass", "wenn", "während"],
+    answer: 2,
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:subordinate", "mc"],
+      groupId: "con:1725988923",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-005",
+    engine: "cloze",
+    prompt: "Fill in the correct connector:",
+    stimulus:
+      "Die Granate ist explodiert, ____ der Terrorist sie werfen konnte.",
+    answer: "bevor",
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:subordinate"],
+      groupId: "con:3074594085",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-006",
+    engine: "mc",
+    prompt: "Choose the correct connector:",
+    stimulus:
+      "Die Granate ist explodiert, ____ der Terrorist sie werfen konnte.",
+    options: ["dass", "falls", "bevor", "während"],
+    answer: 2,
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:subordinate", "mc"],
+      groupId: "con:3074594085",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-007",
+    engine: "cloze",
+    prompt: "Fill in the correct connector:",
+    stimulus: "Meine Quellen sagen mir, ____ die Russen etwas planen.",
+    answer: "dass",
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:subordinate"],
+      groupId: "con:4037874966",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-008",
+    engine: "mc",
+    prompt: "Choose the correct connector:",
+    stimulus: "Meine Quellen sagen mir, ____ die Russen etwas planen.",
+    options: ["dass", "nachdem", "seitdem", "als"],
+    answer: 0,
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:subordinate", "mc"],
+      groupId: "con:4037874966",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-009",
+    engine: "cloze",
+    prompt: "Fill in the correct connector:",
+    stimulus: "Sie betrachten es ____ eine Vorsichtsmaßnahme.",
+    answer: "als",
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:subordinate"],
+      groupId: "con:590735058",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-010",
+    engine: "mc",
+    prompt: "Choose the correct connector:",
+    stimulus: "Sie betrachten es ____ eine Vorsichtsmaßnahme.",
+    options: ["damit", "seitdem", "als", "dass"],
+    answer: 2,
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:subordinate", "mc"],
+      groupId: "con:590735058",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-011",
+    engine: "cloze",
+    prompt: "Fill in the correct connector:",
+    stimulus: "John machte mir ein Angebot, ____ ich nicht ablehnen konnte.",
+    answer: "dass",
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:subordinate"],
+      groupId: "con:3704280355",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-012",
+    engine: "mc",
+    prompt: "Choose the correct connector:",
+    stimulus: "John machte mir ein Angebot, ____ ich nicht ablehnen konnte.",
+    options: ["bevor", "obwohl", "falls", "dass"],
+    answer: 3,
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:subordinate", "mc"],
+      groupId: "con:3704280355",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-013",
+    engine: "cloze",
+    prompt: "Fill in the correct connector:",
+    stimulus: "Ich bin froh, ____ ich dich amüsiere.",
+    answer: "dass",
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:subordinate"],
+      groupId: "con:3263222934",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-014",
+    engine: "mc",
+    prompt: "Choose the correct connector:",
+    stimulus: "Ich bin froh, ____ ich dich amüsiere.",
+    options: ["dass", "wenn", "nachdem", "bevor"],
+    answer: 0,
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:subordinate", "mc"],
+      groupId: "con:3263222934",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-015",
+    engine: "cloze",
+    prompt: "Fill in the correct connector:",
+    stimulus: "Ich dachte mir, ich sollte dort ____ Erstes nachsehen.",
+    answer: "als",
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:subordinate"],
+      groupId: "con:3061924243",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-016",
+    engine: "mc",
+    prompt: "Choose the correct connector:",
+    stimulus: "Ich dachte mir, ich sollte dort ____ Erstes nachsehen.",
+    options: ["bevor", "obwohl", "seitdem", "als"],
+    answer: 3,
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:subordinate", "mc"],
+      groupId: "con:3061924243",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-017",
+    engine: "cloze",
+    prompt: "Fill in the correct connector:",
+    stimulus: "Du weißt, ____ es bescheuert ist, oder?",
+    answer: "dass",
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:subordinate"],
+      groupId: "con:625068690",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-018",
+    engine: "mc",
+    prompt: "Choose the correct connector:",
+    stimulus: "Du weißt, ____ es bescheuert ist, oder?",
+    options: ["dass", "sobald", "während", "obwohl"],
+    answer: 0,
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:subordinate", "mc"],
+      groupId: "con:625068690",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-019",
+    engine: "cloze",
+    prompt: "Fill in the correct connector:",
+    stimulus: "Wenn du hinsiehst, wird dir auffallen, ____ er links abbiegt.",
+    answer: "dass",
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:subordinate"],
+      groupId: "con:4109666829",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-020",
+    engine: "mc",
+    prompt: "Choose the correct connector:",
+    stimulus: "Wenn du hinsiehst, wird dir auffallen, ____ er links abbiegt.",
+    options: ["obwohl", "damit", "seitdem", "dass"],
+    answer: 3,
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:subordinate", "mc"],
+      groupId: "con:4109666829",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-021",
+    engine: "cloze",
+    prompt: "Fill in the correct connector:",
+    stimulus: "Er will, ____ wir einsteigen.",
+    answer: "dass",
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:subordinate"],
+      groupId: "con:3295302086",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-022",
+    engine: "mc",
+    prompt: "Choose the correct connector:",
+    stimulus: "Er will, ____ wir einsteigen.",
+    options: ["obwohl", "während", "dass", "seitdem"],
+    answer: 2,
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:subordinate", "mc"],
+      groupId: "con:3295302086",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-023",
+    engine: "cloze",
+    prompt: "Fill in the correct connector:",
+    stimulus: "Der Dichter lebte etwas mehr ____ zwanzig Jahre hier.",
+    answer: "als",
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:subordinate"],
+      groupId: "con:1283605111",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-024",
+    engine: "mc",
+    prompt: "Choose the correct connector:",
+    stimulus: "Der Dichter lebte etwas mehr ____ zwanzig Jahre hier.",
+    options: ["seitdem", "als", "damit", "dass"],
+    answer: 1,
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:subordinate", "mc"],
+      groupId: "con:1283605111",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-025",
+    engine: "cloze",
+    prompt: "Fill in the correct connector:",
+    stimulus:
+      "Bitte lass es mich bis Mittwoch wissen, ____ du nicht teilnehmen kannst.",
+    answer: "wenn",
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:subordinate"],
+      groupId: "con:428868412",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-026",
+    engine: "mc",
+    prompt: "Choose the correct connector:",
+    stimulus:
+      "Bitte lass es mich bis Mittwoch wissen, ____ du nicht teilnehmen kannst.",
+    options: ["damit", "seitdem", "als", "wenn"],
+    answer: 3,
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:subordinate", "mc"],
+      groupId: "con:428868412",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-027",
+    engine: "cloze",
+    prompt: "Fill in the correct connector:",
+    stimulus: "Ich muss verschwinden, ____ sie auftauchen.",
+    answer: "bevor",
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:subordinate"],
+      groupId: "con:1942356294",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-028",
+    engine: "mc",
+    prompt: "Choose the correct connector:",
+    stimulus: "Ich muss verschwinden, ____ sie auftauchen.",
+    options: ["weil", "als", "bevor", "seitdem"],
+    answer: 2,
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:subordinate", "mc"],
+      groupId: "con:1942356294",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-029",
+    engine: "cloze",
+    prompt: "Fill in the correct connector:",
+    stimulus:
+      "Ich denke, es ist gut, ____ Bücher noch existieren, aber sie machen mich schläfrig.",
+    answer: "dass",
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:subordinate"],
+      groupId: "con:918988775",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-030",
+    engine: "mc",
+    prompt: "Choose the correct connector:",
+    stimulus:
+      "Ich denke, es ist gut, ____ Bücher noch existieren, aber sie machen mich schläfrig.",
+    options: ["bevor", "weil", "seitdem", "dass"],
+    answer: 3,
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:subordinate", "mc"],
+      groupId: "con:918988775",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-031",
+    engine: "cloze",
+    prompt: "Fill in the correct connector:",
+    stimulus: "Wir sind schneller gegangen ____ üblich.",
+    answer: "als",
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:subordinate"],
+      groupId: "con:3492677151",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-032",
+    engine: "mc",
+    prompt: "Choose the correct connector:",
+    stimulus: "Wir sind schneller gegangen ____ üblich.",
+    options: ["sobald", "nachdem", "als", "weil"],
+    answer: 2,
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:subordinate", "mc"],
+      groupId: "con:3492677151",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-033",
+    engine: "cloze",
+    prompt: "Fill in the correct connector:",
+    stimulus: "Benutze deinen Schlüssel, ____ die Glocke ertönt.",
+    answer: "wenn",
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:subordinate"],
+      groupId: "con:608276444",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-034",
+    engine: "mc",
+    prompt: "Choose the correct connector:",
+    stimulus: "Benutze deinen Schlüssel, ____ die Glocke ertönt.",
+    options: ["falls", "während", "obwohl", "wenn"],
+    answer: 3,
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:subordinate", "mc"],
+      groupId: "con:608276444",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-035",
+    engine: "cloze",
+    prompt: "Fill in the correct connector:",
+    stimulus: "Sie denkt, ich sei mieser ____ Abschaum.",
+    answer: "als",
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:subordinate"],
+      groupId: "con:2175539312",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-036",
+    engine: "mc",
+    prompt: "Choose the correct connector:",
+    stimulus: "Sie denkt, ich sei mieser ____ Abschaum.",
+    options: ["sobald", "seitdem", "wenn", "als"],
+    answer: 3,
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:subordinate", "mc"],
+      groupId: "con:2175539312",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-037",
+    engine: "cloze",
+    prompt: "Fill in the correct connector:",
+    stimulus:
+      "Letztendlich wird jemand John sagen müssen, ____ er sich zu benehmen hat.",
+    answer: "dass",
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:subordinate"],
+      groupId: "con:133233628",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-038",
+    engine: "mc",
+    prompt: "Choose the correct connector:",
+    stimulus:
+      "Letztendlich wird jemand John sagen müssen, ____ er sich zu benehmen hat.",
+    options: ["dass", "sobald", "obwohl", "bevor"],
+    answer: 0,
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:subordinate", "mc"],
+      groupId: "con:133233628",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-039",
+    engine: "cloze",
+    prompt: "Fill in the correct connector:",
+    stimulus: "Standardmäßig ist das Zeichenblatt höher ____ breit.",
+    answer: "als",
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:subordinate"],
+      groupId: "con:1042203514",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-040",
+    engine: "mc",
+    prompt: "Choose the correct connector:",
+    stimulus: "Standardmäßig ist das Zeichenblatt höher ____ breit.",
+    options: ["falls", "bevor", "obwohl", "als"],
+    answer: 3,
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:subordinate", "mc"],
+      groupId: "con:1042203514",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-041",
+    engine: "cloze",
+    prompt: "Fill in the correct connector:",
+    stimulus: "Ich denke, ____ du genial bist.",
+    answer: "dass",
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:subordinate"],
+      groupId: "con:1989955960",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-042",
+    engine: "mc",
+    prompt: "Choose the correct connector:",
+    stimulus: "Ich denke, ____ du genial bist.",
+    options: ["bevor", "nachdem", "seitdem", "dass"],
+    answer: 3,
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:subordinate", "mc"],
+      groupId: "con:1989955960",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-043",
+    engine: "cloze",
+    prompt: "Fill in the correct connector:",
+    stimulus: "Er verdient mehr Geld, ____ er ausgeben kann.",
+    answer: "als",
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:subordinate"],
+      groupId: "con:4197518224",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-044",
+    engine: "mc",
+    prompt: "Choose the correct connector:",
+    stimulus: "Er verdient mehr Geld, ____ er ausgeben kann.",
+    options: ["als", "falls", "damit", "wenn"],
+    answer: 0,
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:subordinate", "mc"],
+      groupId: "con:4197518224",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-045",
+    engine: "cloze",
+    prompt: "Fill in the correct connector:",
+    stimulus: "Diese Verschwörung reicht höher hinauf ____ gedacht.",
+    answer: "als",
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:subordinate"],
+      groupId: "con:4225979028",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-046",
+    engine: "mc",
+    prompt: "Choose the correct connector:",
+    stimulus: "Diese Verschwörung reicht höher hinauf ____ gedacht.",
+    options: ["während", "falls", "sobald", "als"],
+    answer: 3,
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:subordinate", "mc"],
+      groupId: "con:4225979028",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-047",
+    engine: "cloze",
+    prompt: "Fill in the correct connector:",
+    stimulus: "Er war brillant, sogar ____ Junge.",
+    answer: "als",
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:subordinate"],
+      groupId: "con:178997327",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-048",
+    engine: "mc",
+    prompt: "Choose the correct connector:",
+    stimulus: "Er war brillant, sogar ____ Junge.",
+    options: ["weil", "als", "dass", "wenn"],
+    answer: 1,
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:subordinate", "mc"],
+      groupId: "con:178997327",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-049",
+    engine: "cloze",
+    prompt: "Fill in the correct connector:",
+    stimulus: "Wir sind lediglich ____ neugierige Beobachter gekommen.",
+    answer: "als",
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:subordinate"],
+      groupId: "con:17957026",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-050",
+    engine: "mc",
+    prompt: "Choose the correct connector:",
+    stimulus: "Wir sind lediglich ____ neugierige Beobachter gekommen.",
+    options: ["bevor", "als", "nachdem", "dass"],
+    answer: 1,
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:subordinate", "mc"],
+      groupId: "con:17957026",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-051",
+    engine: "cloze",
+    prompt: "Fill in the correct connector:",
+    stimulus: "Meine Freundin glaubt, ____ sie kotzen muss.",
+    answer: "dass",
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:subordinate"],
+      groupId: "con:3671102538",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-052",
+    engine: "mc",
+    prompt: "Choose the correct connector:",
+    stimulus: "Meine Freundin glaubt, ____ sie kotzen muss.",
+    options: ["dass", "bevor", "wenn", "weil"],
+    answer: 0,
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:subordinate", "mc"],
+      groupId: "con:3671102538",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-053",
+    engine: "cloze",
+    prompt: "Fill in the correct connector:",
+    stimulus: "Das war ____ ernsthafter Kommentar gedacht.",
+    answer: "als",
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:subordinate"],
+      groupId: "con:534985809",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-054",
+    engine: "mc",
+    prompt: "Choose the correct connector:",
+    stimulus: "Das war ____ ernsthafter Kommentar gedacht.",
+    options: ["obwohl", "sobald", "falls", "als"],
+    answer: 3,
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:subordinate", "mc"],
+      groupId: "con:534985809",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-055",
+    engine: "cloze",
+    prompt: "Fill in the correct connector:",
+    stimulus:
+      "Das Gehalt eines Lehrers ist niedriger ____ das eines Rechtsanwalts.",
+    answer: "als",
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:subordinate"],
+      groupId: "con:1708467847",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-056",
+    engine: "mc",
+    prompt: "Choose the correct connector:",
+    stimulus:
+      "Das Gehalt eines Lehrers ist niedriger ____ das eines Rechtsanwalts.",
+    options: ["während", "als", "falls", "seitdem"],
+    answer: 1,
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:subordinate", "mc"],
+      groupId: "con:1708467847",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-057",
+    engine: "cloze",
+    prompt: "Fill in the correct connector:",
+    stimulus: "Ihr habt mir nichts, ____ Schmerz und Elend gebracht.",
+    answer: "als",
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:subordinate"],
+      groupId: "con:2697499305",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-058",
+    engine: "mc",
+    prompt: "Choose the correct connector:",
+    stimulus: "Ihr habt mir nichts, ____ Schmerz und Elend gebracht.",
+    options: ["als", "sobald", "wenn", "seitdem"],
+    answer: 0,
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:subordinate", "mc"],
+      groupId: "con:2697499305",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-059",
+    engine: "cloze",
+    prompt: "Fill in the correct connector:",
+    stimulus: "Wir bezeichneten unsere Bewegung nie ____ politisch.",
+    answer: "als",
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:subordinate"],
+      groupId: "con:1348192290",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-060",
+    engine: "mc",
+    prompt: "Choose the correct connector:",
+    stimulus: "Wir bezeichneten unsere Bewegung nie ____ politisch.",
+    options: ["während", "weil", "damit", "als"],
+    answer: 3,
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:subordinate", "mc"],
+      groupId: "con:1348192290",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-061",
+    engine: "cloze",
+    prompt: "Fill in the correct connector:",
+    stimulus: "Ich konnte nicht ahnen, ____ das passieren würde.",
+    answer: "dass",
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:subordinate"],
+      groupId: "con:3238996607",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-062",
+    engine: "mc",
+    prompt: "Choose the correct connector:",
+    stimulus: "Ich konnte nicht ahnen, ____ das passieren würde.",
+    options: ["während", "dass", "weil", "wenn"],
+    answer: 1,
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:subordinate", "mc"],
+      groupId: "con:3238996607",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-063",
+    engine: "cloze",
+    prompt: "Fill in the correct connector:",
+    stimulus: "Ich juble einfach, ____ alle anderen jubeln.",
+    answer: "wenn",
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:subordinate"],
+      groupId: "con:2721697744",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-064",
+    engine: "mc",
+    prompt: "Choose the correct connector:",
+    stimulus: "Ich juble einfach, ____ alle anderen jubeln.",
+    options: ["obwohl", "als", "wenn", "damit"],
+    answer: 2,
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:subordinate", "mc"],
+      groupId: "con:2721697744",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-065",
+    engine: "cloze",
+    prompt: "Fill in the correct connector:",
+    stimulus:
+      "Beide Restaurants servieren sowohl lokale ____ auch kontinentale Spezialitäten.",
+    answer: "als",
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:subordinate"],
+      groupId: "con:3603601784",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-066",
+    engine: "mc",
+    prompt: "Choose the correct connector:",
+    stimulus:
+      "Beide Restaurants servieren sowohl lokale ____ auch kontinentale Spezialitäten.",
+    options: ["als", "seitdem", "während", "obwohl"],
+    answer: 0,
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:subordinate", "mc"],
+      groupId: "con:3603601784",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-067",
+    engine: "cloze",
+    prompt: "Fill in the correct connector:",
+    stimulus:
+      "Ich verspreche, ____ diese Diskussion die letzte ihrer sein wird.",
+    answer: "dass",
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:subordinate"],
+      groupId: "con:3183554610",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-068",
+    engine: "mc",
+    prompt: "Choose the correct connector:",
+    stimulus:
+      "Ich verspreche, ____ diese Diskussion die letzte ihrer sein wird.",
+    options: ["dass", "seitdem", "falls", "als"],
+    answer: 0,
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:subordinate", "mc"],
+      groupId: "con:3183554610",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-069",
+    engine: "cloze",
+    prompt: "Fill in the correct connector:",
+    stimulus: "Sie würde zittern, ____ du sie berührst.",
+    answer: "wenn",
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:subordinate"],
+      groupId: "con:2802115174",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-070",
+    engine: "mc",
+    prompt: "Choose the correct connector:",
+    stimulus: "Sie würde zittern, ____ du sie berührst.",
+    options: ["wenn", "damit", "seitdem", "falls"],
+    answer: 0,
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:subordinate", "mc"],
+      groupId: "con:2802115174",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-071",
+    engine: "cloze",
+    prompt: "Fill in the correct connector:",
+    stimulus: "Er war nie besser ____ unter Johns Regie.",
+    answer: "als",
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:subordinate"],
+      groupId: "con:1751134796",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-072",
+    engine: "mc",
+    prompt: "Choose the correct connector:",
+    stimulus: "Er war nie besser ____ unter Johns Regie.",
+    options: ["als", "sobald", "obwohl", "wenn"],
+    answer: 0,
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:subordinate", "mc"],
+      groupId: "con:1751134796",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-073",
+    engine: "cloze",
+    prompt: "Fill in the correct connector:",
+    stimulus: "Ich glaube nicht, ____ John an dem Skandal beteiligt war.",
+    answer: "dass",
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:subordinate"],
+      groupId: "con:356046695",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-074",
+    engine: "mc",
+    prompt: "Choose the correct connector:",
+    stimulus: "Ich glaube nicht, ____ John an dem Skandal beteiligt war.",
+    options: ["als", "obwohl", "wenn", "dass"],
+    answer: 3,
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:subordinate", "mc"],
+      groupId: "con:356046695",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-075",
+    engine: "cloze",
+    prompt: "Fill in the correct connector:",
+    stimulus: "Ich möchte, ____ Sie das Treffen organisieren.",
+    answer: "dass",
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:subordinate"],
+      groupId: "con:2737210638",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-076",
+    engine: "mc",
+    prompt: "Choose the correct connector:",
+    stimulus: "Ich möchte, ____ Sie das Treffen organisieren.",
+    options: ["dass", "wenn", "als", "seitdem"],
+    answer: 0,
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:subordinate", "mc"],
+      groupId: "con:2737210638",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-077",
+    engine: "cloze",
+    prompt: "Fill in the correct connector:",
+    stimulus:
+      "Ich habe es meinem Arzt zu verdanken, ____ ich noch am Leben bin.",
+    answer: "dass",
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:subordinate"],
+      groupId: "con:2633843138",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-078",
+    engine: "mc",
+    prompt: "Choose the correct connector:",
+    stimulus:
+      "Ich habe es meinem Arzt zu verdanken, ____ ich noch am Leben bin.",
+    options: ["dass", "damit", "obwohl", "nachdem"],
+    answer: 0,
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:subordinate", "mc"],
+      groupId: "con:2633843138",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-079",
+    engine: "cloze",
+    prompt: "Fill in the correct connector:",
+    stimulus: "Dann ist es kein Wunder, ____ sie deine Ex ist.",
+    answer: "dass",
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:subordinate"],
+      groupId: "con:2706440506",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-080",
+    engine: "mc",
+    prompt: "Choose the correct connector:",
+    stimulus: "Dann ist es kein Wunder, ____ sie deine Ex ist.",
+    options: ["damit", "bevor", "dass", "als"],
+    answer: 2,
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:subordinate", "mc"],
+      groupId: "con:2706440506",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-081",
+    engine: "cloze",
+    prompt: "Fill in the correct connector:",
+    stimulus:
+      "Anderenfalls kann es vorkommen, ____ Objekte nicht einheitlich dargestellt werden.",
+    answer: "dass",
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:subordinate"],
+      groupId: "con:1120421277",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-082",
+    engine: "mc",
+    prompt: "Choose the correct connector:",
+    stimulus:
+      "Anderenfalls kann es vorkommen, ____ Objekte nicht einheitlich dargestellt werden.",
+    options: ["bevor", "dass", "obwohl", "weil"],
+    answer: 1,
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:subordinate", "mc"],
+      groupId: "con:1120421277",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-083",
+    engine: "cloze",
+    prompt: "Fill in the correct connector:",
+    stimulus: "Ich arbeitete ____ Buchhalter im Familienunternehmen.",
+    answer: "als",
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:subordinate"],
+      groupId: "con:3234663176",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-084",
+    engine: "mc",
+    prompt: "Choose the correct connector:",
+    stimulus: "Ich arbeitete ____ Buchhalter im Familienunternehmen.",
+    options: ["wenn", "nachdem", "als", "seitdem"],
+    answer: 2,
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:subordinate", "mc"],
+      groupId: "con:3234663176",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-085",
+    engine: "cloze",
+    prompt: "Fill in the correct connector:",
+    stimulus: "Sie muss sich ____ Wertegemeinschaft erweisen.",
+    answer: "als",
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:subordinate"],
+      groupId: "con:588734508",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-086",
+    engine: "mc",
+    prompt: "Choose the correct connector:",
+    stimulus: "Sie muss sich ____ Wertegemeinschaft erweisen.",
+    options: ["als", "seitdem", "wenn", "während"],
+    answer: 0,
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:subordinate", "mc"],
+      groupId: "con:588734508",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-087",
+    engine: "cloze",
+    prompt: "Fill in the correct connector:",
+    stimulus: "Sag mir, ____ du ein Feuerzeug hast.",
+    answer: "dass",
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:subordinate"],
+      groupId: "con:991472276",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-088",
+    engine: "mc",
+    prompt: "Choose the correct connector:",
+    stimulus: "Sag mir, ____ du ein Feuerzeug hast.",
+    options: ["obwohl", "falls", "dass", "wenn"],
+    answer: 2,
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:subordinate", "mc"],
+      groupId: "con:991472276",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-089",
+    engine: "cloze",
+    prompt: "Fill in the correct connector:",
+    stimulus: "Ich habe einen Kellner eingestellt, ____ du gehen kannst.",
+    answer: "damit",
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:subordinate"],
+      groupId: "con:814384271",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-090",
+    engine: "mc",
+    prompt: "Choose the correct connector:",
+    stimulus: "Ich habe einen Kellner eingestellt, ____ du gehen kannst.",
+    options: ["seitdem", "obwohl", "weil", "damit"],
+    answer: 3,
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:subordinate", "mc"],
+      groupId: "con:814384271",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-091",
+    engine: "cloze",
+    prompt: "Fill in the correct connector:",
+    stimulus: "Ich hasse Staub mehr ____ alles andere.",
+    answer: "als",
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:subordinate"],
+      groupId: "con:2985961450",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-092",
+    engine: "mc",
+    prompt: "Choose the correct connector:",
+    stimulus: "Ich hasse Staub mehr ____ alles andere.",
+    options: ["als", "weil", "nachdem", "falls"],
+    answer: 0,
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:subordinate", "mc"],
+      groupId: "con:2985961450",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-093",
+    engine: "cloze",
+    prompt: "Fill in the correct connector:",
+    stimulus: "Diese Rechtsgrundlage erscheint somit ____ geeignet.",
+    answer: "als",
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:subordinate"],
+      groupId: "con:2245981666",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-094",
+    engine: "mc",
+    prompt: "Choose the correct connector:",
+    stimulus: "Diese Rechtsgrundlage erscheint somit ____ geeignet.",
+    options: ["bevor", "wenn", "falls", "als"],
+    answer: 3,
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:subordinate", "mc"],
+      groupId: "con:2245981666",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-095",
+    engine: "cloze",
+    prompt: "Fill in the correct connector:",
+    stimulus: "Einige Leute könnten das ____ Verhaltensmuster bezeichnen.",
+    answer: "als",
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:subordinate"],
+      groupId: "con:2065768486",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-096",
+    engine: "mc",
+    prompt: "Choose the correct connector:",
+    stimulus: "Einige Leute könnten das ____ Verhaltensmuster bezeichnen.",
+    options: ["als", "falls", "damit", "weil"],
+    answer: 0,
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:subordinate", "mc"],
+      groupId: "con:2065768486",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-097",
+    engine: "cloze",
+    prompt: "Fill in the correct connector:",
+    stimulus: "Ich glaube, ____ wir uns eventuell nicht ganz verstanden haben.",
+    answer: "dass",
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:subordinate"],
+      groupId: "con:1252067104",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-098",
+    engine: "mc",
+    prompt: "Choose the correct connector:",
+    stimulus: "Ich glaube, ____ wir uns eventuell nicht ganz verstanden haben.",
+    options: ["seitdem", "sobald", "dass", "falls"],
+    answer: 2,
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:subordinate", "mc"],
+      groupId: "con:1252067104",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-099",
+    engine: "cloze",
+    prompt: "Fill in the correct connector:",
+    stimulus: "Ich hatte ____ Kind eine Katze.",
+    answer: "als",
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:subordinate"],
+      groupId: "con:4122076785",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-100",
+    engine: "mc",
+    prompt: "Choose the correct connector:",
+    stimulus: "Ich hatte ____ Kind eine Katze.",
+    options: ["falls", "als", "damit", "während"],
+    answer: 1,
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:subordinate", "mc"],
+      groupId: "con:4122076785",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-101",
+    engine: "cloze",
+    prompt: "Fill in the correct connector:",
+    stimulus:
+      "Selbst ____ sie dich umbringen, wird dein Name ewig weiterleben.",
+    answer: "wenn",
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:subordinate"],
+      groupId: "con:3449276865",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-102",
+    engine: "mc",
+    prompt: "Choose the correct connector:",
+    stimulus:
+      "Selbst ____ sie dich umbringen, wird dein Name ewig weiterleben.",
+    options: ["nachdem", "wenn", "während", "sobald"],
+    answer: 1,
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:subordinate", "mc"],
+      groupId: "con:3449276865",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-103",
+    engine: "cloze",
+    prompt: "Fill in the correct connector:",
+    stimulus:
+      "Du solltest jetzt einfach auflegen, ____ ich eine Pizza bestellen kann.",
+    answer: "damit",
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:subordinate"],
+      groupId: "con:3997172808",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-104",
+    engine: "mc",
+    prompt: "Choose the correct connector:",
+    stimulus:
+      "Du solltest jetzt einfach auflegen, ____ ich eine Pizza bestellen kann.",
+    options: ["falls", "obwohl", "dass", "damit"],
+    answer: 3,
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:subordinate", "mc"],
+      groupId: "con:3997172808",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-105",
+    engine: "cloze",
+    prompt: "Fill in the correct connector:",
+    stimulus: "Ich kann mich gelegentlich ____ identifizieren.",
+    answer: "damit",
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:subordinate"],
+      groupId: "con:2771069019",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-106",
+    engine: "mc",
+    prompt: "Choose the correct connector:",
+    stimulus: "Ich kann mich gelegentlich ____ identifizieren.",
+    options: ["nachdem", "weil", "damit", "sobald"],
+    answer: 2,
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:subordinate", "mc"],
+      groupId: "con:2771069019",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-107",
+    engine: "cloze",
+    prompt: "Fill in the correct connector:",
+    stimulus: "Sag ihr, ____ ich später zurückrufe.",
+    answer: "dass",
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:subordinate"],
+      groupId: "con:3354203475",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-108",
+    engine: "mc",
+    prompt: "Choose the correct connector:",
+    stimulus: "Sag ihr, ____ ich später zurückrufe.",
+    options: ["obwohl", "dass", "seitdem", "während"],
+    answer: 1,
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:subordinate", "mc"],
+      groupId: "con:3354203475",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-109",
+    engine: "cloze",
+    prompt: "Fill in the correct connector:",
+    stimulus: "Er erwartet, ____ das ganze Koks hier ist.",
+    answer: "dass",
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:subordinate"],
+      groupId: "con:3819257322",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-110",
+    engine: "mc",
+    prompt: "Choose the correct connector:",
+    stimulus: "Er erwartet, ____ das ganze Koks hier ist.",
+    options: ["bevor", "falls", "nachdem", "dass"],
+    answer: 3,
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:subordinate", "mc"],
+      groupId: "con:3819257322",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-111",
+    engine: "cloze",
+    prompt: "Fill in the correct connector:",
+    stimulus:
+      "Deine Großmutter hat immer gesagt, ____ du ein schlechter Same bist.",
+    answer: "dass",
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:subordinate"],
+      groupId: "con:3674743811",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-112",
+    engine: "mc",
+    prompt: "Choose the correct connector:",
+    stimulus:
+      "Deine Großmutter hat immer gesagt, ____ du ein schlechter Same bist.",
+    options: ["weil", "dass", "obwohl", "falls"],
+    answer: 1,
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:subordinate", "mc"],
+      groupId: "con:3674743811",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-113",
+    engine: "cloze",
+    prompt: "Fill in the correct connector:",
+    stimulus:
+      "Erstens sind große Unternehmen heutzutage multinational, ____ Regierungen weiter national sind.",
+    answer: "während",
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:subordinate"],
+      groupId: "con:235084324",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-114",
+    engine: "mc",
+    prompt: "Choose the correct connector:",
+    stimulus:
+      "Erstens sind große Unternehmen heutzutage multinational, ____ Regierungen weiter national sind.",
+    options: ["während", "bevor", "als", "wenn"],
+    answer: 0,
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:subordinate", "mc"],
+      groupId: "con:235084324",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-115",
+    engine: "cloze",
+    prompt: "Fill in the correct connector:",
+    stimulus:
+      "Wir sind der Meinung, ____ seine Suspendierung vollkommen ungerecht war.",
+    answer: "dass",
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:subordinate"],
+      groupId: "con:3262093797",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-116",
+    engine: "mc",
+    prompt: "Choose the correct connector:",
+    stimulus:
+      "Wir sind der Meinung, ____ seine Suspendierung vollkommen ungerecht war.",
+    options: ["dass", "bevor", "damit", "nachdem"],
+    answer: 0,
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:subordinate", "mc"],
+      groupId: "con:3262093797",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-117",
+    engine: "cloze",
+    prompt: "Fill in the correct connector:",
+    stimulus: "Das Stillen ist einfacher, ____ das Baby neben dir schläft.",
+    answer: "wenn",
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:subordinate"],
+      groupId: "con:1140413732",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-118",
+    engine: "mc",
+    prompt: "Choose the correct connector:",
+    stimulus: "Das Stillen ist einfacher, ____ das Baby neben dir schläft.",
+    options: ["als", "dass", "wenn", "weil"],
+    answer: 2,
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:subordinate", "mc"],
+      groupId: "con:1140413732",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-119",
+    engine: "cloze",
+    prompt: "Fill in the correct connector:",
+    stimulus: "Leute verkleiden sich ____ ihre Lieblingsfilmfigur.",
+    answer: "als",
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:subordinate"],
+      groupId: "con:2576703314",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-120",
+    engine: "mc",
+    prompt: "Choose the correct connector:",
+    stimulus: "Leute verkleiden sich ____ ihre Lieblingsfilmfigur.",
+    options: ["als", "nachdem", "während", "seitdem"],
+    answer: 0,
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:subordinate", "mc"],
+      groupId: "con:2576703314",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-121",
+    engine: "cloze",
+    prompt: "Fill in the correct connector:",
+    stimulus:
+      "Der architektonische Stil der Kirche ist sowohl elegant ____ auch streng.",
+    answer: "als",
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:subordinate"],
+      groupId: "con:376817239",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-122",
+    engine: "mc",
+    prompt: "Choose the correct connector:",
+    stimulus:
+      "Der architektonische Stil der Kirche ist sowohl elegant ____ auch streng.",
+    options: ["obwohl", "nachdem", "als", "während"],
+    answer: 2,
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:subordinate", "mc"],
+      groupId: "con:376817239",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-123",
+    engine: "cloze",
+    prompt: "Fill in the correct connector:",
+    stimulus: "Pass auf, ____ du Sporen nicht einatmest; sie sind tödlich.",
+    answer: "dass",
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:subordinate"],
+      groupId: "con:1119742165",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-124",
+    engine: "mc",
+    prompt: "Choose the correct connector:",
+    stimulus: "Pass auf, ____ du Sporen nicht einatmest; sie sind tödlich.",
+    options: ["dass", "sobald", "damit", "seitdem"],
+    answer: 0,
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:subordinate", "mc"],
+      groupId: "con:1119742165",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-125",
+    engine: "cloze",
+    prompt: "Fill in the correct connector:",
+    stimulus: "Nicht ____ eines Gewitters anschließen oder verwenden.",
+    answer: "während",
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:subordinate"],
+      groupId: "con:637424",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-126",
+    engine: "mc",
+    prompt: "Choose the correct connector:",
+    stimulus: "Nicht ____ eines Gewitters anschließen oder verwenden.",
+    options: ["dass", "seitdem", "während", "bevor"],
+    answer: 2,
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:subordinate", "mc"],
+      groupId: "con:637424",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-127",
+    engine: "cloze",
+    prompt: "Fill in the correct connector:",
+    stimulus:
+      "Sie können den Wochentag ausschreiben oder ____ Abkürzung eingeben.",
+    answer: "als",
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:subordinate"],
+      groupId: "con:2490491936",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-128",
+    engine: "mc",
+    prompt: "Choose the correct connector:",
+    stimulus:
+      "Sie können den Wochentag ausschreiben oder ____ Abkürzung eingeben.",
+    options: ["obwohl", "weil", "als", "sobald"],
+    answer: 2,
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:subordinate", "mc"],
+      groupId: "con:2490491936",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-129",
+    engine: "cloze",
+    prompt: "Fill in the correct connector:",
+    stimulus: "Ich glaube, du hast mehr zu beichten ____ jeder andere hier.",
+    answer: "als",
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:subordinate"],
+      groupId: "con:3844484036",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-130",
+    engine: "mc",
+    prompt: "Choose the correct connector:",
+    stimulus: "Ich glaube, du hast mehr zu beichten ____ jeder andere hier.",
+    options: ["als", "obwohl", "dass", "während"],
+    answer: 0,
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:subordinate", "mc"],
+      groupId: "con:3844484036",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-131",
+    engine: "cloze",
+    prompt: "Fill in the correct connector:",
+    stimulus: "Ich weiß, ____ du keine Nutte bist.",
+    answer: "dass",
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:subordinate"],
+      groupId: "con:2582624847",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-132",
+    engine: "mc",
+    prompt: "Choose the correct connector:",
+    stimulus: "Ich weiß, ____ du keine Nutte bist.",
+    options: ["falls", "bevor", "dass", "während"],
+    answer: 2,
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:subordinate", "mc"],
+      groupId: "con:2582624847",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-133",
+    engine: "cloze",
+    prompt: "Fill in the correct connector:",
+    stimulus: "Ich befürchte, ____ ich mich dort langweile.",
+    answer: "dass",
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:subordinate"],
+      groupId: "con:3528572135",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-134",
+    engine: "mc",
+    prompt: "Choose the correct connector:",
+    stimulus: "Ich befürchte, ____ ich mich dort langweile.",
+    options: ["während", "falls", "dass", "nachdem"],
+    answer: 2,
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:subordinate", "mc"],
+      groupId: "con:3528572135",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-135",
+    engine: "cloze",
+    prompt: "Fill in the correct connector:",
+    stimulus:
+      "Ich hoffe, er ist auch mal so aufgelöst, ____ er mit mir Schluss macht.",
+    answer: "wenn",
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:subordinate"],
+      groupId: "con:1288789113",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-136",
+    engine: "mc",
+    prompt: "Choose the correct connector:",
+    stimulus:
+      "Ich hoffe, er ist auch mal so aufgelöst, ____ er mit mir Schluss macht.",
+    options: ["damit", "weil", "dass", "wenn"],
+    answer: 3,
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:subordinate", "mc"],
+      groupId: "con:1288789113",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-137",
+    engine: "cloze",
+    prompt: "Fill in the correct connector:",
+    stimulus: "Wenigstens hoffe ich, ____ er ein Schwindler ist.",
+    answer: "dass",
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:subordinate"],
+      groupId: "con:1626722855",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-138",
+    engine: "mc",
+    prompt: "Choose the correct connector:",
+    stimulus: "Wenigstens hoffe ich, ____ er ein Schwindler ist.",
+    options: ["bevor", "sobald", "dass", "seitdem"],
+    answer: 2,
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:subordinate", "mc"],
+      groupId: "con:1626722855",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-139",
+    engine: "cloze",
+    prompt: "Fill in the correct connector:",
+    stimulus: "Lies sorgfältig die Anweisungen, ____ du anfängst.",
+    answer: "bevor",
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:subordinate"],
+      groupId: "con:2850580995",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-140",
+    engine: "mc",
+    prompt: "Choose the correct connector:",
+    stimulus: "Lies sorgfältig die Anweisungen, ____ du anfängst.",
+    options: ["sobald", "als", "seitdem", "bevor"],
+    answer: 3,
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:subordinate", "mc"],
+      groupId: "con:2850580995",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-141",
+    engine: "cloze",
+    prompt: "Fill in the correct connector:",
+    stimulus:
+      "Mehr ____ dreißig Jahre lebte ich mit Gefühl, ich sei ein Ausgestoßener.",
+    answer: "als",
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:subordinate"],
+      groupId: "con:3522276989",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-142",
+    engine: "mc",
+    prompt: "Choose the correct connector:",
+    stimulus:
+      "Mehr ____ dreißig Jahre lebte ich mit Gefühl, ich sei ein Ausgestoßener.",
+    options: ["sobald", "als", "während", "seitdem"],
+    answer: 1,
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:subordinate", "mc"],
+      groupId: "con:3522276989",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-143",
+    engine: "cloze",
+    prompt: "Fill in the correct connector:",
+    stimulus: "Verzeih, ____ ich etwas misstrauisch bin.",
+    answer: "wenn",
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:subordinate"],
+      groupId: "con:4121198826",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-144",
+    engine: "mc",
+    prompt: "Choose the correct connector:",
+    stimulus: "Verzeih, ____ ich etwas misstrauisch bin.",
+    options: ["wenn", "weil", "als", "seitdem"],
+    answer: 0,
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:subordinate", "mc"],
+      groupId: "con:4121198826",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-145",
+    engine: "cloze",
+    prompt: "Fill in the correct connector:",
+    stimulus: "Die Fußabdrücke besagen, ____ ein Mensch verantwortlich ist.",
+    answer: "dass",
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:subordinate"],
+      groupId: "con:459726031",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-146",
+    engine: "mc",
+    prompt: "Choose the correct connector:",
+    stimulus: "Die Fußabdrücke besagen, ____ ein Mensch verantwortlich ist.",
+    options: ["seitdem", "damit", "weil", "dass"],
+    answer: 3,
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:subordinate", "mc"],
+      groupId: "con:459726031",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-147",
+    engine: "cloze",
+    prompt: "Fill in the correct connector:",
+    stimulus: "Lass uns ____ Karten spielen.",
+    answer: "stattdessen",
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:main"],
+      groupId: "con:3811932225",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-148",
+    engine: "mc",
+    prompt: "Choose the correct connector:",
+    stimulus: "Lass uns ____ Karten spielen.",
+    options: ["jedoch", "deshalb", "außerdem", "stattdessen"],
+    answer: 3,
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:main", "mc"],
+      groupId: "con:3811932225",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-149",
+    engine: "cloze",
+    prompt: "Fill in the correct connector:",
+    stimulus: "Weil ich verzweifelt bin, ____.",
+    answer: "deshalb",
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:main"],
+      groupId: "con:1187796693",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-150",
+    engine: "mc",
+    prompt: "Choose the correct connector:",
+    stimulus: "Weil ich verzweifelt bin, ____.",
+    options: ["daher", "denn", "stattdessen", "deshalb"],
+    answer: 3,
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:main", "mc"],
+      groupId: "con:1187796693",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-151",
+    engine: "cloze",
+    prompt: "Fill in the correct connector:",
+    stimulus: "Ich werde ____ den Standpunkt der Kommission getreu vertreten.",
+    answer: "jedoch",
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:main"],
+      groupId: "con:3210288963",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-152",
+    engine: "mc",
+    prompt: "Choose the correct connector:",
+    stimulus: "Ich werde ____ den Standpunkt der Kommission getreu vertreten.",
+    options: ["denn", "daher", "sondern", "jedoch"],
+    answer: 3,
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:main", "mc"],
+      groupId: "con:3210288963",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-153",
+    engine: "cloze",
+    prompt: "Fill in the correct connector:",
+    stimulus: "Das Schaf Dolly ändert ____ alles.",
+    answer: "jedoch",
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:main"],
+      groupId: "con:1364084545",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-154",
+    engine: "mc",
+    prompt: "Choose the correct connector:",
+    stimulus: "Das Schaf Dolly ändert ____ alles.",
+    options: ["sondern", "hingegen", "denn", "jedoch"],
+    answer: 3,
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:main", "mc"],
+      groupId: "con:1364084545",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-155",
+    engine: "cloze",
+    prompt: "Fill in the correct connector:",
+    stimulus:
+      "Ich fühle mich nicht mehr sehr britisch, ____ immer schottischer.",
+    answer: "sondern",
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:main"],
+      groupId: "con:4273182439",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-156",
+    engine: "mc",
+    prompt: "Choose the correct connector:",
+    stimulus:
+      "Ich fühle mich nicht mehr sehr britisch, ____ immer schottischer.",
+    options: ["deshalb", "außerdem", "dennoch", "sondern"],
+    answer: 3,
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:main", "mc"],
+      groupId: "con:4273182439",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-157",
+    engine: "cloze",
+    prompt: "Fill in the correct connector:",
+    stimulus: "Ihrer Meinung nach könnten ____ noch Konflikte entstehen.",
+    answer: "trotzdem",
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:main"],
+      groupId: "con:725391746",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-158",
+    engine: "mc",
+    prompt: "Choose the correct connector:",
+    stimulus: "Ihrer Meinung nach könnten ____ noch Konflikte entstehen.",
+    options: ["stattdessen", "hingegen", "daher", "trotzdem"],
+    answer: 3,
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:main", "mc"],
+      groupId: "con:725391746",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-159",
+    engine: "cloze",
+    prompt: "Fill in the correct connector:",
+    stimulus:
+      "Und kein Golf donnerstags, ____ du musst Jane ins Ballett bringen.",
+    answer: "denn",
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:main"],
+      groupId: "con:2191981532",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-160",
+    engine: "mc",
+    prompt: "Choose the correct connector:",
+    stimulus:
+      "Und kein Golf donnerstags, ____ du musst Jane ins Ballett bringen.",
+    options: ["deshalb", "daher", "trotzdem", "denn"],
+    answer: 3,
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:main", "mc"],
+      groupId: "con:2191981532",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-161",
+    engine: "cloze",
+    prompt: "Fill in the correct connector:",
+    stimulus: "Das ist nicht lila, ____ Lavendel.",
+    answer: "sondern",
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:main"],
+      groupId: "con:1330441881",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-162",
+    engine: "mc",
+    prompt: "Choose the correct connector:",
+    stimulus: "Das ist nicht lila, ____ Lavendel.",
+    options: ["sondern", "stattdessen", "außerdem", "daher"],
+    answer: 0,
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:main", "mc"],
+      groupId: "con:1330441881",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-163",
+    engine: "cloze",
+    prompt: "Fill in the correct connector:",
+    stimulus: "Die infizierten Datendateien verbreiten den Virus ____ nicht.",
+    answer: "jedoch",
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:main"],
+      groupId: "con:1489297985",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-164",
+    engine: "mc",
+    prompt: "Choose the correct connector:",
+    stimulus: "Die infizierten Datendateien verbreiten den Virus ____ nicht.",
+    options: ["sondern", "trotzdem", "jedoch", "dennoch"],
+    answer: 2,
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:main", "mc"],
+      groupId: "con:1489297985",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-165",
+    engine: "cloze",
+    prompt: "Fill in the correct connector:",
+    stimulus: "Der Zusatzstoff sollte ____ unbefristet zugelassen werden.",
+    answer: "daher",
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:main"],
+      groupId: "con:1864359915",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-166",
+    engine: "mc",
+    prompt: "Choose the correct connector:",
+    stimulus: "Der Zusatzstoff sollte ____ unbefristet zugelassen werden.",
+    options: ["trotzdem", "daher", "denn", "hingegen"],
+    answer: 1,
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:main", "mc"],
+      groupId: "con:1864359915",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-167",
+    engine: "cloze",
+    prompt: "Fill in the correct connector:",
+    stimulus:
+      "Andere Aktionen können ____ einen kontinuierlichen Wert erzeugen.",
+    answer: "jedoch",
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:main"],
+      groupId: "con:2260420057",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-168",
+    engine: "mc",
+    prompt: "Choose the correct connector:",
+    stimulus:
+      "Andere Aktionen können ____ einen kontinuierlichen Wert erzeugen.",
+    options: ["deshalb", "außerdem", "jedoch", "trotzdem"],
+    answer: 2,
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:main", "mc"],
+      groupId: "con:2260420057",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-169",
+    engine: "cloze",
+    prompt: "Fill in the correct connector:",
+    stimulus: "Vielleicht war er ____ so aufgebracht.",
+    answer: "deshalb",
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:main"],
+      groupId: "con:1864107690",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-170",
+    engine: "mc",
+    prompt: "Choose the correct connector:",
+    stimulus: "Vielleicht war er ____ so aufgebracht.",
+    options: ["hingegen", "denn", "deshalb", "stattdessen"],
+    answer: 2,
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:main", "mc"],
+      groupId: "con:1864107690",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-171",
+    engine: "cloze",
+    prompt: "Fill in the correct connector:",
+    stimulus:
+      "Einige Wirkungen sind ____ universal oder zumindest sehr verbreitet.",
+    answer: "jedoch",
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:main"],
+      groupId: "con:417103215",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-172",
+    engine: "mc",
+    prompt: "Choose the correct connector:",
+    stimulus:
+      "Einige Wirkungen sind ____ universal oder zumindest sehr verbreitet.",
+    options: ["sondern", "deshalb", "dennoch", "jedoch"],
+    answer: 3,
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:main", "mc"],
+      groupId: "con:417103215",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-173",
+    engine: "cloze",
+    prompt: "Fill in the correct connector:",
+    stimulus: "Genau ____ warten wir nicht auf einen Durchsuchungsbefehl.",
+    answer: "deshalb",
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:main"],
+      groupId: "con:1647773668",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
+  {
+    id: "flow-con-t2-174",
+    engine: "mc",
+    prompt: "Choose the correct connector:",
+    stimulus: "Genau ____ warten wir nicht auf einen Durchsuchungsbefehl.",
+    options: ["deshalb", "denn", "hingegen", "dennoch"],
+    answer: 0,
+    metadata: {
+      cefr: "B1",
+      system: "flow",
+      module: "connectors",
+      tier: 2,
+      tags: ["connector:main", "mc"],
+      groupId: "con:1647773668",
+    },
+    feedback: {
+      correct:
+        "That connector fits the logical relationship between the clauses.",
+      common: {
+        "match:any":
+          "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+        "mc:wrong":
+          "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+      },
+    },
+  },
 ];

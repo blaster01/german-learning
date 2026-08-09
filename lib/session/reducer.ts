@@ -19,6 +19,13 @@ const loading: SessionSnapshot = {
   targetCount: 0,
 };
 
+/**
+ * Priority: (1) item/module-authored hint for one of the specific error tags
+ * is the most relevant explanation we can give, so it wins outright. (2) the
+ * global grammar-aware hint map (lib/validators/feedback.ts) is more useful
+ * than (3) the validator's generic inline hint (e.g. "Not the best choice."),
+ * which is only a last-resort fallback when nothing more specific exists.
+ */
 function mergeHint(item: ExerciseItem, r: LastResult): LastResult {
   if (r.ok) return r;
   const tags = r.errorTags;
@@ -26,9 +33,9 @@ function mergeHint(item: ExerciseItem, r: LastResult): LastResult {
     const fromItem = item.feedback?.common?.[tag];
     if (fromItem) return { ...r, hint: fromItem };
   }
-  if (r.hint) return r;
   const globalHint = hintForTags(tags);
-  return globalHint ? { ...r, hint: globalHint } : r;
+  if (globalHint) return { ...r, hint: globalHint };
+  return r;
 }
 
 /** Derive the human-readable correct answer string from an item. */
@@ -50,7 +57,10 @@ function correctAnswerText(item: ExerciseItem): string {
   }
 }
 
-export function sessionReducer(state: SessionSnapshot, action: SessionAction): SessionSnapshot {
+export function sessionReducer(
+  state: SessionSnapshot,
+  action: SessionAction,
+): SessionSnapshot {
   switch (action.type) {
     case "INIT": {
       if (action.items.length === 0) {
@@ -76,7 +86,11 @@ export function sessionReducer(state: SessionSnapshot, action: SessionAction): S
       const raw = validateItem(item, action.attempt);
       const lastResult: LastResult = raw.ok
         ? { ok: true, errorTags: [] }
-        : mergeHint(item, { ok: false, errorTags: raw.errorTags, hint: raw.hint });
+        : mergeHint(item, {
+            ok: false,
+            errorTags: raw.errorTags,
+            hint: raw.hint,
+          });
 
       const prevAttempts = state.attemptsByItem[item.id] ?? 0;
       const newAttempts = prevAttempts + 1;
@@ -117,7 +131,12 @@ export function sessionReducer(state: SessionSnapshot, action: SessionAction): S
       if (state.phase !== "feedback") return state;
       const next = state.cursor + 1;
       if (next >= state.queue.length) {
-        return { ...state, phase: "done", lastResult: undefined, lastCorrectAnswer: undefined };
+        return {
+          ...state,
+          phase: "done",
+          lastResult: undefined,
+          lastCorrectAnswer: undefined,
+        };
       }
       return {
         ...state,

@@ -1,7 +1,14 @@
 import { z } from "zod";
 
 export const cefrSchema = z.enum(["B1", "B2", "C1"]);
-export const systemSchema = z.enum(["nominal", "verb", "syntax", "flow", "vocab", "performance"]);
+export const systemSchema = z.enum([
+  "nominal",
+  "verb",
+  "syntax",
+  "flow",
+  "vocab",
+  "performance",
+]);
 
 export const metadataSchema = z.object({
   cefr: cefrSchema,
@@ -43,6 +50,12 @@ export const builderItemSchema = baseItem.extend({
   engine: z.literal("builder"),
   tokens: z.array(z.string()).min(2),
   solution: z.array(z.string()).min(1),
+  /**
+   * Alternate token orderings that are also grammatically correct (e.g. a
+   * different but valid Vorfeld topicalization). Optional — most items have
+   * a single accepted order.
+   */
+  solutionAlternates: z.array(z.array(z.string())).optional(),
 });
 
 export const fixitItemSchema = baseItem.extend({
@@ -82,5 +95,12 @@ export type FixitItem = z.infer<typeof fixitItemSchema>;
 export type TransformItem = z.infer<typeof transformItemSchema>;
 export type TimedItem = z.infer<typeof timedItemSchema>;
 
-export const engineIds = ["mc", "cloze", "builder", "fixit", "transform", "timed"] as const;
+export const engineIds = [
+  "mc",
+  "cloze",
+  "builder",
+  "fixit",
+  "transform",
+  "timed",
+] as const;
 export type EngineId = (typeof engineIds)[number];

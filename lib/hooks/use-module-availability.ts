@@ -8,8 +8,10 @@ export type ModuleAvailability = {
 };
 
 /**
- * Reads the user's seen cards from IndexedDB and checks whether
- * the given module has any items the user has already answered.
+ * Reads the user's seen cards from IndexedDB and checks whether the given
+ * module has any items the user has already answered. Uses the id-prefix
+ * map in lib/content/manifest.ts (metadata only) instead of loading the
+ * full content registry.
  */
 export function useModuleAvailability(slug: string): ModuleAvailability {
   const [hasReview, setHasReview] = useState(false);
@@ -20,33 +22,25 @@ export function useModuleAvailability(slug: string): ModuleAvailability {
     (async () => {
       try {
         const { getProgressRepo } = await import("@/lib/storage/index");
-        const { getModuleBySlug } = await import("@/lib/content/loader");
+        const { moduleSlugForItemId } = await import("@/lib/content/manifest");
 
         const repo = await getProgressRepo();
-        const mod = getModuleBySlug(slug);
-        if (!mod) {
-          if (!cancelled) setLoading(false);
-          return;
-        }
-
         const seenCards = await repo.getSeenCards();
-        const seenIds = new Set(seenCards.map((c) => c.itemId));
-
-        const allIds = [
-          ...mod.tiers[1],
-          ...mod.tiers[2],
-          ...mod.tiers[3],
-        ].map((i) => i.id);
+        const hasAny = seenCards.some(
+          (c) => moduleSlugForItemId(c.itemId) === slug,
+        );
 
         if (!cancelled) {
-          setHasReview(allIds.some((id) => seenIds.has(id)));
+          setHasReview(hasAny);
           setLoading(false);
         }
       } catch {
         if (!cancelled) setLoading(false);
       }
     })();
-    return () => { cancelled = true; };
+    return () => {
+      cancelled = true;
+    };
   }, [slug]);
 
   return { hasReview, loading };

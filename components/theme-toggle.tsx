@@ -15,7 +15,14 @@ export function ThemeToggle({ className }: { className?: string }) {
 
   if (!mounted) {
     return (
-      <button type="button" className={cn("rounded-full border border-border bg-card p-2 opacity-50", className)} aria-label="Theme">
+      <button
+        type="button"
+        className={cn(
+          "rounded-full border border-border bg-card p-2 opacity-50",
+          className,
+        )}
+        aria-label="Theme"
+      >
         <Sun className="h-4 w-4" />
       </button>
     );

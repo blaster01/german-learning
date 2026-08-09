@@ -25,8 +25,12 @@ export const engines: {
   timed: { Component: TimedProduction, validate: validateExerciseItem },
 };
 
-export function getEngineComponent(item: ExerciseItem): ComponentType<EngineProps<ExerciseItem>> {
-  return engines[item.engine].Component as ComponentType<EngineProps<ExerciseItem>>;
+export function getEngineComponent(
+  item: ExerciseItem,
+): ComponentType<EngineProps<ExerciseItem>> {
+  return engines[item.engine].Component as ComponentType<
+    EngineProps<ExerciseItem>
+  >;
 }
 
 export function validateItem(item: ExerciseItem, attempt: unknown) {

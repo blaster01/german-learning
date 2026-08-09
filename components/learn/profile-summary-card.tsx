@@ -11,11 +11,16 @@ import { cn } from "@/lib/utils";
 export function ProfileSummaryCard() {
   const { profile, loading } = useProfile();
 
-  const goalPct = profile.dailyGoal > 0 ? Math.min(100, Math.round((profile.todayXp / profile.dailyGoal) * 100)) : 0;
+  const goalPct =
+    profile.dailyGoal > 0
+      ? Math.min(100, Math.round((profile.todayXp / profile.dailyGoal) * 100))
+      : 0;
 
   return (
     <Card className="p-5">
-      <h3 className="mb-4 text-sm font-bold uppercase tracking-wide text-muted-foreground">Your progress</h3>
+      <h3 className="mb-4 text-sm font-bold uppercase tracking-wide text-muted-foreground">
+        Your progress
+      </h3>
       <div className="flex items-center gap-4">
         <ProgressRing value={loading ? 0 : goalPct} size={64} strokeWidth={5} />
         <div className="space-y-1 text-sm">
@@ -44,7 +49,10 @@ export function ProfileSummaryCard() {
       </div>
       <Link
         href="/review/run"
-        className={cn(buttonVariants({ variant: "primary", size: "default" }), "mt-4 w-full justify-center")}
+        className={cn(
+          buttonVariants({ variant: "primary", size: "default" }),
+          "mt-4 w-full justify-center",
+        )}
       >
         Continue
       </Link>

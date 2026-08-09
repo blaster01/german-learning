@@ -5,10 +5,16 @@ Next.js (App Router) app with reusable exercise engines, Zod-validated TypeScrip
 ## Scripts
 
 - `npm run dev` — development server
-- `npm run build` — regenerate content index + production build
+- `npm run build` — regenerate the client-safe content manifest + production build
+- `npm run typecheck` — `tsc --noEmit`
+- `npm run lint` — `next lint`
+- `npm run format` / `npm run format:check` — Prettier
 - `npm run test:run` — Vitest
 - `npm run content:lint` — validate every item schema + self-check answers
-- `npm run content:index` — write `content/index.generated.ts`
+- `npm run content:manifest` — write `content/manifest.generated.ts` (module metadata only, no items)
+- `npm run verify` — typecheck + lint + content:lint + tests, run in CI on every push/PR (see `.github/workflows/ci.yml`)
+
+A pre-commit hook (Husky + lint-staged) formats and lints staged files automatically.
 
 ## Content
 

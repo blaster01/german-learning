@@ -5,6 +5,7 @@ import type { BuilderItem } from "@/lib/content/schema";
 import type { EngineProps } from "@/lib/engines/types";
 import { Button } from "@/components/ui/button";
 import { TokenChip } from "@/components/ui/chip";
+import { SpeakButton } from "@/components/ui/speak-button";
 import { cn } from "@/lib/utils";
 
 type Tok = { uid: string; text: string };
@@ -21,9 +22,17 @@ function shuffleToks(toks: Tok[], seed: string): Tok[] {
   return a;
 }
 
-export function SentenceBuilder({ item, disabled, onSubmit }: EngineProps<BuilderItem>) {
+export function SentenceBuilder({
+  item,
+  disabled,
+  onSubmit,
+}: EngineProps<BuilderItem>) {
   const initialPool = useMemo<Tok[]>(
-    () => shuffleToks(item.tokens.map((text, i) => ({ uid: `${item.id}-t${i}`, text })), item.id),
+    () =>
+      shuffleToks(
+        item.tokens.map((text, i) => ({ uid: `${item.id}-t${i}`, text })),
+        item.id,
+      ),
     [item.id, item.tokens],
   );
 
@@ -32,7 +41,12 @@ export function SentenceBuilder({ item, disabled, onSubmit }: EngineProps<Builde
 
   const reset = useCallback(() => {
     setBuilt([]);
-    setPoolLeft(shuffleToks(item.tokens.map((text, i) => ({ uid: `${item.id}-t${i}`, text })), `${item.id}-r`));
+    setPoolLeft(
+      shuffleToks(
+        item.tokens.map((text, i) => ({ uid: `${item.id}-t${i}`, text })),
+        `${item.id}-r`,
+      ),
+    );
   }, [item.id, item.tokens]);
 
   const addToken = (tok: Tok) => {
@@ -52,16 +66,35 @@ export function SentenceBuilder({ item, disabled, onSubmit }: EngineProps<Builde
     });
   };
 
+  const removeToken = (uid: string) => {
+    if (disabled) return;
+    setBuilt((b) => {
+      const tok = b.find((t) => t.uid === uid);
+      if (!tok) return b;
+      setPoolLeft((p) => [...p, tok]);
+      return b.filter((t) => t.uid !== uid);
+    });
+  };
+
   const builtStrings = built.map((t) => t.text);
 
   return (
     <div className="space-y-5">
       <p className="text-xl font-semibold leading-snug">{item.prompt}</p>
-      {item.stimulus ? <p className="text-sm text-muted-foreground">{item.stimulus}</p> : null}
+      {item.stimulus ? (
+        <p className="text-sm text-muted-foreground">{item.stimulus}</p>
+      ) : null}
 
       {/* built sentence area */}
       <div>
-        <p className="mb-2 text-xs font-semibold uppercase tracking-wide text-muted-foreground">Your sentence</p>
+        <div className="mb-2 flex items-center gap-2">
+          <p className="text-xs font-semibold uppercase tracking-wide text-muted-foreground">
+            Your sentence
+          </p>
+          {built.length > 0 ? (
+            <SpeakButton text={builtStrings.join(" ")} size="sm" />
+          ) : null}
+        </div>
         <div
           className={cn(
             "min-h-14 rounded-2xl border-2 border-dashed bg-muted/30 px-4 py-3 transition",
@@ -69,22 +102,46 @@ export function SentenceBuilder({ item, disabled, onSubmit }: EngineProps<Builde
           )}
         >
           {built.length === 0 ? (
-            <span className="text-sm text-muted-foreground">Tap tokens below to build…</span>
+            <span className="text-sm text-muted-foreground">
+              Tap or Tab + Enter on tokens below to build…
+            </span>
           ) : (
             <div className="flex flex-wrap gap-2">
-              {built.map((tok) => (
-                <TokenChip key={tok.uid} selected disabled={disabled} onClick={() => {}} aria-label={tok.text}>
+              {built.map((tok, i) => (
+                <TokenChip
+                  key={tok.uid}
+                  selected
+                  disabled={disabled}
+                  onClick={() => removeToken(tok.uid)}
+                  aria-label={`Remove "${tok.text}" (word ${i + 1} of ${built.length})`}
+                  title={`Remove "${tok.text}"`}
+                >
                   {tok.text}
+                  <span aria-hidden className="ml-1.5 text-xs opacity-60">
+                    ×
+                  </span>
                 </TokenChip>
               ))}
             </div>
           )}
         </div>
         <div className="mt-2 flex gap-2">
-          <Button type="button" variant="ghost" size="sm" disabled={disabled || built.length === 0} onClick={removeLast}>
+          <Button
+            type="button"
+            variant="ghost"
+            size="sm"
+            disabled={disabled || built.length === 0}
+            onClick={removeLast}
+          >
             Undo last
           </Button>
-          <Button type="button" variant="ghost" size="sm" disabled={disabled} onClick={reset}>
+          <Button
+            type="button"
+            variant="ghost"
+            size="sm"
+            disabled={disabled}
+            onClick={reset}
+          >
             Reset
           </Button>
         </div>
@@ -92,17 +149,30 @@ export function SentenceBuilder({ item, disabled, onSubmit }: EngineProps<Builde
 
       {/* token pool */}
       <div>
-        <p className="mb-2 text-xs font-semibold uppercase tracking-wide text-muted-foreground">Tokens</p>
+        <p className="mb-2 text-xs font-semibold uppercase tracking-wide text-muted-foreground">
+          Tokens
+        </p>
         <div className="flex flex-wrap gap-2">
           {poolLeft.map((tok) => (
-            <TokenChip key={tok.uid} disabled={disabled} onClick={() => addToken(tok)}>
+            <TokenChip
+              key={tok.uid}
+              disabled={disabled}
+              onClick={() => addToken(tok)}
+              aria-label={`Add "${tok.text}"`}
+            >
               {tok.text}
             </TokenChip>
           ))}
         </div>
       </div>
 
-      <Button type="button" size="lg" disabled={disabled} className="w-full justify-center" onClick={() => onSubmit(builtStrings)}>
+      <Button
+        type="button"
+        size="lg"
+        disabled={disabled}
+        className="w-full justify-center"
+        onClick={() => onSubmit(builtStrings)}
+      >
         Check
       </Button>
     </div>

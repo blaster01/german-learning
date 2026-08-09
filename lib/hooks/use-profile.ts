@@ -1,19 +1,15 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import type { Profile } from "@/lib/storage/repo";
+import { DEFAULT_PROFILE, type Profile } from "@/lib/storage/repo";
 
-const DEFAULT: Profile = {
-  xp: 0,
-  streak: 0,
-  longestStreak: 0,
-  lastReviewDate: null,
-  todayDate: null,
-  todayXp: 0,
-  dailyGoal: 50,
-};
+const DEFAULT: Profile = DEFAULT_PROFILE;
 
-export function useProfile(): { profile: Profile; loading: boolean; refetch: () => void } {
+export function useProfile(): {
+  profile: Profile;
+  loading: boolean;
+  refetch: () => void;
+} {
   const [profile, setProfile] = useState<Profile>(DEFAULT);
   const [loading, setLoading] = useState(true);
   const [tick, setTick] = useState(0);

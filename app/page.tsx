@@ -16,14 +16,20 @@ export default function HomePage() {
         </div>
       }
     >
-      <h1 className="mb-1 text-2xl font-bold tracking-tight">Let&apos;s learn.</h1>
+      <h1 className="mb-1 text-2xl font-bold tracking-tight">
+        Let&apos;s learn.
+      </h1>
       <p className="mb-8 text-muted-foreground">Pick up where you left off.</p>
 
       {SYSTEMS.map((system) => {
         const modules = getModulesForSystem(system.id);
         if (modules.length === 0) return null;
         return (
-          <SectionGroup key={system.id} title={system.title} description={system.description}>
+          <SectionGroup
+            key={system.id}
+            title={system.title}
+            description={system.description}
+          >
             {modules.map((mod) => (
               <LessonTile key={mod.id} mod={mod} />
             ))}

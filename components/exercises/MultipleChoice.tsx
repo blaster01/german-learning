@@ -2,13 +2,23 @@
 
 import type { McItem } from "@/lib/content/schema";
 import type { EngineProps } from "@/lib/engines/types";
+import { SpeakButton } from "@/components/ui/speak-button";
 import { cn } from "@/lib/utils";
 
-export function MultipleChoice({ item, disabled, onSubmit }: EngineProps<McItem>) {
+export function MultipleChoice({
+  item,
+  disabled,
+  onSubmit,
+}: EngineProps<McItem>) {
   return (
     <div className="space-y-4">
       <p className="text-xl font-semibold leading-snug">{item.prompt}</p>
-      {item.stimulus ? <p className="text-base text-muted-foreground">{item.stimulus}</p> : null}
+      {item.stimulus ? (
+        <div className="flex items-start gap-2">
+          <p className="text-base text-muted-foreground">{item.stimulus}</p>
+          <SpeakButton text={item.stimulus} size="sm" />
+        </div>
+      ) : null}
       <div className="grid gap-3 sm:grid-cols-2">
         {item.options.map((opt, i) => (
           <button

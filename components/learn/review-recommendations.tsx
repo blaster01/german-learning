@@ -20,37 +20,42 @@ export function ReviewRecommendations() {
     (async () => {
       try {
         const { getProgressRepo } = await import("@/lib/storage/index");
-        const { CONTENT_MODULES } = await import("@/content/registry");
+        // Metadata-only import — never pulls the ~29MB item registry into
+        // the client bundle just to count due items per module.
+        const { CONTENT_MODULE_META, moduleSlugAndTierForItemId } =
+          await import("@/lib/content/manifest");
 
         const repo = await getProgressRepo();
         const seenCards = await repo.getSeenCards();
         const now = Date.now();
 
-        // For each module, count how many seen items are currently due
-        const results: ModuleDueInfo[] = [];
-        for (const mod of CONTENT_MODULES) {
-          const allIds = new Set([
-            ...mod.tiers[1].map((i) => i.id),
-            ...mod.tiers[2].map((i) => i.id),
-            ...mod.tiers[3].map((i) => i.id),
-          ]);
-          const dueCount = seenCards.filter(
-            (c) => allIds.has(c.itemId) && c.due.getTime() <= now
-          ).length;
-          if (dueCount > 0) {
-            results.push({ slug: mod.slug, title: mod.title, dueCount });
-          }
+        const dueBySlug = new Map<string, number>();
+        for (const c of seenCards) {
+          if (c.due.getTime() > now) continue;
+          const parsed = moduleSlugAndTierForItemId(c.itemId);
+          if (!parsed) continue;
+          dueBySlug.set(parsed.slug, (dueBySlug.get(parsed.slug) ?? 0) + 1);
         }
 
-        // Sort by most due first, show top 3
-        results.sort((a, b) => b.dueCount - a.dueCount);
+        const results: ModuleDueInfo[] = CONTENT_MODULE_META.filter((m) =>
+          dueBySlug.has(m.slug),
+        )
+          .map((m) => ({
+            slug: m.slug,
+            title: m.title,
+            dueCount: dueBySlug.get(m.slug)!,
+          }))
+          .sort((a, b) => b.dueCount - a.dueCount)
+          .slice(0, 3);
 
-        if (!cancelled) setModules(results.slice(0, 3));
+        if (!cancelled) setModules(results);
       } catch {
         // ignore
       }
     })();
-    return () => { cancelled = true; };
+    return () => {
+      cancelled = true;
+    };
   }, []);
 
   if (modules.length === 0) return null;
@@ -66,7 +71,10 @@ export function ReviewRecommendations() {
             <span className="truncate text-sm font-medium">{m.title}</span>
             <Link
               href={`/session/${m.slug}/review`}
-              className={cn(buttonVariants({ variant: "outline", size: "sm" }), "shrink-0 text-xs")}
+              className={cn(
+                buttonVariants({ variant: "outline", size: "sm" }),
+                "shrink-0 text-xs",
+              )}
             >
               {m.dueCount} due
             </Link>

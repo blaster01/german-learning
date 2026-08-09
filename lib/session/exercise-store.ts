@@ -14,10 +14,17 @@ export function createExerciseSessionStore() {
   return createStore<ExerciseSessionStore>((set, get) => ({
     snapshot: createInitialSession(),
     init(items) {
-      set({ snapshot: sessionReducer(createInitialSession(), { type: "INIT", items }) });
+      set({
+        snapshot: sessionReducer(createInitialSession(), {
+          type: "INIT",
+          items,
+        }),
+      });
     },
     submit(attempt) {
-      set({ snapshot: sessionReducer(get().snapshot, { type: "SUBMIT", attempt }) });
+      set({
+        snapshot: sessionReducer(get().snapshot, { type: "SUBMIT", attempt }),
+      });
     },
     continue() {
       set({ snapshot: sessionReducer(get().snapshot, { type: "CONTINUE" }) });

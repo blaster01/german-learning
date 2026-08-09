@@ -88,6 +88,18 @@ function takeGroups(groups: Group[], target: number): ExerciseItem[] {
 // Main builder — synchronous, injectable seenIds
 // ============================================================
 
+export type PlaylistOptions = {
+  target?: number;
+  /** Epoch ms "now", injectable for tests. */
+  now?: number;
+  /**
+   * Remaining daily new-card budget (see DAILY_NEW_CARD_LIMIT in
+   * lib/storage/local.ts). "new" items are capped at this count; undefined
+   * means unlimited (used when the caller doesn't track a budget).
+   */
+  newCardBudget?: number;
+};
+
 /**
  * Build a session playlist for a module in new / mixed / review mode.
  *
@@ -98,16 +110,23 @@ function takeGroups(groups: Group[], target: number): ExerciseItem[] {
  * Returns up to `target` items (usually 15), respecting group boundaries
  * so related exercises (same groupId) travel together.
  *
- * new    — groups where no item has a seen card, shuffled daily.
- * review — seen items sorted due-first, groups preserved.
- * mixed  — 70% new + 30% review, interleaved, falling back if one side is empty.
+ * new    — groups where no item has a seen card, shuffled daily, capped by newCardBudget.
+ * review — only items that are actually due (due <= now), sorted due-first, groups preserved.
+ * mixed  — 70% new (capped) + 30% due review, interleaved, falling back if one side is empty.
  */
 export function buildModulePlaylist(
   slug: string,
   mode: SessionMode,
   seenIds: ReadonlyMap<string, { due: number; lastReview: number | null }>,
-  target = 15,
+  targetOrOptions: number | PlaylistOptions = 15,
 ): ExerciseItem[] {
+  const opts: PlaylistOptions =
+    typeof targetOrOptions === "number"
+      ? { target: targetOrOptions }
+      : targetOrOptions;
+  const target = opts.target ?? 15;
+  const now = opts.now ?? Date.now();
+
   const mod = getModuleBySlug(slug);
   if (!mod) return [];
 
@@ -119,56 +138,60 @@ export function buildModulePlaylist(
 
   const allGroups = buildGroups(allItems);
 
+  const isDue = (itemId: string): boolean => {
+    const entry = seenIds.get(itemId);
+    return !!entry && entry.due <= now;
+  };
+
+  const minDue = (items: ExerciseItem[]): number =>
+    Math.min(
+      ...items
+        .filter((i) => seenIds.has(i.id))
+        .map((i) => seenIds.get(i.id)!.due),
+    );
+
   if (mode === "new") {
     const newGroups = allGroups.filter((g) =>
-      g.items.every((item) => !seenIds.has(item.id))
+      g.items.every((item) => !seenIds.has(item.id)),
     );
     const shuffled = shuffleWithSeed(newGroups, dailySeed(slug));
-    return takeGroups(shuffled, target);
+    const newTarget =
+      opts.newCardBudget !== undefined
+        ? Math.min(target, Math.max(0, opts.newCardBudget))
+        : target;
+    return takeGroups(shuffled, newTarget);
   }
 
   if (mode === "review") {
-    const seenGroups = allGroups.filter((g) =>
-      g.items.some((item) => seenIds.has(item.id))
+    // Only groups with at least one item actually due for review — matches
+    // the "Due for review" recommendation widget on the home page, instead
+    // of pulling in not-yet-due cards just because they've been seen before.
+    const dueGroups = allGroups.filter((g) =>
+      g.items.some((item) => isDue(item.id)),
     );
-    seenGroups.sort((a, b) => {
-      const dueA = Math.min(
-        ...a.items
-          .filter((i) => seenIds.has(i.id))
-          .map((i) => seenIds.get(i.id)!.due)
-      );
-      const dueB = Math.min(
-        ...b.items
-          .filter((i) => seenIds.has(i.id))
-          .map((i) => seenIds.get(i.id)!.due)
-      );
-      return dueA - dueB;
-    });
-    return takeGroups(seenGroups, target);
+    dueGroups.sort((a, b) => minDue(a.items) - minDue(b.items));
+    return takeGroups(dueGroups, target);
   }
 
-  // mixed: 70% new, 30% review
-  const newTarget = Math.ceil(target * 0.7);
+  // mixed: 70% new (capped by newCardBudget), 30% due review
+  const newTarget = Math.min(
+    Math.ceil(target * 0.7),
+    opts.newCardBudget !== undefined
+      ? Math.max(0, opts.newCardBudget)
+      : Infinity,
+  );
   const reviewTarget = Math.floor(target * 0.3);
 
   const newGroups = shuffleWithSeed(
     allGroups.filter((g) => g.items.every((item) => !seenIds.has(item.id))),
-    dailySeed(slug)
+    dailySeed(slug),
   );
-  const seenGroups = allGroups
-    .filter((g) => g.items.some((item) => seenIds.has(item.id)))
-    .sort((a, b) => {
-      const dueA = Math.min(
-        ...a.items.filter((i) => seenIds.has(i.id)).map((i) => seenIds.get(i.id)!.due)
-      );
-      const dueB = Math.min(
-        ...b.items.filter((i) => seenIds.has(i.id)).map((i) => seenIds.get(i.id)!.due)
-      );
-      return dueA - dueB;
-    });
+  const dueGroups = allGroups
+    .filter((g) => g.items.some((item) => isDue(item.id)))
+    .sort((a, b) => minDue(a.items) - minDue(b.items));
 
   const newItems = takeGroups(newGroups, newTarget);
-  const reviewItems = takeGroups(seenGroups, reviewTarget);
+  const reviewItems = takeGroups(dueGroups, reviewTarget);
 
   if (newItems.length === 0) return reviewItems.slice(0, target);
   if (reviewItems.length === 0) return newItems.slice(0, target);
@@ -194,7 +217,7 @@ import type { ProgressRepo } from "@/lib/storage/repo";
 export async function isModeAvailable(
   slug: string,
   mode: SessionMode,
-  repo: ProgressRepo
+  repo: ProgressRepo,
 ): Promise<boolean> {
   if (mode === "new") return true;
 
@@ -204,11 +227,9 @@ export async function isModeAvailable(
   const seenCards = await repo.getSeenCards();
   const seenSet = new Set(seenCards.map((c) => c.itemId));
 
-  const allIds = [
-    ...mod.tiers[1],
-    ...mod.tiers[2],
-    ...mod.tiers[3],
-  ].map((i) => i.id);
+  const allIds = [...mod.tiers[1], ...mod.tiers[2], ...mod.tiers[3]].map(
+    (i) => i.id,
+  );
 
   return allIds.some((id) => seenSet.has(id));
 }

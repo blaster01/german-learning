@@ -1,7 +1,12 @@
 import type { HTMLAttributes } from "react";
 import { cn } from "@/lib/utils";
 
-export type BadgeVariant = "default" | "success" | "accent" | "destructive" | "muted";
+export type BadgeVariant =
+  | "default"
+  | "success"
+  | "accent"
+  | "destructive"
+  | "muted";
 
 const variantStyles: Record<BadgeVariant, string> = {
   default: "bg-primary/10 text-primary border-primary/20",

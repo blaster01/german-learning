@@ -2,7 +2,6 @@ export {
   allExerciseItems,
   CONTENT_MODULES,
   exerciseItemById,
-  getItemsForModuleTier,
   getModuleById,
   getModuleBySlug,
   getModulesForSystem,

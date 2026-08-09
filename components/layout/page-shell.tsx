@@ -17,14 +17,14 @@ export function PageShell({
       <div
         className={cn(
           "gap-8",
-          rightRail
-            ? "grid lg:grid-cols-[1fr_320px]"
-            : "block",
+          rightRail ? "grid lg:grid-cols-[1fr_320px]" : "block",
         )}
       >
-        <main className="min-w-0">{children}</main>
+        <main id="main-content" className="min-w-0">
+          {children}
+        </main>
         {rightRail ? (
-          <aside className="hidden shrink-0 space-y-4 lg:block">{rightRail}</aside>
+          <aside className="mt-8 shrink-0 space-y-4 lg:mt-0">{rightRail}</aside>
         ) : null}
       </div>
       {stickyCta ? (

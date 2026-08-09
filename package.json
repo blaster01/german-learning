@@ -4,14 +4,27 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "npm run content:index && next build",
+    "build": "npm run content:manifest && next build",
     "start": "next start",
     "lint": "next lint",
+    "typecheck": "tsc --noEmit",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
     "test": "vitest",
     "test:run": "vitest run",
     "content:generate": "tsx scripts/generate-content.ts",
-    "content:index": "tsx scripts/index-content.ts",
-    "content:lint": "tsx scripts/lint-content.ts"
+    "content:manifest": "tsx scripts/generate-content-manifest.ts",
+    "content:lint": "tsx scripts/lint-content.ts",
+    "verify": "npm run typecheck && npm run lint && npm run content:lint && npm run test:run",
+    "prepare": "husky"
+  },
+  "lint-staged": {
+    "*.{ts,tsx,js,jsx,mjs,json,css,md}": [
+      "prettier --write"
+    ],
+    "*.{ts,tsx}": [
+      "eslint --fix"
+    ]
   },
   "dependencies": {
     "clsx": "^2.1.1",
@@ -36,7 +49,10 @@
     "csv-parse": "^6.2.1",
     "eslint": "^8.57.1",
     "eslint-config-next": "14.2.18",
+    "fake-indexeddb": "^6.2.5",
+    "husky": "^9.1.7",
     "jsdom": "^25.0.1",
+    "lint-staged": "^16.4.0",
     "postcss": "^8.4.49",
     "prettier": "^3.4.2",
     "prettier-plugin-tailwindcss": "^0.6.9",

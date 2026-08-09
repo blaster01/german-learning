@@ -13,12 +13,15 @@ export function ProgressBar({
   target: number;
   className?: string;
 }) {
-  const pct = target <= 0 ? 0 : Math.min(100, Math.round((resolved / target) * 100));
+  const pct =
+    target <= 0 ? 0 : Math.min(100, Math.round((resolved / target) * 100));
   const remaining = Math.max(0, target - resolved);
   return (
     <div className={cn("w-full", className)}>
       <div className="flex justify-between pb-1.5 text-xs text-muted-foreground">
-        <span>{resolved} of {target} complete</span>
+        <span>
+          {resolved} of {target} complete
+        </span>
         {remaining > 0 ? (
           <span className="font-medium text-primary">{remaining} left</span>
         ) : (

@@ -1,6 +1,14 @@
 "use client";
 
-import { createElement, useCallback, useEffect, useLayoutEffect, useMemo, useState, useSyncExternalStore } from "react";
+import {
+  createElement,
+  useCallback,
+  useEffect,
+  useLayoutEffect,
+  useMemo,
+  useState,
+  useSyncExternalStore,
+} from "react";
 import Link from "next/link";
 import type { ExerciseItem } from "@/lib/content/schema";
 import { getEngineComponent } from "@/lib/engines/registry";
@@ -18,12 +26,18 @@ export type SessionRunnerProps = {
     item: ExerciseItem;
     ok: boolean;
     errorTags: string[];
-    isFirstAttempt: boolean;
+    /** Total attempts made on this item before it was resolved (correct or exhausted). */
+    attempts: number;
   }) => Promise<{ xpAwarded?: number } | void> | void;
   exitHref?: string;
 };
 
-export function SessionRunner({ items, sessionKey, onResult, exitHref = "/" }: SessionRunnerProps) {
+export function SessionRunner({
+  items,
+  sessionKey,
+  onResult,
+  exitHref = "/",
+}: SessionRunnerProps) {
   const store = useMemo(() => {
     void sessionKey;
     return createExerciseSessionStore();
@@ -45,22 +59,31 @@ export function SessionRunner({ items, sessionKey, onResult, exitHref = "/" }: S
     async (attempt: unknown) => {
       const before = store.getState().snapshot;
       const currentItem = before.queue[before.cursor];
-      // Determine if this is the first attempt before submitting
-      const isFirstAttempt = !before.attemptsByItem[currentItem?.id ?? ""];
+      const wasResolvedBefore = currentItem
+        ? before.resolved.includes(currentItem.id)
+        : false;
 
       store.getState().submit(attempt);
 
       const after = store.getState().snapshot;
       if (after.phase === "feedback" && after.lastResult && currentItem) {
-        // Only call onResult (and award XP) on the first attempt
-        if (isFirstAttempt) {
+        // Grade (and award XP) exactly once per item, when it becomes
+        // resolved — either correct now, or exhausted its retry budget.
+        // A wrong answer that gets re-queued does not resolve the item yet,
+        // so FSRS only ever sees the final outcome, not the first attempt.
+        const isResolvedNow =
+          after.resolved.includes(currentItem.id) && !wasResolvedBefore;
+        if (isResolvedNow) {
+          const attempts = after.attemptsByItem[currentItem.id] ?? 1;
           const result = await onResult?.({
             item: currentItem,
             ok: after.lastResult.ok,
             errorTags: after.lastResult.errorTags,
-            isFirstAttempt: true,
+            attempts,
           });
-          setLastXp(result && typeof result === "object" ? result.xpAwarded : undefined);
+          setLastXp(
+            result && typeof result === "object" ? result.xpAwarded : undefined,
+          );
         } else {
           setLastXp(undefined);
         }
@@ -110,7 +133,10 @@ export function SessionRunner({ items, sessionKey, onResult, exitHref = "/" }: S
         <div className="rounded-2xl border border-border bg-card p-6 text-muted-foreground shadow-card">
           No exercises in this session.
           <div className="mt-4">
-            <Link href={exitHref} className={cn(buttonVariants({ variant: "outline" }))}>
+            <Link
+              href={exitHref}
+              className={cn(buttonVariants({ variant: "outline" }))}
+            >
               Back
             </Link>
           </div>
@@ -123,8 +149,16 @@ export function SessionRunner({ items, sessionKey, onResult, exitHref = "/" }: S
     return (
       <div className="space-y-3 rounded-2xl border border-border bg-card p-8 text-center shadow-card">
         <p className="text-2xl font-bold">Session complete 🎉</p>
-        <p className="text-sm text-muted-foreground">Great work — spaced review will surface trouble spots.</p>
-        <Link href={exitHref} className={cn(buttonVariants({ variant: "primary", size: "lg" }), "mt-4 inline-flex")}>
+        <p className="text-sm text-muted-foreground">
+          Great work — spaced review will surface trouble spots.
+        </p>
+        <Link
+          href={exitHref}
+          className={cn(
+            buttonVariants({ variant: "primary", size: "lg" }),
+            "mt-4 inline-flex",
+          )}
+        >
           Done
         </Link>
       </div>
@@ -136,12 +170,21 @@ export function SessionRunner({ items, sessionKey, onResult, exitHref = "/" }: S
 
   return (
     <div className="space-y-5">
-      <ProgressBar resolved={snapshot.resolved.length} target={snapshot.targetCount} />
+      <ProgressBar
+        resolved={snapshot.resolved.length}
+        target={snapshot.targetCount}
+      />
       {/* work card */}
       <div className="rounded-2xl border border-border/60 bg-card p-6 shadow-card">
-        {showEngine && item && Engine ? (
-          createElement(Engine, { item, disabled: false, onSubmit: (a) => { void submit(a); } })
-        ) : null}
+        {showEngine && item && Engine
+          ? createElement(Engine, {
+              item,
+              disabled: false,
+              onSubmit: (a) => {
+                void submit(a);
+              },
+            })
+          : null}
       </div>
       {/* spacer for fixed feedback sheet */}
       {showFeedback ? <div className="h-52" aria-hidden /> : null}

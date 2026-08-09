@@ -24,7 +24,9 @@ describe("daysBetween", () => {
     expect(daysBetween("2025-04-20", "2025-04-21")).toBe(1);
   });
   it("is symmetric", () => {
-    expect(daysBetween("2025-04-15", "2025-04-20")).toBe(daysBetween("2025-04-20", "2025-04-15"));
+    expect(daysBetween("2025-04-15", "2025-04-20")).toBe(
+      daysBetween("2025-04-20", "2025-04-15"),
+    );
   });
   it("5-day gap", () => {
     expect(daysBetween("2025-04-15", "2025-04-20")).toBe(5);

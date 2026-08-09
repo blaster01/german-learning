@@ -28,12 +28,12 @@ interface CsvRow {
 }
 
 interface Lexeme {
-  lemma: string;       // bare lemma (e.g. "Weg" for "der Weg"; "sein" for verbs)
-  article: string;     // "der"/"die"/"das" for nouns; "" for others
+  lemma: string; // bare lemma (e.g. "Weg" for "der Weg"; "sein" for verbs)
+  article: string; // "der"/"die"/"das" for nouns; "" for others
   gloss: string;
   rank: number;
   book: string;
-  pos: string;         // M/F/N/vb/adj/adv/prn/prp/con/art/prt/phr/num
+  pos: string; // M/F/N/vb/adj/adv/prn/prp/con/art/prt/phr/num
   deSentence: string;
   enSentence: string;
 }
@@ -56,7 +56,7 @@ interface Indices {
   sentByRankBand: Map<TierBand, Sentence[]>;
   nounsByGender: Map<string, Lexeme[]>;
   sentsByLemma: Map<string, Sentence[]>;
-  deTokens: Map<string, string[]>;   // de sentence → tokens
+  deTokens: Map<string, string[]>; // de sentence → tokens
 }
 
 interface MinedData {
@@ -74,10 +74,15 @@ type PartialExercise = {
   prompt: string;
   stimulus?: string;
   options?: string[];
-  answer?: string | number;   // omitted for builder (uses solution instead)
+  answer?: string | number; // omitted for builder (uses solution instead)
   acceptableAnswers?: string[];
   tokens?: string[];
   solution?: string[];
+  solutionAlternates?: string[][];
+  feedback?: {
+    correct?: string;
+    common?: Record<string, string>;
+  };
   metadata: {
     cefr: "B1" | "B2";
     system: string;
@@ -87,6 +92,107 @@ type PartialExercise = {
     groupId?: string;
   };
 };
+
+// ============================================================
+// Authored per-module feedback
+// ============================================================
+//
+// Hand-written short explanations, keyed by module slug, applied to every
+// generated item in that module at emission time. Content is machine-
+// generated at scale, so we can't hand-author feedback per item — but the
+// error *tags* an item can produce are a small, closed set per module/engine,
+// so a per-module dictionary gives every learner a grammar-relevant hint
+// (rather than the generic engine-level fallback in lib/validators/feedback.ts).
+const MODULE_FEEDBACK: Record<
+  string,
+  { correct: string; common: Record<string, string> }
+> = {
+  "gender-bundle": {
+    correct: "Right gender — that association is sticking.",
+    common: {
+      "match:any":
+        "Der/die/das doesn't depend on meaning or spelling — it has to be memorized per noun. Try learning this noun together with its article as one chunk.",
+      "mc:wrong":
+        "Eliminate the two articles you're confident are wrong first, then decide between the remaining two.",
+    },
+  },
+  pronouns: {
+    correct: "Correct pronoun and case.",
+    common: {
+      "match:any":
+        "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
+    },
+  },
+  reflexives: {
+    correct:
+      "That reflexive verb needs a pronoun matching its subject — you got it.",
+    common: {
+      "mc:wrong":
+        "Reflexive pronouns must agree with the subject of the verb (ich → mich, du → dich, er/sie/es/wir/sie(pl) → sich/uns, ihr → euch).",
+    },
+  },
+  "sentence-builder": {
+    correct: "Correct word order.",
+    common: {
+      "order:token":
+        "In German main clauses the finite verb is always in position 2. Subordinate/time/manner/place elements usually follow the TeKaMoLo order (time, cause, manner, place).",
+      "order:length":
+        "Every tile must be used exactly once — check you haven't dropped or duplicated one.",
+    },
+  },
+  "negation-lab": {
+    correct: "Correct negation form.",
+    common: {
+      "match:any":
+        'Use "kein" to negate a noun that would otherwise take "ein"/no article; use "nicht" to negate verbs, adjectives, adverbs, or a noun that already has a definite article.',
+      "fixit:wrong":
+        '"kein" negates a bare noun phrase; "nicht" cannot directly precede one. Check what\'s being negated.',
+    },
+  },
+  connectors: {
+    correct:
+      "That connector fits the logical relationship between the clauses.",
+    common: {
+      "match:any":
+        "Subordinating connectors (weil, dass, wenn, obwohl...) send the verb to the end of the clause. Coordinating/adverbial connectors (deshalb, trotzdem, denn...) don't change word order the same way — make sure the connector matches both the meaning and the clause type.",
+      "mc:wrong":
+        "Think about the logical relationship (cause, contrast, condition, time) before picking a connector.",
+    },
+  },
+  "core-vocab": {
+    correct: "Correct meaning.",
+    common: {
+      "mc:wrong":
+        "If unsure, look for a false friend or a similar-looking distractor and rule it out first.",
+    },
+  },
+  "sentence-cloze": {
+    correct: "Correct word in context.",
+    common: {
+      "match:any":
+        "Use the surrounding sentence for meaning and grammatical gender/case clues, not just the isolated word.",
+    },
+  },
+  "error-clinic": {
+    correct: "Found and fixed the error.",
+    common: {
+      "fixit:wrong":
+        "There is exactly one error in the sentence — re-read it clause by clause (pronoun case, verb position, negation) rather than rewriting the whole sentence.",
+    },
+  },
+};
+
+function withModuleFeedback(
+  moduleSlug: string,
+  item: PartialExercise,
+): PartialExercise {
+  const fb = MODULE_FEEDBACK[moduleSlug];
+  if (!fb) return item;
+  return {
+    ...item,
+    feedback: { correct: fb.correct, common: { ...fb.common } },
+  };
+}
 
 // ============================================================
 // Constants
@@ -111,41 +217,145 @@ const CONTENT_POS = new Set(["M", "F", "N", "vb", "adj", "adv"]);
 
 // Articles that appear as prefixes in the `german` field for nouns
 const ARTICLE_PREFIXES: Record<string, string> = {
-  "der": "M",
-  "die": "F",
-  "das": "N",
+  der: "M",
+  die: "F",
+  das: "N",
 };
 
 const CONNECTORS_SUB = [
-  "weil", "obwohl", "dass", "wenn", "als", "bevor",
-  "nachdem", "während", "sobald", "seitdem", "falls", "damit",
+  "weil",
+  "obwohl",
+  "dass",
+  "wenn",
+  "als",
+  "bevor",
+  "nachdem",
+  "während",
+  "sobald",
+  "seitdem",
+  "falls",
+  "damit",
 ];
 
 const CONNECTORS_MAIN = [
-  "deshalb", "daher", "trotzdem", "dennoch", "außerdem",
-  "hingegen", "stattdessen", "denn", "jedoch", "sondern",
+  "deshalb",
+  "daher",
+  "trotzdem",
+  "dennoch",
+  "außerdem",
+  "hingegen",
+  "stattdessen",
+  "denn",
+  "jedoch",
+  "sondern",
 ];
 
 const ALL_CONNECTORS = [...CONNECTORS_SUB, ...CONNECTORS_MAIN];
 
 const TEMPORAL_WORDS = [
-  "vor", "nach", "danach", "zuerst", "später", "seit",
-  "bis", "schon", "noch", "erst", "gerade", "sofort", "bereits",
-  "manchmal", "oft", "selten",
+  "vor",
+  "nach",
+  "danach",
+  "zuerst",
+  "später",
+  "seit",
+  "bis",
+  "schon",
+  "noch",
+  "erst",
+  "gerade",
+  "sofort",
+  "bereits",
+  "manchmal",
+  "oft",
+  "selten",
 ];
 
 const NEGATION_WORDS = [
-  "nicht", "kein", "keine", "keinen", "keinem", "keiner", "keines",
-  "nie", "nichts", "niemand", "niemals",
+  "nicht",
+  "kein",
+  "keine",
+  "keinen",
+  "keinem",
+  "keiner",
+  "keines",
+  "nie",
+  "nichts",
+  "niemand",
+  "niemals",
 ];
 
 const REFLEXIVE_PRON = ["mich", "dich", "sich", "uns", "euch"];
 
+// Stems of common true reflexive verbs (echte reflexive Verben). Used to gate
+// reflexive-pronoun mining so we don't blank plain accusative/dative objects
+// that happen to be one of mich/dich/sich/uns/euch (e.g. "über mich reden").
+// Matching by stem (not full lemma) so conjugated/participle forms still hit.
+const REFLEXIVE_VERB_STEMS = [
+  "freu",
+  "interessier",
+  "erinner",
+  "fühl",
+  "setz",
+  "beeil",
+  "entscheid",
+  "verlieb",
+  "änder",
+  "entspann",
+  "konzentrier",
+  "beweg",
+  "verhalt",
+  "kümmer",
+  "wunder",
+  "ärger",
+  "langweil",
+  "verabschied",
+  "vorstell",
+  "anzieh",
+  "auszieh",
+  "wasch",
+  "rasier",
+  "erhol",
+  "verabred",
+  "verlass",
+  "entschuldig",
+  "unterhalt",
+  "verlauf",
+  "befind",
+  "bedank",
+  "beschwer",
+  "bewerb",
+  "erkält",
+  "gewöhn",
+  "irr",
+  "verspät",
+  "melde",
+  "treff",
+  "verabschied",
+  "verändern",
+  "informier",
+];
+
+function hasReflexiveVerbNearby(de: string): boolean {
+  const lower = de.toLowerCase();
+  return REFLEXIVE_VERB_STEMS.some((stem) => lower.includes(stem));
+}
+
 // Pronouns safe to blank (avoid highly ambiguous ones like "sie"/"ihr")
 const SAFE_PRONOUNS = [
-  "ich", "du", "er", "wir",
-  "mich", "mir", "dich", "dir",
-  "ihn", "ihm", "uns", "euch", "ihnen",
+  "ich",
+  "du",
+  "er",
+  "wir",
+  "mich",
+  "mir",
+  "dich",
+  "dir",
+  "ihn",
+  "ihm",
+  "uns",
+  "euch",
+  "ihnen",
 ];
 
 // ============================================================
@@ -163,7 +373,11 @@ function loadAndClean(csvPath: string): CsvRow[] {
 
   // Drop rows missing essential fields
   rows = rows.filter(
-    (r) => r.german && r.german.trim() && r.german_sentence && r.german_sentence.trim()
+    (r) =>
+      r.german &&
+      r.german.trim() &&
+      r.german_sentence &&
+      r.german_sentence.trim(),
   );
 
   // Normalize gender/pos field
@@ -261,14 +475,18 @@ const GERMAN_WORD_CHAR = "[a-zA-ZäöüÄÖÜß]";
 function containsWholeWord(sentence: string, word: string): boolean {
   const re = new RegExp(
     `(?<!${GERMAN_WORD_CHAR})${escapeRegex(word)}(?!${GERMAN_WORD_CHAR})`,
-    "i"
+    "i",
   );
   return re.test(sentence);
 }
 
-function replaceWholeWordFirst(sentence: string, word: string, replacement: string): string {
+function replaceWholeWordFirst(
+  sentence: string,
+  word: string,
+  replacement: string,
+): string {
   const re = new RegExp(
-    `(?<!${GERMAN_WORD_CHAR})${escapeRegex(word)}(?!${GERMAN_WORD_CHAR})`
+    `(?<!${GERMAN_WORD_CHAR})${escapeRegex(word)}(?!${GERMAN_WORD_CHAR})`,
   );
   return sentence.replace(re, replacement);
 }
@@ -289,13 +507,15 @@ function tokenize(s: string): string[] {
 function buildIndices(lexemes: Lexeme[], sentences: Sentence[]): Indices {
   const byPos = new Map<string, Lexeme[]>();
   const byRankBand = new Map<TierBand, Lexeme[]>(
-    TIER_BANDS.map(([b]) => [b, []])
+    TIER_BANDS.map(([b]) => [b, []]),
   );
   const nounsByGender = new Map<string, Lexeme[]>([
-    ["M", []], ["F", []], ["N", []],
+    ["M", []],
+    ["F", []],
+    ["N", []],
   ]);
   const sentByRankBand = new Map<TierBand, Sentence[]>(
-    TIER_BANDS.map(([b]) => [b, []])
+    TIER_BANDS.map(([b]) => [b, []]),
   );
   const sentsByLemma = new Map<string, Sentence[]>();
   const deTokens = new Map<string, string[]>();
@@ -330,7 +550,14 @@ function buildIndices(lexemes: Lexeme[], sentences: Sentence[]): Indices {
     }
   }
 
-  return { byPos, byRankBand, sentByRankBand, nounsByGender, sentsByLemma, deTokens };
+  return {
+    byPos,
+    byRankBand,
+    sentByRankBand,
+    nounsByGender,
+    sentsByLemma,
+    deTokens,
+  };
 }
 
 // ============================================================
@@ -341,7 +568,10 @@ function sentenceContainsAny(de: string, words: string[]): string | null {
   const lower = de.toLowerCase();
   for (const w of words) {
     // whole-word match (case-insensitive)
-    const re = new RegExp(`(?<![a-zA-ZäöüÄÖÜß])${escapeRegex(w)}(?![a-zA-ZäöüÄÖÜß])`, "i");
+    const re = new RegExp(
+      `(?<![a-zA-ZäöüÄÖÜß])${escapeRegex(w)}(?![a-zA-ZäöüÄÖÜß])`,
+      "i",
+    );
     if (re.test(de)) return w;
   }
   return null;
@@ -371,7 +601,14 @@ function mineFromSentences(sentences: Sentence[], idx: Indices): MinedData {
     if (prn && wordCount(s.de) <= 15) pronouns.push(s);
   }
 
-  return { connectorSub, connectorMain, temporal, negation, reflexive, pronouns };
+  return {
+    connectorSub,
+    connectorMain,
+    temporal,
+    negation,
+    reflexive,
+    pronouns,
+  };
 }
 
 // ============================================================
@@ -415,7 +652,7 @@ function pickNSeeded<T>(
   k: number,
   excludeKey: string,
   keyFn: (t: T) => string,
-  seed: string
+  seed: string,
 ): T[] {
   const candidates = pool.filter((t) => keyFn(t) !== excludeKey);
   const shuffled = shuffleWithSeed(candidates, seed);
@@ -428,7 +665,7 @@ function pickNSeeded<T>(
 function makeOptions(
   correct: string,
   distractors: string[],
-  seed: string
+  seed: string,
 ): { options: string[]; answer: number } {
   const all = shuffleWithSeed([correct, ...distractors], seed);
   const answer = all.indexOf(correct);
@@ -444,9 +681,16 @@ function meta(
   module: string,
   tier: Tier,
   tags: string[],
-  groupId?: string
+  groupId?: string,
 ): PartialExercise["metadata"] {
-  return { cefr: CEFR_FOR_TIER[tier], system, module, tier, tags, ...(groupId ? { groupId } : {}) };
+  return {
+    cefr: CEFR_FOR_TIER[tier],
+    system,
+    module,
+    tier,
+    tags,
+    ...(groupId ? { groupId } : {}),
+  };
 }
 
 function articleFor(pos: string): string {
@@ -467,7 +711,7 @@ function otherArticles(correctArticle: string): string[] {
 function genGenderBundle(
   lexemes: Lexeme[],
   sentences: Sentence[],
-  idx: Indices
+  idx: Indices,
 ): PartialExercise[] {
   const out: PartialExercise[] = [];
   const nouns = lexemes.filter((l) => NOUN_POS.has(l.pos));
@@ -485,7 +729,7 @@ function genGenderBundle(
     const { options: mcOpts, answer: mcAns } = makeOptions(
       correct,
       otherArticles(correct),
-      seed + "-mc"
+      seed + "-mc",
     );
     out.push({
       engine: "mc",
@@ -502,7 +746,13 @@ function genGenderBundle(
       stimulus: `___ ${n.lemma}`,
       answer: correct,
       acceptableAnswers: [correct.charAt(0).toUpperCase() + correct.slice(1)],
-      metadata: meta("nominal", "gender-bundle", tier, ["grammar:gender", "grammar:article"], gid),
+      metadata: meta(
+        "nominal",
+        "gender-bundle",
+        tier,
+        ["grammar:gender", "grammar:article"],
+        gid,
+      ),
     });
 
     // Sentence cloze: blank the noun in the CSV sentence
@@ -514,7 +764,13 @@ function genGenderBundle(
           prompt: "Fill in the missing noun:",
           stimulus: blanked,
           answer: n.lemma,
-          metadata: meta("nominal", "gender-bundle", tier, ["grammar:gender", "cloze:noun"], gid),
+          metadata: meta(
+            "nominal",
+            "gender-bundle",
+            tier,
+            ["grammar:gender", "cloze:noun"],
+            gid,
+          ),
         });
       }
     }
@@ -536,20 +792,37 @@ function genCoreVocab(lexemes: Lexeme[], idx: Indices): PartialExercise[] {
     const tier = bandToTier(band);
     const seed = `cv-${lex.lemma}-${lex.rank}`;
 
-    // Need at least 3 same-POS distractors
-    const posPool = (idx.byPos.get(lex.pos) ?? []).filter(
-      (l) => l.lemma !== lex.lemma && l.gloss !== lex.gloss
-    );
+    // Need at least 3 same-POS distractors, deduped by both lemma and gloss so
+    // the resulting MC options never contain two entries with the same text.
+    const seenGlosses = new Set<string>([lex.gloss]);
+    const seenLemmas = new Set<string>([lex.lemma]);
+    const posPool = (idx.byPos.get(lex.pos) ?? []).filter((l) => {
+      if (l.lemma === lex.lemma || l.gloss === lex.gloss) return false;
+      if (seenGlosses.has(l.gloss) || seenLemmas.has(l.lemma)) return false;
+      seenGlosses.add(l.gloss);
+      seenLemmas.add(l.lemma);
+      return true;
+    });
     if (posPool.length < 3) continue;
 
-    const distractors3 = pickNSeeded(posPool, 3, lex.lemma, (l) => l.lemma, seed + "-dist");
+    const distractors3 = pickNSeeded(
+      posPool,
+      3,
+      lex.lemma,
+      (l) => l.lemma,
+      seed + "-dist",
+    );
     const distGlosses = distractors3.map((d) => d.gloss);
     const distLemmas = distractors3.map((d) => d.lemma);
 
     const gid = `cv:${lex.lemma}`;
 
     // MC DE → EN: "What does [german] mean?"
-    const { options: deOpts, answer: deAns } = makeOptions(lex.gloss, distGlosses, seed + "-de");
+    const { options: deOpts, answer: deAns } = makeOptions(
+      lex.gloss,
+      distGlosses,
+      seed + "-de",
+    );
     out.push({
       engine: "mc",
       prompt: `What does "${lex.lemma}" mean?`,
@@ -559,7 +832,11 @@ function genCoreVocab(lexemes: Lexeme[], idx: Indices): PartialExercise[] {
     });
 
     // MC EN → DE: "Choose the German for: [english]"
-    const { options: enOpts, answer: enAns } = makeOptions(lex.lemma, distLemmas, seed + "-en");
+    const { options: enOpts, answer: enAns } = makeOptions(
+      lex.lemma,
+      distLemmas,
+      seed + "-en",
+    );
     out.push({
       engine: "mc",
       prompt: `Choose the best German word for: "${lex.gloss}"`,
@@ -576,7 +853,10 @@ function genCoreVocab(lexemes: Lexeme[], idx: Indices): PartialExercise[] {
 // 10. genSentenceCloze
 // ============================================================
 
-function genSentenceCloze(sentences: Sentence[], idx: Indices): PartialExercise[] {
+function genSentenceCloze(
+  sentences: Sentence[],
+  idx: Indices,
+): PartialExercise[] {
   const out: PartialExercise[] = [];
 
   for (const s of sentences) {
@@ -595,7 +875,13 @@ function genSentenceCloze(sentences: Sentence[], idx: Indices): PartialExercise[
       prompt: "Fill in the missing word:",
       stimulus: blanked,
       answer: s.targetLemma,
-      metadata: meta("vocab", "sentence-cloze", tier, ["cloze:in-context", `pos:${s.targetPos}`], gid),
+      metadata: meta(
+        "vocab",
+        "sentence-cloze",
+        tier,
+        ["cloze:in-context", `pos:${s.targetPos}`],
+        gid,
+      ),
     });
   }
 
@@ -606,7 +892,70 @@ function genSentenceCloze(sentences: Sentence[], idx: Indices): PartialExercise[
 // 11. genSentenceBuilder
 // ============================================================
 
-function genSentenceBuilder(sentences: Sentence[], idx: Indices): PartialExercise[] {
+// Nominative-only pronouns (never also an accusative/dative object form),
+// so seeing one in token position 0 reliably means "this is a subject-
+// initial declarative main clause", not a fronted object.
+const SAFE_FRONTING_SUBJECTS = new Set(["ich", "du", "er", "wir", "ihr"]);
+
+// Single-token adverbial connectors that German allows to front to the
+// Vorfeld with subject-verb inversion (a standard, always-grammatical V2
+// reordering). Deliberately NOT the full TEMPORAL_WORDS/CONNECTORS_MAIN
+// lists: "vor"/"nach"/"seit"/"bis" are prepositions that need a complement
+// (fronting just "vor" out of "vor drei Jahren" is ungrammatical), and
+// "denn"/"sondern" are true coordinating conjunctions that do NOT trigger
+// inversion when fronted (unlike these adverbial connectors). Restricting
+// to this short, unambiguous list keeps every generated alternate
+// mechanically guaranteed to be grammatical.
+const FRONTABLE_ADVERBS = new Set([
+  "deshalb",
+  "daher",
+  "trotzdem",
+  "dennoch",
+  "außerdem",
+  "hingegen",
+  "stattdessen",
+  "jedoch",
+]);
+
+/**
+ * For a simple subject-initial main clause "Subject Verb ... Adverb ...",
+ * German also always permits fronting that adverb with subject-verb
+ * inversion: "Adverb Verb Subject ...". Returns that alternate token order
+ * when we can identify the pattern unambiguously, else undefined.
+ *
+ * Deliberately conservative: only fires for a single, punctuation-free
+ * adverb occurrence and a single-token nominative-only subject pronoun, so
+ * we never emit an alternate that isn't actually grammatical.
+ */
+function computeFrontingAlternate(toks: string[]): string[] | undefined {
+  if (toks.length < 5) return undefined;
+  if (toks.some((t) => t.includes(","))) return undefined; // keep to simple main clauses
+
+  const subject = toks[0]!.toLowerCase();
+  if (!SAFE_FRONTING_SUBJECTS.has(subject)) return undefined;
+
+  let advIdx = -1;
+  for (let i = 2; i < toks.length; i++) {
+    const clean = toks[i]!.toLowerCase();
+    if (!/^[a-zäöü]+$/.test(clean)) continue; // skip tokens carrying punctuation (usually sentence-final)
+    if (FRONTABLE_ADVERBS.has(clean)) {
+      if (advIdx !== -1) return undefined; // more than one candidate — ambiguous, skip
+      advIdx = i;
+    }
+  }
+  if (advIdx === -1) return undefined;
+
+  const verb = toks[1]!;
+  const subjectTok = toks[0]!;
+  const adverbTok = toks[advIdx]!;
+  const rest = toks.filter((_, i) => i !== 0 && i !== 1 && i !== advIdx);
+  return [adverbTok, verb, subjectTok, ...rest];
+}
+
+function genSentenceBuilder(
+  sentences: Sentence[],
+  idx: Indices,
+): PartialExercise[] {
   const out: PartialExercise[] = [];
 
   for (const s of sentences) {
@@ -624,6 +973,7 @@ function genSentenceBuilder(sentences: Sentence[], idx: Indices): PartialExercis
 
     const tier = bandToTier(rankToBand(s.rank));
     const gid = `sb:${hashStr(s.de) >>> 0}`;
+    const alt = computeFrontingAlternate(toks);
 
     out.push({
       engine: "builder",
@@ -631,8 +981,15 @@ function genSentenceBuilder(sentences: Sentence[], idx: Indices): PartialExercis
       stimulus: s.en,
       tokens: shuffled,
       solution: toks,
+      ...(alt ? { solutionAlternates: [alt] } : {}),
       // No `answer` field — builder engine validates against `solution`
-      metadata: meta("syntax", "sentence-builder", tier, ["syntax:word-order", "builder"], gid),
+      metadata: meta(
+        "syntax",
+        "sentence-builder",
+        tier,
+        ["syntax:word-order", "builder"],
+        gid,
+      ),
     });
   }
 
@@ -665,22 +1022,38 @@ function genConnectors(mined: MinedData, idx: Indices): PartialExercise[] {
       prompt: "Fill in the correct connector:",
       stimulus: blanked,
       answer: connector,
-      metadata: meta("flow", "connectors", tier, ["connector:subordinate"], gid),
+      metadata: meta(
+        "flow",
+        "connectors",
+        tier,
+        ["connector:subordinate"],
+        gid,
+      ),
     });
 
     // MC: choose the connector from a short list of similar ones
     const distractors = shuffleWithSeed(
       CONNECTORS_SUB.filter((c) => c !== connector),
-      seed + "-mc"
+      seed + "-mc",
     ).slice(0, 3);
-    const { options, answer } = makeOptions(connector, distractors, seed + "-opts");
+    const { options, answer } = makeOptions(
+      connector,
+      distractors,
+      seed + "-opts",
+    );
     out.push({
       engine: "mc",
       prompt: "Choose the correct connector:",
       stimulus: blanked,
       options,
       answer,
-      metadata: meta("flow", "connectors", tier, ["connector:subordinate", "mc"], gid),
+      metadata: meta(
+        "flow",
+        "connectors",
+        tier,
+        ["connector:subordinate", "mc"],
+        gid,
+      ),
     });
   }
 
@@ -707,17 +1080,27 @@ function genConnectors(mined: MinedData, idx: Indices): PartialExercise[] {
 
     const distractors = shuffleWithSeed(
       CONNECTORS_MAIN.filter((c) => c !== connector),
-      seed + "-mc"
+      seed + "-mc",
     ).slice(0, 3);
     if (distractors.length >= 2) {
-      const { options, answer } = makeOptions(connector, distractors, seed + "-opts");
+      const { options, answer } = makeOptions(
+        connector,
+        distractors,
+        seed + "-opts",
+      );
       out.push({
         engine: "mc",
         prompt: "Choose the correct connector:",
         stimulus: blanked,
         options,
         answer,
-        metadata: meta("flow", "connectors", tier, ["connector:main", "mc"], gid),
+        metadata: meta(
+          "flow",
+          "connectors",
+          tier,
+          ["connector:main", "mc"],
+          gid,
+        ),
       });
     }
   }
@@ -740,7 +1123,7 @@ function genPronouns(mined: MinedData, idx: Indices): PartialExercise[] {
     // Skip if the pronoun appears more than once (ambiguous which to blank)
     const re = new RegExp(
       `(?<![a-zA-ZäöüÄÖÜß])${escapeRegex(prn)}(?![a-zA-ZäöüÄÖÜß])`,
-      "gi"
+      "gi",
     );
     const matches = [...s.de.matchAll(re)];
     if (matches.length !== 1) continue;
@@ -756,7 +1139,13 @@ function genPronouns(mined: MinedData, idx: Indices): PartialExercise[] {
       prompt: "Fill in the correct pronoun:",
       stimulus: blanked,
       answer: prn,
-      metadata: meta("nominal", "pronouns", tier, ["grammar:pronoun", "cloze"], gid),
+      metadata: meta(
+        "nominal",
+        "pronouns",
+        tier,
+        ["grammar:pronoun", "cloze"],
+        gid,
+      ),
     });
   }
 
@@ -775,6 +1164,23 @@ function genReflexives(mined: MinedData, idx: Indices): PartialExercise[] {
     if (!ref) continue;
     if (wordCount(s.de) > 15) continue;
 
+    // Guard against plain accusative/dative objects that happen to match one
+    // of the reflexive-pronoun forms (e.g. "über mich reden" is not reflexive).
+    // Require a known reflexive-verb stem in the sentence...
+    if (!hasReflexiveVerbNearby(s.de)) continue;
+
+    // ...and require the candidate pronoun to appear exactly once, so the
+    // blank is unambiguous.
+    const occurrences = [
+      ...s.de.matchAll(
+        new RegExp(
+          `(?<![a-zA-ZäöüÄÖÜß])${escapeRegex(ref)}(?![a-zA-ZäöüÄÖÜß])`,
+          "gi",
+        ),
+      ),
+    ];
+    if (occurrences.length !== 1) continue;
+
     const blanked = replaceWholeWordFirst(s.de, ref, "____");
     if (blanked === s.de) continue;
 
@@ -784,7 +1190,7 @@ function genReflexives(mined: MinedData, idx: Indices): PartialExercise[] {
 
     const distractors = shuffleWithSeed(
       REFLEXIVE_PRON.filter((r) => r !== ref),
-      seed
+      seed,
     ).slice(0, 3);
     const { options, answer } = makeOptions(ref, distractors, seed + "-opts");
 
@@ -794,7 +1200,13 @@ function genReflexives(mined: MinedData, idx: Indices): PartialExercise[] {
       stimulus: blanked,
       options,
       answer,
-      metadata: meta("verb", "reflexives", tier, ["grammar:reflexive", "mc"], gid),
+      metadata: meta(
+        "verb",
+        "reflexives",
+        tier,
+        ["grammar:reflexive", "mc"],
+        gid,
+      ),
     });
   }
 
@@ -827,29 +1239,55 @@ function genNegationLab(mined: MinedData, idx: Indices): PartialExercise[] {
       prompt: "Fill in the correct negation:",
       stimulus: blanked,
       answer: neg,
-      metadata: meta("syntax", "negation-lab", tier, ["syntax:negation", "cloze"], gid),
+      metadata: meta(
+        "syntax",
+        "negation-lab",
+        tier,
+        ["syntax:negation", "cloze"],
+        gid,
+      ),
     });
 
-    // Fix-it: swap nicht↔kein (heuristic; tagged as may-be-ambiguous)
-    let corrupted: string | null = null;
-    if (neg === "nicht") {
-      corrupted = replaceWholeWordFirst(s.de, "nicht", "kein");
-    } else if (KEIN_FORMS.includes(neg)) {
-      corrupted = replaceWholeWordFirst(s.de, neg, "nicht");
-    }
+    // Fix-it: corrupt kein-form → "nicht" and ask the learner to restore it.
+    // Only the kein→nicht direction is used: "kein/keine/..." is (almost)
+    // always immediately followed by a bare noun phrase (capitalized noun),
+    // and "nicht" cannot correctly negate a bare indefinite noun phrase there,
+    // so the corrupted sentence has exactly one valid fix. The reverse
+    // direction (nicht→kein) was dropped because "nicht" mostly negates
+    // verbs/adjectives/adverbs, where swapping in "kein" often produces an
+    // ungrammatical sentence with no clean unique correction.
+    if (KEIN_FORMS.includes(neg)) {
+      const idxOfNeg = s.de
+        .toLowerCase()
+        .search(
+          new RegExp(
+            `(?<![a-zA-ZäöüÄÖÜß])${escapeRegex(neg)}(?![a-zA-ZäöüÄÖÜß])`,
+            "i",
+          ),
+        );
+      const after =
+        idxOfNeg >= 0 ? s.de.slice(idxOfNeg + neg.length).trim() : "";
+      const nextWord = after.split(/\s+/)[0] ?? "";
+      const nextIsCapitalizedNoun = /^[A-ZÄÖÜ][a-zäöüß]/.test(nextWord);
 
-    if (corrupted && corrupted !== s.de) {
-      out.push({
-        engine: "fixit",
-        prompt: "Fix the negation in this sentence:",
-        stimulus: corrupted,
-        answer: s.de,
-        metadata: meta("syntax", "negation-lab", tier, [
-          "syntax:negation",
-          "fixit",
-          "heuristic:may-be-ambiguous",
-        ], gid),
-      });
+      if (nextIsCapitalizedNoun) {
+        const corrupted = replaceWholeWordFirst(s.de, neg, "nicht");
+        if (corrupted && corrupted !== s.de) {
+          out.push({
+            engine: "fixit",
+            prompt: "Fix the negation in this sentence:",
+            stimulus: corrupted,
+            answer: s.de,
+            metadata: meta(
+              "syntax",
+              "negation-lab",
+              tier,
+              ["syntax:negation", "fixit"],
+              gid,
+            ),
+          });
+        }
+      }
     }
   }
 
@@ -883,22 +1321,25 @@ function mutatePronouns(de: string): string | null {
   return null;
 }
 
+// Words that legitimately front a main clause (adverb/connector in position 1),
+// which forces the finite verb into position 2 and the subject into position 3
+// (e.g. "Heute geht er ..."). Swapping positions 2/3 in exactly this context
+// produces a genuine, unambiguous V2 violation ("Heute er geht ...") whose
+// only clean fix is restoring verb-second order — unlike swapping arbitrary
+// tokens in a subject-initial sentence, which usually just produces nonsense
+// rather than a single gradable error.
+const FRONTING_WORDS = new Set(
+  [...TEMPORAL_WORDS, ...CONNECTORS_MAIN].map((w) => w.toLowerCase()),
+);
+
 function mutateV2(de: string, tokens: string[]): string | null {
   if (tokens.length < 5) return null;
+  const first = (tokens[0] ?? "").toLowerCase().replace(/[.,!?;:]+$/, "");
+  if (!FRONTING_WORDS.has(first)) return null;
   const swapped = [...tokens];
   [swapped[1]!, swapped[2]!] = [swapped[2]!, swapped[1]!];
   const result = swapped.join(" ");
   return result !== de ? result : null;
-}
-
-function mutateConnector(de: string): string | null {
-  const found = sentenceContainsAny(de, CONNECTORS_SUB);
-  if (!found) return null;
-  // Replace with a different subordinating connector
-  const others = CONNECTORS_SUB.filter((c) => c !== found);
-  if (others.length === 0) return null;
-  const replacement = others[hashStr(de) % others.length]!;
-  return replaceWholeWordFirst(de, found, replacement);
 }
 
 function mutateNegation(de: string): string | null {
@@ -914,7 +1355,10 @@ function mutateNegation(de: string): string | null {
   return null;
 }
 
-function genErrorClinic(sentences: Sentence[], idx: Indices): PartialExercise[] {
+function genErrorClinic(
+  sentences: Sentence[],
+  idx: Indices,
+): PartialExercise[] {
   const out: PartialExercise[] = [];
 
   const mutators: Mutator[] = [
@@ -925,10 +1369,6 @@ function genErrorClinic(sentences: Sentence[], idx: Indices): PartialExercise[] 
     {
       name: "v2-word-order",
       fn: (de, toks) => mutateV2(de, toks),
-    },
-    {
-      name: "connector-swap",
-      fn: (de) => mutateConnector(de),
     },
     {
       name: "negation-swap",
@@ -956,10 +1396,13 @@ function genErrorClinic(sentences: Sentence[], idx: Indices): PartialExercise[] 
         prompt: "Correct the error in this sentence:",
         stimulus: corrupted,
         answer: s.de,
-        metadata: meta("performance", "error-clinic", tier, [
-          "fixit",
-          `mutator:${mut.name}`,
-        ], gid),
+        metadata: meta(
+          "performance",
+          "error-clinic",
+          tier,
+          ["fixit", `mutator:${mut.name}`],
+          gid,
+        ),
       });
     }
   }
@@ -982,7 +1425,8 @@ function qualityFilters(items: PartialExercise[]): PartialExercise[] {
       if (wordCount(stimulus) > 18) continue;
     }
     if (item.engine === "builder") {
-      if (!item.tokens || item.tokens.length < 4 || item.tokens.length > 14) continue;
+      if (!item.tokens || item.tokens.length < 4 || item.tokens.length > 14)
+        continue;
     }
 
     // Answer must be non-empty (builder uses solution instead)
@@ -998,7 +1442,8 @@ function qualityFilters(items: PartialExercise[]): PartialExercise[] {
     }
 
     // MC must have at least 2 options
-    if (item.engine === "mc" && (!item.options || item.options.length < 2)) continue;
+    if (item.engine === "mc" && (!item.options || item.options.length < 2))
+      continue;
 
     // Deduplicate by (engine + prompt + stimulus + answer)
     const sig = `${item.engine}|${item.prompt}|${stimulus}|${ansKey}`;
@@ -1023,7 +1468,7 @@ function serializeItems(items: object[]): string {
   const json = JSON.stringify(items, null, 2);
   // Restore Unicode characters from \uXXXX escapes so files are readable
   return json.replace(/\\u([0-9a-fA-F]{4})/g, (_, code: string) =>
-    String.fromCharCode(parseInt(code, 16))
+    String.fromCharCode(parseInt(code, 16)),
   );
 }
 
@@ -1032,14 +1477,14 @@ function emitTierFile(
   moduleSlug: string,
   exportBase: string,
   tier: Tier,
-  items: object[]
+  items: object[],
 ): void {
   const dir = resolve(
     process.cwd(),
     "content",
     "systems",
     systemId,
-    moduleSlug
+    moduleSlug,
   );
   if (!existsSync(dir)) mkdirSync(dir, { recursive: true });
 
@@ -1076,13 +1521,11 @@ function main(): void {
   const idx = buildIndices(lexemes, sentences);
   const mined = mineFromSentences(sentences, idx);
 
-  console.log(
-    `  Lexemes: ${lexemes.length}  Sentences: ${sentences.length}`
-  );
+  console.log(`  Lexemes: ${lexemes.length}  Sentences: ${sentences.length}`);
   console.log(
     `  Mined: connSub=${mined.connectorSub.length} connMain=${mined.connectorMain.length} ` +
-    `temporal=${mined.temporal.length} neg=${mined.negation.length} ` +
-    `ref=${mined.reflexive.length} prn=${mined.pronouns.length}`
+      `temporal=${mined.temporal.length} neg=${mined.negation.length} ` +
+      `ref=${mined.reflexive.length} prn=${mined.pronouns.length}`,
   );
 
   const modules: ModuleDef[] = [
@@ -1167,7 +1610,7 @@ function main(): void {
       // Assign final stable sequential IDs
       const finalItems = tierItems.map((item, seq) => ({
         id: `${mod.idPrefix}-t${tier}-${String(seq + 1).padStart(3, "0")}`,
-        ...item,
+        ...withModuleFeedback(mod.slug, item),
       }));
 
       emitTierFile(mod.systemId, mod.slug, mod.exportBase, tier, finalItems);
@@ -1177,7 +1620,9 @@ function main(): void {
     console.log();
   }
 
-  console.log("\nContent generation complete. Run npm run content:lint to validate.");
+  console.log(
+    "\nContent generation complete. Run npm run content:lint to validate.",
+  );
 }
 
 main();

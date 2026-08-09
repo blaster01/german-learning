@@ -1,8 +1,10 @@
 "use client";
 
+import { useEffect, useRef } from "react";
 import { CheckCircle2, XCircle } from "lucide-react";
 import type { LastResult } from "@/lib/session/types";
 import { Button } from "@/components/ui/button";
+import { SpeakButton } from "@/components/ui/speak-button";
 import { cn } from "@/lib/utils";
 
 export function FeedbackPanel({
@@ -20,16 +22,26 @@ export function FeedbackPanel({
   onContinue: () => void;
 }) {
   const isOk = result.ok;
+  const headingRef = useRef<HTMLParagraphElement>(null);
+
+  // Move focus onto the feedback panel whenever a new result comes in, so
+  // screen-reader users get the correctness announcement and land somewhere
+  // keyboard-operable instead of on an orphaned, now-disabled engine control.
+  useEffect(() => {
+    headingRef.current?.focus();
+  }, [result]);
 
   return (
     <div
       className={cn(
-        "animate-slide-up fixed inset-x-0 bottom-0 z-20 rounded-t-2xl border-t-2 px-4 pb-safe-bottom pt-5 shadow-card-lg",
+        "fixed inset-x-0 bottom-0 z-20 animate-slide-up rounded-t-2xl border-t-2 px-4 pb-safe-bottom pt-5 shadow-card-lg motion-reduce:animate-none",
         isOk
           ? "border-success/50 bg-success/10 dark:bg-success/[0.07]"
           : "border-destructive/40 bg-destructive/10 dark:bg-destructive/[0.07]",
       )}
       role="status"
+      aria-live="assertive"
+      aria-atomic="true"
     >
       <div className="mx-auto max-w-2xl">
         <div className="flex items-start gap-3">
@@ -39,7 +51,14 @@ export function FeedbackPanel({
             <XCircle className="mt-0.5 h-6 w-6 shrink-0 text-destructive" />
           )}
           <div className="flex-1 space-y-1">
-            <p className={cn("font-bold text-lg leading-tight", isOk ? "text-success" : "text-destructive")}>
+            <p
+              ref={headingRef}
+              tabIndex={-1}
+              className={cn(
+                "text-lg font-bold leading-tight outline-none",
+                isOk ? "text-success" : "text-destructive",
+              )}
+            >
               {isOk ? "Nice!" : "Almost —"}
             </p>
             {isOk ? (
@@ -63,11 +82,13 @@ export function FeedbackPanel({
                     <span className="text-xs font-semibold uppercase tracking-wide text-destructive/70">
                       Correct answer
                     </span>
-                    <p className="mt-0.5 font-medium text-foreground">{correctAnswerText}</p>
+                    <div className="mt-0.5 flex items-start gap-2">
+                      <p className="flex-1 font-medium text-foreground">
+                        {correctAnswerText}
+                      </p>
+                      <SpeakButton text={correctAnswerText} size="sm" />
+                    </div>
                   </div>
-                ) : null}
-                {result.errorTags.length > 0 ? (
-                  <p className="font-mono text-xs text-muted-foreground">{result.errorTags.join(" · ")}</p>
                 ) : null}
               </div>
             )}

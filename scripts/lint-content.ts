@@ -22,6 +22,8 @@ function canonicalAnswer(item: ExerciseItem): unknown {
 }
 
 let errors = 0;
+const seenIds = new Set<string>();
+
 for (const item of allExerciseItems) {
   try {
     exerciseItemSchema.parse(item);
@@ -35,10 +37,31 @@ for (const item of allExerciseItems) {
     console.error(`Self-check failed: ${item.id}`, r);
     errors++;
   }
+
+  // Duplicate ID across the whole content set.
+  if (seenIds.has(item.id)) {
+    console.error(`Duplicate id: ${item.id}`);
+    errors++;
+  } else {
+    seenIds.add(item.id);
+  }
+
+  // MC items must not offer two options with identical text — otherwise
+  // there can be more than one "correct" choice on screen.
+  if (item.engine === "mc") {
+    const normalized = item.options.map((o) => o.trim().toLowerCase());
+    const dupes = normalized.filter((o, i) => normalized.indexOf(o) !== i);
+    if (dupes.length > 0) {
+      console.error(`Duplicate MC options: ${item.id} (${dupes.join(", ")})`);
+      errors++;
+    }
+  }
 }
 
 if (errors > 0) {
   console.error(`content:lint failed with ${errors} error(s).`);
   process.exit(1);
 }
-console.log(`content:lint OK (${allExerciseItems.length} items).`);
+console.log(
+  `content:lint OK (${allExerciseItems.length} items, ${seenIds.size} unique ids).`,
+);

@@ -4,13827 +4,3471 @@ import type { ExerciseItem } from "@/lib/content/schema";
 
 export const errorClinicTier2: ExerciseItem[] = [
   {
-    "id": "perf-ec-t2-001",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Es war leicht, ihm hierher zu locken.",
-    "answer": "Es war leicht, ihn hierher zu locken.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:pronoun-case"
-      ],
-      "groupId": "ec:2733389007:pronoun-case"
-    }
-  },
-  {
-    "id": "perf-ec-t2-002",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Es leicht, war ihn hierher zu locken.",
-    "answer": "Es war leicht, ihn hierher zu locken.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:2733389007:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-003",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Während Analyse der können Sie eine erhöhte Festplattenaktivität feststellen.",
-    "answer": "Während der Analyse können Sie eine erhöhte Festplattenaktivität feststellen.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:2045047130:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-004",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Der hat Mann sich im Wald verlaufen.",
-    "answer": "Der Mann hat sich im Wald verlaufen.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:3641155522:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-005",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Das ist Mädchen so frech.",
-    "answer": "Das Mädchen ist so frech.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:1974111524:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-006",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Quito, liegt Ecuador, etwas südlich des Äquators.",
-    "answer": "Quito, Ecuador, liegt etwas südlich des Äquators.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:1716757449:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-007",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Sie nie werden meinetwegen umziehen müssen.",
-    "answer": "Sie werden nie meinetwegen umziehen müssen.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:916219874:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-008",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Da ein ist Ungeheuer unter meinem Bett.",
-    "answer": "Da ist ein Ungeheuer unter meinem Bett.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:367811416:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-009",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Die war Hütte sauber und ordentlich.",
-    "answer": "Die Hütte war sauber und ordentlich.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:3403428015:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-010",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "John sein war ganzes Leben lang Single.",
-    "answer": "John war sein ganzes Leben lang Single.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:2640712331:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-011",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Sie es werden nicht bedauern.",
-    "answer": "Sie werden es nicht bedauern.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:1797419463:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-012",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Sie werden es kein bedauern.",
-    "answer": "Sie werden es nicht bedauern.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:negation-swap"
-      ],
-      "groupId": "ec:1797419463:negation-swap"
-    }
-  },
-  {
-    "id": "perf-ec-t2-013",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Unter Kühlschrank dem ist es nicht.",
-    "answer": "Unter dem Kühlschrank ist es nicht.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:2089525278:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-014",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Unter dem Kühlschrank ist es kein.",
-    "answer": "Unter dem Kühlschrank ist es nicht.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:negation-swap"
-      ],
-      "groupId": "ec:2089525278:negation-swap"
-    }
-  },
-  {
-    "id": "perf-ec-t2-015",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Letzte erhielt Woche John einen Teil deiner Lieferung.",
-    "answer": "Letzte Woche erhielt John einen Teil deiner Lieferung.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:1455584614:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-016",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Der ist Kocher da auf dem Herd.",
-    "answer": "Der Kocher ist da auf dem Herd.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:1099406802:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-017",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Die inkludieren Preise Leinen, Handtücher, Kaffee und Tee.",
-    "answer": "Die Preise inkludieren Leinen, Handtücher, Kaffee und Tee.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:3670255008:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-018",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Während Impfung der sollte Futter zur Verfügung stehen.",
-    "answer": "Während der Impfung sollte Futter zur Verfügung stehen.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:3147327041:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-019",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Über der ist Ruhestand obligatorisch.",
-    "answer": "Über ist der Ruhestand obligatorisch.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:3765373963:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-020",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Sie den können Wochentag ausschreiben oder als Abkürzung eingeben.",
-    "answer": "Sie können den Wochentag ausschreiben oder als Abkürzung eingeben.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:2490491936:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-021",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Sie können den Wochentag ausschreiben oder falls Abkürzung eingeben.",
-    "answer": "Sie können den Wochentag ausschreiben oder als Abkürzung eingeben.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:connector-swap"
-      ],
-      "groupId": "ec:2490491936:connector-swap"
-    }
-  },
-  {
-    "id": "perf-ec-t2-022",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Ihre wünscht Majestät Ihre Anwesenheit im Palast.",
-    "answer": "Ihre Majestät wünscht Ihre Anwesenheit im Palast.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:1030591904:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-023",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Es mein war Vorfahre, der hier lebte.",
-    "answer": "Es war mein Vorfahre, der hier lebte.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:2818550514:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-024",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Augenscheinlich wollte sie dich etwas mitteilen.",
-    "answer": "Augenscheinlich wollte sie dir etwas mitteilen.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:pronoun-case"
-      ],
-      "groupId": "ec:691995793:pronoun-case"
-    }
-  },
-  {
-    "id": "perf-ec-t2-025",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Augenscheinlich sie wollte dir etwas mitteilen.",
-    "answer": "Augenscheinlich wollte sie dir etwas mitteilen.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:691995793:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-026",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Ziemlich aber brutal, so war es.",
-    "answer": "Ziemlich brutal, aber so war es.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:821974888:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-027",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Vielleicht er will die bösen Geister aus dem Wald vertreiben.",
-    "answer": "Vielleicht will er die bösen Geister aus dem Wald vertreiben.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:808400503:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-028",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Das war Fleisch innen sehr zart.",
-    "answer": "Das Fleisch war innen sehr zart.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:3343334760:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-029",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Auch solltest du bald wiederkommen.",
-    "answer": "Auch du solltest bald wiederkommen.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:212974423:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-030",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Mein bringt Assistent sie gerade zum Druck.",
-    "answer": "Mein Assistent bringt sie gerade zum Druck.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:3711545866:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-031",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Sie ein würden perfektes Paar abgeben.",
-    "answer": "Sie würden ein perfektes Paar abgeben.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:102274435:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-032",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Es immer ist so kalt und feucht.",
-    "answer": "Es ist immer so kalt und feucht.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:1574804969:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-033",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "John dort wird sein, was ziemlich abgefahren ist.",
-    "answer": "John wird dort sein, was ziemlich abgefahren ist.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:2269357709:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-034",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Du sachte musst den Abzug drücken.",
-    "answer": "Du musst sachte den Abzug drücken.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:2807619975:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-035",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Dieser besteht Tisch aus Holz.",
-    "answer": "Dieser Tisch besteht aus Holz.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:1744413817:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-036",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Schach das ist Spiel der Könige.",
-    "answer": "Schach ist das Spiel der Könige.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:1006720869:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-037",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Du nichts musst über Magie wissen.",
-    "answer": "Du musst nichts über Magie wissen.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:3501950442:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-038",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "In Ferien den las ich das gesamte Werk Miltons.",
-    "answer": "In den Ferien las ich das gesamte Werk Miltons.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:265763583:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-039",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Es einen gab Funken oder zwei.",
-    "answer": "Es gab einen Funken oder zwei.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:3770111108:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-040",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Er er sagte, würde vorbeikommen.",
-    "answer": "Er sagte, er würde vorbeikommen.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:339244581:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-041",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Der entsprach Mann der Beschreibung.",
-    "answer": "Der Mann entsprach der Beschreibung.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:1074530848:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-042",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Wir nur haben kaltes Huhn.",
-    "answer": "Wir haben nur kaltes Huhn.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:2427143197:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-043",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Glaub mich, es ist unerträglich.",
-    "answer": "Glaub mir, es ist unerträglich.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:pronoun-case"
-      ],
-      "groupId": "ec:546661575:pronoun-case"
-    }
-  },
-  {
-    "id": "perf-ec-t2-044",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Glaub es mir, ist unerträglich.",
-    "answer": "Glaub mir, es ist unerträglich.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:546661575:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-045",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Dieses hat Hotel kostenloses WLAN.",
-    "answer": "Dieses Hotel hat kostenloses WLAN.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:3758902039:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-046",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Die im Navigation Menü funktioniert angenehm und flott.",
-    "answer": "Die Navigation im Menü funktioniert angenehm und flott.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:2905016850:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-047",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Ich diese muss Fähigkeiten lernen.",
-    "answer": "Ich muss diese Fähigkeiten lernen.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:924631169:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-048",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Das zeigt Thermometer zehn Grad.",
-    "answer": "Das Thermometer zeigt zehn Grad.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:991997575:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-049",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Aber kann man keinen Spion großziehen.",
-    "answer": "Aber man kann keinen Spion großziehen.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:4113309578:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-050",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Aber man kann nicht Spion großziehen.",
-    "answer": "Aber man kann keinen Spion großziehen.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:negation-swap"
-      ],
-      "groupId": "ec:4113309578:negation-swap"
-    }
-  },
-  {
-    "id": "perf-ec-t2-051",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Selbst Kinder kleine haben einen angeborenen Sinn dafür, was gerecht und was nicht gerecht ist.",
-    "answer": "Selbst kleine Kinder haben einen angeborenen Sinn dafür, was gerecht und was nicht gerecht ist.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:1654544814:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-052",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Selbst kleine Kinder haben einen angeborenen Sinn dafür, was gerecht und was kein gerecht ist.",
-    "answer": "Selbst kleine Kinder haben einen angeborenen Sinn dafür, was gerecht und was nicht gerecht ist.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:negation-swap"
-      ],
-      "groupId": "ec:1654544814:negation-swap"
-    }
-  },
-  {
-    "id": "perf-ec-t2-053",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Der Schalter andere ist im Keller.",
-    "answer": "Der andere Schalter ist im Keller.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:2947541072:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-054",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Er vier hatte Stunden, um sich zu erholen.",
-    "answer": "Er hatte vier Stunden, um sich zu erholen.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:1114597938:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-055",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Ich weiß, wie unangenehm dich das ist.",
-    "answer": "Ich weiß, wie unangenehm dir das ist.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:pronoun-case"
-      ],
-      "groupId": "ec:2724012537:pronoun-case"
-    }
-  },
-  {
-    "id": "perf-ec-t2-056",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Ich wie weiß, unangenehm dir das ist.",
-    "answer": "Ich weiß, wie unangenehm dir das ist.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:2724012537:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-057",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Die Ambitionen außenpolitischen der Europäischen Union sind beeindruckend.",
-    "answer": "Die außenpolitischen Ambitionen der Europäischen Union sind beeindruckend.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:2496071673:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-058",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Es sich lohnt nicht zu jammern.",
-    "answer": "Es lohnt sich nicht zu jammern.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:3957951116:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-059",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Es lohnt sich kein zu jammern.",
-    "answer": "Es lohnt sich nicht zu jammern.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:negation-swap"
-      ],
-      "groupId": "ec:3957951116:negation-swap"
-    }
-  },
-  {
-    "id": "perf-ec-t2-060",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Nur wir schießen anstatt einer Kartoffel einen brennenden Pfeil.",
-    "answer": "Nur schießen wir anstatt einer Kartoffel einen brennenden Pfeil.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:2158210546:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-061",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Mögen uns Sie mit Glück segnen.",
-    "answer": "Mögen Sie uns mit Glück segnen.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:3682513764:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-062",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Ich den konnte Gestank nicht ertragen.",
-    "answer": "Ich konnte den Gestank nicht ertragen.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:3025974306:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-063",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Ich konnte den Gestank kein ertragen.",
-    "answer": "Ich konnte den Gestank nicht ertragen.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:negation-swap"
-      ],
-      "groupId": "ec:3025974306:negation-swap"
-    }
-  },
-  {
-    "id": "perf-ec-t2-064",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Ich sie möchte nicht mehr enttäuschen.",
-    "answer": "Ich möchte sie nicht mehr enttäuschen.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:4002574624:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-065",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Ich möchte sie kein mehr enttäuschen.",
-    "answer": "Ich möchte sie nicht mehr enttäuschen.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:negation-swap"
-      ],
-      "groupId": "ec:4002574624:negation-swap"
-    }
-  },
-  {
-    "id": "perf-ec-t2-066",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Wir nur müssen noch einmal alles durchgehen.",
-    "answer": "Wir müssen nur noch einmal alles durchgehen.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:521765462:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-067",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Ich diese muss Ladung nach Berlin bringen.",
-    "answer": "Ich muss diese Ladung nach Berlin bringen.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:2278104631:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-068",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Admiral, interessiert vielleicht Sie das.",
-    "answer": "Admiral, vielleicht interessiert Sie das.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:1921955878:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-069",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Kritiker zudem befürchten eine Verteuerung des Internets.",
-    "answer": "Kritiker befürchten zudem eine Verteuerung des Internets.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:1158358965:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-070",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Er Charisma hatte und konnte regieren.",
-    "answer": "Er hatte Charisma und konnte regieren.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:2041101277:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-071",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Das sich lässt alles medizinisch erklären.",
-    "answer": "Das lässt sich alles medizinisch erklären.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:2388029775:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-072",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Es zu kam spät zum Training.",
-    "answer": "Es kam zu spät zum Training.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:2826573232:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-073",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Ich nicht wollte in Ihre Privatsphäre eindringen.",
-    "answer": "Ich wollte nicht in Ihre Privatsphäre eindringen.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:9840090:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-074",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Ich wollte kein in Ihre Privatsphäre eindringen.",
-    "answer": "Ich wollte nicht in Ihre Privatsphäre eindringen.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:negation-swap"
-      ],
-      "groupId": "ec:9840090:negation-swap"
-    }
-  },
-  {
-    "id": "perf-ec-t2-075",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Nicht Bürger jeder Russlands ist ein Russe.",
-    "answer": "Nicht jeder Bürger Russlands ist ein Russe.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:4147542210:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-076",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Hunde, bellen, die beißen nicht.",
-    "answer": "Hunde, die bellen, beißen nicht.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:3499454915:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-077",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Hunde, die bellen, beißen kein.",
-    "answer": "Hunde, die bellen, beißen nicht.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:negation-swap"
-      ],
-      "groupId": "ec:3499454915:negation-swap"
-    }
-  },
-  {
-    "id": "perf-ec-t2-078",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Es im liegt Tresor meines Vaters.",
-    "answer": "Es liegt im Tresor meines Vaters.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:3264614221:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-079",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Die waren Zuckergehalte sehr gering.",
-    "answer": "Die Zuckergehalte waren sehr gering.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:3384911490:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-080",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Mein wollte Bruder auch Cowboy werden.",
-    "answer": "Mein Bruder wollte auch Cowboy werden.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:3840490336:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-081",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Auf Tisch dem lag eine Schere.",
-    "answer": "Auf dem Tisch lag eine Schere.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:1272694715:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-082",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Binnen Tage sieben wird sie zum Vampir.",
-    "answer": "Binnen sieben Tage wird sie zum Vampir.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:545788594:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-083",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Du benimmst dir wie eine billige Hure.",
-    "answer": "Du benimmst dich wie eine billige Hure.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:pronoun-case"
-      ],
-      "groupId": "ec:3875306625:pronoun-case"
-    }
-  },
-  {
-    "id": "perf-ec-t2-084",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Du dich benimmst wie eine billige Hure.",
-    "answer": "Du benimmst dich wie eine billige Hure.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:3875306625:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-085",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Ich auf möchte die wichtigsten Elemente des Berichts hinweisen.",
-    "answer": "Ich möchte auf die wichtigsten Elemente des Berichts hinweisen.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:1557846680:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-086",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Das wird hier deine Füße wärmen.",
-    "answer": "Das hier wird deine Füße wärmen.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:347457923:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-087",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Meine glaubt, Freundin dass sie kotzen muss.",
-    "answer": "Meine Freundin glaubt, dass sie kotzen muss.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:3671102538:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-088",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Meine Freundin glaubt, bevor sie kotzen muss.",
-    "answer": "Meine Freundin glaubt, dass sie kotzen muss.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:connector-swap"
-      ],
-      "groupId": "ec:3671102538:connector-swap"
-    }
-  },
-  {
-    "id": "perf-ec-t2-089",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Im Moment erscheint mich alles erbärmlich.",
-    "answer": "Im Moment erscheint mir alles erbärmlich.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:pronoun-case"
-      ],
-      "groupId": "ec:4228191707:pronoun-case"
-    }
-  },
-  {
-    "id": "perf-ec-t2-090",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Im erscheint Moment mir alles erbärmlich.",
-    "answer": "Im Moment erscheint mir alles erbärmlich.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:4228191707:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-091",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Der hat Senator großen Einfluss hier.",
-    "answer": "Der Senator hat großen Einfluss hier.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:4075554036:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-092",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Johns ist Mannschaft die schlechteste in der Liga.",
-    "answer": "Johns Mannschaft ist die schlechteste in der Liga.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:1488880328:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-093",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Sie sich sollen einen Film aussuchen.",
-    "answer": "Sie sollen sich einen Film aussuchen.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:2732795792:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-094",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Diese hat Katzenart keinen Schwanz.",
-    "answer": "Diese Katzenart hat keinen Schwanz.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:1082236060:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-095",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Diese Katzenart hat nicht Schwanz.",
-    "answer": "Diese Katzenart hat keinen Schwanz.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:negation-swap"
-      ],
-      "groupId": "ec:1082236060:negation-swap"
-    }
-  },
-  {
-    "id": "perf-ec-t2-096",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Sie das wissen, kann nicht gelingen.",
-    "answer": "Sie wissen, das kann nicht gelingen.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:3489587760:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-097",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Sie wissen, das kann kein gelingen.",
-    "answer": "Sie wissen, das kann nicht gelingen.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:negation-swap"
-      ],
-      "groupId": "ec:3489587760:negation-swap"
-    }
-  },
-  {
-    "id": "perf-ec-t2-098",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Die Nation neue steht unter dem wirtschaftlichen Einfluss Japans.",
-    "answer": "Die neue Nation steht unter dem wirtschaftlichen Einfluss Japans.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:1962368561:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-099",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Es schwer, ist sie mit einer Pistole tödlich zu verwunden.",
-    "answer": "Es ist schwer, sie mit einer Pistole tödlich zu verwunden.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:1752195012:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-100",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Da dieser war Korb voller Eier.",
-    "answer": "Da war dieser Korb voller Eier.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:1403926747:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-101",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Einen aufzuziehen Teenager kostet viel Geld.",
-    "answer": "Einen Teenager aufzuziehen kostet viel Geld.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:2327514467:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-102",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Man regelmäßig muss essen, um abzunehmen.",
-    "answer": "Man muss regelmäßig essen, um abzunehmen.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:3574374031:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-103",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Es falsch war Johns Anspruch zu unterstützen.",
-    "answer": "Es war falsch Johns Anspruch zu unterstützen.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:2908974943:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-104",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Ich das hoffe, war deine Hausaufgabe.",
-    "answer": "Ich hoffe, das war deine Hausaufgabe.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:1569466118:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-105",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Wenn nicht wir mitspielen, wird er uns ganz sicher töten.",
-    "answer": "Wenn wir nicht mitspielen, wird er uns ganz sicher töten.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:3458414203:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-106",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Wenn wir kein mitspielen, wird er uns ganz sicher töten.",
-    "answer": "Wenn wir nicht mitspielen, wird er uns ganz sicher töten.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:negation-swap"
-      ],
-      "groupId": "ec:3458414203:negation-swap"
-    }
-  },
-  {
-    "id": "perf-ec-t2-107",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Zuerst Stromkabel alle vom Ausgang abziehen.",
-    "answer": "Zuerst alle Stromkabel vom Ausgang abziehen.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:444025584:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-108",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Du kein bekommst Geld, Schwachkopf.",
-    "answer": "Du bekommst kein Geld, Schwachkopf.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:3137380018:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-109",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Du bekommst nicht Geld, Schwachkopf.",
-    "answer": "Du bekommst kein Geld, Schwachkopf.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:negation-swap"
-      ],
-      "groupId": "ec:3137380018:negation-swap"
-    }
-  },
-  {
-    "id": "perf-ec-t2-110",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Er am musste Fahrkartenschalter anstehen.",
-    "answer": "Er musste am Fahrkartenschalter anstehen.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:234209319:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-111",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Der fährt Fahrstuhl herunter ins Kellergeschoss.",
-    "answer": "Der Fahrstuhl fährt herunter ins Kellergeschoss.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:1059723252:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-112",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Wir Eisen haben in unserem Blut.",
-    "answer": "Wir haben Eisen in unserem Blut.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:2216494024:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-113",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Aber Heil das wird nicht aus Brüssel kommen.",
-    "answer": "Aber das Heil wird nicht aus Brüssel kommen.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:3297928240:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-114",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Aber das Heil wird kein aus Brüssel kommen.",
-    "answer": "Aber das Heil wird nicht aus Brüssel kommen.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:negation-swap"
-      ],
-      "groupId": "ec:3297928240:negation-swap"
-    }
-  },
-  {
-    "id": "perf-ec-t2-115",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Sie nicht respektiert meine Autorität.",
-    "answer": "Sie respektiert nicht meine Autorität.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:1651446854:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-116",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Sie respektiert kein meine Autorität.",
-    "answer": "Sie respektiert nicht meine Autorität.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:negation-swap"
-      ],
-      "groupId": "ec:1651446854:negation-swap"
-    }
-  },
-  {
-    "id": "perf-ec-t2-117",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Der ist Hals kurz und sehr kräftig.",
-    "answer": "Der Hals ist kurz und sehr kräftig.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:143371176:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-118",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Möbel gutem aus Material verkaufen sich gut.",
-    "answer": "Möbel aus gutem Material verkaufen sich gut.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:59318089:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-119",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Echte haben Helden nichts zu verbergen.",
-    "answer": "Echte Helden haben nichts zu verbergen.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:2088765226:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-120",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "John zweifellos war der intelligenteste Schüler der ganzen Schule.",
-    "answer": "John war zweifellos der intelligenteste Schüler der ganzen Schule.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:1444278004:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-121",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Der schoss Jäger auf den Vogel.",
-    "answer": "Der Jäger schoss auf den Vogel.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:3041849399:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-122",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Dein Freund informiert dir über die Einzelheiten.",
-    "answer": "Dein Freund informiert dich über die Einzelheiten.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:pronoun-case"
-      ],
-      "groupId": "ec:3275988257:pronoun-case"
-    }
-  },
-  {
-    "id": "perf-ec-t2-123",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Dein informiert Freund dich über die Einzelheiten.",
-    "answer": "Dein Freund informiert dich über die Einzelheiten.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:3275988257:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-124",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Nein, sind wir nicht verwandt.",
-    "answer": "Nein, wir sind nicht verwandt.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:867519602:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-125",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Nein, wir sind kein verwandt.",
-    "answer": "Nein, wir sind nicht verwandt.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:negation-swap"
-      ],
-      "groupId": "ec:867519602:negation-swap"
-    }
-  },
-  {
-    "id": "perf-ec-t2-126",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Sie alles werden tun, um einer Inhaftierung zu entgehen.",
-    "answer": "Sie werden alles tun, um einer Inhaftierung zu entgehen.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:1590956113:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-127",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Ich nicht wollte so grob sein.",
-    "answer": "Ich wollte nicht so grob sein.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:3454800521:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-128",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Ich wollte kein so grob sein.",
-    "answer": "Ich wollte nicht so grob sein.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:negation-swap"
-      ],
-      "groupId": "ec:3454800521:negation-swap"
-    }
-  },
-  {
-    "id": "perf-ec-t2-129",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Sie in war der Kneipe und es ist ein Inzident passiert.",
-    "answer": "Sie war in der Kneipe und es ist ein Inzident passiert.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:2995780581:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-130",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Ich sehr würde gerne deinen Toast essen.",
-    "answer": "Ich würde sehr gerne deinen Toast essen.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:2135620292:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-131",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Du heute bist der große Sieger.",
-    "answer": "Du bist heute der große Sieger.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:1584245439:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-132",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Es nicht ist notwendig, emotional zu werden.",
-    "answer": "Es ist nicht notwendig, emotional zu werden.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:1415901622:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-133",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Es ist kein notwendig, emotional zu werden.",
-    "answer": "Es ist nicht notwendig, emotional zu werden.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:negation-swap"
-      ],
-      "groupId": "ec:1415901622:negation-swap"
-    }
-  },
-  {
-    "id": "perf-ec-t2-134",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Kannst eine du Ausnahme machen?",
-    "answer": "Kannst du eine Ausnahme machen?",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:3371281825:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-135",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Ich verstecke mir inmitten einer Parade.",
-    "answer": "Ich verstecke mich inmitten einer Parade.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:pronoun-case"
-      ],
-      "groupId": "ec:1401411674:pronoun-case"
-    }
-  },
-  {
-    "id": "perf-ec-t2-136",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Ich mich verstecke inmitten einer Parade.",
-    "answer": "Ich verstecke mich inmitten einer Parade.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:1401411674:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-137",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Es unhöflich, ist sich über seinen Chef in der Öffentlichkeit lustig zu machen.",
-    "answer": "Es ist unhöflich, sich über seinen Chef in der Öffentlichkeit lustig zu machen.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:2260789383:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-138",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Gib mich deinen Teller, John.",
-    "answer": "Gib mir deinen Teller, John.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:pronoun-case"
-      ],
-      "groupId": "ec:3587574073:pronoun-case"
-    }
-  },
-  {
-    "id": "perf-ec-t2-139",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Gib deinen mir Teller, John.",
-    "answer": "Gib mir deinen Teller, John.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:3587574073:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-140",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Es Tag werden und Nacht die Glocken läuten.",
-    "answer": "Es werden Tag und Nacht die Glocken läuten.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:2938873294:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-141",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Setzen Ihren Sie Namen unter dieses Dokument.",
-    "answer": "Setzen Sie Ihren Namen unter dieses Dokument.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:1063957440:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-142",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "In Stunden zwei holt ein Lkw Sie ab.",
-    "answer": "In zwei Stunden holt ein Lkw Sie ab.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:1984286499:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-143",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Sie seine haben Mütze über den Zaun geworfen.",
-    "answer": "Sie haben seine Mütze über den Zaun geworfen.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:3241528597:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-144",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Vater, gehe ich und helfe ihnen beim Aufräumen.",
-    "answer": "Vater, ich gehe und helfe ihnen beim Aufräumen.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:648101623:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-145",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Dazu wir bedürfen aber dringend der nötigen Informationen.",
-    "answer": "Dazu bedürfen wir aber dringend der nötigen Informationen.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:2901519353:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-146",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "In Zwischenzeit der müssen wir die Anlage komplett evakuieren.",
-    "answer": "In der Zwischenzeit müssen wir die Anlage komplett evakuieren.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:3252280049:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-147",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Es illegal, ist dort sein Auto abzustellen.",
-    "answer": "Es ist illegal, dort sein Auto abzustellen.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:1431871275:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-148",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Ich meine muss Termine checken.",
-    "answer": "Ich muss meine Termine checken.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:1793245230:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-149",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Danach Workstation die ausschalten und den Transmitter anschließen.",
-    "answer": "Danach die Workstation ausschalten und den Transmitter anschließen.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:522633962:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-150",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Sie eine sind außergewöhnlich gute Köchin.",
-    "answer": "Sie sind eine außergewöhnlich gute Köchin.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:1542029714:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-151",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Wir gerade testen eine komplett neue Methode.",
-    "answer": "Wir testen gerade eine komplett neue Methode.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:2189134624:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-152",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Sogar privaten mit Sicherheitsdiensten sind diese Schiffe gefährdet.",
-    "answer": "Sogar mit privaten Sicherheitsdiensten sind diese Schiffe gefährdet.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:4030288230:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-153",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Die gossen Läufer Wasser über ihre Köpfe.",
-    "answer": "Die Läufer gossen Wasser über ihre Köpfe.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:2795522896:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-154",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Ich diese werde Übersetzung ändern.",
-    "answer": "Ich werde diese Übersetzung ändern.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:366526688:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-155",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Wir haben ihm gemäß der Regel bestraft.",
-    "answer": "Wir haben ihn gemäß der Regel bestraft.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:pronoun-case"
-      ],
-      "groupId": "ec:422162795:pronoun-case"
-    }
-  },
-  {
-    "id": "perf-ec-t2-156",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Wir ihn haben gemäß der Regel bestraft.",
-    "answer": "Wir haben ihn gemäß der Regel bestraft.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:422162795:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-157",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Ich es habe schon dreimal gesagt.",
-    "answer": "Ich habe es schon dreimal gesagt.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:400838709:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-158",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Sie Schweigen hält für Tapferkeit, nicht Dummheit.",
-    "answer": "Sie hält Schweigen für Tapferkeit, nicht Dummheit.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:3489200425:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-159",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Sie hält Schweigen für Tapferkeit, kein Dummheit.",
-    "answer": "Sie hält Schweigen für Tapferkeit, nicht Dummheit.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:negation-swap"
-      ],
-      "groupId": "ec:3489200425:negation-swap"
-    }
-  },
-  {
-    "id": "perf-ec-t2-160",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Sie den beseitigen unangenehmen Körpergeruch und desinfizieren.",
-    "answer": "Sie beseitigen den unangenehmen Körpergeruch und desinfizieren.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:916937817:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-161",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Die Dame ältere nebenan ist schwerhörig.",
-    "answer": "Die ältere Dame nebenan ist schwerhörig.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:4283582445:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-162",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Das ganz ist und gar absurd.",
-    "answer": "Das ist ganz und gar absurd.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:3692281389:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-163",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Dann wir hörten ein lautes Krachen.",
-    "answer": "Dann hörten wir ein lautes Krachen.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:150709285:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-164",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Dieses enthält Wörterbuch auch Beispielsätze.",
-    "answer": "Dieses Wörterbuch enthält auch Beispielsätze.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:539804291:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-165",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Er ein wird guter Häuptling sein.",
-    "answer": "Er wird ein guter Häuptling sein.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:2288387435:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-166",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Kein auf Ort Erden ist so schön wie die Schweizer Alpen.",
-    "answer": "Kein Ort auf Erden ist so schön wie die Schweizer Alpen.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:208490788:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-167",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Ich Kleingeld brauche für einen Dollar.",
-    "answer": "Ich brauche Kleingeld für einen Dollar.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:4275959257:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-168",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Ich doch habe nur den Hörer aufgelegt.",
-    "answer": "Ich habe doch nur den Hörer aufgelegt.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:1053952620:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-169",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Es ein ist modernes Mittel zur internationalen Kommunikation.",
-    "answer": "Es ist ein modernes Mittel zur internationalen Kommunikation.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:3094351333:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-170",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Sie im haben Büro eine Dusche?",
-    "answer": "Sie haben im Büro eine Dusche?",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:1769115909:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-171",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Der verfolgte Jäger die Fährte des Bären.",
-    "answer": "Der Jäger verfolgte die Fährte des Bären.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:3517912452:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-172",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Wir irgendwie müssen die Masse reduzieren.",
-    "answer": "Wir müssen irgendwie die Masse reduzieren.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:1896178017:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-173",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Du in solltest deinem Rollstuhl sein.",
-    "answer": "Du solltest in deinem Rollstuhl sein.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:1147191903:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-174",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Ich in sehe einem Smoking doof aus.",
-    "answer": "Ich sehe in einem Smoking doof aus.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:713426324:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-175",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Das der ist einzige Weg hinüber.",
-    "answer": "Das ist der einzige Weg hinüber.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:3536124380:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-176",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "John, ich hatte dir gebeten, nicht diese nervige Melodie zu pfeifen.",
-    "answer": "John, ich hatte dich gebeten, nicht diese nervige Melodie zu pfeifen.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:pronoun-case"
-      ],
-      "groupId": "ec:1055738799:pronoun-case"
-    }
-  },
-  {
-    "id": "perf-ec-t2-177",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "John, hatte ich dich gebeten, nicht diese nervige Melodie zu pfeifen.",
-    "answer": "John, ich hatte dich gebeten, nicht diese nervige Melodie zu pfeifen.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:1055738799:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-178",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "John, ich hatte dich gebeten, kein diese nervige Melodie zu pfeifen.",
-    "answer": "John, ich hatte dich gebeten, nicht diese nervige Melodie zu pfeifen.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:negation-swap"
-      ],
-      "groupId": "ec:1055738799:negation-swap"
-    }
-  },
-  {
-    "id": "perf-ec-t2-179",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Bitte lass es mir bis Mittwoch wissen, wenn du nicht teilnehmen kannst.",
-    "answer": "Bitte lass es mich bis Mittwoch wissen, wenn du nicht teilnehmen kannst.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:pronoun-case"
-      ],
-      "groupId": "ec:428868412:pronoun-case"
-    }
-  },
-  {
-    "id": "perf-ec-t2-180",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Bitte es lass mich bis Mittwoch wissen, wenn du nicht teilnehmen kannst.",
-    "answer": "Bitte lass es mich bis Mittwoch wissen, wenn du nicht teilnehmen kannst.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:428868412:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-181",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Bitte lass es mich bis Mittwoch wissen, nachdem du nicht teilnehmen kannst.",
-    "answer": "Bitte lass es mich bis Mittwoch wissen, wenn du nicht teilnehmen kannst.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:connector-swap"
-      ],
-      "groupId": "ec:428868412:connector-swap"
-    }
-  },
-  {
-    "id": "perf-ec-t2-182",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Bitte lass es mich bis Mittwoch wissen, wenn du kein teilnehmen kannst.",
-    "answer": "Bitte lass es mich bis Mittwoch wissen, wenn du nicht teilnehmen kannst.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:negation-swap"
-      ],
-      "groupId": "ec:428868412:negation-swap"
-    }
-  },
-  {
-    "id": "perf-ec-t2-183",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Diese können Vorschriften insbesondere die Stellung einer Kaution vorsehen.",
-    "answer": "Diese Vorschriften können insbesondere die Stellung einer Kaution vorsehen.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:802687031:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-184",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Englische kleiden Damen sich abends genau wie alle anderen Damen.",
-    "answer": "Englische Damen kleiden sich abends genau wie alle anderen Damen.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:31874481:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-185",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Ich nicht spreche sehr gut Japanisch.",
-    "answer": "Ich spreche nicht sehr gut Japanisch.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:3729793176:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-186",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Ich spreche kein sehr gut Japanisch.",
-    "answer": "Ich spreche nicht sehr gut Japanisch.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:negation-swap"
-      ],
-      "groupId": "ec:3729793176:negation-swap"
-    }
-  },
-  {
-    "id": "perf-ec-t2-187",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Das ich habe mal im Zirkus gesehen.",
-    "answer": "Das habe ich mal im Zirkus gesehen.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:1599593306:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-188",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Du es möchtest bloß nicht zugeben.",
-    "answer": "Du möchtest es bloß nicht zugeben.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:318285572:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-189",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Du möchtest es bloß kein zugeben.",
-    "answer": "Du möchtest es bloß nicht zugeben.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:negation-swap"
-      ],
-      "groupId": "ec:318285572:negation-swap"
-    }
-  },
-  {
-    "id": "perf-ec-t2-190",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Stell Leiter die in den Schuppen.",
-    "answer": "Stell die Leiter in den Schuppen.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:2866272896:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-191",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Ohne Formel die sind sie nutzlos.",
-    "answer": "Ohne die Formel sind sie nutzlos.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:2787645838:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-192",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Europas geloben Führer immer wieder, alles Nötige zu tun, um den Euro zu retten.",
-    "answer": "Europas Führer geloben immer wieder, alles Nötige zu tun, um den Euro zu retten.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:2878205888:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-193",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Noch Dunkelheit vor werden die Kämpfe losgehen.",
-    "answer": "Noch vor Dunkelheit werden die Kämpfe losgehen.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:2776271940:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-194",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Schlechte kann Verlierer ich nicht ausstehen.",
-    "answer": "Schlechte Verlierer kann ich nicht ausstehen.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:2519505134:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-195",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Schlechte Verlierer kann ich kein ausstehen.",
-    "answer": "Schlechte Verlierer kann ich nicht ausstehen.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:negation-swap"
-      ],
-      "groupId": "ec:2519505134:negation-swap"
-    }
-  },
-  {
-    "id": "perf-ec-t2-196",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Mein war Daumen zu nah an der Flamme.",
-    "answer": "Mein Daumen war zu nah an der Flamme.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:3210807048:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-197",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Ich es schreibe an die Tafel.",
-    "answer": "Ich schreibe es an die Tafel.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:1503382135:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-198",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Sie Lichtquellen können aber auch einzeln steuern.",
-    "answer": "Sie können Lichtquellen aber auch einzeln steuern.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:728614612:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-199",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Sie ihrer schickt Mutter eine Nachricht.",
-    "answer": "Sie schickt ihrer Mutter eine Nachricht.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:3451428177:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-200",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Aber Poesie Wagners wirkt durch seine Musik.",
-    "answer": "Aber Wagners Poesie wirkt durch seine Musik.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:1448911523:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-201",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Nicht eines während Gewitters anschließen oder verwenden.",
-    "answer": "Nicht während eines Gewitters anschließen oder verwenden.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:637424:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-202",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Nicht sobald eines Gewitters anschließen oder verwenden.",
-    "answer": "Nicht während eines Gewitters anschließen oder verwenden.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:connector-swap"
-      ],
-      "groupId": "ec:637424:connector-swap"
-    }
-  },
-  {
-    "id": "perf-ec-t2-203",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Und könnte ich Ihre Hilfe brauchen, ehe das hier vorüber ist.",
-    "answer": "Und ich könnte Ihre Hilfe brauchen, ehe das hier vorüber ist.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:1147567362:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-204",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Ich erleichtert bin Sie zu sehen.",
-    "answer": "Ich bin erleichtert Sie zu sehen.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:3466681142:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-205",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Ich drei habe Hunde; einer ist männlich und die anderen sind weiblich.",
-    "answer": "Ich habe drei Hunde; einer ist männlich und die anderen sind weiblich.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:549700491:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-206",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Das ist Etikett mit folgenden Angaben zu versehen.",
-    "answer": "Das Etikett ist mit folgenden Angaben zu versehen.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:3488927780:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-207",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Divergierende veranlassten Berichte den Chef, seinen Standpunkt zu überdenken.",
-    "answer": "Divergierende Berichte veranlassten den Chef, seinen Standpunkt zu überdenken.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:2421175170:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-208",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Wärst königlich, du würdest du es wissen.",
-    "answer": "Wärst du königlich, würdest du es wissen.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:716355442:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-209",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "John kaum wird mit uns rechnen.",
-    "answer": "John wird kaum mit uns rechnen.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:2114888967:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-210",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Ich Hühnchen habe und Sandwiches.",
-    "answer": "Ich habe Hühnchen und Sandwiches.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:176085221:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-211",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Dieser Ansatz bahnbrechende ist weltweit einzigartig.",
-    "answer": "Dieser bahnbrechende Ansatz ist weltweit einzigartig.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:3703108061:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-212",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Zum müssen Fortfahren Sie das Quiz abschließen.",
-    "answer": "Zum Fortfahren müssen Sie das Quiz abschließen.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:1097975879:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-213",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Der zur Eingang Toilette ist sehr schmutzig.",
-    "answer": "Der Eingang zur Toilette ist sehr schmutzig.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:3359098176:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-214",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Deshalb man hat sich davor zu hüten.",
-    "answer": "Deshalb hat man sich davor zu hüten.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:3661097742:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-215",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Wenigstens ich, hoffe dass er ein Schwindler ist.",
-    "answer": "Wenigstens hoffe ich, dass er ein Schwindler ist.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:1626722855:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-216",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Wenigstens hoffe ich, damit er ein Schwindler ist.",
-    "answer": "Wenigstens hoffe ich, dass er ein Schwindler ist.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:connector-swap"
-      ],
-      "groupId": "ec:1626722855:connector-swap"
-    }
-  },
-  {
-    "id": "perf-ec-t2-217",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Ich Spinnen kann nicht leiden.",
-    "answer": "Ich kann Spinnen nicht leiden.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:7723665:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-218",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Ich kann Spinnen kein leiden.",
-    "answer": "Ich kann Spinnen nicht leiden.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:negation-swap"
-      ],
-      "groupId": "ec:7723665:negation-swap"
-    }
-  },
-  {
-    "id": "perf-ec-t2-219",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Lies was mal, da drunter steht.",
-    "answer": "Lies mal, was da drunter steht.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:1457009016:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-220",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Dies das macht Amt des Bürgerbeauftragten so wertvoll.",
-    "answer": "Dies macht das Amt des Bürgerbeauftragten so wertvoll.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:1196246060:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-221",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "John nichts isst außer Obst und Gemüse.",
-    "answer": "John isst nichts außer Obst und Gemüse.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:1822177302:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-222",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Das wurde Fußballspiel live im Fernsehen übertragen.",
-    "answer": "Das Fußballspiel wurde live im Fernsehen übertragen.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:3225567310:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-223",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Sie ein hatte Messer in einem ihrer Stiefel.",
-    "answer": "Sie hatte ein Messer in einem ihrer Stiefel.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:1500559468:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-224",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "In Alter seinem befehligte ich bereits ein ganzes Regiment.",
-    "answer": "In seinem Alter befehligte ich bereits ein ganzes Regiment.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:1600343721:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-225",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Frauen Kinder und verlassen die Zone.",
-    "answer": "Frauen und Kinder verlassen die Zone.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:2179077269:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-226",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Ich eine hatte Besprechung mit unseren Planern.",
-    "answer": "Ich hatte eine Besprechung mit unseren Planern.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:2759641548:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-227",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Ich verschwinden, muss bevor sie auftauchen.",
-    "answer": "Ich muss verschwinden, bevor sie auftauchen.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:1942356294:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-228",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Ich muss verschwinden, damit sie auftauchen.",
-    "answer": "Ich muss verschwinden, bevor sie auftauchen.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:connector-swap"
-      ],
-      "groupId": "ec:1942356294:connector-swap"
-    }
-  },
-  {
-    "id": "perf-ec-t2-229",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Das nicht ist lila, sondern Lavendel.",
-    "answer": "Das ist nicht lila, sondern Lavendel.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:1330441881:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-230",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Das ist kein lila, sondern Lavendel.",
-    "answer": "Das ist nicht lila, sondern Lavendel.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:negation-swap"
-      ],
-      "groupId": "ec:1330441881:negation-swap"
-    }
-  },
-  {
-    "id": "perf-ec-t2-231",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Du nicht kannst da rausgehen.",
-    "answer": "Du kannst nicht da rausgehen.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:797431882:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-232",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Du kannst kein da rausgehen.",
-    "answer": "Du kannst nicht da rausgehen.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:negation-swap"
-      ],
-      "groupId": "ec:797431882:negation-swap"
-    }
-  },
-  {
-    "id": "perf-ec-t2-233",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Wir knapp sind einem Attentat entgangen.",
-    "answer": "Wir sind knapp einem Attentat entgangen.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:2824335141:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-234",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Jetzt diese wird Welt in ihrem eigenen Blut ertrinken.",
-    "answer": "Jetzt wird diese Welt in ihrem eigenen Blut ertrinken.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:348649000:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-235",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Der Gewinner kämpft morgen gegen mir.",
-    "answer": "Der Gewinner kämpft morgen gegen mich.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:pronoun-case"
-      ],
-      "groupId": "ec:3461410426:pronoun-case"
-    }
-  },
-  {
-    "id": "perf-ec-t2-236",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Der kämpft Gewinner morgen gegen mich.",
-    "answer": "Der Gewinner kämpft morgen gegen mich.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:3461410426:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-237",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Wobei der ist Fehler aufgetreten?",
-    "answer": "Wobei ist der Fehler aufgetreten?",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:1974365121:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-238",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Es nur, ist du bist so geschickt und gütig.",
-    "answer": "Es ist nur, du bist so geschickt und gütig.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:3019782514:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-239",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Der der Preis Aktie fiel innerhalb eines Monats um die Hälfte.",
-    "answer": "Der Preis der Aktie fiel innerhalb eines Monats um die Hälfte.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:3917065446:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-240",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Die sind Farben hell und fröhlich.",
-    "answer": "Die Farben sind hell und fröhlich.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:1524987941:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-241",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Ich schreibe dich eine Notiz zur Erinnerung.",
-    "answer": "Ich schreibe dir eine Notiz zur Erinnerung.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:pronoun-case"
-      ],
-      "groupId": "ec:2638678362:pronoun-case"
-    }
-  },
-  {
-    "id": "perf-ec-t2-242",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Ich dir schreibe eine Notiz zur Erinnerung.",
-    "answer": "Ich schreibe dir eine Notiz zur Erinnerung.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:2638678362:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-243",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Ich es denke, ist ein Löwe.",
-    "answer": "Ich denke, es ist ein Löwe.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:3443499234:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-244",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Ich nicht wollte allein reingehen.",
-    "answer": "Ich wollte nicht allein reingehen.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:881395806:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-245",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Ich wollte kein allein reingehen.",
-    "answer": "Ich wollte nicht allein reingehen.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:negation-swap"
-      ],
-      "groupId": "ec:881395806:negation-swap"
-    }
-  },
-  {
-    "id": "perf-ec-t2-246",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Wir höher, kletterten um eine bessere Aussicht zu bekommen.",
-    "answer": "Wir kletterten höher, um eine bessere Aussicht zu bekommen.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:1054231323:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-247",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Hier wir nennen das Entführung.",
-    "answer": "Hier nennen wir das Entführung.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:3871955128:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-248",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Die der Renovierung Stadthalle war uns völlig unbekannt.",
-    "answer": "Die Renovierung der Stadthalle war uns völlig unbekannt.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:2417995956:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-249",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Der ist Boden einfach nur schön und kühl.",
-    "answer": "Der Boden ist einfach nur schön und kühl.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:2310015547:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-250",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Leider ich musste die Konten leeren.",
-    "answer": "Leider musste ich die Konten leeren.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:1261361975:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-251",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Die Gemeinschaft internationale muss eindeutige Maßnahmen ergreifen.",
-    "answer": "Die internationale Gemeinschaft muss eindeutige Maßnahmen ergreifen.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:1401607670:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-252",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Du willst dir doch nicht verirren.",
-    "answer": "Du willst dich doch nicht verirren.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:pronoun-case"
-      ],
-      "groupId": "ec:3981544034:pronoun-case"
-    }
-  },
-  {
-    "id": "perf-ec-t2-253",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Du dich willst doch nicht verirren.",
-    "answer": "Du willst dich doch nicht verirren.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:3981544034:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-254",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Du willst dich doch kein verirren.",
-    "answer": "Du willst dich doch nicht verirren.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:negation-swap"
-      ],
-      "groupId": "ec:3981544034:negation-swap"
-    }
-  },
-  {
-    "id": "perf-ec-t2-255",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Sie ihre kopieren etablierte Marke zum eigenen Nutzen.",
-    "answer": "Sie kopieren ihre etablierte Marke zum eigenen Nutzen.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:2432778553:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-256",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Scheinbar habe ich ihm verärgert.",
-    "answer": "Scheinbar habe ich ihn verärgert.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:pronoun-case"
-      ],
-      "groupId": "ec:2189936972:pronoun-case"
-    }
-  },
-  {
-    "id": "perf-ec-t2-257",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Scheinbar ich habe ihn verärgert.",
-    "answer": "Scheinbar habe ich ihn verärgert.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:2189936972:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-258",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Freiheit, und Sonnenschein eine Blume braucht man.",
-    "answer": "Freiheit, Sonnenschein und eine Blume braucht man.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:2891005852:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-259",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Dann es ist kein Wunder, dass sie deine Ex ist.",
-    "answer": "Dann ist es kein Wunder, dass sie deine Ex ist.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:2706440506:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-260",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Dann ist es kein Wunder, weil sie deine Ex ist.",
-    "answer": "Dann ist es kein Wunder, dass sie deine Ex ist.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:connector-swap"
-      ],
-      "groupId": "ec:2706440506:connector-swap"
-    }
-  },
-  {
-    "id": "perf-ec-t2-261",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Dann ist es nicht Wunder, dass sie deine Ex ist.",
-    "answer": "Dann ist es kein Wunder, dass sie deine Ex ist.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:negation-swap"
-      ],
-      "groupId": "ec:2706440506:negation-swap"
-    }
-  },
-  {
-    "id": "perf-ec-t2-262",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "In Wohnzimmer unserem starb einmal ein Clown.",
-    "answer": "In unserem Wohnzimmer starb einmal ein Clown.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:72770170:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-263",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Diese zeigt Sequenz die Erstellung dieses Modells.",
-    "answer": "Diese Sequenz zeigt die Erstellung dieses Modells.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:2288986491:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-264",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Du bald wirst dein vorschnelles Verhalten bereuen.",
-    "answer": "Du wirst bald dein vorschnelles Verhalten bereuen.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:3582426139:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-265",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Wir uns können der Verzweiflung nicht hingeben.",
-    "answer": "Wir können uns der Verzweiflung nicht hingeben.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:1347662284:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-266",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Wir können uns der Verzweiflung kein hingeben.",
-    "answer": "Wir können uns der Verzweiflung nicht hingeben.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:negation-swap"
-      ],
-      "groupId": "ec:1347662284:negation-swap"
-    }
-  },
-  {
-    "id": "perf-ec-t2-267",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Ich diese wollte Konversation nicht weiterführen.",
-    "answer": "Ich wollte diese Konversation nicht weiterführen.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:1114708788:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-268",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Ich wollte diese Konversation kein weiterführen.",
-    "answer": "Ich wollte diese Konversation nicht weiterführen.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:negation-swap"
-      ],
-      "groupId": "ec:1114708788:negation-swap"
-    }
-  },
-  {
-    "id": "perf-ec-t2-269",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Entspannen sich, Sie ich könnte niemals so grausam sein.",
-    "answer": "Entspannen Sie sich, ich könnte niemals so grausam sein.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:1523403751:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-270",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Ich Sie wollte niemals täuschen.",
-    "answer": "Ich wollte Sie niemals täuschen.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:3703803740:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-271",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "John seinen musste Vortrag wegen Krankheit absagen.",
-    "answer": "John musste seinen Vortrag wegen Krankheit absagen.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:4125983314:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-272",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Jane außer war sich vor Aufregung.",
-    "answer": "Jane war außer sich vor Aufregung.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:80793227:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-273",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Das ist Radio eine großartige Erfindung.",
-    "answer": "Das Radio ist eine großartige Erfindung.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:3214843590:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-274",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Bis Tod zum musst du tapfer bleiben.",
-    "answer": "Bis zum Tod musst du tapfer bleiben.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:790090040:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-275",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Du strafst nur dir selbst.",
-    "answer": "Du strafst nur dich selbst.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:pronoun-case"
-      ],
-      "groupId": "ec:2328574971:pronoun-case"
-    }
-  },
-  {
-    "id": "perf-ec-t2-276",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Du nur strafst dich selbst.",
-    "answer": "Du strafst nur dich selbst.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:2328574971:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-277",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Ich bin froh, dass ich dir amüsiere.",
-    "answer": "Ich bin froh, dass ich dich amüsiere.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:pronoun-case"
-      ],
-      "groupId": "ec:3263222934:pronoun-case"
-    }
-  },
-  {
-    "id": "perf-ec-t2-278",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Ich froh, bin dass ich dich amüsiere.",
-    "answer": "Ich bin froh, dass ich dich amüsiere.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:3263222934:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-279",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Ich bin froh, bevor ich dich amüsiere.",
-    "answer": "Ich bin froh, dass ich dich amüsiere.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:connector-swap"
-      ],
-      "groupId": "ec:3263222934:connector-swap"
-    }
-  },
-  {
-    "id": "perf-ec-t2-280",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Selbst wenn sie dir umbringen, wird dein Name ewig weiterleben.",
-    "answer": "Selbst wenn sie dich umbringen, wird dein Name ewig weiterleben.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:pronoun-case"
-      ],
-      "groupId": "ec:3449276865:pronoun-case"
-    }
-  },
-  {
-    "id": "perf-ec-t2-281",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Selbst sie wenn dich umbringen, wird dein Name ewig weiterleben.",
-    "answer": "Selbst wenn sie dich umbringen, wird dein Name ewig weiterleben.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:3449276865:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-282",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Selbst obwohl sie dich umbringen, wird dein Name ewig weiterleben.",
-    "answer": "Selbst wenn sie dich umbringen, wird dein Name ewig weiterleben.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:connector-swap"
-      ],
-      "groupId": "ec:3449276865:connector-swap"
-    }
-  },
-  {
-    "id": "perf-ec-t2-283",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Aber Zeit die dazwischen ist es wert.",
-    "answer": "Aber die Zeit dazwischen ist es wert.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:2733741647:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-284",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Vollständig und ausfahren für bestmöglichen Empfang ausrichten.",
-    "answer": "Vollständig ausfahren und für bestmöglichen Empfang ausrichten.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:2934009208:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-285",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Das die sind beiden Flügel der Lunge.",
-    "answer": "Das sind die beiden Flügel der Lunge.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:3976383470:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-286",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Wieso du bist verschwitzt und dreckig?",
-    "answer": "Wieso bist du verschwitzt und dreckig?",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:3818948211:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-287",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Apropos, haben wir keine alkoholischen Getränke mehr.",
-    "answer": "Apropos, wir haben keine alkoholischen Getränke mehr.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:1042106649:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-288",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Apropos, wir haben nicht alkoholischen Getränke mehr.",
-    "answer": "Apropos, wir haben keine alkoholischen Getränke mehr.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:negation-swap"
-      ],
-      "groupId": "ec:1042106649:negation-swap"
-    }
-  },
-  {
-    "id": "perf-ec-t2-289",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Mit insgesamt unseren Zimmern sind wir ein kleines Hotel.",
-    "answer": "Mit unseren insgesamt Zimmern sind wir ein kleines Hotel.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:1633619979:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-290",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Ein brüllt Löwe und ein Hund bellt.",
-    "answer": "Ein Löwe brüllt und ein Hund bellt.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:4049275276:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-291",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Rasierst du dich die Beine?",
-    "answer": "Rasierst du dir die Beine?",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:pronoun-case"
-      ],
-      "groupId": "ec:2068780188:pronoun-case"
-    }
-  },
-  {
-    "id": "perf-ec-t2-292",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Rasierst dir du die Beine?",
-    "answer": "Rasierst du dir die Beine?",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:2068780188:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-293",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Wie von manche euch wissen, ist mein Vater etwas unheimlich.",
-    "answer": "Wie manche von euch wissen, ist mein Vater etwas unheimlich.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:3573553096:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-294",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Wenn weiter du soviel trinkst, wirst du womöglich als Alkoholiker enden.",
-    "answer": "Wenn du weiter soviel trinkst, wirst du womöglich als Alkoholiker enden.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:855045314:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-295",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Ich ein will wenig näher heran kommen.",
-    "answer": "Ich will ein wenig näher heran kommen.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:238517889:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-296",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Kultur intellektuelle schafft und materielle Werte.",
-    "answer": "Kultur schafft intellektuelle und materielle Werte.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:26743378:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-297",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Ich fühle mir nicht mehr sehr britisch, sondern immer schottischer.",
-    "answer": "Ich fühle mich nicht mehr sehr britisch, sondern immer schottischer.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:pronoun-case"
-      ],
-      "groupId": "ec:4273182439:pronoun-case"
-    }
-  },
-  {
-    "id": "perf-ec-t2-298",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Ich mich fühle nicht mehr sehr britisch, sondern immer schottischer.",
-    "answer": "Ich fühle mich nicht mehr sehr britisch, sondern immer schottischer.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:4273182439:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-299",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Ich fühle mich kein mehr sehr britisch, sondern immer schottischer.",
-    "answer": "Ich fühle mich nicht mehr sehr britisch, sondern immer schottischer.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:negation-swap"
-      ],
-      "groupId": "ec:4273182439:negation-swap"
-    }
-  },
-  {
-    "id": "perf-ec-t2-300",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Ich kann dich versichern, das ist ausgeschlossen.",
-    "answer": "Ich kann dir versichern, das ist ausgeschlossen.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:pronoun-case"
-      ],
-      "groupId": "ec:1448436240:pronoun-case"
-    }
-  },
-  {
-    "id": "perf-ec-t2-301",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Ich dir kann versichern, das ist ausgeschlossen.",
-    "answer": "Ich kann dir versichern, das ist ausgeschlossen.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:1448436240:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-302",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Jemand von hat außen die Tür verriegelt.",
-    "answer": "Jemand hat von außen die Tür verriegelt.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:2247048475:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-303",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Ich diese mag Tradition nicht mehr.",
-    "answer": "Ich mag diese Tradition nicht mehr.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:20475316:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-304",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Ich mag diese Tradition kein mehr.",
-    "answer": "Ich mag diese Tradition nicht mehr.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:negation-swap"
-      ],
-      "groupId": "ec:20475316:negation-swap"
-    }
-  },
-  {
-    "id": "perf-ec-t2-305",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Du die kannst Ergebnisse dieser Fallstudie veröffentlichen.",
-    "answer": "Du kannst die Ergebnisse dieser Fallstudie veröffentlichen.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:2701552066:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-306",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Dann ich fuhr in meine Bude.",
-    "answer": "Dann fuhr ich in meine Bude.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:2842549930:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-307",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Die nicht sehen sehr russisch aus.",
-    "answer": "Die sehen nicht sehr russisch aus.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:2131156535:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-308",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Die sehen kein sehr russisch aus.",
-    "answer": "Die sehen nicht sehr russisch aus.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:negation-swap"
-      ],
-      "groupId": "ec:2131156535:negation-swap"
-    }
-  },
-  {
-    "id": "perf-ec-t2-309",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Es fünf wird bis zehn Jahre dauern, bis die Technologie bereit ist.",
-    "answer": "Es wird fünf bis zehn Jahre dauern, bis die Technologie bereit ist.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:1090333547:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-310",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Du bereit bist für den finalen Test.",
-    "answer": "Du bist bereit für den finalen Test.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:978507193:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-311",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Das eine war sehr nette Geste.",
-    "answer": "Das war eine sehr nette Geste.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:927472168:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-312",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Er es, liebt zu übertreiben.",
-    "answer": "Er liebt es, zu übertreiben.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:2681590041:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-313",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Iss Apfel ein oder eine Birne.",
-    "answer": "Iss ein Apfel oder eine Birne.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:729685555:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-314",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Erstaunlich, man was mit einem einzigen Computer anrichten kann.",
-    "answer": "Erstaunlich, was man mit einem einzigen Computer anrichten kann.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:1937313082:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-315",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Von Software der wurde gerade eben die Version 1.5.0 veröffentlicht.",
-    "answer": "Von der Software wurde gerade eben die Version 1.5.0 veröffentlicht.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:3088710821:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-316",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Die steckt Kugel noch im Schädel.",
-    "answer": "Die Kugel steckt noch im Schädel.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:1482340358:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-317",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Der steht Laden unter polizeilicher Überwachung.",
-    "answer": "Der Laden steht unter polizeilicher Überwachung.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:1787017533:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-318",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Übersetzen dies Sie bitte ins Englische.",
-    "answer": "Übersetzen Sie dies bitte ins Englische.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:1610888215:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-319",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Es war schwer für ihm, von seiner kleinen Rente zu leben.",
-    "answer": "Es war schwer für ihn, von seiner kleinen Rente zu leben.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:pronoun-case"
-      ],
-      "groupId": "ec:763238198:pronoun-case"
-    }
-  },
-  {
-    "id": "perf-ec-t2-320",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Es schwer war für ihn, von seiner kleinen Rente zu leben.",
-    "answer": "Es war schwer für ihn, von seiner kleinen Rente zu leben.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:763238198:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-321",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Sie die können Appliance dann abschalten.",
-    "answer": "Sie können die Appliance dann abschalten.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:3960816183:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-322",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Diese ist Aktivität nicht gefährlich.",
-    "answer": "Diese Aktivität ist nicht gefährlich.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:3762640839:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-323",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Diese Aktivität ist kein gefährlich.",
-    "answer": "Diese Aktivität ist nicht gefährlich.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:negation-swap"
-      ],
-      "groupId": "ec:3762640839:negation-swap"
-    }
-  },
-  {
-    "id": "perf-ec-t2-324",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Wir diesen müssen Teppich ersetzen.",
-    "answer": "Wir müssen diesen Teppich ersetzen.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:2637566654:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-325",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Das echt ist mutig und erwachsen.",
-    "answer": "Das ist echt mutig und erwachsen.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:1679898202:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-326",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Ich besorgt war und wartete stundenlang.",
-    "answer": "Ich war besorgt und wartete stundenlang.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:1281407279:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-327",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Leg Hand eine sanft auf seinen Arm.",
-    "answer": "Leg eine Hand sanft auf seinen Arm.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:3179382093:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-328",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Wir nicht sollten noch mehr Zeit vergeuden.",
-    "answer": "Wir sollten nicht noch mehr Zeit vergeuden.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:3264673739:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-329",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Wir sollten kein noch mehr Zeit vergeuden.",
-    "answer": "Wir sollten nicht noch mehr Zeit vergeuden.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:negation-swap"
-      ],
-      "groupId": "ec:3264673739:negation-swap"
-    }
-  },
-  {
-    "id": "perf-ec-t2-330",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Und Golf kein donnerstags, denn du musst Jane ins Ballett bringen.",
-    "answer": "Und kein Golf donnerstags, denn du musst Jane ins Ballett bringen.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:2191981532:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-331",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Und nicht Golf donnerstags, denn du musst Jane ins Ballett bringen.",
-    "answer": "Und kein Golf donnerstags, denn du musst Jane ins Ballett bringen.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:negation-swap"
-      ],
-      "groupId": "ec:2191981532:negation-swap"
-    }
-  },
-  {
-    "id": "perf-ec-t2-332",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Du immer willst weglaufe, Jane.",
-    "answer": "Du willst immer weglaufe, Jane.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:309215675:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-333",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Die scheinen Einbrecher von dem Wachmann überrascht worden zu sein.",
-    "answer": "Die Einbrecher scheinen von dem Wachmann überrascht worden zu sein.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:1367261474:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-334",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Sie bestimmt verweigern keinen kostenlosen Whiskey.",
-    "answer": "Sie verweigern bestimmt keinen kostenlosen Whiskey.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:3650606506:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-335",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Sie verweigern bestimmt nicht kostenlosen Whiskey.",
-    "answer": "Sie verweigern bestimmt keinen kostenlosen Whiskey.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:negation-swap"
-      ],
-      "groupId": "ec:3650606506:negation-swap"
-    }
-  },
-  {
-    "id": "perf-ec-t2-336",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Ich Ihnen kann nicht zustimmen.",
-    "answer": "Ich kann Ihnen nicht zustimmen.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:2324775849:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-337",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Ich kann Ihnen kein zustimmen.",
-    "answer": "Ich kann Ihnen nicht zustimmen.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:negation-swap"
-      ],
-      "groupId": "ec:2324775849:negation-swap"
-    }
-  },
-  {
-    "id": "perf-ec-t2-338",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Sie horizontale können Segmente in einer Draufsicht zeichnen.",
-    "answer": "Sie können horizontale Segmente in einer Draufsicht zeichnen.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:22831344:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-339",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Wenn sind grau, alle Werte positiv wie normal.",
-    "answer": "Wenn grau, sind alle Werte positiv wie normal.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:679085235:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-340",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Die Sitzung nächste findet in einigen Tagen statt.",
-    "answer": "Die nächste Sitzung findet in einigen Tagen statt.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:2329879719:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-341",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Finden die Sie Stärke und wehren Sie sich.",
-    "answer": "Finden Sie die Stärke und wehren Sie sich.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:3578023771:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-342",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Ich gegen bin diese Heirat.",
-    "answer": "Ich bin gegen diese Heirat.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:4034323827:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-343",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Viele hier Dinge erfordern meine Aufmerksamkeit.",
-    "answer": "Viele Dinge hier erfordern meine Aufmerksamkeit.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:2263673103:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-344",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Bitte Sie drehen Ihren Kopf und husten Sie.",
-    "answer": "Bitte drehen Sie Ihren Kopf und husten Sie.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:119090117:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-345",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Das der Protokoll vorigen Sitzung wurde angenommen.",
-    "answer": "Das Protokoll der vorigen Sitzung wurde angenommen.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:1255467400:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-346",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Das aus ist deiner alten Garderobe.",
-    "answer": "Das ist aus deiner alten Garderobe.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:3512671644:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-347",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Die war Couch nicht bequem.",
-    "answer": "Die Couch war nicht bequem.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:1958800666:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-348",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Die Couch war kein bequem.",
-    "answer": "Die Couch war nicht bequem.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:negation-swap"
-      ],
-      "groupId": "ec:1958800666:negation-swap"
-    }
-  },
-  {
-    "id": "perf-ec-t2-349",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Nebenbei ich habe zwei Kinder zu ernähren.",
-    "answer": "Nebenbei habe ich zwei Kinder zu ernähren.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:3906210482:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-350",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Er vor starb meiner Ankunft.",
-    "answer": "Er starb vor meiner Ankunft.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:3386881064:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-351",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Die Fachkräfte medizinischen erbringen eine soziale Dienstleistung und erzeugen keinen Profit.",
-    "answer": "Die medizinischen Fachkräfte erbringen eine soziale Dienstleistung und erzeugen keinen Profit.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:731951055:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-352",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Die medizinischen Fachkräfte erbringen eine soziale Dienstleistung und erzeugen nicht Profit.",
-    "answer": "Die medizinischen Fachkräfte erbringen eine soziale Dienstleistung und erzeugen keinen Profit.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:negation-swap"
-      ],
-      "groupId": "ec:731951055:negation-swap"
-    }
-  },
-  {
-    "id": "perf-ec-t2-353",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Du einfach bist keine mütterliche Zuneigung gewohnt.",
-    "answer": "Du bist einfach keine mütterliche Zuneigung gewohnt.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:4051260387:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-354",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Du bist einfach nicht mütterliche Zuneigung gewohnt.",
-    "answer": "Du bist einfach keine mütterliche Zuneigung gewohnt.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:negation-swap"
-      ],
-      "groupId": "ec:4051260387:negation-swap"
-    }
-  },
-  {
-    "id": "perf-ec-t2-355",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Sorgsame sichern Vorbereitungen den Erfolg.",
-    "answer": "Sorgsame Vorbereitungen sichern den Erfolg.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:3355616647:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-356",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Man so vergisst einen Verrat nicht.",
-    "answer": "Man vergisst so einen Verrat nicht.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:1184985557:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-357",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Man vergisst so einen Verrat kein.",
-    "answer": "Man vergisst so einen Verrat nicht.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:negation-swap"
-      ],
-      "groupId": "ec:1184985557:negation-swap"
-    }
-  },
-  {
-    "id": "perf-ec-t2-358",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Ach, war was heute noch mal für ein Tag? „Der fünfte August.“",
-    "answer": "Ach, was war heute noch mal für ein Tag? „Der fünfte August.“",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:2324982159:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-359",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Ein HTML dynamisches Template kann alternativ zum statischen benutzt werden.",
-    "answer": "Ein dynamisches HTML Template kann alternativ zum statischen benutzt werden.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:1637456955:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-360",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Oder möchtest vielleicht du dein Würstchen grillen.",
-    "answer": "Oder vielleicht möchtest du dein Würstchen grillen.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:652333170:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-361",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Hast die du Schlange gesehen?",
-    "answer": "Hast du die Schlange gesehen?",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:3926462375:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-362",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Ich angeblich habe gar keine Fantasie.",
-    "answer": "Ich habe angeblich gar keine Fantasie.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:1090318113:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-363",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Ich habe angeblich gar nicht Fantasie.",
-    "answer": "Ich habe angeblich gar keine Fantasie.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:negation-swap"
-      ],
-      "groupId": "ec:1090318113:negation-swap"
-    }
-  },
-  {
-    "id": "perf-ec-t2-364",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Dies ein ist Umstand, der beachtet werden muss.",
-    "answer": "Dies ist ein Umstand, der beachtet werden muss.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:1401228388:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-365",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Statt solltest Blut du deinen Stolz schlucken.",
-    "answer": "Statt Blut solltest du deinen Stolz schlucken.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:3196105172:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-366",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Der sollte Zusatzstoff daher unbefristet zugelassen werden.",
-    "answer": "Der Zusatzstoff sollte daher unbefristet zugelassen werden.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:1864359915:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-367",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Inzwischen Hunger werden und Durst euch schwächen.",
-    "answer": "Inzwischen werden Hunger und Durst euch schwächen.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:3725715352:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-368",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Die Sache ganze fängt an, zu stinken.",
-    "answer": "Die ganze Sache fängt an, zu stinken.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:1996231247:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-369",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Manchmal er riecht sogar nach Seife.",
-    "answer": "Manchmal riecht er sogar nach Seife.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:3650595784:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-370",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Ich dachte mich, ich sollte dort als Erstes nachsehen.",
-    "answer": "Ich dachte mir, ich sollte dort als Erstes nachsehen.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:pronoun-case"
-      ],
-      "groupId": "ec:3061924243:pronoun-case"
-    }
-  },
-  {
-    "id": "perf-ec-t2-371",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Ich mir, dachte ich sollte dort als Erstes nachsehen.",
-    "answer": "Ich dachte mir, ich sollte dort als Erstes nachsehen.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:3061924243:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-372",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Ich dachte mir, ich sollte dort bevor Erstes nachsehen.",
-    "answer": "Ich dachte mir, ich sollte dort als Erstes nachsehen.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:connector-swap"
-      ],
-      "groupId": "ec:3061924243:connector-swap"
-    }
-  },
-  {
-    "id": "perf-ec-t2-373",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Am versammeln Sonntag sich alle an dem festlichen Gottesdienst.",
-    "answer": "Am Sonntag versammeln sich alle an dem festlichen Gottesdienst.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:2828231633:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-374",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Den am Sensor eigenen Finger anbringen.",
-    "answer": "Den Sensor am eigenen Finger anbringen.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:2364696956:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-375",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Der war Reifen ein wenig platt.",
-    "answer": "Der Reifen war ein wenig platt.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:4008672742:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-376",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Vorsicht, kommt da eine Kurve.",
-    "answer": "Vorsicht, da kommt eine Kurve.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:1793976104:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-377",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Das scheint Objekt sein eigenes Licht abzugeben.",
-    "answer": "Das Objekt scheint sein eigenes Licht abzugeben.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:3448661696:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-378",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Die steht Erläuterung darunter im Standardschriftsatz.",
-    "answer": "Die Erläuterung steht darunter im Standardschriftsatz.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:321163441:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-379",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Halten die Sie Augen offen nach allem, was verdächtig ist.",
-    "answer": "Halten Sie die Augen offen nach allem, was verdächtig ist.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:127580596:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-380",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Ich wir dachte, hätten eine Vereinbarung.",
-    "answer": "Ich dachte, wir hätten eine Vereinbarung.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:2766418724:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-381",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Der Reichtum natürliche dieses Gebietes ist riesig.",
-    "answer": "Der natürliche Reichtum dieses Gebietes ist riesig.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:3009045717:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-382",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Der beeinflusst Klimawandel das Bauen – und umgekehrt.",
-    "answer": "Der Klimawandel beeinflusst das Bauen – und umgekehrt.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:577070944:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-383",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Gehe und geradeaus dann nach rechts.",
-    "answer": "Gehe geradeaus und dann nach rechts.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:323895002:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-384",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Das ist hier vorwärts, das rückwärts.",
-    "answer": "Das hier ist vorwärts, das rückwärts.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:3469144774:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-385",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Eine deren Frau, Ehemann tot ist, wird Witwe genannt.",
-    "answer": "Eine Frau, deren Ehemann tot ist, wird Witwe genannt.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:3424183692:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-386",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Eines lässt davon Leute im Dunkeln leuchten.",
-    "answer": "Eines davon lässt Leute im Dunkeln leuchten.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:3990617855:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-387",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Mehr dreißig als Jahre lebte ich mit Gefühl, ich sei ein Ausgestoßener.",
-    "answer": "Mehr als dreißig Jahre lebte ich mit Gefühl, ich sei ein Ausgestoßener.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:3522276989:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-388",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Mehr weil dreißig Jahre lebte ich mit Gefühl, ich sei ein Ausgestoßener.",
-    "answer": "Mehr als dreißig Jahre lebte ich mit Gefühl, ich sei ein Ausgestoßener.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:connector-swap"
-      ],
-      "groupId": "ec:3522276989:connector-swap"
-    }
-  },
-  {
-    "id": "perf-ec-t2-389",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Die in Möbel diesem Büro sind wirklich modern.",
-    "answer": "Die Möbel in diesem Büro sind wirklich modern.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:2814134718:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-390",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Er anfangs war wirklich schüchtern.",
-    "answer": "Er war anfangs wirklich schüchtern.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:2055063613:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-391",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Ich werde dich ein Hühnchen braten.",
-    "answer": "Ich werde dir ein Hühnchen braten.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:pronoun-case"
-      ],
-      "groupId": "ec:1239865797:pronoun-case"
-    }
-  },
-  {
-    "id": "perf-ec-t2-392",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Ich dir werde ein Hühnchen braten.",
-    "answer": "Ich werde dir ein Hühnchen braten.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:1239865797:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-393",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Einige könnten Leute das als Verhaltensmuster bezeichnen.",
-    "answer": "Einige Leute könnten das als Verhaltensmuster bezeichnen.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:2065768486:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-394",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Einige Leute könnten das obwohl Verhaltensmuster bezeichnen.",
-    "answer": "Einige Leute könnten das als Verhaltensmuster bezeichnen.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:connector-swap"
-      ],
-      "groupId": "ec:2065768486:connector-swap"
-    }
-  },
-  {
-    "id": "perf-ec-t2-395",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Den seiner Wert Entdeckung erfasste man erst nach seinem Tod.",
-    "answer": "Den Wert seiner Entdeckung erfasste man erst nach seinem Tod.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:932066249:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-396",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Ich war schüchtern und habe mir mit keinem einzigen Deutschen angefreundet.",
-    "answer": "Ich war schüchtern und habe mich mit keinem einzigen Deutschen angefreundet.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:pronoun-case"
-      ],
-      "groupId": "ec:141354208:pronoun-case"
-    }
-  },
-  {
-    "id": "perf-ec-t2-397",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Ich schüchtern war und habe mich mit keinem einzigen Deutschen angefreundet.",
-    "answer": "Ich war schüchtern und habe mich mit keinem einzigen Deutschen angefreundet.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:141354208:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-398",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Ich war schüchtern und habe mich mit nicht einzigen Deutschen angefreundet.",
-    "answer": "Ich war schüchtern und habe mich mit keinem einzigen Deutschen angefreundet.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:negation-swap"
-      ],
-      "groupId": "ec:141354208:negation-swap"
-    }
-  },
-  {
-    "id": "perf-ec-t2-399",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Wir dem verschaffen Kunden spürbare Vorteile.",
-    "answer": "Wir verschaffen dem Kunden spürbare Vorteile.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:1861635128:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-400",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Jane zwar ist nicht so schön wie ihre Schwester, aber immer noch ziemlich attraktiv.",
-    "answer": "Jane ist zwar nicht so schön wie ihre Schwester, aber immer noch ziemlich attraktiv.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:4063706295:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-401",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Jane ist zwar kein so schön wie ihre Schwester, aber immer noch ziemlich attraktiv.",
-    "answer": "Jane ist zwar nicht so schön wie ihre Schwester, aber immer noch ziemlich attraktiv.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:negation-swap"
-      ],
-      "groupId": "ec:4063706295:negation-swap"
-    }
-  },
-  {
-    "id": "perf-ec-t2-402",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Manche schmecken Gerichte ziemlich fade ohne Salz.",
-    "answer": "Manche Gerichte schmecken ziemlich fade ohne Salz.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:448401024:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-403",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Ich Asche habe auf dem Boden gefunden.",
-    "answer": "Ich habe Asche auf dem Boden gefunden.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:1571256811:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-404",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Jede verdient Kreatur eine warme Mahlzeit.",
-    "answer": "Jede Kreatur verdient eine warme Mahlzeit.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:3744077629:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-405",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Ein angelte Mann am gegenüberliegenden Ufer.",
-    "answer": "Ein Mann angelte am gegenüberliegenden Ufer.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:159047645:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-406",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Selbst festsitzender hartnäckig Schmutz wird dadurch einwandfrei entfernt.",
-    "answer": "Selbst hartnäckig festsitzender Schmutz wird dadurch einwandfrei entfernt.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:380137370:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-407",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "John seinen hätte Lehrer nicht mit Hitler vergleichen sollen.",
-    "answer": "John hätte seinen Lehrer nicht mit Hitler vergleichen sollen.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:2688257564:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-408",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "John hätte seinen Lehrer kein mit Hitler vergleichen sollen.",
-    "answer": "John hätte seinen Lehrer nicht mit Hitler vergleichen sollen.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:negation-swap"
-      ],
-      "groupId": "ec:2688257564:negation-swap"
-    }
-  },
-  {
-    "id": "perf-ec-t2-409",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Genau warten deshalb wir nicht auf einen Durchsuchungsbefehl.",
-    "answer": "Genau deshalb warten wir nicht auf einen Durchsuchungsbefehl.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:1647773668:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-410",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Genau deshalb warten wir kein auf einen Durchsuchungsbefehl.",
-    "answer": "Genau deshalb warten wir nicht auf einen Durchsuchungsbefehl.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:negation-swap"
-      ],
-      "groupId": "ec:1647773668:negation-swap"
-    }
-  },
-  {
-    "id": "perf-ec-t2-411",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Wir sein müssen Bein nicht abschneiden.",
-    "answer": "Wir müssen sein Bein nicht abschneiden.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:387791478:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-412",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Wir müssen sein Bein kein abschneiden.",
-    "answer": "Wir müssen sein Bein nicht abschneiden.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:negation-swap"
-      ],
-      "groupId": "ec:387791478:negation-swap"
-    }
-  },
-  {
-    "id": "perf-ec-t2-413",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Ohne kannst Herd du keinen Kuchen backen.",
-    "answer": "Ohne Herd kannst du keinen Kuchen backen.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:3192286240:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-414",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Ohne Herd kannst du nicht Kuchen backen.",
-    "answer": "Ohne Herd kannst du keinen Kuchen backen.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:negation-swap"
-      ],
-      "groupId": "ec:3192286240:negation-swap"
-    }
-  },
-  {
-    "id": "perf-ec-t2-415",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Ich hoffe, er ist auch mal so aufgelöst, wenn er mit mich Schluss macht.",
-    "answer": "Ich hoffe, er ist auch mal so aufgelöst, wenn er mit mir Schluss macht.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:pronoun-case"
-      ],
-      "groupId": "ec:1288789113:pronoun-case"
-    }
-  },
-  {
-    "id": "perf-ec-t2-416",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Ich er hoffe, ist auch mal so aufgelöst, wenn er mit mir Schluss macht.",
-    "answer": "Ich hoffe, er ist auch mal so aufgelöst, wenn er mit mir Schluss macht.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:1288789113:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-417",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Ich hoffe, er ist auch mal so aufgelöst, sobald er mit mir Schluss macht.",
-    "answer": "Ich hoffe, er ist auch mal so aufgelöst, wenn er mit mir Schluss macht.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:connector-swap"
-      ],
-      "groupId": "ec:1288789113:connector-swap"
-    }
-  },
-  {
-    "id": "perf-ec-t2-418",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Klar, Mutter seine bekommt Rosen.",
-    "answer": "Klar, seine Mutter bekommt Rosen.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:2580860702:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-419",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Kannst auf du einer Karte den Irak finden?",
-    "answer": "Kannst du auf einer Karte den Irak finden?",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:1037653772:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-420",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Sie doch sind nicht etwa verlegen?",
-    "answer": "Sie sind doch nicht etwa verlegen?",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:1708737698:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-421",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Sie sind doch kein etwa verlegen?",
-    "answer": "Sie sind doch nicht etwa verlegen?",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:negation-swap"
-      ],
-      "groupId": "ec:1708737698:negation-swap"
-    }
-  },
-  {
-    "id": "perf-ec-t2-422",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Nach Verhaftung Janes hatte ich eine düstere Phase.",
-    "answer": "Nach Janes Verhaftung hatte ich eine düstere Phase.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:2736945669:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-423",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Diesen habe Brief ich an Bob Dylan im Flieger geschrieben.",
-    "answer": "Diesen Brief habe ich an Bob Dylan im Flieger geschrieben.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:2184563352:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-424",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Sie auf ist meinen Erfolg neidisch.",
-    "answer": "Sie ist auf meinen Erfolg neidisch.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:4042071130:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-425",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Diese haben Herren unseren Tabak gerettet.",
-    "answer": "Diese Herren haben unseren Tabak gerettet.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:1858305074:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-426",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Ich der bin Meister der Tarnung.",
-    "answer": "Ich bin der Meister der Tarnung.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:3703379860:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-427",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Pflanze direkter nicht Sonneneinstrahlung aussetzen.",
-    "answer": "Pflanze nicht direkter Sonneneinstrahlung aussetzen.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:1722679138:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-428",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Pflanze kein direkter Sonneneinstrahlung aussetzen.",
-    "answer": "Pflanze nicht direkter Sonneneinstrahlung aussetzen.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:negation-swap"
-      ],
-      "groupId": "ec:1722679138:negation-swap"
-    }
-  },
-  {
-    "id": "perf-ec-t2-429",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Die war Party eine totale Katastrophe.",
-    "answer": "Die Party war eine totale Katastrophe.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:3093488221:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-430",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Das du hast absichtlich getan.",
-    "answer": "Das hast du absichtlich getan.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:3801490511:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-431",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Der kann Antragsteller seine Beschwerde jederzeit zurückziehen.",
-    "answer": "Der Antragsteller kann seine Beschwerde jederzeit zurückziehen.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:2353820180:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-432",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Jane per hat Ultraschall das Geschlecht ihres und Johns ungeborenen Kindes feststellen lassen.",
-    "answer": "Jane hat per Ultraschall das Geschlecht ihres und Johns ungeborenen Kindes feststellen lassen.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:3081113905:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-433",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Vergiss die nicht, Reservierung im Voraus zu bestätigen.",
-    "answer": "Vergiss nicht, die Reservierung im Voraus zu bestätigen.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:3518829497:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-434",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Vergiss kein, die Reservierung im Voraus zu bestätigen.",
-    "answer": "Vergiss nicht, die Reservierung im Voraus zu bestätigen.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:negation-swap"
-      ],
-      "groupId": "ec:3518829497:negation-swap"
-    }
-  },
-  {
-    "id": "perf-ec-t2-435",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Er oft zitiert die Bibel.",
-    "answer": "Er zitiert oft die Bibel.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:3921411984:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-436",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Leg Handtuch das auf sein Gesicht.",
-    "answer": "Leg das Handtuch auf sein Gesicht.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:2679071898:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-437",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Für Vorfall den bin ich verantwortlich.",
-    "answer": "Für den Vorfall bin ich verantwortlich.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:1163554361:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-438",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Viele ihnen von sind recht gut ausgebildet.",
-    "answer": "Viele von ihnen sind recht gut ausgebildet.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:4256791182:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-439",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Entgegen Annahmen allgemeiner brauchen Kinder Grenzen.",
-    "answer": "Entgegen allgemeiner Annahmen brauchen Kinder Grenzen.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:1117177743:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-440",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Bill seinen nahm kleinen Bruder mit in den Zoo.",
-    "answer": "Bill nahm seinen kleinen Bruder mit in den Zoo.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:3843151062:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-441",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Das ist Brett zu lang.",
-    "answer": "Das Brett ist zu lang.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:1032857049:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-442",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Beide in weisen die Richtung der türkischen Armee.",
-    "answer": "Beide weisen in die Richtung der türkischen Armee.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:3543705498:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-443",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Du dass weißt, es bescheuert ist, oder?",
-    "answer": "Du weißt, dass es bescheuert ist, oder?",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:625068690:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-444",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Du weißt, bevor es bescheuert ist, oder?",
-    "answer": "Du weißt, dass es bescheuert ist, oder?",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:connector-swap"
-      ],
-      "groupId": "ec:625068690:connector-swap"
-    }
-  },
-  {
-    "id": "perf-ec-t2-445",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Ein oder Kratzer Schnitt kann tödlich sein.",
-    "answer": "Ein Kratzer oder Schnitt kann tödlich sein.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:2465065852:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-446",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Ich meinen möchte eigenen Orden entwerfen.",
-    "answer": "Ich möchte meinen eigenen Orden entwerfen.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:1781694723:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-447",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Mein ist Privatleben schon schwierig genug.",
-    "answer": "Mein Privatleben ist schon schwierig genug.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:2291005206:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-448",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Wir nicht sind alle so gesegnet wie Sie.",
-    "answer": "Wir sind nicht alle so gesegnet wie Sie.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:4069474203:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-449",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Wir sind kein alle so gesegnet wie Sie.",
-    "answer": "Wir sind nicht alle so gesegnet wie Sie.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:negation-swap"
-      ],
-      "groupId": "ec:4069474203:negation-swap"
-    }
-  },
-  {
-    "id": "perf-ec-t2-450",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Layla eine stahl Menge Bargeld aus der Bank.",
-    "answer": "Layla stahl eine Menge Bargeld aus der Bank.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:4066412694:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-451",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Holt Nagel den aus meiner Hand!",
-    "answer": "Holt den Nagel aus meiner Hand!",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:1421308269:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-452",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Ich viel habe Zeit meines Lebens in dieser Arena verbracht.",
-    "answer": "Ich habe viel Zeit meines Lebens in dieser Arena verbracht.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:4263476392:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-453",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Das wird Treffen also morgen stattfinden.",
-    "answer": "Das Treffen wird also morgen stattfinden.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:3464441764:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-454",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Sie zittern, würde wenn du sie berührst.",
-    "answer": "Sie würde zittern, wenn du sie berührst.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:2802115174:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-455",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Sie würde zittern, obwohl du sie berührst.",
-    "answer": "Sie würde zittern, wenn du sie berührst.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:connector-swap"
-      ],
-      "groupId": "ec:2802115174:connector-swap"
-    }
-  },
-  {
-    "id": "perf-ec-t2-456",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Und ist das nur ein Klient.",
-    "answer": "Und das ist nur ein Klient.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:1430862322:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-457",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Er die nutzte Gelegenheit, das Museum zu besuchen.",
-    "answer": "Er nutzte die Gelegenheit, das Museum zu besuchen.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:2466945425:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-458",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Der Buchstabe erste ist standardmäßig immer groß.",
-    "answer": "Der erste Buchstabe ist standardmäßig immer groß.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:1545524394:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-459",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Ich einfach, juble wenn alle anderen jubeln.",
-    "answer": "Ich juble einfach, wenn alle anderen jubeln.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:2721697744:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-460",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Ich juble einfach, sobald alle anderen jubeln.",
-    "answer": "Ich juble einfach, wenn alle anderen jubeln.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:connector-swap"
-      ],
-      "groupId": "ec:2721697744:connector-swap"
-    }
-  },
-  {
-    "id": "perf-ec-t2-461",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Wir mit haben dem Friseur gesprochen.",
-    "answer": "Wir haben mit dem Friseur gesprochen.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:3023327367:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-462",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Sie eine zeigen weiße Flagge.",
-    "answer": "Sie zeigen eine weiße Flagge.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:1652475082:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-463",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Setz dir in die Karre.",
-    "answer": "Setz dich in die Karre.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:pronoun-case"
-      ],
-      "groupId": "ec:3851441385:pronoun-case"
-    }
-  },
-  {
-    "id": "perf-ec-t2-464",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Setz in dich die Karre.",
-    "answer": "Setz dich in die Karre.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:3851441385:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-465",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Nicht polizeiliche jede Ermittlung führt automatisch zur Inhaftierung eines Verdächtigen.",
-    "answer": "Nicht jede polizeiliche Ermittlung führt automatisch zur Inhaftierung eines Verdächtigen.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:2638276243:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-466",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Wir hier sollten nicht zu strenge Kriterien anlegen.",
-    "answer": "Wir sollten hier nicht zu strenge Kriterien anlegen.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:1170889406:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-467",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Wir sollten hier kein zu strenge Kriterien anlegen.",
-    "answer": "Wir sollten hier nicht zu strenge Kriterien anlegen.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:negation-swap"
-      ],
-      "groupId": "ec:1170889406:negation-swap"
-    }
-  },
-  {
-    "id": "perf-ec-t2-468",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Pakistan eines ist der wichtigsten Textilländer weltweit.",
-    "answer": "Pakistan ist eines der wichtigsten Textilländer weltweit.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:2462233182:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-469",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Von gesehen Ferne sieht der Felsen aus wie ein altes Schloss.",
-    "answer": "Von Ferne gesehen sieht der Felsen aus wie ein altes Schloss.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:2089187928:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-470",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Du warst ihn Assistentin und Geliebte zugleich.",
-    "answer": "Du warst ihm Assistentin und Geliebte zugleich.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:pronoun-case"
-      ],
-      "groupId": "ec:2436118163:pronoun-case"
-    }
-  },
-  {
-    "id": "perf-ec-t2-471",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Du ihm warst Assistentin und Geliebte zugleich.",
-    "answer": "Du warst ihm Assistentin und Geliebte zugleich.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:2436118163:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-472",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Ich muss mir um mein Vieh kümmern.",
-    "answer": "Ich muss mich um mein Vieh kümmern.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:pronoun-case"
-      ],
-      "groupId": "ec:663326337:pronoun-case"
-    }
-  },
-  {
-    "id": "perf-ec-t2-473",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Ich mich muss um mein Vieh kümmern.",
-    "answer": "Ich muss mich um mein Vieh kümmern.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:663326337:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-474",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Sie sind alle überzeugt, ich hätte das Juwel gestohlen.",
-    "answer": "Sie alle sind überzeugt, ich hätte das Juwel gestohlen.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:1891189537:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-475",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Er doch ist kein Fürst der Finsternis.",
-    "answer": "Er ist doch kein Fürst der Finsternis.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:727750926:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-476",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Er ist doch nicht Fürst der Finsternis.",
-    "answer": "Er ist doch kein Fürst der Finsternis.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:negation-swap"
-      ],
-      "groupId": "ec:727750926:negation-swap"
-    }
-  },
-  {
-    "id": "perf-ec-t2-477",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Mit Chip dem können wir nirgendwohin.",
-    "answer": "Mit dem Chip können wir nirgendwohin.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:2833704833:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-478",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Du wirklich bist ein guter Fotograf.",
-    "answer": "Du bist wirklich ein guter Fotograf.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:2622381816:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-479",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Bei Temperatur welcher schmilzt es?",
-    "answer": "Bei welcher Temperatur schmilzt es?",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:3918688883:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-480",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "John war mich gegenüber untreu, mehrmals.",
-    "answer": "John war mir gegenüber untreu, mehrmals.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:pronoun-case"
-      ],
-      "groupId": "ec:3665976281:pronoun-case"
-    }
-  },
-  {
-    "id": "perf-ec-t2-481",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "John mir war gegenüber untreu, mehrmals.",
-    "answer": "John war mir gegenüber untreu, mehrmals.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:3665976281:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-482",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Das der ist Kern unserer Unternehmensphilosophie.",
-    "answer": "Das ist der Kern unserer Unternehmensphilosophie.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:4200107130:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-483",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Er noch war nie auf Johns Anwesen gewesen.",
-    "answer": "Er war noch nie auf Johns Anwesen gewesen.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:2638842867:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-484",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Das bietet Fotoarchiv eine große Auswahl an verschiedensten Motiven.",
-    "answer": "Das Fotoarchiv bietet eine große Auswahl an verschiedensten Motiven.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:230096126:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-485",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Wir den haben Laster am Straßenrand gefunden.",
-    "answer": "Wir haben den Laster am Straßenrand gefunden.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:2013110508:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-486",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Ich die habe Serie geliebt.",
-    "answer": "Ich habe die Serie geliebt.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:412096887:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-487",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Die Linien breiten entsprechen Straßen.",
-    "answer": "Die breiten Linien entsprechen Straßen.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:2665990502:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-488",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Du schuldest mich Piepen.",
-    "answer": "Du schuldest mir Piepen.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:pronoun-case"
-      ],
-      "groupId": "ec:1824539936:pronoun-case"
-    }
-  },
-  {
-    "id": "perf-ec-t2-489",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Wir einen mieteten LKW, um unsere Möbel zu transportieren.",
-    "answer": "Wir mieteten einen LKW, um unsere Möbel zu transportieren.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:3172226858:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-490",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Ich kann dich versichern, das wird nicht passieren.",
-    "answer": "Ich kann dir versichern, das wird nicht passieren.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:pronoun-case"
-      ],
-      "groupId": "ec:1285037463:pronoun-case"
-    }
-  },
-  {
-    "id": "perf-ec-t2-491",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Ich dir kann versichern, das wird nicht passieren.",
-    "answer": "Ich kann dir versichern, das wird nicht passieren.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:1285037463:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-492",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Ich kann dir versichern, das wird kein passieren.",
-    "answer": "Ich kann dir versichern, das wird nicht passieren.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:negation-swap"
-      ],
-      "groupId": "ec:1285037463:negation-swap"
-    }
-  },
-  {
-    "id": "perf-ec-t2-493",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Es auch schmeckt gut mit der scharfen Soße.",
-    "answer": "Es schmeckt auch gut mit der scharfen Soße.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:2484764919:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-494",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Wir für sind dieses gesamte Gebiet zuständig.",
-    "answer": "Wir sind für dieses gesamte Gebiet zuständig.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:767206882:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-495",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Im ist Käfig er weniger gefährlich.",
-    "answer": "Im Käfig ist er weniger gefährlich.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:3190348460:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-496",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Und sagt, er wir verhalten uns eigenartig.",
-    "answer": "Und er sagt, wir verhalten uns eigenartig.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:2837454924:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-497",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Sie sagten, ich soll ihm hier herbringen.",
-    "answer": "Sie sagten, ich soll ihn hier herbringen.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:pronoun-case"
-      ],
-      "groupId": "ec:4143315309:pronoun-case"
-    }
-  },
-  {
-    "id": "perf-ec-t2-498",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Sie ich sagten, soll ihn hier herbringen.",
-    "answer": "Sie sagten, ich soll ihn hier herbringen.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:4143315309:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-499",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Sie informierte mir über ihre Abreise.",
-    "answer": "Sie informierte mich über ihre Abreise.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:pronoun-case"
-      ],
-      "groupId": "ec:3142748389:pronoun-case"
-    }
-  },
-  {
-    "id": "perf-ec-t2-500",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Sie mich informierte über ihre Abreise.",
-    "answer": "Sie informierte mich über ihre Abreise.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:3142748389:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-501",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Dieses gehörte Auto ursprünglich John.",
-    "answer": "Dieses Auto gehörte ursprünglich John.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:1372028972:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-502",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Mein will Vater die Hochzeit absagen.",
-    "answer": "Mein Vater will die Hochzeit absagen.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:3374656449:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-503",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Aber ist es immer wieder amüsant.",
-    "answer": "Aber es ist immer wieder amüsant.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:2660367317:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-504",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Sag es mich, um meine Neugier zu befriedigen.",
-    "answer": "Sag es mir, um meine Neugier zu befriedigen.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:pronoun-case"
-      ],
-      "groupId": "ec:4276645682:pronoun-case"
-    }
-  },
-  {
-    "id": "perf-ec-t2-505",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Sag mir, es um meine Neugier zu befriedigen.",
-    "answer": "Sag es mir, um meine Neugier zu befriedigen.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:4276645682:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-506",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Ich ohne sollte den Anzug nicht losfahren.",
-    "answer": "Ich sollte ohne den Anzug nicht losfahren.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:1878873098:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-507",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Ich sollte ohne den Anzug kein losfahren.",
-    "answer": "Ich sollte ohne den Anzug nicht losfahren.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:negation-swap"
-      ],
-      "groupId": "ec:1878873098:negation-swap"
-    }
-  },
-  {
-    "id": "perf-ec-t2-508",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "John hat mich von der Uni erzählt.",
-    "answer": "John hat mir von der Uni erzählt.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:pronoun-case"
-      ],
-      "groupId": "ec:681521752:pronoun-case"
-    }
-  },
-  {
-    "id": "perf-ec-t2-509",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "John mir hat von der Uni erzählt.",
-    "answer": "John hat mir von der Uni erzählt.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:681521752:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-510",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Wir uns könnten ein Motel suchen.",
-    "answer": "Wir könnten uns ein Motel suchen.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:4008202122:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-511",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Du bist widerlich und ich hasse dir.",
-    "answer": "Du bist widerlich und ich hasse dich.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:pronoun-case"
-      ],
-      "groupId": "ec:3198013958:pronoun-case"
-    }
-  },
-  {
-    "id": "perf-ec-t2-512",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Du widerlich bist und ich hasse dich.",
-    "answer": "Du bist widerlich und ich hasse dich.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:3198013958:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-513",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "So man treibt eine Konversation voran.",
-    "answer": "So treibt man eine Konversation voran.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:3156517595:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-514",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Ich das denke, sollte erstmal reichen.",
-    "answer": "Ich denke, das sollte erstmal reichen.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:214274661:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-515",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Dein neuer Liebhaber ließ dir echt aufblühen.",
-    "answer": "Dein neuer Liebhaber ließ dich echt aufblühen.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:pronoun-case"
-      ],
-      "groupId": "ec:3475345510:pronoun-case"
-    }
-  },
-  {
-    "id": "perf-ec-t2-516",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Dein Liebhaber neuer ließ dich echt aufblühen.",
-    "answer": "Dein neuer Liebhaber ließ dich echt aufblühen.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:3475345510:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-517",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Sie die sollen anderen nicht blockieren können.",
-    "answer": "Sie sollen die anderen nicht blockieren können.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:4243225194:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-518",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Sie sollen die anderen kein blockieren können.",
-    "answer": "Sie sollen die anderen nicht blockieren können.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:negation-swap"
-      ],
-      "groupId": "ec:4243225194:negation-swap"
-    }
-  },
-  {
-    "id": "perf-ec-t2-519",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Die scheint Kampagne wie eine Bombe einzuschlagen.",
-    "answer": "Die Kampagne scheint wie eine Bombe einzuschlagen.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:3662805140:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-520",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Ein Mensch besserer würde sie loslassen.",
-    "answer": "Ein besserer Mensch würde sie loslassen.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:444770869:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-521",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Ich mein war Leben lang Bauer.",
-    "answer": "Ich war mein Leben lang Bauer.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:3338073667:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-522",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Im ist September es noch heiß.",
-    "answer": "Im September ist es noch heiß.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:3561960221:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-523",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Das gerade, ist wovor ich Angst habe.",
-    "answer": "Das ist gerade, wovor ich Angst habe.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:2423581155:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-524",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Könnten vielleicht wir hier übernachten?",
-    "answer": "Könnten wir vielleicht hier übernachten?",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:2044503805:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-525",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Er an glaubt den Weihnachtsmann.",
-    "answer": "Er glaubt an den Weihnachtsmann.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:1289187269:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-526",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Ich sicher, bin Sie werden durchkommen, wie immer.",
-    "answer": "Ich bin sicher, Sie werden durchkommen, wie immer.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:1260277444:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-527",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Wir noch suchen einen Berater für unsere Autoren.",
-    "answer": "Wir suchen noch einen Berater für unsere Autoren.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:2241491517:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-528",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Leider viele haben Japaner noch Vorurteile über Amerikaner.",
-    "answer": "Leider haben viele Japaner noch Vorurteile über Amerikaner.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:1208463707:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-529",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Wir das finden ganz schön egoistisch.",
-    "answer": "Wir finden das ganz schön egoistisch.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:1604714603:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-530",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Du verärgert, bist ich verstehe schon.",
-    "answer": "Du bist verärgert, ich verstehe schon.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:1199509720:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-531",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Die Kapelle Sixtinische ist Michelangelos Meisterwerk.",
-    "answer": "Die Sixtinische Kapelle ist Michelangelos Meisterwerk.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:2633518967:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-532",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Ich diese kenne Umgebung nicht allzu gut.",
-    "answer": "Ich kenne diese Umgebung nicht allzu gut.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:676207012:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-533",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Ich kenne diese Umgebung kein allzu gut.",
-    "answer": "Ich kenne diese Umgebung nicht allzu gut.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:negation-swap"
-      ],
-      "groupId": "ec:676207012:negation-swap"
-    }
-  },
-  {
-    "id": "perf-ec-t2-534",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Ich auf bin seine Reaktion gespannt.",
-    "answer": "Ich bin auf seine Reaktion gespannt.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:3800175891:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-535",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "John das hätte Konzert gefallen.",
-    "answer": "John hätte das Konzert gefallen.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:1180675470:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-536",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Ja, Einsamkeit die ist unerträglich.",
-    "answer": "Ja, die Einsamkeit ist unerträglich.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:1690695567:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-537",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Dieser sitzt Gürtel zu eng.",
-    "answer": "Dieser Gürtel sitzt zu eng.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:2196600620:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-538",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Glotzt du mir oder sie an?",
-    "answer": "Glotzt du mich oder sie an?",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:pronoun-case"
-      ],
-      "groupId": "ec:2121784394:pronoun-case"
-    }
-  },
-  {
-    "id": "perf-ec-t2-539",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Glotzt mich du oder sie an?",
-    "answer": "Glotzt du mich oder sie an?",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:2121784394:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-540",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Diesen könnten Code wir nie knacken.",
-    "answer": "Diesen Code könnten wir nie knacken.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:1518386897:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-541",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Du nicht bist sehr fit.",
-    "answer": "Du bist nicht sehr fit.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:2803205293:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-542",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Du bist kein sehr fit.",
-    "answer": "Du bist nicht sehr fit.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:negation-swap"
-      ],
-      "groupId": "ec:2803205293:negation-swap"
-    }
-  },
-  {
-    "id": "perf-ec-t2-543",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Sie in wurde die Brust geschossen.",
-    "answer": "Sie wurde in die Brust geschossen.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:2224045434:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-544",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Ich einen habe Kellner eingestellt, damit du gehen kannst.",
-    "answer": "Ich habe einen Kellner eingestellt, damit du gehen kannst.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:814384271:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-545",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Ich habe einen Kellner eingestellt, sobald du gehen kannst.",
-    "answer": "Ich habe einen Kellner eingestellt, damit du gehen kannst.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:connector-swap"
-      ],
-      "groupId": "ec:814384271:connector-swap"
-    }
-  },
-  {
-    "id": "perf-ec-t2-546",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Aber Mal dieses muss er seine Niederlage eingestehen.",
-    "answer": "Aber dieses Mal muss er seine Niederlage eingestehen.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:1747493994:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-547",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Furcht ein ist großer Motivator.",
-    "answer": "Furcht ist ein großer Motivator.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:3025557902:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-548",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Das ist Ergebnis relativ flach und detailarm.",
-    "answer": "Das Ergebnis ist relativ flach und detailarm.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:3871219933:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-549",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Gerne wir informieren Sie über unsere Provisionen.",
-    "answer": "Gerne informieren wir Sie über unsere Provisionen.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:1937358314:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-550",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Ein Marsch langer liegt vor uns.",
-    "answer": "Ein langer Marsch liegt vor uns.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:2576756912:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-551",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Magst Äpfel du oder Orangen?",
-    "answer": "Magst du Äpfel oder Orangen?",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:2006242410:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-552",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Wir beide stecken in der Klemme.",
-    "answer": "Wir stecken beide in der Klemme.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:1640246926:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-553",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Erst ist jetzt es offiziell.",
-    "answer": "Erst jetzt ist es offiziell.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:786926538:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-554",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Die ist Evolutionstheorie jenseits meines Vorstellungsvermögens.",
-    "answer": "Die Evolutionstheorie ist jenseits meines Vorstellungsvermögens.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:943080720:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-555",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Der Erfolg finanzielle ist immer noch zu unsicher.",
-    "answer": "Der finanzielle Erfolg ist immer noch zu unsicher.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:1547882940:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-556",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Ich gerne würde eine andere Lösung mit Ihnen ausprobieren.",
-    "answer": "Ich würde gerne eine andere Lösung mit Ihnen ausprobieren.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:1807747276:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-557",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Mit Gerät diesem messen wir Blutdrücke.",
-    "answer": "Mit diesem Gerät messen wir Blutdrücke.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:2511449011:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-558",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Leute sich verkleiden als ihre Lieblingsfilmfigur.",
-    "answer": "Leute verkleiden sich als ihre Lieblingsfilmfigur.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:2576703314:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-559",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Leute verkleiden sich falls ihre Lieblingsfilmfigur.",
-    "answer": "Leute verkleiden sich als ihre Lieblingsfilmfigur.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:connector-swap"
-      ],
-      "groupId": "ec:2576703314:connector-swap"
-    }
-  },
-  {
-    "id": "perf-ec-t2-560",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Unsere der Grundhaltung EU gegenüber ist positiv.",
-    "answer": "Unsere Grundhaltung der EU gegenüber ist positiv.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:2898105030:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-561",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Die war Landung sehr erfolgreich.",
-    "answer": "Die Landung war sehr erfolgreich.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:3507171772:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-562",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Du ja wolltest ohnehin nie lernen.",
-    "answer": "Du wolltest ja ohnehin nie lernen.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:4086176420:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-563",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Ich jedoch werde den Standpunkt der Kommission getreu vertreten.",
-    "answer": "Ich werde jedoch den Standpunkt der Kommission getreu vertreten.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:3210288963:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-564",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Ich noch brauche eine Dose Farbe, um die Decke zu Ende zu streichen.",
-    "answer": "Ich brauche noch eine Dose Farbe, um die Decke zu Ende zu streichen.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:2051422614:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-565",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Der Mann alte ist sozusagen ein wandelndes Wörterbuch.",
-    "answer": "Der alte Mann ist sozusagen ein wandelndes Wörterbuch.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:822612832:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-566",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Malaria eine ist Krankheit, die von Moskitos übertragen wird.",
-    "answer": "Malaria ist eine Krankheit, die von Moskitos übertragen wird.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:3519427282:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-567",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Ich wollte dir nicht schrecken.",
-    "answer": "Ich wollte dich nicht schrecken.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:pronoun-case"
-      ],
-      "groupId": "ec:824127102:pronoun-case"
-    }
-  },
-  {
-    "id": "perf-ec-t2-568",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Ich dich wollte nicht schrecken.",
-    "answer": "Ich wollte dich nicht schrecken.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:824127102:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-569",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Ich wollte dich kein schrecken.",
-    "answer": "Ich wollte dich nicht schrecken.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:negation-swap"
-      ],
-      "groupId": "ec:824127102:negation-swap"
-    }
-  },
-  {
-    "id": "perf-ec-t2-570",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Ich wie weiß, ängstlich du sein musst.",
-    "answer": "Ich weiß, wie ängstlich du sein musst.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:402593382:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-571",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Der kriecht Hase unter dem Holzstamm hindurch.",
-    "answer": "Der Hase kriecht unter dem Holzstamm hindurch.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:2208579645:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-572",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Das ist Schloss wiedererrichtet worden und öffentlich zugänglich.",
-    "answer": "Das Schloss ist wiedererrichtet worden und öffentlich zugänglich.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:843905696:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-573",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Er seine gab Identität nicht preis.",
-    "answer": "Er gab seine Identität nicht preis.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:3835092530:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-574",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Er gab seine Identität kein preis.",
-    "answer": "Er gab seine Identität nicht preis.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:negation-swap"
-      ],
-      "groupId": "ec:3835092530:negation-swap"
-    }
-  },
-  {
-    "id": "perf-ec-t2-575",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Seine hatten Bemerkungen den gegenteiligen Effekt.",
-    "answer": "Seine Bemerkungen hatten den gegenteiligen Effekt.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:3568410111:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-576",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Es etwas, ist was er nicht beherrschen kann.",
-    "answer": "Es ist etwas, was er nicht beherrschen kann.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:3357004342:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-577",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Es ist etwas, was er kein beherrschen kann.",
-    "answer": "Es ist etwas, was er nicht beherrschen kann.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:negation-swap"
-      ],
-      "groupId": "ec:3357004342:negation-swap"
-    }
-  },
-  {
-    "id": "perf-ec-t2-578",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Also ich rannte umher und spielte Pirat.",
-    "answer": "Also rannte ich umher und spielte Pirat.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:1122992618:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-579",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Er nie war besser als unter Johns Regie.",
-    "answer": "Er war nie besser als unter Johns Regie.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:1751134796:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-580",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Er war nie besser bevor unter Johns Regie.",
-    "answer": "Er war nie besser als unter Johns Regie.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:connector-swap"
-      ],
-      "groupId": "ec:1751134796:connector-swap"
-    }
-  },
-  {
-    "id": "perf-ec-t2-581",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Dieser sollte Vorgang von einem geschulten Techniker durchgeführt werden.",
-    "answer": "Dieser Vorgang sollte von einem geschulten Techniker durchgeführt werden.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:71673283:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-582",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Gerade sich hat der Vorhang bewegt.",
-    "answer": "Gerade hat sich der Vorhang bewegt.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:1538441509:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-583",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Das war Interview zu lang.",
-    "answer": "Das Interview war zu lang.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:2000353071:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-584",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Die besteht Gemeinschaft aus Individuen.",
-    "answer": "Die Gemeinschaft besteht aus Individuen.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:3772999008:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-585",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Gerne wir senden Ihnen unsere Broschüre.",
-    "answer": "Gerne senden wir Ihnen unsere Broschüre.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:4166197661:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-586",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Alle im Blumen Garten sind gelb.",
-    "answer": "Alle Blumen im Garten sind gelb.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:1238204893:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-587",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Ein Antrag formaler wurde allerdings nie gestellt.",
-    "answer": "Ein formaler Antrag wurde allerdings nie gestellt.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:3976374320:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-588",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Der wurde Plan praktisch vom ganzen Personal unterstützt.",
-    "answer": "Der Plan wurde praktisch vom ganzen Personal unterstützt.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:3282553223:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-589",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Letztendlich jemand wird John sagen müssen, dass er sich zu benehmen hat.",
-    "answer": "Letztendlich wird jemand John sagen müssen, dass er sich zu benehmen hat.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:133233628:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-590",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Letztendlich wird jemand John sagen müssen, weil er sich zu benehmen hat.",
-    "answer": "Letztendlich wird jemand John sagen müssen, dass er sich zu benehmen hat.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:connector-swap"
-      ],
-      "groupId": "ec:133233628:connector-swap"
-    }
-  },
-  {
-    "id": "perf-ec-t2-591",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Sie speziell sind dafür ausgelegt, falsch negative Ergebnisse zu vermeiden.",
-    "answer": "Sie sind speziell dafür ausgelegt, falsch negative Ergebnisse zu vermeiden.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:3873800123:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-592",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Kapitäne die tragen Verantwortung für Schiff und Besatzung.",
-    "answer": "Kapitäne tragen die Verantwortung für Schiff und Besatzung.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:505734261:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-593",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Ich dem bin Attentäter auf der Spur.",
-    "answer": "Ich bin dem Attentäter auf der Spur.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:3978410760:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-594",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Das gilt Ticket bis einschließlich Montag.",
-    "answer": "Das Ticket gilt bis einschließlich Montag.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:2357192030:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-595",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Das sehr ist anständig von Ihnen.",
-    "answer": "Das ist sehr anständig von Ihnen.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:3933722144:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-596",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Erlaube dich einfach, etwas zu empfinden.",
-    "answer": "Erlaube dir einfach, etwas zu empfinden.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:pronoun-case"
-      ],
-      "groupId": "ec:4156757879:pronoun-case"
-    }
-  },
-  {
-    "id": "perf-ec-t2-597",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Erlaube einfach, dir etwas zu empfinden.",
-    "answer": "Erlaube dir einfach, etwas zu empfinden.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:4156757879:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-598",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Ich wir schätze, haben alle einen Zwilling.",
-    "answer": "Ich schätze, wir haben alle einen Zwilling.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:2646632859:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-599",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Ich Staub hasse mehr als alles andere.",
-    "answer": "Ich hasse Staub mehr als alles andere.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:2985961450:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-600",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Ich hasse Staub mehr damit alles andere.",
-    "answer": "Ich hasse Staub mehr als alles andere.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:connector-swap"
-      ],
-      "groupId": "ec:2985961450:connector-swap"
-    }
-  },
-  {
-    "id": "perf-ec-t2-601",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Dennoch es gilt für jedermann.",
-    "answer": "Dennoch gilt es für jedermann.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:3424676594:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-602",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Baby, ist es nur ein Kratzer.",
-    "answer": "Baby, es ist nur ein Kratzer.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:3817680497:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-603",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Ich Ihnen gebe zwei Wochen, es zu räumen.",
-    "answer": "Ich gebe Ihnen zwei Wochen, es zu räumen.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:142780389:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-604",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Die verfolgt Kommission den Fall sehr aufmerksam.",
-    "answer": "Die Kommission verfolgt den Fall sehr aufmerksam.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:681946557:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-605",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Ich mit kann diesen Leuten prinzipiell nicht verhandeln.",
-    "answer": "Ich kann mit diesen Leuten prinzipiell nicht verhandeln.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:3633183899:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-606",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Ich kann mit diesen Leuten prinzipiell kein verhandeln.",
-    "answer": "Ich kann mit diesen Leuten prinzipiell nicht verhandeln.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:negation-swap"
-      ],
-      "groupId": "ec:3633183899:negation-swap"
-    }
-  },
-  {
-    "id": "perf-ec-t2-607",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Das nichts, ist was man Ihnen vorwerfen kann.",
-    "answer": "Das ist nichts, was man Ihnen vorwerfen kann.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:3468204343:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-608",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Glücklicherweise habe ich keine, also bietet sich mich diese spezielle Versuchung nicht.",
-    "answer": "Glücklicherweise habe ich keine, also bietet sich mir diese spezielle Versuchung nicht.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:pronoun-case"
-      ],
-      "groupId": "ec:2495544790:pronoun-case"
-    }
-  },
-  {
-    "id": "perf-ec-t2-609",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Glücklicherweise ich habe keine, also bietet sich mir diese spezielle Versuchung nicht.",
-    "answer": "Glücklicherweise habe ich keine, also bietet sich mir diese spezielle Versuchung nicht.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:2495544790:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-610",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Glücklicherweise habe ich keine, also bietet sich mir diese spezielle Versuchung kein.",
-    "answer": "Glücklicherweise habe ich keine, also bietet sich mir diese spezielle Versuchung nicht.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:negation-swap"
-      ],
-      "groupId": "ec:2495544790:negation-swap"
-    }
-  },
-  {
-    "id": "perf-ec-t2-611",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Der war Professor dabei sehr hilfreich.",
-    "answer": "Der Professor war dabei sehr hilfreich.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:3597355482:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-612",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Trotzdem wir haben gehandelt und reagiert.",
-    "answer": "Trotzdem haben wir gehandelt und reagiert.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:3107972160:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-613",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Alle spielen Töne eine Melodie des Herzens.",
-    "answer": "Alle Töne spielen eine Melodie des Herzens.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:2873977905:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-614",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Bei seinen all Leistungen ist er bescheiden geblieben.",
-    "answer": "Bei all seinen Leistungen ist er bescheiden geblieben.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:1182777814:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-615",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Lebensbedrohliche bringen Situationen nicht meine besten Seiten hervor.",
-    "answer": "Lebensbedrohliche Situationen bringen nicht meine besten Seiten hervor.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:4275150554:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-616",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Lebensbedrohliche Situationen bringen kein meine besten Seiten hervor.",
-    "answer": "Lebensbedrohliche Situationen bringen nicht meine besten Seiten hervor.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:negation-swap"
-      ],
-      "groupId": "ec:4275150554:negation-swap"
-    }
-  },
-  {
-    "id": "perf-ec-t2-617",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Kannst du mich ein gutes Buch empfehlen?",
-    "answer": "Kannst du mir ein gutes Buch empfehlen?",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:pronoun-case"
-      ],
-      "groupId": "ec:3458163510:pronoun-case"
-    }
-  },
-  {
-    "id": "perf-ec-t2-618",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Kannst mir du ein gutes Buch empfehlen?",
-    "answer": "Kannst du mir ein gutes Buch empfehlen?",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:3458163510:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-619",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Ich keine trage Schuhe, die quietschen könnten.",
-    "answer": "Ich trage keine Schuhe, die quietschen könnten.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:1259694533:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-620",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Ich trage nicht Schuhe, die quietschen könnten.",
-    "answer": "Ich trage keine Schuhe, die quietschen könnten.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:negation-swap"
-      ],
-      "groupId": "ec:1259694533:negation-swap"
-    }
-  },
-  {
-    "id": "perf-ec-t2-621",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Ich unsere möchte Entwicklung präsentieren.",
-    "answer": "Ich möchte unsere Entwicklung präsentieren.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:1210833160:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-622",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Es zunächst kann verwirrend sein.",
-    "answer": "Es kann zunächst verwirrend sein.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:407104371:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-623",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Diese Bestie wilde nennt sich Hauskatze.",
-    "answer": "Diese wilde Bestie nennt sich Hauskatze.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:1591948726:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-624",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Ich den will Star nicht beleidigen.",
-    "answer": "Ich will den Star nicht beleidigen.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:3380504270:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-625",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Ich will den Star kein beleidigen.",
-    "answer": "Ich will den Star nicht beleidigen.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:negation-swap"
-      ],
-      "groupId": "ec:3380504270:negation-swap"
-    }
-  },
-  {
-    "id": "perf-ec-t2-626",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Ich danke ihn für sein Verständnis.",
-    "answer": "Ich danke ihm für sein Verständnis.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:pronoun-case"
-      ],
-      "groupId": "ec:2659940953:pronoun-case"
-    }
-  },
-  {
-    "id": "perf-ec-t2-627",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Ich ihm danke für sein Verständnis.",
-    "answer": "Ich danke ihm für sein Verständnis.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:2659940953:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-628",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Das als war ernsthafter Kommentar gedacht.",
-    "answer": "Das war als ernsthafter Kommentar gedacht.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:534985809:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-629",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Das war während ernsthafter Kommentar gedacht.",
-    "answer": "Das war als ernsthafter Kommentar gedacht.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:connector-swap"
-      ],
-      "groupId": "ec:534985809:connector-swap"
-    }
-  },
-  {
-    "id": "perf-ec-t2-630",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Diese ist Mumie Jahre alt.",
-    "answer": "Diese Mumie ist Jahre alt.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:520295427:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-631",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Ihre scheint Sitzung abgelaufen zu sein.",
-    "answer": "Ihre Sitzung scheint abgelaufen zu sein.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:1214589381:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-632",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Wir unsere bezeichneten Bewegung nie als politisch.",
-    "answer": "Wir bezeichneten unsere Bewegung nie als politisch.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:1348192290:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-633",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Wir bezeichneten unsere Bewegung nie nachdem politisch.",
-    "answer": "Wir bezeichneten unsere Bewegung nie als politisch.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:connector-swap"
-      ],
-      "groupId": "ec:1348192290:connector-swap"
-    }
-  },
-  {
-    "id": "perf-ec-t2-634",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Eine Führung starke ist nötig.",
-    "answer": "Eine starke Führung ist nötig.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:962295922:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-635",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Die hier Wände sind sehr dünn.",
-    "answer": "Die Wände hier sind sehr dünn.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:84324097:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-636",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Das Dolly Schaf ändert jedoch alles.",
-    "answer": "Das Schaf Dolly ändert jedoch alles.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:1364084545:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-637",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Na dann ja, schmeißen wir wenigstens diesen Fernseher raus.",
-    "answer": "Na ja, dann schmeißen wir wenigstens diesen Fernseher raus.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:2386977245:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-638",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Die Union Europäische ist nicht starr.",
-    "answer": "Die Europäische Union ist nicht starr.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:3833278169:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-639",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Die Europäische Union ist kein starr.",
-    "answer": "Die Europäische Union ist nicht starr.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:negation-swap"
-      ],
-      "groupId": "ec:3833278169:negation-swap"
-    }
-  },
-  {
-    "id": "perf-ec-t2-640",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Es alles sieht einfach so dämlich aus.",
-    "answer": "Es sieht alles einfach so dämlich aus.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:1638682099:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-641",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Links Benutzer verbinden mit externen oder internen Websites.",
-    "answer": "Links verbinden Benutzer mit externen oder internen Websites.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:2071301620:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-642",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Benutzt noch sonst jemand Ihr Konto?",
-    "answer": "Benutzt sonst noch jemand Ihr Konto?",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:894169636:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-643",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Ich habe dir um eine Kleinigkeit gebeten.",
-    "answer": "Ich habe dich um eine Kleinigkeit gebeten.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:pronoun-case"
-      ],
-      "groupId": "ec:806302504:pronoun-case"
-    }
-  },
-  {
-    "id": "perf-ec-t2-644",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Ich dich habe um eine Kleinigkeit gebeten.",
-    "answer": "Ich habe dich um eine Kleinigkeit gebeten.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:806302504:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-645",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Ihrer nach Meinung könnten trotzdem noch Konflikte entstehen.",
-    "answer": "Ihrer Meinung nach könnten trotzdem noch Konflikte entstehen.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:725391746:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-646",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Der Seiner Waggon Exzellenz ist immer am Zugende.",
-    "answer": "Der Waggon Seiner Exzellenz ist immer am Zugende.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:1125537216:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-647",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Wir demütige sind Diener der Krone.",
-    "answer": "Wir sind demütige Diener der Krone.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:2654334323:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-648",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Ich mit kann einer gebrochenen Rippe fahren.",
-    "answer": "Ich kann mit einer gebrochenen Rippe fahren.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:810187092:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-649",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "In Dorf meinem gibt es einen kleinen schmalen Steg über einen Bach.",
-    "answer": "In meinem Dorf gibt es einen kleinen schmalen Steg über einen Bach.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:4233279503:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-650",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Die hat Situation sich dramatisch geändert.",
-    "answer": "Die Situation hat sich dramatisch geändert.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:2426254916:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-651",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Ihr habt mich nichts, als Schmerz und Elend gebracht.",
-    "answer": "Ihr habt mir nichts, als Schmerz und Elend gebracht.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:pronoun-case"
-      ],
-      "groupId": "ec:2697499305:pronoun-case"
-    }
-  },
-  {
-    "id": "perf-ec-t2-652",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Ihr mir habt nichts, als Schmerz und Elend gebracht.",
-    "answer": "Ihr habt mir nichts, als Schmerz und Elend gebracht.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:2697499305:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-653",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Ihr habt mir nichts, während Schmerz und Elend gebracht.",
-    "answer": "Ihr habt mir nichts, als Schmerz und Elend gebracht.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:connector-swap"
-      ],
-      "groupId": "ec:2697499305:connector-swap"
-    }
-  },
-  {
-    "id": "perf-ec-t2-654",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Ein seltenes so Ereignis verdient Aufmerksamkeit.",
-    "answer": "Ein so seltenes Ereignis verdient Aufmerksamkeit.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:2845833142:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-655",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Sie den können Vorgang jederzeit abbrechen.",
-    "answer": "Sie können den Vorgang jederzeit abbrechen.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:3140626261:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-656",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Hier reichlich ist Platz für alle.",
-    "answer": "Hier ist reichlich Platz für alle.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:3592735979:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-657",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Wir es könnten zu unserem Vorteil nutzen.",
-    "answer": "Wir könnten es zu unserem Vorteil nutzen.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:1946482150:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-658",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Der brachte Krieg Tod und Zerstörung über die Stadt.",
-    "answer": "Der Krieg brachte Tod und Zerstörung über die Stadt.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:4057323544:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-659",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Wie weit unendlich dieses Land ist.",
-    "answer": "Wie unendlich weit dieses Land ist.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:3370726845:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-660",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Das Stillen ist einfacher, wenn das Baby neben dich schläft.",
-    "answer": "Das Stillen ist einfacher, wenn das Baby neben dir schläft.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:pronoun-case"
-      ],
-      "groupId": "ec:1140413732:pronoun-case"
-    }
-  },
-  {
-    "id": "perf-ec-t2-661",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Das ist Stillen einfacher, wenn das Baby neben dir schläft.",
-    "answer": "Das Stillen ist einfacher, wenn das Baby neben dir schläft.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:1140413732:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-662",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Das Stillen ist einfacher, sobald das Baby neben dir schläft.",
-    "answer": "Das Stillen ist einfacher, wenn das Baby neben dir schläft.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:connector-swap"
-      ],
-      "groupId": "ec:1140413732:connector-swap"
-    }
-  },
-  {
-    "id": "perf-ec-t2-663",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Jede erzeugt Aktion eine gleiche und entgegengesetzte Reaktion.",
-    "answer": "Jede Aktion erzeugt eine gleiche und entgegengesetzte Reaktion.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:2138726907:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-664",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Es sich fühlt mehr wie ein Akt der Verzweiflung an.",
-    "answer": "Es fühlt sich mehr wie ein Akt der Verzweiflung an.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:2530119885:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-665",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Ich kann andererseits euch eine Menge bieten.",
-    "answer": "Ich andererseits kann euch eine Menge bieten.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:3225314173:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-666",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Große zu Datensätze verschieben ist kostspielig und riskant.",
-    "answer": "Große Datensätze zu verschieben ist kostspielig und riskant.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:1565862685:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-667",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Er die hat Stadt erobert.",
-    "answer": "Er hat die Stadt erobert.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:264871066:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-668",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Aber Mutter meine wollte euch alle kennenlernen.",
-    "answer": "Aber meine Mutter wollte euch alle kennenlernen.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:3903621923:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-669",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Das muss Stipendium nicht zurückgezahlt werden.",
-    "answer": "Das Stipendium muss nicht zurückgezahlt werden.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:3892004998:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-670",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Das Stipendium muss kein zurückgezahlt werden.",
-    "answer": "Das Stipendium muss nicht zurückgezahlt werden.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:negation-swap"
-      ],
-      "groupId": "ec:3892004998:negation-swap"
-    }
-  },
-  {
-    "id": "perf-ec-t2-671",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Er hat einen schönen, fetten Wurm für dir.",
-    "answer": "Er hat einen schönen, fetten Wurm für dich.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:pronoun-case"
-      ],
-      "groupId": "ec:1178753504:pronoun-case"
-    }
-  },
-  {
-    "id": "perf-ec-t2-672",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Er einen hat schönen, fetten Wurm für dich.",
-    "answer": "Er hat einen schönen, fetten Wurm für dich.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:1178753504:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-673",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Das schluchzte Mädchen in der Ecke des Zimmers.",
-    "answer": "Das Mädchen schluchzte in der Ecke des Zimmers.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:403096116:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-674",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Ein in Hinweis der Geschäftsordnung war nicht erforderlich.",
-    "answer": "Ein Hinweis in der Geschäftsordnung war nicht erforderlich.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:2714181663:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-675",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Ein Hinweis in der Geschäftsordnung war kein erforderlich.",
-    "answer": "Ein Hinweis in der Geschäftsordnung war nicht erforderlich.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:negation-swap"
-      ],
-      "groupId": "ec:2714181663:negation-swap"
-    }
-  },
-  {
-    "id": "perf-ec-t2-676",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Ich es kann nur so weit strecken.",
-    "answer": "Ich kann es nur so weit strecken.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:607727784:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-677",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Der beschützt Drache den Berg.",
-    "answer": "Der Drache beschützt den Berg.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:308410489:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-678",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "John sich, weigerte das Dokument zu unterzeichnen.",
-    "answer": "John weigerte sich, das Dokument zu unterzeichnen.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:2193940605:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-679",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Lassen uns Sie bitte noch einmal in Verhandlungen eintreten.",
-    "answer": "Lassen Sie uns bitte noch einmal in Verhandlungen eintreten.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:3818192560:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-680",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Sie auch können Farbe, Schrift und Texthöhe ändern.",
-    "answer": "Sie können auch Farbe, Schrift und Texthöhe ändern.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:2819340552:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-681",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Aber müssen nun Sie nützlich sein.",
-    "answer": "Aber nun müssen Sie nützlich sein.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:1013555400:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-682",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Ich eine muss Ranch aufbauen.",
-    "answer": "Ich muss eine Ranch aufbauen.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:3405574939:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-683",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Leider diese ist Gefahr sehr real.",
-    "answer": "Leider ist diese Gefahr sehr real.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:4234486101:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-684",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Es nicht entspricht dem Original.",
-    "answer": "Es entspricht nicht dem Original.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:1797478788:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-685",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Es entspricht kein dem Original.",
-    "answer": "Es entspricht nicht dem Original.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:negation-swap"
-      ],
-      "groupId": "ec:1797478788:negation-swap"
-    }
-  },
-  {
-    "id": "perf-ec-t2-686",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Du den musst schwarzen Rock aufhängen.",
-    "answer": "Du musst den schwarzen Rock aufhängen.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:3185844113:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-687",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Wir unseren schickten Mann in einen Hinterhalt.",
-    "answer": "Wir schickten unseren Mann in einen Hinterhalt.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:1881005070:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-688",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Ich Reporter, bin kein Politiker.",
-    "answer": "Ich bin Reporter, kein Politiker.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:4239477119:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-689",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Ich bin Reporter, nicht Politiker.",
-    "answer": "Ich bin Reporter, kein Politiker.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:negation-swap"
-      ],
-      "groupId": "ec:4239477119:negation-swap"
-    }
-  },
-  {
-    "id": "perf-ec-t2-690",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Diese wird Ausrede nicht genügen.",
-    "answer": "Diese Ausrede wird nicht genügen.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:916012956:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-691",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Diese Ausrede wird kein genügen.",
-    "answer": "Diese Ausrede wird nicht genügen.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:negation-swap"
-      ],
-      "groupId": "ec:916012956:negation-swap"
-    }
-  },
-  {
-    "id": "perf-ec-t2-692",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Ich nicht, glaube dass John an dem Skandal beteiligt war.",
-    "answer": "Ich glaube nicht, dass John an dem Skandal beteiligt war.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:356046695:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-693",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Ich glaube nicht, bevor John an dem Skandal beteiligt war.",
-    "answer": "Ich glaube nicht, dass John an dem Skandal beteiligt war.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:connector-swap"
-      ],
-      "groupId": "ec:356046695:connector-swap"
-    }
-  },
-  {
-    "id": "perf-ec-t2-694",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Ich glaube kein, dass John an dem Skandal beteiligt war.",
-    "answer": "Ich glaube nicht, dass John an dem Skandal beteiligt war.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:negation-swap"
-      ],
-      "groupId": "ec:356046695:negation-swap"
-    }
-  },
-  {
-    "id": "perf-ec-t2-695",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Es sehr ist faszinierend, aber wir müssen nun leider gehen.",
-    "answer": "Es ist sehr faszinierend, aber wir müssen nun leider gehen.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:2190446570:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-696",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Diese unterliegen Waren einer zollamtlichen Überwachung.",
-    "answer": "Diese Waren unterliegen einer zollamtlichen Überwachung.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:1852184375:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-697",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Und muss ich anfangen Leute zu ignorieren.",
-    "answer": "Und ich muss anfangen Leute zu ignorieren.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:2092890210:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-698",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Ich der war letzte, mit dem sie telefoniert hat.",
-    "answer": "Ich war der letzte, mit dem sie telefoniert hat.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:2154235883:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-699",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Ein überquerte Bär die Autobahn.",
-    "answer": "Ein Bär überquerte die Autobahn.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:1128328736:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-700",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Dieses ist Thema nicht unwichtig.",
-    "answer": "Dieses Thema ist nicht unwichtig.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:3532714685:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-701",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Dieses Thema ist kein unwichtig.",
-    "answer": "Dieses Thema ist nicht unwichtig.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:negation-swap"
-      ],
-      "groupId": "ec:3532714685:negation-swap"
-    }
-  },
-  {
-    "id": "perf-ec-t2-702",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Der der Magen alten Frau knurrt.",
-    "answer": "Der Magen der alten Frau knurrt.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:3427502321:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-703",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Ich mit bin dem Vorsitzenden der Kommission bekannt.",
-    "answer": "Ich bin mit dem Vorsitzenden der Kommission bekannt.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:840959784:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-704",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Es nach ist Ihrem Belieben, natürlich.",
-    "answer": "Es ist nach Ihrem Belieben, natürlich.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:2920580601:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-705",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Mami momentan ist nicht zu Hause.",
-    "answer": "Mami ist momentan nicht zu Hause.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:2295709275:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-706",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Mami ist momentan kein zu Hause.",
-    "answer": "Mami ist momentan nicht zu Hause.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:negation-swap"
-      ],
-      "groupId": "ec:2295709275:negation-swap"
-    }
-  },
-  {
-    "id": "perf-ec-t2-707",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Bitte Sie wählen eine der folgenden Optionen, um die Seite zu betreten.",
-    "answer": "Bitte wählen Sie eine der folgenden Optionen, um die Seite zu betreten.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:424348478:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-708",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Ich wollte dich ins Gesicht spucken.",
-    "answer": "Ich wollte dir ins Gesicht spucken.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:pronoun-case"
-      ],
-      "groupId": "ec:1315304309:pronoun-case"
-    }
-  },
-  {
-    "id": "perf-ec-t2-709",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Ich dir wollte ins Gesicht spucken.",
-    "answer": "Ich wollte dir ins Gesicht spucken.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:1315304309:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-710",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Er die fuhr Hauptstraße hinunter.",
-    "answer": "Er fuhr die Hauptstraße hinunter.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:4175248512:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-711",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Wir ihnen müssen ein christliches Begräbnis geben.",
-    "answer": "Wir müssen ihnen ein christliches Begräbnis geben.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:412941187:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-712",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Das Land ganze soll ja im Aufruhr sein.",
-    "answer": "Das ganze Land soll ja im Aufruhr sein.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:2491508556:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-713",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Ich den wollte Hasen nicht erschrecken.",
-    "answer": "Ich wollte den Hasen nicht erschrecken.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:1181306257:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-714",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Ich wollte den Hasen kein erschrecken.",
-    "answer": "Ich wollte den Hasen nicht erschrecken.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:negation-swap"
-      ],
-      "groupId": "ec:1181306257:negation-swap"
-    }
-  },
-  {
-    "id": "perf-ec-t2-715",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Du es brauchst nicht meinetwegen zu behalten.",
-    "answer": "Du brauchst es nicht meinetwegen zu behalten.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:1207022138:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-716",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Du brauchst es kein meinetwegen zu behalten.",
-    "answer": "Du brauchst es nicht meinetwegen zu behalten.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:negation-swap"
-      ],
-      "groupId": "ec:1207022138:negation-swap"
-    }
-  },
-  {
-    "id": "perf-ec-t2-717",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Die fiel Temperatur letzte Nacht auf minus zehn Grad Celsius.",
-    "answer": "Die Temperatur fiel letzte Nacht auf minus zehn Grad Celsius.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:2154519039:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-718",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Ich die habe Kinder heimlich unterrichtet.",
-    "answer": "Ich habe die Kinder heimlich unterrichtet.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:3114881094:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-719",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Sie wollte ihm nicht fälschlich beschuldigen.",
-    "answer": "Sie wollte ihn nicht fälschlich beschuldigen.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:pronoun-case"
-      ],
-      "groupId": "ec:2991290889:pronoun-case"
-    }
-  },
-  {
-    "id": "perf-ec-t2-720",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Sie ihn wollte nicht fälschlich beschuldigen.",
-    "answer": "Sie wollte ihn nicht fälschlich beschuldigen.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:2991290889:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-721",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Sie wollte ihn kein fälschlich beschuldigen.",
-    "answer": "Sie wollte ihn nicht fälschlich beschuldigen.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:negation-swap"
-      ],
-      "groupId": "ec:2991290889:negation-swap"
-    }
-  },
-  {
-    "id": "perf-ec-t2-722",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Der Taxifahrer tote war kein Zigeuner.",
-    "answer": "Der tote Taxifahrer war kein Zigeuner.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:3367583432:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-723",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Der tote Taxifahrer war nicht Zigeuner.",
-    "answer": "Der tote Taxifahrer war kein Zigeuner.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:negation-swap"
-      ],
-      "groupId": "ec:3367583432:negation-swap"
-    }
-  },
-  {
-    "id": "perf-ec-t2-724",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Hätten nicht Sie auch eine billigere Ausgabe?",
-    "answer": "Hätten Sie nicht auch eine billigere Ausgabe?",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:2026852039:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-725",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Hätten Sie kein auch eine billigere Ausgabe?",
-    "answer": "Hätten Sie nicht auch eine billigere Ausgabe?",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:negation-swap"
-      ],
-      "groupId": "ec:2026852039:negation-swap"
-    }
-  },
-  {
-    "id": "perf-ec-t2-726",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Ich auch bin kein Prinz.",
-    "answer": "Ich bin auch kein Prinz.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:1313825777:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-727",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Ich bin auch nicht Prinz.",
-    "answer": "Ich bin auch kein Prinz.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:negation-swap"
-      ],
-      "groupId": "ec:1313825777:negation-swap"
-    }
-  },
-  {
-    "id": "perf-ec-t2-728",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Ansonsten jemand wird für diesen Fehlschlag büßen müssen.",
-    "answer": "Ansonsten wird jemand für diesen Fehlschlag büßen müssen.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:3833599522:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-729",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Wo Gabeln sind und Löffel?",
-    "answer": "Wo sind Gabeln und Löffel?",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:3565531865:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-730",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "John machte mich ein Angebot, dass ich nicht ablehnen konnte.",
-    "answer": "John machte mir ein Angebot, dass ich nicht ablehnen konnte.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:pronoun-case"
-      ],
-      "groupId": "ec:3704280355:pronoun-case"
-    }
-  },
-  {
-    "id": "perf-ec-t2-731",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "John mir machte ein Angebot, dass ich nicht ablehnen konnte.",
-    "answer": "John machte mir ein Angebot, dass ich nicht ablehnen konnte.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:3704280355:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-732",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "John machte mir ein Angebot, während ich nicht ablehnen konnte.",
-    "answer": "John machte mir ein Angebot, dass ich nicht ablehnen konnte.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:connector-swap"
-      ],
-      "groupId": "ec:3704280355:connector-swap"
-    }
-  },
-  {
-    "id": "perf-ec-t2-733",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "John machte mir ein Angebot, dass ich kein ablehnen konnte.",
-    "answer": "John machte mir ein Angebot, dass ich nicht ablehnen konnte.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:negation-swap"
-      ],
-      "groupId": "ec:3704280355:negation-swap"
-    }
-  },
-  {
-    "id": "perf-ec-t2-734",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Du jetzt bist richtig besoffen.",
-    "answer": "Du bist jetzt richtig besoffen.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:2792468709:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-735",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Er Ihnen zeigt die aktuelle Position der Seite in Bezug zur Startseite an.",
-    "answer": "Er zeigt Ihnen die aktuelle Position der Seite in Bezug zur Startseite an.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:3343479002:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-736",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Ich Ihren habe Einspruch abgelehnt.",
-    "answer": "Ich habe Ihren Einspruch abgelehnt.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:3473303604:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-737",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Wir jetzt sind nicht aktiv.",
-    "answer": "Wir sind jetzt nicht aktiv.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:4142735711:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-738",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Wir sind jetzt kein aktiv.",
-    "answer": "Wir sind jetzt nicht aktiv.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:negation-swap"
-      ],
-      "groupId": "ec:4142735711:negation-swap"
-    }
-  },
-  {
-    "id": "perf-ec-t2-739",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Seit haben vorgestern sie andauernd bei uns angerufen.",
-    "answer": "Seit vorgestern haben sie andauernd bei uns angerufen.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:2238473215:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-740",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Sämtliche pfiffen Jungen und jubelten.",
-    "answer": "Sämtliche Jungen pfiffen und jubelten.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:3555477743:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-741",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Das eines Gehalt Lehrers ist niedriger als das eines Rechtsanwalts.",
-    "answer": "Das Gehalt eines Lehrers ist niedriger als das eines Rechtsanwalts.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:1708467847:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-742",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Das Gehalt eines Lehrers ist niedriger falls das eines Rechtsanwalts.",
-    "answer": "Das Gehalt eines Lehrers ist niedriger als das eines Rechtsanwalts.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:connector-swap"
-      ],
-      "groupId": "ec:1708467847:connector-swap"
-    }
-  },
-  {
-    "id": "perf-ec-t2-743",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Andere können Aktionen jedoch einen kontinuierlichen Wert erzeugen.",
-    "answer": "Andere Aktionen können jedoch einen kontinuierlichen Wert erzeugen.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:2260420057:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-744",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Delegierte vielen aus Ländern nahmen an der Konferenz teil.",
-    "answer": "Delegierte aus vielen Ländern nahmen an der Konferenz teil.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:3687159357:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-745",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Im der Laufe Tage kam unsere Kampagne immer mehr in Schwung.",
-    "answer": "Im Laufe der Tage kam unsere Kampagne immer mehr in Schwung.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:599222147:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-746",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Die fängt Baseball-Saison bald an.",
-    "answer": "Die Baseball-Saison fängt bald an.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:2042075606:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-747",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Ganz spricht Paris von Ihrem Salon.",
-    "answer": "Ganz Paris spricht von Ihrem Salon.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:1164993296:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-748",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Ich an kann der nächsten Ausfahrt wenden.",
-    "answer": "Ich kann an der nächsten Ausfahrt wenden.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:3484554619:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-749",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Der ließ Trainer uns drei zusätzliche Runden laufen.",
-    "answer": "Der Trainer ließ uns drei zusätzliche Runden laufen.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:3149328296:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-750",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Die werden Berichte gesammelt und in Zukunft verfügbar gemacht.",
-    "answer": "Die Berichte werden gesammelt und in Zukunft verfügbar gemacht.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:3184779018:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-751",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Wann du hast dieses Video gekauft?",
-    "answer": "Wann hast du dieses Video gekauft?",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:2603975756:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-752",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Wir die benötigen Flugaufzeichnungen, geschäftlich und privat.",
-    "answer": "Wir benötigen die Flugaufzeichnungen, geschäftlich und privat.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:1063133802:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-753",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Meine Quellen sagen mich, dass die Russen etwas planen.",
-    "answer": "Meine Quellen sagen mir, dass die Russen etwas planen.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:pronoun-case"
-      ],
-      "groupId": "ec:4037874966:pronoun-case"
-    }
-  },
-  {
-    "id": "perf-ec-t2-754",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Meine sagen Quellen mir, dass die Russen etwas planen.",
-    "answer": "Meine Quellen sagen mir, dass die Russen etwas planen.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:4037874966:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-755",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Meine Quellen sagen mir, bevor die Russen etwas planen.",
-    "answer": "Meine Quellen sagen mir, dass die Russen etwas planen.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:connector-swap"
-      ],
-      "groupId": "ec:4037874966:connector-swap"
-    }
-  },
-  {
-    "id": "perf-ec-t2-756",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Er ziemlich ist groß für einen Zwerg.",
-    "answer": "Er ist ziemlich groß für einen Zwerg.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:1803381866:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-757",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "In ereignet Libyen sich gegenwärtig eine zweifache Tragödie.",
-    "answer": "In Libyen ereignet sich gegenwärtig eine zweifache Tragödie.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:2642020475:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-758",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Ich nur muss ganz schlimm pinkeln.",
-    "answer": "Ich muss nur ganz schlimm pinkeln.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:3551575760:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-759",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Irgendwas merkwürdig ist an diesem Mann.",
-    "answer": "Irgendwas ist merkwürdig an diesem Mann.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:1385969573:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-760",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Du heute bist ungewöhnlich still.",
-    "answer": "Du bist heute ungewöhnlich still.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:229782317:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-761",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Glücklicherweise ich benötige deine Zustimmung nicht.",
-    "answer": "Glücklicherweise benötige ich deine Zustimmung nicht.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:110847928:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-762",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Glücklicherweise benötige ich deine Zustimmung kein.",
-    "answer": "Glücklicherweise benötige ich deine Zustimmung nicht.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:negation-swap"
-      ],
-      "groupId": "ec:110847928:negation-swap"
-    }
-  },
-  {
-    "id": "perf-ec-t2-763",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Hausaufgaben machen, zu ist extrem langweilig.",
-    "answer": "Hausaufgaben zu machen, ist extrem langweilig.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:4262604298:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-764",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Vor paar ein Jahren habe ich meiner Stiefmutter zum Muttertag einen Anhänger geschenkt.",
-    "answer": "Vor ein paar Jahren habe ich meiner Stiefmutter zum Muttertag einen Anhänger geschenkt.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:1809614101:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-765",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Letztendlich wir sind uns doch bei etwas einig.",
-    "answer": "Letztendlich sind wir uns doch bei etwas einig.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:1547708463:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-766",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Ich nicht bin ausgerüstet für das Gelände.",
-    "answer": "Ich bin nicht ausgerüstet für das Gelände.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:3493869078:v2-word-order"
-    }
-  },
-  {
-    "id": "perf-ec-t2-767",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Ich bin kein ausgerüstet für das Gelände.",
-    "answer": "Ich bin nicht ausgerüstet für das Gelände.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:negation-swap"
-      ],
-      "groupId": "ec:3493869078:negation-swap"
-    }
-  },
-  {
-    "id": "perf-ec-t2-768",
-    "engine": "fixit",
-    "prompt": "Correct the error in this sentence:",
-    "stimulus": "Ich wirklich würde gern selbst zaubern.",
-    "answer": "Ich würde wirklich gern selbst zaubern.",
-    "metadata": {
-      "cefr": "B1",
-      "system": "performance",
-      "module": "error-clinic",
-      "tier": 2,
-      "tags": [
-        "fixit",
-        "mutator:v2-word-order"
-      ],
-      "groupId": "ec:3010459776:v2-word-order"
-    }
-  }
+    id: "perf-ec-t2-001",
+    engine: "fixit",
+    prompt: "Correct the error in this sentence:",
+    stimulus: "Es war leicht, ihm hierher zu locken.",
+    answer: "Es war leicht, ihn hierher zu locken.",
+    metadata: {
+      cefr: "B1",
+      system: "performance",
+      module: "error-clinic",
+      tier: 2,
+      tags: ["fixit", "mutator:pronoun-case"],
+      groupId: "ec:2733389007:pronoun-case",
+    },
+    feedback: {
+      correct: "Found and fixed the error.",
+      common: {
+        "fixit:wrong":
+          "There is exactly one error in the sentence — re-read it clause by clause (pronoun case, verb position, negation) rather than rewriting the whole sentence.",
+      },
+    },
+  },
+  {
+    id: "perf-ec-t2-002",
+    engine: "fixit",
+    prompt: "Correct the error in this sentence:",
+    stimulus: "Sie werden es kein bedauern.",
+    answer: "Sie werden es nicht bedauern.",
+    metadata: {
+      cefr: "B1",
+      system: "performance",
+      module: "error-clinic",
+      tier: 2,
+      tags: ["fixit", "mutator:negation-swap"],
+      groupId: "ec:1797419463:negation-swap",
+    },
+    feedback: {
+      correct: "Found and fixed the error.",
+      common: {
+        "fixit:wrong":
+          "There is exactly one error in the sentence — re-read it clause by clause (pronoun case, verb position, negation) rather than rewriting the whole sentence.",
+      },
+    },
+  },
+  {
+    id: "perf-ec-t2-003",
+    engine: "fixit",
+    prompt: "Correct the error in this sentence:",
+    stimulus: "Unter dem Kühlschrank ist es kein.",
+    answer: "Unter dem Kühlschrank ist es nicht.",
+    metadata: {
+      cefr: "B1",
+      system: "performance",
+      module: "error-clinic",
+      tier: 2,
+      tags: ["fixit", "mutator:negation-swap"],
+      groupId: "ec:2089525278:negation-swap",
+    },
+    feedback: {
+      correct: "Found and fixed the error.",
+      common: {
+        "fixit:wrong":
+          "There is exactly one error in the sentence — re-read it clause by clause (pronoun case, verb position, negation) rather than rewriting the whole sentence.",
+      },
+    },
+  },
+  {
+    id: "perf-ec-t2-004",
+    engine: "fixit",
+    prompt: "Correct the error in this sentence:",
+    stimulus: "Augenscheinlich wollte sie dich etwas mitteilen.",
+    answer: "Augenscheinlich wollte sie dir etwas mitteilen.",
+    metadata: {
+      cefr: "B1",
+      system: "performance",
+      module: "error-clinic",
+      tier: 2,
+      tags: ["fixit", "mutator:pronoun-case"],
+      groupId: "ec:691995793:pronoun-case",
+    },
+    feedback: {
+      correct: "Found and fixed the error.",
+      common: {
+        "fixit:wrong":
+          "There is exactly one error in the sentence — re-read it clause by clause (pronoun case, verb position, negation) rather than rewriting the whole sentence.",
+      },
+    },
+  },
+  {
+    id: "perf-ec-t2-005",
+    engine: "fixit",
+    prompt: "Correct the error in this sentence:",
+    stimulus: "Glaub mich, es ist unerträglich.",
+    answer: "Glaub mir, es ist unerträglich.",
+    metadata: {
+      cefr: "B1",
+      system: "performance",
+      module: "error-clinic",
+      tier: 2,
+      tags: ["fixit", "mutator:pronoun-case"],
+      groupId: "ec:546661575:pronoun-case",
+    },
+    feedback: {
+      correct: "Found and fixed the error.",
+      common: {
+        "fixit:wrong":
+          "There is exactly one error in the sentence — re-read it clause by clause (pronoun case, verb position, negation) rather than rewriting the whole sentence.",
+      },
+    },
+  },
+  {
+    id: "perf-ec-t2-006",
+    engine: "fixit",
+    prompt: "Correct the error in this sentence:",
+    stimulus: "Aber man kann nicht Spion großziehen.",
+    answer: "Aber man kann keinen Spion großziehen.",
+    metadata: {
+      cefr: "B1",
+      system: "performance",
+      module: "error-clinic",
+      tier: 2,
+      tags: ["fixit", "mutator:negation-swap"],
+      groupId: "ec:4113309578:negation-swap",
+    },
+    feedback: {
+      correct: "Found and fixed the error.",
+      common: {
+        "fixit:wrong":
+          "There is exactly one error in the sentence — re-read it clause by clause (pronoun case, verb position, negation) rather than rewriting the whole sentence.",
+      },
+    },
+  },
+  {
+    id: "perf-ec-t2-007",
+    engine: "fixit",
+    prompt: "Correct the error in this sentence:",
+    stimulus:
+      "Selbst kleine Kinder haben einen angeborenen Sinn dafür, was gerecht und was kein gerecht ist.",
+    answer:
+      "Selbst kleine Kinder haben einen angeborenen Sinn dafür, was gerecht und was nicht gerecht ist.",
+    metadata: {
+      cefr: "B1",
+      system: "performance",
+      module: "error-clinic",
+      tier: 2,
+      tags: ["fixit", "mutator:negation-swap"],
+      groupId: "ec:1654544814:negation-swap",
+    },
+    feedback: {
+      correct: "Found and fixed the error.",
+      common: {
+        "fixit:wrong":
+          "There is exactly one error in the sentence — re-read it clause by clause (pronoun case, verb position, negation) rather than rewriting the whole sentence.",
+      },
+    },
+  },
+  {
+    id: "perf-ec-t2-008",
+    engine: "fixit",
+    prompt: "Correct the error in this sentence:",
+    stimulus: "Ich weiß, wie unangenehm dich das ist.",
+    answer: "Ich weiß, wie unangenehm dir das ist.",
+    metadata: {
+      cefr: "B1",
+      system: "performance",
+      module: "error-clinic",
+      tier: 2,
+      tags: ["fixit", "mutator:pronoun-case"],
+      groupId: "ec:2724012537:pronoun-case",
+    },
+    feedback: {
+      correct: "Found and fixed the error.",
+      common: {
+        "fixit:wrong":
+          "There is exactly one error in the sentence — re-read it clause by clause (pronoun case, verb position, negation) rather than rewriting the whole sentence.",
+      },
+    },
+  },
+  {
+    id: "perf-ec-t2-009",
+    engine: "fixit",
+    prompt: "Correct the error in this sentence:",
+    stimulus: "Es lohnt sich kein zu jammern.",
+    answer: "Es lohnt sich nicht zu jammern.",
+    metadata: {
+      cefr: "B1",
+      system: "performance",
+      module: "error-clinic",
+      tier: 2,
+      tags: ["fixit", "mutator:negation-swap"],
+      groupId: "ec:3957951116:negation-swap",
+    },
+    feedback: {
+      correct: "Found and fixed the error.",
+      common: {
+        "fixit:wrong":
+          "There is exactly one error in the sentence — re-read it clause by clause (pronoun case, verb position, negation) rather than rewriting the whole sentence.",
+      },
+    },
+  },
+  {
+    id: "perf-ec-t2-010",
+    engine: "fixit",
+    prompt: "Correct the error in this sentence:",
+    stimulus: "Ich konnte den Gestank kein ertragen.",
+    answer: "Ich konnte den Gestank nicht ertragen.",
+    metadata: {
+      cefr: "B1",
+      system: "performance",
+      module: "error-clinic",
+      tier: 2,
+      tags: ["fixit", "mutator:negation-swap"],
+      groupId: "ec:3025974306:negation-swap",
+    },
+    feedback: {
+      correct: "Found and fixed the error.",
+      common: {
+        "fixit:wrong":
+          "There is exactly one error in the sentence — re-read it clause by clause (pronoun case, verb position, negation) rather than rewriting the whole sentence.",
+      },
+    },
+  },
+  {
+    id: "perf-ec-t2-011",
+    engine: "fixit",
+    prompt: "Correct the error in this sentence:",
+    stimulus: "Ich möchte sie kein mehr enttäuschen.",
+    answer: "Ich möchte sie nicht mehr enttäuschen.",
+    metadata: {
+      cefr: "B1",
+      system: "performance",
+      module: "error-clinic",
+      tier: 2,
+      tags: ["fixit", "mutator:negation-swap"],
+      groupId: "ec:4002574624:negation-swap",
+    },
+    feedback: {
+      correct: "Found and fixed the error.",
+      common: {
+        "fixit:wrong":
+          "There is exactly one error in the sentence — re-read it clause by clause (pronoun case, verb position, negation) rather than rewriting the whole sentence.",
+      },
+    },
+  },
+  {
+    id: "perf-ec-t2-012",
+    engine: "fixit",
+    prompt: "Correct the error in this sentence:",
+    stimulus: "Ich wollte kein in Ihre Privatsphäre eindringen.",
+    answer: "Ich wollte nicht in Ihre Privatsphäre eindringen.",
+    metadata: {
+      cefr: "B1",
+      system: "performance",
+      module: "error-clinic",
+      tier: 2,
+      tags: ["fixit", "mutator:negation-swap"],
+      groupId: "ec:9840090:negation-swap",
+    },
+    feedback: {
+      correct: "Found and fixed the error.",
+      common: {
+        "fixit:wrong":
+          "There is exactly one error in the sentence — re-read it clause by clause (pronoun case, verb position, negation) rather than rewriting the whole sentence.",
+      },
+    },
+  },
+  {
+    id: "perf-ec-t2-013",
+    engine: "fixit",
+    prompt: "Correct the error in this sentence:",
+    stimulus: "Hunde, die bellen, beißen kein.",
+    answer: "Hunde, die bellen, beißen nicht.",
+    metadata: {
+      cefr: "B1",
+      system: "performance",
+      module: "error-clinic",
+      tier: 2,
+      tags: ["fixit", "mutator:negation-swap"],
+      groupId: "ec:3499454915:negation-swap",
+    },
+    feedback: {
+      correct: "Found and fixed the error.",
+      common: {
+        "fixit:wrong":
+          "There is exactly one error in the sentence — re-read it clause by clause (pronoun case, verb position, negation) rather than rewriting the whole sentence.",
+      },
+    },
+  },
+  {
+    id: "perf-ec-t2-014",
+    engine: "fixit",
+    prompt: "Correct the error in this sentence:",
+    stimulus: "Du benimmst dir wie eine billige Hure.",
+    answer: "Du benimmst dich wie eine billige Hure.",
+    metadata: {
+      cefr: "B1",
+      system: "performance",
+      module: "error-clinic",
+      tier: 2,
+      tags: ["fixit", "mutator:pronoun-case"],
+      groupId: "ec:3875306625:pronoun-case",
+    },
+    feedback: {
+      correct: "Found and fixed the error.",
+      common: {
+        "fixit:wrong":
+          "There is exactly one error in the sentence — re-read it clause by clause (pronoun case, verb position, negation) rather than rewriting the whole sentence.",
+      },
+    },
+  },
+  {
+    id: "perf-ec-t2-015",
+    engine: "fixit",
+    prompt: "Correct the error in this sentence:",
+    stimulus: "Im Moment erscheint mich alles erbärmlich.",
+    answer: "Im Moment erscheint mir alles erbärmlich.",
+    metadata: {
+      cefr: "B1",
+      system: "performance",
+      module: "error-clinic",
+      tier: 2,
+      tags: ["fixit", "mutator:pronoun-case"],
+      groupId: "ec:4228191707:pronoun-case",
+    },
+    feedback: {
+      correct: "Found and fixed the error.",
+      common: {
+        "fixit:wrong":
+          "There is exactly one error in the sentence — re-read it clause by clause (pronoun case, verb position, negation) rather than rewriting the whole sentence.",
+      },
+    },
+  },
+  {
+    id: "perf-ec-t2-016",
+    engine: "fixit",
+    prompt: "Correct the error in this sentence:",
+    stimulus: "Diese Katzenart hat nicht Schwanz.",
+    answer: "Diese Katzenart hat keinen Schwanz.",
+    metadata: {
+      cefr: "B1",
+      system: "performance",
+      module: "error-clinic",
+      tier: 2,
+      tags: ["fixit", "mutator:negation-swap"],
+      groupId: "ec:1082236060:negation-swap",
+    },
+    feedback: {
+      correct: "Found and fixed the error.",
+      common: {
+        "fixit:wrong":
+          "There is exactly one error in the sentence — re-read it clause by clause (pronoun case, verb position, negation) rather than rewriting the whole sentence.",
+      },
+    },
+  },
+  {
+    id: "perf-ec-t2-017",
+    engine: "fixit",
+    prompt: "Correct the error in this sentence:",
+    stimulus: "Sie wissen, das kann kein gelingen.",
+    answer: "Sie wissen, das kann nicht gelingen.",
+    metadata: {
+      cefr: "B1",
+      system: "performance",
+      module: "error-clinic",
+      tier: 2,
+      tags: ["fixit", "mutator:negation-swap"],
+      groupId: "ec:3489587760:negation-swap",
+    },
+    feedback: {
+      correct: "Found and fixed the error.",
+      common: {
+        "fixit:wrong":
+          "There is exactly one error in the sentence — re-read it clause by clause (pronoun case, verb position, negation) rather than rewriting the whole sentence.",
+      },
+    },
+  },
+  {
+    id: "perf-ec-t2-018",
+    engine: "fixit",
+    prompt: "Correct the error in this sentence:",
+    stimulus: "Wenn wir kein mitspielen, wird er uns ganz sicher töten.",
+    answer: "Wenn wir nicht mitspielen, wird er uns ganz sicher töten.",
+    metadata: {
+      cefr: "B1",
+      system: "performance",
+      module: "error-clinic",
+      tier: 2,
+      tags: ["fixit", "mutator:negation-swap"],
+      groupId: "ec:3458414203:negation-swap",
+    },
+    feedback: {
+      correct: "Found and fixed the error.",
+      common: {
+        "fixit:wrong":
+          "There is exactly one error in the sentence — re-read it clause by clause (pronoun case, verb position, negation) rather than rewriting the whole sentence.",
+      },
+    },
+  },
+  {
+    id: "perf-ec-t2-019",
+    engine: "fixit",
+    prompt: "Correct the error in this sentence:",
+    stimulus: "Zuerst Stromkabel alle vom Ausgang abziehen.",
+    answer: "Zuerst alle Stromkabel vom Ausgang abziehen.",
+    metadata: {
+      cefr: "B1",
+      system: "performance",
+      module: "error-clinic",
+      tier: 2,
+      tags: ["fixit", "mutator:v2-word-order"],
+      groupId: "ec:444025584:v2-word-order",
+    },
+    feedback: {
+      correct: "Found and fixed the error.",
+      common: {
+        "fixit:wrong":
+          "There is exactly one error in the sentence — re-read it clause by clause (pronoun case, verb position, negation) rather than rewriting the whole sentence.",
+      },
+    },
+  },
+  {
+    id: "perf-ec-t2-020",
+    engine: "fixit",
+    prompt: "Correct the error in this sentence:",
+    stimulus: "Du bekommst nicht Geld, Schwachkopf.",
+    answer: "Du bekommst kein Geld, Schwachkopf.",
+    metadata: {
+      cefr: "B1",
+      system: "performance",
+      module: "error-clinic",
+      tier: 2,
+      tags: ["fixit", "mutator:negation-swap"],
+      groupId: "ec:3137380018:negation-swap",
+    },
+    feedback: {
+      correct: "Found and fixed the error.",
+      common: {
+        "fixit:wrong":
+          "There is exactly one error in the sentence — re-read it clause by clause (pronoun case, verb position, negation) rather than rewriting the whole sentence.",
+      },
+    },
+  },
+  {
+    id: "perf-ec-t2-021",
+    engine: "fixit",
+    prompt: "Correct the error in this sentence:",
+    stimulus: "Aber das Heil wird kein aus Brüssel kommen.",
+    answer: "Aber das Heil wird nicht aus Brüssel kommen.",
+    metadata: {
+      cefr: "B1",
+      system: "performance",
+      module: "error-clinic",
+      tier: 2,
+      tags: ["fixit", "mutator:negation-swap"],
+      groupId: "ec:3297928240:negation-swap",
+    },
+    feedback: {
+      correct: "Found and fixed the error.",
+      common: {
+        "fixit:wrong":
+          "There is exactly one error in the sentence — re-read it clause by clause (pronoun case, verb position, negation) rather than rewriting the whole sentence.",
+      },
+    },
+  },
+  {
+    id: "perf-ec-t2-022",
+    engine: "fixit",
+    prompt: "Correct the error in this sentence:",
+    stimulus: "Sie respektiert kein meine Autorität.",
+    answer: "Sie respektiert nicht meine Autorität.",
+    metadata: {
+      cefr: "B1",
+      system: "performance",
+      module: "error-clinic",
+      tier: 2,
+      tags: ["fixit", "mutator:negation-swap"],
+      groupId: "ec:1651446854:negation-swap",
+    },
+    feedback: {
+      correct: "Found and fixed the error.",
+      common: {
+        "fixit:wrong":
+          "There is exactly one error in the sentence — re-read it clause by clause (pronoun case, verb position, negation) rather than rewriting the whole sentence.",
+      },
+    },
+  },
+  {
+    id: "perf-ec-t2-023",
+    engine: "fixit",
+    prompt: "Correct the error in this sentence:",
+    stimulus: "Dein Freund informiert dir über die Einzelheiten.",
+    answer: "Dein Freund informiert dich über die Einzelheiten.",
+    metadata: {
+      cefr: "B1",
+      system: "performance",
+      module: "error-clinic",
+      tier: 2,
+      tags: ["fixit", "mutator:pronoun-case"],
+      groupId: "ec:3275988257:pronoun-case",
+    },
+    feedback: {
+      correct: "Found and fixed the error.",
+      common: {
+        "fixit:wrong":
+          "There is exactly one error in the sentence — re-read it clause by clause (pronoun case, verb position, negation) rather than rewriting the whole sentence.",
+      },
+    },
+  },
+  {
+    id: "perf-ec-t2-024",
+    engine: "fixit",
+    prompt: "Correct the error in this sentence:",
+    stimulus: "Nein, wir sind kein verwandt.",
+    answer: "Nein, wir sind nicht verwandt.",
+    metadata: {
+      cefr: "B1",
+      system: "performance",
+      module: "error-clinic",
+      tier: 2,
+      tags: ["fixit", "mutator:negation-swap"],
+      groupId: "ec:867519602:negation-swap",
+    },
+    feedback: {
+      correct: "Found and fixed the error.",
+      common: {
+        "fixit:wrong":
+          "There is exactly one error in the sentence — re-read it clause by clause (pronoun case, verb position, negation) rather than rewriting the whole sentence.",
+      },
+    },
+  },
+  {
+    id: "perf-ec-t2-025",
+    engine: "fixit",
+    prompt: "Correct the error in this sentence:",
+    stimulus: "Ich wollte kein so grob sein.",
+    answer: "Ich wollte nicht so grob sein.",
+    metadata: {
+      cefr: "B1",
+      system: "performance",
+      module: "error-clinic",
+      tier: 2,
+      tags: ["fixit", "mutator:negation-swap"],
+      groupId: "ec:3454800521:negation-swap",
+    },
+    feedback: {
+      correct: "Found and fixed the error.",
+      common: {
+        "fixit:wrong":
+          "There is exactly one error in the sentence — re-read it clause by clause (pronoun case, verb position, negation) rather than rewriting the whole sentence.",
+      },
+    },
+  },
+  {
+    id: "perf-ec-t2-026",
+    engine: "fixit",
+    prompt: "Correct the error in this sentence:",
+    stimulus: "Es ist kein notwendig, emotional zu werden.",
+    answer: "Es ist nicht notwendig, emotional zu werden.",
+    metadata: {
+      cefr: "B1",
+      system: "performance",
+      module: "error-clinic",
+      tier: 2,
+      tags: ["fixit", "mutator:negation-swap"],
+      groupId: "ec:1415901622:negation-swap",
+    },
+    feedback: {
+      correct: "Found and fixed the error.",
+      common: {
+        "fixit:wrong":
+          "There is exactly one error in the sentence — re-read it clause by clause (pronoun case, verb position, negation) rather than rewriting the whole sentence.",
+      },
+    },
+  },
+  {
+    id: "perf-ec-t2-027",
+    engine: "fixit",
+    prompt: "Correct the error in this sentence:",
+    stimulus: "Ich verstecke mir inmitten einer Parade.",
+    answer: "Ich verstecke mich inmitten einer Parade.",
+    metadata: {
+      cefr: "B1",
+      system: "performance",
+      module: "error-clinic",
+      tier: 2,
+      tags: ["fixit", "mutator:pronoun-case"],
+      groupId: "ec:1401411674:pronoun-case",
+    },
+    feedback: {
+      correct: "Found and fixed the error.",
+      common: {
+        "fixit:wrong":
+          "There is exactly one error in the sentence — re-read it clause by clause (pronoun case, verb position, negation) rather than rewriting the whole sentence.",
+      },
+    },
+  },
+  {
+    id: "perf-ec-t2-028",
+    engine: "fixit",
+    prompt: "Correct the error in this sentence:",
+    stimulus: "Gib mich deinen Teller, John.",
+    answer: "Gib mir deinen Teller, John.",
+    metadata: {
+      cefr: "B1",
+      system: "performance",
+      module: "error-clinic",
+      tier: 2,
+      tags: ["fixit", "mutator:pronoun-case"],
+      groupId: "ec:3587574073:pronoun-case",
+    },
+    feedback: {
+      correct: "Found and fixed the error.",
+      common: {
+        "fixit:wrong":
+          "There is exactly one error in the sentence — re-read it clause by clause (pronoun case, verb position, negation) rather than rewriting the whole sentence.",
+      },
+    },
+  },
+  {
+    id: "perf-ec-t2-029",
+    engine: "fixit",
+    prompt: "Correct the error in this sentence:",
+    stimulus:
+      "Danach Workstation die ausschalten und den Transmitter anschließen.",
+    answer:
+      "Danach die Workstation ausschalten und den Transmitter anschließen.",
+    metadata: {
+      cefr: "B1",
+      system: "performance",
+      module: "error-clinic",
+      tier: 2,
+      tags: ["fixit", "mutator:v2-word-order"],
+      groupId: "ec:522633962:v2-word-order",
+    },
+    feedback: {
+      correct: "Found and fixed the error.",
+      common: {
+        "fixit:wrong":
+          "There is exactly one error in the sentence — re-read it clause by clause (pronoun case, verb position, negation) rather than rewriting the whole sentence.",
+      },
+    },
+  },
+  {
+    id: "perf-ec-t2-030",
+    engine: "fixit",
+    prompt: "Correct the error in this sentence:",
+    stimulus: "Wir haben ihm gemäß der Regel bestraft.",
+    answer: "Wir haben ihn gemäß der Regel bestraft.",
+    metadata: {
+      cefr: "B1",
+      system: "performance",
+      module: "error-clinic",
+      tier: 2,
+      tags: ["fixit", "mutator:pronoun-case"],
+      groupId: "ec:422162795:pronoun-case",
+    },
+    feedback: {
+      correct: "Found and fixed the error.",
+      common: {
+        "fixit:wrong":
+          "There is exactly one error in the sentence — re-read it clause by clause (pronoun case, verb position, negation) rather than rewriting the whole sentence.",
+      },
+    },
+  },
+  {
+    id: "perf-ec-t2-031",
+    engine: "fixit",
+    prompt: "Correct the error in this sentence:",
+    stimulus: "Sie hält Schweigen für Tapferkeit, kein Dummheit.",
+    answer: "Sie hält Schweigen für Tapferkeit, nicht Dummheit.",
+    metadata: {
+      cefr: "B1",
+      system: "performance",
+      module: "error-clinic",
+      tier: 2,
+      tags: ["fixit", "mutator:negation-swap"],
+      groupId: "ec:3489200425:negation-swap",
+    },
+    feedback: {
+      correct: "Found and fixed the error.",
+      common: {
+        "fixit:wrong":
+          "There is exactly one error in the sentence — re-read it clause by clause (pronoun case, verb position, negation) rather than rewriting the whole sentence.",
+      },
+    },
+  },
+  {
+    id: "perf-ec-t2-032",
+    engine: "fixit",
+    prompt: "Correct the error in this sentence:",
+    stimulus:
+      "John, ich hatte dir gebeten, nicht diese nervige Melodie zu pfeifen.",
+    answer:
+      "John, ich hatte dich gebeten, nicht diese nervige Melodie zu pfeifen.",
+    metadata: {
+      cefr: "B1",
+      system: "performance",
+      module: "error-clinic",
+      tier: 2,
+      tags: ["fixit", "mutator:pronoun-case"],
+      groupId: "ec:1055738799:pronoun-case",
+    },
+    feedback: {
+      correct: "Found and fixed the error.",
+      common: {
+        "fixit:wrong":
+          "There is exactly one error in the sentence — re-read it clause by clause (pronoun case, verb position, negation) rather than rewriting the whole sentence.",
+      },
+    },
+  },
+  {
+    id: "perf-ec-t2-033",
+    engine: "fixit",
+    prompt: "Correct the error in this sentence:",
+    stimulus:
+      "John, ich hatte dich gebeten, kein diese nervige Melodie zu pfeifen.",
+    answer:
+      "John, ich hatte dich gebeten, nicht diese nervige Melodie zu pfeifen.",
+    metadata: {
+      cefr: "B1",
+      system: "performance",
+      module: "error-clinic",
+      tier: 2,
+      tags: ["fixit", "mutator:negation-swap"],
+      groupId: "ec:1055738799:negation-swap",
+    },
+    feedback: {
+      correct: "Found and fixed the error.",
+      common: {
+        "fixit:wrong":
+          "There is exactly one error in the sentence — re-read it clause by clause (pronoun case, verb position, negation) rather than rewriting the whole sentence.",
+      },
+    },
+  },
+  {
+    id: "perf-ec-t2-034",
+    engine: "fixit",
+    prompt: "Correct the error in this sentence:",
+    stimulus:
+      "Bitte lass es mir bis Mittwoch wissen, wenn du nicht teilnehmen kannst.",
+    answer:
+      "Bitte lass es mich bis Mittwoch wissen, wenn du nicht teilnehmen kannst.",
+    metadata: {
+      cefr: "B1",
+      system: "performance",
+      module: "error-clinic",
+      tier: 2,
+      tags: ["fixit", "mutator:pronoun-case"],
+      groupId: "ec:428868412:pronoun-case",
+    },
+    feedback: {
+      correct: "Found and fixed the error.",
+      common: {
+        "fixit:wrong":
+          "There is exactly one error in the sentence — re-read it clause by clause (pronoun case, verb position, negation) rather than rewriting the whole sentence.",
+      },
+    },
+  },
+  {
+    id: "perf-ec-t2-035",
+    engine: "fixit",
+    prompt: "Correct the error in this sentence:",
+    stimulus:
+      "Bitte lass es mich bis Mittwoch wissen, wenn du kein teilnehmen kannst.",
+    answer:
+      "Bitte lass es mich bis Mittwoch wissen, wenn du nicht teilnehmen kannst.",
+    metadata: {
+      cefr: "B1",
+      system: "performance",
+      module: "error-clinic",
+      tier: 2,
+      tags: ["fixit", "mutator:negation-swap"],
+      groupId: "ec:428868412:negation-swap",
+    },
+    feedback: {
+      correct: "Found and fixed the error.",
+      common: {
+        "fixit:wrong":
+          "There is exactly one error in the sentence — re-read it clause by clause (pronoun case, verb position, negation) rather than rewriting the whole sentence.",
+      },
+    },
+  },
+  {
+    id: "perf-ec-t2-036",
+    engine: "fixit",
+    prompt: "Correct the error in this sentence:",
+    stimulus: "Ich spreche kein sehr gut Japanisch.",
+    answer: "Ich spreche nicht sehr gut Japanisch.",
+    metadata: {
+      cefr: "B1",
+      system: "performance",
+      module: "error-clinic",
+      tier: 2,
+      tags: ["fixit", "mutator:negation-swap"],
+      groupId: "ec:3729793176:negation-swap",
+    },
+    feedback: {
+      correct: "Found and fixed the error.",
+      common: {
+        "fixit:wrong":
+          "There is exactly one error in the sentence — re-read it clause by clause (pronoun case, verb position, negation) rather than rewriting the whole sentence.",
+      },
+    },
+  },
+  {
+    id: "perf-ec-t2-037",
+    engine: "fixit",
+    prompt: "Correct the error in this sentence:",
+    stimulus: "Du möchtest es bloß kein zugeben.",
+    answer: "Du möchtest es bloß nicht zugeben.",
+    metadata: {
+      cefr: "B1",
+      system: "performance",
+      module: "error-clinic",
+      tier: 2,
+      tags: ["fixit", "mutator:negation-swap"],
+      groupId: "ec:318285572:negation-swap",
+    },
+    feedback: {
+      correct: "Found and fixed the error.",
+      common: {
+        "fixit:wrong":
+          "There is exactly one error in the sentence — re-read it clause by clause (pronoun case, verb position, negation) rather than rewriting the whole sentence.",
+      },
+    },
+  },
+  {
+    id: "perf-ec-t2-038",
+    engine: "fixit",
+    prompt: "Correct the error in this sentence:",
+    stimulus: "Noch Dunkelheit vor werden die Kämpfe losgehen.",
+    answer: "Noch vor Dunkelheit werden die Kämpfe losgehen.",
+    metadata: {
+      cefr: "B1",
+      system: "performance",
+      module: "error-clinic",
+      tier: 2,
+      tags: ["fixit", "mutator:v2-word-order"],
+      groupId: "ec:2776271940:v2-word-order",
+    },
+    feedback: {
+      correct: "Found and fixed the error.",
+      common: {
+        "fixit:wrong":
+          "There is exactly one error in the sentence — re-read it clause by clause (pronoun case, verb position, negation) rather than rewriting the whole sentence.",
+      },
+    },
+  },
+  {
+    id: "perf-ec-t2-039",
+    engine: "fixit",
+    prompt: "Correct the error in this sentence:",
+    stimulus: "Schlechte Verlierer kann ich kein ausstehen.",
+    answer: "Schlechte Verlierer kann ich nicht ausstehen.",
+    metadata: {
+      cefr: "B1",
+      system: "performance",
+      module: "error-clinic",
+      tier: 2,
+      tags: ["fixit", "mutator:negation-swap"],
+      groupId: "ec:2519505134:negation-swap",
+    },
+    feedback: {
+      correct: "Found and fixed the error.",
+      common: {
+        "fixit:wrong":
+          "There is exactly one error in the sentence — re-read it clause by clause (pronoun case, verb position, negation) rather than rewriting the whole sentence.",
+      },
+    },
+  },
+  {
+    id: "perf-ec-t2-040",
+    engine: "fixit",
+    prompt: "Correct the error in this sentence:",
+    stimulus: "Deshalb man hat sich davor zu hüten.",
+    answer: "Deshalb hat man sich davor zu hüten.",
+    metadata: {
+      cefr: "B1",
+      system: "performance",
+      module: "error-clinic",
+      tier: 2,
+      tags: ["fixit", "mutator:v2-word-order"],
+      groupId: "ec:3661097742:v2-word-order",
+    },
+    feedback: {
+      correct: "Found and fixed the error.",
+      common: {
+        "fixit:wrong":
+          "There is exactly one error in the sentence — re-read it clause by clause (pronoun case, verb position, negation) rather than rewriting the whole sentence.",
+      },
+    },
+  },
+  {
+    id: "perf-ec-t2-041",
+    engine: "fixit",
+    prompt: "Correct the error in this sentence:",
+    stimulus: "Ich kann Spinnen kein leiden.",
+    answer: "Ich kann Spinnen nicht leiden.",
+    metadata: {
+      cefr: "B1",
+      system: "performance",
+      module: "error-clinic",
+      tier: 2,
+      tags: ["fixit", "mutator:negation-swap"],
+      groupId: "ec:7723665:negation-swap",
+    },
+    feedback: {
+      correct: "Found and fixed the error.",
+      common: {
+        "fixit:wrong":
+          "There is exactly one error in the sentence — re-read it clause by clause (pronoun case, verb position, negation) rather than rewriting the whole sentence.",
+      },
+    },
+  },
+  {
+    id: "perf-ec-t2-042",
+    engine: "fixit",
+    prompt: "Correct the error in this sentence:",
+    stimulus: "Das ist kein lila, sondern Lavendel.",
+    answer: "Das ist nicht lila, sondern Lavendel.",
+    metadata: {
+      cefr: "B1",
+      system: "performance",
+      module: "error-clinic",
+      tier: 2,
+      tags: ["fixit", "mutator:negation-swap"],
+      groupId: "ec:1330441881:negation-swap",
+    },
+    feedback: {
+      correct: "Found and fixed the error.",
+      common: {
+        "fixit:wrong":
+          "There is exactly one error in the sentence — re-read it clause by clause (pronoun case, verb position, negation) rather than rewriting the whole sentence.",
+      },
+    },
+  },
+  {
+    id: "perf-ec-t2-043",
+    engine: "fixit",
+    prompt: "Correct the error in this sentence:",
+    stimulus: "Du kannst kein da rausgehen.",
+    answer: "Du kannst nicht da rausgehen.",
+    metadata: {
+      cefr: "B1",
+      system: "performance",
+      module: "error-clinic",
+      tier: 2,
+      tags: ["fixit", "mutator:negation-swap"],
+      groupId: "ec:797431882:negation-swap",
+    },
+    feedback: {
+      correct: "Found and fixed the error.",
+      common: {
+        "fixit:wrong":
+          "There is exactly one error in the sentence — re-read it clause by clause (pronoun case, verb position, negation) rather than rewriting the whole sentence.",
+      },
+    },
+  },
+  {
+    id: "perf-ec-t2-044",
+    engine: "fixit",
+    prompt: "Correct the error in this sentence:",
+    stimulus: "Der Gewinner kämpft morgen gegen mir.",
+    answer: "Der Gewinner kämpft morgen gegen mich.",
+    metadata: {
+      cefr: "B1",
+      system: "performance",
+      module: "error-clinic",
+      tier: 2,
+      tags: ["fixit", "mutator:pronoun-case"],
+      groupId: "ec:3461410426:pronoun-case",
+    },
+    feedback: {
+      correct: "Found and fixed the error.",
+      common: {
+        "fixit:wrong":
+          "There is exactly one error in the sentence — re-read it clause by clause (pronoun case, verb position, negation) rather than rewriting the whole sentence.",
+      },
+    },
+  },
+  {
+    id: "perf-ec-t2-045",
+    engine: "fixit",
+    prompt: "Correct the error in this sentence:",
+    stimulus: "Ich schreibe dich eine Notiz zur Erinnerung.",
+    answer: "Ich schreibe dir eine Notiz zur Erinnerung.",
+    metadata: {
+      cefr: "B1",
+      system: "performance",
+      module: "error-clinic",
+      tier: 2,
+      tags: ["fixit", "mutator:pronoun-case"],
+      groupId: "ec:2638678362:pronoun-case",
+    },
+    feedback: {
+      correct: "Found and fixed the error.",
+      common: {
+        "fixit:wrong":
+          "There is exactly one error in the sentence — re-read it clause by clause (pronoun case, verb position, negation) rather than rewriting the whole sentence.",
+      },
+    },
+  },
+  {
+    id: "perf-ec-t2-046",
+    engine: "fixit",
+    prompt: "Correct the error in this sentence:",
+    stimulus: "Ich wollte kein allein reingehen.",
+    answer: "Ich wollte nicht allein reingehen.",
+    metadata: {
+      cefr: "B1",
+      system: "performance",
+      module: "error-clinic",
+      tier: 2,
+      tags: ["fixit", "mutator:negation-swap"],
+      groupId: "ec:881395806:negation-swap",
+    },
+    feedback: {
+      correct: "Found and fixed the error.",
+      common: {
+        "fixit:wrong":
+          "There is exactly one error in the sentence — re-read it clause by clause (pronoun case, verb position, negation) rather than rewriting the whole sentence.",
+      },
+    },
+  },
+  {
+    id: "perf-ec-t2-047",
+    engine: "fixit",
+    prompt: "Correct the error in this sentence:",
+    stimulus: "Du willst dir doch nicht verirren.",
+    answer: "Du willst dich doch nicht verirren.",
+    metadata: {
+      cefr: "B1",
+      system: "performance",
+      module: "error-clinic",
+      tier: 2,
+      tags: ["fixit", "mutator:pronoun-case"],
+      groupId: "ec:3981544034:pronoun-case",
+    },
+    feedback: {
+      correct: "Found and fixed the error.",
+      common: {
+        "fixit:wrong":
+          "There is exactly one error in the sentence — re-read it clause by clause (pronoun case, verb position, negation) rather than rewriting the whole sentence.",
+      },
+    },
+  },
+  {
+    id: "perf-ec-t2-048",
+    engine: "fixit",
+    prompt: "Correct the error in this sentence:",
+    stimulus: "Du willst dich doch kein verirren.",
+    answer: "Du willst dich doch nicht verirren.",
+    metadata: {
+      cefr: "B1",
+      system: "performance",
+      module: "error-clinic",
+      tier: 2,
+      tags: ["fixit", "mutator:negation-swap"],
+      groupId: "ec:3981544034:negation-swap",
+    },
+    feedback: {
+      correct: "Found and fixed the error.",
+      common: {
+        "fixit:wrong":
+          "There is exactly one error in the sentence — re-read it clause by clause (pronoun case, verb position, negation) rather than rewriting the whole sentence.",
+      },
+    },
+  },
+  {
+    id: "perf-ec-t2-049",
+    engine: "fixit",
+    prompt: "Correct the error in this sentence:",
+    stimulus: "Scheinbar habe ich ihm verärgert.",
+    answer: "Scheinbar habe ich ihn verärgert.",
+    metadata: {
+      cefr: "B1",
+      system: "performance",
+      module: "error-clinic",
+      tier: 2,
+      tags: ["fixit", "mutator:pronoun-case"],
+      groupId: "ec:2189936972:pronoun-case",
+    },
+    feedback: {
+      correct: "Found and fixed the error.",
+      common: {
+        "fixit:wrong":
+          "There is exactly one error in the sentence — re-read it clause by clause (pronoun case, verb position, negation) rather than rewriting the whole sentence.",
+      },
+    },
+  },
+  {
+    id: "perf-ec-t2-050",
+    engine: "fixit",
+    prompt: "Correct the error in this sentence:",
+    stimulus: "Dann ist es nicht Wunder, dass sie deine Ex ist.",
+    answer: "Dann ist es kein Wunder, dass sie deine Ex ist.",
+    metadata: {
+      cefr: "B1",
+      system: "performance",
+      module: "error-clinic",
+      tier: 2,
+      tags: ["fixit", "mutator:negation-swap"],
+      groupId: "ec:2706440506:negation-swap",
+    },
+    feedback: {
+      correct: "Found and fixed the error.",
+      common: {
+        "fixit:wrong":
+          "There is exactly one error in the sentence — re-read it clause by clause (pronoun case, verb position, negation) rather than rewriting the whole sentence.",
+      },
+    },
+  },
+  {
+    id: "perf-ec-t2-051",
+    engine: "fixit",
+    prompt: "Correct the error in this sentence:",
+    stimulus: "Wir können uns der Verzweiflung kein hingeben.",
+    answer: "Wir können uns der Verzweiflung nicht hingeben.",
+    metadata: {
+      cefr: "B1",
+      system: "performance",
+      module: "error-clinic",
+      tier: 2,
+      tags: ["fixit", "mutator:negation-swap"],
+      groupId: "ec:1347662284:negation-swap",
+    },
+    feedback: {
+      correct: "Found and fixed the error.",
+      common: {
+        "fixit:wrong":
+          "There is exactly one error in the sentence — re-read it clause by clause (pronoun case, verb position, negation) rather than rewriting the whole sentence.",
+      },
+    },
+  },
+  {
+    id: "perf-ec-t2-052",
+    engine: "fixit",
+    prompt: "Correct the error in this sentence:",
+    stimulus: "Ich wollte diese Konversation kein weiterführen.",
+    answer: "Ich wollte diese Konversation nicht weiterführen.",
+    metadata: {
+      cefr: "B1",
+      system: "performance",
+      module: "error-clinic",
+      tier: 2,
+      tags: ["fixit", "mutator:negation-swap"],
+      groupId: "ec:1114708788:negation-swap",
+    },
+    feedback: {
+      correct: "Found and fixed the error.",
+      common: {
+        "fixit:wrong":
+          "There is exactly one error in the sentence — re-read it clause by clause (pronoun case, verb position, negation) rather than rewriting the whole sentence.",
+      },
+    },
+  },
+  {
+    id: "perf-ec-t2-053",
+    engine: "fixit",
+    prompt: "Correct the error in this sentence:",
+    stimulus: "Bis Tod zum musst du tapfer bleiben.",
+    answer: "Bis zum Tod musst du tapfer bleiben.",
+    metadata: {
+      cefr: "B1",
+      system: "performance",
+      module: "error-clinic",
+      tier: 2,
+      tags: ["fixit", "mutator:v2-word-order"],
+      groupId: "ec:790090040:v2-word-order",
+    },
+    feedback: {
+      correct: "Found and fixed the error.",
+      common: {
+        "fixit:wrong":
+          "There is exactly one error in the sentence — re-read it clause by clause (pronoun case, verb position, negation) rather than rewriting the whole sentence.",
+      },
+    },
+  },
+  {
+    id: "perf-ec-t2-054",
+    engine: "fixit",
+    prompt: "Correct the error in this sentence:",
+    stimulus: "Du strafst nur dir selbst.",
+    answer: "Du strafst nur dich selbst.",
+    metadata: {
+      cefr: "B1",
+      system: "performance",
+      module: "error-clinic",
+      tier: 2,
+      tags: ["fixit", "mutator:pronoun-case"],
+      groupId: "ec:2328574971:pronoun-case",
+    },
+    feedback: {
+      correct: "Found and fixed the error.",
+      common: {
+        "fixit:wrong":
+          "There is exactly one error in the sentence — re-read it clause by clause (pronoun case, verb position, negation) rather than rewriting the whole sentence.",
+      },
+    },
+  },
+  {
+    id: "perf-ec-t2-055",
+    engine: "fixit",
+    prompt: "Correct the error in this sentence:",
+    stimulus: "Ich bin froh, dass ich dir amüsiere.",
+    answer: "Ich bin froh, dass ich dich amüsiere.",
+    metadata: {
+      cefr: "B1",
+      system: "performance",
+      module: "error-clinic",
+      tier: 2,
+      tags: ["fixit", "mutator:pronoun-case"],
+      groupId: "ec:3263222934:pronoun-case",
+    },
+    feedback: {
+      correct: "Found and fixed the error.",
+      common: {
+        "fixit:wrong":
+          "There is exactly one error in the sentence — re-read it clause by clause (pronoun case, verb position, negation) rather than rewriting the whole sentence.",
+      },
+    },
+  },
+  {
+    id: "perf-ec-t2-056",
+    engine: "fixit",
+    prompt: "Correct the error in this sentence:",
+    stimulus: "Selbst wenn sie dir umbringen, wird dein Name ewig weiterleben.",
+    answer: "Selbst wenn sie dich umbringen, wird dein Name ewig weiterleben.",
+    metadata: {
+      cefr: "B1",
+      system: "performance",
+      module: "error-clinic",
+      tier: 2,
+      tags: ["fixit", "mutator:pronoun-case"],
+      groupId: "ec:3449276865:pronoun-case",
+    },
+    feedback: {
+      correct: "Found and fixed the error.",
+      common: {
+        "fixit:wrong":
+          "There is exactly one error in the sentence — re-read it clause by clause (pronoun case, verb position, negation) rather than rewriting the whole sentence.",
+      },
+    },
+  },
+  {
+    id: "perf-ec-t2-057",
+    engine: "fixit",
+    prompt: "Correct the error in this sentence:",
+    stimulus: "Apropos, wir haben nicht alkoholischen Getränke mehr.",
+    answer: "Apropos, wir haben keine alkoholischen Getränke mehr.",
+    metadata: {
+      cefr: "B1",
+      system: "performance",
+      module: "error-clinic",
+      tier: 2,
+      tags: ["fixit", "mutator:negation-swap"],
+      groupId: "ec:1042106649:negation-swap",
+    },
+    feedback: {
+      correct: "Found and fixed the error.",
+      common: {
+        "fixit:wrong":
+          "There is exactly one error in the sentence — re-read it clause by clause (pronoun case, verb position, negation) rather than rewriting the whole sentence.",
+      },
+    },
+  },
+  {
+    id: "perf-ec-t2-058",
+    engine: "fixit",
+    prompt: "Correct the error in this sentence:",
+    stimulus: "Rasierst du dich die Beine?",
+    answer: "Rasierst du dir die Beine?",
+    metadata: {
+      cefr: "B1",
+      system: "performance",
+      module: "error-clinic",
+      tier: 2,
+      tags: ["fixit", "mutator:pronoun-case"],
+      groupId: "ec:2068780188:pronoun-case",
+    },
+    feedback: {
+      correct: "Found and fixed the error.",
+      common: {
+        "fixit:wrong":
+          "There is exactly one error in the sentence — re-read it clause by clause (pronoun case, verb position, negation) rather than rewriting the whole sentence.",
+      },
+    },
+  },
+  {
+    id: "perf-ec-t2-059",
+    engine: "fixit",
+    prompt: "Correct the error in this sentence:",
+    stimulus:
+      "Ich fühle mir nicht mehr sehr britisch, sondern immer schottischer.",
+    answer:
+      "Ich fühle mich nicht mehr sehr britisch, sondern immer schottischer.",
+    metadata: {
+      cefr: "B1",
+      system: "performance",
+      module: "error-clinic",
+      tier: 2,
+      tags: ["fixit", "mutator:pronoun-case"],
+      groupId: "ec:4273182439:pronoun-case",
+    },
+    feedback: {
+      correct: "Found and fixed the error.",
+      common: {
+        "fixit:wrong":
+          "There is exactly one error in the sentence — re-read it clause by clause (pronoun case, verb position, negation) rather than rewriting the whole sentence.",
+      },
+    },
+  },
+  {
+    id: "perf-ec-t2-060",
+    engine: "fixit",
+    prompt: "Correct the error in this sentence:",
+    stimulus:
+      "Ich fühle mich kein mehr sehr britisch, sondern immer schottischer.",
+    answer:
+      "Ich fühle mich nicht mehr sehr britisch, sondern immer schottischer.",
+    metadata: {
+      cefr: "B1",
+      system: "performance",
+      module: "error-clinic",
+      tier: 2,
+      tags: ["fixit", "mutator:negation-swap"],
+      groupId: "ec:4273182439:negation-swap",
+    },
+    feedback: {
+      correct: "Found and fixed the error.",
+      common: {
+        "fixit:wrong":
+          "There is exactly one error in the sentence — re-read it clause by clause (pronoun case, verb position, negation) rather than rewriting the whole sentence.",
+      },
+    },
+  },
+  {
+    id: "perf-ec-t2-061",
+    engine: "fixit",
+    prompt: "Correct the error in this sentence:",
+    stimulus: "Ich kann dich versichern, das ist ausgeschlossen.",
+    answer: "Ich kann dir versichern, das ist ausgeschlossen.",
+    metadata: {
+      cefr: "B1",
+      system: "performance",
+      module: "error-clinic",
+      tier: 2,
+      tags: ["fixit", "mutator:pronoun-case"],
+      groupId: "ec:1448436240:pronoun-case",
+    },
+    feedback: {
+      correct: "Found and fixed the error.",
+      common: {
+        "fixit:wrong":
+          "There is exactly one error in the sentence — re-read it clause by clause (pronoun case, verb position, negation) rather than rewriting the whole sentence.",
+      },
+    },
+  },
+  {
+    id: "perf-ec-t2-062",
+    engine: "fixit",
+    prompt: "Correct the error in this sentence:",
+    stimulus: "Ich mag diese Tradition kein mehr.",
+    answer: "Ich mag diese Tradition nicht mehr.",
+    metadata: {
+      cefr: "B1",
+      system: "performance",
+      module: "error-clinic",
+      tier: 2,
+      tags: ["fixit", "mutator:negation-swap"],
+      groupId: "ec:20475316:negation-swap",
+    },
+    feedback: {
+      correct: "Found and fixed the error.",
+      common: {
+        "fixit:wrong":
+          "There is exactly one error in the sentence — re-read it clause by clause (pronoun case, verb position, negation) rather than rewriting the whole sentence.",
+      },
+    },
+  },
+  {
+    id: "perf-ec-t2-063",
+    engine: "fixit",
+    prompt: "Correct the error in this sentence:",
+    stimulus: "Die sehen kein sehr russisch aus.",
+    answer: "Die sehen nicht sehr russisch aus.",
+    metadata: {
+      cefr: "B1",
+      system: "performance",
+      module: "error-clinic",
+      tier: 2,
+      tags: ["fixit", "mutator:negation-swap"],
+      groupId: "ec:2131156535:negation-swap",
+    },
+    feedback: {
+      correct: "Found and fixed the error.",
+      common: {
+        "fixit:wrong":
+          "There is exactly one error in the sentence — re-read it clause by clause (pronoun case, verb position, negation) rather than rewriting the whole sentence.",
+      },
+    },
+  },
+  {
+    id: "perf-ec-t2-064",
+    engine: "fixit",
+    prompt: "Correct the error in this sentence:",
+    stimulus: "Es war schwer für ihm, von seiner kleinen Rente zu leben.",
+    answer: "Es war schwer für ihn, von seiner kleinen Rente zu leben.",
+    metadata: {
+      cefr: "B1",
+      system: "performance",
+      module: "error-clinic",
+      tier: 2,
+      tags: ["fixit", "mutator:pronoun-case"],
+      groupId: "ec:763238198:pronoun-case",
+    },
+    feedback: {
+      correct: "Found and fixed the error.",
+      common: {
+        "fixit:wrong":
+          "There is exactly one error in the sentence — re-read it clause by clause (pronoun case, verb position, negation) rather than rewriting the whole sentence.",
+      },
+    },
+  },
+  {
+    id: "perf-ec-t2-065",
+    engine: "fixit",
+    prompt: "Correct the error in this sentence:",
+    stimulus: "Diese Aktivität ist kein gefährlich.",
+    answer: "Diese Aktivität ist nicht gefährlich.",
+    metadata: {
+      cefr: "B1",
+      system: "performance",
+      module: "error-clinic",
+      tier: 2,
+      tags: ["fixit", "mutator:negation-swap"],
+      groupId: "ec:3762640839:negation-swap",
+    },
+    feedback: {
+      correct: "Found and fixed the error.",
+      common: {
+        "fixit:wrong":
+          "There is exactly one error in the sentence — re-read it clause by clause (pronoun case, verb position, negation) rather than rewriting the whole sentence.",
+      },
+    },
+  },
+  {
+    id: "perf-ec-t2-066",
+    engine: "fixit",
+    prompt: "Correct the error in this sentence:",
+    stimulus: "Wir sollten kein noch mehr Zeit vergeuden.",
+    answer: "Wir sollten nicht noch mehr Zeit vergeuden.",
+    metadata: {
+      cefr: "B1",
+      system: "performance",
+      module: "error-clinic",
+      tier: 2,
+      tags: ["fixit", "mutator:negation-swap"],
+      groupId: "ec:3264673739:negation-swap",
+    },
+    feedback: {
+      correct: "Found and fixed the error.",
+      common: {
+        "fixit:wrong":
+          "There is exactly one error in the sentence — re-read it clause by clause (pronoun case, verb position, negation) rather than rewriting the whole sentence.",
+      },
+    },
+  },
+  {
+    id: "perf-ec-t2-067",
+    engine: "fixit",
+    prompt: "Correct the error in this sentence:",
+    stimulus:
+      "Und nicht Golf donnerstags, denn du musst Jane ins Ballett bringen.",
+    answer:
+      "Und kein Golf donnerstags, denn du musst Jane ins Ballett bringen.",
+    metadata: {
+      cefr: "B1",
+      system: "performance",
+      module: "error-clinic",
+      tier: 2,
+      tags: ["fixit", "mutator:negation-swap"],
+      groupId: "ec:2191981532:negation-swap",
+    },
+    feedback: {
+      correct: "Found and fixed the error.",
+      common: {
+        "fixit:wrong":
+          "There is exactly one error in the sentence — re-read it clause by clause (pronoun case, verb position, negation) rather than rewriting the whole sentence.",
+      },
+    },
+  },
+  {
+    id: "perf-ec-t2-068",
+    engine: "fixit",
+    prompt: "Correct the error in this sentence:",
+    stimulus: "Sie verweigern bestimmt nicht kostenlosen Whiskey.",
+    answer: "Sie verweigern bestimmt keinen kostenlosen Whiskey.",
+    metadata: {
+      cefr: "B1",
+      system: "performance",
+      module: "error-clinic",
+      tier: 2,
+      tags: ["fixit", "mutator:negation-swap"],
+      groupId: "ec:3650606506:negation-swap",
+    },
+    feedback: {
+      correct: "Found and fixed the error.",
+      common: {
+        "fixit:wrong":
+          "There is exactly one error in the sentence — re-read it clause by clause (pronoun case, verb position, negation) rather than rewriting the whole sentence.",
+      },
+    },
+  },
+  {
+    id: "perf-ec-t2-069",
+    engine: "fixit",
+    prompt: "Correct the error in this sentence:",
+    stimulus: "Ich kann Ihnen kein zustimmen.",
+    answer: "Ich kann Ihnen nicht zustimmen.",
+    metadata: {
+      cefr: "B1",
+      system: "performance",
+      module: "error-clinic",
+      tier: 2,
+      tags: ["fixit", "mutator:negation-swap"],
+      groupId: "ec:2324775849:negation-swap",
+    },
+    feedback: {
+      correct: "Found and fixed the error.",
+      common: {
+        "fixit:wrong":
+          "There is exactly one error in the sentence — re-read it clause by clause (pronoun case, verb position, negation) rather than rewriting the whole sentence.",
+      },
+    },
+  },
+  {
+    id: "perf-ec-t2-070",
+    engine: "fixit",
+    prompt: "Correct the error in this sentence:",
+    stimulus: "Die Couch war kein bequem.",
+    answer: "Die Couch war nicht bequem.",
+    metadata: {
+      cefr: "B1",
+      system: "performance",
+      module: "error-clinic",
+      tier: 2,
+      tags: ["fixit", "mutator:negation-swap"],
+      groupId: "ec:1958800666:negation-swap",
+    },
+    feedback: {
+      correct: "Found and fixed the error.",
+      common: {
+        "fixit:wrong":
+          "There is exactly one error in the sentence — re-read it clause by clause (pronoun case, verb position, negation) rather than rewriting the whole sentence.",
+      },
+    },
+  },
+  {
+    id: "perf-ec-t2-071",
+    engine: "fixit",
+    prompt: "Correct the error in this sentence:",
+    stimulus:
+      "Die medizinischen Fachkräfte erbringen eine soziale Dienstleistung und erzeugen nicht Profit.",
+    answer:
+      "Die medizinischen Fachkräfte erbringen eine soziale Dienstleistung und erzeugen keinen Profit.",
+    metadata: {
+      cefr: "B1",
+      system: "performance",
+      module: "error-clinic",
+      tier: 2,
+      tags: ["fixit", "mutator:negation-swap"],
+      groupId: "ec:731951055:negation-swap",
+    },
+    feedback: {
+      correct: "Found and fixed the error.",
+      common: {
+        "fixit:wrong":
+          "There is exactly one error in the sentence — re-read it clause by clause (pronoun case, verb position, negation) rather than rewriting the whole sentence.",
+      },
+    },
+  },
+  {
+    id: "perf-ec-t2-072",
+    engine: "fixit",
+    prompt: "Correct the error in this sentence:",
+    stimulus: "Du bist einfach nicht mütterliche Zuneigung gewohnt.",
+    answer: "Du bist einfach keine mütterliche Zuneigung gewohnt.",
+    metadata: {
+      cefr: "B1",
+      system: "performance",
+      module: "error-clinic",
+      tier: 2,
+      tags: ["fixit", "mutator:negation-swap"],
+      groupId: "ec:4051260387:negation-swap",
+    },
+    feedback: {
+      correct: "Found and fixed the error.",
+      common: {
+        "fixit:wrong":
+          "There is exactly one error in the sentence — re-read it clause by clause (pronoun case, verb position, negation) rather than rewriting the whole sentence.",
+      },
+    },
+  },
+  {
+    id: "perf-ec-t2-073",
+    engine: "fixit",
+    prompt: "Correct the error in this sentence:",
+    stimulus: "Man vergisst so einen Verrat kein.",
+    answer: "Man vergisst so einen Verrat nicht.",
+    metadata: {
+      cefr: "B1",
+      system: "performance",
+      module: "error-clinic",
+      tier: 2,
+      tags: ["fixit", "mutator:negation-swap"],
+      groupId: "ec:1184985557:negation-swap",
+    },
+    feedback: {
+      correct: "Found and fixed the error.",
+      common: {
+        "fixit:wrong":
+          "There is exactly one error in the sentence — re-read it clause by clause (pronoun case, verb position, negation) rather than rewriting the whole sentence.",
+      },
+    },
+  },
+  {
+    id: "perf-ec-t2-074",
+    engine: "fixit",
+    prompt: "Correct the error in this sentence:",
+    stimulus: "Ich habe angeblich gar nicht Fantasie.",
+    answer: "Ich habe angeblich gar keine Fantasie.",
+    metadata: {
+      cefr: "B1",
+      system: "performance",
+      module: "error-clinic",
+      tier: 2,
+      tags: ["fixit", "mutator:negation-swap"],
+      groupId: "ec:1090318113:negation-swap",
+    },
+    feedback: {
+      correct: "Found and fixed the error.",
+      common: {
+        "fixit:wrong":
+          "There is exactly one error in the sentence — re-read it clause by clause (pronoun case, verb position, negation) rather than rewriting the whole sentence.",
+      },
+    },
+  },
+  {
+    id: "perf-ec-t2-075",
+    engine: "fixit",
+    prompt: "Correct the error in this sentence:",
+    stimulus: "Manchmal er riecht sogar nach Seife.",
+    answer: "Manchmal riecht er sogar nach Seife.",
+    metadata: {
+      cefr: "B1",
+      system: "performance",
+      module: "error-clinic",
+      tier: 2,
+      tags: ["fixit", "mutator:v2-word-order"],
+      groupId: "ec:3650595784:v2-word-order",
+    },
+    feedback: {
+      correct: "Found and fixed the error.",
+      common: {
+        "fixit:wrong":
+          "There is exactly one error in the sentence — re-read it clause by clause (pronoun case, verb position, negation) rather than rewriting the whole sentence.",
+      },
+    },
+  },
+  {
+    id: "perf-ec-t2-076",
+    engine: "fixit",
+    prompt: "Correct the error in this sentence:",
+    stimulus: "Ich dachte mich, ich sollte dort als Erstes nachsehen.",
+    answer: "Ich dachte mir, ich sollte dort als Erstes nachsehen.",
+    metadata: {
+      cefr: "B1",
+      system: "performance",
+      module: "error-clinic",
+      tier: 2,
+      tags: ["fixit", "mutator:pronoun-case"],
+      groupId: "ec:3061924243:pronoun-case",
+    },
+    feedback: {
+      correct: "Found and fixed the error.",
+      common: {
+        "fixit:wrong":
+          "There is exactly one error in the sentence — re-read it clause by clause (pronoun case, verb position, negation) rather than rewriting the whole sentence.",
+      },
+    },
+  },
+  {
+    id: "perf-ec-t2-077",
+    engine: "fixit",
+    prompt: "Correct the error in this sentence:",
+    stimulus: "Ich werde dich ein Hühnchen braten.",
+    answer: "Ich werde dir ein Hühnchen braten.",
+    metadata: {
+      cefr: "B1",
+      system: "performance",
+      module: "error-clinic",
+      tier: 2,
+      tags: ["fixit", "mutator:pronoun-case"],
+      groupId: "ec:1239865797:pronoun-case",
+    },
+    feedback: {
+      correct: "Found and fixed the error.",
+      common: {
+        "fixit:wrong":
+          "There is exactly one error in the sentence — re-read it clause by clause (pronoun case, verb position, negation) rather than rewriting the whole sentence.",
+      },
+    },
+  },
+  {
+    id: "perf-ec-t2-078",
+    engine: "fixit",
+    prompt: "Correct the error in this sentence:",
+    stimulus:
+      "Ich war schüchtern und habe mir mit keinem einzigen Deutschen angefreundet.",
+    answer:
+      "Ich war schüchtern und habe mich mit keinem einzigen Deutschen angefreundet.",
+    metadata: {
+      cefr: "B1",
+      system: "performance",
+      module: "error-clinic",
+      tier: 2,
+      tags: ["fixit", "mutator:pronoun-case"],
+      groupId: "ec:141354208:pronoun-case",
+    },
+    feedback: {
+      correct: "Found and fixed the error.",
+      common: {
+        "fixit:wrong":
+          "There is exactly one error in the sentence — re-read it clause by clause (pronoun case, verb position, negation) rather than rewriting the whole sentence.",
+      },
+    },
+  },
+  {
+    id: "perf-ec-t2-079",
+    engine: "fixit",
+    prompt: "Correct the error in this sentence:",
+    stimulus:
+      "Ich war schüchtern und habe mich mit nicht einzigen Deutschen angefreundet.",
+    answer:
+      "Ich war schüchtern und habe mich mit keinem einzigen Deutschen angefreundet.",
+    metadata: {
+      cefr: "B1",
+      system: "performance",
+      module: "error-clinic",
+      tier: 2,
+      tags: ["fixit", "mutator:negation-swap"],
+      groupId: "ec:141354208:negation-swap",
+    },
+    feedback: {
+      correct: "Found and fixed the error.",
+      common: {
+        "fixit:wrong":
+          "There is exactly one error in the sentence — re-read it clause by clause (pronoun case, verb position, negation) rather than rewriting the whole sentence.",
+      },
+    },
+  },
+  {
+    id: "perf-ec-t2-080",
+    engine: "fixit",
+    prompt: "Correct the error in this sentence:",
+    stimulus:
+      "Jane ist zwar kein so schön wie ihre Schwester, aber immer noch ziemlich attraktiv.",
+    answer:
+      "Jane ist zwar nicht so schön wie ihre Schwester, aber immer noch ziemlich attraktiv.",
+    metadata: {
+      cefr: "B1",
+      system: "performance",
+      module: "error-clinic",
+      tier: 2,
+      tags: ["fixit", "mutator:negation-swap"],
+      groupId: "ec:4063706295:negation-swap",
+    },
+    feedback: {
+      correct: "Found and fixed the error.",
+      common: {
+        "fixit:wrong":
+          "There is exactly one error in the sentence — re-read it clause by clause (pronoun case, verb position, negation) rather than rewriting the whole sentence.",
+      },
+    },
+  },
+  {
+    id: "perf-ec-t2-081",
+    engine: "fixit",
+    prompt: "Correct the error in this sentence:",
+    stimulus: "John hätte seinen Lehrer kein mit Hitler vergleichen sollen.",
+    answer: "John hätte seinen Lehrer nicht mit Hitler vergleichen sollen.",
+    metadata: {
+      cefr: "B1",
+      system: "performance",
+      module: "error-clinic",
+      tier: 2,
+      tags: ["fixit", "mutator:negation-swap"],
+      groupId: "ec:2688257564:negation-swap",
+    },
+    feedback: {
+      correct: "Found and fixed the error.",
+      common: {
+        "fixit:wrong":
+          "There is exactly one error in the sentence — re-read it clause by clause (pronoun case, verb position, negation) rather than rewriting the whole sentence.",
+      },
+    },
+  },
+  {
+    id: "perf-ec-t2-082",
+    engine: "fixit",
+    prompt: "Correct the error in this sentence:",
+    stimulus: "Genau deshalb warten wir kein auf einen Durchsuchungsbefehl.",
+    answer: "Genau deshalb warten wir nicht auf einen Durchsuchungsbefehl.",
+    metadata: {
+      cefr: "B1",
+      system: "performance",
+      module: "error-clinic",
+      tier: 2,
+      tags: ["fixit", "mutator:negation-swap"],
+      groupId: "ec:1647773668:negation-swap",
+    },
+    feedback: {
+      correct: "Found and fixed the error.",
+      common: {
+        "fixit:wrong":
+          "There is exactly one error in the sentence — re-read it clause by clause (pronoun case, verb position, negation) rather than rewriting the whole sentence.",
+      },
+    },
+  },
+  {
+    id: "perf-ec-t2-083",
+    engine: "fixit",
+    prompt: "Correct the error in this sentence:",
+    stimulus: "Wir müssen sein Bein kein abschneiden.",
+    answer: "Wir müssen sein Bein nicht abschneiden.",
+    metadata: {
+      cefr: "B1",
+      system: "performance",
+      module: "error-clinic",
+      tier: 2,
+      tags: ["fixit", "mutator:negation-swap"],
+      groupId: "ec:387791478:negation-swap",
+    },
+    feedback: {
+      correct: "Found and fixed the error.",
+      common: {
+        "fixit:wrong":
+          "There is exactly one error in the sentence — re-read it clause by clause (pronoun case, verb position, negation) rather than rewriting the whole sentence.",
+      },
+    },
+  },
+  {
+    id: "perf-ec-t2-084",
+    engine: "fixit",
+    prompt: "Correct the error in this sentence:",
+    stimulus: "Ohne Herd kannst du nicht Kuchen backen.",
+    answer: "Ohne Herd kannst du keinen Kuchen backen.",
+    metadata: {
+      cefr: "B1",
+      system: "performance",
+      module: "error-clinic",
+      tier: 2,
+      tags: ["fixit", "mutator:negation-swap"],
+      groupId: "ec:3192286240:negation-swap",
+    },
+    feedback: {
+      correct: "Found and fixed the error.",
+      common: {
+        "fixit:wrong":
+          "There is exactly one error in the sentence — re-read it clause by clause (pronoun case, verb position, negation) rather than rewriting the whole sentence.",
+      },
+    },
+  },
+  {
+    id: "perf-ec-t2-085",
+    engine: "fixit",
+    prompt: "Correct the error in this sentence:",
+    stimulus:
+      "Ich hoffe, er ist auch mal so aufgelöst, wenn er mit mich Schluss macht.",
+    answer:
+      "Ich hoffe, er ist auch mal so aufgelöst, wenn er mit mir Schluss macht.",
+    metadata: {
+      cefr: "B1",
+      system: "performance",
+      module: "error-clinic",
+      tier: 2,
+      tags: ["fixit", "mutator:pronoun-case"],
+      groupId: "ec:1288789113:pronoun-case",
+    },
+    feedback: {
+      correct: "Found and fixed the error.",
+      common: {
+        "fixit:wrong":
+          "There is exactly one error in the sentence — re-read it clause by clause (pronoun case, verb position, negation) rather than rewriting the whole sentence.",
+      },
+    },
+  },
+  {
+    id: "perf-ec-t2-086",
+    engine: "fixit",
+    prompt: "Correct the error in this sentence:",
+    stimulus: "Sie sind doch kein etwa verlegen?",
+    answer: "Sie sind doch nicht etwa verlegen?",
+    metadata: {
+      cefr: "B1",
+      system: "performance",
+      module: "error-clinic",
+      tier: 2,
+      tags: ["fixit", "mutator:negation-swap"],
+      groupId: "ec:1708737698:negation-swap",
+    },
+    feedback: {
+      correct: "Found and fixed the error.",
+      common: {
+        "fixit:wrong":
+          "There is exactly one error in the sentence — re-read it clause by clause (pronoun case, verb position, negation) rather than rewriting the whole sentence.",
+      },
+    },
+  },
+  {
+    id: "perf-ec-t2-087",
+    engine: "fixit",
+    prompt: "Correct the error in this sentence:",
+    stimulus: "Nach Verhaftung Janes hatte ich eine düstere Phase.",
+    answer: "Nach Janes Verhaftung hatte ich eine düstere Phase.",
+    metadata: {
+      cefr: "B1",
+      system: "performance",
+      module: "error-clinic",
+      tier: 2,
+      tags: ["fixit", "mutator:v2-word-order"],
+      groupId: "ec:2736945669:v2-word-order",
+    },
+    feedback: {
+      correct: "Found and fixed the error.",
+      common: {
+        "fixit:wrong":
+          "There is exactly one error in the sentence — re-read it clause by clause (pronoun case, verb position, negation) rather than rewriting the whole sentence.",
+      },
+    },
+  },
+  {
+    id: "perf-ec-t2-088",
+    engine: "fixit",
+    prompt: "Correct the error in this sentence:",
+    stimulus: "Pflanze kein direkter Sonneneinstrahlung aussetzen.",
+    answer: "Pflanze nicht direkter Sonneneinstrahlung aussetzen.",
+    metadata: {
+      cefr: "B1",
+      system: "performance",
+      module: "error-clinic",
+      tier: 2,
+      tags: ["fixit", "mutator:negation-swap"],
+      groupId: "ec:1722679138:negation-swap",
+    },
+    feedback: {
+      correct: "Found and fixed the error.",
+      common: {
+        "fixit:wrong":
+          "There is exactly one error in the sentence — re-read it clause by clause (pronoun case, verb position, negation) rather than rewriting the whole sentence.",
+      },
+    },
+  },
+  {
+    id: "perf-ec-t2-089",
+    engine: "fixit",
+    prompt: "Correct the error in this sentence:",
+    stimulus: "Vergiss kein, die Reservierung im Voraus zu bestätigen.",
+    answer: "Vergiss nicht, die Reservierung im Voraus zu bestätigen.",
+    metadata: {
+      cefr: "B1",
+      system: "performance",
+      module: "error-clinic",
+      tier: 2,
+      tags: ["fixit", "mutator:negation-swap"],
+      groupId: "ec:3518829497:negation-swap",
+    },
+    feedback: {
+      correct: "Found and fixed the error.",
+      common: {
+        "fixit:wrong":
+          "There is exactly one error in the sentence — re-read it clause by clause (pronoun case, verb position, negation) rather than rewriting the whole sentence.",
+      },
+    },
+  },
+  {
+    id: "perf-ec-t2-090",
+    engine: "fixit",
+    prompt: "Correct the error in this sentence:",
+    stimulus: "Wir sind kein alle so gesegnet wie Sie.",
+    answer: "Wir sind nicht alle so gesegnet wie Sie.",
+    metadata: {
+      cefr: "B1",
+      system: "performance",
+      module: "error-clinic",
+      tier: 2,
+      tags: ["fixit", "mutator:negation-swap"],
+      groupId: "ec:4069474203:negation-swap",
+    },
+    feedback: {
+      correct: "Found and fixed the error.",
+      common: {
+        "fixit:wrong":
+          "There is exactly one error in the sentence — re-read it clause by clause (pronoun case, verb position, negation) rather than rewriting the whole sentence.",
+      },
+    },
+  },
+  {
+    id: "perf-ec-t2-091",
+    engine: "fixit",
+    prompt: "Correct the error in this sentence:",
+    stimulus: "Setz dir in die Karre.",
+    answer: "Setz dich in die Karre.",
+    metadata: {
+      cefr: "B1",
+      system: "performance",
+      module: "error-clinic",
+      tier: 2,
+      tags: ["fixit", "mutator:pronoun-case"],
+      groupId: "ec:3851441385:pronoun-case",
+    },
+    feedback: {
+      correct: "Found and fixed the error.",
+      common: {
+        "fixit:wrong":
+          "There is exactly one error in the sentence — re-read it clause by clause (pronoun case, verb position, negation) rather than rewriting the whole sentence.",
+      },
+    },
+  },
+  {
+    id: "perf-ec-t2-092",
+    engine: "fixit",
+    prompt: "Correct the error in this sentence:",
+    stimulus: "Wir sollten hier kein zu strenge Kriterien anlegen.",
+    answer: "Wir sollten hier nicht zu strenge Kriterien anlegen.",
+    metadata: {
+      cefr: "B1",
+      system: "performance",
+      module: "error-clinic",
+      tier: 2,
+      tags: ["fixit", "mutator:negation-swap"],
+      groupId: "ec:1170889406:negation-swap",
+    },
+    feedback: {
+      correct: "Found and fixed the error.",
+      common: {
+        "fixit:wrong":
+          "There is exactly one error in the sentence — re-read it clause by clause (pronoun case, verb position, negation) rather than rewriting the whole sentence.",
+      },
+    },
+  },
+  {
+    id: "perf-ec-t2-093",
+    engine: "fixit",
+    prompt: "Correct the error in this sentence:",
+    stimulus: "Du warst ihn Assistentin und Geliebte zugleich.",
+    answer: "Du warst ihm Assistentin und Geliebte zugleich.",
+    metadata: {
+      cefr: "B1",
+      system: "performance",
+      module: "error-clinic",
+      tier: 2,
+      tags: ["fixit", "mutator:pronoun-case"],
+      groupId: "ec:2436118163:pronoun-case",
+    },
+    feedback: {
+      correct: "Found and fixed the error.",
+      common: {
+        "fixit:wrong":
+          "There is exactly one error in the sentence — re-read it clause by clause (pronoun case, verb position, negation) rather than rewriting the whole sentence.",
+      },
+    },
+  },
+  {
+    id: "perf-ec-t2-094",
+    engine: "fixit",
+    prompt: "Correct the error in this sentence:",
+    stimulus: "Ich muss mir um mein Vieh kümmern.",
+    answer: "Ich muss mich um mein Vieh kümmern.",
+    metadata: {
+      cefr: "B1",
+      system: "performance",
+      module: "error-clinic",
+      tier: 2,
+      tags: ["fixit", "mutator:pronoun-case"],
+      groupId: "ec:663326337:pronoun-case",
+    },
+    feedback: {
+      correct: "Found and fixed the error.",
+      common: {
+        "fixit:wrong":
+          "There is exactly one error in the sentence — re-read it clause by clause (pronoun case, verb position, negation) rather than rewriting the whole sentence.",
+      },
+    },
+  },
+  {
+    id: "perf-ec-t2-095",
+    engine: "fixit",
+    prompt: "Correct the error in this sentence:",
+    stimulus: "Er ist doch nicht Fürst der Finsternis.",
+    answer: "Er ist doch kein Fürst der Finsternis.",
+    metadata: {
+      cefr: "B1",
+      system: "performance",
+      module: "error-clinic",
+      tier: 2,
+      tags: ["fixit", "mutator:negation-swap"],
+      groupId: "ec:727750926:negation-swap",
+    },
+    feedback: {
+      correct: "Found and fixed the error.",
+      common: {
+        "fixit:wrong":
+          "There is exactly one error in the sentence — re-read it clause by clause (pronoun case, verb position, negation) rather than rewriting the whole sentence.",
+      },
+    },
+  },
+  {
+    id: "perf-ec-t2-096",
+    engine: "fixit",
+    prompt: "Correct the error in this sentence:",
+    stimulus: "John war mich gegenüber untreu, mehrmals.",
+    answer: "John war mir gegenüber untreu, mehrmals.",
+    metadata: {
+      cefr: "B1",
+      system: "performance",
+      module: "error-clinic",
+      tier: 2,
+      tags: ["fixit", "mutator:pronoun-case"],
+      groupId: "ec:3665976281:pronoun-case",
+    },
+    feedback: {
+      correct: "Found and fixed the error.",
+      common: {
+        "fixit:wrong":
+          "There is exactly one error in the sentence — re-read it clause by clause (pronoun case, verb position, negation) rather than rewriting the whole sentence.",
+      },
+    },
+  },
+  {
+    id: "perf-ec-t2-097",
+    engine: "fixit",
+    prompt: "Correct the error in this sentence:",
+    stimulus: "Du schuldest mich Piepen.",
+    answer: "Du schuldest mir Piepen.",
+    metadata: {
+      cefr: "B1",
+      system: "performance",
+      module: "error-clinic",
+      tier: 2,
+      tags: ["fixit", "mutator:pronoun-case"],
+      groupId: "ec:1824539936:pronoun-case",
+    },
+    feedback: {
+      correct: "Found and fixed the error.",
+      common: {
+        "fixit:wrong":
+          "There is exactly one error in the sentence — re-read it clause by clause (pronoun case, verb position, negation) rather than rewriting the whole sentence.",
+      },
+    },
+  },
+  {
+    id: "perf-ec-t2-098",
+    engine: "fixit",
+    prompt: "Correct the error in this sentence:",
+    stimulus: "Ich kann dich versichern, das wird nicht passieren.",
+    answer: "Ich kann dir versichern, das wird nicht passieren.",
+    metadata: {
+      cefr: "B1",
+      system: "performance",
+      module: "error-clinic",
+      tier: 2,
+      tags: ["fixit", "mutator:pronoun-case"],
+      groupId: "ec:1285037463:pronoun-case",
+    },
+    feedback: {
+      correct: "Found and fixed the error.",
+      common: {
+        "fixit:wrong":
+          "There is exactly one error in the sentence — re-read it clause by clause (pronoun case, verb position, negation) rather than rewriting the whole sentence.",
+      },
+    },
+  },
+  {
+    id: "perf-ec-t2-099",
+    engine: "fixit",
+    prompt: "Correct the error in this sentence:",
+    stimulus: "Ich kann dir versichern, das wird kein passieren.",
+    answer: "Ich kann dir versichern, das wird nicht passieren.",
+    metadata: {
+      cefr: "B1",
+      system: "performance",
+      module: "error-clinic",
+      tier: 2,
+      tags: ["fixit", "mutator:negation-swap"],
+      groupId: "ec:1285037463:negation-swap",
+    },
+    feedback: {
+      correct: "Found and fixed the error.",
+      common: {
+        "fixit:wrong":
+          "There is exactly one error in the sentence — re-read it clause by clause (pronoun case, verb position, negation) rather than rewriting the whole sentence.",
+      },
+    },
+  },
+  {
+    id: "perf-ec-t2-100",
+    engine: "fixit",
+    prompt: "Correct the error in this sentence:",
+    stimulus: "Sie sagten, ich soll ihm hier herbringen.",
+    answer: "Sie sagten, ich soll ihn hier herbringen.",
+    metadata: {
+      cefr: "B1",
+      system: "performance",
+      module: "error-clinic",
+      tier: 2,
+      tags: ["fixit", "mutator:pronoun-case"],
+      groupId: "ec:4143315309:pronoun-case",
+    },
+    feedback: {
+      correct: "Found and fixed the error.",
+      common: {
+        "fixit:wrong":
+          "There is exactly one error in the sentence — re-read it clause by clause (pronoun case, verb position, negation) rather than rewriting the whole sentence.",
+      },
+    },
+  },
+  {
+    id: "perf-ec-t2-101",
+    engine: "fixit",
+    prompt: "Correct the error in this sentence:",
+    stimulus: "Sie informierte mir über ihre Abreise.",
+    answer: "Sie informierte mich über ihre Abreise.",
+    metadata: {
+      cefr: "B1",
+      system: "performance",
+      module: "error-clinic",
+      tier: 2,
+      tags: ["fixit", "mutator:pronoun-case"],
+      groupId: "ec:3142748389:pronoun-case",
+    },
+    feedback: {
+      correct: "Found and fixed the error.",
+      common: {
+        "fixit:wrong":
+          "There is exactly one error in the sentence — re-read it clause by clause (pronoun case, verb position, negation) rather than rewriting the whole sentence.",
+      },
+    },
+  },
+  {
+    id: "perf-ec-t2-102",
+    engine: "fixit",
+    prompt: "Correct the error in this sentence:",
+    stimulus: "Sag es mich, um meine Neugier zu befriedigen.",
+    answer: "Sag es mir, um meine Neugier zu befriedigen.",
+    metadata: {
+      cefr: "B1",
+      system: "performance",
+      module: "error-clinic",
+      tier: 2,
+      tags: ["fixit", "mutator:pronoun-case"],
+      groupId: "ec:4276645682:pronoun-case",
+    },
+    feedback: {
+      correct: "Found and fixed the error.",
+      common: {
+        "fixit:wrong":
+          "There is exactly one error in the sentence — re-read it clause by clause (pronoun case, verb position, negation) rather than rewriting the whole sentence.",
+      },
+    },
+  },
+  {
+    id: "perf-ec-t2-103",
+    engine: "fixit",
+    prompt: "Correct the error in this sentence:",
+    stimulus: "Ich sollte ohne den Anzug kein losfahren.",
+    answer: "Ich sollte ohne den Anzug nicht losfahren.",
+    metadata: {
+      cefr: "B1",
+      system: "performance",
+      module: "error-clinic",
+      tier: 2,
+      tags: ["fixit", "mutator:negation-swap"],
+      groupId: "ec:1878873098:negation-swap",
+    },
+    feedback: {
+      correct: "Found and fixed the error.",
+      common: {
+        "fixit:wrong":
+          "There is exactly one error in the sentence — re-read it clause by clause (pronoun case, verb position, negation) rather than rewriting the whole sentence.",
+      },
+    },
+  },
+  {
+    id: "perf-ec-t2-104",
+    engine: "fixit",
+    prompt: "Correct the error in this sentence:",
+    stimulus: "John hat mich von der Uni erzählt.",
+    answer: "John hat mir von der Uni erzählt.",
+    metadata: {
+      cefr: "B1",
+      system: "performance",
+      module: "error-clinic",
+      tier: 2,
+      tags: ["fixit", "mutator:pronoun-case"],
+      groupId: "ec:681521752:pronoun-case",
+    },
+    feedback: {
+      correct: "Found and fixed the error.",
+      common: {
+        "fixit:wrong":
+          "There is exactly one error in the sentence — re-read it clause by clause (pronoun case, verb position, negation) rather than rewriting the whole sentence.",
+      },
+    },
+  },
+  {
+    id: "perf-ec-t2-105",
+    engine: "fixit",
+    prompt: "Correct the error in this sentence:",
+    stimulus: "Du bist widerlich und ich hasse dir.",
+    answer: "Du bist widerlich und ich hasse dich.",
+    metadata: {
+      cefr: "B1",
+      system: "performance",
+      module: "error-clinic",
+      tier: 2,
+      tags: ["fixit", "mutator:pronoun-case"],
+      groupId: "ec:3198013958:pronoun-case",
+    },
+    feedback: {
+      correct: "Found and fixed the error.",
+      common: {
+        "fixit:wrong":
+          "There is exactly one error in the sentence — re-read it clause by clause (pronoun case, verb position, negation) rather than rewriting the whole sentence.",
+      },
+    },
+  },
+  {
+    id: "perf-ec-t2-106",
+    engine: "fixit",
+    prompt: "Correct the error in this sentence:",
+    stimulus: "Dein neuer Liebhaber ließ dir echt aufblühen.",
+    answer: "Dein neuer Liebhaber ließ dich echt aufblühen.",
+    metadata: {
+      cefr: "B1",
+      system: "performance",
+      module: "error-clinic",
+      tier: 2,
+      tags: ["fixit", "mutator:pronoun-case"],
+      groupId: "ec:3475345510:pronoun-case",
+    },
+    feedback: {
+      correct: "Found and fixed the error.",
+      common: {
+        "fixit:wrong":
+          "There is exactly one error in the sentence — re-read it clause by clause (pronoun case, verb position, negation) rather than rewriting the whole sentence.",
+      },
+    },
+  },
+  {
+    id: "perf-ec-t2-107",
+    engine: "fixit",
+    prompt: "Correct the error in this sentence:",
+    stimulus: "Sie sollen die anderen kein blockieren können.",
+    answer: "Sie sollen die anderen nicht blockieren können.",
+    metadata: {
+      cefr: "B1",
+      system: "performance",
+      module: "error-clinic",
+      tier: 2,
+      tags: ["fixit", "mutator:negation-swap"],
+      groupId: "ec:4243225194:negation-swap",
+    },
+    feedback: {
+      correct: "Found and fixed the error.",
+      common: {
+        "fixit:wrong":
+          "There is exactly one error in the sentence — re-read it clause by clause (pronoun case, verb position, negation) rather than rewriting the whole sentence.",
+      },
+    },
+  },
+  {
+    id: "perf-ec-t2-108",
+    engine: "fixit",
+    prompt: "Correct the error in this sentence:",
+    stimulus: "Ich kenne diese Umgebung kein allzu gut.",
+    answer: "Ich kenne diese Umgebung nicht allzu gut.",
+    metadata: {
+      cefr: "B1",
+      system: "performance",
+      module: "error-clinic",
+      tier: 2,
+      tags: ["fixit", "mutator:negation-swap"],
+      groupId: "ec:676207012:negation-swap",
+    },
+    feedback: {
+      correct: "Found and fixed the error.",
+      common: {
+        "fixit:wrong":
+          "There is exactly one error in the sentence — re-read it clause by clause (pronoun case, verb position, negation) rather than rewriting the whole sentence.",
+      },
+    },
+  },
+  {
+    id: "perf-ec-t2-109",
+    engine: "fixit",
+    prompt: "Correct the error in this sentence:",
+    stimulus: "Glotzt du mir oder sie an?",
+    answer: "Glotzt du mich oder sie an?",
+    metadata: {
+      cefr: "B1",
+      system: "performance",
+      module: "error-clinic",
+      tier: 2,
+      tags: ["fixit", "mutator:pronoun-case"],
+      groupId: "ec:2121784394:pronoun-case",
+    },
+    feedback: {
+      correct: "Found and fixed the error.",
+      common: {
+        "fixit:wrong":
+          "There is exactly one error in the sentence — re-read it clause by clause (pronoun case, verb position, negation) rather than rewriting the whole sentence.",
+      },
+    },
+  },
+  {
+    id: "perf-ec-t2-110",
+    engine: "fixit",
+    prompt: "Correct the error in this sentence:",
+    stimulus: "Du bist kein sehr fit.",
+    answer: "Du bist nicht sehr fit.",
+    metadata: {
+      cefr: "B1",
+      system: "performance",
+      module: "error-clinic",
+      tier: 2,
+      tags: ["fixit", "mutator:negation-swap"],
+      groupId: "ec:2803205293:negation-swap",
+    },
+    feedback: {
+      correct: "Found and fixed the error.",
+      common: {
+        "fixit:wrong":
+          "There is exactly one error in the sentence — re-read it clause by clause (pronoun case, verb position, negation) rather than rewriting the whole sentence.",
+      },
+    },
+  },
+  {
+    id: "perf-ec-t2-111",
+    engine: "fixit",
+    prompt: "Correct the error in this sentence:",
+    stimulus: "Erst ist jetzt es offiziell.",
+    answer: "Erst jetzt ist es offiziell.",
+    metadata: {
+      cefr: "B1",
+      system: "performance",
+      module: "error-clinic",
+      tier: 2,
+      tags: ["fixit", "mutator:v2-word-order"],
+      groupId: "ec:786926538:v2-word-order",
+    },
+    feedback: {
+      correct: "Found and fixed the error.",
+      common: {
+        "fixit:wrong":
+          "There is exactly one error in the sentence — re-read it clause by clause (pronoun case, verb position, negation) rather than rewriting the whole sentence.",
+      },
+    },
+  },
+  {
+    id: "perf-ec-t2-112",
+    engine: "fixit",
+    prompt: "Correct the error in this sentence:",
+    stimulus: "Ich wollte dir nicht schrecken.",
+    answer: "Ich wollte dich nicht schrecken.",
+    metadata: {
+      cefr: "B1",
+      system: "performance",
+      module: "error-clinic",
+      tier: 2,
+      tags: ["fixit", "mutator:pronoun-case"],
+      groupId: "ec:824127102:pronoun-case",
+    },
+    feedback: {
+      correct: "Found and fixed the error.",
+      common: {
+        "fixit:wrong":
+          "There is exactly one error in the sentence — re-read it clause by clause (pronoun case, verb position, negation) rather than rewriting the whole sentence.",
+      },
+    },
+  },
+  {
+    id: "perf-ec-t2-113",
+    engine: "fixit",
+    prompt: "Correct the error in this sentence:",
+    stimulus: "Ich wollte dich kein schrecken.",
+    answer: "Ich wollte dich nicht schrecken.",
+    metadata: {
+      cefr: "B1",
+      system: "performance",
+      module: "error-clinic",
+      tier: 2,
+      tags: ["fixit", "mutator:negation-swap"],
+      groupId: "ec:824127102:negation-swap",
+    },
+    feedback: {
+      correct: "Found and fixed the error.",
+      common: {
+        "fixit:wrong":
+          "There is exactly one error in the sentence — re-read it clause by clause (pronoun case, verb position, negation) rather than rewriting the whole sentence.",
+      },
+    },
+  },
+  {
+    id: "perf-ec-t2-114",
+    engine: "fixit",
+    prompt: "Correct the error in this sentence:",
+    stimulus: "Er gab seine Identität kein preis.",
+    answer: "Er gab seine Identität nicht preis.",
+    metadata: {
+      cefr: "B1",
+      system: "performance",
+      module: "error-clinic",
+      tier: 2,
+      tags: ["fixit", "mutator:negation-swap"],
+      groupId: "ec:3835092530:negation-swap",
+    },
+    feedback: {
+      correct: "Found and fixed the error.",
+      common: {
+        "fixit:wrong":
+          "There is exactly one error in the sentence — re-read it clause by clause (pronoun case, verb position, negation) rather than rewriting the whole sentence.",
+      },
+    },
+  },
+  {
+    id: "perf-ec-t2-115",
+    engine: "fixit",
+    prompt: "Correct the error in this sentence:",
+    stimulus: "Es ist etwas, was er kein beherrschen kann.",
+    answer: "Es ist etwas, was er nicht beherrschen kann.",
+    metadata: {
+      cefr: "B1",
+      system: "performance",
+      module: "error-clinic",
+      tier: 2,
+      tags: ["fixit", "mutator:negation-swap"],
+      groupId: "ec:3357004342:negation-swap",
+    },
+    feedback: {
+      correct: "Found and fixed the error.",
+      common: {
+        "fixit:wrong":
+          "There is exactly one error in the sentence — re-read it clause by clause (pronoun case, verb position, negation) rather than rewriting the whole sentence.",
+      },
+    },
+  },
+  {
+    id: "perf-ec-t2-116",
+    engine: "fixit",
+    prompt: "Correct the error in this sentence:",
+    stimulus: "Gerade sich hat der Vorhang bewegt.",
+    answer: "Gerade hat sich der Vorhang bewegt.",
+    metadata: {
+      cefr: "B1",
+      system: "performance",
+      module: "error-clinic",
+      tier: 2,
+      tags: ["fixit", "mutator:v2-word-order"],
+      groupId: "ec:1538441509:v2-word-order",
+    },
+    feedback: {
+      correct: "Found and fixed the error.",
+      common: {
+        "fixit:wrong":
+          "There is exactly one error in the sentence — re-read it clause by clause (pronoun case, verb position, negation) rather than rewriting the whole sentence.",
+      },
+    },
+  },
+  {
+    id: "perf-ec-t2-117",
+    engine: "fixit",
+    prompt: "Correct the error in this sentence:",
+    stimulus: "Erlaube dich einfach, etwas zu empfinden.",
+    answer: "Erlaube dir einfach, etwas zu empfinden.",
+    metadata: {
+      cefr: "B1",
+      system: "performance",
+      module: "error-clinic",
+      tier: 2,
+      tags: ["fixit", "mutator:pronoun-case"],
+      groupId: "ec:4156757879:pronoun-case",
+    },
+    feedback: {
+      correct: "Found and fixed the error.",
+      common: {
+        "fixit:wrong":
+          "There is exactly one error in the sentence — re-read it clause by clause (pronoun case, verb position, negation) rather than rewriting the whole sentence.",
+      },
+    },
+  },
+  {
+    id: "perf-ec-t2-118",
+    engine: "fixit",
+    prompt: "Correct the error in this sentence:",
+    stimulus: "Dennoch es gilt für jedermann.",
+    answer: "Dennoch gilt es für jedermann.",
+    metadata: {
+      cefr: "B1",
+      system: "performance",
+      module: "error-clinic",
+      tier: 2,
+      tags: ["fixit", "mutator:v2-word-order"],
+      groupId: "ec:3424676594:v2-word-order",
+    },
+    feedback: {
+      correct: "Found and fixed the error.",
+      common: {
+        "fixit:wrong":
+          "There is exactly one error in the sentence — re-read it clause by clause (pronoun case, verb position, negation) rather than rewriting the whole sentence.",
+      },
+    },
+  },
+  {
+    id: "perf-ec-t2-119",
+    engine: "fixit",
+    prompt: "Correct the error in this sentence:",
+    stimulus: "Ich kann mit diesen Leuten prinzipiell kein verhandeln.",
+    answer: "Ich kann mit diesen Leuten prinzipiell nicht verhandeln.",
+    metadata: {
+      cefr: "B1",
+      system: "performance",
+      module: "error-clinic",
+      tier: 2,
+      tags: ["fixit", "mutator:negation-swap"],
+      groupId: "ec:3633183899:negation-swap",
+    },
+    feedback: {
+      correct: "Found and fixed the error.",
+      common: {
+        "fixit:wrong":
+          "There is exactly one error in the sentence — re-read it clause by clause (pronoun case, verb position, negation) rather than rewriting the whole sentence.",
+      },
+    },
+  },
+  {
+    id: "perf-ec-t2-120",
+    engine: "fixit",
+    prompt: "Correct the error in this sentence:",
+    stimulus:
+      "Glücklicherweise habe ich keine, also bietet sich mich diese spezielle Versuchung nicht.",
+    answer:
+      "Glücklicherweise habe ich keine, also bietet sich mir diese spezielle Versuchung nicht.",
+    metadata: {
+      cefr: "B1",
+      system: "performance",
+      module: "error-clinic",
+      tier: 2,
+      tags: ["fixit", "mutator:pronoun-case"],
+      groupId: "ec:2495544790:pronoun-case",
+    },
+    feedback: {
+      correct: "Found and fixed the error.",
+      common: {
+        "fixit:wrong":
+          "There is exactly one error in the sentence — re-read it clause by clause (pronoun case, verb position, negation) rather than rewriting the whole sentence.",
+      },
+    },
+  },
+  {
+    id: "perf-ec-t2-121",
+    engine: "fixit",
+    prompt: "Correct the error in this sentence:",
+    stimulus:
+      "Glücklicherweise habe ich keine, also bietet sich mir diese spezielle Versuchung kein.",
+    answer:
+      "Glücklicherweise habe ich keine, also bietet sich mir diese spezielle Versuchung nicht.",
+    metadata: {
+      cefr: "B1",
+      system: "performance",
+      module: "error-clinic",
+      tier: 2,
+      tags: ["fixit", "mutator:negation-swap"],
+      groupId: "ec:2495544790:negation-swap",
+    },
+    feedback: {
+      correct: "Found and fixed the error.",
+      common: {
+        "fixit:wrong":
+          "There is exactly one error in the sentence — re-read it clause by clause (pronoun case, verb position, negation) rather than rewriting the whole sentence.",
+      },
+    },
+  },
+  {
+    id: "perf-ec-t2-122",
+    engine: "fixit",
+    prompt: "Correct the error in this sentence:",
+    stimulus: "Trotzdem wir haben gehandelt und reagiert.",
+    answer: "Trotzdem haben wir gehandelt und reagiert.",
+    metadata: {
+      cefr: "B1",
+      system: "performance",
+      module: "error-clinic",
+      tier: 2,
+      tags: ["fixit", "mutator:v2-word-order"],
+      groupId: "ec:3107972160:v2-word-order",
+    },
+    feedback: {
+      correct: "Found and fixed the error.",
+      common: {
+        "fixit:wrong":
+          "There is exactly one error in the sentence — re-read it clause by clause (pronoun case, verb position, negation) rather than rewriting the whole sentence.",
+      },
+    },
+  },
+  {
+    id: "perf-ec-t2-123",
+    engine: "fixit",
+    prompt: "Correct the error in this sentence:",
+    stimulus:
+      "Lebensbedrohliche Situationen bringen kein meine besten Seiten hervor.",
+    answer:
+      "Lebensbedrohliche Situationen bringen nicht meine besten Seiten hervor.",
+    metadata: {
+      cefr: "B1",
+      system: "performance",
+      module: "error-clinic",
+      tier: 2,
+      tags: ["fixit", "mutator:negation-swap"],
+      groupId: "ec:4275150554:negation-swap",
+    },
+    feedback: {
+      correct: "Found and fixed the error.",
+      common: {
+        "fixit:wrong":
+          "There is exactly one error in the sentence — re-read it clause by clause (pronoun case, verb position, negation) rather than rewriting the whole sentence.",
+      },
+    },
+  },
+  {
+    id: "perf-ec-t2-124",
+    engine: "fixit",
+    prompt: "Correct the error in this sentence:",
+    stimulus: "Kannst du mich ein gutes Buch empfehlen?",
+    answer: "Kannst du mir ein gutes Buch empfehlen?",
+    metadata: {
+      cefr: "B1",
+      system: "performance",
+      module: "error-clinic",
+      tier: 2,
+      tags: ["fixit", "mutator:pronoun-case"],
+      groupId: "ec:3458163510:pronoun-case",
+    },
+    feedback: {
+      correct: "Found and fixed the error.",
+      common: {
+        "fixit:wrong":
+          "There is exactly one error in the sentence — re-read it clause by clause (pronoun case, verb position, negation) rather than rewriting the whole sentence.",
+      },
+    },
+  },
+  {
+    id: "perf-ec-t2-125",
+    engine: "fixit",
+    prompt: "Correct the error in this sentence:",
+    stimulus: "Ich trage nicht Schuhe, die quietschen könnten.",
+    answer: "Ich trage keine Schuhe, die quietschen könnten.",
+    metadata: {
+      cefr: "B1",
+      system: "performance",
+      module: "error-clinic",
+      tier: 2,
+      tags: ["fixit", "mutator:negation-swap"],
+      groupId: "ec:1259694533:negation-swap",
+    },
+    feedback: {
+      correct: "Found and fixed the error.",
+      common: {
+        "fixit:wrong":
+          "There is exactly one error in the sentence — re-read it clause by clause (pronoun case, verb position, negation) rather than rewriting the whole sentence.",
+      },
+    },
+  },
+  {
+    id: "perf-ec-t2-126",
+    engine: "fixit",
+    prompt: "Correct the error in this sentence:",
+    stimulus: "Ich will den Star kein beleidigen.",
+    answer: "Ich will den Star nicht beleidigen.",
+    metadata: {
+      cefr: "B1",
+      system: "performance",
+      module: "error-clinic",
+      tier: 2,
+      tags: ["fixit", "mutator:negation-swap"],
+      groupId: "ec:3380504270:negation-swap",
+    },
+    feedback: {
+      correct: "Found and fixed the error.",
+      common: {
+        "fixit:wrong":
+          "There is exactly one error in the sentence — re-read it clause by clause (pronoun case, verb position, negation) rather than rewriting the whole sentence.",
+      },
+    },
+  },
+  {
+    id: "perf-ec-t2-127",
+    engine: "fixit",
+    prompt: "Correct the error in this sentence:",
+    stimulus: "Ich danke ihn für sein Verständnis.",
+    answer: "Ich danke ihm für sein Verständnis.",
+    metadata: {
+      cefr: "B1",
+      system: "performance",
+      module: "error-clinic",
+      tier: 2,
+      tags: ["fixit", "mutator:pronoun-case"],
+      groupId: "ec:2659940953:pronoun-case",
+    },
+    feedback: {
+      correct: "Found and fixed the error.",
+      common: {
+        "fixit:wrong":
+          "There is exactly one error in the sentence — re-read it clause by clause (pronoun case, verb position, negation) rather than rewriting the whole sentence.",
+      },
+    },
+  },
+  {
+    id: "perf-ec-t2-128",
+    engine: "fixit",
+    prompt: "Correct the error in this sentence:",
+    stimulus: "Die Europäische Union ist kein starr.",
+    answer: "Die Europäische Union ist nicht starr.",
+    metadata: {
+      cefr: "B1",
+      system: "performance",
+      module: "error-clinic",
+      tier: 2,
+      tags: ["fixit", "mutator:negation-swap"],
+      groupId: "ec:3833278169:negation-swap",
+    },
+    feedback: {
+      correct: "Found and fixed the error.",
+      common: {
+        "fixit:wrong":
+          "There is exactly one error in the sentence — re-read it clause by clause (pronoun case, verb position, negation) rather than rewriting the whole sentence.",
+      },
+    },
+  },
+  {
+    id: "perf-ec-t2-129",
+    engine: "fixit",
+    prompt: "Correct the error in this sentence:",
+    stimulus: "Ich habe dir um eine Kleinigkeit gebeten.",
+    answer: "Ich habe dich um eine Kleinigkeit gebeten.",
+    metadata: {
+      cefr: "B1",
+      system: "performance",
+      module: "error-clinic",
+      tier: 2,
+      tags: ["fixit", "mutator:pronoun-case"],
+      groupId: "ec:806302504:pronoun-case",
+    },
+    feedback: {
+      correct: "Found and fixed the error.",
+      common: {
+        "fixit:wrong":
+          "There is exactly one error in the sentence — re-read it clause by clause (pronoun case, verb position, negation) rather than rewriting the whole sentence.",
+      },
+    },
+  },
+  {
+    id: "perf-ec-t2-130",
+    engine: "fixit",
+    prompt: "Correct the error in this sentence:",
+    stimulus: "Ihr habt mich nichts, als Schmerz und Elend gebracht.",
+    answer: "Ihr habt mir nichts, als Schmerz und Elend gebracht.",
+    metadata: {
+      cefr: "B1",
+      system: "performance",
+      module: "error-clinic",
+      tier: 2,
+      tags: ["fixit", "mutator:pronoun-case"],
+      groupId: "ec:2697499305:pronoun-case",
+    },
+    feedback: {
+      correct: "Found and fixed the error.",
+      common: {
+        "fixit:wrong":
+          "There is exactly one error in the sentence — re-read it clause by clause (pronoun case, verb position, negation) rather than rewriting the whole sentence.",
+      },
+    },
+  },
+  {
+    id: "perf-ec-t2-131",
+    engine: "fixit",
+    prompt: "Correct the error in this sentence:",
+    stimulus: "Das Stillen ist einfacher, wenn das Baby neben dich schläft.",
+    answer: "Das Stillen ist einfacher, wenn das Baby neben dir schläft.",
+    metadata: {
+      cefr: "B1",
+      system: "performance",
+      module: "error-clinic",
+      tier: 2,
+      tags: ["fixit", "mutator:pronoun-case"],
+      groupId: "ec:1140413732:pronoun-case",
+    },
+    feedback: {
+      correct: "Found and fixed the error.",
+      common: {
+        "fixit:wrong":
+          "There is exactly one error in the sentence — re-read it clause by clause (pronoun case, verb position, negation) rather than rewriting the whole sentence.",
+      },
+    },
+  },
+  {
+    id: "perf-ec-t2-132",
+    engine: "fixit",
+    prompt: "Correct the error in this sentence:",
+    stimulus: "Das Stipendium muss kein zurückgezahlt werden.",
+    answer: "Das Stipendium muss nicht zurückgezahlt werden.",
+    metadata: {
+      cefr: "B1",
+      system: "performance",
+      module: "error-clinic",
+      tier: 2,
+      tags: ["fixit", "mutator:negation-swap"],
+      groupId: "ec:3892004998:negation-swap",
+    },
+    feedback: {
+      correct: "Found and fixed the error.",
+      common: {
+        "fixit:wrong":
+          "There is exactly one error in the sentence — re-read it clause by clause (pronoun case, verb position, negation) rather than rewriting the whole sentence.",
+      },
+    },
+  },
+  {
+    id: "perf-ec-t2-133",
+    engine: "fixit",
+    prompt: "Correct the error in this sentence:",
+    stimulus: "Er hat einen schönen, fetten Wurm für dir.",
+    answer: "Er hat einen schönen, fetten Wurm für dich.",
+    metadata: {
+      cefr: "B1",
+      system: "performance",
+      module: "error-clinic",
+      tier: 2,
+      tags: ["fixit", "mutator:pronoun-case"],
+      groupId: "ec:1178753504:pronoun-case",
+    },
+    feedback: {
+      correct: "Found and fixed the error.",
+      common: {
+        "fixit:wrong":
+          "There is exactly one error in the sentence — re-read it clause by clause (pronoun case, verb position, negation) rather than rewriting the whole sentence.",
+      },
+    },
+  },
+  {
+    id: "perf-ec-t2-134",
+    engine: "fixit",
+    prompt: "Correct the error in this sentence:",
+    stimulus: "Ein Hinweis in der Geschäftsordnung war kein erforderlich.",
+    answer: "Ein Hinweis in der Geschäftsordnung war nicht erforderlich.",
+    metadata: {
+      cefr: "B1",
+      system: "performance",
+      module: "error-clinic",
+      tier: 2,
+      tags: ["fixit", "mutator:negation-swap"],
+      groupId: "ec:2714181663:negation-swap",
+    },
+    feedback: {
+      correct: "Found and fixed the error.",
+      common: {
+        "fixit:wrong":
+          "There is exactly one error in the sentence — re-read it clause by clause (pronoun case, verb position, negation) rather than rewriting the whole sentence.",
+      },
+    },
+  },
+  {
+    id: "perf-ec-t2-135",
+    engine: "fixit",
+    prompt: "Correct the error in this sentence:",
+    stimulus: "Es entspricht kein dem Original.",
+    answer: "Es entspricht nicht dem Original.",
+    metadata: {
+      cefr: "B1",
+      system: "performance",
+      module: "error-clinic",
+      tier: 2,
+      tags: ["fixit", "mutator:negation-swap"],
+      groupId: "ec:1797478788:negation-swap",
+    },
+    feedback: {
+      correct: "Found and fixed the error.",
+      common: {
+        "fixit:wrong":
+          "There is exactly one error in the sentence — re-read it clause by clause (pronoun case, verb position, negation) rather than rewriting the whole sentence.",
+      },
+    },
+  },
+  {
+    id: "perf-ec-t2-136",
+    engine: "fixit",
+    prompt: "Correct the error in this sentence:",
+    stimulus: "Ich bin Reporter, nicht Politiker.",
+    answer: "Ich bin Reporter, kein Politiker.",
+    metadata: {
+      cefr: "B1",
+      system: "performance",
+      module: "error-clinic",
+      tier: 2,
+      tags: ["fixit", "mutator:negation-swap"],
+      groupId: "ec:4239477119:negation-swap",
+    },
+    feedback: {
+      correct: "Found and fixed the error.",
+      common: {
+        "fixit:wrong":
+          "There is exactly one error in the sentence — re-read it clause by clause (pronoun case, verb position, negation) rather than rewriting the whole sentence.",
+      },
+    },
+  },
+  {
+    id: "perf-ec-t2-137",
+    engine: "fixit",
+    prompt: "Correct the error in this sentence:",
+    stimulus: "Diese Ausrede wird kein genügen.",
+    answer: "Diese Ausrede wird nicht genügen.",
+    metadata: {
+      cefr: "B1",
+      system: "performance",
+      module: "error-clinic",
+      tier: 2,
+      tags: ["fixit", "mutator:negation-swap"],
+      groupId: "ec:916012956:negation-swap",
+    },
+    feedback: {
+      correct: "Found and fixed the error.",
+      common: {
+        "fixit:wrong":
+          "There is exactly one error in the sentence — re-read it clause by clause (pronoun case, verb position, negation) rather than rewriting the whole sentence.",
+      },
+    },
+  },
+  {
+    id: "perf-ec-t2-138",
+    engine: "fixit",
+    prompt: "Correct the error in this sentence:",
+    stimulus: "Ich glaube kein, dass John an dem Skandal beteiligt war.",
+    answer: "Ich glaube nicht, dass John an dem Skandal beteiligt war.",
+    metadata: {
+      cefr: "B1",
+      system: "performance",
+      module: "error-clinic",
+      tier: 2,
+      tags: ["fixit", "mutator:negation-swap"],
+      groupId: "ec:356046695:negation-swap",
+    },
+    feedback: {
+      correct: "Found and fixed the error.",
+      common: {
+        "fixit:wrong":
+          "There is exactly one error in the sentence — re-read it clause by clause (pronoun case, verb position, negation) rather than rewriting the whole sentence.",
+      },
+    },
+  },
+  {
+    id: "perf-ec-t2-139",
+    engine: "fixit",
+    prompt: "Correct the error in this sentence:",
+    stimulus: "Dieses Thema ist kein unwichtig.",
+    answer: "Dieses Thema ist nicht unwichtig.",
+    metadata: {
+      cefr: "B1",
+      system: "performance",
+      module: "error-clinic",
+      tier: 2,
+      tags: ["fixit", "mutator:negation-swap"],
+      groupId: "ec:3532714685:negation-swap",
+    },
+    feedback: {
+      correct: "Found and fixed the error.",
+      common: {
+        "fixit:wrong":
+          "There is exactly one error in the sentence — re-read it clause by clause (pronoun case, verb position, negation) rather than rewriting the whole sentence.",
+      },
+    },
+  },
+  {
+    id: "perf-ec-t2-140",
+    engine: "fixit",
+    prompt: "Correct the error in this sentence:",
+    stimulus: "Mami ist momentan kein zu Hause.",
+    answer: "Mami ist momentan nicht zu Hause.",
+    metadata: {
+      cefr: "B1",
+      system: "performance",
+      module: "error-clinic",
+      tier: 2,
+      tags: ["fixit", "mutator:negation-swap"],
+      groupId: "ec:2295709275:negation-swap",
+    },
+    feedback: {
+      correct: "Found and fixed the error.",
+      common: {
+        "fixit:wrong":
+          "There is exactly one error in the sentence — re-read it clause by clause (pronoun case, verb position, negation) rather than rewriting the whole sentence.",
+      },
+    },
+  },
+  {
+    id: "perf-ec-t2-141",
+    engine: "fixit",
+    prompt: "Correct the error in this sentence:",
+    stimulus: "Ich wollte dich ins Gesicht spucken.",
+    answer: "Ich wollte dir ins Gesicht spucken.",
+    metadata: {
+      cefr: "B1",
+      system: "performance",
+      module: "error-clinic",
+      tier: 2,
+      tags: ["fixit", "mutator:pronoun-case"],
+      groupId: "ec:1315304309:pronoun-case",
+    },
+    feedback: {
+      correct: "Found and fixed the error.",
+      common: {
+        "fixit:wrong":
+          "There is exactly one error in the sentence — re-read it clause by clause (pronoun case, verb position, negation) rather than rewriting the whole sentence.",
+      },
+    },
+  },
+  {
+    id: "perf-ec-t2-142",
+    engine: "fixit",
+    prompt: "Correct the error in this sentence:",
+    stimulus: "Ich wollte den Hasen kein erschrecken.",
+    answer: "Ich wollte den Hasen nicht erschrecken.",
+    metadata: {
+      cefr: "B1",
+      system: "performance",
+      module: "error-clinic",
+      tier: 2,
+      tags: ["fixit", "mutator:negation-swap"],
+      groupId: "ec:1181306257:negation-swap",
+    },
+    feedback: {
+      correct: "Found and fixed the error.",
+      common: {
+        "fixit:wrong":
+          "There is exactly one error in the sentence — re-read it clause by clause (pronoun case, verb position, negation) rather than rewriting the whole sentence.",
+      },
+    },
+  },
+  {
+    id: "perf-ec-t2-143",
+    engine: "fixit",
+    prompt: "Correct the error in this sentence:",
+    stimulus: "Du brauchst es kein meinetwegen zu behalten.",
+    answer: "Du brauchst es nicht meinetwegen zu behalten.",
+    metadata: {
+      cefr: "B1",
+      system: "performance",
+      module: "error-clinic",
+      tier: 2,
+      tags: ["fixit", "mutator:negation-swap"],
+      groupId: "ec:1207022138:negation-swap",
+    },
+    feedback: {
+      correct: "Found and fixed the error.",
+      common: {
+        "fixit:wrong":
+          "There is exactly one error in the sentence — re-read it clause by clause (pronoun case, verb position, negation) rather than rewriting the whole sentence.",
+      },
+    },
+  },
+  {
+    id: "perf-ec-t2-144",
+    engine: "fixit",
+    prompt: "Correct the error in this sentence:",
+    stimulus: "Sie wollte ihm nicht fälschlich beschuldigen.",
+    answer: "Sie wollte ihn nicht fälschlich beschuldigen.",
+    metadata: {
+      cefr: "B1",
+      system: "performance",
+      module: "error-clinic",
+      tier: 2,
+      tags: ["fixit", "mutator:pronoun-case"],
+      groupId: "ec:2991290889:pronoun-case",
+    },
+    feedback: {
+      correct: "Found and fixed the error.",
+      common: {
+        "fixit:wrong":
+          "There is exactly one error in the sentence — re-read it clause by clause (pronoun case, verb position, negation) rather than rewriting the whole sentence.",
+      },
+    },
+  },
+  {
+    id: "perf-ec-t2-145",
+    engine: "fixit",
+    prompt: "Correct the error in this sentence:",
+    stimulus: "Sie wollte ihn kein fälschlich beschuldigen.",
+    answer: "Sie wollte ihn nicht fälschlich beschuldigen.",
+    metadata: {
+      cefr: "B1",
+      system: "performance",
+      module: "error-clinic",
+      tier: 2,
+      tags: ["fixit", "mutator:negation-swap"],
+      groupId: "ec:2991290889:negation-swap",
+    },
+    feedback: {
+      correct: "Found and fixed the error.",
+      common: {
+        "fixit:wrong":
+          "There is exactly one error in the sentence — re-read it clause by clause (pronoun case, verb position, negation) rather than rewriting the whole sentence.",
+      },
+    },
+  },
+  {
+    id: "perf-ec-t2-146",
+    engine: "fixit",
+    prompt: "Correct the error in this sentence:",
+    stimulus: "Der tote Taxifahrer war nicht Zigeuner.",
+    answer: "Der tote Taxifahrer war kein Zigeuner.",
+    metadata: {
+      cefr: "B1",
+      system: "performance",
+      module: "error-clinic",
+      tier: 2,
+      tags: ["fixit", "mutator:negation-swap"],
+      groupId: "ec:3367583432:negation-swap",
+    },
+    feedback: {
+      correct: "Found and fixed the error.",
+      common: {
+        "fixit:wrong":
+          "There is exactly one error in the sentence — re-read it clause by clause (pronoun case, verb position, negation) rather than rewriting the whole sentence.",
+      },
+    },
+  },
+  {
+    id: "perf-ec-t2-147",
+    engine: "fixit",
+    prompt: "Correct the error in this sentence:",
+    stimulus: "Hätten Sie kein auch eine billigere Ausgabe?",
+    answer: "Hätten Sie nicht auch eine billigere Ausgabe?",
+    metadata: {
+      cefr: "B1",
+      system: "performance",
+      module: "error-clinic",
+      tier: 2,
+      tags: ["fixit", "mutator:negation-swap"],
+      groupId: "ec:2026852039:negation-swap",
+    },
+    feedback: {
+      correct: "Found and fixed the error.",
+      common: {
+        "fixit:wrong":
+          "There is exactly one error in the sentence — re-read it clause by clause (pronoun case, verb position, negation) rather than rewriting the whole sentence.",
+      },
+    },
+  },
+  {
+    id: "perf-ec-t2-148",
+    engine: "fixit",
+    prompt: "Correct the error in this sentence:",
+    stimulus: "Ich bin auch nicht Prinz.",
+    answer: "Ich bin auch kein Prinz.",
+    metadata: {
+      cefr: "B1",
+      system: "performance",
+      module: "error-clinic",
+      tier: 2,
+      tags: ["fixit", "mutator:negation-swap"],
+      groupId: "ec:1313825777:negation-swap",
+    },
+    feedback: {
+      correct: "Found and fixed the error.",
+      common: {
+        "fixit:wrong":
+          "There is exactly one error in the sentence — re-read it clause by clause (pronoun case, verb position, negation) rather than rewriting the whole sentence.",
+      },
+    },
+  },
+  {
+    id: "perf-ec-t2-149",
+    engine: "fixit",
+    prompt: "Correct the error in this sentence:",
+    stimulus: "John machte mich ein Angebot, dass ich nicht ablehnen konnte.",
+    answer: "John machte mir ein Angebot, dass ich nicht ablehnen konnte.",
+    metadata: {
+      cefr: "B1",
+      system: "performance",
+      module: "error-clinic",
+      tier: 2,
+      tags: ["fixit", "mutator:pronoun-case"],
+      groupId: "ec:3704280355:pronoun-case",
+    },
+    feedback: {
+      correct: "Found and fixed the error.",
+      common: {
+        "fixit:wrong":
+          "There is exactly one error in the sentence — re-read it clause by clause (pronoun case, verb position, negation) rather than rewriting the whole sentence.",
+      },
+    },
+  },
+  {
+    id: "perf-ec-t2-150",
+    engine: "fixit",
+    prompt: "Correct the error in this sentence:",
+    stimulus: "John machte mir ein Angebot, dass ich kein ablehnen konnte.",
+    answer: "John machte mir ein Angebot, dass ich nicht ablehnen konnte.",
+    metadata: {
+      cefr: "B1",
+      system: "performance",
+      module: "error-clinic",
+      tier: 2,
+      tags: ["fixit", "mutator:negation-swap"],
+      groupId: "ec:3704280355:negation-swap",
+    },
+    feedback: {
+      correct: "Found and fixed the error.",
+      common: {
+        "fixit:wrong":
+          "There is exactly one error in the sentence — re-read it clause by clause (pronoun case, verb position, negation) rather than rewriting the whole sentence.",
+      },
+    },
+  },
+  {
+    id: "perf-ec-t2-151",
+    engine: "fixit",
+    prompt: "Correct the error in this sentence:",
+    stimulus: "Wir sind jetzt kein aktiv.",
+    answer: "Wir sind jetzt nicht aktiv.",
+    metadata: {
+      cefr: "B1",
+      system: "performance",
+      module: "error-clinic",
+      tier: 2,
+      tags: ["fixit", "mutator:negation-swap"],
+      groupId: "ec:4142735711:negation-swap",
+    },
+    feedback: {
+      correct: "Found and fixed the error.",
+      common: {
+        "fixit:wrong":
+          "There is exactly one error in the sentence — re-read it clause by clause (pronoun case, verb position, negation) rather than rewriting the whole sentence.",
+      },
+    },
+  },
+  {
+    id: "perf-ec-t2-152",
+    engine: "fixit",
+    prompt: "Correct the error in this sentence:",
+    stimulus: "Seit haben vorgestern sie andauernd bei uns angerufen.",
+    answer: "Seit vorgestern haben sie andauernd bei uns angerufen.",
+    metadata: {
+      cefr: "B1",
+      system: "performance",
+      module: "error-clinic",
+      tier: 2,
+      tags: ["fixit", "mutator:v2-word-order"],
+      groupId: "ec:2238473215:v2-word-order",
+    },
+    feedback: {
+      correct: "Found and fixed the error.",
+      common: {
+        "fixit:wrong":
+          "There is exactly one error in the sentence — re-read it clause by clause (pronoun case, verb position, negation) rather than rewriting the whole sentence.",
+      },
+    },
+  },
+  {
+    id: "perf-ec-t2-153",
+    engine: "fixit",
+    prompt: "Correct the error in this sentence:",
+    stimulus: "Meine Quellen sagen mich, dass die Russen etwas planen.",
+    answer: "Meine Quellen sagen mir, dass die Russen etwas planen.",
+    metadata: {
+      cefr: "B1",
+      system: "performance",
+      module: "error-clinic",
+      tier: 2,
+      tags: ["fixit", "mutator:pronoun-case"],
+      groupId: "ec:4037874966:pronoun-case",
+    },
+    feedback: {
+      correct: "Found and fixed the error.",
+      common: {
+        "fixit:wrong":
+          "There is exactly one error in the sentence — re-read it clause by clause (pronoun case, verb position, negation) rather than rewriting the whole sentence.",
+      },
+    },
+  },
+  {
+    id: "perf-ec-t2-154",
+    engine: "fixit",
+    prompt: "Correct the error in this sentence:",
+    stimulus: "Glücklicherweise benötige ich deine Zustimmung kein.",
+    answer: "Glücklicherweise benötige ich deine Zustimmung nicht.",
+    metadata: {
+      cefr: "B1",
+      system: "performance",
+      module: "error-clinic",
+      tier: 2,
+      tags: ["fixit", "mutator:negation-swap"],
+      groupId: "ec:110847928:negation-swap",
+    },
+    feedback: {
+      correct: "Found and fixed the error.",
+      common: {
+        "fixit:wrong":
+          "There is exactly one error in the sentence — re-read it clause by clause (pronoun case, verb position, negation) rather than rewriting the whole sentence.",
+      },
+    },
+  },
+  {
+    id: "perf-ec-t2-155",
+    engine: "fixit",
+    prompt: "Correct the error in this sentence:",
+    stimulus:
+      "Vor paar ein Jahren habe ich meiner Stiefmutter zum Muttertag einen Anhänger geschenkt.",
+    answer:
+      "Vor ein paar Jahren habe ich meiner Stiefmutter zum Muttertag einen Anhänger geschenkt.",
+    metadata: {
+      cefr: "B1",
+      system: "performance",
+      module: "error-clinic",
+      tier: 2,
+      tags: ["fixit", "mutator:v2-word-order"],
+      groupId: "ec:1809614101:v2-word-order",
+    },
+    feedback: {
+      correct: "Found and fixed the error.",
+      common: {
+        "fixit:wrong":
+          "There is exactly one error in the sentence — re-read it clause by clause (pronoun case, verb position, negation) rather than rewriting the whole sentence.",
+      },
+    },
+  },
+  {
+    id: "perf-ec-t2-156",
+    engine: "fixit",
+    prompt: "Correct the error in this sentence:",
+    stimulus: "Ich bin kein ausgerüstet für das Gelände.",
+    answer: "Ich bin nicht ausgerüstet für das Gelände.",
+    metadata: {
+      cefr: "B1",
+      system: "performance",
+      module: "error-clinic",
+      tier: 2,
+      tags: ["fixit", "mutator:negation-swap"],
+      groupId: "ec:3493869078:negation-swap",
+    },
+    feedback: {
+      correct: "Found and fixed the error.",
+      common: {
+        "fixit:wrong":
+          "There is exactly one error in the sentence — re-read it clause by clause (pronoun case, verb position, negation) rather than rewriting the whole sentence.",
+      },
+    },
+  },
 ];

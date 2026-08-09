@@ -11,4 +11,27 @@ describe("validateTokenOrder", () => {
   it("rejects non-array", () => {
     expect(validateTokenOrder(["a"], "a").ok).toBe(false);
   });
+
+  it("rejects an alternate order when no alternates are given", () => {
+    expect(
+      validateTokenOrder(
+        ["Ich", "gehe", "trotzdem"],
+        ["trotzdem", "gehe", "Ich"],
+      ).ok,
+    ).toBe(false);
+  });
+
+  it("accepts a provided alternate order", () => {
+    const expected = ["Ich", "gehe", "trotzdem"];
+    const alt = ["Trotzdem", "gehe", "ich"];
+    expect(validateTokenOrder(expected, alt, [alt]).ok).toBe(true);
+  });
+
+  it("rejects an order matching neither the solution nor any alternate", () => {
+    const expected = ["Ich", "gehe", "trotzdem"];
+    const alt = ["Trotzdem", "gehe", "ich"];
+    expect(
+      validateTokenOrder(expected, ["gehe", "Ich", "trotzdem"], [alt]).ok,
+    ).toBe(false);
+  });
 });

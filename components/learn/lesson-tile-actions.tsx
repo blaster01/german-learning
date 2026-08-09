@@ -50,7 +50,12 @@ export function LessonTileActions({ slug }: { slug: string }) {
 
         if (!enabled || loading) {
           return (
-            <span key={mode} className={baseClass} aria-disabled="true" title={`No ${label.toLowerCase()} items yet`}>
+            <span
+              key={mode}
+              className={baseClass}
+              aria-disabled="true"
+              title={`No ${label.toLowerCase()} items yet`}
+            >
               <Icon className="h-3 w-3" />
               {label}
             </span>
