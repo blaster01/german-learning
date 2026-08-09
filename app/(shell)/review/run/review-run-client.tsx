@@ -11,7 +11,7 @@ import { cn } from "@/lib/utils";
  * The "Continue" CTA on the home/profile cards routes here. It has no
  * content of its own — it picks the most useful next session (most items
  * due for review, falling back to "New" in the first module with unseen
- * items, respecting the daily new-card budget) and redirects there.
+ * items) and redirects there.
  */
 export function ReviewRunClient() {
   const router = useRouter();
@@ -24,14 +24,9 @@ export function ReviewRunClient() {
         const { getProgressRepo } = await import("@/lib/storage/index");
         const { CONTENT_MODULE_META, moduleSlugAndTierForItemId } =
           await import("@/lib/content/manifest");
-        const { DAILY_NEW_CARD_LIMIT } =
-          await import("@/lib/storage/constants");
 
         const repo = await getProgressRepo();
-        const [seenCards, newCardsToday] = await Promise.all([
-          repo.getSeenCards(),
-          repo.getNewCardsToday(),
-        ]);
+        const seenCards = await repo.getSeenCards();
         const now = Date.now();
 
         const dueBySlug = new Map<string, number>();
@@ -55,15 +50,13 @@ export function ReviewRunClient() {
           return;
         }
 
-        // 2. Nothing due — continue learning new material, if today's cap allows.
-        if (newCardsToday < DAILY_NEW_CARD_LIMIT) {
-          const next = CONTENT_MODULE_META.find(
-            (m) => (seenBySlug.get(m.slug) ?? 0) < m.totalCount,
-          );
-          if (next) {
-            if (!cancelled) router.replace(`/session/${next.slug}/new`);
-            return;
-          }
+        // 2. Nothing due — continue learning new material.
+        const next = CONTENT_MODULE_META.find(
+          (m) => (seenBySlug.get(m.slug) ?? 0) < m.totalCount,
+        );
+        if (next) {
+          if (!cancelled) router.replace(`/session/${next.slug}/new`);
+          return;
         }
 
         if (!cancelled) setStatus("none");
@@ -88,8 +81,8 @@ export function ReviewRunClient() {
     <Card className="p-6 text-center">
       <p className="font-semibold">You&apos;re all caught up!</p>
       <p className="mt-1 text-sm text-muted-foreground">
-        Nothing is due for review right now, and you&apos;ve reached
-        today&apos;s new-item goal.
+        Nothing is due for review right now, and you&apos;ve seen every item in
+        every module.
       </p>
       <Link
         href="/"

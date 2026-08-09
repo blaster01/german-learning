@@ -20,6 +20,7 @@ export const adjectiveEndingsTier3: ExerciseItem[] = [
     stimulus: "Ich spreche mit dem neu____ Kollegen.",
     options: ["en", "e", "er", "es"],
     answer: 0,
+    translation: "I'm talking with the new colleague.",
     feedback: FEEDBACK,
     metadata: {
       cefr: "B2",
@@ -36,6 +37,7 @@ export const adjectiveEndingsTier3: ExerciseItem[] = [
     stimulus: "Das Ende des lang____ Sommers naht.",
     options: ["en", "e", "er", "es"],
     answer: 0,
+    translation: "The end of the long summer is approaching.",
     feedback: FEEDBACK,
     metadata: {
       cefr: "C1",
@@ -53,6 +55,7 @@ export const adjectiveEndingsTier3: ExerciseItem[] = [
     stimulus: "Frisch____ Brot schmeckt am besten.",
     options: ["es", "er", "en", "e"],
     answer: 0,
+    translation: "Fresh bread tastes best.",
     feedback: FEEDBACK,
     metadata: {
       cefr: "C1",
@@ -70,6 +73,7 @@ export const adjectiveEndingsTier3: ExerciseItem[] = [
     stimulus: "Mit gut____ Willen schafft man vieles.",
     options: ["em", "en", "er", "es"],
     answer: 0,
+    translation: "With good will, one can accomplish a lot.",
     feedback: FEEDBACK,
     metadata: {
       cefr: "C1",
@@ -85,6 +89,7 @@ export const adjectiveEndingsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct adjective ending (dative plural):",
     stimulus: "Er hilft den alt____ Leuten im Dorf.",
     answer: "en",
+    translation: "He helps the old people in the village.",
     feedback: FEEDBACK,
     metadata: {
       cefr: "B2",
@@ -101,6 +106,7 @@ export const adjectiveEndingsTier3: ExerciseItem[] = [
       "Fill in the correct adjective ending (no article, nominative, feminine):",
     stimulus: "Kalt____ Milch steht im Kühlschrank.",
     answer: "e",
+    translation: "Cold milk is in the fridge.",
     feedback: FEEDBACK,
     metadata: {
       cefr: "C1",

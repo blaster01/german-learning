@@ -20,6 +20,7 @@ export const adjectiveEndingsTier2: ExerciseItem[] = [
     stimulus: "Das ist ein klein____ Garten.",
     options: ["er", "e", "en", "es"],
     answer: 0,
+    translation: "That is a small garden.",
     feedback: FEEDBACK,
     metadata: {
       cefr: "B2",
@@ -36,6 +37,7 @@ export const adjectiveEndingsTier2: ExerciseItem[] = [
     stimulus: "Das ist ein klein____ Zimmer.",
     options: ["es", "er", "en", "e"],
     answer: 0,
+    translation: "That is a small room.",
     feedback: FEEDBACK,
     metadata: {
       cefr: "B2",
@@ -52,6 +54,7 @@ export const adjectiveEndingsTier2: ExerciseItem[] = [
     stimulus: "Das ist eine schön____ Wohnung.",
     options: ["e", "er", "en", "es"],
     answer: 0,
+    translation: "That is a beautiful apartment.",
     feedback: FEEDBACK,
     metadata: {
       cefr: "B2",
@@ -68,6 +71,7 @@ export const adjectiveEndingsTier2: ExerciseItem[] = [
     stimulus: "Ich habe einen neu____ Job gefunden.",
     options: ["en", "e", "er", "es"],
     answer: 0,
+    translation: "I found a new job.",
     feedback: FEEDBACK,
     metadata: {
       cefr: "B2",
@@ -84,6 +88,7 @@ export const adjectiveEndingsTier2: ExerciseItem[] = [
     stimulus: "Mein alt____ Auto ist kaputt.",
     options: ["es", "er", "en", "e"],
     answer: 0,
+    translation: "My old car is broken.",
     feedback: FEEDBACK,
     metadata: {
       cefr: "B2",
@@ -99,6 +104,7 @@ export const adjectiveEndingsTier2: ExerciseItem[] = [
     prompt: "Fill in the correct adjective ending:",
     stimulus: "Sie hat keine gut____ Ausrede.",
     answer: "e",
+    translation: "She doesn't have a good excuse.",
     feedback: FEEDBACK,
     metadata: {
       cefr: "B2",
@@ -114,6 +120,7 @@ export const adjectiveEndingsTier2: ExerciseItem[] = [
     prompt: "Fill in the correct adjective ending:",
     stimulus: "Das war ein interessant____ Film.",
     answer: "er",
+    translation: "That was an interesting movie.",
     feedback: FEEDBACK,
     metadata: {
       cefr: "B2",

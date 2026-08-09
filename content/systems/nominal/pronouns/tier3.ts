@@ -9,6 +9,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Die Welt wird in ____ den Retter meines Volkes sehen.",
     answer: "mir",
+    translation: "The world will see me as the savior of my people.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -31,6 +33,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Möchtest ____ ein schönes kühles Glas Limonade?",
     answer: "du",
+    translation: "Wouldn't you like a nice cool glass of lemonade?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -53,6 +57,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Um den Hals dieses Jungen liegt ein Anker und der bist ____.",
     answer: "du",
+    translation: "There is an anchor around that boy's neck, and it is you.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -75,6 +81,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Sag mir, dass ____ paranoid oder so etwas bin.",
     answer: "ich",
+    translation: "Tell me I'm paranoid or something.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -98,6 +106,9 @@ export const pronounsTier3: ExerciseItem[] = [
     stimulus:
       "Nun, die Alarme würden losgehen und ____ würdest vom Sicherheitsdienst weggeschleppt werden.",
     answer: "du",
+    translation:
+      "Well, the alarms would go off and you'd be dragged away by security.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -120,6 +131,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Ein wahrer Freund würde ____ beraten.",
     answer: "dich",
+    translation: "A true friend would advise you.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -142,6 +155,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Daher sind ____ sehr auf Spenden angewiesen.",
     answer: "wir",
+    translation: "For that reason, we are dependent on contributions.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -164,6 +179,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Mein Freund und ____ machten im Park ein Picknick.",
     answer: "ich",
+    translation: "My boyfriend and I took a picnic in the park.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -186,6 +203,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Das hier fand ____ etwas überraschend.",
     answer: "ich",
+    translation: "I did find this one a bit surprising.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -208,6 +227,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Nach unseren Unterlagen ist ____ verstorben.",
     answer: "er",
+    translation: "Our records indicate he's deceased.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -231,6 +252,9 @@ export const pronounsTier3: ExerciseItem[] = [
     stimulus:
       "Meine Frau und ____ spielten Geige im Bostoner Sinfonieorchester.",
     answer: "ich",
+    translation:
+      "My wife and I played violin in the Boston Symphony Orchestra.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -253,6 +277,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Jemand muss eine Truhe für ____ öffnen.",
     answer: "mich",
+    translation: "I need somebody to open a chest for me.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -275,6 +301,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Was Erziehung betrifft, hat ____ eine extreme Meinung.",
     answer: "er",
+    translation: "He holds an extreme opinion on education.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -297,6 +325,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Man darf jetzt nicht stehenbleiben, ____ müssen weitergehen.",
     answer: "wir",
+    translation: "We cannot stop now, we must keep going.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -319,6 +349,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Gut, ____ alle heute Morgen so munter zu sehen.",
     answer: "euch",
+    translation: "Good to see everybody so cheerful this morning.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -341,6 +373,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Es ist für die Forschung, nicht militärisch, so denke ____.",
     answer: "ich",
+    translation: "I think it's research, not military.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -363,6 +397,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Es ist fast wie die Illustration, bin ____ erstaunt.",
     answer: "ich",
+    translation: "It almost like the illustration, I am amazed.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -385,6 +421,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Es wird Feierabend sein, bevor ____ damit fertig wirst.",
     answer: "du",
+    translation: "It will be quitting time before you get that done.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -407,6 +445,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Vielleicht wollte ____ mich nicht wirklich anheuern.",
     answer: "er",
+    translation: "Perhaps he didn't really want to hire me.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -429,6 +469,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Aber ____ können nichts mehr rauswerfen.",
     answer: "wir",
+    translation: "But there's nothing else we can throw out.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -451,6 +493,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Wird ____ Erfolg haben oder scheitern?",
     answer: "er",
+    translation: "Will he succeed or fail?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -473,6 +517,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Er sagt, ____ bist sein Patron.",
     answer: "du",
+    translation: "He says you're his patron.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -495,6 +541,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Vielleicht können ____ den Hai ja ablenken.",
     answer: "wir",
+    translation: "Maybe we can distract the shark.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -517,6 +565,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Aber ____ kannst es für mich anzünden, John.",
     answer: "du",
+    translation: "But you can light it for me, John.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -539,6 +589,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Solange Sie kooperieren, kann ____ weiteratmen.",
     answer: "er",
+    translation: "As long as you cooperate, he gets to keep on breathing.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -561,6 +613,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Sagen Sie dem Helikopter ____ soll sich weiter bereithalten.",
     answer: "er",
+    translation: "Tell the helicopter to stand by.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -583,6 +637,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Mein Gott, ____ bist allmächtig.",
     answer: "du",
+    translation: "Dear God, you are almighty.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -606,6 +662,9 @@ export const pronounsTier3: ExerciseItem[] = [
     stimulus:
       "Und seit dem Moment klebte sie wie ein verlorener Welpe an ____.",
     answer: "dir",
+    translation:
+      "And from that moment, she was glued to you like a lost puppy.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -628,6 +687,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Du sollst wissen, ____ bin süchtig nach Nasenspray.",
     answer: "ich",
+    translation: "You know, I'm addicted to nasal spray.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -650,6 +711,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Würdest ____ bitte das Fenster zumachen?",
     answer: "du",
+    translation: "Would you please close that window?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -672,6 +735,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Dann rauben ____ mal ein Museum aus.",
     answer: "wir",
+    translation: "Then let's go rob a museum.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -694,6 +759,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "In der Apotheke, ____ holte Janes Medizin ab.",
     answer: "ich",
+    translation: "At the pharmacy, I picked up Jane's medicine.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -716,6 +783,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Vielleicht habe ____ seidene Laken erwartet.",
     answer: "ich",
+    translation: "Maybe I expected there to be silk sheets.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -738,6 +807,9 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Außer seiner Erscheinung ist ____ nichts vertraut.",
     answer: "mir",
+    translation:
+      "Except for his features, there is nothing about him I find familiar.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -760,6 +832,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Mein Busen ist gewachsen und hat ____ meine Balance ruiniert.",
     answer: "mir",
+    translation: "My bosoms came in and ruined my balance.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -782,6 +856,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Diesbezüglich kann ____ also jegliche Zusicherung geben.",
     answer: "ich",
+    translation: "I can, therefore, give you every assurance on this subject.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -804,6 +880,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Doch zuerst werde ____ dich foltern.",
     answer: "ich",
+    translation: "But first, I will torture you.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -827,6 +905,8 @@ export const pronounsTier3: ExerciseItem[] = [
     stimulus:
       "Und vielleicht ist das der Grund, warum ____ Sie so faszinieren.",
     answer: "wir",
+    translation: "And perhaps that's the reason that we fascinate you so.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -849,6 +929,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Jemand hat ____ eine Nachricht hinterlassen.",
     answer: "dir",
+    translation: "Someone left you a message.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -872,6 +954,9 @@ export const pronounsTier3: ExerciseItem[] = [
     stimulus:
       "Deshalb können ____ ausschließlich Journalisten den Zugang zum Download- Bereich gewähren.",
     answer: "wir",
+    translation:
+      "Therefore, we can only grant access to the download area to journalists.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -894,6 +979,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "In seinem Alter sollte ____ allein antworten können.",
     answer: "er",
+    translation: "At his age, he should be able to answer by himself.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -917,6 +1004,8 @@ export const pronounsTier3: ExerciseItem[] = [
     stimulus:
       "Denk mal drüber nach, wie ____ aus dem Beruf eine Berufung machst.",
     answer: "du",
+    translation: "And think about how to turn your profession into a vocation.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -939,6 +1028,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Lassen Sie ____ ohne weitere Unterbrechungen fortfahren.",
     answer: "uns",
+    translation: "Now, without any further interruptions, let's proceed.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -962,6 +1053,9 @@ export const pronounsTier3: ExerciseItem[] = [
     stimulus:
       "Eine Lieblingstheorie von ____ ist, dass man die Dinge aus der Distanz anschauen sollte.",
     answer: "mir",
+    translation:
+      "A pet theory of mine is that things should be seen from a distance.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -984,6 +1078,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Jane, ____ musst mich hindurch leiten.",
     answer: "du",
+    translation: "Jane, you must guide me through it.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -1006,6 +1102,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Dann werde ____ dich bei der Station absetzen.",
     answer: "ich",
+    translation: "So, I'll drop you off at the station.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -1028,6 +1126,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Klingt, als ob sie in ____ verknallt war.",
     answer: "dich",
+    translation: "It sounds like she had a crush on you.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -1050,6 +1150,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Bis auf die Kopfverletzung ist ____ körperlich gesund.",
     answer: "er",
+    translation: "Other than the head injury, he's physically stable.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -1072,6 +1174,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Vielleicht sollte ____ sie einfach meiden.",
     answer: "ich",
+    translation: "Maybe I'll just avoid her.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -1094,6 +1198,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Kämpfen ____ also unsere eigene Schlacht.",
     answer: "wir",
+    translation: "So, let us fight our own battle.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -1116,6 +1222,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Wenn der Summer nicht richtig ertönt, ist ____ zu ersetzen.",
     answer: "er",
+    translation: "If the buzzer doesn't sound correct, replace it.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -1138,6 +1246,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Nein, ____ habe letztens seinen Namen gehört.",
     answer: "ich",
+    translation: "No, I heard his name the other day.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -1160,6 +1270,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Jetzt wurde ____ ein wenig bange.",
     answer: "mir",
+    translation: "Now I was getting a little anxious.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -1182,6 +1294,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Dann müssen ____ irgendwelchen Hebel finden.",
     answer: "wir",
+    translation: "Then we'll have to find some lever.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -1205,6 +1319,9 @@ export const pronounsTier3: ExerciseItem[] = [
     stimulus:
       "Daraus können ____ das Argument ableiten, dass große Bevölkerungsverschiebungen nicht das Resultat ökonomischer Veränderungen sind.",
     answer: "wir",
+    translation:
+      "From this, we can derive the argument that major population shifts are not the result of economic change.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -1227,6 +1344,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Sie müssen verstehen, ____ bin der Aufseher des Gefängnisses.",
     answer: "ich",
+    translation: "You have to understand I am the warden of a prison.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -1249,6 +1368,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Dann können ____ den Algorithmus fortsetzen.",
     answer: "wir",
+    translation: "Then we can continue the algorithm.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -1271,6 +1392,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Hören Sie, Wachtmeister, ____ brauche Ihre Hilfe.",
     answer: "ich",
+    translation: "Now, look, Sergeant, I need your help.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -1293,6 +1416,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Aber zumindest bin ____ ein Zauberer.",
     answer: "ich",
+    translation: "But at least, I'm a wizard.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -1316,6 +1441,9 @@ export const pronounsTier3: ExerciseItem[] = [
     stimulus:
       "Natürlich gebietet die Demokratie, dass ____ uns auch gegenteilige Ansichten anhören.",
     answer: "wir",
+    translation:
+      "Of course, democracy demands that we listen to contradictory views as well.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -1339,6 +1467,9 @@ export const pronounsTier3: ExerciseItem[] = [
     stimulus:
       "Was meinst ____, welcher Gedanke die stärkste Auswirkung auf die Engländer im Mittelalter hatte?",
     answer: "du",
+    translation:
+      "What thought do you think had the biggest impact on the English in the Middle Ages?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -1362,6 +1493,9 @@ export const pronounsTier3: ExerciseItem[] = [
     stimulus:
       "Hier sollten ____ Machbares doch nicht mit Wunschvorstellungen verwechseln.",
     answer: "wir",
+    translation:
+      "We should not confuse achievable goals with a wish list here.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -1385,6 +1519,8 @@ export const pronounsTier3: ExerciseItem[] = [
     stimulus:
       "Die linke Ader in seiner Schläfe pulsiert, wenn ____ wütend wird.",
     answer: "er",
+    translation: "His left vein in his temple pulsates when he gets angry.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -1407,6 +1543,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Dann sag mir wenigstens, warum ____ grinst.",
     answer: "du",
+    translation: "Tell me then at least why you're grinning.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -1430,6 +1568,9 @@ export const pronounsTier3: ExerciseItem[] = [
     stimulus:
       "Was bedeutet, dass nur eine Person ____ aus deiner Grube lassen kann.",
     answer: "dich",
+    translation:
+      "Which means there's only one person who can let you out of the pit.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -1452,6 +1593,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "John zeigt ____ dein Quartier.",
     answer: "dir",
+    translation: "John will show you to your quarters.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -1474,6 +1617,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Versuchen Sie nicht, ____ zu trösten.",
     answer: "mich",
+    translation: "Don't try to console me.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -1496,6 +1641,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Das ist das Europa, nach dem ____ streben sollten.",
     answer: "wir",
+    translation: "That is the Europe we should strive for.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -1518,6 +1665,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Da müssen ____ unsere Kleidung hinbringen.",
     answer: "wir",
+    translation: "We have to bring our clothes there.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -1540,6 +1689,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Laut Wachmann verließ ____ das Zimmer nicht.",
     answer: "er",
+    translation: "The security guard said he never left the room.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -1562,6 +1713,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Siehst ____ oben auf dem Bildschirm die Menüleiste?",
     answer: "du",
+    translation: "Can you see the menu bar at the top of the screen?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -1584,6 +1737,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Und jetzt können ____ diesen Ort zur Hölle pusten.",
     answer: "wir",
+    translation: "And now we can blow this place to hell.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -1606,6 +1761,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Nie wieder werde ____ meine Genialität prostituieren.",
     answer: "ich",
+    translation: "I will never again prostitute my genius.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -1628,6 +1785,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Wenn die Verdacht schöpfen, werden sie ____ umzingeln.",
     answer: "uns",
+    translation: "If they feel anything wrong, they'll surround us.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -1650,6 +1809,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Der vorliegende Bereich darf ____ nicht gleichgültig lassen.",
     answer: "uns",
+    translation: "This area should not leave us indifferent.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -1672,6 +1833,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Sie verleihen ____ ihre jährliche humanitäre Auszeichnung.",
     answer: "mir",
+    translation: "They're bestowing me with their annual Humanitarian Award.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -1695,6 +1858,8 @@ export const pronounsTier3: ExerciseItem[] = [
     stimulus:
       "Ein Mädchen tauschte mit ____ eine Orange für ein Stückchen Kuchen.",
     answer: "mir",
+    translation: "A girl gave me an orange in exchange for a piece of cake.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -1717,6 +1882,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Deshalb müssen Frauen wie ____ zusammenhalten.",
     answer: "wir",
+    translation: "That's why women like us need to stick together.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -1739,6 +1906,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Vielleicht bin ____ nur ein Vorwand für dich.",
     answer: "ich",
+    translation: "Perhaps I'm just your excuse.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -1761,6 +1930,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Aber ____ bin im Umgang damit geübt.",
     answer: "ich",
+    translation: "But I'm trained in its use.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -1783,6 +1954,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Sie wohnen im gleichen Block wie ____.",
     answer: "wir",
+    translation: "They live in our block.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -1805,6 +1978,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Könntest ____ mir eine der Kameras ausleihen?",
     answer: "du",
+    translation: "Would you let me borrow one of those cameras?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -1828,6 +2003,9 @@ export const pronounsTier3: ExerciseItem[] = [
     stimulus:
       "Die Aufnahme alternativer Testmethoden halten ____ für überflüssig.",
     answer: "wir",
+    translation:
+      "The inclusion of alternative test methods is, in our view, superfluous.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -1850,6 +2028,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Sie hat ____ schon zweimal vom Galgen gerettet.",
     answer: "mich",
+    translation: "She saved me from the gallows twice.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -1872,6 +2052,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Klar, ____ kann ein paar Eier zerschlagen.",
     answer: "ich",
+    translation: "Sure, I can smash some eggs.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -1894,6 +2076,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Oh, verflixt, ____ habe meine Karte vergessen.",
     answer: "ich",
+    translation: "Darn, I forgot my card.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -1916,6 +2100,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Sie müssen ____ bei einem psychologischen Profil helfen.",
     answer: "mir",
+    translation: "I need you to help me with a psychological profile.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -1938,6 +2124,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Außerdem muss ____ zur Bank und Wechselgeld holen.",
     answer: "ich",
+    translation: "Plus, I also have to go to the bank and get change.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -1960,6 +2148,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Sie haben ____ dahinten fast getötet.",
     answer: "uns",
+    translation: "You nearly killed us back there.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -1982,6 +2172,9 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Sie musste ____ beide aufziehen, während sie Jura studierte.",
     answer: "uns",
+    translation:
+      "She's had to raise us both while going to law school at the same time.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -2004,6 +2197,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Jetzt möchte ____ Ihre Aufmerksamkeit auf dieses hier lenken.",
     answer: "ich",
+    translation: "Now I'd like to direct your attention to this.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -2026,6 +2221,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Deswegen fiel ____ beim Examen durch.",
     answer: "er",
+    translation: "That is why he failed the exam.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -2048,6 +2245,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Inwiefern ist das gut für ____?",
     answer: "uns",
+    translation: "How is that good for us?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -2070,6 +2269,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Wahrscheinlich sollten ____ bald loslegen.",
     answer: "wir",
+    translation: "We should probably get going soon.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -2092,6 +2293,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Hast ____ die lateinischen Klassiker gelesen?",
     answer: "du",
+    translation: "Have you read the Latin classics?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -2114,6 +2317,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Er sagte, ____ solle fortgehen.",
     answer: "ich",
+    translation: "He told me to leave.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -2136,6 +2341,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Zuerst erreichte ____ nur ihren Anrufbeantworter.",
     answer: "er",
+    translation: "At first, he only got her answering machine.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -2158,6 +2365,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Also suche ____ gerade nach einem Mitbewohner.",
     answer: "ich",
+    translation: "So, I'm looking for a roommate right now.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -2181,6 +2390,8 @@ export const pronounsTier3: ExerciseItem[] = [
     stimulus:
       "Halte den Mund geschlossen, sonst wirst ____ viele Käfer verschlucken.",
     answer: "du",
+    translation: "Keep your mouth closed, or you'll swallow a lot of bugs.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -2203,6 +2414,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Möge es gleich einschlagen, wenn ____ gelogen habe.",
     answer: "ich",
+    translation: "God strike me dead if I'm lying.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -2225,6 +2438,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Die Putzfrau hat ____ fast erwischt.",
     answer: "uns",
+    translation: "We almost got caught by the cleaning lady.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -2247,6 +2462,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Wahrscheinlich bin ____ nur etwas zu sensibel.",
     answer: "ich",
+    translation: "I guess I'm just a little too sensitive.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -2269,6 +2486,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Soll ____ irgendwo eine Reservierung machen?",
     answer: "ich",
+    translation: "Shall I make a reservation somewhere?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -2291,6 +2510,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Versuchst ____, meinen Trupp zu übernehmen?",
     answer: "du",
+    translation: "Are you trying to take over my squad?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -2313,6 +2534,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "ER hat mich gewarnt, aber ____ muss nachfragen.",
     answer: "ich",
+    translation: "He warned me, but, you know, I have to ask.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -2335,6 +2558,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Das sollte wirklich ____ alle in der Organisation inspirieren.",
     answer: "uns",
+    translation: "That really needs to inspire all of us in the organization.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -2357,6 +2582,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Huch, bin ____ aber erschrocken!",
     answer: "ich",
+    translation: "Yikes, I'm scared!",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -2379,6 +2606,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Übrigens täuschte ____ jeden Orgasmus vor.",
     answer: "ich",
+    translation: "By the way, I faked every orgasm.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -2401,6 +2630,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Da muss ____ wohl mein Pokerface aufsetzen.",
     answer: "ich",
+    translation: "I'll have to put on my poker face.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -2423,6 +2654,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Auf ____ zielen und dann abdrücken.",
     answer: "ihn",
+    translation: "Just point, aim and shoot.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -2445,6 +2678,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Etwas gewagt, aber ____ finde es klasse.",
     answer: "ich",
+    translation: "It's a little daring, but I think it's fun.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -2467,6 +2702,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Hoffentlich hast ____ ein Kondom benutzt.",
     answer: "du",
+    translation: "I hope you used a condom.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -2489,6 +2726,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Keiner zwang ____, Banken zu berauben.",
     answer: "ihn",
+    translation: "Nobody forced him to rob banks.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -2511,6 +2750,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Die wollten ____ keinen Sprit geben.",
     answer: "mir",
+    translation: "They wouldn't give me any gas.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -2533,6 +2774,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Er wusste, ____ würde ihn durchschauen.",
     answer: "ich",
+    translation: "He knew I'd have seen right through him.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -2555,6 +2798,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Auf der Party heute war ____ ein ausgezeichneter Gastgeber.",
     answer: "er",
+    translation: "He played an excellent host at today's party.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -2578,6 +2823,9 @@ export const pronounsTier3: ExerciseItem[] = [
     stimulus:
       "Willst ____ etwas tun, so tu es, sofern es dich glücklich macht.",
     answer: "du",
+    translation:
+      "If there's anything you want to do, you should do it if it makes you happy.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -2600,6 +2848,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Sie sollen ____ nicht für gierig halten.",
     answer: "mich",
+    translation: "I don't want you to think I'm greedy.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -2623,6 +2873,9 @@ export const pronounsTier3: ExerciseItem[] = [
     stimulus:
       "Flugzeuge ermöglichen ____, in ein paar Tagen um die Welt zu reisen.",
     answer: "uns",
+    translation:
+      "Airplanes enable us to travel around the world in a few days.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -2645,6 +2898,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Zusammen können ____ große Dinge vollbringen.",
     answer: "wir",
+    translation: "Together, we can accomplish great things.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -2667,6 +2922,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Wann bist ____ das letzte Mal mit der Metro gefahren?",
     answer: "du",
+    translation: "When was the last time you took the metro?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -2689,6 +2946,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Versprichst ____ mir, den Schleier zu tragen?",
     answer: "du",
+    translation: "Do you promise you'll wear the veil?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -2712,6 +2971,9 @@ export const pronounsTier3: ExerciseItem[] = [
     stimulus:
       "Um rechtzeitig dort zu sein, muss ____ um 19.00 Uhr zum Flughafen abfahren.",
     answer: "ich",
+    translation:
+      "In order to get there on time, I must leave for the airport at 7.00 p. m.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -2734,6 +2996,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Andernfalls würde ____ vor Langeweile umkommen.",
     answer: "ich",
+    translation: "Because otherwise, I would be dying of boredom.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -2756,6 +3020,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Aber irgendwas sagte mir, ____ soll das Radio anmachen.",
     answer: "ich",
+    translation: "But something told me to turn on the radio.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -2778,6 +3044,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Es tut mir leid, ____ habe bereits eine andere Verpflichtung.",
     answer: "ich",
+    translation: "I'm sorry, I already have another commitment.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -2800,6 +3068,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Das Wetter war nicht günstig für ____.",
     answer: "uns",
+    translation: "The weather wasn't favorable to us.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -2822,6 +3092,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Darf ____ dein Kätzchen streicheln?",
     answer: "ich",
+    translation: "Can I stroke your cat?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -2845,6 +3117,8 @@ export const pronounsTier3: ExerciseItem[] = [
     stimulus:
       "Wenn ____ so schnell mit ihnen aufbreche, wird das Verdacht erwecken.",
     answer: "ich",
+    translation: "For me to leave with you so quickly will arouse suspicion.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -2867,6 +3141,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Wo sind die Schlaufen, damit ____ die Schleppe tragen kann?",
     answer: "ich",
+    translation: "Where are the wrist loops to carry the train?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -2889,6 +3165,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Dieser Fluss bringt ____ zum gelben Pulver.",
     answer: "uns",
+    translation: "This river will lead us to the yellow powder.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -2911,6 +3189,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Sie haben ____ heute Morgen einen großen Schreck eingejagt.",
     answer: "uns",
+    translation: "You gave us a big scare this morning.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -2933,6 +3213,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Kannst ____ irgendein Instrument spielen?",
     answer: "du",
+    translation: "Do you play any instruments?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -2955,6 +3237,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Gib ____ den Aschenbecher, bitte.",
     answer: "mir",
+    translation: "Pass me the ashtray, please.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -2977,6 +3261,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Vielleicht habe ____ zu viel Parfum aufgetragen.",
     answer: "ich",
+    translation: "Perhaps I used too much perfume.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -2999,6 +3285,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Warum überdenken ____ nicht die ganze Idee?",
     answer: "wir",
+    translation: "Why don't we just rethink the whole idea?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -3021,6 +3309,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Hast ____ irgendwelche Einwände gegen diesen Plan?",
     answer: "du",
+    translation: "Do you have any objection to this plan?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -3043,6 +3333,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Wenn ____ vorsprechen willst, setz dich hin.",
     answer: "du",
+    translation: "If you want to audition, sit down.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -3065,6 +3357,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Alles klar, das sollten ____ hinkriegen.",
     answer: "wir",
+    translation: "Alright, we should be able to manage this.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -3087,6 +3381,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Der nächste Streik macht ____ Sorgen.",
     answer: "mir",
+    translation: "It's the next strike I'm worried about.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -3110,6 +3406,9 @@ export const pronounsTier3: ExerciseItem[] = [
     stimulus:
       "John sagte, dass ____ nie zuvor ein derart köstliches Mahl zu sich genommen habe.",
     answer: "er",
+    translation:
+      "John said that he'd never eaten such a delicious meal before.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -3132,6 +3431,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Sonst muss dein Vater ____ verbannen.",
     answer: "dich",
+    translation: "Otherwise, your father will have to banish you.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -3154,6 +3455,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Wenn ____ reden willst, sie ist sehr verständig.",
     answer: "du",
+    translation: "If you feel like talking, she's very understanding.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -3176,6 +3479,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "John, mein Helfer, weckt ____.",
     answer: "mich",
+    translation: "John, my helper, wakes me up.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -3199,6 +3504,9 @@ export const pronounsTier3: ExerciseItem[] = [
     stimulus:
       "Ein Schmetterling schlägt seine Flügel in Indien und ____ bekommst nicht deine Schiffsladung Wein.",
     answer: "du",
+    translation:
+      "A butterfly flaps its wings in India, and you don't get your wine shipment.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -3221,6 +3529,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Und diesem Nazi werde ____ nicht trauen.",
     answer: "ich",
+    translation: "I don't trust that Nazi.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -3243,6 +3553,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Einmal konnten ____ ihm erfolgreich ausweichen.",
     answer: "wir",
+    translation: "We have already managed to successfully avoid it once.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -3265,6 +3577,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Hättest ____ Lust auf eine Partie Schach?",
     answer: "du",
+    translation: "Would you like to play a game of chess?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -3287,6 +3601,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Sie schmeicheln ____ mit diesem Preis, vielen Dank.",
     answer: "mir",
+    translation: "You flatter me by giving me this award, I thank you.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -3310,6 +3626,8 @@ export const pronounsTier3: ExerciseItem[] = [
     stimulus:
       "Diese Angelegenheit wird Scharfsinn und Takt von ____ erfordern.",
     answer: "uns",
+    translation: "This case will demand wisdom and tact.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -3332,6 +3650,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Hier kannst ____ herumlaufen und sehen, was passiert.",
     answer: "du",
+    translation: "Here you can walk around and see what is happening.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -3354,6 +3674,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Nein, ____ habe keinen Büffel gesehen.",
     answer: "ich",
+    translation: "No, I haven't seen any buffalo.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -3376,6 +3698,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "So können ____ unsere Landwirte belohnen.",
     answer: "wir",
+    translation: "That is how we can reward our farmers.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -3398,6 +3722,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Okay, ____ trenne den seriellen Anschluss.",
     answer: "ich",
+    translation: "OK, I'm cutting the serial port connection.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -3420,6 +3746,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Die Richterin sollte ____ in Johns Obhut übergeben.",
     answer: "ihn",
+    translation: "The judge should have put him in John's care.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -3442,6 +3770,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Du bist so gerissen, aber ____ auch.",
     answer: "ich",
+    translation: "You are so sly, but so am I.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -3464,6 +3794,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Ein Hauch davon könnte ____ töten.",
     answer: "dich",
+    translation: "One whiff will kill you.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -3487,6 +3819,8 @@ export const pronounsTier3: ExerciseItem[] = [
     stimulus:
       "Irgendwie habe ____ das Gefühl, eine alte Bekanntschaft zu erneuern.",
     answer: "ich",
+    translation: "Somehow, I have the feeling of renewing an old acquaintance.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -3509,6 +3843,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Nein, ____ würde darauf nie reinfallen.",
     answer: "er",
+    translation: "No, he'd never fall for that.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -3531,6 +3867,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Zuerst muss ____ ein anderes Crewmitglied aufsuchen.",
     answer: "ich",
+    translation: "There is a crew member I must see first.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -3553,6 +3891,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Und das nächste Mal werdet ihr ____ auserwählen.",
     answer: "mich",
+    translation: "And next time, you will choose me.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -3575,6 +3915,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Der Ungar nimmt ____ noch heute mit.",
     answer: "ihn",
+    translation: "The Hungarian will take him today.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -3597,6 +3939,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Diese Dinge solltest ____ nie anrühren.",
     answer: "du",
+    translation: "You should never touch these things.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -3619,6 +3963,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Wenn ____ eingreifen, gibt es kein Zurück mehr.",
     answer: "wir",
+    translation: "Once we engage, there'll be no turning back.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -3641,6 +3987,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Nicht jeder, den ____ triffst, ist ein Schurke.",
     answer: "du",
+    translation: "Not everyone you meet is a villain.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -3663,6 +4011,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Denn ____ muss wieder einen Aufsatz schreiben.",
     answer: "ich",
+    translation: "I have to write an essay again.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -3685,6 +4035,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Also stürmen ____ und seine Frau das Schloss.",
     answer: "er",
+    translation: "So, he and his wife storm the castle.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -3707,6 +4059,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Glauben Sie ____, es war Notwehr.",
     answer: "mir",
+    translation: "Believe me, it was self-defense.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -3729,6 +4083,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Wie kleben ____ diese Sandkörner zusammen?",
     answer: "wir",
+    translation: "How do we glue those grains of sand together?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -3751,6 +4107,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Kann ____ irgendwo ungestört arbeiten?",
     answer: "ich",
+    translation: "May I work undisturbed somewhere?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -3773,6 +4131,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "John, ____ bist so begabt.",
     answer: "du",
+    translation: "John, you are so gifted.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -3795,6 +4155,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Erstens habe ____ Ihnen das Automobil nicht verkauft.",
     answer: "ich",
+    translation: "In the first place, I did not sell you this automobile.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -3817,6 +4179,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Also, ____ denke, wir können sie abfeuern.",
     answer: "ich",
+    translation: "Well, I think we can fire it.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -3839,6 +4203,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Kannst ____ bitte dein Handy auf lautlos stellen?",
     answer: "du",
+    translation: "Can you please put your phone on silent?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -3862,6 +4228,9 @@ export const pronounsTier3: ExerciseItem[] = [
     stimulus:
       "Im Sommer veranstalten ____ geführte Wanderungen mit unseren Gästen.",
     answer: "wir",
+    translation:
+      "During the summer months, we organize guided hikes for our guests.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -3885,6 +4254,9 @@ export const pronounsTier3: ExerciseItem[] = [
     stimulus:
       "Auf Wunsch des Kunden werden ____ den Raum mit Tagungstechnik ausstatten.",
     answer: "wir",
+    translation:
+      "On the request of the client, we will equip the room with conference equipment.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -3907,6 +4279,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Es würde ____ nur verwirren.",
     answer: "dich",
+    translation: "It would only confuse you.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -3929,6 +4303,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Sie übergeben Sendungen und kassieren Geld, wie ____ es machst.",
     answer: "du",
+    translation: "They deliver packages and collect money just like you do.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -3951,6 +4327,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Jetzt ist ____ eine Niete mit Jaguar.",
     answer: "er",
+    translation: "Now he's a loser with a Jaguar.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -3973,6 +4351,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Er glaubt, ____ leide an klinischer Depression.",
     answer: "ich",
+    translation: "He thinks I'm suffering from clinical depression.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -3995,6 +4375,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Na, das nenne ____ Zimmerservice.",
     answer: "ich",
+    translation: "Now, this is what I call room service.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -4017,6 +4399,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Es scheint ____ ganz passend zu sein.",
     answer: "mir",
+    translation: "It appears to be quite suitable.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -4039,6 +4423,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Kannst ____ mir ein Nummernschild identifizieren?",
     answer: "du",
+    translation: "Can you identify a number plate for me?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -4061,6 +4447,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Okay, aber ____ werde einfach wieder die Anzahl verdoppeln.",
     answer: "ich",
+    translation: "Okay, but I'll just double your number again.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -4083,6 +4471,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Wer mit ____ zusammenarbeitet, ist ein Lump.",
     answer: "ihnen",
+    translation: "Whoever works with them is a rascal.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -4105,6 +4495,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "OK, allerseits, verschwinden ____.",
     answer: "wir",
+    translation: "Okay, everybody, let's get out.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -4127,6 +4519,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Aber unglücklicherweise, musste ____ es beenden.",
     answer: "ich",
+    translation: "But, unfortunately, I had to end it.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -4149,6 +4543,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Sie half ____, seine Krawatte zu binden.",
     answer: "ihm",
+    translation: "She helped him tie his tie.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -4171,6 +4567,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Alles ist ein Wettkampf mit ____.",
     answer: "dir",
+    translation: "Everything's a competition with you.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -4193,6 +4591,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Deine Grausamkeit trifft ____ nicht mehr.",
     answer: "mich",
+    translation: "You can no longer wound me with your cruelty.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -4215,6 +4615,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Ihr könntet euch mit ____ verbünden.",
     answer: "mir",
+    translation: "You could join forces with me.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -4237,6 +4639,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Seit wann kannst ____ Hebräisch lesen?",
     answer: "du",
+    translation: "Since when can you read Hebrew?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -4259,6 +4663,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Gib ____ das bitte schriftlich.",
     answer: "mir",
+    translation: "Put that in writing, please.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -4281,6 +4687,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Es war das beste Schauspiel, das ____ je gesehen habe.",
     answer: "ich",
+    translation: "It was the best play that I had ever seen.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -4303,6 +4711,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Aber der Türhüter kann ____ nicht einlassen.",
     answer: "ihn",
+    translation: "But the guard cannot let him in.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -4325,6 +4735,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "So müssen ____ wahrscheinlich an die Sache herangehen.",
     answer: "wir",
+    translation: "That may be the way we have to approach it.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -4347,6 +4759,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Natürlich bin ____ mehr als willens zu kooperieren.",
     answer: "ich",
+    translation: "Naturally, I'm more than willing to cooperate.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -4369,6 +4783,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Sie hat ____ angeblich umgebracht.",
     answer: "ihn",
+    translation: "She allegedly killed him.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -4391,6 +4807,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Keine Angst, ____ ist der Beste im Territorium.",
     answer: "er",
+    translation: "Don't worry, he's the best in the territory.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -4413,6 +4831,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Er will sichergehen, dass ____ allein bist.",
     answer: "du",
+    translation: "He wants to be sure you're alone.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -4435,6 +4855,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Der kaiserliche Offizier lobte ____ auch.",
     answer: "dich",
+    translation: "The imperial officer praised you, too.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -4457,6 +4879,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Kannst ____ hier herunterkommen?",
     answer: "du",
+    translation: "Can you come down here?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -4479,6 +4903,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Die Portion ist zu groß für ____.",
     answer: "mich",
+    translation: "The portion is too big for me.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -4501,6 +4927,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Vielleicht kann ____ die Sache aufklären.",
     answer: "ich",
+    translation: "Perhaps I can clarify things here.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -4524,6 +4952,8 @@ export const pronounsTier3: ExerciseItem[] = [
     stimulus:
       "Die Stadt, in der ____ aufgewachsen ist, liegt östlich von Berlin.",
     answer: "er",
+    translation: "The town where he was brought up lies east of Berlin.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -4546,6 +4976,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Den Namen habe ____ nicht mitbekommen.",
     answer: "ich",
+    translation: "I didn't get the name.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -4568,6 +5000,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "OK, hier sollten ____ ein Geschütz finden.",
     answer: "wir",
+    translation: "OK, here we should find a gun.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -4590,6 +5024,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Der Schneider muss ____ ausmessen.",
     answer: "dich",
+    translation: "The tailor has to measure you.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -4612,6 +5048,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Lass ____ nicht so verrecken, Mann.",
     answer: "mich",
+    translation: "Don't let me die like this, man.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -4634,6 +5072,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Und sie geben ____ einen Vorschuss.",
     answer: "uns",
+    translation: "They will give us an advance.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -4656,6 +5096,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Bislang habe ____ es niemandem gesagt.",
     answer: "ich",
+    translation: "So far, I haven't told anyone.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -4678,6 +5120,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Du denkst, ____ kam ihretwegen?",
     answer: "ich",
+    translation: "Do you think I came for her?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -4700,6 +5144,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Vielleicht könnten ____ eine Übergabe arrangieren.",
     answer: "wir",
+    translation: "I was wondering if we could arrange a handover.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -4722,6 +5168,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Hast ____ das Handbuch gelesen?",
     answer: "du",
+    translation: "Have you read the manual?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -4745,6 +5193,8 @@ export const pronounsTier3: ExerciseItem[] = [
     stimulus:
       "Mit meinen bescheidenen Möglichkeiten bin ____ ein Sammler von Teepötten.",
     answer: "ich",
+    translation: "In my small way, I'm a collector of teapots.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -4767,6 +5217,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Liebling, ____ war viermal verheiratet.",
     answer: "ich",
+    translation: "Sweetheart, I have been married four times.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -4789,6 +5241,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Ihr Leute seid hartnäckig, das muss man ____ lassen.",
     answer: "euch",
+    translation: "You people are persistent, I'll give you that.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -4811,6 +5265,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Er wirkt sehr sympathisch, finde ____.",
     answer: "ich",
+    translation: "He seems to be very nice.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -4833,6 +5289,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Aber ____ werde nicht nur für einen Klan arbeiten.",
     answer: "ich",
+    translation: "But I will not serve any clan exclusively.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -4855,6 +5313,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Mann, welches Level bist ____?",
     answer: "du",
+    translation: "Man, what level are you?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -4878,6 +5338,8 @@ export const pronounsTier3: ExerciseItem[] = [
     stimulus:
       "Weißt ____, wir konnten einfach zusammen herumhängen und nichts tun.",
     answer: "du",
+    translation: "You know, we could just hang out together and do nothing.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -4900,6 +5362,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Mir wird schwindelig, wenn ____ zu schnell aufstehe.",
     answer: "ich",
+    translation: "I get dizzy if I stand up too fast.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -4922,6 +5386,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Heimweh ist die Sehnsucht dahin zu gehen, wo ____ herkommst.",
     answer: "du",
+    translation: "Homesickness is a longing to go back to where you are from.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -4944,6 +5410,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Und ____ konnte nichts tun, als dastehen.",
     answer: "ich",
+    translation: "And all I could do was just stand there.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -4966,6 +5434,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Sehr liebenswürdig, aber Sie verletzten ____ nicht.",
     answer: "mich",
+    translation: "That is gracious of you, but I have not been injured by you.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -4988,6 +5458,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Es ist etwas, das ____ eindringlich empfehle.",
     answer: "ich",
+    translation: "It's something I'd strongly advise.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -5010,6 +5482,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Seitdem haben ____ drei Spiele hintereinander gewonnen.",
     answer: "wir",
+    translation: "We've won three in a row since then.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -5032,6 +5506,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Dann sind ____ eine Stadt ohne einen Schmied.",
     answer: "wir",
+    translation: "Now we're a town without a blacksmith.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -5054,6 +5530,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Tut ____ leid, dass die Informationen verstreut sind.",
     answer: "mir",
+    translation: "I'm sorry this information is so scattered.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -5076,6 +5554,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Es geht leichter, wenn ____ den Gurt abnimmst.",
     answer: "du",
+    translation: "It's easier when you take the belt off.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -5098,6 +5578,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Niemand wagt es, ____ zu widersprechen.",
     answer: "ihm",
+    translation: "No one dares to contradict him.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -5120,6 +5602,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Hast ____ schon einmal türkisch gegessen?",
     answer: "du",
+    translation: "Have you ever tried Turkish food?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -5142,6 +5626,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Sie hat ____ ganz schön zugerichtet.",
     answer: "ihn",
+    translation: "She hurt him pretty bad.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -5164,6 +5650,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Wieso hat sie ____ beschatten lassen?",
     answer: "ihn",
+    translation: "Then why would she want someone to tail him?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -5186,6 +5674,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Und ____ dachte, meine Zukunft wäre öde.",
     answer: "ich",
+    translation: "And here I thought my future was bleak.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -5208,6 +5698,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Das war sehr ungeschickt von ____.",
     answer: "mir",
+    translation: "That was very clumsy of me.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -5230,6 +5722,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Von dir nehme ____ nicht einen Rubel für mich.",
     answer: "ich",
+    translation: "I don't want even one ruble from you.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -5252,6 +5746,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Mein Gott, ____ werden umkommen.",
     answer: "wir",
+    translation: "My God, we are going to die.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -5274,6 +5770,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Nein, ____ habe nicht auf der Rennbahn gewonnen.",
     answer: "ich",
+    translation: "No, I haven't been winning at the track.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -5296,6 +5794,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Aber ____ erwarte gleich einen Kurier.",
     answer: "ich",
+    translation: "But I'm expecting a courier any minute.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -5319,6 +5819,9 @@ export const pronounsTier3: ExerciseItem[] = [
     stimulus:
       "Gleichfalls müssen ____ klarmachen, dass die Europäische Union sich verändern muss.",
     answer: "wir",
+    translation:
+      "We must also make it clear that the European Union has to change.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -5341,6 +5844,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Was werdet John und ____ zu eurem Jahrestag machen?",
     answer: "du",
+    translation: "What are you and John going to do for your anniversary?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -5363,6 +5868,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Sie saugen die Seele aus ____ heraus.",
     answer: "ihm",
+    translation: "They're going to suck out his soul.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -5385,6 +5892,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Hören Sie, ____ bin kein Amateur.",
     answer: "ich",
+    translation: "Look I'm not an amateur.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -5407,6 +5916,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Diese Russen nehmen ____ höllisch unter Feuer.",
     answer: "uns",
+    translation: "Those Russians are keeping us under hellish fire.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -5429,6 +5940,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Magst ____ dich nicht getrauen?",
     answer: "du",
+    translation: "Don't you dare?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -5451,6 +5964,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Einzigartige Einfälle verhalfen ____ zu einem hohen Einkommen.",
     answer: "ihm",
+    translation: "Unique ideas helped him to earn a high income.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -5473,6 +5988,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Das nächste Mal werde ____ mich mehr anstrengen.",
     answer: "ich",
+    translation: "I'll try harder next time.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -5495,6 +6012,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Aber erst beladen ____ den Lastwagen.",
     answer: "wir",
+    translation: "But we have one more truck to load.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -5517,6 +6036,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Vielleicht sollte ____ eine Bewerbung ausfüllen.",
     answer: "ich",
+    translation: "Maybe I should fill out the application form.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -5539,6 +6060,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Mein Haar riecht, als hätte ____ Hähnchen gebraten.",
     answer: "ich",
+    translation: "My hair smells like I've been frying chicken.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -5561,6 +6084,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Vielleicht können ____ unseren Markt erweitern.",
     answer: "wir",
+    translation: "Perhaps we could expand our market.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -5583,6 +6108,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "John sagt, ____ sei in Boston geboren.",
     answer: "er",
+    translation: "John says that he was born in Boston.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -5605,6 +6132,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Stell den Motor an, bevor ____ erfrieren.",
     answer: "wir",
+    translation: "Go start the engine, before we freeze to death.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -5627,6 +6156,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "John bat Jane, ____ zu helfen, Windows zu installieren.",
     answer: "ihm",
+    translation: "John asked Jane to help him install Windows.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -5649,6 +6180,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Elite würde ____ das nicht nennen.",
     answer: "ich",
+    translation: "I wouldn't call that elite.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -5671,6 +6204,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Wenn ____ drei sage, hüpfen wir.",
     answer: "ich",
+    translation: "When I say three, hop.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -5693,6 +6228,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Warum grillen ____ nicht auf der Veranda?",
     answer: "wir",
+    translation: "Why don't we barbecue on the veranda?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -5715,6 +6252,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Jetzt lass ____ meinen neuen Schwiegersohn umarmen.",
     answer: "mich",
+    translation: "Now let me give my new son-in-law a hug.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -5737,6 +6276,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Lasst ____ die Hände heben und den Herrn preisen.",
     answer: "uns",
+    translation: "Let's lift up our hands and praise the Lord.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -5759,6 +6300,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Kannst ____ einen Vers aus dem Hamlet zitieren?",
     answer: "du",
+    translation: "Can you quote a line of Hamlet?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -5781,6 +6324,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Alles wird wieder gut, solange ____ zusammenbleiben.",
     answer: "wir",
+    translation: "As long as we stay together, everything will be all right.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -5803,6 +6348,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Philologe bin ____, kein Philosoph.",
     answer: "ich",
+    translation: "I'm a philologist, not a philosopher.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -5825,6 +6372,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Und ____ wurde an diesem Tag wiedergeboren.",
     answer: "ich",
+    translation: "That's the day I was reborn.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -5847,6 +6396,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Versuch, ____ nicht zu stressen.",
     answer: "dich",
+    translation: "Try not to stress.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -5870,6 +6421,9 @@ export const pronounsTier3: ExerciseItem[] = [
     stimulus:
       "Als Kommunikationsplattform fördern und bündeln ____ gemeinsame Entwicklungen.",
     answer: "wir",
+    translation:
+      "As a communication platform, we support and bundle development energies.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -5892,6 +6446,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Da hast ____ dir ein richtig schönes Plätzchen ausgesucht.",
     answer: "du",
+    translation: "You've found a really nice spot.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -5914,6 +6470,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Dann befestigen ____ das dickere Seil am Stahlseil.",
     answer: "wir",
+    translation: "Then, we attach this larger rope to the steel walk cable.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -5936,6 +6494,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Könnte ____ bitte das Menü haben?",
     answer: "ich",
+    translation: "May I have the menu, please?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -5958,6 +6518,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Warum trocknest ____ dir die Haare?",
     answer: "du",
+    translation: "Why are you drying your hair?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -5980,6 +6542,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Zum Glück sind ____ nicht verheiratet.",
     answer: "wir",
+    translation: "It's a good thing that we're not married.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -6002,6 +6566,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Und ____ dachte, meine Freunde wären primitiv.",
     answer: "ich",
+    translation: "And I thought my friends were primitive.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -6024,6 +6590,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Können ____ uns das später angucken?",
     answer: "wir",
+    translation: "Can we just look at this later?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -6046,6 +6614,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Und ____ habe dich auch nicht abstoßend genannt.",
     answer: "ich",
+    translation: "And I didn't call you repulsive, either.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -6068,6 +6638,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Und ____ haben gerade zweieinhalb Stunden verschwendet.",
     answer: "wir",
+    translation: "And we've just wasted two and a half hours.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -6090,6 +6662,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Als Jugendlicher warst ____ sehr fies.",
     answer: "du",
+    translation: "As a teenager, you were pretty nasty.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -6112,6 +6686,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Es ist nett von Ihnen, ____ so kurzfristig zu empfangen.",
     answer: "mich",
+    translation: "So nice of you to see me so quickly.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -6134,6 +6710,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Sehr scheu sieht sie ____ nicht aus.",
     answer: "mir",
+    translation: "She doesn't look very shy to me.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -6156,6 +6734,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Deshalb hat ____ sich so gequält.",
     answer: "er",
+    translation: "That's why he was so haunted.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -6178,6 +6758,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Wie konnten ____ das nicht mitkriegen?",
     answer: "wir",
+    translation: "How did we not realize that?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -6200,6 +6782,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Nun, ____ bin auf etwas ausgerutscht.",
     answer: "ich",
+    translation: "Well, I slipped on something.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -6223,6 +6807,8 @@ export const pronounsTier3: ExerciseItem[] = [
     stimulus:
       "Es gibt keinen Fetzen von Beweisen, dass ____ irgendetwas vorsätzlich getan haben.",
     answer: "wir",
+    translation: "There's not one shred of proof we knowingly did anything.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -6245,6 +6831,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Deshalb geben ____ so ein tolles Pärchen ab.",
     answer: "wir",
+    translation: "This is why we are such a great couple.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -6267,6 +6855,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Es tut mir leid, aber ____ sind komplett ausgebucht.",
     answer: "wir",
+    translation: "I'm sorry, but we are fully booked.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -6289,6 +6879,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Die Ausfahrt ist gleich vor ____.",
     answer: "uns",
+    translation: "The exit is right in front of us.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -6311,6 +6903,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Bringen ____ sie in die Krankenstation.",
     answer: "wir",
+    translation: "We have to get her to the infirmary.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -6333,6 +6927,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Es scheint ____ unmoralisch, ihn zu täuschen.",
     answer: "mir",
+    translation: "It does seem a little immoral to mislead him.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -6355,6 +6951,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Jetzt lass uns darüber reden, wo ____ dich einliefern können.",
     answer: "wir",
+    translation: "Now let's talk about getting you hospitalized somewhere.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -6378,6 +6976,8 @@ export const pronounsTier3: ExerciseItem[] = [
     stimulus:
       "Der Junge hat also einen Helden, jemanden, zu dem ____ aufsehen kann.",
     answer: "er",
+    translation: "The boy has got a hero, someone to look up to.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -6400,6 +7000,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Normal ist ____ so stark wie ein Ochse.",
     answer: "er",
+    translation: "Usually, he's strong as an ox.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -6422,6 +7024,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Sehr nett, aber mein Chauffeur wartet auf ____.",
     answer: "mich",
+    translation: "That's very nice of you, but my chauffeur is waiting for me.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -6444,6 +7048,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Und ____ wollte Sie schnellstens sprechen.",
     answer: "ich",
+    translation: "And I wanted to speak to you as soon as possible.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -6466,6 +7072,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Das nenne ____ eine rechtzeitige Unterbrechung.",
     answer: "ich",
+    translation: "This is what I call a timely interruption.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -6488,6 +7096,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Sie ist frustriert, wie ____ alle.",
     answer: "wir",
+    translation: "She's frustrated like all of us.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -6510,6 +7120,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Es ist unvorstellbar, was ____ gelitten hat.",
     answer: "er",
+    translation: "It's incredible what he suffered through.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -6532,6 +7144,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Jetzt müsst ihr ____ für eure Taten verantworten.",
     answer: "euch",
+    translation: "And now you must answer for what you've done.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -6554,6 +7168,9 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Jetzt entschuldige mich, ____ muss jemanden abhören.",
     answer: "ich",
+    translation:
+      "Now, if you'll excuse me, I've got a little eavesdropping to do.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -6576,6 +7193,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Denn ____ möchte es nicht versäumen.",
     answer: "ich",
+    translation: "I don't want to miss it.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -6598,6 +7217,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Sollten ____ nicht erstmals John fragen?",
     answer: "wir",
+    translation: "Shouldn't we ask John first?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -6620,6 +7241,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Was ____ heute getan hast, war absolut respektlos.",
     answer: "du",
+    translation: "What you did today was completely disrespectful.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -6642,6 +7265,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Aber für jetzt sollten ____ heimgehen.",
     answer: "wir",
+    translation: "But for now, we should go home.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -6665,6 +7290,8 @@ export const pronounsTier3: ExerciseItem[] = [
     stimulus:
       "Sehen ____ mal, was für eine Herausforderung eure Rebellion wirklich darstellt.",
     answer: "wir",
+    translation: "Let us see what challenge your rebellion truly offers.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -6687,6 +7314,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Wird ____ am Spieß hängen oder zu Hackfleisch werden?",
     answer: "er",
+    translation: "Will it be served on skewers or simply minced",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -6709,6 +7338,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Jahrelang haben Sie ____ mit solcher Verachtung angeschaut.",
     answer: "mich",
+    translation: "For years, you've looked at me with such contempt.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -6731,6 +7362,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Sie hat es nicht getan, um ____ zu beschämen.",
     answer: "dich",
+    translation: "She didn't do it to embarrass you.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -6753,6 +7386,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Hast ____ das Musical nicht gesehen?",
     answer: "du",
+    translation: "Didn't you see the musical?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -6775,6 +7410,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Sie dürfen ____ unter keinen Umständen ausweisen.",
     answer: "ihn",
+    translation: "You are not to expel him.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -6797,6 +7434,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Das bedeutet, dass ____ wieder durchatmen kann.",
     answer: "ich",
+    translation: "It means I can breathe again.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -6819,6 +7458,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Gib ____ ein Taschentuch oder so.",
     answer: "ihm",
+    translation: "Give him a handkerchief or something.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -6841,6 +7482,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Das war keine Halluzination, ____ sah und hörte sie.",
     answer: "ich",
+    translation: "It was not a hallucination, I saw and heard them.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -6863,6 +7506,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Wende nicht dein Antlitz von ____ ab.",
     answer: "ihm",
+    translation: "Don't turn your face from him.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -6885,6 +7530,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Nun ja, das muss ____ nicht nachschauen.",
     answer: "ich",
+    translation: "Well, I don't have to look that one up.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -6907,6 +7554,9 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Der Arzt sagt, ____ muss wieder eine Zeit lang ins Sanatorium.",
     answer: "ich",
+    translation:
+      "The specialist said that I have to go back to the sanatorium for a while.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -6929,6 +7579,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Das ist sehr undankbar von ____.",
     answer: "dir",
+    translation: "It's very ungrateful of you.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -6951,6 +7603,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Manchmal nimmt sie ____ zu wörtlich.",
     answer: "mich",
+    translation: "Well, sometimes she takes me a little too literally.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -6974,6 +7628,9 @@ export const pronounsTier3: ExerciseItem[] = [
     stimulus:
       "Die Ehe ist eine gute Institution, aber ____ bin nicht reif für eine Institution.",
     answer: "ich",
+    translation:
+      "Marriage is a good institution, but I'm not ready for an institution.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -6996,6 +7653,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Vielleicht sollten ____ nicht mehr grunzen.",
     answer: "wir",
+    translation: "Maybe we should stop this grunting.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -7018,6 +7677,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Weißt ____, das ist total deprimierend.",
     answer: "du",
+    translation: "You know this is totally depressing.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -7040,6 +7701,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Von jetzt an benutze ____ meine Kopfhörer.",
     answer: "ich",
+    translation: "From now on, I'll use my headphones.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -7062,6 +7725,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "All das erfordert Arbeit, Geduld und Fürsorge von ____.",
     answer: "uns",
+    translation: "All this requires work, patience, and care from us.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -7084,6 +7749,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Es ist nur ein wenig zu mild für ____.",
     answer: "mich",
+    translation: "It's a little too mild for me.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -7106,6 +7773,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Dann können ____ meine Sachen auspacken.",
     answer: "wir",
+    translation: "Then we can unpack my things.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -7128,6 +7797,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Wenn Sie zusagen, fangen ____ in zwei Tagen an.",
     answer: "wir",
+    translation: "If you accept, we can start in two days.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -7150,6 +7821,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Seine wachsende Armee nannte ____ die Brennende Legion.",
     answer: "er",
+    translation: "He referred to his growing army as the Burning Legion.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -7173,6 +7846,9 @@ export const pronounsTier3: ExerciseItem[] = [
     stimulus:
       "Wenn Sie mit Ihrem Anteil nicht zufrieden sind, werde ____ ihn etwas attraktiver machen.",
     answer: "ich",
+    translation:
+      "If you are not satisfied with your share, I'll make it a bit more attractive.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -7195,6 +7871,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Es tut ____ aufrichtig leid, Sie gekränkt zu haben.",
     answer: "mir",
+    translation: "I'm truly sorry I have offended you.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -7217,6 +7895,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Nun, diese Gewissheit haben ____ hier nicht.",
     answer: "wir",
+    translation: "Well, we don't have that certainty here.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -7239,6 +7919,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Sag mir einfach, wo ____ es hinstellen soll.",
     answer: "ich",
+    translation: "Just tell me where to put it.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -7261,6 +7943,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Die meisten Leute würden ____ für einen Freak halten.",
     answer: "mich",
+    translation: "Most people would think I was a freak.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -7283,6 +7967,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "In Ordnung, dann müssen ____ improvisieren.",
     answer: "wir",
+    translation: "All right, then, we need to improvise.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -7305,6 +7991,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Hast ____ die Taste gedrückt?",
     answer: "du",
+    translation: "Did you push the button?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -7327,6 +8015,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Es ist nur Sand, ____ werden es nachher spülen.",
     answer: "wir",
+    translation: "It's only sand, we'll rinse it.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -7350,6 +8040,8 @@ export const pronounsTier3: ExerciseItem[] = [
     stimulus:
       "Zusammen können ____ gegen die Tyrannei kämpfen, die uns kontrollieren würde.",
     answer: "wir",
+    translation: "Together, we can fight the tyranny that would control us.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -7372,6 +8064,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Zweitens muss ____ eine technische Korrektur ankündigen.",
     answer: "ich",
+    translation: "Secondly, I have a technical correction to announce.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -7394,6 +8088,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Sieh nur, ____ habe Gänsehaut.",
     answer: "ich",
+    translation: "Look, I've got goosebumps.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -7416,6 +8112,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "So stinkend kommst ____ mir gar nicht vor.",
     answer: "du",
+    translation: "You don't seem that stinky.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -7438,6 +8136,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Und ____ habe neuerdings Internet in meinem Zimmer.",
     answer: "ich",
+    translation: "And I recently got internet in my room.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -7461,6 +8161,8 @@ export const pronounsTier3: ExerciseItem[] = [
     stimulus:
       "Natürlich könnte ____ ein Gedicht über die Prinzessin verfassen.",
     answer: "ich",
+    translation: "I could, of course, write a poem about the princess.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -7483,6 +8185,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Los, aufessen, ____ haben keine Zeit!",
     answer: "wir",
+    translation: "Eat up, we haven't got all day!",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -7505,6 +8209,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Sie denken, ____ sei bekloppt?",
     answer: "ich",
+    translation: "You think I'm daft?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -7527,6 +8233,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Mit dem Helm fühlte ____ mich unbesiegbar.",
     answer: "ich",
+    translation: "Every time I put on this helmet, I feel invincible.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -7549,6 +8257,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Muss ____ jeden Mann in der Stadt zusammenschlagen?",
     answer: "ich",
+    translation: "Do I have to beat up every guy in town?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -7571,6 +8281,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Schön, ____ müssen nur dort hinkommen.",
     answer: "wir",
+    translation: "Nice, we just have to get over there.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -7593,6 +8305,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "John sagte, ____ habe Jane allein im Park sitzen sehen.",
     answer: "er",
+    translation: "John said he saw Jane sitting in the park by herself.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -7615,6 +8329,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Sag ____, wann es kitzelt.",
     answer: "mir",
+    translation: "Let me know if this tickles.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -7637,6 +8353,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Okay, dann musst ____ zurückfahren.",
     answer: "du",
+    translation: "Okay, then you have got to go back.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -7659,6 +8377,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Woher wissen Sie, wo ____ hingehören?",
     answer: "wir",
+    translation: "How do you know where we belong?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -7681,6 +8401,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Warum muss ____ immer hinfallen?",
     answer: "ich",
+    translation: "Why do I have to always fall down?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -7703,6 +8425,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Pa, hast ____ das verdächtige Poltern gehört?",
     answer: "du",
+    translation: "Dad, did you hear that suspicious cluttering?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -7725,6 +8449,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Etwas mehr Bescheidenheit täte ____ gut.",
     answer: "uns",
+    translation: "A little more modesty would do us good.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -7747,6 +8473,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Dann werde auch ____ mich bessern.",
     answer: "ich",
+    translation: "And I'll try to do better, too.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -7769,6 +8497,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Fast hätte ____ den Gag nicht kapiert.",
     answer: "ich",
+    translation: "I almost didn't get the joke.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -7791,6 +8521,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Kommenden Samstag werde ____ heiraten.",
     answer: "ich",
+    translation: "I'm getting married next Saturday.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -7814,6 +8546,9 @@ export const pronounsTier3: ExerciseItem[] = [
     stimulus:
       "Gestern sollte ____ abtreten und ein Umzug nach Montreal kam auf.",
     answer: "ich",
+    translation:
+      "Yesterday, I was asked to resign, and we were talking about moving to Montreal.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -7836,6 +8571,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Vielleicht sollten ____ das nicht überstürzen.",
     answer: "wir",
+    translation: "Maybe we shouldn't rush this.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -7858,6 +8595,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Liebe Mitbürger, ____ befinden uns im Krieg.",
     answer: "wir",
+    translation: "My fellow citizens, we are at war.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -7880,6 +8619,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Den Satz konnte ____ nicht übersetzen.",
     answer: "ich",
+    translation: "I couldn't translate the sentence.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -7902,6 +8643,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Aber ____ wollen eure Versorgung nicht reduzieren.",
     answer: "wir",
+    translation: "But we don't wish to shorten your supply.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -7924,6 +8667,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Entschuldigung, ____ suche das Klo.",
     answer: "ich",
+    translation: "Sorry, I'm looking for the loo.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -7947,6 +8692,8 @@ export const pronounsTier3: ExerciseItem[] = [
     stimulus:
       "Der Doktor sagte mir, ____ solle langsam und tief ein- und ausatmen.",
     answer: "ich",
+    translation: "The doctor told me to inhale and exhale slowly and deeply.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -7969,6 +8716,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Meine Männer und ____ wurden die Hüter der heiligen Relikte.",
     answer: "ich",
+    translation: "My men and I have become the guardians of the holy relics.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -7991,6 +8740,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Wenn er weint, kannst ____ den Kinderwagen schaukeln.",
     answer: "du",
+    translation: "When he cries, you can rock the pram.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -8013,6 +8764,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Ab jetzt gehen ____ zivilisiert miteinander um.",
     answer: "wir",
+    translation: "So from now on, we'll all be nice and civilized.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -8035,6 +8788,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Sollten ____ es nicht einem Museum stiften?",
     answer: "wir",
+    translation: "Shouldn't we donate it to a museum?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -8057,6 +8812,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Die Veränderung bei ____ war verblüffend.",
     answer: "ihnen",
+    translation: "The change in them was striking.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -8079,6 +8836,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Aber ____ glaube nicht, dass Hypnose funktioniert.",
     answer: "ich",
+    translation: "I don't think hypnosis would work.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -8101,6 +8860,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Um zu sterben, muss ____ sterblich sein.",
     answer: "er",
+    translation: "To die, he has to be mortal.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -8123,6 +8884,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Zu Hause esse ____ sie immer mit Erdnussbutter.",
     answer: "ich",
+    translation: "At home, I eat them with peanut butter.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -8145,6 +8908,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Jemand hat ____ eine Nachricht in meinem Spind hinterlassen.",
     answer: "mir",
+    translation: "Somebody left a note in my locker.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -8167,6 +8932,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Aber die Beweise gegen ____ sind überwältigend.",
     answer: "ihn",
+    translation: "But the fact is the evidence against him is overwhelming.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -8189,6 +8956,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Heute lernen ____ das Sonnensystem kennen.",
     answer: "wir",
+    translation: "Today we are learning about the solar system.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -8211,6 +8980,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Vater, ____ habe so viele Sünden zu bekennen.",
     answer: "ich",
+    translation: "Father, I've got so many sins to confess.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -8233,6 +9004,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Mein Mann war ____ untreu, das stimmt.",
     answer: "mir",
+    translation: "My husband was unfaithful, that's true.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -8255,6 +9028,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Wenigstens wissen wir jetzt, dass ____ geisteskrank bin.",
     answer: "ich",
+    translation: "At least we know I'm insane.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -8277,6 +9052,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Nie zuvor habe ____ dich so verstört gesehen.",
     answer: "ich",
+    translation: "I've never seen you so distraught.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -8299,6 +9076,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Dann müssen ____ den Virus eliminieren.",
     answer: "wir",
+    translation: "Well, we have to eliminate the virus.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -8321,6 +9100,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Ja, ____ weiß, wir sollen nicht schnüffeln.",
     answer: "ich",
+    translation: "I know we shouldn't snoop.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -8343,6 +9124,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Halten Sie die Karte bitte höher, damit ____ sie stempeln kann.",
     answer: "ich",
+    translation: "Please hold the card a little bit higher so I can stamp it.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -8365,6 +9148,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Nun ja, vielleicht könnte ____ da tatsächlich weiterhelfen.",
     answer: "ich",
+    translation: "Well, I actually might be able to help.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -8387,6 +9172,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Warum habe ____ nicht einfach Schachmatt gesagt?",
     answer: "ich",
+    translation: "Why didn't I just say checkmate?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -8410,6 +9197,9 @@ export const pronounsTier3: ExerciseItem[] = [
     stimulus:
       "Was dieses Problem anbelangt, kannst ____ dich deiner Verantwortung nicht entziehen.",
     answer: "du",
+    translation:
+      "As far as this problem is concerned, you cannot escape your responsibility.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -8432,6 +9222,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Hätte ____ nur geahnt, dass diese Chemikalien so flüchtig sind!",
     answer: "ich",
+    translation: "Who knew those chemicals would be so volatile?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -8454,6 +9246,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Dieser Sprung sollte leicht für ____ sein.",
     answer: "dich",
+    translation: "That's a jump that you should easily be able to make.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -8476,6 +9270,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Das ist leichtsinnig, sogar für ____.",
     answer: "dich",
+    translation: "This is reckless even for you.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -8498,6 +9294,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Wenn ____ es nicht loslässt, wird es dich verschlingen.",
     answer: "du",
+    translation: "If you don't let it go, it will devour you.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -8520,6 +9318,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Darauf sollten ____ folglich unsere Aufmerksamkeit richten.",
     answer: "wir",
+    translation: "That should, therefore, be the focus of our attention.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -8542,6 +9342,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Hast ____ auch ausländische Briefmarken?",
     answer: "du",
+    translation: "Do you have any foreign stamps?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -8564,6 +9366,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Besorg ____ einen Arztkittel, eine Zange und einen Hammer.",
     answer: "mir",
+    translation: "Get me a doctor's coat, some pliers and a hammer.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -8586,6 +9390,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "John, ____ haben Kuchen und Eiscreme für dich.",
     answer: "wir",
+    translation: "John, we got cake and ice cream for you.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -8608,6 +9414,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Das ist kein ungewohntes Terrain für ____.",
     answer: "mich",
+    translation: "This isn't unfamiliar territory to me.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -8630,6 +9438,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Die Kellnerin hielt ____ für einen Witwer.",
     answer: "mich",
+    translation: "The waitress thought I was a widower.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -8652,6 +9462,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Diese Gefühle kannst ____ nicht verleugnen.",
     answer: "du",
+    translation: "You can't deny these feelings.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -8674,6 +9486,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Und deswegen hast ____ versucht dich zu erhängen.",
     answer: "du",
+    translation: "And that's why you tried to hang yourself.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -8696,6 +9510,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Später brach der Funkkontakt mit ____ ab.",
     answer: "ihnen",
+    translation: "They lost radio contact with them later.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -8719,6 +9535,8 @@ export const pronounsTier3: ExerciseItem[] = [
     stimulus:
       "Dieses Jahr ist das letzte, in dem ____ mich qualifizieren kann.",
     answer: "ich",
+    translation: "This is the last year I can qualify.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -8741,6 +9559,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Es wäre auffällig, wenn ____ beide nicht da sind.",
     answer: "wir",
+    translation: "It'll be conspicuous if we're both absent.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -8764,6 +9584,8 @@ export const pronounsTier3: ExerciseItem[] = [
     stimulus:
       "Sie sagt, ____ würde den Zusammenbruch des ganzen Landes vorhersagen.",
     answer: "er",
+    translation: "She says he predicts the collapse of the whole country.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -8786,6 +9608,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Jetzt sehe ____, was es mit dem ganzen Getue auf sich hatte.",
     answer: "ich",
+    translation: "Now I can see what all the fuss has been about.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -8808,6 +9632,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Dann wird ____ klar, dass es dieses Brummen im Büro ist.",
     answer: "mir",
+    translation: "And then I realize it's that hum in the office.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -8830,6 +9656,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Siehst ____, er geht zuerst zum Makler.",
     answer: "du",
+    translation: "First, he goes to the broker.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -8853,6 +9681,8 @@ export const pronounsTier3: ExerciseItem[] = [
     stimulus:
       "Wenn ____ nicht auf die Lösung dieses Problems kommst, frag deinen Lehrer.",
     answer: "du",
+    translation: "If you can't solve this problem, ask your teacher.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -8875,6 +9705,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Macht keinen Mucks, bis ____ sage, ihr sollt laufen.",
     answer: "ich",
+    translation: "Don't make a sound till I tell you to run.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -8897,6 +9729,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Den ganzen Morgen war ____ an Janes Nippel festgesaugt.",
     answer: "er",
+    translation: "All morning he was attached to Jane's nipple.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -8919,6 +9753,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Fairerweise muss man sagen, dass nicht nur ____ armselig bist.",
     answer: "du",
+    translation: "To be fair, you aren't the only one who is pathetic.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -8941,6 +9777,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Jetzt wirst ____ keinen mehr austricksen.",
     answer: "du",
+    translation: "Now, you'll never fool anyone again.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -8964,6 +9802,8 @@ export const pronounsTier3: ExerciseItem[] = [
     stimulus:
       "Aber ____ müssen trotzdem einen Vormund bestimmen, nur für den Fall.",
     answer: "wir",
+    translation: "But we still have to pick a guardian just in case.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -8986,6 +9826,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Auf der Reise zum Berg hatten ____ einheimische Führer.",
     answer: "wir",
+    translation: "We had native guides on our trip to the mountain.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -9008,6 +9850,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Lasst ____ nicht andere große Orchester imitieren.",
     answer: "uns",
+    translation: "Let's not try to imitate other great orchestras.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -9030,6 +9874,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Man würde ____ gewaltsam zu eurem Glauben bekehren.",
     answer: "uns",
+    translation: "You would convert us to your faith by force.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -9052,6 +9898,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Ihr habt ____ wie eine Marionette benutzt.",
     answer: "mich",
+    translation: "You treated me like a puppet.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -9075,6 +9923,8 @@ export const pronounsTier3: ExerciseItem[] = [
     stimulus:
       "Die Schotten wollen nur dieselben Freiheiten, die ____ genießen.",
     answer: "wir",
+    translation: "The Scots just want the same freedoms we enjoy.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -9098,6 +9948,8 @@ export const pronounsTier3: ExerciseItem[] = [
     stimulus:
       "John hätte den Eintopf vielleicht gegessen, wenn ____ weniger salzig gewesen",
     answer: "er",
+    translation: "John might have eaten the stew if it had been less salty.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -9120,6 +9972,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Soll ____ es als Geschenk verpacken?",
     answer: "ich",
+    translation: "Should I wrap it up like a present?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -9143,6 +9997,9 @@ export const pronounsTier3: ExerciseItem[] = [
     stimulus:
       "Gratulation nochmals und danke ____ beiden für das, was ihr vollbracht",
     answer: "euch",
+    translation:
+      "Congratulations again and thank you both for what you've achieved.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -9166,6 +10023,9 @@ export const pronounsTier3: ExerciseItem[] = [
     stimulus:
       "Wie auch immer, ____ habe nicht die Befugnis, den Startschuss hierfür zu",
     answer: "ich",
+    translation:
+      "It doesn't matter either way because l don't have the authority to pull the",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -9188,6 +10048,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Soll ____ einen offiziellen Antrag für Informationen einleiten?",
     answer: "ich",
+    translation: "You want me to initiate an official request for information?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -9210,6 +10072,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Jane fährt nicht mit ____ Schi, oder?",
     answer: "uns",
+    translation: "Jane won't be skiing with us, will he?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -9232,6 +10096,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Diese Entschlossenheit, die haben ____ alle.",
     answer: "wir",
+    translation: "That determination, we all have it.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -9254,6 +10120,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Es gibt ein Kopfgeld auf ____, mein Freund.",
     answer: "dich",
+    translation: "There's a bounty on your head, my friend.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -9276,6 +10144,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Zuletzt versuchte ____, Ihre Verurteilung aufzuheben.",
     answer: "er",
+    translation: "Recently, he was trying to get your conviction overturned.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -9299,6 +10169,9 @@ export const pronounsTier3: ExerciseItem[] = [
     stimulus:
       "Das schien ____ in einer dermaßen heiklen Situation ein sehr vernünftiger",
     answer: "mir",
+    translation:
+      "This was a very sensible suggestion in such a difficult situation.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -9321,6 +10194,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Hier würde ____ eine Vorstellung inszenieren.",
     answer: "ich",
+    translation: "This is where I would stage a performance.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -9343,6 +10218,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Und das taten ____ in perfektem Einklang.",
     answer: "wir",
+    translation: "And we did this in perfect unison.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -9365,6 +10242,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Kann ____ eine Büchse aufmachen?",
     answer: "ich",
+    translation: "Can I open a can?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -9387,6 +10266,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Weil ____ der Meister und du der Lehrling bist.",
     answer: "ich",
+    translation: "Because I am the master and you are the apprentice.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -9409,6 +10290,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Vor nicht langer Zeit wurden ____ dort vom Pöbel angegriffen.",
     answer: "wir",
+    translation: "Not long ago, we were attacked by a mob there.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -9431,6 +10314,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Dann sollten Sie ____ vielleicht ein Bier spendieren.",
     answer: "mir",
+    translation: "Then you should probably buy me a beer.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -9453,6 +10338,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Na schön, lass ____ dort hineingehen.",
     answer: "uns",
+    translation: "All right, let's go in there.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -9475,6 +10362,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Jetzt sitzen ____ in der Patsche.",
     answer: "wir",
+    translation: "Now we're in big trouble.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -9497,6 +10386,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Fehler sind unvermeidlich, aber ____ müssen daraus lernen.",
     answer: "wir",
+    translation: "Mistakes are inevitable but we can improve.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -9520,6 +10411,9 @@ export const pronounsTier3: ExerciseItem[] = [
     stimulus:
       "Nein, es ist, weil ____ jedes mögliche Ergebnis durchdenke und dann",
     answer: "ich",
+    translation:
+      "No, it's because I think through every potential outcome and then I plan",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -9542,6 +10436,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Mäuschen, ____ denke, das ist nicht der richtige Zeitpunkt.",
     answer: "ich",
+    translation: "Sweetheart, I think now is not the time.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -9564,6 +10460,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Das wollte ____ auf keinen Fall andeuten.",
     answer: "ich",
+    translation: "I didn't mean to suggest that at all.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -9586,6 +10484,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Verzeihung, ____ war wohl zu hastig.",
     answer: "ich",
+    translation: "Forgive me if I acted too hastily.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -9609,6 +10509,8 @@ export const pronounsTier3: ExerciseItem[] = [
     stimulus:
       "Erst mussten Sie ____ davon überzeugen, sich wieder mit Jane zu versöhnen.",
     answer: "ihn",
+    translation: "First, you needed to convince him to reconcile with Jane.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -9631,6 +10533,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Vielleicht hat ____ auch eine Mücke gestochen.",
     answer: "mich",
+    translation: "Perhaps it's a mosquito that has bitten me.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -9653,6 +10557,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Komm, zünden ____ den Knaller an!",
     answer: "wir",
+    translation: "Let's ignite the firecracker.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -9675,6 +10581,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Wie lange hättest ____ noch absitzen müssen?",
     answer: "du",
+    translation: "How much longer did you have left to serve?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -9697,6 +10605,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "So können ____ künftig Wiederholung vermeiden.",
     answer: "wir",
+    translation: "In this way, we can discourage repetition in the future.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -9720,6 +10630,8 @@ export const pronounsTier3: ExerciseItem[] = [
     stimulus:
       "John lässt ihn noch einen Moment schmoren und dann fangen ____ an.",
     answer: "wir",
+    translation: "John is letting him stew for a moment, and then we'll begin.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -9742,6 +10654,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Die sowjetische Militärpolizei verhörte ____ weitere Tage lang.",
     answer: "ihn",
+    translation: "The Soviet military police questioned him for 20 days more.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -9764,6 +10678,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Jetzt glaubt er, ____ sei ein Superheld.",
     answer: "ich",
+    translation: "Now he thinks I'm a superhero.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -9786,6 +10702,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Aber dann dachte ____, dass es etwas offensiv sein könnte.",
     answer: "ich",
+    translation: "But then I thought that might be offensive.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -9809,6 +10727,8 @@ export const pronounsTier3: ExerciseItem[] = [
     stimulus:
       "Mir ist auch bekannt, dass ____ meine Einwilligung jederzeit zurücknehmen",
     answer: "ich",
+    translation: "I am aware that I may take my consent back in any moment.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -9831,6 +10751,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Willst ____ wirklich nicht mit hochkommen?",
     answer: "du",
+    translation: "Are you sure you don't want to come up?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -9854,6 +10776,8 @@ export const pronounsTier3: ExerciseItem[] = [
     stimulus:
       "Und bis ____ deine Zulassung wiederhast, ist das alles inoffiziell.",
     answer: "du",
+    translation: "Until you get your license back, this is all unofficial.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -9876,6 +10800,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Und obendrein bist ____ keine Frau.",
     answer: "du",
+    translation: "Moreover, you're not a woman.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -9898,6 +10824,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Auch heute höre ____ ihre Säbel sausen.",
     answer: "ich",
+    translation: "I still hear the swishing sound of their sabers",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -9921,6 +10849,9 @@ export const pronounsTier3: ExerciseItem[] = [
     stimulus:
       "Hiermit erkläre ____ den Amsterdamer Hauptbahnhof feierlich für eröffnet!",
     answer: "ich",
+    translation:
+      "I hereby solemnly declare the Amsterdam Central Station opened!",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -9944,6 +10875,9 @@ export const pronounsTier3: ExerciseItem[] = [
     stimulus:
       "Lasst ____ den Fluss überqueren und rasten im Schatten der Bäume.",
     answer: "uns",
+    translation:
+      "Let us cross over the river and rest under the shade of the trees.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -9966,6 +10900,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Aber ____ möchte Sie nicht erniedrigen.",
     answer: "ich",
+    translation: "But I don't want to humiliate you.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -9988,6 +10924,9 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Selbst ein Schlag auf den Kopf lässt ____ nur kurz verstummen.",
     answer: "ihn",
+    translation:
+      "Even a blow to the head could silence him for only a few short minutes.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -10010,6 +10949,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Oder ____ könnten ihn einfach komplett rausnehmen.",
     answer: "wir",
+    translation: "Or we could just take it out completely.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -10033,6 +10974,8 @@ export const pronounsTier3: ExerciseItem[] = [
     stimulus:
       "Abschließend möchte ____ alle achtzehn Änderungsanträge empfehlen.",
     answer: "ich",
+    translation: "Finally, I would like to recommend all eighteen amendments.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -10055,6 +10998,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Es scheint, dass ____ den Jackpot geknackt hat.",
     answer: "er",
+    translation: "So, it seems that he hit the jackpot.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -10078,6 +11023,9 @@ export const pronounsTier3: ExerciseItem[] = [
     stimulus:
       "Wenn es nach draußen ins Gebüsch entkommt, haben ____ keine Chance.",
     answer: "wir",
+    translation:
+      "If it gets outside the house into the brush, we don't stand a chance.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -10100,6 +11048,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Ihr könnt ____ nicht ewig daran klammern.",
     answer: "euch",
+    translation: "You can't cling to them forever.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -10122,6 +11072,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Wolltest ____ sie beim Lügen ertappen?",
     answer: "du",
+    translation: "Were you trying to catch her in a lie?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -10144,6 +11096,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Aber ____ will mich vergewissern, dass es derselbe Stein ist.",
     answer: "ich",
+    translation: "I only wanted to make sure it was the same stone.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -10166,6 +11120,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Mein Vater und ____ sind oft zelten gegangen.",
     answer: "ich",
+    translation: "My dad and I used to camp a lot.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -10188,6 +11144,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Dann können ____ es noch bergen.",
     answer: "wir",
+    translation: "Then we can still salvage it.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -10210,6 +11168,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Man kann wohl sehen, warum ____ der Favorit war.",
     answer: "er",
+    translation: "One can quite see why he was the favorite.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -10232,6 +11192,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Sie würden an ihm vorbeigehen, ohne ____ zu beachten.",
     answer: "ihn",
+    translation: "You would pass him without giving him a glance.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -10254,6 +11216,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Nun, wie ____ schon sagte, er ist exzentrisch.",
     answer: "ich",
+    translation: "Well, as I said, he's eccentric.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -10276,6 +11240,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Und plötzlich flog ____ über gesperrten Luftraum.",
     answer: "ich",
+    translation: "And suddenly, I was flying over restricted airspace.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -10298,6 +11264,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Erzähl denen nicht, dass ____ auf unserem Tresen aufschlug.",
     answer: "er",
+    translation: "Don't tell them he hit our counter.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -10320,6 +11288,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Die vielen Fehler möchte ____ jetzt anmerken.",
     answer: "ich",
+    translation: "It is the many defects I would like to comment on now.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -10342,6 +11312,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Aber ____ will dieses Land zurückhaben.",
     answer: "er",
+    translation: "But he does want that land back.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -10364,6 +11336,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Und außerdem bin ____ in Venezuela geboren.",
     answer: "ich",
+    translation: "I was born in Venezuela by the way.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -10387,6 +11361,8 @@ export const pronounsTier3: ExerciseItem[] = [
     stimulus:
       "Und dies ist ein Produkt, das ____ bei diesen Levels beistehen kann.",
     answer: "euch",
+    translation: "And this is a product that can assist you on these levels.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -10409,6 +11385,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Ja, ____ klingt sehr gescheit.",
     answer: "er",
+    translation: "Yes, he sounds very sensible.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -10431,6 +11409,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Ohne sie wäre ____ obdachlos gewesen.",
     answer: "ich",
+    translation: "If it wasn't for her, I would have been homeless.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -10453,6 +11433,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Zuerst müssen ____ diese kaputte Röhre entfernen.",
     answer: "wir",
+    translation: "First of all, we've got to remove this damaged tube.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -10475,6 +11457,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Vor dem Abendessen wirst ____ dich schminken.",
     answer: "du",
+    translation: "Before dinner, you will make yourself up.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -10497,6 +11481,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Vielleicht solltest ____ die Zügel etwas lockerer lassen.",
     answer: "du",
+    translation: "Maybe you need to loosen the reins a little.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -10519,6 +11505,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Vielleicht kann ____ es manuell bedienen.",
     answer: "ich",
+    translation: "I'll see if I can operate it manually.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -10541,6 +11529,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Versuchen Sie ____ nicht zu zerschmettern.",
     answer: "ihn",
+    translation: "Try not to smash it.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -10563,6 +11553,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Sie erreichen ____ auf dem Polizeirevier.",
     answer: "mich",
+    translation: "You can reach me at the police station.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -10585,6 +11577,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Nein, ____ habe nur dieses Dröhnen gehört.",
     answer: "ich",
+    translation: "No, I didn't hear anything except a roar.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -10607,6 +11601,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Bitte befreit ____ von meinem Gelübde.",
     answer: "mich",
+    translation: "I beg you now to release me of my vows.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -10629,6 +11625,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Mit einer Vorstrafe kommst ____ nie in ein College.",
     answer: "du",
+    translation: "With a criminal record, you'll never get into college now.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -10651,6 +11649,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Warum sollte das Kartell ____ beklauen wollen?",
     answer: "mich",
+    translation: "Why would the cartel want to steal from me?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -10673,6 +11673,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Die Frau ist vom Finanzamt und hinter ____ her.",
     answer: "mir",
+    translation: "That woman is from the tax office, she's after me.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -10695,6 +11697,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Der Unterschied ist, dass ____ einen Jaguar haben kann.",
     answer: "er",
+    translation: "The difference is he can have a Jaguar.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -10717,6 +11721,9 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Es wird eine Zeitlang schwierig, aber es stärkt ____.",
     answer: "uns",
+    translation:
+      "It will be difficult for some time, but it will strengthen us.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -10739,6 +11746,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Langsamer, ____ sehe die Kerbe nicht.",
     answer: "ich",
+    translation: "Slow down, I can't see the notch.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -10761,6 +11770,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Dies ist das Haus, das ____ behüten und schützen wird.",
     answer: "uns",
+    translation: "This is the house that will protect us and offer safety.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -10783,6 +11794,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Du weißt genauso gut wie ____, dass es genau andersrum war.",
     answer: "ich",
+    translation: "You know as well as I do it was the other way around.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -10806,6 +11819,9 @@ export const pronounsTier3: ExerciseItem[] = [
     stimulus:
       "Wenige Tage später brach ____ die Dreharbeiten unter dem Vorwand der",
     answer: "er",
+    translation:
+      "But a few days later, on the pretext of exhaustion, he suspended filming.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -10828,6 +11844,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Schlimmer als das war, dass ____ irische Tanzen lernen musste.",
     answer: "ich",
+    translation: "Worse than that, I had to learn Irish dancing.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -10851,6 +11869,8 @@ export const pronounsTier3: ExerciseItem[] = [
     stimulus:
       "Und ____ dachten, dass Sie ihn vielleicht etwas aufheitern könnten.",
     answer: "wir",
+    translation: "And we thought maybe you could cheer him up.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -10873,6 +11893,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Globale Ziele sind komplex und bisweilen unerreichbar für ____.",
     answer: "uns",
+    translation: "Global aims are complex and sometimes unattainable for us.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -10895,6 +11917,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Nein, samstags ist ____ nie da.",
     answer: "er",
+    translation: "No, he isn't in on Saturdays.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -10917,6 +11941,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "So sah ____ ihn noch nie bowlen.",
     answer: "ich",
+    translation: "I've never seen him bowl like this.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -10939,6 +11965,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Mit etwas Klebeband könnte ____ das Problem beheben.",
     answer: "ich",
+    translation: "I could fix it if I only had some duct tape.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -10962,6 +11990,8 @@ export const pronounsTier3: ExerciseItem[] = [
     stimulus:
       "Vielleicht können ____ diese Party schwänzen und irgendwo hingehen und",
     answer: "wir",
+    translation: "Maybe we can skip the party, go somewhere, talk.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -10984,6 +12014,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Außerdem ist ____ geizig und eifersüchtig.",
     answer: "er",
+    translation: "He's stingy and jealous, too.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -11007,6 +12039,8 @@ export const pronounsTier3: ExerciseItem[] = [
     stimulus:
       "Ansonsten verspielen ____ bei dieser Debatte jegliche Glaubwürdigkeit.",
     answer: "wir",
+    translation: "If not, we will lose any credibility in this debate.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -11029,6 +12063,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Niemand redet über all die Dinge, die ____ widerfahren sind.",
     answer: "dir",
+    translation: "Nobody talks about all the things that happen to you.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -11051,6 +12087,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Es ist ____ egal, wie viel Gliedmaßen dir fehlen.",
     answer: "mir",
+    translation: "I don't care how many limbs you're missing.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -11073,6 +12111,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Schau, ____ habe einen besseren Einfall.",
     answer: "ich",
+    translation: "Look, I have a better idea.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -11095,6 +12135,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Und das macht ____ nicht schwach oder unwürdig.",
     answer: "dich",
+    translation: "And that doesn't make you weak or unworthy.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -11117,6 +12159,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Dieses Messer war ____ sehr nützlich.",
     answer: "mir",
+    translation: "This knife was very useful to me.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -11140,6 +12184,8 @@ export const pronounsTier3: ExerciseItem[] = [
     stimulus:
       "Wenn ____ auf eine Hochschule gehen willst, lerne fleißiger Englisch.",
     answer: "du",
+    translation: "If you want to go to college, study English harder.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -11162,6 +12208,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Vielleicht erreicht sie ____ mittels der Übersetzung.",
     answer: "ihn",
+    translation: "Perhaps it will get to them through the translation.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -11184,6 +12232,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Sie werden ____ zum Leuchtturm bringen.",
     answer: "mich",
+    translation: "They're going to take me to the lighthouse.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -11207,6 +12257,8 @@ export const pronounsTier3: ExerciseItem[] = [
     stimulus:
       "Die Wahrheit ist, ____ bin kein sonderlich qualifizierter Captain.",
     answer: "ich",
+    translation: "The truth is, I'm not a particularly skilled captain.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -11230,6 +12282,8 @@ export const pronounsTier3: ExerciseItem[] = [
     stimulus:
       "Die höchste Auszeichnung ist für ____ die Genesung unserer Patienten.",
     answer: "uns",
+    translation: "Our main award is the recovery of our patients.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -11252,6 +12306,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Captain, der Schwarm holt ____ ein.",
     answer: "uns",
+    translation: "Captain, the swarm is gaining on us.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -11274,6 +12330,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Komm, holen ____ uns unser Gläschen.",
     answer: "wir",
+    translation: "Come on, let's go and get that drink.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -11297,6 +12355,8 @@ export const pronounsTier3: ExerciseItem[] = [
     stimulus:
       "Dein Vater war überglücklich, ____ endlich in seinen Armen zu halten.",
     answer: "dich",
+    translation: "Your father was overjoyed to hold you in his arms finally.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -11319,6 +12379,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Mit dir an meiner Seite fühle ____ mich unschlagbar.",
     answer: "ich",
+    translation: "I feel invincible with you by my side.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -11341,6 +12403,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Ganz koscher ist ____ die Sache auch nicht.",
     answer: "mir",
+    translation: "The thing is not quite kosher for me, either.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -11363,6 +12427,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Denn ____ wollte schon immer etwas rammen.",
     answer: "ich",
+    translation: "Because I've always wanted to ram something.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -11386,6 +12452,9 @@ export const pronounsTier3: ExerciseItem[] = [
     stimulus:
       "Zweitens müssen ____ dafür sorgen, dass Pharmaunternehmen sich mit der",
     answer: "wir",
+    translation:
+      "Secondly, we must ensure that pharmaceutical companies communicate",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -11409,6 +12478,9 @@ export const pronounsTier3: ExerciseItem[] = [
     stimulus:
       "Natürlich wünsche ____ den Landwirten die gerechteste und höchstmögliche",
     answer: "ich",
+    translation:
+      "Of course, I want to see farmers get the fairest and highest possible",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -11431,6 +12503,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Sag dem Zugführer, ____ soll die Geschwindigkeit verringern.",
     answer: "er",
+    translation: "Tell the engineer to slow down.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -11453,6 +12527,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Warum kandidierst ____ nicht für den Vorsitz?",
     answer: "du",
+    translation: "Why don't you run for chairmanship?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -11475,6 +12551,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Das ist, wie ____ die vierte Dimension wahrnehmen.",
     answer: "wir",
+    translation: "It's how we perceive the fourth dimension.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -11497,6 +12575,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Aber ____ muss meine eigene tickende Bombe entschärfen.",
     answer: "ich",
+    translation: "But I've got my own ticking bomb to defuse.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -11519,6 +12599,8 @@ export const pronounsTier3: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Hier beim Morddezernat arbeiten ____, wenn es eine Leiche gibt.",
     answer: "wir",
+    translation: "Well, here in homicide, we go to work when there's a body.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -11539,30 +12621,10 @@ export const pronounsTier3: ExerciseItem[] = [
     id: "nom-pro-t3-522",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
-    stimulus: "Was kann ____ für das Verteidigungsministerium tun?",
-    answer: "ich",
-    metadata: {
-      cefr: "B2",
-      system: "nominal",
-      module: "pronouns",
-      tier: 3,
-      tags: ["grammar:pronoun", "cloze"],
-      groupId: "pro:1135217668",
-    },
-    feedback: {
-      correct: "Correct pronoun and case.",
-      common: {
-        "match:any":
-          "Check who/what the pronoun replaces and which case the verb or preposition assigns (nominative, accusative, or dative).",
-      },
-    },
-  },
-  {
-    id: "nom-pro-t3-523",
-    engine: "cloze",
-    prompt: "Fill in the correct pronoun:",
     stimulus: "An Ihrer Stelle würde ____ die Waffe fallenlassen.",
     answer: "ich",
+    translation: "So, I would drop the gun if I were you.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -11580,11 +12642,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-524",
+    id: "nom-pro-t3-523",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Was ____ brauchen, ist eine chirurgische Säge.",
     answer: "wir",
+    translation: "What we need is a surgical saw.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -11602,11 +12666,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-525",
+    id: "nom-pro-t3-524",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Sie war, sagen ____, in einer Trance.",
     answer: "wir",
+    translation: "She was, shall we say, in a kind of trance.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -11624,11 +12690,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-526",
+    id: "nom-pro-t3-525",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Fähnrich Rager und ____ konnten entkommen.",
     answer: "ich",
+    translation: "Ensign Rager and I were lucky to have escaped.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -11646,11 +12714,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-527",
+    id: "nom-pro-t3-526",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Wenn ____ es meinem Vater erklären will, spottet er nur.",
     answer: "ich",
+    translation: "I tried to explain it to my father, and he just scoffs.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -11668,11 +12738,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-528",
+    id: "nom-pro-t3-527",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Bei einer guten Prügelei bin ____ dabei.",
     answer: "ich",
+    translation: "I'm always up for a brawl.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -11690,11 +12762,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-529",
+    id: "nom-pro-t3-528",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Dieses Bild habe ____ auf einem Flugblatt in Afrika gesehen.",
     answer: "ich",
+    translation: "I saw this picture on a leaflet in Africa.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -11712,11 +12786,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-530",
+    id: "nom-pro-t3-529",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Weil ____ ein Doktor bin und du ein Hinterwäldler.",
     answer: "ich",
+    translation: "Because I'm a doctor and you're a hillbilly.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -11734,11 +12810,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-531",
+    id: "nom-pro-t3-530",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Sie verwenden auch das lateinische Alphabet, soweit ____ weiß.",
     answer: "ich",
+    translation: "You also use the Latin alphabet as far as I know.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -11756,11 +12834,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-532",
+    id: "nom-pro-t3-531",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Man sagt, ____ habe den Krieg eigenhändig gewonnen.",
     answer: "er",
+    translation: "They say he won the war single-handedly.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -11778,11 +12858,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-533",
+    id: "nom-pro-t3-532",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Wenn wir es entfernen, könnte ____ verbluten.",
     answer: "er",
+    translation: "If we remove it, he could bleed out.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -11800,11 +12882,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-534",
+    id: "nom-pro-t3-533",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Das kannst ____ mir doch später zu Hause vorsingen.",
     answer: "du",
+    translation: "You can sing it to me at home.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -11822,11 +12906,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-535",
+    id: "nom-pro-t3-534",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Deine Tochter wartet da draußen auf ____.",
     answer: "dich",
+    translation: "Your daughter is out there waiting for you.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -11844,12 +12930,15 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-536",
+    id: "nom-pro-t3-535",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Sie wird die Stadt, die ____ liebst, verwüsten und ihr Terror wird sich viel",
     answer: "du",
+    translation:
+      "She'll devastate the city that you love, and then her terror will spread far",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -11867,11 +12956,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-537",
+    id: "nom-pro-t3-536",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "John sagte, ____ habe Bauchschmerzen, und verließ den Raum.",
     answer: "er",
+    translation: "John said he had a stomachache and left the room.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -11889,11 +12980,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-538",
+    id: "nom-pro-t3-537",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Wenn ____ dich angreift, gehe schlapp.",
     answer: "er",
+    translation: "If he attacks you, go limp.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -11911,12 +13004,15 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-539",
+    id: "nom-pro-t3-538",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Im Falle eines Scheiterns in Mazedonien befürchte ____ ein Fiasko auf dem",
     answer: "ich",
+    translation:
+      "If the situation changes for the worse in Macedonia, then I fear that will",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -11934,11 +13030,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-540",
+    id: "nom-pro-t3-539",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Noch niemand hat ____ bisher einen Flegel genannt.",
     answer: "mich",
+    translation: "No one has ever called me a boor.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -11956,11 +13054,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-541",
+    id: "nom-pro-t3-540",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Aber letztendlich war ____ eine Laus.",
     answer: "er",
+    translation: "But in the end, he was just a louse.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -11978,11 +13078,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-542",
+    id: "nom-pro-t3-541",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Mit einer gewissen Befriedigung könnte ____ hinzufügen.",
     answer: "ich",
+    translation: "With a certain satisfaction, I might add.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -12000,11 +13102,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-543",
+    id: "nom-pro-t3-542",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "In der Zukunft wollte ____ weniger verständnisvoll sein.",
     answer: "er",
+    translation: "He promised to be far less understanding in the future.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -12022,11 +13126,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-544",
+    id: "nom-pro-t3-543",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Ein Brief, den sie ____ bat zu verschicken.",
     answer: "mich",
+    translation: "A letter she asked me to send.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -12044,11 +13150,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-545",
+    id: "nom-pro-t3-544",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Es wurde ____ gesagt, der Anstieg sei zu steil.",
     answer: "uns",
+    translation: "We were told, the climb was too steep.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -12066,11 +13174,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-546",
+    id: "nom-pro-t3-545",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Weißt du, ____ finde dein Interesse ein bisschen grotesk.",
     answer: "ich",
+    translation: "You know, I find your interest in this a bit grotesque.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -12088,11 +13198,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-547",
+    id: "nom-pro-t3-546",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Jane, ____ müssen ihn taufen!",
     answer: "wir",
+    translation: "Jane, we have to baptize him!",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -12110,11 +13222,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-548",
+    id: "nom-pro-t3-547",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Jeder von ____ soll online als politischer Fanatiker auftreten.",
     answer: "euch",
+    translation: "I want you all to pose as a political zealot online.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -12132,12 +13246,15 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-549",
+    id: "nom-pro-t3-548",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Doch wie ____ schon gesagt hast, können wir als Duo großes für unsere",
     answer: "du",
+    translation:
+      "But like you said, between the pair of us, we can do great things for our",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -12155,12 +13272,14 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-550",
+    id: "nom-pro-t3-549",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Zweitens müssen ____ einen Plan für wirtschaftliche Erneuerung annehmen.",
     answer: "wir",
+    translation: "Secondly, we need to adopt a plan for economic renewal.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -12178,11 +13297,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-551",
+    id: "nom-pro-t3-550",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "In der Informatik nennen ____ das Simulation.",
     answer: "wir",
+    translation: "This is what we call, in computer science, simulation.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -12200,11 +13321,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-552",
+    id: "nom-pro-t3-551",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Halt ____ am Geländer fest.",
     answer: "dich",
+    translation: "Hold on to the handrail.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -12222,11 +13345,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-553",
+    id: "nom-pro-t3-552",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Das Hotelzimmer, wo ____ blieben, war schäbig.",
     answer: "wir",
+    translation: "The hotel room where we stayed was shabby.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -12244,12 +13369,15 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-554",
+    id: "nom-pro-t3-553",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Hiermit will ____ die Einführung abschließen und nunmehr zum eigentlichen",
     answer: "ich",
+    translation:
+      "Here I want to bring the introduction to a close and get to the real subject.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -12267,11 +13395,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-555",
+    id: "nom-pro-t3-554",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Endlich etwas, auf das ____ uns einigen können.",
     answer: "wir",
+    translation: "Finally, something we can agree on.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -12289,11 +13419,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-556",
+    id: "nom-pro-t3-555",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Vielleicht kann ____ Ihnen zum Glauben verhelfen.",
     answer: "ich",
+    translation: "But maybe I can help you believe.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -12311,11 +13443,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-557",
+    id: "nom-pro-t3-556",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Und ____ konnte keinen Moment länger wegbleiben.",
     answer: "ich",
+    translation: "And I couldn't stay away anymore.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -12333,11 +13467,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-558",
+    id: "nom-pro-t3-557",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Jane, ____ wollte Sie nicht verkuppeln.",
     answer: "ich",
+    translation: "Jane, I wasn't trying to set you up.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -12355,11 +13491,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-559",
+    id: "nom-pro-t3-558",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Gut, dann können ____ die Vorstellung überspringen.",
     answer: "wir",
+    translation: "Good, we can skip the introduction.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -12377,11 +13515,14 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-560",
+    id: "nom-pro-t3-559",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Es war eine emotionale Achterbahn, seit ____ reinkam.",
     answer: "ich",
+    translation:
+      "It's been an emotional roller coaster since I walked in here.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -12399,11 +13540,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-561",
+    id: "nom-pro-t3-560",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Kannst ____ es bis zum Ende der Frist schaffen?",
     answer: "du",
+    translation: "Can you make it before the deadline?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -12421,11 +13564,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-562",
+    id: "nom-pro-t3-561",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Und ____ fällt mausetot um.",
     answer: "er",
+    translation: "And he fell down stone-dead.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -12443,11 +13588,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-563",
+    id: "nom-pro-t3-562",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Soldaten aufsitzen, ____ ziehen sofort los!",
     answer: "wir",
+    translation: "Soldiers mount up, we're moving out now!",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -12465,11 +13612,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-564",
+    id: "nom-pro-t3-563",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Es war Johns Idee, dass ____ für ihn einspringen könnte.",
     answer: "ich",
+    translation: "It was John's idea that perhaps I could fill in for him.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -12487,11 +13636,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-565",
+    id: "nom-pro-t3-564",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Sprich zu mir, Freund, flüstere, ____ werde lauschen.",
     answer: "ich",
+    translation: "Speak to me, friend, whisper, I'll listen.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -12509,11 +13660,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-566",
+    id: "nom-pro-t3-565",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Kann jemand ____ diese Frage sinnvoll beantworten?",
     answer: "mir",
+    translation: "Can someone give me a sensible answer to this question?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -12531,11 +13684,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-567",
+    id: "nom-pro-t3-566",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Soll ____ ihn auch vermöbeln?",
     answer: "ich",
+    translation: "You want me to beat him up, too?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -12553,11 +13708,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-568",
+    id: "nom-pro-t3-567",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Wir waren zusammen, bevor ____ untertauchen musste.",
     answer: "ich",
+    translation: "I was with her before I had to disappear.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -12575,11 +13732,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-569",
+    id: "nom-pro-t3-568",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Da Jahrmarkt ist, brauche ____ jeden verfügbaren Mann.",
     answer: "ich",
+    translation: "With the fair in town, I need all the men I have right here.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -12597,11 +13756,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-570",
+    id: "nom-pro-t3-569",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Es ist dein Gehirn, ____ kann es surren hören.",
     answer: "ich",
+    translation: "It's your brain; I can hear it whirring.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -12619,12 +13780,14 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-571",
+    id: "nom-pro-t3-570",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Das würde ____ sie gerne fragen, aber dummerweise ist sie verschwunden.",
     answer: "ich",
+    translation: "I would love to ask her, but unfortunately, she's missing.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -12642,11 +13805,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-572",
+    id: "nom-pro-t3-571",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Niemand wird ____ jemals wieder misshandeln.",
     answer: "uns",
+    translation: "No one will abuse us again.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -12664,12 +13829,14 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-573",
+    id: "nom-pro-t3-572",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Die erste menschliche Handlung, die ____ erlebte, war Ablehnung.",
     answer: "ich",
+    translation: "The first human action that I experienced was rejection.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -12687,11 +13854,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-574",
+    id: "nom-pro-t3-573",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Hallo, ____ möchte einen Autodiebstahl anzeigen.",
     answer: "ich",
+    translation: "I want to report a car theft.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -12709,11 +13878,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-575",
+    id: "nom-pro-t3-574",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Nein, ____ müssen standhaft sein.",
     answer: "wir",
+    translation: "No, we have to be firm.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -12731,11 +13902,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-576",
+    id: "nom-pro-t3-575",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Von unserem Haus aus können ____ die Bucht überblicken.",
     answer: "wir",
+    translation: "We overlook the bay from our house.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -12753,11 +13926,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-577",
+    id: "nom-pro-t3-576",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Sie kauften ____ Handschuhe, einen Helm und Schlittschuhe.",
     answer: "mir",
+    translation: "They bought me gloves, a helmet, and the skates.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -12775,11 +13950,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-578",
+    id: "nom-pro-t3-577",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Das ist mehr, als ____ allein bewältigen kann.",
     answer: "ich",
+    translation: "That's more than I can manage alone.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -12797,11 +13974,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-579",
+    id: "nom-pro-t3-578",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Damit kannst ____ das Geschäft renovieren.",
     answer: "du",
+    translation: "With all that, you can renovate the shop.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -12819,11 +13998,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-580",
+    id: "nom-pro-t3-579",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Im Gegenteil, ____ finde Sie zu direkt und vulgär.",
     answer: "ich",
+    translation: "On the contrary, I find you obvious and vulgar.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -12841,11 +14022,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-581",
+    id: "nom-pro-t3-580",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Aber es kommt ____ doch jemand ablösen, oder?",
     answer: "uns",
+    translation: "But someone will come to replace us, right?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -12863,11 +14046,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-582",
+    id: "nom-pro-t3-581",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Es ist denkbar, dass ____ das Gerücht kennt.",
     answer: "er",
+    translation: "It is conceivable that he knows the rumor.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -12885,11 +14070,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-583",
+    id: "nom-pro-t3-582",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Das ist mehr ein Jaulen, glaube ____.",
     answer: "ich",
+    translation: "It's more of a yelp, I believe.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -12907,11 +14094,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-584",
+    id: "nom-pro-t3-583",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Kannst ____ dir bitte was überziehen?",
     answer: "du",
+    translation: "Can you cover your arms, please?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -12929,11 +14118,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-585",
+    id: "nom-pro-t3-584",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Wie schön, dass ____ meine Erniedrigung derart auskostest.",
     answer: "du",
+    translation: "I'm glad that you find my humiliation so entertaining.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -12951,11 +14142,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-586",
+    id: "nom-pro-t3-585",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Das war sehr impulsiv, selbst für ____.",
     answer: "mich",
+    translation: "It was pretty impulsive, even for me.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -12973,11 +14166,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-587",
+    id: "nom-pro-t3-586",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Das ist der Tramp in ____.",
     answer: "mir",
+    translation: "It's the tramp in me, I suppose.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -12995,11 +14190,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-588",
+    id: "nom-pro-t3-587",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Und ____ muss sagen, er ist wirklich sensationell.",
     answer: "ich",
+    translation: "And let me tell you, he is really sensational.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -13017,11 +14214,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-589",
+    id: "nom-pro-t3-588",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Und selbst das hat ____ nicht hinbekommen.",
     answer: "er",
+    translation: "He couldn't even get that done.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -13039,11 +14238,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-590",
+    id: "nom-pro-t3-589",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Es war, als hätte sie ____ hypnotisiert.",
     answer: "mich",
+    translation: "It's like she hypnotized me.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -13061,11 +14262,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-591",
+    id: "nom-pro-t3-590",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Er ist nicht, ____ wiederhole, nicht erstklassig.",
     answer: "ich",
+    translation: "It is not, I repeat, not first-class.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -13083,11 +14286,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-592",
+    id: "nom-pro-t3-591",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Sie bekommen von ____ eine Massage, Maniküre und Pediküre.",
     answer: "uns",
+    translation: "You are to receive a massage, manicure, and pedicure.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -13105,11 +14310,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-593",
+    id: "nom-pro-t3-592",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Nein, ____ will die Verschwörer auf frischer Tat ertappen.",
     answer: "ich",
+    translation: "No, I want to catch the conspirators in the act.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -13127,11 +14334,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-594",
+    id: "nom-pro-t3-593",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Soll ____ auf ewig die Gebühr erlassen?",
     answer: "ich",
+    translation: "Shall I waive your fee forever?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -13149,12 +14358,14 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-595",
+    id: "nom-pro-t3-594",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Obgleich die Argumente sehr vernünftig waren, war ____ nicht überzeugt.",
     answer: "er",
+    translation: "Although the arguments were rational, he was not convinced.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -13172,11 +14383,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-596",
+    id: "nom-pro-t3-595",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Seht sie ____ an, ist sie nicht sagenhaft?",
     answer: "euch",
+    translation: "Look at her, isn't she just fabulous?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -13194,12 +14407,14 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-597",
+    id: "nom-pro-t3-596",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Jede Information, die ____ gibt, ist wahrscheinlich unzuverlässig.",
     answer: "er",
+    translation: "Any information he gives is probably unreliable.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -13217,11 +14432,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-598",
+    id: "nom-pro-t3-597",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Und als Arzt kann ____ eine Leiche zerstückeln.",
     answer: "er",
+    translation: "He's a doctor and could dismember a corpse.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -13239,11 +14456,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-599",
+    id: "nom-pro-t3-598",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Wie kannst ____ so gefühllos sein?",
     answer: "du",
+    translation: "How can you be so callous?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -13261,11 +14480,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-600",
+    id: "nom-pro-t3-599",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Nicht mal am Geburtstag darf ____ ausschlafen.",
     answer: "ich",
+    translation: "I can't even sleep in on my birthday.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -13283,11 +14504,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-601",
+    id: "nom-pro-t3-600",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Nein, ____ müssen erst die Scherbe holen.",
     answer: "wir",
+    translation: "No. We have to go get the shard.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -13305,11 +14528,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-602",
+    id: "nom-pro-t3-601",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Kommst ____ zu winseln her?",
     answer: "du",
+    translation: "Have you come here to whine?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -13327,12 +14552,15 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-603",
+    id: "nom-pro-t3-602",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Einige tausend Hektar Land, die so makellos sind, dass es ____ den Atem",
     answer: "dir",
+    translation:
+      "A few thousand acres of land that are so immaculate it'll take your breath",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -13350,11 +14578,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-604",
+    id: "nom-pro-t3-603",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Und ____ kann ihn durch eine Lüge jetzt nicht entehren.",
     answer: "ich",
+    translation: "And I can't dishonor him by telling a lie now.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -13372,11 +14602,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-605",
+    id: "nom-pro-t3-604",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Dein Vater ließ mich Traktor fahren, wie ____ wollte.",
     answer: "ich",
+    translation: "Your dad let me drive the tractor like I wanted to.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -13394,11 +14626,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-606",
+    id: "nom-pro-t3-605",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Ihre Talente hören nie auf ____ zu verblüffen.",
     answer: "mich",
+    translation: "Her talents never cease to amaze me.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -13416,11 +14650,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-607",
+    id: "nom-pro-t3-606",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Ihr Computer wird ____ nicht überlisten.",
     answer: "ihn",
+    translation: "Your computer won't outsmart him.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -13438,11 +14674,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-608",
+    id: "nom-pro-t3-607",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Ihr Kabinett beeindruckt ____ nicht sonderlich.",
     answer: "mich",
+    translation: "I'm not too impressed with your Cabinet.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -13460,11 +14698,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-609",
+    id: "nom-pro-t3-608",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Das Einzige, das ____ nicht ertrage, ist die Gleichgültigkeit.",
     answer: "ich",
+    translation: "The only thing I can't stand is indifference.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -13482,11 +14722,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-610",
+    id: "nom-pro-t3-609",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Mehr flüssig als fest, denke ____.",
     answer: "ich",
+    translation: "More liquid than solid, I'd imagine.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -13504,11 +14746,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-611",
+    id: "nom-pro-t3-610",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Die Verbindung zwischen ____ ist sehr heikel.",
     answer: "uns",
+    translation: "The connection between us is a delicate one.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -13526,11 +14770,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-612",
+    id: "nom-pro-t3-611",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Aber ____ müssen sehr subtil vorgehen.",
     answer: "wir",
+    translation: "But we have to be very subtle about it.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -13548,11 +14794,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-613",
+    id: "nom-pro-t3-612",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Es ist nichts mehr da, was ____ plündern könntest.",
     answer: "du",
+    translation: "There's nothing left you can plunder.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -13570,11 +14818,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-614",
+    id: "nom-pro-t3-613",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Aber ____ selbst weigerte sich, zu kapitulieren.",
     answer: "er",
+    translation: "But he himself refused to surrender.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -13592,12 +14842,15 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-615",
+    id: "nom-pro-t3-614",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Unfassbar, dass ____ den Handlanger für Ihre Drecksarbeit macht.",
     answer: "er",
+    translation:
+      "I can't believe you brought this stooge to do your dirty work.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -13615,11 +14868,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-616",
+    id: "nom-pro-t3-615",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Das ist ____, wie aufs Stichwort.",
     answer: "er",
+    translation: "That's him, right on cue.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -13637,11 +14892,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-617",
+    id: "nom-pro-t3-616",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Es gibt jemanden, der ____ bezwingen kann.",
     answer: "ihn",
+    translation: "And there is one who can defeat him.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -13659,11 +14916,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-618",
+    id: "nom-pro-t3-617",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Das war für ____ die allerbeste Zeit.",
     answer: "mich",
+    translation: "That was the very best time of all for me.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -13681,11 +14940,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-619",
+    id: "nom-pro-t3-618",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Jetzt brauche ____ ein Skalpell, um die Haut einzuschneiden.",
     answer: "ich",
+    translation: "Now I need a scalpel to cut the surface of the skin.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -13703,11 +14964,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-620",
+    id: "nom-pro-t3-619",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Unbekannter Anrufer, hör auf, ____ anzurufen.",
     answer: "mich",
+    translation: "Unknown caller, stop calling me.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -13725,11 +14988,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-621",
+    id: "nom-pro-t3-620",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Vom psychiatrischen Gesichtspunkt fehlt ____ nichts.",
     answer: "ihm",
+    translation: "From a psychiatric point of view, there's nothing wrong.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -13747,11 +15012,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-622",
+    id: "nom-pro-t3-621",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Zu Hause sprechen ____ Ungarisch.",
     answer: "wir",
+    translation: "At home, we speak Hungarian.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -13769,11 +15036,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-623",
+    id: "nom-pro-t3-622",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Und meine Damen, ____ ist ledig.",
     answer: "er",
+    translation: "And, ladies, he is single.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -13791,11 +15060,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-624",
+    id: "nom-pro-t3-623",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Nun wissen wir, wofür ____ Hammer und Schraubenzieher brauchte.",
     answer: "er",
+    translation: "Now we know why he needed the hammer and the screwdriver.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -13813,11 +15084,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-625",
+    id: "nom-pro-t3-624",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Oh, ____ gebe zu, es ist etwas abartig.",
     answer: "ich",
+    translation: "I admit it's a little kinky.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -13835,11 +15108,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-626",
+    id: "nom-pro-t3-625",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Dann gehört dieses unbezahlbare Artefakt ____.",
     answer: "euch",
+    translation: "Well, this priceless artifact is yours.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -13857,12 +15132,14 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-627",
+    id: "nom-pro-t3-626",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Ohne eine Miene zu verziehen, erzählt ____ eine lächerliche Geschichte.",
     answer: "er",
+    translation: "He keeps a straight face while telling a ridiculous story.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -13880,11 +15157,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-628",
+    id: "nom-pro-t3-627",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Das kann ____ weder bestätigen noch abstreiten.",
     answer: "ich",
+    translation: "Well, obviously, I can neither confirm nor deny that.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -13902,11 +15181,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-629",
+    id: "nom-pro-t3-628",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Der Abend, an dem ____ starb, war stürmisch.",
     answer: "er",
+    translation: "The evening he died was stormy.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -13924,11 +15205,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-630",
+    id: "nom-pro-t3-629",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Wir wussten nicht, wann ____ heimkommen würdest.",
     answer: "du",
+    translation: "We didn't know when you'd come home.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -13946,11 +15229,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-631",
+    id: "nom-pro-t3-630",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Sie werden nachlässig, wenn ____ Sie nicht im Auge behalte.",
     answer: "ich",
+    translation: "You'll get sloppy without me to keep an eye on you.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -13968,12 +15253,15 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-632",
+    id: "nom-pro-t3-631",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Stattdessen möchte ____ eine politische Frage aufgreifen, die meines",
     answer: "ich",
+    translation:
+      "I want instead to address a political issue that I believe to be a major issue.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -13991,11 +15279,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-633",
+    id: "nom-pro-t3-632",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Sie servieren ____ Rindfleisch mit Pommes.",
     answer: "ihm",
+    translation: "They're serving him beef with French fries.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -14013,11 +15303,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-634",
+    id: "nom-pro-t3-633",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Der Staatssekretär hat ____ zur Versammlung gerufen.",
     answer: "mich",
+    translation: "The Secretary of State called me in for a meeting.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -14035,11 +15327,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-635",
+    id: "nom-pro-t3-634",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Sie werden ____ über die Strecke schleudern.",
     answer: "mich",
+    translation: "They are going to hurl me down the track.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -14057,11 +15351,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-636",
+    id: "nom-pro-t3-635",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Setz dich da vorn hin, ____ werde sie runterholen.",
     answer: "ich",
+    translation: "Take a seat through there, I'll bring it down.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -14079,11 +15375,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-637",
+    id: "nom-pro-t3-636",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "M/N Es ist ein Curry im Kühlschrank mach ____ das warm.",
     answer: "dir",
+    translation: "There's curry in the fridge, so warm it up.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -14101,11 +15399,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-638",
+    id: "nom-pro-t3-637",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Sie hatte ____ einen Weihnachtsbaum versprochen.",
     answer: "mir",
+    translation: "She promised me we would have a Christmas tree.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -14123,11 +15423,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-639",
+    id: "nom-pro-t3-638",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Dachte ____ es mir doch, das Wasser schmeckt leicht nach Gurke.",
     answer: "ich",
+    translation: "I thought the water tasted like cucumbers.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -14145,11 +15447,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-640",
+    id: "nom-pro-t3-639",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Eigentlich bin ____ eher ein Rivale.",
     answer: "ich",
+    translation: "Actually, I'm more of a rival.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -14167,11 +15471,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-641",
+    id: "nom-pro-t3-640",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Aber unsere Erlebnisse prägen ____, John.",
     answer: "uns",
+    translation: "But our experiences shape us, John.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -14189,11 +15495,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-642",
+    id: "nom-pro-t3-641",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Bist ____ verrückt, ihm Falschgeld zu geben?",
     answer: "du",
+    translation: "Are you crazy, giving him counterfeit money?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -14211,11 +15519,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-643",
+    id: "nom-pro-t3-642",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Er sagte, ____ wolltest mich nicht für einen Oscar nominieren.",
     answer: "du",
+    translation: "He told me you didn't want to nominate me for an Oscar.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -14233,11 +15543,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-644",
+    id: "nom-pro-t3-643",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Wie kannst ____ so hemmungslos widerwärtig sein?",
     answer: "du",
+    translation: "How could you be so openly despicable?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -14255,11 +15567,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-645",
+    id: "nom-pro-t3-644",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Kannst du nachvollziehen, was ____ sage?",
     answer: "ich",
+    translation: "Can you comprehend what I am saying?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -14277,11 +15591,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-646",
+    id: "nom-pro-t3-645",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Willst ____ ein Moderator bei der Sendung sein?",
     answer: "du",
+    translation: "Do you want to be a presenter at the show?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -14299,11 +15615,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-647",
+    id: "nom-pro-t3-646",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Ihre freundlichen Worte werden ____ motivieren.",
     answer: "mich",
+    translation: "Your kind words will continue to motivate me.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -14321,11 +15639,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-648",
+    id: "nom-pro-t3-647",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "M/N Deinen Comic kannst ____ auch zurückhaben.",
     answer: "du",
+    translation: "You can have your comic back, too.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -14343,11 +15663,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-649",
+    id: "nom-pro-t3-648",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Aber ____ will den Antrieb nicht überlasten.",
     answer: "ich",
+    translation: "I don't want to overload the engines.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -14365,11 +15687,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-650",
+    id: "nom-pro-t3-649",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Sie sind überall und sie belagern ____.",
     answer: "uns",
+    translation: "They are everywhere and they will besiege us.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -14387,11 +15711,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-651",
+    id: "nom-pro-t3-650",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Schnell, ____ finde Sie bereits uninteressant.",
     answer: "ich",
+    translation: "Make it quick. I already find you uninteresting.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -14409,12 +15735,14 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-652",
+    id: "nom-pro-t3-651",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Wenn die Show floppt, können ____ uns ja alle so richtig besaufen.",
     answer: "wir",
+    translation: "If the show sucks, we'll all get wasted.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -14432,12 +15760,14 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-653",
+    id: "nom-pro-t3-652",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Die Monate vergingen langsam und ____ wurde dieses Lebens überdrüssig.",
     answer: "ich",
+    translation: "Months passed slowly and I grew weary of my life.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -14455,11 +15785,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-654",
+    id: "nom-pro-t3-653",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Mich braucht keiner abführen, ____ gehe von selbst.",
     answer: "ich",
+    translation: "No one needs to lead me away; I'll go by myself.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -14477,12 +15809,14 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-655",
+    id: "nom-pro-t3-654",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Meine Schwester wollte das Haus niederbrennen, in dem ____ getötet wurde.",
     answer: "er",
+    translation: "My sister tried to burn down the house where he was killed.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -14500,11 +15834,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-656",
+    id: "nom-pro-t3-655",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Aber ____ ist nie unverantwortlich mit Geld umgegangen.",
     answer: "er",
+    translation: "But it wasn't as if he was financially irresponsible.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -14522,11 +15858,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-657",
+    id: "nom-pro-t3-656",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Aber ____ kann nicht einfach einen Techniker hinschicken.",
     answer: "ich",
+    translation: "But I can't simply send a technician.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -14544,11 +15882,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-658",
+    id: "nom-pro-t3-657",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Als ____ es das erste Mal hörte, erschien es mir ungeheuerlich.",
     answer: "ich",
+    translation: "When I first heard of it, it seemed outrageous.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -14566,11 +15906,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-659",
+    id: "nom-pro-t3-658",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Denken Sie, ____ würde Ihr Büro nicht verwanzen?",
     answer: "ich",
+    translation: "Do you think I wouldn't bug your office?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -14588,11 +15930,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-660",
+    id: "nom-pro-t3-659",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Und ____ bin froh, dass Sie das Gemetzel überlebt haben.",
     answer: "ich",
+    translation: "And I'm glad you survived the slaughter.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -14610,11 +15954,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-661",
+    id: "nom-pro-t3-660",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Der Hausherr erlaubt ____ nicht, die Tür rot anzustreichen.",
     answer: "ihm",
+    translation: "The landlord won't permit him to paint the door red.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -14632,11 +15978,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-662",
+    id: "nom-pro-t3-661",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Und ____ habe versucht, ihn zu belehren.",
     answer: "ich",
+    translation: "And I tried to teach him.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -14654,11 +16002,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-663",
+    id: "nom-pro-t3-662",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Ihr Mangel an Courage widert ____ an.",
     answer: "mich",
+    translation: "Your lack of courage disgusts me.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -14676,11 +16026,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-664",
+    id: "nom-pro-t3-663",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Aber ____ muss wissen, ob Sie vertrauenswürdig sind.",
     answer: "ich",
+    translation: "But I need to know that you're trustworthy.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -14698,11 +16050,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-665",
+    id: "nom-pro-t3-664",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Aber jetzt können ____ diese Urne loswerden zu deinem Wohl.",
     answer: "wir",
+    translation: "But right now, we can get rid of that urn for your own good.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -14720,11 +16074,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-666",
+    id: "nom-pro-t3-665",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Wieso fühlst ____ dich so panisch?",
     answer: "du",
+    translation: "Why should you be feeling panicked?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -14742,11 +16098,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-667",
+    id: "nom-pro-t3-666",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Gut, dann gebe ____ den Gewinn einem anderen Investor.",
     answer: "ich",
+    translation: "I'll just give the profits to another investor.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -14764,11 +16122,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-668",
+    id: "nom-pro-t3-667",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Und ____ sage Ihnen, die Lawine ist bereits im Rollen.",
     answer: "ich",
+    translation: "And I'm telling you, the avalanche has already started.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -14786,11 +16146,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-669",
+    id: "nom-pro-t3-668",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Dein Vater wollte ____ seine Krone vererben.",
     answer: "dir",
+    translation: "Your father meant for you to inherit his crown.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -14808,12 +16170,14 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-670",
+    id: "nom-pro-t3-669",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Und selbst ____ kann mich nicht überzeugend selbst auspeitschen.",
     answer: "ich",
+    translation: "And even I cannot convincingly whip myself.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -14831,11 +16195,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-671",
+    id: "nom-pro-t3-670",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Bitte beehren Sie ____ Morgen zu Hause mit Ihrem Besuch.",
     answer: "mich",
+    translation: "You will honor me with your presence tomorrow at my home.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -14853,11 +16219,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-672",
+    id: "nom-pro-t3-671",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Der Türsteher lässt ____ nicht rein.",
     answer: "mich",
+    translation: "The doorman won't even let me in.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -14875,11 +16243,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-673",
+    id: "nom-pro-t3-672",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Wenn ____ herauskommt, schlüpfen wir hinein.",
     answer: "er",
+    translation: "When he comes out, we slip inside.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -14897,11 +16267,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-674",
+    id: "nom-pro-t3-673",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Was ____ jetzt brauchen, ist eine Revanche.",
     answer: "wir",
+    translation: "I know what we need, revenge.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -14919,12 +16291,14 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-675",
+    id: "nom-pro-t3-674",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Das nächste Mal, wenn wir uns sehen, muss ____ vielleicht vor Ihnen",
     answer: "ich",
+    translation: "Next time we meet, I'll probably have to salute you.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -14942,11 +16316,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-676",
+    id: "nom-pro-t3-675",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Mein Gemahl und ____ fanden es atemberaubend.",
     answer: "ich",
+    translation: "My husband and I found it breathtaking.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -14964,11 +16340,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-677",
+    id: "nom-pro-t3-676",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Ein Funke genügt und es zerreißt ____.",
     answer: "dich",
+    translation: "One spark and it blows up.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -14986,11 +16364,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-678",
+    id: "nom-pro-t3-677",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Hoffentlich gefällt ____ dein neuer Mixer.",
     answer: "dir",
+    translation: "I hope you really enjoy your new blender.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -15008,11 +16388,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-679",
+    id: "nom-pro-t3-678",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Das heißt, ____ sind startbereit.",
     answer: "wir",
+    translation: "I guess we're ready to go.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -15030,12 +16412,15 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-680",
+    id: "nom-pro-t3-679",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Versuch ihr zu erklären, warum ____ an einem Schultag dennoch daheim bist.",
     answer: "du",
+    translation:
+      "Try to explain to her why you are still at home on a school day.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -15053,12 +16438,14 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-681",
+    id: "nom-pro-t3-680",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "In der vorbezeichneten Angelegenheit bitten ____ Sie nunmehr um Ihre",
     answer: "wir",
+    translation: "We now request your opinion in the above-referenced matter.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -15076,11 +16463,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-682",
+    id: "nom-pro-t3-681",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Das Christentum ist für ____ Reichtum und Rückhalt.",
     answer: "uns",
+    translation: "Christianity is our wealth and redemption.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -15098,11 +16487,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-683",
+    id: "nom-pro-t3-682",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Stimmt, ____ war nie im Schützengraben.",
     answer: "ich",
+    translation: "Right. I was never in the trenches.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -15120,11 +16511,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-684",
+    id: "nom-pro-t3-683",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Haben sie Angst, dass ____ den Deal verbocken?",
     answer: "wir",
+    translation: "Are they worried we'll mess up the deal?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -15142,11 +16535,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-685",
+    id: "nom-pro-t3-684",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Seht ____ nicht als Eroberer, sondern als Partner.",
     answer: "mich",
+    translation: "Think of me not as a conqueror, but as a partner.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -15164,11 +16559,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-686",
+    id: "nom-pro-t3-685",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Doch ____ müssen natürlich einige Bedingungen formulieren.",
     answer: "wir",
+    translation: "But we must formulate some conditions, of course.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -15186,11 +16583,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-687",
+    id: "nom-pro-t3-686",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Die Luft knistert zwischen ____, Jane.",
     answer: "uns",
+    translation: "I can feel that air crackling between us, Jane.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -15208,11 +16607,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-688",
+    id: "nom-pro-t3-687",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Sie wird ein Zimmer für ____ herrichten.",
     answer: "dich",
+    translation: "She will arrange a room for you.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -15230,12 +16631,14 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-689",
+    id: "nom-pro-t3-688",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Der Juwelier hat gesagt, dass ____ aus demselben Stein geschnitten wurde.",
     answer: "er",
+    translation: "The jeweler said it was cut from the same stone.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -15253,11 +16656,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-690",
+    id: "nom-pro-t3-689",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Hören Sie, die Sache ist sehr schmerzlich für ____.",
     answer: "mich",
+    translation: "Now, look, this is a very painful thing for me.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -15275,11 +16680,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-691",
+    id: "nom-pro-t3-690",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Morgen werde ____ aufwachen und mich hoffnungsvoll fühlen.",
     answer: "ich",
+    translation: "Tomorrow, I'll wake up feeling hopeful.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -15297,11 +16704,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-692",
+    id: "nom-pro-t3-691",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Reden ____ einfach über das Showgeschäft.",
     answer: "wir",
+    translation: "Let's just talk showbiz, shall we?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -15319,11 +16728,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-693",
+    id: "nom-pro-t3-692",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Vielleicht erlebt ____ eine Versöhnung nicht mehr.",
     answer: "er",
+    translation: "Maybe he won't be around for a reconciliation.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -15341,11 +16752,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-694",
+    id: "nom-pro-t3-693",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Zum Glück habe ____ einen Badeanzug unter meiner Kleidung.",
     answer: "ich",
+    translation: "Luckily, I have a swimsuit under my clothes.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -15363,11 +16776,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-695",
+    id: "nom-pro-t3-694",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Der Mitmensch dort will ____ aufknüpfen.",
     answer: "mich",
+    translation: "My fellow man is about to hang me.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -15385,11 +16800,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-696",
+    id: "nom-pro-t3-695",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "In dieser Richtung müssen ____ künftig arbeiten.",
     answer: "wir",
+    translation: "This is the direction we must concentrate on in the future.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -15407,11 +16824,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-697",
+    id: "nom-pro-t3-696",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Letzte Nacht sah ____ eine Sternschnuppe.",
     answer: "ich",
+    translation: "Last night I saw a shooting star.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -15429,11 +16848,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-698",
+    id: "nom-pro-t3-697",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Wen von ____ erwählen Sie zu ihrem Mann?",
     answer: "uns",
+    translation: "Which of us do you choose as your husband?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -15451,12 +16872,14 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-699",
+    id: "nom-pro-t3-698",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Ein guter Rat kann nicht befolgt werden, wenn ____ nicht verstanden wird.",
     answer: "er",
+    translation: "Good advice can't be followed if it isn't understood.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -15474,11 +16897,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-700",
+    id: "nom-pro-t3-699",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Viele Menschen masturbieren, habe ____ gehört.",
     answer: "ich",
+    translation: "A lot of people masturbate, I hear.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -15496,11 +16921,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-701",
+    id: "nom-pro-t3-700",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Die Wahrheit ist, dass ____ impotent war.",
     answer: "er",
+    translation: "The truth is he was impotent.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -15518,11 +16945,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-702",
+    id: "nom-pro-t3-701",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Jetzt können ____ Ihre Schritte zurückverfolgen.",
     answer: "wir",
+    translation: "Now we can retrace your steps.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -15540,11 +16969,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-703",
+    id: "nom-pro-t3-702",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Als euer Statthalter vertrete ____ die Pflichten Roms.",
     answer: "ich",
+    translation: "As your governor, I represent the responsibility of Rome.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -15562,11 +16993,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-704",
+    id: "nom-pro-t3-703",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Oder wir könnten weiterspielen, wenn ____ willst.",
     answer: "du",
+    translation: "Or we could play on if you want.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -15584,11 +17017,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-705",
+    id: "nom-pro-t3-704",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Jetzt brauche ____ aber ein Schlückchen!",
     answer: "ich",
+    translation: "I suppose I need a little drink!",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -15606,11 +17041,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-706",
+    id: "nom-pro-t3-705",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Sie war bei ____ auf meinem Rettungsboot.",
     answer: "mir",
+    translation: "She was with me on my lifeboat.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -15628,12 +17065,14 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-707",
+    id: "nom-pro-t3-706",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Der gesellschaftlich akkreditierte Kunstmarkt ist ____ ebenfalls",
     answer: "ihnen",
+    translation: "The socially accredited art market is also closed to them.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -15651,11 +17090,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-708",
+    id: "nom-pro-t3-707",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Sie werden ____ nicht deportieren, sie werden es versuchen.",
     answer: "dich",
+    translation: "They won't deport you; they will just try.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -15673,11 +17114,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-709",
+    id: "nom-pro-t3-708",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Und euer Jubiläum habe ____ auch nicht vergessen.",
     answer: "ich",
+    translation: "And I didn't forget your anniversary, either.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -15695,11 +17138,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-710",
+    id: "nom-pro-t3-709",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Wie viele Versuchungen muss ____ noch erdulden?",
     answer: "ich",
+    translation: "How many more temptations must I endure?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -15717,11 +17162,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-711",
+    id: "nom-pro-t3-710",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Aber ____ jagte ihn mit einem Baseballschläger davon.",
     answer: "ich",
+    translation: "But I chased him out with my baseball bat.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -15739,12 +17186,14 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-712",
+    id: "nom-pro-t3-711",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Wenn ____ den Vergaser nicht reparieren kann, sind wir in Schwierigkeiten.",
     answer: "ich",
+    translation: "If I can't fix this carburetor, we're in trouble.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -15762,12 +17211,14 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-713",
+    id: "nom-pro-t3-712",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Aber ____ bin sicher, das Überwachungsvideo wird mich freisprechen.",
     answer: "ich",
+    translation: "I'm sure the store's security footage will absolve me.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -15785,11 +17236,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-714",
+    id: "nom-pro-t3-713",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Lassen Sie dies ein Weckruf für ____ alle sein.",
     answer: "uns",
+    translation: "Let this be a wake-up call for all of us.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -15807,11 +17260,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-715",
+    id: "nom-pro-t3-714",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Frau Müller schickt ____ ein Stück Gebäck.",
     answer: "euch",
+    translation: "Mrs. Muller sent some cookies for you.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -15829,11 +17284,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-716",
+    id: "nom-pro-t3-715",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "An den Rändern ist ____ durchsichtig.",
     answer: "er",
+    translation: "It's transparent at the edges.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -15851,11 +17308,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-717",
+    id: "nom-pro-t3-716",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Im Badezimmerschrank findest ____ ein blaues Fläschchen.",
     answer: "du",
+    translation: "In the bathroom cabinet, you'll find a blue vial.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -15873,11 +17332,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-718",
+    id: "nom-pro-t3-717",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Weil ____ seine Reputation nicht beflecken wollte.",
     answer: "ich",
+    translation: "Because I didn't want to stain his reputation.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -15895,11 +17356,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-719",
+    id: "nom-pro-t3-718",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Und ____ tragen hier alle eine Schürze.",
     answer: "wir",
+    translation: "And we're all here wearing an apron.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -15917,11 +17380,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-720",
+    id: "nom-pro-t3-719",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "In welcher Farbe willst ____ Sie färben?",
     answer: "du",
+    translation: "What color would you dye it?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -15939,11 +17404,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-721",
+    id: "nom-pro-t3-720",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Warum musst ____ so sarkastisch sein?",
     answer: "du",
+    translation: "Why do you have to be so sarcastic?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -15961,11 +17428,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-722",
+    id: "nom-pro-t3-721",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Aber ____ kannst ihn zumindest wegen Meineid belangen.",
     answer: "du",
+    translation: "But you could at least charge him with perjury.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -15983,12 +17452,14 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-723",
+    id: "nom-pro-t3-722",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Schau, das ist es, was mit ihnen passiert, wenn ____ nicht rundherum da sind.",
     answer: "wir",
+    translation: "Look, this is what happens to them when we're not around.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -16006,11 +17477,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-724",
+    id: "nom-pro-t3-723",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "In der Luftschleuse findest ____ eine Kontrolltafel.",
     answer: "du",
+    translation: "Inside the airlock, you'll find a panel.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -16028,11 +17501,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-725",
+    id: "nom-pro-t3-724",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Es war ____ unmöglich, eine Erektion aufrechtzuerhalten.",
     answer: "mir",
+    translation: "I was unable to maintain an erection.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -16050,11 +17525,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-726",
+    id: "nom-pro-t3-725",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Diese App machte ____ zum Milliardär.",
     answer: "ihn",
+    translation: "That app made him a billionaire.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -16072,11 +17549,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-727",
+    id: "nom-pro-t3-726",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Da kannst ____ deine Kleider reintun.",
     answer: "du",
+    translation: "You can put your clothes in there.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -16094,11 +17573,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-728",
+    id: "nom-pro-t3-727",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Und verlogen ist ____ auch noch!",
     answer: "er",
+    translation: "And he's dishonest, too!",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -16116,11 +17597,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-729",
+    id: "nom-pro-t3-728",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Na ja, ____ weiß, dass es kitschig klingt.",
     answer: "ich",
+    translation: "Well, I know it sounds corny.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -16138,11 +17621,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-730",
+    id: "nom-pro-t3-729",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Versprechen Sie ____, dass Sie schnell wieder heimkehren?",
     answer: "mir",
+    translation: "Promise me that you will return home quickly.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -16160,11 +17645,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-731",
+    id: "nom-pro-t3-730",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Wahrscheinlich habe ____ etwas Salzwasser geschluckt.",
     answer: "ich",
+    translation: "I must have swallowed some salt water.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -16182,12 +17669,14 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-732",
+    id: "nom-pro-t3-731",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "John, ____ kaufen dir einen neuen Ventilator im Hinterhofverkauf.",
     answer: "wir",
+    translation: "John, we'll buy you a new fan at the yard sale.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -16205,11 +17694,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-733",
+    id: "nom-pro-t3-732",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Jane, ____ hast da Spinat zwischen den Zähnen.",
     answer: "du",
+    translation: "Jane, you have spinach in your teeth.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -16227,11 +17718,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-734",
+    id: "nom-pro-t3-733",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Und nichts wird ____ umstimmen.",
     answer: "mich",
+    translation: "And nothing will sway me from this.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -16249,11 +17742,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-735",
+    id: "nom-pro-t3-734",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Andernfalls müsstest ____ das Bein amputieren.",
     answer: "du",
+    translation: "Otherwise, you'll have to amputate his leg.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -16271,11 +17766,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-736",
+    id: "nom-pro-t3-735",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Was, bist ____ jetzt mein Aufpasser?",
     answer: "du",
+    translation: "What, are you my chaperone now?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -16293,11 +17790,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-737",
+    id: "nom-pro-t3-736",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Und dafür möchte ____ mich revanchieren.",
     answer: "ich",
+    translation: "And I would like to return the favor.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -16315,11 +17814,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-738",
+    id: "nom-pro-t3-737",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Und ____ werde die Krone beanspruchen.",
     answer: "ich",
+    translation: "And I shall claim the crown.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -16337,11 +17838,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-739",
+    id: "nom-pro-t3-738",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Die Wirkung eines solchen Verhaltens finde ____ fatal.",
     answer: "ich",
+    translation: "The effects of such behavior are, in my opinion, fatal.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -16359,11 +17862,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-740",
+    id: "nom-pro-t3-739",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Kannst ____ heute mal abwaschen?",
     answer: "du",
+    translation: "Can you do the dishes today?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -16381,11 +17886,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-741",
+    id: "nom-pro-t3-740",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Was ____ dir zu sagen habe, ist irrsinnig.",
     answer: "ich",
+    translation: "What I'm about to tell you is insane.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -16403,11 +17910,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-742",
+    id: "nom-pro-t3-741",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Kehre ____ nicht zurück, stirbt er vor Gram.",
     answer: "ich",
+    translation: "If I don't return, he'll die of grief.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -16425,11 +17934,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-743",
+    id: "nom-pro-t3-742",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Das Lied habe ____ schon lange nicht mehr gehört.",
     answer: "ich",
+    translation: "I haven't heard this song in a long time.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -16447,11 +17958,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-744",
+    id: "nom-pro-t3-743",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Meine Mitfahrgelegenheit hat ____ an der Kreuzung abgesetzt.",
     answer: "mich",
+    translation: "Well, my ride dropped me off at the crossroads.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -16469,11 +17982,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-745",
+    id: "nom-pro-t3-744",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Dann solltest ____ dieses Telefonat annehmen.",
     answer: "du",
+    translation: "You should take that phone call, then.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -16491,11 +18006,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-746",
+    id: "nom-pro-t3-745",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Wer von ____ kann steppen?",
     answer: "euch",
+    translation: "Who here knows how to tap dance?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -16513,11 +18030,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-747",
+    id: "nom-pro-t3-746",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Sparen ____ uns unnötiges Gequatsche, okay?",
     answer: "wir",
+    translation: "Let's keep the chatter down, okay?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -16535,11 +18054,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-748",
+    id: "nom-pro-t3-747",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Und ____ traue ihm freilich auch nicht.",
     answer: "ich",
+    translation: "And I certainly don't trust him.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -16557,11 +18078,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-749",
+    id: "nom-pro-t3-748",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Sie können ____ nicht durch diese Tür quetschen.",
     answer: "mich",
+    translation: "You can't squeeze me through that door.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -16579,11 +18102,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-750",
+    id: "nom-pro-t3-749",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Während meiner Liebesszene wirst ____ nicht rülpsen.",
     answer: "du",
+    translation: "You'll not burp during my love scenes.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -16601,11 +18126,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-751",
+    id: "nom-pro-t3-750",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Es hätte ____ die Unterredung erspart.",
     answer: "uns",
+    translation: "It would have spared us the discussion.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -16623,11 +18150,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-752",
+    id: "nom-pro-t3-751",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Wir können die Leiche wegschaffen, wenn ____ mir hilfst.",
     answer: "du",
+    translation: "We really could get rid of the body if you'd help me.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -16645,11 +18174,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-753",
+    id: "nom-pro-t3-752",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Was willst ____, einen Trommelwirbel?",
     answer: "du",
+    translation: "What do you want, a drum roll?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -16667,11 +18198,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-754",
+    id: "nom-pro-t3-753",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Und doch findest ____ mich seltsamerweise attraktiv.",
     answer: "du",
+    translation: "And yet, you still find me strangely attractive.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -16689,11 +18222,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-755",
+    id: "nom-pro-t3-754",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Ob das jetzt temporär oder dauerhaft ist, weiß ____ nicht.",
     answer: "ich",
+    translation: "Now, whether that's temporary or permanent, I don't know.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -16711,11 +18246,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-756",
+    id: "nom-pro-t3-755",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Treffen ____ uns also im Foyer des Hotels.",
     answer: "wir",
+    translation: "Let's meet in the lobby of the hotel.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -16733,11 +18270,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-757",
+    id: "nom-pro-t3-756",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Sag ihnen, ____ werde nicht anbeißen.",
     answer: "ich",
+    translation: "But tell them I'm not going to bite.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -16755,12 +18294,14 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-758",
+    id: "nom-pro-t3-757",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Auf dem Weg zum Bahnhof wurde ____ von einem Schauer überrascht.",
     answer: "ich",
+    translation: "I was caught in a shower on my way to the station.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -16778,11 +18319,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-759",
+    id: "nom-pro-t3-758",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Wollen ____ nicht alle drei zusammen rübergehen?",
     answer: "wir",
+    translation: "Why don't the three of us go over there together?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -16800,11 +18343,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-760",
+    id: "nom-pro-t3-759",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Sie sehen also, ____ bin nicht unordentlich.",
     answer: "ich",
+    translation: "So, you see, I'm not messy.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -16822,11 +18367,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-761",
+    id: "nom-pro-t3-760",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Keiner nennt ____ anspruchsvoll oder unverschämt.",
     answer: "dich",
+    translation: "No one calls you demanding or unreasonable.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -16844,11 +18391,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-762",
+    id: "nom-pro-t3-761",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Pelle die Apfelsine und gib ____ ein Stück!",
     answer: "mir",
+    translation: "Peel the orange and give me a piece.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -16866,11 +18415,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-763",
+    id: "nom-pro-t3-762",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Können ____ nicht nur die verbrannten Teile abkratzen?",
     answer: "wir",
+    translation: "Can't we just scrape off the burnt parts?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -16888,11 +18439,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-764",
+    id: "nom-pro-t3-763",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Ein Jahr später lernte ____ einen Schlagzeuger kennen.",
     answer: "er",
+    translation: "A year later he met a drummer.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -16910,12 +18463,15 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-765",
+    id: "nom-pro-t3-764",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Einerseits rufe ____ dich an, um dich zum Abendessen einzuladen,",
     answer: "ich",
+    translation:
+      "On the one hand, I called you to invite you to dinner, on the other to tell",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -16933,11 +18489,14 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-766",
+    id: "nom-pro-t3-765",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Dieses Erbe hat für ____ daher große Bedeutung.",
     answer: "mich",
+    translation:
+      "I, therefore, attach great importance to the issue of heritage.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -16955,11 +18514,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-767",
+    id: "nom-pro-t3-766",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Na wartet, ____ werde euch zermalmen wie Moskitos!",
     answer: "ich",
+    translation: "Watch me crush you like mosquitoes!",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -16977,11 +18538,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-768",
+    id: "nom-pro-t3-767",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Sie werden verblassen und ____ wirst wieder normal.",
     answer: "du",
+    translation: "In time, they will fade, and you will return to normal.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -16999,11 +18562,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-769",
+    id: "nom-pro-t3-768",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Wenn ____ nur nicht so grübeln würde.",
     answer: "er",
+    translation: "If only one could stop him from brooding.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -17021,11 +18586,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-770",
+    id: "nom-pro-t3-769",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Werft ____ gleich einfach der Meute vor.",
     answer: "ihn",
+    translation: "Just throw him over to the mob.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -17043,11 +18610,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-771",
+    id: "nom-pro-t3-770",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Das ist der Sieg, den ____ erringen musst.",
     answer: "du",
+    translation: "That is the victory you must win.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -17065,11 +18634,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-772",
+    id: "nom-pro-t3-771",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Wie ein Streuner sieht ____ nicht aus.",
     answer: "er",
+    translation: "He doesn't look like a stray to me.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -17087,11 +18658,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-773",
+    id: "nom-pro-t3-772",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Normalerweise bin ____ donnerstags immer da.",
     answer: "ich",
+    translation: "As a rule, I am always here on Thursdays.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -17109,11 +18682,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-774",
+    id: "nom-pro-t3-773",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Es ist ein Zufluchtsort für ____.",
     answer: "mich",
+    translation: "It's really more of a sanctuary for me.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -17131,11 +18706,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-775",
+    id: "nom-pro-t3-774",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Könnte ____ das ohne Betäubungsmittel machen?",
     answer: "ich",
+    translation: "Can I do this without a sedative?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -17153,12 +18730,15 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-776",
+    id: "nom-pro-t3-775",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Welchen Vorzug Geduld hat, habe ____ John erst gestern Abend erklärt.",
     answer: "ich",
+    translation:
+      "I was explaining the advantage of patience to John only last night.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -17176,11 +18756,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-777",
+    id: "nom-pro-t3-776",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Nur hat ____ jetzt das Paddel fallen lassen.",
     answer: "er",
+    translation: "Only now, he's dropped the paddle.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -17198,11 +18780,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-778",
+    id: "nom-pro-t3-777",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Sie könnten ____ einen Drink einschenken.",
     answer: "mir",
+    translation: "Well, you can pour me a drink.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -17220,11 +18804,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-779",
+    id: "nom-pro-t3-778",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Das wird ____ ein wenig verlangsamen.",
     answer: "ihn",
+    translation: "This is going to slow him down a bit.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -17242,11 +18828,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-780",
+    id: "nom-pro-t3-779",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Ruf ____ nicht an oder faxe mir nicht.",
     answer: "mich",
+    translation: "Don't call or fax me.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -17264,11 +18852,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-781",
+    id: "nom-pro-t3-780",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Es ist unscharf, weil ____ nicht stillhielt.",
     answer: "ich",
+    translation: "It's blurred because I moved.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -17286,11 +18876,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-782",
+    id: "nom-pro-t3-781",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Warum versuchst ____ immer meine Stimmung zu dämpfen?",
     answer: "du",
+    translation: "Why are you always trying to dampen my spirits?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -17308,11 +18900,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-783",
+    id: "nom-pro-t3-782",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Ihre Schuhgröße weiß ____ nicht, Mama.",
     answer: "ich",
+    translation: "I don't know her shoe size, Mom.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -17330,11 +18924,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-784",
+    id: "nom-pro-t3-783",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Wenn alle übereinstimmen, stimme ____ nicht dagegen.",
     answer: "ich",
+    translation: "If everyone agrees to it, I won't vote against it.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -17352,12 +18948,14 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-785",
+    id: "nom-pro-t3-784",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Auch wenn es Sie nicht interessiert, verstehe ____ Ihre Bitterkeit.",
     answer: "ich",
+    translation: "For what it's worth, I understand your bitterness.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -17375,11 +18973,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-786",
+    id: "nom-pro-t3-785",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Dann reißen ____ die Tapete ab.",
     answer: "wir",
+    translation: "Well, we'll take off the wallpaper.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -17397,11 +18997,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-787",
+    id: "nom-pro-t3-786",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "In Ordnung, ____ habe einen Zahnstocher in meiner Socke.",
     answer: "ich",
+    translation: "All right, I got a toothpick in my sock.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -17419,11 +19021,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-788",
+    id: "nom-pro-t3-787",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Was ____ anbelangt, hat Tugend nichts damit zu tun.",
     answer: "mich",
+    translation: "As far as I'm concerned, virtue has nothing to do with it.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -17441,11 +19045,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-789",
+    id: "nom-pro-t3-788",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Sie ist wild, aber ____ werde sie bändigen.",
     answer: "ich",
+    translation: "She's so wild, I'm trying to tame her.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -17463,11 +19069,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-790",
+    id: "nom-pro-t3-789",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Man, ____ will diesen Pokal wirklich unbedingt.",
     answer: "er",
+    translation: "Man, he really wants that trophy.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -17485,11 +19093,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-791",
+    id: "nom-pro-t3-790",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "John, ____ solltest lieber verduften.",
     answer: "du",
+    translation: "John, you better beat it.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -17507,11 +19117,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-792",
+    id: "nom-pro-t3-791",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Nun, ____ erwarten einen Gegenangriff.",
     answer: "wir",
+    translation: "Well, we expect a counterattack.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -17529,11 +19141,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-793",
+    id: "nom-pro-t3-792",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Das war ein Riesending, als ____ klein war.",
     answer: "ich",
+    translation: "It was a big deal when I was a kid.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -17551,11 +19165,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-794",
+    id: "nom-pro-t3-793",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Aber ____ brauchen jetzt einen starken Anführer.",
     answer: "wir",
+    translation: "But right now, we need a strong leader.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -17573,11 +19189,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-795",
+    id: "nom-pro-t3-794",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "So, jetzt müssen ____ noch den Wagen hochheben.",
     answer: "wir",
+    translation: "Now we just have to lift the car.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -17595,11 +19213,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-796",
+    id: "nom-pro-t3-795",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Ihr müsst den Weg für ____ freimachen, Leute.",
     answer: "uns",
+    translation: "You need to clear the way for us, guys.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -17617,11 +19237,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-797",
+    id: "nom-pro-t3-796",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Das bringt ____ parallel zum Haupttresor.",
     answer: "uns",
+    translation: "That brings us parallel to the main vault.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -17639,11 +19261,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-798",
+    id: "nom-pro-t3-797",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Anhand dieser Fakten können ____ unsere Gegensätze vielleicht",
     answer: "wir",
+    translation: "Based on these facts, maybe we can bridge our differences.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -17661,11 +19285,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-799",
+    id: "nom-pro-t3-798",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Was hast ____ in deiner Hosentasche?",
     answer: "du",
+    translation: "What do you have in your pocket?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -17683,12 +19309,15 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-800",
+    id: "nom-pro-t3-799",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Der Ring hatte drei Diamanten, jeder von ____ ein Zehntel Karat schwer.",
     answer: "ihnen",
+    translation:
+      "The ring had three diamonds, each equaling a tenth of a carat.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -17706,12 +19335,14 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-801",
+    id: "nom-pro-t3-800",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "John sagte mir, dass ____ an jedem Tag kommen könne, nur nicht dienstags.",
     answer: "er",
+    translation: "John told me that he could come on any day but Tuesday.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -17729,11 +19360,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-802",
+    id: "nom-pro-t3-801",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Sei ja vorsichtig, ____ Bubi!",
     answer: "du",
+    translation: "Be careful, little boy.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -17751,11 +19384,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-803",
+    id: "nom-pro-t3-802",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Die können ____ für den Rest meines Lebens einlochen.",
     answer: "mich",
+    translation: "They could put me behind bars for the rest of my life.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -17773,11 +19408,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-804",
+    id: "nom-pro-t3-803",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Tja, dann gehen ____ woandershin.",
     answer: "wir",
+    translation: "Well, we'll go elsewhere.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -17795,11 +19432,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-805",
+    id: "nom-pro-t3-804",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Wofür halten Sie ____, eine Motte?",
     answer: "ihn",
+    translation: "What do you think he is, a moth?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -17817,11 +19456,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-806",
+    id: "nom-pro-t3-805",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Das war sehr unartig von ____.",
     answer: "dir",
+    translation: "That was very naughty of you.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -17839,12 +19480,15 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-807",
+    id: "nom-pro-t3-806",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Seine Empfehlungen sind aber nicht verbindlich und ____ darf keine Strafen",
     answer: "er",
+    translation:
+      "However, its recommendations are not binding, and it is not entitled to",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -17862,11 +19506,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-808",
+    id: "nom-pro-t3-807",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Ein schwarzer Mann verfolgt ____ überall, wenn es sonnig ist.",
     answer: "mich",
+    translation: "A black man follows me everywhere when it's sunny.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -17884,11 +19530,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-809",
+    id: "nom-pro-t3-808",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Hast ____ Pflaster und Verbandszeug?",
     answer: "du",
+    translation: "Have you got patches and bandages?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -17906,11 +19554,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-810",
+    id: "nom-pro-t3-809",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Da sehe ____ das Hinterteil eines Bären.",
     answer: "ich",
+    translation: "I see the butt of a bear.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -17928,11 +19578,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-811",
+    id: "nom-pro-t3-810",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Los, hissen ____ die Flagge.",
     answer: "wir",
+    translation: "Let's hoist the flag.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -17950,11 +19602,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-812",
+    id: "nom-pro-t3-811",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Bei Kaviar bin ____ sehr kleinlich.",
     answer: "ich",
+    translation: "I'm very fussy when it comes to caviar.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -17972,11 +19626,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-813",
+    id: "nom-pro-t3-812",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Nein, ____ bin Kunsthändler, kein Hehler.",
     answer: "ich",
+    translation: "No, I'm an art dealer, not a fence.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -17994,11 +19650,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-814",
+    id: "nom-pro-t3-813",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Es war für ____ beide demütigend.",
     answer: "uns",
+    translation: "It was humiliating for both of us.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -18016,11 +19674,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-815",
+    id: "nom-pro-t3-814",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Ihr werdet ____ um Rettung anflehen.",
     answer: "uns",
+    translation: "And you will beg us to save you.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -18038,11 +19698,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-816",
+    id: "nom-pro-t3-815",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "An der Absperrung wird man ____ durchlassen.",
     answer: "dich",
+    translation: "When you get to a barricade you will be let through.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -18060,11 +19722,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-817",
+    id: "nom-pro-t3-816",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Zumindest bin ____ diesmal vollständig bekleidet.",
     answer: "ich",
+    translation: "At least I'm fully dressed this time.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -18082,12 +19746,15 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-818",
+    id: "nom-pro-t3-817",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Weil ____ nicht tatenlos zusehe, wie sich diese Tragödie entfaltet?",
     answer: "ich",
+    translation:
+      "Because I won't just sit passively back and watch the tragedy unfold?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -18105,11 +19772,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-819",
+    id: "nom-pro-t3-818",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Bitte sag mir nicht, dass ____ meinen Rasierer benutzt hast.",
     answer: "du",
+    translation: "Please tell me you weren't using my razor.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -18127,11 +19796,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-820",
+    id: "nom-pro-t3-819",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Sie quiekt und bringt ____ zum Quieken.",
     answer: "mich",
+    translation: "She squeals, she makes me squeal.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -18149,11 +19820,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-821",
+    id: "nom-pro-t3-820",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Sie sagte mir, ____ solle ihm applaudieren.",
     answer: "ich",
+    translation: "She told me to applaud him.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -18171,11 +19844,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-822",
+    id: "nom-pro-t3-821",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Sie würden dein Visum widerrufen und ____ abschieben.",
     answer: "dich",
+    translation: "They'll revoke your visa, and you'll be deported.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -18193,12 +19868,15 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-823",
+    id: "nom-pro-t3-822",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Nun, ____ würde mir nie verzeihen, mein größtes Kunststück zu verkaufen.",
     answer: "ich",
+    translation:
+      "Well, I wouldn't forgive myself for selling my greatest trick.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -18216,11 +19894,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-824",
+    id: "nom-pro-t3-823",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Ohne ____ seid ihr nur ein paar Hippies auf Sozialhilfe.",
     answer: "mich",
+    translation: "Without me, you're just a couple of hippies on welfare.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -18238,11 +19918,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-825",
+    id: "nom-pro-t3-824",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Gut, dass ____ Sicherheitsleute haben.",
     answer: "wir",
+    translation: "It's a good thing we have security.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -18260,11 +19942,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-826",
+    id: "nom-pro-t3-825",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Astronomie interessiert ____ nicht sehr.",
     answer: "mich",
+    translation: "I am not interested in astronomy.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -18282,11 +19966,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-827",
+    id: "nom-pro-t3-826",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Vorerst möchte ____ mich hierauf konzentrieren.",
     answer: "ich",
+    translation: "For now, I'd like to concentrate on this.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -18304,11 +19990,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-828",
+    id: "nom-pro-t3-827",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Von seinem Jähzorn abgesehen, ist ____ ein guter Seemann.",
     answer: "er",
+    translation: "Aside from his temper, sir, he's a good sailor.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -18326,11 +20014,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-829",
+    id: "nom-pro-t3-828",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Okay, ____ werden den neuen Typen jetzt ausbilden.",
     answer: "wir",
+    translation: "Okay, we'll go train the new guy now.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -18348,11 +20038,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-830",
+    id: "nom-pro-t3-829",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Darf ____ auch eine Probeaufnahme haben?",
     answer: "ich",
+    translation: "Can I have a test shot, too?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -18370,11 +20062,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-831",
+    id: "nom-pro-t3-830",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Es tut mir leid, ____ war anderweitig beschäftigt.",
     answer: "ich",
+    translation: "I'm sorry I was otherwise engaged.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -18392,11 +20086,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-832",
+    id: "nom-pro-t3-831",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Sie war halbtot, als ____ sie gefunden hast.",
     answer: "du",
+    translation: "She was half dead when you found her.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -18414,12 +20110,15 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-833",
+    id: "nom-pro-t3-832",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Aber ____ will die gleichen Leute entlarven wie wir, mit allen Mitteln.",
     answer: "er",
+    translation:
+      "But he wants to expose the same men we do and will go to any lengths to",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -18437,11 +20136,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-834",
+    id: "nom-pro-t3-833",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Irgendwann möchte ____ gern ein Segelboot besitzen.",
     answer: "ich",
+    translation: "Someday, I would like to possess a sailboat.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -18459,11 +20160,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-835",
+    id: "nom-pro-t3-834",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Eine Explosion könnte ____ streuen.",
     answer: "ihn",
+    translation: "An explosion could scatter it.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -18481,11 +20184,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-836",
+    id: "nom-pro-t3-835",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Wie könntest ____ dein eigenes Kind weggeben?",
     answer: "du",
+    translation: "How could you give away your own baby?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -18503,11 +20208,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-837",
+    id: "nom-pro-t3-836",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Den Rest bekomme ____ über eine Anleihe.",
     answer: "ich",
+    translation: "I can get the rest with the bond.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -18525,11 +20232,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-838",
+    id: "nom-pro-t3-837",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Nun ____ kenne dieses großartige kleine französische Bistro.",
     answer: "ich",
+    translation: "Now I know of this great little French bistro.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -18547,12 +20256,14 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-839",
+    id: "nom-pro-t3-838",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Unvorhergesehene Ereignisse entbinden ____ von unserem zugesagten",
     answer: "uns",
+    translation: "Unforeseen events release us from our agreed deadline.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -18570,11 +20281,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-840",
+    id: "nom-pro-t3-839",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Sie sind so prachtvoll, ____ dreht sich der Kopf.",
     answer: "mir",
+    translation: "You're so gorgeous my head is spinning.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -18592,12 +20305,15 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-841",
+    id: "nom-pro-t3-840",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Beim Thema Sicherheit dürfen ____ keine Kompromisse machen, zumal",
     answer: "wir",
+    translation:
+      "We cannot compromise on safety, especially when the products concerned",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -18615,11 +20331,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-842",
+    id: "nom-pro-t3-841",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Fortan nennst ____ mich Madame.",
     answer: "du",
+    translation: "From now on, you call me Madame.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -18637,11 +20355,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-843",
+    id: "nom-pro-t3-842",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Dieses Wochenende musst ____ dich allein durchschlagen.",
     answer: "du",
+    translation: "You'll have to fend for yourself this weekend.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -18659,11 +20379,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-844",
+    id: "nom-pro-t3-843",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Und Sie müssen ____ jetzt losmachen!",
     answer: "mich",
+    translation: "You need to release me now!",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -18681,11 +20403,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-845",
+    id: "nom-pro-t3-844",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Dieses Gefühl kann ____ nicht abschütteln.",
     answer: "ich",
+    translation: "And I cannot shake this feeling.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -18703,11 +20427,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-846",
+    id: "nom-pro-t3-845",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Dieser Werbespot macht ____ immer so traurig.",
     answer: "mich",
+    translation: "That commercial always makes me so sad.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -18725,11 +20451,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-847",
+    id: "nom-pro-t3-846",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Der Geruch stört ____ überhaupt nicht.",
     answer: "mich",
+    translation: "That odor isn't bothering me at all.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -18747,11 +20475,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-848",
+    id: "nom-pro-t3-847",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Hätte ____ das als Mitglied disqualifiziert?",
     answer: "uns",
+    translation: "Would that have disqualified us as a member?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -18769,11 +20499,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-849",
+    id: "nom-pro-t3-848",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Außerdem hat ____ einen Bluterguss am Brustkorb.",
     answer: "er",
+    translation: "He's also got a nasty bruise on his ribcage.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -18791,11 +20523,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-850",
+    id: "nom-pro-t3-849",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Heiligkeit, ____ habe gar nichts getan.",
     answer: "ich",
+    translation: "Holiness, I have done nothing.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -18813,11 +20547,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-851",
+    id: "nom-pro-t3-850",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Es hat keinen Zweck, ____ zu verkriechen.",
     answer: "dich",
+    translation: "It's useless to hide.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -18835,11 +20571,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-852",
+    id: "nom-pro-t3-851",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Hat jemand gesagt, dass ____ barmherzig wäre?",
     answer: "ich",
+    translation: "Who said I was merciful?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -18857,11 +20595,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-853",
+    id: "nom-pro-t3-852",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Oh, ____ erwarte nichts als Hohn.",
     answer: "ich",
+    translation: "Well, I'm expecting nothing but mockery.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -18879,11 +20619,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-854",
+    id: "nom-pro-t3-853",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Der denkt bestimmt, ____ bereiten einen Bandenkrieg vor.",
     answer: "wir",
+    translation: "He must think we're starting a gang war.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -18901,11 +20643,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-855",
+    id: "nom-pro-t3-854",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Dann lasst ____ euch zwei wieder zusammenbringen.",
     answer: "uns",
+    translation: "Then let's get you two back together.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -18923,12 +20667,15 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-856",
+    id: "nom-pro-t3-855",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Was ____ ein wenig Mitleid mit ihm verspüren ließ, war die Reaktion auf",
     answer: "mich",
+    translation:
+      "What made me feel a little sorry for him was the reaction to his",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -18946,11 +20693,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-857",
+    id: "nom-pro-t3-856",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Und deine Freunde halten ____ für geistreich.",
     answer: "dich",
+    translation: "And yet your friends consider you witty.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -18968,11 +20717,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-858",
+    id: "nom-pro-t3-857",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Wenn Sie mich entschuldigen, ____ muss die Wache postieren.",
     answer: "ich",
+    translation: "If you will excuse me, I must post the guard now.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -18990,12 +20741,14 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-859",
+    id: "nom-pro-t3-858",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Wissen Sie, ____ ist nämlich der einzige Funker, den wir an Bord haben.",
     answer: "er",
+    translation: "You see, he's the only radio operator we have.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -19013,11 +20766,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-860",
+    id: "nom-pro-t3-859",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Weißt du, ____ höre eine Menge Rummel um diesen Film.",
     answer: "ich",
+    translation: "You know I hear a lot of hype about that film.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -19035,11 +20790,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-861",
+    id: "nom-pro-t3-860",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Vielleicht versucht ____ uns zu ködern.",
     answer: "er",
+    translation: "Well, maybe he's trying to lure us.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -19057,12 +20814,15 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-862",
+    id: "nom-pro-t3-861",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Bisher hatten ____ vielerlei Finanzierungsinstrumente und eine geringe",
     answer: "wir",
+    translation:
+      "So far, we have had various financial instruments and little visibility.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -19080,11 +20840,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-863",
+    id: "nom-pro-t3-862",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Wenn die Triade sie kontaktiert, schreiten ____ ein.",
     answer: "wir",
+    translation: "If the triad makes contact, we'll intercede.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -19102,11 +20864,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-864",
+    id: "nom-pro-t3-863",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Warte, ____ hole mein Scheckbuch.",
     answer: "ich",
+    translation: "Hang on, I'll get my checkbook.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -19124,11 +20888,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-865",
+    id: "nom-pro-t3-864",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Heute ist ____ richtig hilfsbereit gewesen.",
     answer: "er",
+    translation: "He's been very helpful today.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -19146,11 +20912,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-866",
+    id: "nom-pro-t3-865",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Willst ____ jetzt gleich zum See rausfahren?",
     answer: "du",
+    translation: "Do you want to drive out to the lake right now?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -19168,11 +20936,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-867",
+    id: "nom-pro-t3-866",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Sie sagte, ____ hätte schöne Wimpern.",
     answer: "ich",
+    translation: "She said I had beautiful eyelashes.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -19190,11 +20960,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-868",
+    id: "nom-pro-t3-867",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Im Endeffekt könnte ____ sich als gefährlich herausstellen.",
     answer: "er",
+    translation: "Ultimately, he may prove dangerous.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -19212,11 +20984,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-869",
+    id: "nom-pro-t3-868",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Aber ____ können Hoffnung jetzt nur aus dem Glauben schöpfen.",
     answer: "wir",
+    translation: "And we can draw hope only from faith.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -19234,12 +21008,15 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-870",
+    id: "nom-pro-t3-869",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Wenn du auch nur einen Schritt machst, bevor du es mir sagst, werde ____",
     answer: "ich",
+    translation:
+      "If you take one step before you tell me, I will blow you away.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -19257,11 +21034,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-871",
+    id: "nom-pro-t3-870",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Und ____ habe gute Rittmeister bei mir.",
     answer: "ich",
+    translation: "And I have good captains with me.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -19279,12 +21058,15 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-872",
+    id: "nom-pro-t3-871",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Ja, sitzen ____ einfach herum und warten auf den Beweis, während sich die",
     answer: "wir",
+    translation:
+      "Yes, let's just sit around and wait for the evidence while the bodies pile up.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -19302,11 +21084,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-873",
+    id: "nom-pro-t3-872",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Wer von ____ beiden ist der Macker?",
     answer: "euch",
+    translation: "Which of you two is the bloke?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -19324,12 +21108,15 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-874",
+    id: "nom-pro-t3-873",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Unser Unternehmen wächst und ____ müssen deshalb zusätzliche Geräte",
     answer: "wir",
+    translation:
+      "Our business is growing, and we need to purchase additional equipment.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -19347,12 +21134,15 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-875",
+    id: "nom-pro-t3-874",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Hast ____ ein illegales Schlachthaus geführt in meinem Gemeindezentrum?",
     answer: "du",
+    translation:
+      "Have you been running an illegal slaughterhouse in my community center?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -19370,11 +21160,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-876",
+    id: "nom-pro-t3-875",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Bist ____ wirklich so versessen, es auf deine Weise zu machen?",
     answer: "du",
+    translation: "You're really that intent on having your way?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -19392,11 +21184,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-877",
+    id: "nom-pro-t3-876",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Wie kann ____ ihm Einhalt gebieten?",
     answer: "ich",
+    translation: "How can I make him stop?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -19414,12 +21208,15 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-878",
+    id: "nom-pro-t3-877",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Aber anstatt der Heirat bekam ____ einen Vertrag auf Lebzeit und einen Titel.",
     answer: "ich",
+    translation:
+      "But instead of marriage, I got a lifetime contract and a title.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -19437,11 +21234,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-879",
+    id: "nom-pro-t3-878",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Interessant, wie sie erkannte, dass ____ unverheiratet bist.",
     answer: "du",
+    translation: "Interesting how she pegged you for unmarried.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -19459,11 +21258,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-880",
+    id: "nom-pro-t3-879",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Ja, ____ möchte eine Ruhestörung melden.",
     answer: "ich",
+    translation: "Yes, I'd like to report a disturbance.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -19481,12 +21282,14 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-881",
+    id: "nom-pro-t3-880",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Die Zentrale schickt ____ mehr Leute, um das Gebiet zu durchkämmen.",
     answer: "uns",
+    translation: "The State is sending more people to comb the area.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -19504,11 +21307,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-882",
+    id: "nom-pro-t3-881",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Lassen Sie ____ viertens noch eine Sachfrage ansprechen.",
     answer: "mich",
+    translation: "Fourthly, I want to address a factual matter.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -19526,11 +21331,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-883",
+    id: "nom-pro-t3-882",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Aber wie konnten Sie ____ überholen?",
     answer: "uns",
+    translation: "How did you manage to overtake us?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -19548,11 +21355,14 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-884",
+    id: "nom-pro-t3-883",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "In Afghanistan haben ____ Bombardierung und Zerstörung gesehen.",
     answer: "wir",
+    translation:
+      "In Afghanistan, we have seen the bombing and destruction that has taken",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -19570,11 +21380,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-885",
+    id: "nom-pro-t3-884",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Das war deine Einlage, als ____ zu uns gekommen bist.",
     answer: "du",
+    translation: "That was your deposit when you came to us.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -19592,11 +21404,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-886",
+    id: "nom-pro-t3-885",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Entschuldigen Sie, wenn ____ indiskret bin.",
     answer: "ich",
+    translation: "Excuse me, if I'm indiscreet.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -19614,12 +21428,14 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-887",
+    id: "nom-pro-t3-886",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Und in dem Moment, als ____ vorbeifahren wollte, stand da ein Fußgänger.",
     answer: "ich",
+    translation: "When I tried to pass it, there was a pedestrian.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -19637,12 +21453,15 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-888",
+    id: "nom-pro-t3-887",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Und ____ werde im offenen Cabrio herumfahren, damit sie jeder sehen kann.",
     answer: "ich",
+    translation:
+      "And I will drive around with the top down, so everyone can see them.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -19660,11 +21479,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-889",
+    id: "nom-pro-t3-888",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Natürlich spricht es ____ kulturell an.",
     answer: "mich",
+    translation: "Of course, it speaks to me culturally.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -19682,12 +21503,14 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-890",
+    id: "nom-pro-t3-889",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Immer noch kein Freund von Haarschnitt und Rasur, wie ____ sehe.",
     answer: "ich",
+    translation: "Still a stranger to a haircut and a shave, I see.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -19705,12 +21528,15 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-891",
+    id: "nom-pro-t3-890",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Erstens müssen und werden ____ die Verwaltungsreformen energisch",
     answer: "wir",
+    translation:
+      "Firstly, we must, and will, pursue the administrative reforms vigorously.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -19728,11 +21554,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-892",
+    id: "nom-pro-t3-891",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Das wird abfallen, wenn ____ nicht aufpasst.",
     answer: "du",
+    translation: "It's going to fall off if you're not careful.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -19750,12 +21578,14 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-893",
+    id: "nom-pro-t3-892",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Man fürchtet uns, weil ____ die Macht haben, willkürlich zu töten.",
     answer: "wir",
+    translation: "They fear us because we have the power to kill arbitrarily.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -19773,11 +21603,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-894",
+    id: "nom-pro-t3-893",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Es war bewölkt, deswegen nahm ____ meinen Regenschirm mit.",
     answer: "ich",
+    translation: "It was cloudy, so I took an umbrella with me.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -19795,11 +21627,14 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-895",
+    id: "nom-pro-t3-894",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Zu meinen Studienzeiten war ____ ein Versuchskaninchen für die",
     answer: "ich",
+    translation:
+      "In my studies, I was a guinea pig for the pharmaceutical industry.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -19817,11 +21652,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-896",
+    id: "nom-pro-t3-895",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Die Sache ist, ____ war hin- und hergerissen.",
     answer: "ich",
+    translation: "The point is I was conflicted.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -19839,11 +21676,14 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-897",
+    id: "nom-pro-t3-896",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Dann musst ____ mir den Deal schon ein bisschen versüßen.",
     answer: "du",
+    translation:
+      "You're going to have to sweeten the deal a little bit for me.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -19861,11 +21701,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-898",
+    id: "nom-pro-t3-897",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Kann ____ aus dem Verband austreten?",
     answer: "ich",
+    translation: "Can I resign from the association?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -19883,12 +21725,15 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-899",
+    id: "nom-pro-t3-898",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Also werde ____ den Markt mit einer Billion U.S. Dollar überfluten.",
     answer: "ich",
+    translation:
+      "So, I am going to flood the markets with one trillion U.S. dollars.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -19906,11 +21751,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-900",
+    id: "nom-pro-t3-899",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Lass ____ heute Abend spazierengehen.",
     answer: "uns",
+    translation: "Let's take a walk tonight.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -19928,11 +21775,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-901",
+    id: "nom-pro-t3-900",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Deine Narben sagen ____, dein Eintritt war qualvoll.",
     answer: "mir",
+    translation: "I can tell from your scars your entry was painful.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -19950,11 +21799,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-902",
+    id: "nom-pro-t3-901",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Dann lassen Sie ____ Ihre Erinnerung auffrischen.",
     answer: "mich",
+    translation: "Well, here, let me refresh your memory.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -19972,12 +21823,14 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-903",
+    id: "nom-pro-t3-902",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Der Mann, den ____ gerade umgebracht hast, war ein zum Tode Verurteilter.",
     answer: "du",
+    translation: "The man you've just killed was a convict on death row.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -19995,12 +21848,15 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-904",
+    id: "nom-pro-t3-903",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Vergangene Nacht blieb ____ daheim, um Ihren Anruf entgegennehmen zu",
     answer: "ich",
+    translation:
+      "Last night I stayed home to be able to receive your phone call.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -20018,12 +21874,15 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-905",
+    id: "nom-pro-t3-904",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Andererseits muss ____ zugeben, dass du etwas zu seriös für mich bist.",
     answer: "ich",
+    translation:
+      "Although I must admit that you are a little too serious for me.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -20041,11 +21900,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-906",
+    id: "nom-pro-t3-905",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Nur einer wie ____ kann ein Boot so festfahren!",
     answer: "du",
+    translation: "Only someone like you could get a boat stuck like this!",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -20063,11 +21924,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-907",
+    id: "nom-pro-t3-906",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Schwer zu glauben, dass irgendwas ____ überwältigen könnte.",
     answer: "ihn",
+    translation: "It's hard to imagine anything could overpower him.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -20085,11 +21948,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-908",
+    id: "nom-pro-t3-907",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Deine Anwesenheit hier dient nur dazu, ____ zu erzürnen.",
     answer: "ihn",
+    translation: "Your presence here only serves to anger him.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -20107,12 +21972,14 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-909",
+    id: "nom-pro-t3-908",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Und außerdem musst ____ dir dazu ein neues Abendkleid machen lassen.",
     answer: "du",
+    translation: "And also, you need to have a new evening dress made.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -20130,11 +21997,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-910",
+    id: "nom-pro-t3-909",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Es gehört der konföderierten Regierung, nehme ____ an.",
     answer: "ich",
+    translation: "It belongs to the Confederate government, I suppose.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -20152,12 +22021,14 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-911",
+    id: "nom-pro-t3-910",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Keine Ahnung, aber ____ denke, wir sollten trotzdem weitersuchen.",
     answer: "ich",
+    translation: "I don't know, but I think we need to keep looking anyway.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -20175,11 +22046,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-912",
+    id: "nom-pro-t3-911",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Lassen ____ das exotische psychologische Geschwafel.",
     answer: "wir",
+    translation: "Let's skip the exotic psychological gibberish.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -20197,12 +22070,15 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-913",
+    id: "nom-pro-t3-912",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Wenn ____ die Presse zu stark abwimmeln, wissen sie, dass was im Busch ist.",
     answer: "wir",
+    translation:
+      "If we go out of our way to put off the press, they'll know something's up.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -20220,11 +22096,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-914",
+    id: "nom-pro-t3-913",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Gut, dann machen ____ eine lange Spazierfahrt an den Strand.",
     answer: "wir",
+    translation: "Good, we're taking a long leisurely drive to the beach.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -20242,11 +22120,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-915",
+    id: "nom-pro-t3-914",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Kann ____ Sie vielleicht zu einem Tänzchen überreden?",
     answer: "ich",
+    translation: "Can I persuade you to dance?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -20264,11 +22144,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-916",
+    id: "nom-pro-t3-915",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Dann müssen ____ die ganze Sache abblasen.",
     answer: "wir",
+    translation: "Then I guess we'll have to call off the whole thing.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -20286,12 +22168,15 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-917",
+    id: "nom-pro-t3-916",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Mit Blick auf die besagte Quotenregelung befürchte ____, ein wenig",
     answer: "ich",
+    translation:
+      "With regard to the aforementioned quotas, I believe that I have been a little",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -20309,11 +22194,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-918",
+    id: "nom-pro-t3-917",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Hast ____ die Pulsader aufgeschnitten?",
     answer: "du",
+    translation: "Did you cut the artery?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -20331,11 +22218,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-919",
+    id: "nom-pro-t3-918",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Wenn sie das herausfindet, wird sie ____ abmurksen.",
     answer: "mich",
+    translation: "If she finds out it's all gone, she'll kill me.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -20353,11 +22242,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-920",
+    id: "nom-pro-t3-919",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Wünscht der auserwählte Krieger einen Zweikampf mit ____?",
     answer: "mir",
+    translation: "Should the chosen warrior fight a duel with me?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -20375,11 +22266,14 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-921",
+    id: "nom-pro-t3-920",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Sie muss am Leben bleiben, bis ____ das Gegengift habe.",
     answer: "ich",
+    translation:
+      "They've got to keep her alive till I get back with the antidote.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -20397,12 +22291,14 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-922",
+    id: "nom-pro-t3-921",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "John konnte die Tür nicht aufschließen, weil ____ den falschen Schlüssel hatte.",
     answer: "er",
+    translation: "John couldn't unlock the door because he had the wrong key.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -20420,11 +22316,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-923",
+    id: "nom-pro-t3-922",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "M/N Beim Striptease habe ____ die ganze Zeit an dich gedacht.",
     answer: "ich",
+    translation: "I thought of you all the way through the striptease.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -20442,12 +22340,15 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-924",
+    id: "nom-pro-t3-923",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Mama, unter diesen Umständen solltest ____ vielleicht den Abstecher aus der",
     answer: "du",
+    translation:
+      "Mom, under the circumstances, you might go ahead and take that trip out of",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -20465,12 +22366,15 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-925",
+    id: "nom-pro-t3-924",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Woher weiß ____, dass du sie oder John nicht wegmachen wolltest?",
     answer: "ich",
+    translation:
+      "How do I know you didn't try to get rid of her, or John for that matter?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -20488,12 +22392,14 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-926",
+    id: "nom-pro-t3-925",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Es wäre ____ unangenehm, Ihnen das Vergnügen meiner Anwesenheit zu",
     answer: "mir",
+    translation: "I'd hate to deny you the pleasure of my company.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -20511,11 +22417,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-927",
+    id: "nom-pro-t3-926",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Das bedeutet, ____ könnten einen Virus einschleusen.",
     answer: "wir",
+    translation: "It means we could plant a virus.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -20533,12 +22441,15 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-928",
+    id: "nom-pro-t3-927",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Auf vielen Messen und Ausstellungen sind ____ präsent, um mit Ihnen",
     answer: "wir",
+    translation:
+      "We are present at a lot of trade fairs and exhibitions, in order to have a",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -20556,11 +22467,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-929",
+    id: "nom-pro-t3-928",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Als Rentner bin ____ jetzt mein eigener Herr, endlich.",
     answer: "ich",
+    translation: "As a pensioner, I'm my own boss now, finally.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -20578,12 +22491,15 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-930",
+    id: "nom-pro-t3-929",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Sie war nah beim Opfer, bevor ____ versuchte, den Schützen zu entwaffnen.",
     answer: "er",
+    translation:
+      "She was near the victim before he tried to disarm the shooter.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -20601,11 +22517,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-931",
+    id: "nom-pro-t3-930",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Wissen Sie, was für eine Gemeinheit Sie da von ____ verlangen?",
     answer: "mir",
+    translation: "Do you know what a dirty trick you're asking me to pull?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -20623,12 +22541,15 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-932",
+    id: "nom-pro-t3-931",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Daher muss größte Betonung auf der Forschung liegen, damit ____ so viele",
     answer: "wir",
+    translation:
+      "This is why the greatest emphasis is to be placed on research, so as to enable",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -20646,11 +22567,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-933",
+    id: "nom-pro-t3-932",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Einer der Bosse trug ____ sogar huckepack.",
     answer: "mich",
+    translation: "One big boss even used to carry me piggyback.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -20668,11 +22591,14 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-934",
+    id: "nom-pro-t3-933",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Wenn ____ gehe, hat das keine großen Konsequenzen, wogegen Ihre",
     answer: "ich",
+    translation:
+      "Where I go is of little consequence, whereas your presence is important to all.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -20690,11 +22616,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-935",
+    id: "nom-pro-t3-934",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Aber Sie verstehen, dass ____ inkognito reist.",
     answer: "er",
+    translation: "You understand he's traveling incognito.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -20712,11 +22640,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-936",
+    id: "nom-pro-t3-935",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Schau nur, wie ____ in deiner Kappe und der Robe aussiehst.",
     answer: "du",
+    translation: "Look at you in your cap and gown.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -20734,12 +22664,15 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-937",
+    id: "nom-pro-t3-936",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Bevor es losgeht, möchte ____ Ihnen meine Hochachtung ausdrücken.",
     answer: "ich",
+    translation:
+      "Before we continue, I would just like to express my appreciation.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -20757,12 +22690,14 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-938",
+    id: "nom-pro-t3-937",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Das, was ____ heute machen, ist im Grunde genommen ein Ärgernis.",
     answer: "wir",
+    translation: "What we are doing today is essentially a nuisance.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -20780,11 +22715,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-939",
+    id: "nom-pro-t3-938",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Sie versuchen, es ____ ungemütlich zu machen.",
     answer: "mir",
+    translation: "You're trying to make me uncomfortable.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -20802,11 +22739,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-940",
+    id: "nom-pro-t3-939",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Wenn ____ dein Leben darauf verwetten willst, ist das ja schön.",
     answer: "du",
+    translation: "If you're willing to bet your life on this, that's fine.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -20824,12 +22763,15 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-941",
+    id: "nom-pro-t3-940",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Wenn ihr das Kind findet, meldet es mir, damit auch ____ ihm huldigen kann.",
     answer: "ich",
+    translation:
+      "If you find this child, bring me word, that I, too, might worship him.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -20847,11 +22789,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-942",
+    id: "nom-pro-t3-941",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Aber jemand wollte ____ etwas anderes weismachen.",
     answer: "mir",
+    translation: "But someone was trying to make me believe otherwise.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -20869,12 +22813,14 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-943",
+    id: "nom-pro-t3-942",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Die scheinen mich zu kennen, aber ____ habe keinen Anhaltspunkt, wer die sind.",
     answer: "ich",
+    translation: "They seem to know me, but I have no clue who they are.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -20892,11 +22838,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-944",
+    id: "nom-pro-t3-943",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Es ist etwas stickig hier, ____ mache mal das Fenster auf.",
     answer: "ich",
+    translation: "It's kind of stuffy in here, I'll open a window for you.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -20914,11 +22862,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-945",
+    id: "nom-pro-t3-944",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Eigentlich würde ____ es ihnen zutrauen.",
     answer: "ich",
+    translation: "Actually, I wouldn't put it past them.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -20936,11 +22886,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-946",
+    id: "nom-pro-t3-945",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Weißt du, wo ____ meine Jacke hintun kann?",
     answer: "ich",
+    translation: "Where can I put my jacket?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -20958,11 +22910,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-947",
+    id: "nom-pro-t3-946",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Wenn du Skrupel hast, dann nehme ____ den Zaster auch.",
     answer: "ich",
+    translation: "If you're having scruples, I'll take all the money.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -20980,11 +22934,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-948",
+    id: "nom-pro-t3-947",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Als ____ aufwuchs, besaßen meine Eltern ein Schlachthaus.",
     answer: "ich",
+    translation: "My family ran a slaughterhouse when I was growing up.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -21002,11 +22958,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-949",
+    id: "nom-pro-t3-948",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Andere würden ____ als einflussreich beschreiben.",
     answer: "mich",
+    translation: "Others would describe me as influential.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -21024,12 +22982,14 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-950",
+    id: "nom-pro-t3-949",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Können ____ wenigstens für weitere Gespräche aufgeschlossen bleiben?",
     answer: "wir",
+    translation: "Well, can we at least keep the dialogue open?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -21047,11 +23007,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-951",
+    id: "nom-pro-t3-950",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Wenn uns jemand aufhalten will, ____ sind nuklear ausgerüstet.",
     answer: "wir",
+    translation: "If anyone gets in our way, we have small nuclear devices.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -21069,12 +23031,15 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-952",
+    id: "nom-pro-t3-951",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Vor neunzehn Jahren habe ____ dich aus deinem Auto geholt und die Kohle von",
     answer: "ich",
+    translation:
+      "Nineteen years ago, I threw you from a car and stole your boss's money.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -21092,11 +23057,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-953",
+    id: "nom-pro-t3-952",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Da kommt ____ eine Idee, wie man an ihn herankommen könnte.",
     answer: "mir",
+    translation: "That gives me an idea as to how to approach him.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -21114,12 +23081,14 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-954",
+    id: "nom-pro-t3-953",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Das war die winzigste Schabe, die ____ in meinem ganzen Leben gesehen habe.",
     answer: "ich",
+    translation: "That was the tiniest cockroach I've ever seen in my life.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -21137,11 +23106,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-955",
+    id: "nom-pro-t3-954",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Von dieser Illusion müssen ____ ihn abbringen.",
     answer: "wir",
+    translation: "We must dissuade him of this delusion.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -21159,11 +23130,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-956",
+    id: "nom-pro-t3-955",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Dann dank ihnen und bring ____ schleunigst runter.",
     answer: "uns",
+    translation: "Thank them, then prepare to land immediately.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -21181,11 +23154,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-957",
+    id: "nom-pro-t3-956",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Benutzen Sie die Sprechanlage, wenn Sie ____ brauchen.",
     answer: "mich",
+    translation: "If you need me, use the intercom.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -21203,11 +23178,14 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-958",
+    id: "nom-pro-t3-957",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Würden Sie meine Kinder betreuen, während ____ auf Urlaub bin.",
     answer: "ich",
+    translation:
+      "Would you look after my children while I am away on vacation?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -21225,11 +23203,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-959",
+    id: "nom-pro-t3-958",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Für ____ sind Sie nur ein Untergebener.",
     answer: "mich",
+    translation: "To me, you are just another subordinate.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -21247,12 +23227,14 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-960",
+    id: "nom-pro-t3-959",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Herr Major, ____ habe Wachdienst und darf meinen Posten nicht verlassen.",
     answer: "ich",
+    translation: "Major, I am on guard duty. I cannot leave my post.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -21270,11 +23252,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-961",
+    id: "nom-pro-t3-960",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Warum muss ____ mich ständig degradieren?",
     answer: "ich",
+    translation: "Why do I have this constant need to degrade myself?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -21292,12 +23276,14 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-962",
+    id: "nom-pro-t3-961",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Und ____ habe mir mit Ihrer Ex-Freundin ein Motelzimmer geteilt.",
     answer: "ich",
+    translation: "And I shared a motel room with your ex-girlfriend.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -21315,11 +23301,14 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-963",
+    id: "nom-pro-t3-962",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Es wäre unlogisch, ____ Informationen vorzuenthalten.",
     answer: "uns",
+    translation:
+      "It would be illogical for you to withhold information from us.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -21337,11 +23326,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-964",
+    id: "nom-pro-t3-963",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Diejenigen, die überleben, werden ____ einmal mehr versklaven.",
     answer: "wir",
+    translation: "Those who survive, we shall enslave once more.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -21359,11 +23350,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-965",
+    id: "nom-pro-t3-964",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Doch, ____ werde denen raten, sich zu gedulden.",
     answer: "ich",
+    translation: "And I will advise them to be patient.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -21381,12 +23374,15 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-966",
+    id: "nom-pro-t3-965",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Er schien so gefestigt, ja, schweigsam, als ____ ihn traf, und jetzt ist er ein",
     answer: "ich",
+    translation:
+      "He seemed so solid when I met him, even taciturn, but now he's a bundle of",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -21404,11 +23400,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-967",
+    id: "nom-pro-t3-966",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Okay, bringen ____ sie in den Leichenwagen.",
     answer: "wir",
+    translation: "Okay, let's take her to the hearse.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -21426,11 +23424,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-968",
+    id: "nom-pro-t3-967",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Beim Gähnen tränen ____ manchmal die Augen.",
     answer: "mir",
+    translation: "My eyes leak sometimes when I yawn, that's all.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -21448,11 +23448,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-969",
+    id: "nom-pro-t3-968",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Du nimmst den Pflug und ____ die Pferde.",
     answer: "ich",
+    translation: "You take the plow, and I take the horses.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -21470,11 +23472,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-970",
+    id: "nom-pro-t3-969",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Kannst ____ für seinen Geisteszustand bürgen?",
     answer: "du",
+    translation: "How can you vouch for his state of mind?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -21492,11 +23496,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-971",
+    id: "nom-pro-t3-970",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "John und ____ wollen gerade ein kleines Duett spielen.",
     answer: "ich",
+    translation: "John and I are just getting ready to do a little duet.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -21514,11 +23520,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-972",
+    id: "nom-pro-t3-971",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Hast ____ das so schnell wieder vergessen, Liebchen?",
     answer: "du",
+    translation: "Have you already forgotten, sweetheart?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -21536,11 +23544,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-973",
+    id: "nom-pro-t3-972",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Wie bist ____ so ein Optimist geworden?",
     answer: "du",
+    translation: "How did you become such an optimist?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -21558,11 +23568,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-974",
+    id: "nom-pro-t3-973",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Ein Familienmitglied stirbt und Sie beleidigen ____.",
     answer: "mich",
+    translation: "A family member dies, and you insult me.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -21580,11 +23592,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-975",
+    id: "nom-pro-t3-974",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Vielleicht könntest ____ das Buch herunterbringen.",
     answer: "du",
+    translation: "Maybe you can bring the book down here.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -21602,12 +23616,15 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-976",
+    id: "nom-pro-t3-975",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Tut mir leid, dass ____ Sie herbestellen musste, aber die vierteljährige",
     answer: "ich",
+    translation:
+      "Sorry, I had to call you in, but quarterly balance sheets are due Monday.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -21625,11 +23642,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-977",
+    id: "nom-pro-t3-976",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Ob ____ wohl den Sitz verstellen kann?",
     answer: "ich",
+    translation: "I wonder if I can adjust the seat.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -21647,11 +23666,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-978",
+    id: "nom-pro-t3-977",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Was immer ____ machst, verliere den Sender nicht.",
     answer: "du",
+    translation: "Whatever you do, don't lose that transmitter.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -21669,11 +23690,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-979",
+    id: "nom-pro-t3-978",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Wenn ____ nicht da bist, sind wir aufgeschmissen.",
     answer: "du",
+    translation: "If you're not there, we're screwed.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -21691,11 +23714,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-980",
+    id: "nom-pro-t3-979",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Lassen Sie ____ nur noch geschwind meinen Mantel holen.",
     answer: "mich",
+    translation: "Let me just get my coat quickly.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -21713,11 +23738,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-981",
+    id: "nom-pro-t3-980",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Darum lasst ____ auf das letzte Jahrtausend zurückblicken.",
     answer: "uns",
+    translation: "Therefore, look back across the last millennium.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -21735,11 +23762,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-982",
+    id: "nom-pro-t3-981",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Jetzt lege dich hin und ____ hole dir eine Bettdecke.",
     answer: "ich",
+    translation: "Now, lie down and I'll get you a blanket.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -21757,11 +23786,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-983",
+    id: "nom-pro-t3-982",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Manchmal trage ____ ihn zu meinem Nagellack.",
     answer: "ich",
+    translation: "Sometimes I match it to my nail polish.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -21779,11 +23810,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-984",
+    id: "nom-pro-t3-983",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Da waren ____ zwei Sterne in derselben Konstellation.",
     answer: "wir",
+    translation: "We were like two stars in the same constellation.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -21801,11 +23834,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-985",
+    id: "nom-pro-t3-984",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Da hast ____ dir ja ein höllisches Aufgebot zusammengestellt.",
     answer: "du",
+    translation: "You rounded up yourself a hell of a posse, here.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -21823,11 +23858,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-986",
+    id: "nom-pro-t3-985",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Einige von ____ sind lediglich symbolisch.",
     answer: "ihnen",
+    translation: "Some of them are merely symbolic.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -21845,11 +23882,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-987",
+    id: "nom-pro-t3-986",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Mein Vater und ____ haben denselben Körperbau.",
     answer: "ich",
+    translation: "I guess I have my father's build.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -21867,12 +23906,14 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-988",
+    id: "nom-pro-t3-987",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Zurzeit durchleben ____ einen Prozess des politischen Realismus.",
     answer: "wir",
+    translation: "We are currently undergoing a process of political realism.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -21890,11 +23931,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-989",
+    id: "nom-pro-t3-988",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Aber ____ machte sich zum Diktator.",
     answer: "er",
+    translation: "Yes, but he made himself dictator.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -21912,11 +23955,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-990",
+    id: "nom-pro-t3-989",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Das Ding habe ____ auf dem Flohmarkt entdeckt.",
     answer: "ich",
+    translation: "I found it at the flea market.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -21934,12 +23979,15 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-991",
+    id: "nom-pro-t3-990",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Denn sobald ____ die Augen schließt, verschwinden sechzig Prozent der Welt.",
     answer: "du",
+    translation:
+      "As soon as you close your eyes, sixty percent of the world disappears.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -21957,11 +24005,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-992",
+    id: "nom-pro-t3-991",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Jetzt können ____ nur den Wagen ausladen und warten.",
     answer: "wir",
+    translation: "Nothing to do now but unload the car and wait.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -21979,11 +24029,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-993",
+    id: "nom-pro-t3-992",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Warum habe ____ mich mit diesem Alleinsein verurteilt?",
     answer: "ich",
+    translation: "Why did I doom myself to such loneliness?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -22001,11 +24053,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-994",
+    id: "nom-pro-t3-993",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Du weißt ja, dass ____ nie sehr sportlich war.",
     answer: "ich",
+    translation: "You know, I was never very sporty.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -22023,12 +24077,15 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-995",
+    id: "nom-pro-t3-994",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Diese Schwäche wird vorübergehen und ____ werde stärker als je zuvor sein.",
     answer: "ich",
+    translation:
+      "This momentary lapse will pass, and I'll be stronger than ever.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -22046,11 +24103,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-996",
+    id: "nom-pro-t3-995",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Geh raus und frag den erstbesten Mann, den ____ triffst.",
     answer: "du",
+    translation: "Go outside on the street and ask the first man you see.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -22068,11 +24127,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-997",
+    id: "nom-pro-t3-996",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Ein Buch bringt ____ zum Flennen!",
     answer: "ihn",
+    translation: "A book made him cry!",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -22090,11 +24151,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-998",
+    id: "nom-pro-t3-997",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Persönlich bin ____ nicht stolz auf die Konföderation.",
     answer: "ich",
+    translation: "I personally take no pride in the Confederacy.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -22112,11 +24175,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-999",
+    id: "nom-pro-t3-998",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Kannst ____ sie nicht etwas rütteln?",
     answer: "du",
+    translation: "Can't you shake her a little?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -22134,11 +24199,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1000",
+    id: "nom-pro-t3-999",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Gehen ____, bevor sie uns lynchen.",
     answer: "wir",
+    translation: "Let's get out of here before they lynch us.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -22156,12 +24223,15 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1001",
+    id: "nom-pro-t3-1000",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Das ist einfacher zu verschanzen und ____ werden besser zu den Bäumen",
     answer: "wir",
+    translation:
+      "It's easier to fortify, and we'll have a better position on the tree lines.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -22179,11 +24249,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1002",
+    id: "nom-pro-t3-1001",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Einem Stammkunden mach ____ einen Sonderpreis.",
     answer: "ich",
+    translation: "For a regular customer, I will make a special price.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -22201,11 +24273,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1003",
+    id: "nom-pro-t3-1002",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Selbst seinen Schmerz benutzt ____ als Deckmantel.",
     answer: "er",
+    translation: "He would even use his grief as a cloak.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -22223,11 +24297,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1004",
+    id: "nom-pro-t3-1003",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Wenn ____ mich recht entsinne, war er ein Revolverheld.",
     answer: "ich",
+    translation: "My recollection is that he was a gunfighter.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -22245,11 +24321,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1005",
+    id: "nom-pro-t3-1004",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Sie ist unausstehlich, aber ____ kenne sie kaum.",
     answer: "ich",
+    translation: "She's obnoxious, but I barely know her.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -22267,12 +24345,14 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1006",
+    id: "nom-pro-t3-1005",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Können wir die Videoüberwachungs-Aufnahme sehen, wo ____ sich hinkniet?",
     answer: "er",
+    translation: "Can we see that CCTV footage of him kneeling down?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -22290,11 +24370,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1007",
+    id: "nom-pro-t3-1006",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Lassen Sie ____ etwas Kuchen einwickeln.",
     answer: "mich",
+    translation: "Let me wrap up some cake.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -22312,11 +24394,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1008",
+    id: "nom-pro-t3-1007",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Okay, aber ____ soll unstabile Objekte neutralisieren.",
     answer: "er",
+    translation: "Okay, but it is supposed to neutralize unstable objects.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -22334,11 +24418,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1009",
+    id: "nom-pro-t3-1008",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Schickt ____ eine Postkarte aus Honduras.",
     answer: "mir",
+    translation: "Send me a postcard when you get to Honduras.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -22356,11 +24442,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1010",
+    id: "nom-pro-t3-1009",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Das Trikot war das beste Geschenk, dass ____ je bekommen habe.",
     answer: "ich",
+    translation: "That jersey was the greatest present I ever got.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -22378,11 +24466,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1011",
+    id: "nom-pro-t3-1010",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Können Sie ____ bitte zur Polizeistation durchstellen?",
     answer: "mich",
+    translation: "Could you connect me with the police station, please?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -22400,11 +24490,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1012",
+    id: "nom-pro-t3-1011",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Zur Rechnung müssen ____ zweierlei Werte bestimmen.",
     answer: "wir",
+    translation: "To the calculation, we have to define two different values.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -22422,12 +24514,14 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1013",
+    id: "nom-pro-t3-1012",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Ja, aber ____ bin mir nicht sicher, euch zu vertrauen gewissenhaft zu sein.",
     answer: "ich",
+    translation: "Yes, but I'm not sure I trust you to be diligent.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -22445,11 +24539,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1014",
+    id: "nom-pro-t3-1013",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Wusstest ____, dass die Kühe echt muh sagen?",
     answer: "du",
+    translation: "Do you know those little cows really moo?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -22467,11 +24563,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1015",
+    id: "nom-pro-t3-1014",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Die ganze Tortur hat ____ wirklich ausgelaugt.",
     answer: "mich",
+    translation: "The whole ordeal has made me quite a bit exhausted.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -22489,11 +24587,14 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1016",
+    id: "nom-pro-t3-1015",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Und eines Tages wachte ____ auf und lag in der Nervenklinik.",
     answer: "ich",
+    translation:
+      "And then I woke up one day, and I was in a mental institution.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -22511,12 +24612,14 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1017",
+    id: "nom-pro-t3-1016",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Schon in einer Woche können ____ im Grünen Gewölbe diesen Fund zeigen.",
     answer: "wir",
+    translation: "After one week we can show this find in the Green Vault.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -22534,11 +24637,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1018",
+    id: "nom-pro-t3-1017",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Sei ganz ____ selbst: würdevoll und charmant.",
     answer: "du",
+    translation: "Just be yourself: dignified and charming.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -22556,11 +24661,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1019",
+    id: "nom-pro-t3-1018",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Hilf ____, den Klotz unter das Auto hier zu stellen.",
     answer: "mir",
+    translation: "Help me put that block under the car here.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -22578,12 +24685,14 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1020",
+    id: "nom-pro-t3-1019",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Nein, der Weihnachtsmann, aber ____ habe mein Rentier vergessen.",
     answer: "ich",
+    translation: "No, it's Santa, but I forgot my reindeer.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -22601,11 +24710,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1021",
+    id: "nom-pro-t3-1020",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Seine Lunge ist schwarz, nachts röchelt ____.",
     answer: "er",
+    translation: "His lung is clogged; he wheezes at night.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -22623,11 +24734,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1022",
+    id: "nom-pro-t3-1021",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Würdest ____ ranfahren und mich fahren lassen?",
     answer: "du",
+    translation: "Would you pull over and let me drive?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -22645,11 +24758,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1023",
+    id: "nom-pro-t3-1022",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Es ist unser erster Schultag und ____ bist bekifft.",
     answer: "du",
+    translation: "It's the first day of school, and you're stoned.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -22667,11 +24782,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1024",
+    id: "nom-pro-t3-1023",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Das ist, weil ____ selbstbewusst ist.",
     answer: "er",
+    translation: "This is because he is confident.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -22689,11 +24806,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1025",
+    id: "nom-pro-t3-1024",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Wieso konnten ____ den Kern nicht abstoßen?",
     answer: "wir",
+    translation: "Why couldn't we eject the core?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -22711,11 +24830,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1026",
+    id: "nom-pro-t3-1025",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Und im Moment muss ____ Ergebnisse vorzeigen.",
     answer: "ich",
+    translation: "And right now, I need to show results.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -22733,11 +24854,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1027",
+    id: "nom-pro-t3-1026",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Nein, ____ bist arrogant und hochnäsig.",
     answer: "du",
+    translation: "No, you're arrogant and conceited.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -22755,11 +24878,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1028",
+    id: "nom-pro-t3-1027",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Dürfte ____ Ihnen eine kleine moralische Aufmunterung anbieten?",
     answer: "ich",
+    translation: "May I offer you a little moral encouragement?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -22777,11 +24902,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1029",
+    id: "nom-pro-t3-1028",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Heute zertreten ____ einen lästigen Käfer!",
     answer: "wir",
+    translation: "Today we're squashing a bug.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -22799,11 +24926,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1030",
+    id: "nom-pro-t3-1029",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Nicht, dass dieser Quacksalber wüsste, wovon ____ redet.",
     answer: "er",
+    translation: "Not that the quack knows what he's talking about.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -22821,11 +24950,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1031",
+    id: "nom-pro-t3-1030",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Wenn ____ erst mal da bin, vereidigen sie mich.",
     answer: "ich",
+    translation: "Now, once I get there, they will swear me in.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -22843,11 +24974,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1032",
+    id: "nom-pro-t3-1031",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "So können sie ____ nicht losschicken.",
     answer: "uns",
+    translation: "They can't send us out like this.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -22865,11 +24998,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1033",
+    id: "nom-pro-t3-1032",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Sie können eine Ballade über ____ schreiben.",
     answer: "uns",
+    translation: "They can write a ballad about us.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -22887,11 +25022,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1034",
+    id: "nom-pro-t3-1033",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Vorhin dachte ____, du würdest auch den Schnurrbart abrasieren.",
     answer: "ich",
+    translation: "I almost thought you'd shave your mustache off earlier.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -22909,11 +25046,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1035",
+    id: "nom-pro-t3-1034",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Doch bisweilen verlieren ____ unsere Gefährten.",
     answer: "wir",
+    translation: "But sometimes, we lose our companions along the way.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -22931,11 +25070,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1036",
+    id: "nom-pro-t3-1035",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Das mag ____ an meinem Metier nicht.",
     answer: "ich",
+    translation: "That's one thing I dislike about this profession.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -22953,12 +25094,15 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1037",
+    id: "nom-pro-t3-1036",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "So können ____ alle Beteiligten sensibilisieren und der Schädigung unserer",
     answer: "wir",
+    translation:
+      "The awareness of all participants can be raised in this way, and we can",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -22976,11 +25120,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1038",
+    id: "nom-pro-t3-1037",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Aber sie werden ____ etwas Zeit erkaufen müssen.",
     answer: "mir",
+    translation: "But you will need to buy some time for me.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -22998,11 +25144,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1039",
+    id: "nom-pro-t3-1038",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Sie wollte nur, dass ____ mir ungebildet vorkomme.",
     answer: "ich",
+    translation: "She just wanted to make me feel ignorant.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -23020,12 +25168,15 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1040",
+    id: "nom-pro-t3-1039",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Wenn jemand versucht dort zu sitzen, beschimpfst ____ ihn erbarmungslos.",
     answer: "du",
+    translation:
+      "When anyone else tries to sit here, you berate them relentlessly.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -23043,12 +25194,14 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1041",
+    id: "nom-pro-t3-1040",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Aber erlaube ____ wenigstens dir zu danken für deine großmütigen Worte.",
     answer: "mir",
+    translation: "But let me thank you for your generous words, at least.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -23066,11 +25219,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1042",
+    id: "nom-pro-t3-1041",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Wenn der Sturm vorbei ist, zeig ____ dir meinen Renner.",
     answer: "ich",
+    translation: "When the storm is over, I'll show you my racer.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -23088,11 +25243,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1043",
+    id: "nom-pro-t3-1042",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Jane, ____ weiß, du bist durcheinander und verunsichert.",
     answer: "ich",
+    translation: "Jane, I know you are confused and uncertain.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -23110,11 +25267,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1044",
+    id: "nom-pro-t3-1043",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Mit dieser Ignoranz tun ____ uns keinen Gefallen.",
     answer: "wir",
+    translation: "This ignorance does us no favors.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -23132,11 +25291,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1045",
+    id: "nom-pro-t3-1044",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Sie versetzten ____ damit einen Elektroschock.",
     answer: "dir",
+    translation: "They use it to give you an electric shock.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -23154,12 +25315,14 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1046",
+    id: "nom-pro-t3-1045",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Jedem von ____ wurde eine Karte übergeben und ein Sammelpunkt zugeteilt.",
     answer: "euch",
+    translation: "Each one of you has a map and a meeting point.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -23177,12 +25340,14 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1047",
+    id: "nom-pro-t3-1046",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Seit sie eine Spange trägt, habe ____ sie kaum noch lächeln sehen.",
     answer: "ich",
+    translation: "Since she got her braces, I've hardly seen her smile.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -23200,11 +25365,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1048",
+    id: "nom-pro-t3-1047",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "So kann ____ etwas Zeit für euch schinden.",
     answer: "ich",
+    translation: "This way I'll buy you some time.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -23222,11 +25389,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1049",
+    id: "nom-pro-t3-1048",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Und ____ entwickelten uns mehr in Richtung Popmusik.",
     answer: "wir",
+    translation: "It evolved, and it moved towards more pop music.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -23244,11 +25413,14 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1050",
+    id: "nom-pro-t3-1049",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Kann John sich nicht erst einleben, bevor ____ streiten?",
     answer: "wir",
+    translation:
+      "Can't we allow John a few days to settle in before we start fighting?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -23266,11 +25438,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1051",
+    id: "nom-pro-t3-1050",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Bezahle ____ dich fürs Schwatzen?",
     answer: "ich",
+    translation: "Am I paying you to stand there and chat?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -23288,11 +25462,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1052",
+    id: "nom-pro-t3-1051",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Auf seinem Gesicht sah ____ ein freudiges Lächeln.",
     answer: "ich",
+    translation: "I saw a happy smile on his face.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -23310,11 +25486,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1053",
+    id: "nom-pro-t3-1052",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "An mein damaliges Leben erinnere ____ mich nicht sehr gut.",
     answer: "ich",
+    translation: "I don't remember my life then very well.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -23332,11 +25510,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1054",
+    id: "nom-pro-t3-1053",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Die Zeit wird verfliegen, das weiß ____ jetzt schon.",
     answer: "ich",
+    translation: "Time's just going to fly by, I can tell.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -23354,11 +25534,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1055",
+    id: "nom-pro-t3-1054",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Für so was habe ____ einen Riecher.",
     answer: "ich",
+    translation: "I have a nose for these things.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -23376,12 +25558,15 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1056",
+    id: "nom-pro-t3-1055",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Vielleicht könnten Sie ____ helfen, etwas davon zu rekonstruieren.",
     answer: "mir",
+    translation:
+      "I thought you might be able to help me reconstruct some of it.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -23399,11 +25584,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1057",
+    id: "nom-pro-t3-1056",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Beginnen ____ nichtsdestotrotz mit den Grundlagen.",
     answer: "wir",
+    translation: "Nevertheless, let's start with the basics.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -23421,11 +25608,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1058",
+    id: "nom-pro-t3-1057",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "General, ____ sind indirekt verantwortlich.",
     answer: "wir",
+    translation: "General, we're indirectly responsible for this.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -23443,12 +25632,14 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1059",
+    id: "nom-pro-t3-1058",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Nun, ____ habe an mieseren Orten gearbeitet, um es philosophisch zu sagen.",
     answer: "ich",
+    translation: "Well, I've worked in worse places, philosophically speaking.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -23466,11 +25657,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1060",
+    id: "nom-pro-t3-1059",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Dann schleusen sie ____ zwischen den anderen Verletzten raus.",
     answer: "ihn",
+    translation: "Then, they smuggle him out with the rest of the injured.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -23488,12 +25681,15 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1061",
+    id: "nom-pro-t3-1060",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Da wurde ____ zum Kriegshelden und besiegte im Alleingang die deutsche",
     answer: "er",
+    translation:
+      "He became a war hero, single-handedly defeating the German army.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -23511,11 +25707,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1062",
+    id: "nom-pro-t3-1061",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Hast ____ das Holz vom Schreiner genommen?",
     answer: "du",
+    translation: "Did you take the wood from the carpenter?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -23533,11 +25731,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1063",
+    id: "nom-pro-t3-1062",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Lass ____ dich ein wenig abtrocknen.",
     answer: "mich",
+    translation: "Let me dry you off a little.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -23555,11 +25755,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1064",
+    id: "nom-pro-t3-1063",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Die Leute sollten wissen, wie neurotisch ____ bist.",
     answer: "du",
+    translation: "People should know how neurotic you are.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -23577,11 +25779,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1065",
+    id: "nom-pro-t3-1064",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Nur ____ kannst meinen Namen reinwaschen.",
     answer: "du",
+    translation: "You're the only one that can clear my name.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -23599,11 +25803,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1066",
+    id: "nom-pro-t3-1065",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Und ____ bin neugierig bezüglich des Themas Ihrer Dissertation.",
     answer: "ich",
+    translation: "And I'm curious about the subject of your dissertation.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -23621,11 +25827,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1067",
+    id: "nom-pro-t3-1066",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Seht ____ den Prachtkerl an, Leute.",
     answer: "euch",
+    translation: "Look at that hunk of man, kids.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -23643,12 +25851,14 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1068",
+    id: "nom-pro-t3-1067",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Um seinen Willen zu bekommen, nutzte ____ Gewaltanwendung und Erpressung.",
     answer: "er",
+    translation: "Using blackmail and violence to get his way.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -23666,11 +25876,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1069",
+    id: "nom-pro-t3-1068",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Die giftige Atmosphäre hier behindert ____ beträchtlich.",
     answer: "uns",
+    translation: "The toxic atmosphere here is slowing us down considerably.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -23688,11 +25900,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1070",
+    id: "nom-pro-t3-1069",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Das hätten Sie mit ____ absprechen müssen.",
     answer: "uns",
+    translation: "These changes should have been arranged beforehand.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -23710,12 +25924,14 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1071",
+    id: "nom-pro-t3-1070",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Aber wir beide waren nur besorgt, dass ____ uns drankriegen würdest.",
     answer: "du",
+    translation: "But we were both worried that you would nail us.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -23733,11 +25949,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1072",
+    id: "nom-pro-t3-1071",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Entschuldige mal, ____ habe nicht gemogelt.",
     answer: "ich",
+    translation: "Excuse me, I did not cheat.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -23755,11 +25973,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1073",
+    id: "nom-pro-t3-1072",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Weil ____ vom Lügendetektor überführt wurde.",
     answer: "er",
+    translation: "Because he was caught lying by the lie detector.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -23777,11 +25997,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1074",
+    id: "nom-pro-t3-1073",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Aber sie werden ____ niederschießen!",
     answer: "uns",
+    translation: "But they will shoot us down!",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -23799,11 +26021,14 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1075",
+    id: "nom-pro-t3-1074",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Aber wie willst ____ das machen, wenn das Sägewerk stillliegt?",
     answer: "du",
+    translation:
+      "But since your sawmill isn't operating, how do you intend to do that?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -23821,11 +26046,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1076",
+    id: "nom-pro-t3-1075",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Dieses Amulett ist das Wertvollste, was ____ besitzen.",
     answer: "wir",
+    translation: "This amulet is the most precious thing we have.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -23843,11 +26070,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1077",
+    id: "nom-pro-t3-1076",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Mein Gynäkologe riet ____, Aufregung zu vermeiden.",
     answer: "mir",
+    translation: "My gynecologist told me to avoid excitement.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -23865,11 +26094,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1078",
+    id: "nom-pro-t3-1077",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Es könnte für ____ vorteilhaft sein, so weiterzumachen.",
     answer: "mich",
+    translation: "It could be advantageous for me to continue this way.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -23887,11 +26118,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1079",
+    id: "nom-pro-t3-1078",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Meine Lehrer dachten, ____ sei unverbesserlich.",
     answer: "ich",
+    translation: "My teachers thought I was incorrigible.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -23909,11 +26142,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1080",
+    id: "nom-pro-t3-1079",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Na ja, lassen ____ uns nicht mitreißen.",
     answer: "wir",
+    translation: "Well, let's not get carried away.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -23931,11 +26166,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1081",
+    id: "nom-pro-t3-1080",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Eher würde ____ in einer Metzgerei arbeiten.",
     answer: "ich",
+    translation: "I'd rather work in a butcher's shop.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -23953,11 +26190,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1082",
+    id: "nom-pro-t3-1081",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Lasst ____ endlich den Rammbock holen und die Tür aufbrechen.",
     answer: "uns",
+    translation: "Let's get that battering ram and break down that door.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -23975,11 +26214,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1083",
+    id: "nom-pro-t3-1082",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Sie können ____ sogar dabei helfen seinen Skalp zu entfernen.",
     answer: "uns",
+    translation: "In fact, you can assist us in removing his scalp.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -23997,11 +26238,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1084",
+    id: "nom-pro-t3-1083",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Also, ____ habe massenweise männliche Freunde.",
     answer: "ich",
+    translation: "Well, I have tons of guy friends.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -24019,11 +26262,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1085",
+    id: "nom-pro-t3-1084",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Geld rinnt ____ geradezu durch die Finger.",
     answer: "ihm",
+    translation: "Money simply slips through his fingers.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -24041,11 +26286,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1086",
+    id: "nom-pro-t3-1085",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Kommt jetzt herunter oder ____ werde euer Haus abfackeln!",
     answer: "ich",
+    translation: "Come down now, or I'll torch your house!",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -24063,11 +26310,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1087",
+    id: "nom-pro-t3-1086",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "In solchen Situationen musst ____ deine Weiblichkeit einsetzen.",
     answer: "du",
+    translation: "At times like this, you should use your femininity.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -24085,12 +26334,14 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1088",
+    id: "nom-pro-t3-1087",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Denn ____ bin bereit, eine Liste meiner Forderungen zu diktieren.",
     answer: "ich",
+    translation: "Because I'm ready to dictate a list of my demands.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -24108,11 +26359,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1089",
+    id: "nom-pro-t3-1088",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Seine Leute verschwören sich, um ____ zu stürzen.",
     answer: "mich",
+    translation: "His people conspire to overthrow me.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -24130,12 +26383,15 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1090",
+    id: "nom-pro-t3-1089",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Natürlich werden ____ alles tun, um Ihren Urlaub unvergesslich machen.",
     answer: "wir",
+    translation:
+      "Of course, we will do everything to make your holiday unforgettable.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -24153,12 +26409,15 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1091",
+    id: "nom-pro-t3-1090",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "In diesem Fall übernehme ____ selbstverständlich die Koordination.",
     answer: "ich",
+    translation:
+      "In this case, of course, it is me who assumes the coordination.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -24176,11 +26435,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1092",
+    id: "nom-pro-t3-1091",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Aber das kannst ____ auf der Bank tun und dann einzahlen, oder?",
     answer: "du",
+    translation: "But you can do it at the bank and then deposit, can't you?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -24198,11 +26459,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1093",
+    id: "nom-pro-t3-1092",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Ja, ____ bin einer der wenigen Männer mit Mädchennamen.",
     answer: "ich",
+    translation: "I'm actually one of the few men with a maiden name.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -24220,11 +26483,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1094",
+    id: "nom-pro-t3-1093",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Warum sollte ____ dein Nerz interessieren?",
     answer: "mich",
+    translation: "Why should I take an interest in your mink?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -24242,11 +26507,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1095",
+    id: "nom-pro-t3-1094",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Sie müssen ____ keine Gefühle zuschreiben, meine Herren.",
     answer: "ihm",
+    translation: "Don't attribute feelings to him, gentlemen.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -24264,11 +26531,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1096",
+    id: "nom-pro-t3-1095",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Warum bist ____ so hart und unbarmherzig zu dir selbst?",
     answer: "du",
+    translation: "Why are you so merciless to yourself?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -24286,11 +26555,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1097",
+    id: "nom-pro-t3-1096",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Und ____ will kein Oberfeldwebel mehr werden.",
     answer: "ich",
+    translation: "I don't want to be a staff sergeant.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -24308,11 +26579,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1098",
+    id: "nom-pro-t3-1097",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Sie haben nicht die Befehlsgewalt, um ____ rauszuwerfen.",
     answer: "mich",
+    translation: "You don't have the authority to throw me out.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -24330,12 +26603,15 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1099",
+    id: "nom-pro-t3-1098",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Während deine Bücher Hühner diskutieren, musste ____ sie rupfen.",
     answer: "ich",
+    translation:
+      "While your books argue about chickens, I've had to pluck them.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -24353,11 +26629,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1100",
+    id: "nom-pro-t3-1099",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Bringt ____ schnellstmöglich hier her zurück.",
     answer: "ihn",
+    translation: "Bring him back here as soon as possible.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -24375,11 +26653,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1101",
+    id: "nom-pro-t3-1100",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Sie mussten das für ____ ausfressen.",
     answer: "uns",
+    translation: "They had to eat it up for us.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -24397,11 +26677,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1102",
+    id: "nom-pro-t3-1101",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "In seiner Gegenwart ist ____ unbehaglich zumute.",
     answer: "mir",
+    translation: "I feel awkward in his presence.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -24419,11 +26701,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1103",
+    id: "nom-pro-t3-1102",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Der gute Samariter bringt ____ ins Krankenhaus.",
     answer: "ihn",
+    translation: "The Good Samaritan is taking him to the hospital.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -24441,11 +26725,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1104",
+    id: "nom-pro-t3-1103",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Jetzt werden alle glauben, dass ____ beim Sonderkommando bin.",
     answer: "ich",
+    translation: "Now, everybody will know I'm in the special forces.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -24463,11 +26749,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1105",
+    id: "nom-pro-t3-1104",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Dich bringe ____ persönlich zur Gendarmerie.",
     answer: "ich",
+    translation: "I'll take you to the police myself.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -24485,11 +26773,14 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1106",
+    id: "nom-pro-t3-1105",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Wie ____ unsere Kinder disziplinieren, geht niemanden etwas an.",
     answer: "wir",
+    translation:
+      "How we discipline our children is none of anybody's business.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -24507,11 +26798,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1107",
+    id: "nom-pro-t3-1106",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Mit einem Tischler wäre ____ nicht glücklich.",
     answer: "ich",
+    translation: "I don't think I'd be happy with a carpenter.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -24529,11 +26822,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1108",
+    id: "nom-pro-t3-1107",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Die Personalabteilung will morgen mit ____ reden.",
     answer: "mir",
+    translation: "Human Resources department wants to talk to me tomorrow.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -24551,12 +26846,15 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1109",
+    id: "nom-pro-t3-1108",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Glauben Sie nicht, dass ____ uns noch einmal überrumpeln lassen.",
     answer: "wir",
+    translation:
+      "Don't imagine for a moment we're going to be taken by surprise again.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -24574,11 +26872,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1110",
+    id: "nom-pro-t3-1109",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Habe ____ hier gerade einen Gewehrschuss gehört?",
     answer: "ich",
+    translation: "Did I just hear a gunshot?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -24596,11 +26896,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1111",
+    id: "nom-pro-t3-1110",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Mein Vater versteckte ____ im Wandschrank.",
     answer: "mich",
+    translation: "My father hid me in the closet.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -24618,11 +26920,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1112",
+    id: "nom-pro-t3-1111",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Vom Geruch von Makkaroni mit Käse wird ____ schlecht.",
     answer: "mir",
+    translation: "The smell of macaroni and cheese makes me nauseous.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -24640,11 +26944,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1113",
+    id: "nom-pro-t3-1112",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Dort hatten ____ ein echt gutes Trainingslager.",
     answer: "wir",
+    translation: "And we had a really good training camp over there.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -24662,11 +26968,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1114",
+    id: "nom-pro-t3-1113",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Wie ____ sehe, immer noch ein Stammkunde hier.",
     answer: "ich",
+    translation: "Still a regular here, I see.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -24684,12 +26992,14 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1115",
+    id: "nom-pro-t3-1114",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Deswegen habe ____ dich gestern angerufen, als meine Fruchtblase geplatzt ist.",
     answer: "ich",
+    translation: "That's why I called you yesterday after my water broke.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -24707,11 +27017,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1116",
+    id: "nom-pro-t3-1115",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Das wollte ____ von Anfang an rüberbringen.",
     answer: "ich",
+    translation: "That's what I've been trying to convey since the beginning.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -24729,12 +27041,14 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1117",
+    id: "nom-pro-t3-1116",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Erst nachdem ____ sicher gewesen war, dass sein Dackel sein Abendessen hatte.",
     answer: "er",
+    translation: "Not until he made sure his dachshund had had his dinner.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -24752,11 +27066,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1118",
+    id: "nom-pro-t3-1117",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Aber ____ hast den Himmel für mich erhellt.",
     answer: "du",
+    translation: "But you lit up the sky for me.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -24774,12 +27090,14 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1119",
+    id: "nom-pro-t3-1118",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Das heißt natürlich nicht, dass ____ nicht überglücklich war, Sie wohlbehalten",
     answer: "ich",
+    translation: "That's not to say I wasn't elated to see you safe and sound.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -24797,11 +27115,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1120",
+    id: "nom-pro-t3-1119",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Ihm bedeutet dein Wort nichts, ____ bist ein Heide.",
     answer: "du",
+    translation: "To him your word means nothing, you are a pagan.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -24819,11 +27139,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1121",
+    id: "nom-pro-t3-1120",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Und jetzt werde ____ es herausschneiden.",
     answer: "ich",
+    translation: "Now I'm going to cut it out.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -24841,11 +27163,14 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1122",
+    id: "nom-pro-t3-1121",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Aber wenn Sie dann nicht weg sind, lasse ____ Sie hinauswerfen.",
     answer: "ich",
+    translation:
+      "But if you're not gone by then, I'm going to have you thrown out.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -24863,12 +27188,15 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1123",
+    id: "nom-pro-t3-1122",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Er klingt nach einem Racker, aber ____ werde schon mit ihm klarkommen.",
     answer: "ich",
+    translation:
+      "He sounds like a rascal, but I don't think it's anything I can't handle.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -24886,12 +27214,14 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1124",
+    id: "nom-pro-t3-1123",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Wo ist dieses utopische Wunderland, das sie ____ versprochen hat?",
     answer: "uns",
+    translation: "Where is that Utopian wonderland she promised us?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -24909,12 +27239,14 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1125",
+    id: "nom-pro-t3-1124",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Ohne seine Hilfe verliere ____ die Kontrolle über meine Zauberkraft.",
     answer: "ich",
+    translation: "Without his help, I'll lose control of my magic.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -24932,11 +27264,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1126",
+    id: "nom-pro-t3-1125",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Bist ____ extra hergekommen, um mich zu verhöhnen?",
     answer: "du",
+    translation: "Did you come all this way to mock me?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -24954,11 +27288,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1127",
+    id: "nom-pro-t3-1126",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Es ist wichtig, dass ____ schnell vorankommen.",
     answer: "wir",
+    translation: "It is imperative that we progress quickly.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -24976,12 +27312,14 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1128",
+    id: "nom-pro-t3-1127",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Also lasst ____ die Gläser erheben und auf unser Brautpaar anstoßen.",
     answer: "uns",
+    translation: "So let's all raise a glass and toast to our newlyweds.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -24999,11 +27337,14 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1129",
+    id: "nom-pro-t3-1128",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Ein Riesenfehler, zu dem ____ meine Mutter zwang.",
     answer: "mich",
+    translation:
+      "Well, that was a big mistake I let my mother pressurize me into.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -25021,11 +27362,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1130",
+    id: "nom-pro-t3-1129",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Es ist unorthodox, ____ weiß, aber nicht beispiellos.",
     answer: "ich",
+    translation: "It's unorthodox, I know, but not unheard of.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -25043,11 +27386,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1131",
+    id: "nom-pro-t3-1130",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Und komischerweise, habe ____ wirklich Spaß daran.",
     answer: "ich",
+    translation: "And funnily enough, I'm actually enjoying it.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -25065,11 +27410,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1132",
+    id: "nom-pro-t3-1131",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Man könnte sagen, ____ ist so was wie eine Larve.",
     answer: "er",
+    translation: "You could say he's kind of like a larva.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -25087,12 +27434,15 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1133",
+    id: "nom-pro-t3-1132",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Und egal, wie sehr ____ versuche, ihn zu mästen, seine Muskeln sind immer prall.",
     answer: "ich",
+    translation:
+      "And no matter how hard I try to fatten him up, his muscles are always",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -25110,12 +27460,15 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1134",
+    id: "nom-pro-t3-1133",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Weißt ____, wie viel Hitze notwendig ist, um einen Knochen so zu verkohlen?",
     answer: "du",
+    translation:
+      "You know how much heat it would take to char a bone like this?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -25133,11 +27486,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1135",
+    id: "nom-pro-t3-1134",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Zwingen Sie ____ nicht, Sie auch Ihrer Pflichten zu entheben.",
     answer: "mich",
+    translation: "Don't force me to relieve you of duty as well.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -25155,11 +27510,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1136",
+    id: "nom-pro-t3-1135",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Komme frühzeitig, damit ____ die Vorhaben erörtern können.",
     answer: "wir",
+    translation: "Come early so we can discuss the plans.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -25177,12 +27534,15 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1137",
+    id: "nom-pro-t3-1136",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Aufgrund seiner Erfahrung als Unterhändler auf höchster EU-Ebene wird ____",
     answer: "er",
+    translation:
+      "I believe his experience as a negotiator at the highest EU level will bear fruit.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -25200,11 +27560,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1138",
+    id: "nom-pro-t3-1137",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "M/N Wie unterscheidest ____ einen Bären von einem Yak?",
     answer: "du",
+    translation: "How do I know a bear from a yak?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -25222,12 +27584,14 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1139",
+    id: "nom-pro-t3-1138",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Und ____ kann mich unter diesen Umständen einfach nicht fortpflanzen.",
     answer: "ich",
+    translation: "And I just can't procreate under these conditions!",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -25245,11 +27609,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1140",
+    id: "nom-pro-t3-1139",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Dann bekommen ____ auch Straßen, Wasser und Elektrik.",
     answer: "wir",
+    translation: "We'll also get roads, water, and electricity.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -25267,11 +27633,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1141",
+    id: "nom-pro-t3-1140",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Sag ihr, dass ____ dich beurlauben lässt.",
     answer: "du",
+    translation: "Tell her you're taking a leave of absence.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -25289,11 +27657,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1142",
+    id: "nom-pro-t3-1141",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Aber seine Mätresse weigert sich, ____ zu pflegen.",
     answer: "ihn",
+    translation: "His mistress refuses to care for him.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -25311,11 +27681,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1143",
+    id: "nom-pro-t3-1142",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Und ____ klinge wie eine schlechte Seifenoper.",
     answer: "ich",
+    translation: "And I sound like a bad soap opera.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -25333,11 +27705,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1144",
+    id: "nom-pro-t3-1143",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Ähm, ____ bist haarig und unattraktiv.",
     answer: "du",
+    translation: "You're hairy and unattractive.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -25355,12 +27729,15 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1145",
+    id: "nom-pro-t3-1144",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Im Nachhinein sah John ein, dass ____ nicht mit beiden Schwestern gleichzeitig",
     answer: "er",
+    translation:
+      "In retrospect, John realized he shouldn't have been dating both sisters at the",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -25378,11 +27755,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1146",
+    id: "nom-pro-t3-1145",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Bisher sagten mir die Ärzte, ____ sei frigide.",
     answer: "ich",
+    translation: "Up until tonight, the doctors had told me that I was frigid.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -25400,11 +27779,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1147",
+    id: "nom-pro-t3-1146",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Wieso heißt ____ der Rosarote Panther?",
     answer: "er",
+    translation: "Why is it called the Pink Panther?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -25422,11 +27803,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1148",
+    id: "nom-pro-t3-1147",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Weil ____ sich kleidet wie ein Lümmel.",
     answer: "er",
+    translation: "Because he dresses like a cad.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -25444,11 +27827,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1149",
+    id: "nom-pro-t3-1148",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Können Sie ____ ein Signal zu Ihrer Ortung geben?",
     answer: "mir",
+    translation: "Can you give me a signal of your location?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -25466,11 +27851,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1150",
+    id: "nom-pro-t3-1149",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Anderenfalls wären ____ fortwährend betrunken.",
     answer: "wir",
+    translation: "Otherwise, we would be perpetually drunk.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -25488,11 +27875,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1151",
+    id: "nom-pro-t3-1150",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Dieser Besuch ist so unglaublich aufregend für ____.",
     answer: "mich",
+    translation: "It has been such a tremendous excitement for me, this visit.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -25510,11 +27899,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1152",
+    id: "nom-pro-t3-1151",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Ja, ____ babysitte für eine prominente Diva aus Manhattan.",
     answer: "ich",
+    translation: "Yes, I babysit for a Manhattan socialite diva.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -25532,11 +27923,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1153",
+    id: "nom-pro-t3-1152",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Der Leopard greift ____ nicht an.",
     answer: "dich",
+    translation: "That leopard will not attack you.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -25554,12 +27947,14 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1154",
+    id: "nom-pro-t3-1153",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Soll ____ dich begleiten, wenn du der Admiralität Bericht erstattest?",
     answer: "ich",
+    translation: "You want some company when you report to the Admiralty?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -25577,11 +27972,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1155",
+    id: "nom-pro-t3-1154",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Ein Betrunkener kam über die Linie und traf ____ frontal.",
     answer: "mich",
+    translation: "A drunk driver came over the line and hit me head on.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -25599,11 +27996,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1156",
+    id: "nom-pro-t3-1155",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Und ____ weiß, dass du es bereitwillig annehmen wirst.",
     answer: "ich",
+    translation: "And I know you will willingly embrace it.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -25621,12 +28020,15 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1157",
+    id: "nom-pro-t3-1156",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Aber vielleicht sollten ____ es als Glücksfall betrachten, dass diese Genies ihr",
     answer: "wir",
+    translation:
+      "But perhaps we should consider it a stroke of luck that these geniuses created",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -25644,11 +28046,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1158",
+    id: "nom-pro-t3-1157",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Dich habe ____ ohnehin nie gemocht, du Schönling.",
     answer: "ich",
+    translation: "Pretty boy, I never liked you anyway.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -25666,11 +28070,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1159",
+    id: "nom-pro-t3-1158",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Es war mein Geburtstag und ____ war nachdenklich.",
     answer: "ich",
+    translation: "It was my birthday, and I was feeling thoughtful.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -25688,11 +28094,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1160",
+    id: "nom-pro-t3-1159",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Jetzt werden ____ sehen, wer hier der Einfaltspinsel ist.",
     answer: "wir",
+    translation: "Now we'll see who the simpleton is.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -25710,12 +28118,15 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1161",
+    id: "nom-pro-t3-1160",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Das Steigen der Hauspreise ermöglichte ____, sein Haus mit großem Gewinn zu",
     answer: "ihm",
+    translation:
+      "The rise in house prices enabled him to sell his house at a big profit.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -25733,11 +28144,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1162",
+    id: "nom-pro-t3-1161",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Schlimmstenfalls werde ____ eine Durchschnittsnote kriegen.",
     answer: "ich",
+    translation: "At worst, I will get an average mark.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -25755,12 +28168,15 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1163",
+    id: "nom-pro-t3-1162",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Diese Selbstfindung führt ____ unweigerlich in die ungezähmtesten Gebiete der",
     answer: "uns",
+    translation:
+      "It's this self-discovery that inevitably takes us to the wildest places on earth.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -25778,12 +28194,14 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1164",
+    id: "nom-pro-t3-1163",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Nun, es ist eine gute Sache, dass ____ mit einem anderen reichen Kerl liiert bist.",
     answer: "du",
+    translation: "It's a good thing you hooked up with another rich guy.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -25801,11 +28219,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1165",
+    id: "nom-pro-t3-1164",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Mit dieser Ungewissheit können ____ nicht leben.",
     answer: "wir",
+    translation: "We cannot live with this uncertainty.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -25823,11 +28243,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1166",
+    id: "nom-pro-t3-1165",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Ende März werden ____ uns ehelichen.",
     answer: "wir",
+    translation: "At the end of March, we'll marry.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -25845,11 +28267,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1167",
+    id: "nom-pro-t3-1166",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "So langweilig bin ____ gar nicht, du Rotznase!",
     answer: "ich",
+    translation: "Not so boring now, am I, brat?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -25867,11 +28291,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1168",
+    id: "nom-pro-t3-1167",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Unsere Übermacht nützt ____ da wenig.",
     answer: "uns",
+    translation: "Our superiority is useless there.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -25889,11 +28315,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1169",
+    id: "nom-pro-t3-1168",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Aber ____ müssen Ihren Beweggrund hinterfragen.",
     answer: "wir",
+    translation: "But we must question your motives.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -25911,11 +28339,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1170",
+    id: "nom-pro-t3-1169",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Und ____ ist ein Gönner der schönen Künste.",
     answer: "er",
+    translation: "And he is a patron of the arts.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -25933,11 +28363,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1171",
+    id: "nom-pro-t3-1170",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Sag ____, wo gegen soll man eigentlich heutzutage rebellieren?",
     answer: "mir",
+    translation: "What are we supposed to rebel against nowadays?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -25955,12 +28387,15 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1172",
+    id: "nom-pro-t3-1171",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Aufgrund der überwältigenden Beschaffenheit von Beweisen beginnen ____ mit",
     answer: "wir",
+    translation:
+      "Due to the overwhelming nature of the evidence, we will begin with closing",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -25978,11 +28413,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1173",
+    id: "nom-pro-t3-1172",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Bitte bereite ____ auf den Ausflug vor.",
     answer: "dich",
+    translation: "Please prepare for the trip.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -26000,11 +28437,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1174",
+    id: "nom-pro-t3-1173",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Jemand zerschmetterte ____ und zerstörte das Fossil.",
     answer: "ihn",
+    translation: "Someone smashed it to pieces and destroyed the fossil.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -26022,12 +28461,15 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1175",
+    id: "nom-pro-t3-1174",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Ehrlich, ____ solltest die Geschichte einfach in das endgültige Konzept",
     answer: "du",
+    translation:
+      "Honestly, you should just transfer the story straight to final draft.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -26045,11 +28487,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1176",
+    id: "nom-pro-t3-1175",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Alles klar, lass ____ mit deiner Beinarbeit beginnen.",
     answer: "uns",
+    translation: "All right, let's start with your footwork.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -26067,11 +28511,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1177",
+    id: "nom-pro-t3-1176",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Man wird ____ hier einen Anruf durchstellen.",
     answer: "mir",
+    translation: "I'm expecting a phone call to be put through.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -26089,12 +28535,14 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1178",
+    id: "nom-pro-t3-1177",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Mein Vater hat ____ gelehrt, es sei ruhmreich, im Kampf zu sterben.",
     answer: "mich",
+    translation: "My father taught me it is glorious to die in battle.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -26112,12 +28560,14 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1179",
+    id: "nom-pro-t3-1178",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Sie sollten ____ Ihre Probleme wegräumen lassen und Ihr Leben weiterleben.",
     answer: "uns",
+    translation: "You should let us clean up your mess and move on.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -26135,12 +28585,15 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1180",
+    id: "nom-pro-t3-1179",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Also, ____ muss Schiffe reparieren, die Küste hier war mörderisch.",
     answer: "ich",
+    translation:
+      "Well, I have ships to repair, the coastline here has been murderous.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -26158,11 +28611,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1181",
+    id: "nom-pro-t3-1180",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Glaub ____, es ist unschön.",
     answer: "mir",
+    translation: "Trust me, it's messy.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -26180,11 +28635,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1182",
+    id: "nom-pro-t3-1181",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Müssen ____ zwei uns jetzt bekriegen?",
     answer: "wir",
+    translation: "Do we have to war with each other?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -26202,11 +28659,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1183",
+    id: "nom-pro-t3-1182",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Das kann ____ natürlich nicht gutheißen.",
     answer: "ich",
+    translation: "Of course, I cannot endorse that.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -26224,12 +28683,15 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1184",
+    id: "nom-pro-t3-1183",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Gestern verurteilten ____ den Völkermord und die Menschenrechtsverletzungen.",
     answer: "wir",
+    translation:
+      "Yesterday we were deploring genocide and violations of human rights.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -26247,11 +28709,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1185",
+    id: "nom-pro-t3-1184",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "M/N Und ____ haben Ihren Schlüsselbund am Tatort gefunden.",
     answer: "wir",
+    translation: "And we found your keyring at the crime scene.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -26269,11 +28733,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1186",
+    id: "nom-pro-t3-1185",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Das war glasklar, seit dem Tag, an dem ____ geboren wurde.",
     answer: "er",
+    translation: "It was crystal clear from the day he was born.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -26291,11 +28757,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1187",
+    id: "nom-pro-t3-1186",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Aber offensichtlich hast ____ vorhin überreagiert.",
     answer: "du",
+    translation: "But you obviously overreacted back there.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -26313,11 +28781,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1188",
+    id: "nom-pro-t3-1187",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Gut, dass ____ auf Rugby bestanden habe.",
     answer: "ich",
+    translation: "I was right to insist on rugby.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -26335,12 +28805,14 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1189",
+    id: "nom-pro-t3-1188",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Meinen letzten Job hatte ____ bei einer ziemlich konservativen Anwaltskanzlei.",
     answer: "ich",
+    translation: "Well, my last job was at a pretty conservative law firm.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -26358,12 +28830,15 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1190",
+    id: "nom-pro-t3-1189",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Vor Jahren habe ____ den Leuten von der Drogenbehörde einen Gefallen getan.",
     answer: "ich",
+    translation:
+      "Years ago, I did a favor for the people at the drug enforcement agency.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -26381,11 +28856,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1191",
+    id: "nom-pro-t3-1190",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Eine alte Flamme von ____ war eine Näherin.",
     answer: "mir",
+    translation: "An old flame of mine was a seamstress.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -26403,11 +28880,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1192",
+    id: "nom-pro-t3-1191",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Der Kinderarzt hat ____ davor gewarnt.",
     answer: "uns",
+    translation: "The pediatrician warned us about it.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -26425,12 +28904,14 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1193",
+    id: "nom-pro-t3-1192",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Und jetzt wollen ____ alle niederknien und gemeinsam ein Gebet sprechen.",
     answer: "wir",
+    translation: "Let us kneel down and unite in a heartfelt prayer.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -26448,11 +28929,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1194",
+    id: "nom-pro-t3-1193",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Und momentan bist ____ kein guter Mitspieler.",
     answer: "du",
+    translation: "And right now you're not being a good teammate.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -26470,11 +28953,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1195",
+    id: "nom-pro-t3-1194",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Was ist eine Speise, die ____ dir nie abgewöhnen könntest?",
     answer: "du",
+    translation: "What is one food that you could never give up?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -26492,11 +28977,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1196",
+    id: "nom-pro-t3-1195",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Dann müssen ____ uns nicht zanken.",
     answer: "wir",
+    translation: "Now we won't have to quarrel.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -26514,11 +29001,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1197",
+    id: "nom-pro-t3-1196",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Es war neblig und ____ war zu weit weg, um etwas zu sehen.",
     answer: "ich",
+    translation: "It was foggy, and I was too far away to see anything.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -26536,12 +29025,14 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1198",
+    id: "nom-pro-t3-1197",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Zunächst möchte ____ die Kommission zu diesem Text beglückwünschen.",
     answer: "ich",
+    translation: "Firstly, I want to congratulate the Commission on this text.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -26559,11 +29050,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1199",
+    id: "nom-pro-t3-1198",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Sie werden sie kapern und ____ übergeben.",
     answer: "mir",
+    translation: "You will capture her and turn her over to me.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -26581,11 +29074,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1200",
+    id: "nom-pro-t3-1199",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Unter seinesgleichen gefällt es ____ wohl besser.",
     answer: "ihm",
+    translation: "I guess he likes it better here with his own kind.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -26603,11 +29098,14 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1201",
+    id: "nom-pro-t3-1200",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Das möchten ____ mit unserem Ja signalisieren.",
     answer: "wir",
+    translation:
+      "That is something we want to signal by means of our 'yes' vote.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -26625,11 +29123,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1202",
+    id: "nom-pro-t3-1201",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Kein Grund für Krawall, ____ lassen Jane weiterschlafen.",
     answer: "wir",
+    translation: "No need for any noise, we'll let Jane sleep on.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -26647,11 +29147,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1203",
+    id: "nom-pro-t3-1202",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Einen schlechteren Taschendieb sah ____ noch nie.",
     answer: "ich",
+    translation: "You're the worst pickpocket I've ever seen.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -26669,11 +29171,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1204",
+    id: "nom-pro-t3-1203",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Wir hatten keine Wahl, ____ Spatzenhirn.",
     answer: "du",
+    translation: "What choice did we have, birdbrain?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -26691,11 +29195,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1205",
+    id: "nom-pro-t3-1204",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Diese kleine Fehde zwischen ____ ist wirklich kindisch.",
     answer: "uns",
+    translation: "This petty feud between us is simply childish.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -26713,12 +29219,14 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1206",
+    id: "nom-pro-t3-1205",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Anscheinend haben ____ ihre eheliche Unzufriedenheit unterschätzt.",
     answer: "wir",
+    translation: "Apparently, we underestimated their marital discontent.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -26736,12 +29244,14 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1207",
+    id: "nom-pro-t3-1206",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Weiß der Pilot irgendetwas, welches zu ____ zurückführen könnte?",
     answer: "mir",
+    translation: "Does the pilot know anything that could lead back to me?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -26759,11 +29269,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1208",
+    id: "nom-pro-t3-1207",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Also müssen ____ die Institutionen der Welt umbauen.",
     answer: "wir",
+    translation: "So, we've got to rebuild the world institutions.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -26781,11 +29293,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1209",
+    id: "nom-pro-t3-1208",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Das hört sich spießig an, was ____ gar nicht ist.",
     answer: "er",
+    translation: "That sounds stuffy, and he's not.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -26803,11 +29317,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1210",
+    id: "nom-pro-t3-1209",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Oder ____ stecke das Geld sonstwo hin.",
     answer: "ich",
+    translation: "Or I can take my cash elsewhere.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -26825,11 +29341,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1211",
+    id: "nom-pro-t3-1210",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Diese Kabel kann ____ nicht herausreißen.",
     answer: "ich",
+    translation: "There are conduit cables I can't tear out.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -26847,12 +29365,14 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1212",
+    id: "nom-pro-t3-1211",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Meine zukünftigen Schwiegereltern sind hier und sie denken, ____ bin allein.",
     answer: "ich",
+    translation: "My future in-laws are here, and they think I'm alone.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -26870,12 +29390,15 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1213",
+    id: "nom-pro-t3-1212",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Und ____ bist eine starke, ehrwürdige Frau, die eine Familie großzieht.",
     answer: "du",
+    translation:
+      "And you are a strong, dignified woman who's raising a family.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -26893,11 +29416,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1214",
+    id: "nom-pro-t3-1213",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Wie können ____ in das menschliche Gehirn vordringen?",
     answer: "wir",
+    translation: "How can we penetrate the human mind?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -26915,11 +29440,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1215",
+    id: "nom-pro-t3-1214",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Jane und ____ waren von Anfang an seelenverwandt.",
     answer: "ich",
+    translation: "Jane and I have been soul mates since the beginning.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -26937,12 +29464,15 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1216",
+    id: "nom-pro-t3-1215",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Und im nächsten Moment stehe ____ mitten im Sommer barfuß auf dem",
     answer: "ich",
+    translation:
+      "The next thing I know, I'm barefoot on a sidewalk in the middle of summer.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -26960,11 +29490,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1217",
+    id: "nom-pro-t3-1216",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Sagen Sie ihm, ____ soll das sofort nach London durchgeben.",
     answer: "er",
+    translation: "Ask him to transmit this to London immediately.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -26982,11 +29514,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1218",
+    id: "nom-pro-t3-1217",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Mama, es ist dein Bad, ____ musst dich wohlfühlen.",
     answer: "du",
+    translation: "Mum, it's your bathroom, you have to feel comfortable.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -27004,12 +29538,15 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1219",
+    id: "nom-pro-t3-1218",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Diese ursprüngliche Faszination hat ____ bis heute nicht losgelassen.",
     answer: "uns",
+    translation:
+      "This original fascination has not been relinquished to this day.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -27027,12 +29564,15 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1220",
+    id: "nom-pro-t3-1219",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Allerdings war ____ bei der betreffenden Ratssitzung nicht zugegen, aber das",
     answer: "ich",
+    translation:
+      "While I was indeed not present at the Council meeting in question, that is",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -27050,11 +29590,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1221",
+    id: "nom-pro-t3-1220",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Aber ____ bestehen alle buchstäblich aus Sternenstaub.",
     answer: "wir",
+    translation: "But literally, we are all made of stardust.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -27072,12 +29614,14 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1222",
+    id: "nom-pro-t3-1221",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "John würde es nicht mitkriegen, wenn ____ eine Geschlechtsumwandlung hätte.",
     answer: "ich",
+    translation: "John wouldn't notice if I had a sex-change operation.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -27095,12 +29639,14 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1223",
+    id: "nom-pro-t3-1222",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Wir sind beschäftigt, also dachte ____, sie könnte sich umschauen.",
     answer: "ich",
+    translation: "We're busy, so I thought she could look around.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -27118,11 +29664,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1224",
+    id: "nom-pro-t3-1223",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Dieser Luftschacht könnte ein Vorteil für ____ sein.",
     answer: "uns",
+    translation: "Now, this air shaft may work to our advantage.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -27140,12 +29688,15 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1225",
+    id: "nom-pro-t3-1224",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Es geht ____ darum, dass es sichergestellt ist, dass das europäische Steuergeld",
     answer: "uns",
+    translation:
+      "We want to ensure that European tax money is used in a proper manner.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -27163,12 +29714,14 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1226",
+    id: "nom-pro-t3-1225",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Stell ____ eine tiefgründige, bohrende Frage, damit die Zeit vergeht.",
     answer: "mir",
+    translation: "Ask me a deep, probing question to kill time.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -27186,11 +29739,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1227",
+    id: "nom-pro-t3-1226",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Dann lehnen ____ hochachtungsvoll diesen Zug ab.",
     answer: "wir",
+    translation: "Then we respectfully disagree with such a move.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -27208,12 +29763,14 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1228",
+    id: "nom-pro-t3-1227",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Aber so lange ____ da ist, sind Sie nur die Parodie eines Mannes.",
     answer: "er",
+    translation: "But with him around, you're a parody of a man.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -27231,11 +29788,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1229",
+    id: "nom-pro-t3-1228",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Und schlussendlich haben ____ den Code geknackt.",
     answer: "wir",
+    translation: "And we, eventually, broke the code.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -27253,11 +29812,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1230",
+    id: "nom-pro-t3-1229",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Ein Geheul, als hätten sie ____ gekannt.",
     answer: "ihn",
+    translation: "They're bawling like they knew the man.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -27275,11 +29836,14 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1231",
+    id: "nom-pro-t3-1230",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Und ____ glaube, dieser ganze Vorgang war sehr heilend für sie.",
     answer: "ich",
+    translation:
+      "And I think this whole process has really been healing for her.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -27297,12 +29861,14 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1232",
+    id: "nom-pro-t3-1231",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Wie auch immer, ____ würde die Düse dieses Schlauchs nicht anfassen.",
     answer: "ich",
+    translation: "Either way, I wouldn't touch the nozzle of that hose.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -27320,11 +29886,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1233",
+    id: "nom-pro-t3-1232",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "So wie Sie sich anschleichen, konnten ____ Sie nicht hören.",
     answer: "wir",
+    translation: "I didn't hear you sneak up on us.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -27342,11 +29910,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1234",
+    id: "nom-pro-t3-1233",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Es war, als hätte ____ einen Fluch über uns alle gebracht.",
     answer: "ich",
+    translation: "It was as if I brought a curse on us all.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -27364,11 +29934,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1235",
+    id: "nom-pro-t3-1234",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Würdest ____ den Empfang des Pakets quittieren?",
     answer: "du",
+    translation: "Will you sign for this package, please?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -27386,11 +29958,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1236",
+    id: "nom-pro-t3-1235",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Nein, ____ wollte nur den Punktestand wissen.",
     answer: "ich",
+    translation: "No, I just wanted to check out the score.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -27408,11 +29982,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1237",
+    id: "nom-pro-t3-1236",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Aber dann wäre ____ ironischerweise eine ganz andere Person.",
     answer: "ich",
+    translation: "But then, ironically, I'd be a whole different person.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -27430,11 +30006,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1238",
+    id: "nom-pro-t3-1237",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Du und ____ müssen eine anständige Zusammenarbeit etablieren.",
     answer: "ich",
+    translation: "You and I need to establish a proper working relationship.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -27452,11 +30030,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1239",
+    id: "nom-pro-t3-1238",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Erst musst ____ die Grundausbildung absolvieren.",
     answer: "du",
+    translation: "You have to complete basic training first.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -27474,12 +30054,14 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1240",
+    id: "nom-pro-t3-1239",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Nein, aber seine Psychiater sagen, dass ____ psychotisch und gewalttätig ist.",
     answer: "er",
+    translation: "No, but his shrinks say that he's psychotic and violent.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -27497,11 +30079,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1241",
+    id: "nom-pro-t3-1240",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Sei ein braver Junge und hol ____ ein Stöckchen, ja?",
     answer: "mir",
+    translation: "Be a good lad and bring me a stick, won't you?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -27519,11 +30103,14 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1242",
+    id: "nom-pro-t3-1241",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "In dem Paket, das ____ halten, könnte ein Sprengkörper sein.",
     answer: "wir",
+    translation:
+      "It's possible the package we're holding is an explosive device.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -27541,11 +30128,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1243",
+    id: "nom-pro-t3-1242",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Nein, ____ sehe nur, wie sie mich mit Farbe beschmieren.",
     answer: "ich",
+    translation: "No, I only see them smearing me with paint.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -27563,11 +30152,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1244",
+    id: "nom-pro-t3-1243",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Im Moment scheuen sie ____ noch.",
     answer: "uns",
+    translation: "At this time, they shun us.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -27585,11 +30176,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1245",
+    id: "nom-pro-t3-1244",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Dann könnten sie ____ auch würdigen.",
     answer: "dich",
+    translation: "Only then would they appreciate you.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -27607,11 +30200,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1246",
+    id: "nom-pro-t3-1245",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Meine Frau und ____ vergöttern unsere Kinder.",
     answer: "ich",
+    translation: "My wife and I adore our children.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -27629,11 +30224,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1247",
+    id: "nom-pro-t3-1246",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Keiner hat ____ auf Deck gesehen.",
     answer: "ihn",
+    translation: "No one has seen him on deck.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -27651,11 +30248,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1248",
+    id: "nom-pro-t3-1247",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "In der Zwischenzeit will ____ ruhen.",
     answer: "ich",
+    translation: "In the meantime, I wish to rest.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -27673,12 +30272,14 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1249",
+    id: "nom-pro-t3-1248",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Hör lieber auf zu schreien, sonst muss ____ dich mit Blei vollpumpen.",
     answer: "ich",
+    translation: "Quit yelling or I'll have to fill you with lead.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -27696,11 +30297,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1250",
+    id: "nom-pro-t3-1249",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Und was machst ____ mit einem Taschenmesser?",
     answer: "du",
+    translation: "And what are you doing with a pocket knife?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -27718,11 +30321,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1251",
+    id: "nom-pro-t3-1250",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Dann sollte ____ mich auf das Affentheater wohl einlassen.",
     answer: "ich",
+    translation: "Then I must prepare myself for the charade.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -27740,11 +30345,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1252",
+    id: "nom-pro-t3-1251",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Die Wut kann ____ schutzlos machen.",
     answer: "mich",
+    translation: "The anger can make me vulnerable.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -27762,11 +30369,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1253",
+    id: "nom-pro-t3-1252",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "John wird ____ voraussichtlich morgen besuchen.",
     answer: "uns",
+    translation: "John will probably visit us tomorrow.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -27784,11 +30393,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1254",
+    id: "nom-pro-t3-1253",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Insgesamt halte ____ die Lösung für zufriedenstellend.",
     answer: "ich",
+    translation: "Overall, I feel that the solution is satisfactory.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -27806,11 +30417,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1255",
+    id: "nom-pro-t3-1254",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Und ____ werde uns da durchbringen.",
     answer: "ich",
+    translation: "And I'll see us through this.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -27828,11 +30441,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1256",
+    id: "nom-pro-t3-1255",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Eine Umleitung; die kommt ____ gerade recht.",
     answer: "mir",
+    translation: "A detour, I really needed that right now.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -27850,12 +30465,15 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1257",
+    id: "nom-pro-t3-1256",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Wenn ____ dir vertrauen soll, musst du erst mal mit der Sprache rausrücken.",
     answer: "ich",
+    translation:
+      "If you want me to trust you, then you need to come clean first.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -27873,11 +30491,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1258",
+    id: "nom-pro-t3-1257",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Nein, ____ sah im Pförtnerhaus nach.",
     answer: "ich",
+    translation: "No, l checked the gatehouse.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -27895,11 +30515,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1259",
+    id: "nom-pro-t3-1258",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Wo wollte ____ das Geld denn hernehmen?",
     answer: "er",
+    translation: "Who was he going to get the money from?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -27917,11 +30539,14 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1260",
+    id: "nom-pro-t3-1259",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Da ____ einen Zobel trage, müsse er mich persönlich verhören.",
     answer: "ich",
+    translation:
+      "Since I'm wearing a sable, he needs to personally interview me.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -27939,11 +30564,14 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1261",
+    id: "nom-pro-t3-1260",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Aber ____ möchte lieber Lavendel und nicht Sandelholz.",
     answer: "ich",
+    translation:
+      "But I also think I want the lavender instead of the sandalwood.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -27961,11 +30589,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1262",
+    id: "nom-pro-t3-1261",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Bringst ____ mir den Zweitschlüssel?",
     answer: "du",
+    translation: "Can you bring me the spare key?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -27983,11 +30613,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1263",
+    id: "nom-pro-t3-1262",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Ja, wie ____ sehe, die Aufschrift verspricht eine ganze Menge.",
     answer: "ich",
+    translation: "Now, its label makes many claims.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -28005,12 +30637,15 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1264",
+    id: "nom-pro-t3-1263",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Aber diese erste Feststellung veranlasst ____ zu einigen zusätzlichen",
     answer: "mich",
+    translation:
+      "This initial finding leads me to make a few additional comments, however.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -28028,11 +30663,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1265",
+    id: "nom-pro-t3-1264",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Er ist bis jetzt der zweitbeste, den ____ je gegessen habe.",
     answer: "ich",
+    translation: "It's by far the second best I've ever had.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -28050,11 +30687,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1266",
+    id: "nom-pro-t3-1265",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Sie nannten ____ seinerzeit einen Rückschritt.",
     answer: "ihn",
+    translation: "They described it at the time as a backward step.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -28072,12 +30711,14 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1267",
+    id: "nom-pro-t3-1266",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Der Oberkellner hat gesagt, dass ____ meinen Job wirklich gut gemacht habe.",
     answer: "ich",
+    translation: "The head waiter said I was doing a really good job.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -28095,11 +30736,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1268",
+    id: "nom-pro-t3-1267",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Danke, aber ____ meine es todernst.",
     answer: "ich",
+    translation: "Thank you, but I'm dead serious about this.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -28117,11 +30760,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1269",
+    id: "nom-pro-t3-1268",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Lass ____ hören, wie der Eisbär brummt.",
     answer: "mich",
+    translation: "Let me hear a polar bear growl.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -28139,11 +30784,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1270",
+    id: "nom-pro-t3-1269",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Er sagte, ____ wäre zu Großem auserkoren.",
     answer: "ich",
+    translation: "He told me that I was predestined for great things.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -28161,11 +30808,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1271",
+    id: "nom-pro-t3-1270",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Jeder mit klarem Verstand hätte ____ verraten.",
     answer: "mich",
+    translation: "Anybody in their right mind would have ratted me out.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -28183,11 +30832,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1272",
+    id: "nom-pro-t3-1271",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Du findest seine Aufdringlichkeit reizvoll, ____ nicht.",
     answer: "ich",
+    translation: "You find his aggressiveness appealing, but I don't.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -28205,12 +30856,15 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1273",
+    id: "nom-pro-t3-1272",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Wenn es so ist, sagt unser Heiland, kann auch ____ dir nicht helfen.",
     answer: "ich",
+    translation:
+      "If that is the case, says our Savior, then not even I can help you.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -28228,12 +30882,14 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1274",
+    id: "nom-pro-t3-1273",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Sie sagten ____ nicht, dass dieser Hanswurst ihn mit Drogen vollgepumpt hat.",
     answer: "mir",
+    translation: "You didn't tell me this buffoon drugged him.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -28251,11 +30907,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1275",
+    id: "nom-pro-t3-1274",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Zu viel davon wird ____ erblinden lassen.",
     answer: "dich",
+    translation: "Too much of that will make you go blind.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -28273,11 +30931,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1276",
+    id: "nom-pro-t3-1275",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Es hat ____ ein Vöglein gezwitschert.",
     answer: "mir",
+    translation: "Well, a little birdie told me.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -28295,11 +30955,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1277",
+    id: "nom-pro-t3-1276",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Es hilft, wenn ____ mich wo anlehnen kann.",
     answer: "ich",
+    translation: "It helps a lot if I lean against something.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -28317,11 +30979,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1278",
+    id: "nom-pro-t3-1277",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Aber ____ würde keinen Rückruf erwarten.",
     answer: "ich",
+    translation: "But I wouldn't expect a callback, though.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -28339,11 +31003,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1279",
+    id: "nom-pro-t3-1278",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Jeder von ____ weiß auch, dass sie politisch kontrovers war.",
     answer: "uns",
+    translation: "And we all know that it was politically controversial.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -28361,12 +31027,14 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1280",
+    id: "nom-pro-t3-1279",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Es geht um die wirklich umweltfreundliche Wirtschaft, die ____ anstreben.",
     answer: "wir",
+    translation: "It is the true 'green economy' we seek.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -28384,11 +31052,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1281",
+    id: "nom-pro-t3-1280",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Jemand hat versucht ____ auf dieser Kundgebung zu töten.",
     answer: "mich",
+    translation: "Someone tried to kill me at that rally.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -28406,11 +31076,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1282",
+    id: "nom-pro-t3-1281",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Der Arzt gab ____ gerade erst Entwarnung.",
     answer: "dir",
+    translation: "You just got the all-clear from your doctor.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -28428,12 +31100,15 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1283",
+    id: "nom-pro-t3-1282",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Jetzt schalte ____ das Tonbandgerät an und gebe jedem von euch das",
     answer: "ich",
+    translation:
+      "Now I will switch on the tape recorder and give the microphone to each of",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -28451,12 +31126,15 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1284",
+    id: "nom-pro-t3-1283",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Das ist der offizielle Standpunkt der EU und ____ kann nur hoffen, dass wir von",
     answer: "ich",
+    translation:
+      "That is the EU's official position and I can only hope that we do not move",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -28474,11 +31152,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1285",
+    id: "nom-pro-t3-1284",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Bitte, ____ darf dir dieses Toxin nicht injizieren.",
     answer: "er",
+    translation: "Please, don't let him inject you with that poison.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -28496,11 +31176,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1286",
+    id: "nom-pro-t3-1285",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Da steht ein Töpfchen, falls ____ dich übergeben musst.",
     answer: "du",
+    translation: "I put a potty there if you feel sick.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -28518,11 +31200,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1287",
+    id: "nom-pro-t3-1286",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Aber so ganz geheuer ist ____ das nicht?",
     answer: "dir",
+    translation: "So you're not completely comfortable?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -28540,12 +31224,15 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1288",
+    id: "nom-pro-t3-1287",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Entweder bringe ____ dich zur Bahnstation oder zu Polizeistation.",
     answer: "ich",
+    translation:
+      "I'm taking you to either the railway station or the police station.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -28563,11 +31250,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1289",
+    id: "nom-pro-t3-1288",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Glauben Sie, ____ wollte meinen eigenen Finger absägen?",
     answer: "ich",
+    translation: "Do you think I wanted to saw off my own finger?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -28585,12 +31274,15 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1290",
+    id: "nom-pro-t3-1289",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Weil dort die Beschwörung steht, die ____ unsere Kräfte verleiht.",
     answer: "uns",
+    translation:
+      "Because it's the incantation that gave us our powers, remember?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -28608,11 +31300,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1291",
+    id: "nom-pro-t3-1290",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Feuern Sie die Empfangsdame, die ____ vorbeigelassen hat.",
     answer: "ihn",
+    translation: "Fire the receptionist who let him past her.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -28630,12 +31324,15 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1292",
+    id: "nom-pro-t3-1291",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Und ____ habe ungeniert mit dir geflirtet und du mir gesagt hast, dass du",
     answer: "ich",
+    translation:
+      "And I just flirted with you shamelessly, and you had to tell me you were",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -28653,11 +31350,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1293",
+    id: "nom-pro-t3-1292",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Omama holt ____ was ganz Besonderes.",
     answer: "dir",
+    translation: "Na-na's going to get you something special.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -28675,12 +31374,14 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1294",
+    id: "nom-pro-t3-1293",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Sie sprachen mit einem entkommenen Schwerverbrecher darüber, ____ heute zu",
     answer: "ihn",
+    translation: "You spoke with an escaped felon about meeting him today.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -28698,12 +31399,15 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1295",
+    id: "nom-pro-t3-1294",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Und hier, sehen sie, dieser Holzschnitt zeigt im Grunde das, was ____ am Ende",
     answer: "ich",
+    translation:
+      "And there you can see that woodcut is basically what I ended up doing.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -28721,11 +31425,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1296",
+    id: "nom-pro-t3-1295",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Was Sie von ____ verlangen, ist absolut ungesetzlich.",
     answer: "mir",
+    translation: "What you're asking me to do is absolutely illegal.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -28743,11 +31449,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1297",
+    id: "nom-pro-t3-1296",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Herren, ____ sind nicht hier, um eine finstere Orgie zu feiern.",
     answer: "wir",
+    translation: "Gentlemen, we are not here to have a vulgar orgy.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -28765,11 +31473,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1298",
+    id: "nom-pro-t3-1297",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Sie will euch gegen ____ aufhetzen.",
     answer: "mich",
+    translation: "She wants to turn you against me.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -28787,12 +31497,14 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1299",
+    id: "nom-pro-t3-1298",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Vielleicht sollte ____ einfach alles hinschmeißen und wieder Nudeln zubereiten.",
     answer: "ich",
+    translation: "Maybe I should just quit and go back to making noodles.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -28810,12 +31522,15 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1300",
+    id: "nom-pro-t3-1299",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Das ist eine Frage, die einen Schlummertrunk benötigt, bevor ____ überhaupt",
     answer: "ich",
+    translation:
+      "That is a question that requires a nightcap before I even consider an answer.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -28833,11 +31548,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1301",
+    id: "nom-pro-t3-1300",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Stärke und Geschicklichkeit ließen ____ triumphieren.",
     answer: "dich",
+    translation: "Your strength and skill made you win.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -28855,12 +31572,15 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1302",
+    id: "nom-pro-t3-1301",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Doch ____ müssen wenigstens einen Anfang machen und versuchen, die Dinge",
     answer: "wir",
+    translation:
+      "However, one must at least try to make a start to change things to some",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -28878,11 +31598,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1303",
+    id: "nom-pro-t3-1302",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Dann wollte ____ auf dem Trampolin Salto rückwärts üben.",
     answer: "ich",
+    translation: "I wanted to do a backward flip on the trampoline.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -28900,12 +31622,15 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1304",
+    id: "nom-pro-t3-1303",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Obwohl er dein ultimativer Gegner ist, wirst ____ über ihn triumphieren.",
     answer: "du",
+    translation:
+      "Although he is your ultimate opponent, you will triumph over him.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -28923,11 +31648,14 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1305",
+    id: "nom-pro-t3-1304",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Es würde ____ guttun, einige Tage rauszukommen.",
     answer: "mir",
+    translation:
+      "It really would do me good to get out of here for a few days.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -28945,11 +31673,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1306",
+    id: "nom-pro-t3-1305",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Wissen Sie, ____ war als größter Geizkragen der Welt bekannt.",
     answer: "ich",
+    translation: "You know, I was known as the greatest miser in the world.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -28967,11 +31697,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1307",
+    id: "nom-pro-t3-1306",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Selbst auf deinem Sterbebett machst ____ noch Witze.",
     answer: "du",
+    translation: "Even on your deathbed, you're still making jokes.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -28989,11 +31721,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1308",
+    id: "nom-pro-t3-1307",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Du bist abweisend, seit ____ wieder da bin.",
     answer: "ich",
+    translation: "You've been dismissive ever since I came back.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -29011,11 +31745,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1309",
+    id: "nom-pro-t3-1308",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Zu Ostern gehen ____ Flieder pflücken.",
     answer: "wir",
+    translation: "We'd pick lilac at Easter.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -29033,11 +31769,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1310",
+    id: "nom-pro-t3-1309",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Wie chic ____ aussiehst, Schatz!",
     answer: "du",
+    translation: "You look so chic, my darling!",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -29055,12 +31793,15 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1311",
+    id: "nom-pro-t3-1310",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Als ____ aufwachte, da war mein Körper ganz schmierig, von der letzten Ölung,",
     answer: "ich",
+    translation:
+      "And when I woke up, my body was all greasy from the holy oil she put on my",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -29078,11 +31819,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1312",
+    id: "nom-pro-t3-1311",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Und am Sonntagabend waren ____ alle erschöpft.",
     answer: "wir",
+    translation: "And on Sunday night, we were all exhausted.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -29100,12 +31843,15 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1313",
+    id: "nom-pro-t3-1312",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Möchtest ____ vielleicht duschen, um dich nach der langen Fahrt zu erfrischen?",
     answer: "du",
+    translation:
+      "Well, perhaps you'd like a shower to refresh you after your long drive.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -29123,12 +31869,15 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1314",
+    id: "nom-pro-t3-1313",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Wenn du die ganze Nacht nörgeln willst, ____ habe keine Kraft mehr, dir zu",
     answer: "ich",
+    translation:
+      "If you intend to nag all night, I should let you know, I don't have the strength",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -29146,12 +31895,15 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1315",
+    id: "nom-pro-t3-1314",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Ohne die Möglichkeit zu manövrieren können ____ die Positionen nicht halten.",
     answer: "wir",
+    translation:
+      "If we're not allowed to maneuver, we cannot hold the positions.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -29169,11 +31921,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1316",
+    id: "nom-pro-t3-1315",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Aber Schmeichelei bringt ____ nicht weiter.",
     answer: "dich",
+    translation: "But flattery will get you nowhere.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -29191,11 +31945,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1317",
+    id: "nom-pro-t3-1316",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Gestern Abend habe ____ eine dicke weiße Raupe gesehen.",
     answer: "ich",
+    translation: "I saw a big white caterpillar yesterday evening.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -29213,11 +31969,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1318",
+    id: "nom-pro-t3-1317",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Und weil es ____ wie eine Blume erblühen lässt.",
     answer: "dich",
+    translation: "And because it makes you bloom like a flower.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -29235,11 +31993,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1319",
+    id: "nom-pro-t3-1318",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Eine Pulle können Sie ____ gleich mal geben.",
     answer: "mir",
+    translation: "You can give me a bottle right now, too.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -29257,12 +32017,15 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1320",
+    id: "nom-pro-t3-1319",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Nicht einmal die Mitarbeiter dürfen ohne ____ die Vitrine öffnen.",
     answer: "ihn",
+    translation:
+      "He doesn't even permit staff to open the cabinet without him present.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -29280,11 +32043,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1321",
+    id: "nom-pro-t3-1320",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Unter der harten Schale ist ____ eigentlich sehr gefühlvoll.",
     answer: "er",
+    translation: "Beneath that gruff veneer, he's actually very emotional.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -29302,11 +32067,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1322",
+    id: "nom-pro-t3-1321",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Deshalb beharren ____ auf der Finanztransaktionssteuer.",
     answer: "wir",
+    translation: "That is why we insist on the financial transaction tax.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -29324,12 +32091,15 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1323",
+    id: "nom-pro-t3-1322",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Abschließend möchte ____ noch eine sehr wichtige Frage anschneiden.",
     answer: "ich",
+    translation:
+      "Finally, I should like to raise another very important matter.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -29347,11 +32117,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1324",
+    id: "nom-pro-t3-1323",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Nur, wenn ____ die Kerzen ausblasen darf.",
     answer: "ich",
+    translation: "As long as I can blow out the candles.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -29369,11 +32141,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1325",
+    id: "nom-pro-t3-1324",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "All die Jahre habe ____ eine besondere Verbundenheit gespürt.",
     answer: "ich",
+    translation: "All these years I felt a special bond.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -29391,11 +32165,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1326",
+    id: "nom-pro-t3-1325",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Erinnerst ____ dich, eine weiße Tulpe bekommen zu haben?",
     answer: "du",
+    translation: "Do you remember getting a white tulip?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -29413,12 +32189,15 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1327",
+    id: "nom-pro-t3-1326",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Wie sollten ____ die Proteste der Mittelschicht in den arabischen Ländern",
     answer: "wir",
+    translation:
+      "How should we classify the middle-class protests in the Arab countries?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -29436,12 +32215,15 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1328",
+    id: "nom-pro-t3-1327",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Vielleicht sind ____ bereit für etwas wörtlich und bildlich Kultivierteres.",
     answer: "wir",
+    translation:
+      "Perhaps we are ready for something literally and figuratively more cultured.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -29459,11 +32241,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1329",
+    id: "nom-pro-t3-1328",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Es kostete ____ Jahre, diese Firma zu infiltrieren.",
     answer: "mich",
+    translation: "It's taken me ten years to infiltrate the company.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -29481,11 +32265,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1330",
+    id: "nom-pro-t3-1329",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Bei Regen kann ____ kaum zwinkern.",
     answer: "ich",
+    translation: "During damp weather, I can hardly wink.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -29503,11 +32289,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1331",
+    id: "nom-pro-t3-1330",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Dann sagen die, dass ____ die Beine spreizen soll?",
     answer: "ich",
+    translation: "So, are they saying that I'll spread my legs?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -29525,11 +32313,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1332",
+    id: "nom-pro-t3-1331",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Woher sollte ____ wissen, dass er sich selbst aufspießen würde?",
     answer: "ich",
+    translation: "How could I know that he'd impale himself?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -29547,11 +32337,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1333",
+    id: "nom-pro-t3-1332",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Den Drachen wirst ____ nie zum Fliegen bringen.",
     answer: "du",
+    translation: "You will never get that kite to fly.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -29569,11 +32361,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1334",
+    id: "nom-pro-t3-1333",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Inzwischen verschiffen ____ Kopien an Käufer.",
     answer: "wir",
+    translation: "Meanwhile, we ship off ten copies to ten buyers.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -29591,12 +32385,15 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1335",
+    id: "nom-pro-t3-1334",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Jedenfalls bieten ____ Ihnen und Ihrer Frau erweiterten Personenschutz an.",
     answer: "wir",
+    translation:
+      "In any case, we'd like to offer you and your wife personal protection.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -29614,11 +32411,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1336",
+    id: "nom-pro-t3-1335",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Dort finden ____ eine islamische Mehrheit.",
     answer: "wir",
+    translation: "That's where we find the Islamic majority.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -29636,11 +32435,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1337",
+    id: "nom-pro-t3-1336",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Ja, ____ steckt mitten in einer Klausur.",
     answer: "er",
+    translation: "Yes, he's in the middle of an exam.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -29658,11 +32459,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1338",
+    id: "nom-pro-t3-1337",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Einige von ihnen sind menschlicher als ____ und deinesgleichen.",
     answer: "du",
+    translation: "I find many of them are more human than you and your kind.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -29680,12 +32483,15 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1339",
+    id: "nom-pro-t3-1338",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Nun da die Kinder sicher sind, werde ____ ihn zum Verhör vorladen.",
     answer: "ich",
+    translation:
+      "Now that the children are safe, I'll summon him for questioning.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -29703,12 +32509,15 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1340",
+    id: "nom-pro-t3-1339",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Morgen früh werde ____ als Erstes die Geschäftsleitung über eure Entscheidung",
     answer: "ich",
+    translation:
+      "I'm seeing the management tomorrow morning, and I shall inform them of",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -29726,11 +32535,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1341",
+    id: "nom-pro-t3-1340",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Kann ____ hier etwas inoffiziell einwerfen?",
     answer: "ich",
+    translation: "Can I interject something here, off the record?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -29748,12 +32559,15 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1342",
+    id: "nom-pro-t3-1341",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Sie werden verstehen, dass ____ diesem Sachverständigenausschuss schwerlich",
     answer: "wir",
+    translation:
+      "You have to understand that we can hardly give this committee of experts",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -29771,11 +32585,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1343",
+    id: "nom-pro-t3-1342",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Niemand kann ____ der Zerstörung von Beweisen bezichtigen.",
     answer: "mich",
+    translation: "No one can accuse me of destroying evidence.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -29793,11 +32609,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1344",
+    id: "nom-pro-t3-1343",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Für ____ war das nicht so ulkig damals.",
     answer: "mich",
+    translation: "Well, it wasn't so funny at the time, believe me.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -29815,12 +32633,15 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1345",
+    id: "nom-pro-t3-1344",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Immer wieder verkauften sie uns Lebensmittel ohne Marken, damit ____ die",
     answer: "wir",
+    translation:
+      "Time after time they have sold us food without ration stamps, so we could",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -29838,11 +32659,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1346",
+    id: "nom-pro-t3-1345",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Mit den Einnahmen von heute kann ____ dich ausbezahlen.",
     answer: "ich",
+    translation: "With today's receipts, I'll have enough to pay you off.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -29860,11 +32683,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1347",
+    id: "nom-pro-t3-1346",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Jedenfalls schmiere ____ mir nicht eimerweise Pomade ins Haar.",
     answer: "ich",
+    translation: "I'm not the one who puts a gallon of pomade in my hair.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -29882,12 +32707,15 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1348",
+    id: "nom-pro-t3-1347",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Lass ____ nächste Woche zum Standesamt gehen, danach eine große Party",
     answer: "uns",
+    translation:
+      "Let's go to the registry office next week, throw a big party afterward.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -29905,11 +32733,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1349",
+    id: "nom-pro-t3-1348",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Sie treiben keinen Keil mehr zwischen ____ und meine Leute.",
     answer: "mich",
+    translation: "You're done driving a wedge between me and my people.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -29927,11 +32757,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1350",
+    id: "nom-pro-t3-1349",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Der Projektor ist rostig geworden, aber das bekomme ____ hin.",
     answer: "ich",
+    translation: "The projector's gone rusty, but I could easily fix it.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -29949,12 +32781,15 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1351",
+    id: "nom-pro-t3-1350",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Aber nach all dieser Zeit und Warterei werden ____ ihn wahrscheinlich nicht mal",
     answer: "wir",
+    translation:
+      "But after all this time and waiting, we probably won't even get to use him.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -29972,11 +32807,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1352",
+    id: "nom-pro-t3-1351",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Und jetzt haben ____ eine Bekanntgabe zu machen.",
     answer: "wir",
+    translation: "And now, we have an announcement.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -29994,11 +32831,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1353",
+    id: "nom-pro-t3-1352",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Stecken Sie ____ in die Westentasche.",
     answer: "ihn",
+    translation: "Here, put it in your vest pocket.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -30016,12 +32855,15 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1354",
+    id: "nom-pro-t3-1353",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Insofern finde ____ die Gesamtpolitik, wenn nicht fehlerfrei, so doch schlüssig.",
     answer: "ich",
+    translation:
+      "To that extent, I believe that the overall policy is, if not perfect, at least",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -30039,11 +32881,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1355",
+    id: "nom-pro-t3-1354",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Lassen Sie ____ kurz die erreichten Verbesserungen aufzählen.",
     answer: "mich",
+    translation: "Allow me to briefly enumerate the improvements achieved.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -30061,11 +32905,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1356",
+    id: "nom-pro-t3-1355",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Möchtest ____ die nächsten zehn Jahre im Gefängnis zubringen?",
     answer: "du",
+    translation: "Do you want to spend the next ten years in prison?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -30083,11 +32929,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1357",
+    id: "nom-pro-t3-1356",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Doch manchmal nagen solche Vergleiche an ____.",
     answer: "uns",
+    translation: "But sometimes such comparisons gnaw at us.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -30105,12 +32953,14 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1358",
+    id: "nom-pro-t3-1357",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Sie haben ____ bewusstlos irgendwo in einer Seitenstraße gefunden.",
     answer: "ihn",
+    translation: "They had found him unconscious in a side street.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -30128,12 +32978,15 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1359",
+    id: "nom-pro-t3-1358",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Vorwiegend aus unserem eigenen Wald rüsten ____ Brennholz für eine breite",
     answer: "wir",
+    translation:
+      "We prepare firewood primarily from our own forest for a broad range of",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -30151,11 +33004,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1360",
+    id: "nom-pro-t3-1359",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Und alles, was von ____ bleibt, ist ein Häufchen Staub.",
     answer: "uns",
+    translation: "And all that remains of us is a handful of dust.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -30173,11 +33028,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1361",
+    id: "nom-pro-t3-1360",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Vielleicht kann ____ auch für dich die Erlaubnis erwirken.",
     answer: "ich",
+    translation: "Perhaps I will obtain permission for you, too.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -30195,11 +33052,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1362",
+    id: "nom-pro-t3-1361",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Diesen Rubin würde ____ immer wiedererkennen.",
     answer: "ich",
+    translation: "I could never mistake this ruby.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -30217,12 +33076,15 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1363",
+    id: "nom-pro-t3-1362",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Soll ____ dir einen Rettungsring zuwerfen oder dich einfach untergehen lassen?",
     answer: "ich",
+    translation:
+      "Do you want me to toss you a life preserver now or just let you sink on your",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -30240,12 +33102,14 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1364",
+    id: "nom-pro-t3-1363",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Wenn man sich ____ nicht zuwendet, sie nicht versorgt, verwelken sie.",
     answer: "ihnen",
+    translation: "If you don't tend to them, nourish them, they wither.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -30263,12 +33127,15 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1365",
+    id: "nom-pro-t3-1364",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Sie sagte, sie würde meine Arztrechnungen übernehmen und ____ konnte es mir",
     answer: "ich",
+    translation:
+      "She said she would cover my medical bills, and I couldn't afford to say no.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -30286,12 +33153,14 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1366",
+    id: "nom-pro-t3-1365",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Doch diesmal habe ____ meine Geheimwaffe mitgebracht, mein Gehirn.",
     answer: "ich",
+    translation: "Only this time, I brought my secret weapon, my brain.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -30309,12 +33178,15 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1367",
+    id: "nom-pro-t3-1366",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Es wundert mich nicht, dass ____ noch immer die Äste hinter mir knistern höre",
     answer: "ich",
+    translation:
+      "It does not surprise me that I still hear the branches crackle behind me under",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -30332,12 +33204,15 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1368",
+    id: "nom-pro-t3-1367",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Wieder einmal wird also mit zweierlei Maß gemessen, was ____ für",
     answer: "ich",
+    translation:
+      "So, once again, we have double standards, and I think that is deplorable.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -30355,12 +33230,15 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1369",
+    id: "nom-pro-t3-1368",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Und ____ dachten eigentlich, sie hätte keinen mütterlichen Funken im Körper.",
     answer: "wir",
+    translation:
+      "And here we thought she didn't have a maternal bone in her body.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -30378,12 +33256,15 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1370",
+    id: "nom-pro-t3-1369",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Und ____ darf intervenieren, falls Sie sich zu sehr verausgaben.",
     answer: "ich",
+    translation:
+      "I have the right to intervene if you exert yourself too much.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -30401,12 +33282,14 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1371",
+    id: "nom-pro-t3-1370",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus:
       "Wieso habe ____ nur das Gefühl, dass das mit Ihrem Widersacher in Verbindung",
     answer: "ich",
+    translation: "Why do I think this is connected to your adversary?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",
@@ -30424,11 +33307,13 @@ export const pronounsTier3: ExerciseItem[] = [
     },
   },
   {
-    id: "nom-pro-t3-1372",
+    id: "nom-pro-t3-1371",
     engine: "cloze",
     prompt: "Fill in the correct pronoun:",
     stimulus: "Stellt ____ seitwärts, dann seid ihr weniger angreifbar.",
     answer: "euch",
+    translation: "Stand sideways, you're less of a target.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B2",
       system: "nominal",

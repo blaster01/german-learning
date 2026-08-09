@@ -9,6 +9,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Sie redet die ganze Zeit über ____.",
     answer: "dich",
+    translation: "She talks about you all the time.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -31,6 +33,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Wirklich, ____ kannst nichts tun.",
     answer: "du",
+    translation: "Honestly, there's nothing you can do.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -53,6 +57,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Vielleicht bleibe ____ noch einen Tag in Boston.",
     answer: "ich",
+    translation: "I may stay in Boston for another day.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -75,6 +81,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Kann ____ mit Karte zahlen?",
     answer: "ich",
+    translation: "Can I pay with a credit card?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -97,6 +105,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Ja, ____ verstehe dich gut.",
     answer: "ich",
+    translation: "Yes, I understand you well.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -119,6 +129,9 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Johns Frau mag es nicht, wenn ____ im Wohnzimmer raucht.",
     answer: "er",
+    translation:
+      "John's wife doesn't like it when he smokes in the living room.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -141,6 +154,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Nein, ____ bin nicht verheiratet.",
     answer: "ich",
+    translation: "No, I am not married.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -163,6 +178,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Was soll ____ John jetzt sagen?",
     answer: "ich",
+    translation: "What should I tell John now?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -185,6 +202,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Aber wer bist ____ dann?",
     answer: "du",
+    translation: "But who are you then?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -207,6 +226,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Verstehen Sie, was ____ meine?",
     answer: "ich",
+    translation: "Do you understand what I mean?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -229,6 +250,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Als ____ aufwachte, schneite es.",
     answer: "ich",
+    translation: "It was snowing when I woke up.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -251,6 +274,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Leider hatte ____ keine Wahl.",
     answer: "ich",
+    translation: "Unfortunately, I had no choice.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -273,6 +298,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Dieses Buch ist besser als alle, die ____ gelesen habe.",
     answer: "ich",
+    translation: "This book is better than any I have ever read.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -295,6 +322,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Und wo bist ____ inzwischen gewesen?",
     answer: "du",
+    translation: "And where have you been since then?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -317,6 +346,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Lass ____ zusammen essen gehen.",
     answer: "uns",
+    translation: "Let's go to eat together.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -339,6 +370,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Falls etwas passiert, kannst ____ mich gerne anrufen.",
     answer: "du",
+    translation: "If something happens, feel free to call me.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -361,6 +394,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "All dies wird eines Tages ____ gehören.",
     answer: "dir",
+    translation: "One day, all this will become yours.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -383,6 +418,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "John weiß, was ____ tun.",
     answer: "wir",
+    translation: "John knows what we're doing.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -405,6 +442,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Kannst ____ mir deine Handy-Nummer geben?",
     answer: "du",
+    translation: "Can you give me your cell number?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -427,6 +466,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Sprich nie wieder so mit ____!",
     answer: "mir",
+    translation: "Don't ever talk to me like that again.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -450,6 +491,8 @@ export const pronounsTier1: ExerciseItem[] = [
     stimulus:
       "Vielleicht könnt ihr etwas vorschlagen, was ____ morgen machen können.",
     answer: "wir",
+    translation: "Perhaps you could suggest something we can do tomorrow.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -472,6 +515,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Lasst ____ diesen Weg gehen.",
     answer: "uns",
+    translation: "Let's go this way.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -494,6 +539,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Dieses Lied gefällt ____ wirklich.",
     answer: "mir",
+    translation: "I really like this song.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -516,6 +563,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Was habt ihr heute für ____?",
     answer: "mich",
+    translation: "What do you have for me today?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -538,6 +587,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Die Zeit für eine Reise kann ____ mir nicht leisten.",
     answer: "ich",
+    translation: "I can't afford the time for a journey.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -560,6 +611,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Bist ____ dir sicher, dass John keine Freundin hat?",
     answer: "du",
+    translation: "Are you sure John doesn't have a girlfriend?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -583,6 +636,8 @@ export const pronounsTier1: ExerciseItem[] = [
     stimulus:
       "Es tut ____ leid, aber dadurch wurde das Leid der Familie noch vergrößert.",
     answer: "mir",
+    translation: "I'm sorry, but this added to the sorrow of the family.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -605,6 +660,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Sie wollen ____ nicht teilnehmen lassen.",
     answer: "mich",
+    translation: "They don't want to let me participate.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -627,6 +684,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Das ist sehr lieb von ____, danke.",
     answer: "dir",
+    translation: "That's very sweet of you, thanks.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -649,6 +708,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Genau das habe ____ gemeint.",
     answer: "ich",
+    translation: "That's exactly what I meant.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -671,6 +732,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Ihr werdet ____ wohl nicht amüsieren.",
     answer: "euch",
+    translation: "You probably won't have fun.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -693,6 +756,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Die Menschen brachten ____ nicht absichtlich her.",
     answer: "uns",
+    translation: "The people didn't dump us here on purpose.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -715,6 +780,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Okay, ____ werde es versuchen.",
     answer: "ich",
+    translation: "OK, I'll give it a try.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -737,6 +804,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Menschen, die Hunde nicht mögen, sind ____ suspekt.",
     answer: "mir",
+    translation: "I'm suspicious of people who don't like dogs.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -759,6 +828,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Zeig ____ ein anderes Beispiel.",
     answer: "mir",
+    translation: "Show me another example.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -781,6 +852,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Trotzdem gehen ____ einen Schritt weiter.",
     answer: "wir",
+    translation: "Nevertheless, we are now going a step further.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -803,6 +876,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Was würde mit ____ passieren?",
     answer: "ihm",
+    translation: "What would happen to him?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -825,6 +900,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Aber ____ will da nicht hin.",
     answer: "ich",
+    translation: "But I'm not going there.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -847,6 +924,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Nehmen ____ mal an, sie hat recht.",
     answer: "wir",
+    translation: "Let's just say that she's right.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -869,6 +948,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Sag ____ die richtige Antwort.",
     answer: "mir",
+    translation: "Tell me the right answer.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -891,6 +972,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "John ist nicht so jung wie ____.",
     answer: "ich",
+    translation: "John is not as young as I am.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -914,6 +997,9 @@ export const pronounsTier1: ExerciseItem[] = [
     stimulus:
       "Können Sie uns einen Extrarabatt von % geben, falls ____ von diesem Artikel Stück nehmen?",
     answer: "wir",
+    translation:
+      "Are you able to grant us a special discount of 5% for 50 sets of the product?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -936,6 +1022,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "John kann nicht auf ____ warten.",
     answer: "dich",
+    translation: "John can't wait for you.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -958,6 +1046,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Sonst gehe ____ zur Konkurrenz.",
     answer: "ich",
+    translation: "Otherwise, I'll go to the competition.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -980,6 +1070,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Aber erst muss ____ etwas klarstellen.",
     answer: "ich",
+    translation: "But first, I need to come clean.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -1002,6 +1094,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Jemand musste ____ zur Vernunft bringen.",
     answer: "dich",
+    translation: "Somebody had to bring you back to your senses.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -1024,6 +1118,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Warum fragst ____ nicht deine Mutter?",
     answer: "du",
+    translation: "Why don't you ask your mother?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -1046,6 +1142,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Was magst ____ lieber, Rockmusik oder klassische Musik?",
     answer: "du",
+    translation: "Which do you like better, rock music or classical music?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -1068,6 +1166,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Es wird ____ nicht zu Kopf steigen.",
     answer: "mir",
+    translation: "I won't let it go to my head.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -1091,6 +1191,8 @@ export const pronounsTier1: ExerciseItem[] = [
     stimulus:
       "Sein Cousin, dessen Namen ____ vergessen habe, war ein Krankenpfleger.",
     answer: "ich",
+    translation: "His cousin, whose name I forgot, was a nurse.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -1113,6 +1215,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Gedankenverloren hörte ____, wie sein Name gerufen wurde.",
     answer: "er",
+    translation: "While he was lost in thought, he heard his name called.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -1135,6 +1239,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Möchtest ____ etwas dazu sagen?",
     answer: "du",
+    translation: "Would you like to say something to that?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -1157,6 +1263,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Die Meinungen der anderen sind ____ egal.",
     answer: "mir",
+    translation: "The opinion of others is all the same to me.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -1179,6 +1287,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Könnten Sie ____ eine Minute lang zuhören?",
     answer: "mir",
+    translation: "Can you listen to me for a minute?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -1201,6 +1311,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Kannst ____ bitte die Tür schließen?",
     answer: "du",
+    translation: "Can you please close the door?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -1223,6 +1335,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Nur Wasser für ____, danke.",
     answer: "mich",
+    translation: "Only water for me, thank you.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -1245,6 +1359,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Ohne Pistole kannst ____ niemanden töten.",
     answer: "du",
+    translation: "You can't kill anybody without a gun.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -1267,6 +1383,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Darauf müssen ____ uns konzentrieren.",
     answer: "wir",
+    translation: "We must concentrate on that.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -1289,6 +1407,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Seit einem Monat haben ____ ein bisschen Schnee.",
     answer: "wir",
+    translation: "For the past month, we've had a little snow.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -1312,6 +1432,8 @@ export const pronounsTier1: ExerciseItem[] = [
     stimulus:
       "Es sind schon fast Jahre vergangen, aber ____ bist unverändert schön.",
     answer: "du",
+    translation: "It's been almost ten years, but you're as beautiful as ever.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -1334,6 +1456,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Mama, ____ muss jetzt gehen.",
     answer: "ich",
+    translation: "Mom, I have to go now.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -1356,6 +1480,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Die aufzugeben bin ____ nicht bereit.",
     answer: "ich",
+    translation: "That, I'm not ready to give up.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -1379,6 +1505,8 @@ export const pronounsTier1: ExerciseItem[] = [
     stimulus:
       "Sie sind sehr nett und ____ hätte gerne noch einen weiteren Drink.",
     answer: "ich",
+    translation: "You are very nice, and I would like another drink.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -1401,6 +1529,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Der einzig Merkwürdige hier bist ____.",
     answer: "du",
+    translation: "The only strange one around here is you.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -1423,6 +1553,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Müssen ____ flach auf dem Boden liegen?",
     answer: "wir",
+    translation: "Do we have to lie flat on the ground?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -1445,6 +1577,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Der Nachtisch wird ____ bestimmt schmecken.",
     answer: "dir",
+    translation: "You'll certainly like the dessert.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -1467,6 +1601,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Das Kleid ist zu kurz für ____.",
     answer: "mich",
+    translation: "The dress is too short for me.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -1489,6 +1625,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Doch, darum brauchst ____ mich.",
     answer: "du",
+    translation: "But that's why you need me.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -1511,6 +1649,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Deshalb muss ____ das tun.",
     answer: "ich",
+    translation: "That's why I have to do this.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -1534,6 +1674,9 @@ export const pronounsTier1: ExerciseItem[] = [
     stimulus:
       "John fragte Jane, wohin ____ den Sack mit Hundefutter stellen sollte.",
     answer: "er",
+    translation:
+      "John asked Jane where she wanted him to put the bag of dog food.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -1556,6 +1699,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "In diesem Fall denke ____, dass er Recht hat.",
     answer: "ich",
+    translation: "I think he is right in this case.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -1578,6 +1723,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Dann werde ____ dich also verlassen.",
     answer: "ich",
+    translation: "Then, I'll be leaving you.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -1600,6 +1747,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Endlich erreichten ____ den Gipfel des Fuji.",
     answer: "wir",
+    translation: "We finally reached the top of Mt. Fuji.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -1622,6 +1771,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Deshalb lasse ____ dich hier schlafen.",
     answer: "ich",
+    translation: "That's why I let you sleep here.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -1644,6 +1795,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Reist ____ oft ins Ausland?",
     answer: "du",
+    translation: "Do you often travel abroad?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -1666,6 +1819,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Auch dafür müssen ____ vernünftige Grenzen setzen.",
     answer: "wir",
+    translation: "This is another area where we need to set reasonable limits.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -1688,6 +1843,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Weißt ____, was es bedeutet?",
     answer: "du",
+    translation: "Do you know what it means?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -1710,6 +1867,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Lass ____ mal ein Auge drauf werfen.",
     answer: "mich",
+    translation: "Let me take a look.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -1732,6 +1891,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Das sage ____ meinem Papa!",
     answer: "ich",
+    translation: "I'll tell my dad!",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -1754,6 +1915,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Glaubst ____, das würde Spaß machen?",
     answer: "du",
+    translation: "Do you think it would be fun to do that?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -1776,6 +1939,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Sie baten ____ hierher zu kommen.",
     answer: "mich",
+    translation: "You asked me to come here.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -1798,6 +1963,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Kannst ____ das Geschirr in den Schrank stellen?",
     answer: "du",
+    translation: "Can you put the dishes away in the cupboard?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -1821,6 +1988,8 @@ export const pronounsTier1: ExerciseItem[] = [
     stimulus:
       "Sind deine Eltern damit einverstanden, dass ____ Flugbegleiter wirst?",
     answer: "du",
+    translation: "Do your parents agree to your becoming a flight attendant?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -1843,6 +2012,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Das passiert, wenn ____ zu stark ziehst.",
     answer: "du",
+    translation: "This happens if you pull too hard.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -1865,6 +2036,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Und nennen Sie ____ nicht so.",
     answer: "mich",
+    translation: "And don't call me that.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -1887,6 +2060,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Der Gedanke allein macht ____ krank.",
     answer: "mich",
+    translation: "The thought of it makes me sick.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -1910,6 +2085,9 @@ export const pronounsTier1: ExerciseItem[] = [
     stimulus:
       "Wenn ____ nicht hier wäre, würde dieses Büro in drei Tagen ins Chaos versinken.",
     answer: "ich",
+    translation:
+      "If I wasn't here, this office would be in chaos in three days.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -1932,6 +2110,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Sag Bescheid, wenn ____ irgendwie behilflich sein kann!",
     answer: "ich",
+    translation: "Let me know if I can help you somehow.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -1954,6 +2134,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Ihr müsst ____ eine Suite buchen.",
     answer: "uns",
+    translation: "We need you to book us a hotel suite.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -1976,6 +2158,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Welche Gemüse möchtest ____ kaufen?",
     answer: "du",
+    translation: "What vegetables do you want to buy?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -1998,6 +2182,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Genau daran wollte ____ Sie erinnern.",
     answer: "ich",
+    translation: "That's exactly what I wanted to remind you of.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -2020,6 +2206,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Zum Glück bist ____ da, um sie zu retten!",
     answer: "du",
+    translation: "Luckily, you're here to save them!",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -2043,6 +2231,8 @@ export const pronounsTier1: ExerciseItem[] = [
     stimulus:
       "Stell dir vor, dein Vater würde uns zusammen sehen, was würde ____ sagen?",
     answer: "er",
+    translation: "Suppose your father saw us together, what would he say?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -2065,6 +2255,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Aber ____ wollte nicht verrückt klingen.",
     answer: "ich",
+    translation: "But I didn't want to sound crazy.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -2087,6 +2279,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Können ____ uns irgendwo unterhalten?",
     answer: "wir",
+    translation: "Is there somewhere we can talk?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -2109,6 +2303,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Verschwinden ____ hier, ehe es zu spät ist!",
     answer: "wir",
+    translation: "Let's get out of here before it's too late.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -2131,6 +2327,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Sie hat ____ erklärt, warum sie zu spät zu seiner Party kam.",
     answer: "ihm",
+    translation: "She explained to him why she was late for his party.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -2153,6 +2351,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Schauen ____ mal hinten nach.",
     answer: "wir",
+    translation: "Let's take a look in the back.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -2175,6 +2375,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Mist, sie haben ____ entdeckt.",
     answer: "mich",
+    translation: "Shit, they have spotted me.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -2197,6 +2399,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Der Boss muss ____ Medizin geben.",
     answer: "dir",
+    translation: "The boss has to give you some medicine.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -2219,6 +2423,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Es sind alle sehr stolz auf ____.",
     answer: "euch",
+    translation: "Everyone is very proud of you.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -2241,6 +2447,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Hast du geweint, als ____ fort war?",
     answer: "ich",
+    translation: "Did you cry when I was away?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -2263,6 +2471,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Bitte schicken Sie es ____ per Fax.",
     answer: "mir",
+    translation: "Please send it to me by fax.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -2285,6 +2495,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Diese Nachricht macht ____ traurig.",
     answer: "mich",
+    translation: "This news makes me sad.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -2307,6 +2519,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Kannst ____ dir einen blauen Ferrari vorstellen?",
     answer: "du",
+    translation: "Can you imagine a blue Ferrari?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -2329,6 +2543,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Willst ____ mit mir tanzen?",
     answer: "du",
+    translation: "Do you want to dance with me?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -2352,6 +2568,8 @@ export const pronounsTier1: ExerciseItem[] = [
     stimulus:
       "Ihr solltet nicht über John lachen, wenn ____ einen Fehler macht!",
     answer: "er",
+    translation: "You shouldn't laugh at John when he makes mistakes.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -2374,6 +2592,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Und deswegen unterrichte ____ keine Geografie.",
     answer: "ich",
+    translation: "And that's why I don't teach geography.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -2396,6 +2616,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Das Bild erinnert ____ an meine Studentenzeit.",
     answer: "mich",
+    translation: "This picture reminds me of when I was a student.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -2418,6 +2640,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Meist erreiche ____ meine Großmutter nur per Handy.",
     answer: "ich",
+    translation: "Mostly I reach my grandmother by phone.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -2440,6 +2664,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Super, ____ denke, das ist wirklich gut für die Familie.",
     answer: "ich",
+    translation: "Great, I think it'll be really good for the family.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -2462,6 +2688,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Wecke ____ um sieben auf.",
     answer: "uns",
+    translation: "Wake us up at seven o'clock.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -2485,6 +2713,8 @@ export const pronounsTier1: ExerciseItem[] = [
     stimulus:
       "John sagt, ____ habe im Augenblick nicht sehr viel Geld bei sich.",
     answer: "er",
+    translation: "John says he doesn't have very much money on him right now.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -2507,6 +2737,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Und ____ wirst großartig darin sein.",
     answer: "du",
+    translation: "And you're going to be great in it.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -2529,6 +2761,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Kannst ____ John nicht einfach bitten, uns zu helfen?",
     answer: "du",
+    translation: "Can't you just ask John to help us?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -2551,6 +2785,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Ja, aber ____ hatte keine Ahnung, wozu.",
     answer: "ich",
+    translation: "Yes, but I didn't know why.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -2573,6 +2809,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Keine Bewegung oder ____ werden schießen.",
     answer: "wir",
+    translation: "Don't move, or we will shoot.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -2595,6 +2833,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Am Anfang hatten ____ nur sechs Mitarbeiter.",
     answer: "wir",
+    translation: "In the beginning, we only had six employees.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -2617,6 +2857,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Jane wird ____ nicht fangen.",
     answer: "uns",
+    translation: "Jane will not catch us.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -2639,6 +2881,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Das Haus ist zu groß für ____ und außerdem ist es zu teuer.",
     answer: "uns",
+    translation: "The house is too big for us, and it is also too expensive.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -2661,6 +2905,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Hatten Sie wirklich Sex mit ____?",
     answer: "ihm",
+    translation: "Did you really have sex with him?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -2683,6 +2929,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Dieses Rennen muss ____ wirklich gewinnen.",
     answer: "er",
+    translation: "This is a race he really has to win.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -2705,6 +2953,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Wie lange willst ____ es behalten?",
     answer: "du",
+    translation: "How long do you want to keep it?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -2727,6 +2977,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Lassen Sie ____ hier anfangen!",
     answer: "uns",
+    translation: "Let's start here.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -2749,6 +3001,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Am Schluss waren ____ gute Freunde.",
     answer: "wir",
+    translation: "By the end, we were great friends.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -2771,6 +3025,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Vielleicht können ____ sie doch schlagen.",
     answer: "wir",
+    translation: "Maybe we can beat them after all.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -2793,6 +3049,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Wo hast ____ das erfahren?",
     answer: "du",
+    translation: "Where did you learn this?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -2815,6 +3073,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Dafür willst ____ bestimmt wach sein.",
     answer: "du",
+    translation: "You'll want to be awake for this.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -2837,6 +3097,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Zum Beispiel, magst ____ Deutsch?",
     answer: "du",
+    translation: "For example, do you like German?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -2859,6 +3121,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Jedenfalls ist ____ jetzt eventuell in Paris.",
     answer: "er",
+    translation: "Anyhow, he may now be in Paris.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -2881,6 +3145,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Es zielt direkt auf ____.",
     answer: "uns",
+    translation: "It is aimed right at us.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -2904,6 +3170,9 @@ export const pronounsTier1: ExerciseItem[] = [
     stimulus:
       "Nur weil ein Mann reich ist, heißt das noch nicht, dass ____ auch glücklich ist.",
     answer: "er",
+    translation:
+      "Just because a man is rich, it does not necessarily follow that he is happy.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -2926,6 +3195,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Wende ____ nicht den Rücken zu.",
     answer: "mir",
+    translation: "Don't turn your back on me.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -2948,6 +3219,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Warst ____ jemals im Ausland?",
     answer: "du",
+    translation: "Have you ever been to a foreign country?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -2970,6 +3243,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Es ist absolut notwendig, dass ____ es finden.",
     answer: "wir",
+    translation: "It is absolutely necessary that we find it.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -2992,6 +3267,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Möge die Kraft mit ____ sein!",
     answer: "dir",
+    translation: "May the Force be with you!",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -3014,6 +3291,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "In dieser Bar musst ____ bar zahlen.",
     answer: "du",
+    translation: "You have to pay cash in this bar.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -3036,6 +3315,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Wo arbeitete John, ehe ____ hierherkam?",
     answer: "er",
+    translation: "Where did John work before he came here?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -3058,6 +3339,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Wofür brauchst ____ das Geld?",
     answer: "du",
+    translation: "What do you need the money for?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -3080,6 +3363,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Mein Hund schlief neben ____.",
     answer: "mir",
+    translation: "My dog slept next to me.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -3102,6 +3387,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Wofür wirst ____ es benutzen?",
     answer: "du",
+    translation: "What will you use it for?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -3124,6 +3411,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Kannst du mir sagen, wo auf dieser Karte ____ mich befinde?",
     answer: "ich",
+    translation: "Can you tell me where I am on this map?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -3147,6 +3436,8 @@ export const pronounsTier1: ExerciseItem[] = [
     stimulus:
       "Das Essen stillte seinen Hunger. Jetzt hat ____ keinen Hunger mehr.",
     answer: "er",
+    translation: "The meal satisfied his hunger. He isn't hungry anymore.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -3169,6 +3460,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Diesmal hast ____ dich selbst übertroffen.",
     answer: "du",
+    translation: "You've outdone yourself this time.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -3191,6 +3484,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Hoffentlich verirrst ____ dich nicht.",
     answer: "du",
+    translation: "I hope you won't get lost.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -3213,6 +3508,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Erstens fehlen ____ die finanziellen Mittel.",
     answer: "uns",
+    translation: "First of all, we lack financial resources.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -3235,6 +3532,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Vielleicht wird es ____ zu heiß.",
     answer: "ihm",
+    translation: "Maybe it's getting too hot for him.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -3258,6 +3557,9 @@ export const pronounsTier1: ExerciseItem[] = [
     stimulus:
       "Heute spreche ____ über die Bedeutung des Sports in der modernen Gesellschaft.",
     answer: "ich",
+    translation:
+      "Today, I'm going to talk about the importance of sport in modern society.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -3280,6 +3582,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Diesen Punkt habe ____ bereits beantwortet.",
     answer: "ich",
+    translation: "I have already responded to this point.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -3302,6 +3606,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Bist ____ jetzt zufrieden? Jawohl.",
     answer: "du",
+    translation: "Are you happy now? Of course.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -3324,6 +3630,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Hier können ____ ein Taxi nehmen.",
     answer: "wir",
+    translation: "We can get a taxi here.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -3346,6 +3654,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Gerade habe ____ mir das Foto angesehen.",
     answer: "ich",
+    translation: "I was just looking at the photo.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -3368,6 +3678,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Ruf ____ irgendwann mal an.",
     answer: "mich",
+    translation: "Give me a call sometime.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -3390,6 +3702,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Bei sowas würde ____ nie lügen.",
     answer: "ich",
+    translation: "I wouldn't lie about something like that.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -3412,6 +3726,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Das ist ____ ein großes Vergnügen.",
     answer: "mir",
+    translation: "That gives me great pleasure.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -3434,6 +3750,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Mein Zuhause ist nicht bei ____.",
     answer: "dir",
+    translation: "My home is not with you.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -3456,6 +3774,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Warum bittest ____ John nicht herein?",
     answer: "du",
+    translation: "Why don't you invite John inside?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -3479,6 +3799,9 @@ export const pronounsTier1: ExerciseItem[] = [
     stimulus:
       "John muss jede Nacht mindestens neun Stunden schlafen, sonst funktioniert ____ nicht.",
     answer: "er",
+    translation:
+      "John needs at least nine hours of sleep every night, or he can't function.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -3501,6 +3824,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Zweifellos haben ____ einander viel zu lehren.",
     answer: "wir",
+    translation: "No doubt we have much to teach each other.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -3523,6 +3848,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Sag ____, wem diese Bücher gehören.",
     answer: "mir",
+    translation: "Tell me whom these books belong to.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -3545,6 +3872,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Hier drin können ____ uns verstecken.",
     answer: "wir",
+    translation: "We can hide in here.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -3567,6 +3896,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Dann haben ____ den gleichen Feind.",
     answer: "wir",
+    translation: "Well then, we share a common enemy.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -3589,6 +3920,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Aber ____ ist so nett und süß.",
     answer: "er",
+    translation: "But he's so good and sweet.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -3611,6 +3944,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Übrigens, ____ muss dir etwas sagen.",
     answer: "ich",
+    translation: "By the way, I have something to tell you.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -3634,6 +3969,9 @@ export const pronounsTier1: ExerciseItem[] = [
     stimulus:
       "Dieser Brief ist persönlich, ____ will nicht, dass jemand anders ihn liest.",
     answer: "ich",
+    translation:
+      "This letter is personal, and I don't want anyone else to read it.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -3656,6 +3994,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Jetzt will ____ lieber einen Drink.",
     answer: "ich",
+    translation: "Right now I'd rather have a drink.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -3678,6 +4018,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Ihr Geheimnis ist bei ____ sicher.",
     answer: "uns",
+    translation: "Your secret is safe with us.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -3700,6 +4042,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Das ist genau, worauf ____ wartet.",
     answer: "er",
+    translation: "That's just what he is looking for.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -3722,6 +4066,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Sie erkennen ____ und Jane natürlich nicht.",
     answer: "mich",
+    translation: "Naturally, you do not recognize me or Jane.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -3744,6 +4090,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Aber ____ muss meine Mutter mitnehmen.",
     answer: "ich",
+    translation: "But, I have to take my mother.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -3766,6 +4114,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "John macht sowas, wenn ____ traurig ist.",
     answer: "er",
+    translation: "John does something like that when he's sad.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -3789,6 +4139,8 @@ export const pronounsTier1: ExerciseItem[] = [
     stimulus:
       "Was ____ als Nächstes tat, war für mich schon eine Überraschung.",
     answer: "er",
+    translation: "What he did next was quite a surprise to me.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -3811,6 +4163,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Schließlich erreichten ____ den Gipfel des Bergs.",
     answer: "wir",
+    translation: "Finally, we reached the top of the mountain.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -3833,6 +4187,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Soweit ____ weiß, ist er ehrlich.",
     answer: "ich",
+    translation: "As far as I know, he is an honest man.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -3855,6 +4211,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Mit Glück überleben ____ die Nacht.",
     answer: "wir",
+    translation: "With luck, we will survive the night.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -3878,6 +4236,8 @@ export const pronounsTier1: ExerciseItem[] = [
     stimulus:
       "Jeder muss einen Bericht darüber schreiben, was ____ gesehen hat.",
     answer: "er",
+    translation: "Each of them has to write a report about what he saw.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -3900,6 +4260,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Johns Vergangenheit hat ____ eingeholt.",
     answer: "ihn",
+    translation: "John's past caught up with him.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -3922,6 +4284,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Das Radio geht ____ auf die Nerven.",
     answer: "mir",
+    translation: "The radio gets on my nerves.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -3944,6 +4308,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Die Polizei könnte ____ dafür verhaften.",
     answer: "dich",
+    translation: "The police could arrest you for that.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -3966,6 +4332,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Jemand hat versucht, ____ zu ermorden.",
     answer: "dich",
+    translation: "Somebody tried to murder you.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -3988,6 +4356,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Er verbirgt irgendetwas und ____ hilfst ihm.",
     answer: "du",
+    translation: "He's hiding something, and you're helping him.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -4010,6 +4380,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Danke, ____ fahre jetzt rauf.",
     answer: "ich",
+    translation: "Thanks, I'm coming up now.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -4032,6 +4404,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Wie häufig fütterst ____ die Fische?",
     answer: "du",
+    translation: "How often do you feed the fish?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -4054,6 +4428,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Hier kannst ____ nicht parken.",
     answer: "du",
+    translation: "You can't park here.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -4076,6 +4452,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Das ist das erste Mal, dass ____ ihn lächeln sehe.",
     answer: "ich",
+    translation: "This is the first time I've seen him smile.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -4098,6 +4476,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Sie kann ____ nicht aufhalten.",
     answer: "uns",
+    translation: "She cannot stop us.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -4120,6 +4500,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Lange davor war ____ dein Freund.",
     answer: "ich",
+    translation: "Long before that, I was your friend.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -4142,6 +4524,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Jetzt kann ____ kaum noch auf einen Baum klettern.",
     answer: "ich",
+    translation: "Now I can barely climb a tree.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -4165,6 +4549,8 @@ export const pronounsTier1: ExerciseItem[] = [
     stimulus:
       "Ist es ____ nicht in den Sinn gekommen, die Fenster zu schließen?",
     answer: "euch",
+    translation: "Didn't it occur to you to close the windows?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -4187,6 +4573,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Sie, ____ und Macintosh wären ein prima Team.",
     answer: "ich",
+    translation: "You, me and Macintosh could make a great team.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -4209,6 +4597,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Das kommt, weil ____ lächerlich aussiehst.",
     answer: "du",
+    translation: "That's because you look ridiculous.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -4231,6 +4621,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Davor wollte ____ dich beschützen.",
     answer: "ich",
+    translation: "I wanted to protect you from that.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -4253,6 +4645,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Das können Sie ____ nicht befehlen.",
     answer: "mir",
+    translation: "You can't order me to do that.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -4275,6 +4669,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Sollen ____ eine Pause machen?",
     answer: "wir",
+    translation: "Let's take a break, shall we?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -4297,6 +4693,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Sie ist sogar einverstanden, dass ____ es schreibst.",
     answer: "du",
+    translation: "She even agreed that you would write it.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -4319,6 +4717,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Kann ____ einen Rock zu einem Rockkonzert tragen?",
     answer: "ich",
+    translation: "Can I wear a skirt to a rock concert?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -4341,6 +4741,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Es ist nicht zu fassen, dass ____ drei Töchter hast.",
     answer: "du",
+    translation: "It is hard to believe that you have three daughters.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -4363,6 +4765,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Und ____ müssen bald dorthin zurück.",
     answer: "wir",
+    translation: "And we need to get back in there soon.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -4385,6 +4789,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Seine törichten Freunde wollen ____ morgen früh angreifen.",
     answer: "uns",
+    translation: "His foolish friends intend to attack us in the morning.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -4407,6 +4813,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Warum kapierst ____ das nicht?",
     answer: "du",
+    translation: "Why don't you understand it?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -4429,6 +4837,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Gewöhnlich frühstücke ____ um acht.",
     answer: "ich",
+    translation: "I usually have breakfast at eight.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -4451,6 +4861,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "In ein paar Minuten servieren ____ Frühstück.",
     answer: "wir",
+    translation: "We'll be serving breakfast in a few minutes.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -4473,6 +4885,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Das wollte ____ um nichts in der Welt verpassen!",
     answer: "ich",
+    translation: "I wouldn't miss it for anything.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -4495,6 +4909,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Hast ____ irgendwelche weiteren Fragen?",
     answer: "du",
+    translation: "Do you have any further questions?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -4517,6 +4933,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Warum willst ____ nicht mitkommen?",
     answer: "du",
+    translation: "Why don't you want to come along?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -4539,6 +4957,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Stell ____ in die Reihe.",
     answer: "dich",
+    translation: "Get in line.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -4561,6 +4981,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Haltet ____ natürlich vom Fluss fern.",
     answer: "euch",
+    translation: "Stay away from the river, of course.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -4583,6 +5005,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Sie halfen ____, die Operation durchzuführen.",
     answer: "ihm",
+    translation: "They assisted him in performing the operation.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -4605,6 +5029,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "John glaubte an mich und ____ bin ihm dafür dankbar.",
     answer: "ich",
+    translation: "John believed in me, and I am grateful to him.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -4627,6 +5053,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Diese Verantwortung ist eine Last für ____.",
     answer: "ihn",
+    translation: "That responsibility is a burden to him.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -4649,6 +5077,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Außerdem hast ____ einen neuen Gast.",
     answer: "du",
+    translation: "And, besides, you got a new guest.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -4671,6 +5101,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Sie hämmerten in meinem Kopf und machten ____ wahnsinnig.",
     answer: "mich",
+    translation: "They pounded away in my head, driving me insane.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -4693,6 +5125,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "So beenden ____ nicht den Unterricht.",
     answer: "wir",
+    translation: "That's not how we end this class.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -4715,6 +5149,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Aha, ____ weißt doch was.",
     answer: "du",
+    translation: "Aha, you do know something.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -4737,6 +5173,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Die Kuh gibt ____ Milch.",
     answer: "uns",
+    translation: "A cow gives us milk.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -4759,6 +5197,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Gib ____ wenigstens noch einen Kuss.",
     answer: "mir",
+    translation: "At least give me another kiss.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -4781,6 +5221,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Schande, denn ____ mochte diesen Pulli irgendwie.",
     answer: "ich",
+    translation: "That's a shame because I kind of liked that sweater.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -4803,6 +5245,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Und dafür schulden ____ ihm Dank.",
     answer: "wir",
+    translation: "And for that, we owe him a great vote of thanks.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -4825,6 +5269,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Er ist zweimal so alt wie ____.",
     answer: "ich",
+    translation: "He is twice as old as I.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -4847,6 +5293,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Hol ____ die Stiefel, Mädel.",
     answer: "mir",
+    translation: "Get those boots for me, girl.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -4870,6 +5318,9 @@ export const pronounsTier1: ExerciseItem[] = [
     stimulus:
       "Wenn du Interesse hast, sag Bescheid; dann gebe ____ dir seine Nummer.",
     answer: "ich",
+    translation:
+      "If you're interested, let me know, and I'll give you his number.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -4892,6 +5343,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Soviel ____ weiß, ist er nicht verheiratet.",
     answer: "ich",
+    translation: "As far as I know, he is not married.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -4915,6 +5368,8 @@ export const pronounsTier1: ExerciseItem[] = [
     stimulus:
       "Egal welche Zeitung ____ liest, die Story wird immer die gleiche sein.",
     answer: "du",
+    translation: "Any paper you read will tell the same story.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -4937,6 +5392,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Keine Sorge, ____ schlafe woanders.",
     answer: "ich",
+    translation: "It's okay, I'll sleep somewhere else.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -4959,6 +5416,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Bravo, ____ bist die Schönste.",
     answer: "du",
+    translation: "Bravo, you are the most beautiful.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -4981,6 +5440,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Danke, ____ bin schon satt.",
     answer: "ich",
+    translation: "Thank you, I'm full.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -5003,6 +5464,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Wenn ____ anhalten, steig aus.",
     answer: "wir",
+    translation: "When we stop, I want you to get out of the car.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -5025,6 +5488,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Mit ihr verbringen Sie mehr Zeit als mit ____.",
     answer: "mir",
+    translation: "You spend more time with her than with me.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -5047,6 +5512,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Vorhin hat hier eine Frau nach ____ gesucht.",
     answer: "dir",
+    translation: "There was a woman here earlier looking for you.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -5069,6 +5536,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Vielleicht durfte ____ den Staat nicht verlassen.",
     answer: "er",
+    translation: "Maybe he wasn't allowed to leave the state.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -5091,6 +5560,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Ob ____ eine Zugabe spielen oder nicht, hängt vom Publikum ab.",
     answer: "wir",
+    translation: "Whether or not we play an encore, depends on the audience.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -5113,6 +5584,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Womit kann ____ dir helfen?",
     answer: "ich",
+    translation: "What can I help you with?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -5135,6 +5608,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Zugleich müssen ____ jedoch vernünftig bleiben.",
     answer: "wir",
+    translation: "At the same time, however, we must remain reasonable.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -5158,6 +5633,8 @@ export const pronounsTier1: ExerciseItem[] = [
     stimulus:
       "Ihr kennt diesen Song nicht, also versucht ____ nicht mitzusingen.",
     answer: "ihn",
+    translation: "You don't know this song, so don't try to sing along.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -5180,6 +5657,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Und dann werden ____ ihn begraben.",
     answer: "wir",
+    translation: "And then we will bury him.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -5202,6 +5681,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Seitdem habe ____ nie wieder von ihm gehört.",
     answer: "ich",
+    translation: "I have never heard of him since then.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -5224,6 +5705,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Deswegen kann ____ diese Auszeichnung nicht annehmen.",
     answer: "ich",
+    translation: "This is why I can't accept this award.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -5246,6 +5729,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Haben Sie bei ____ einen Termin?",
     answer: "ihm",
+    translation: "Do you have an appointment with him?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -5268,6 +5753,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Lege ____ auf den Bauch.",
     answer: "dich",
+    translation: "Lie on your stomach.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -5290,6 +5777,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Dann musst ____ mich decken.",
     answer: "du",
+    translation: "Then you will have to cover for me.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -5312,6 +5801,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Jetzt musst ____ pressen, Jane.",
     answer: "du",
+    translation: "You have to push now, Jane.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -5334,6 +5825,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Kannst ____ das hier unterschreiben?",
     answer: "du",
+    translation: "Can you sign this?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -5356,6 +5849,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Wenn er mir die Wahrheit gesagt hätte, hätte ____ ihm vergeben.",
     answer: "ich",
+    translation: "If he had told me the truth, I would have forgiven him.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -5378,6 +5873,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Eine so kurze Erklärung wäre ____ nicht eingefallen.",
     answer: "mir",
+    translation: "I couldn't think of a brief explanation.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -5400,6 +5897,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Am Montag arbeite ____ nicht.",
     answer: "ich",
+    translation: "I don't work on Mondays.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -5422,6 +5921,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Sie möchte mit ____ allen etwas besprechen.",
     answer: "uns",
+    translation: "She wanted to discuss something with all of us.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -5444,6 +5945,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Moment, ____ empfange ein Signal.",
     answer: "ich",
+    translation: "Just a second, I'm picking up a signal.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -5466,6 +5969,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Kennst ____ den Grund, warum der Himmel blau aussieht?",
     answer: "du",
+    translation: "Do you know the reason why the sky looks blue?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -5488,6 +5993,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Vielleicht sollten ____ dir nicht trauen.",
     answer: "wir",
+    translation: "Maybe we shouldn't trust you.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -5510,6 +6017,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Diese Sitte ist ____ fremd.",
     answer: "uns",
+    translation: "That custom is foreign to us.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -5532,6 +6041,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Vielleicht will ____ dann hierher zurückkommen.",
     answer: "er",
+    translation: "Maybe he will want to come back here.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -5554,6 +6065,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Die Bedingung behagt ____ ganz und gar nicht.",
     answer: "mir",
+    translation: "I am not at all pleased with the condition.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -5576,6 +6089,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Sie können sich jederzeit an ____ wenden.",
     answer: "mich",
+    translation: "You can contact me anytime.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -5598,6 +6113,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Sie wollte ____ auseinander bringen.",
     answer: "uns",
+    translation: "She wanted to keep us apart.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -5620,6 +6137,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Die sind alle zusammen nicht so schlau wie ____.",
     answer: "du",
+    translation: "All of them combined aren't as smart as you.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -5642,6 +6161,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Also, willst ____ vielleicht reinkommen?",
     answer: "du",
+    translation: "So, do you want to come in maybe?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -5664,6 +6185,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Niemand kann ____ hier kontrollieren.",
     answer: "uns",
+    translation: "Nobody can control us here.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -5686,6 +6209,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Lasst ____ weitermachen, wenn John einverstanden ist.",
     answer: "uns",
+    translation: "Let's carry on if it's okay with John.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -5708,6 +6233,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Lieber Mr. Warne, ____ bin erfreut.",
     answer: "ich",
+    translation: "My dear Mr. Warne, well, I'm pleased.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -5730,6 +6257,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Aber diese Sachen musst ____ nicht erwähnen.",
     answer: "du",
+    translation: "But you don't have to mention those things.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -5752,6 +6281,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Dinge, die ____ aufregen sollten, prallen einfach von mir ab.",
     answer: "mich",
+    translation: "Things that should upset me just bounce right off.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -5774,6 +6305,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "So etwas wollen ____ nicht erleben.",
     answer: "wir",
+    translation: "This is not something we want to experience.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -5796,6 +6329,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Wie oft wäschst ____ deine Kleidung?",
     answer: "du",
+    translation: "How often do you wash your clothes?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -5818,6 +6353,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Fehler zu machen, macht ____ menschlich.",
     answer: "uns",
+    translation: "Making mistakes is what makes us human.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -5840,6 +6377,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "John und ____ kamen gleichzeitig dort an.",
     answer: "ich",
+    translation: "John and I got there at the same time.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -5862,6 +6401,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Beeilung, bevor ____ sie verlieren.",
     answer: "wir",
+    translation: "Hurry up before we lose her.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -5884,6 +6425,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Wann werden ____ mit diesem Flug in Berlin ankommen?",
     answer: "wir",
+    translation: "What time will we arrive in Berlin if we take this plane?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -5906,6 +6449,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Kein einziger Fahrgast wollte ____ zuhören.",
     answer: "mir",
+    translation: "Not a single passenger would listen to me.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -5928,6 +6473,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Die sind zu fein für ____.",
     answer: "mich",
+    translation: "They are too fine for me.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -5950,6 +6497,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Sei heute nicht gemein zu ____.",
     answer: "mir",
+    translation: "Don't be mean to me today.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -5972,6 +6521,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Die Tochter schnappen ____ auch bald.",
     answer: "wir",
+    translation: "It's just a matter of time until we catch the daughter.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -5995,6 +6546,9 @@ export const pronounsTier1: ExerciseItem[] = [
     stimulus:
       "Anfangs fand John Französisch schwer, doch jetzt hält ____ es für leicht.",
     answer: "er",
+    translation:
+      "At first, John thought French was difficult, but now he thinks it's easy.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -6017,6 +6571,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Kann ____ Ihre Bestellung aufnehmen?",
     answer: "ich",
+    translation: "Can I take your order?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -6039,6 +6595,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Nun will ____ meinen Lebenstraum erfüllen.",
     answer: "ich",
+    translation: "Now I want to fulfill my dream.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -6061,6 +6619,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Da kann ____ mich besser verteidigen.",
     answer: "ich",
+    translation: "I will be able to defend myself better.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -6083,6 +6643,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Den Fehler werde ____ gewiss nie wiederholen.",
     answer: "ich",
+    translation: "Never again will I make that mistake.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -6105,6 +6667,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Diesen neuen Titel empfehlen ____ vorbehaltlos.",
     answer: "wir",
+    translation: "This is the title which we warmly recommend.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -6127,6 +6691,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Hast ____ inzwischen einen Partner gefunden?",
     answer: "du",
+    translation: "Have you found a partner by now?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -6149,6 +6715,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Könnt ihr es ____ bestellen?",
     answer: "mir",
+    translation: "Can you order it for me?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -6171,6 +6739,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "John sagte, dass ____ ohne ihn starten können.",
     answer: "wir",
+    translation: "John says we can start without him.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -6193,6 +6763,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Sie können ____ entweder beschützen oder vernichten.",
     answer: "euch",
+    translation: "They can be used to protect you or destroy you.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -6215,6 +6787,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Überlassen Sie das Fahren ____.",
     answer: "mir",
+    translation: "Leave the driving to me.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -6237,6 +6811,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Sie untersuchen ____ von Kopf bis Fuß.",
     answer: "ihn",
+    translation: "They are examining him from top to bottom.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -6259,6 +6835,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Normalerweise gehe ____ am Freitag auf den Markt.",
     answer: "ich",
+    translation: "I usually go to the market on Friday.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -6281,6 +6859,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Sie erinnern ____ an einen entfernten Cousin.",
     answer: "mich",
+    translation: "You remind me of a distant cousin.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -6303,6 +6883,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Sie halten ____ alle für einen Narren.",
     answer: "mich",
+    translation: "They all take me for a fool.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -6325,6 +6907,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "John wäscht sich stets die Hände, bevor ____ etwas isst.",
     answer: "er",
+    translation: "John always washes his hands before eating anything.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -6347,6 +6931,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Die Ratte hat ____ heute sitzen lassen.",
     answer: "mich",
+    translation: "Actually, the rat stood me up today.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -6369,6 +6955,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Kann ____ euch irgendwie überzeugen?",
     answer: "ich",
+    translation: "Is there any way I can convince you?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -6391,6 +6979,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Weißt ____, wann John zurückkehren wird?",
     answer: "du",
+    translation: "Do you know when John will be back?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -6413,6 +7003,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Dazu möchte ____ Jane gratulieren.",
     answer: "ich",
+    translation: "I would like to congratulate Jane on this.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -6435,6 +7027,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "John ist nicht mehr der Mann, der ____ einst war.",
     answer: "er",
+    translation: "John isn't the man he once used to be.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -6457,6 +7051,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Wisst ihr, wo ____ uns befinden?",
     answer: "wir",
+    translation: "Do you know where we are?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -6479,6 +7075,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Die Theorie ist ____ zu abstrakt.",
     answer: "mir",
+    translation: "The theory is too abstract for me.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -6501,6 +7099,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Kommt darauf an, worauf ____ suchst.",
     answer: "du",
+    translation: "It depends on what you are looking for.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -6523,6 +7123,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Der Gedanke macht ____ krank.",
     answer: "mich",
+    translation: "The thought of it makes me sick.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -6545,6 +7147,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Jetzt lass ____ zur Schule eilen.",
     answer: "uns",
+    translation: "Now let's hurry to school.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -6567,6 +7171,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Aus meiner Sicht hast ____ Unrecht.",
     answer: "du",
+    translation: "In my view, you are wrong.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -6589,6 +7195,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Es muss sehr aufregend sein, was ____ tust.",
     answer: "du",
+    translation: "It must be very exciting what you do.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -6611,6 +7219,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Darauf müssen ____ unsere Aufmerksamkeit richten.",
     answer: "wir",
+    translation: "This is what we must focus our attention on.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -6634,6 +7244,8 @@ export const pronounsTier1: ExerciseItem[] = [
     stimulus:
       "Nachdem ____ jeden Text gehört hast, schreibe einen kurzen Bericht.",
     answer: "du",
+    translation: "After listening to each text, write a short report.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -6656,6 +7268,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Der Unfall ist ____ noch lebhaft im Gedächtnis.",
     answer: "ihm",
+    translation: "The accident is still vivid in his memory.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -6678,6 +7292,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Soll ____ mein Hemd ausziehen?",
     answer: "ich",
+    translation: "Should I take off my shirt?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -6700,6 +7316,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "John, ____ kannst dich umdrehen.",
     answer: "du",
+    translation: "John, you can turn around.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -6723,6 +7341,9 @@ export const pronounsTier1: ExerciseItem[] = [
     stimulus:
       "Fragen oder Anregungen zu unserem Produkt beantworten ____ gerne.",
     answer: "wir",
+    translation:
+      "We are happy to answer questions and suggestions about our product.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -6745,6 +7366,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Okay, ____ hattest einen schlechten Start.",
     answer: "du",
+    translation: "Okay, so you had a rough start.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -6767,6 +7390,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Sie möchten ____ nicht loswerden.",
     answer: "mich",
+    translation: "They don't want to get rid of me.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -6790,6 +7415,8 @@ export const pronounsTier1: ExerciseItem[] = [
     stimulus:
       "An kalten Tagen können Sie bei ____ ein elektrisches Heizgerät mieten.",
     answer: "uns",
+    translation: "On cold days you can rent an electric heating radiator.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -6812,6 +7439,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Eigentlich wollte ____ dich heute beeindrucken.",
     answer: "ich",
+    translation: "The truth is, I meant to impress you tonight.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -6834,6 +7463,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Zu jener Zeit war ____ immer pünktlich.",
     answer: "ich",
+    translation: "In those days, I was always on time.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -6856,6 +7487,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Es ist nicht an ____ das Urteil zu fällen.",
     answer: "uns",
+    translation: "The judgment isn't ours to make.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -6878,6 +7511,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Natürlich werden ____ alle Gewalttaten verurteilen.",
     answer: "wir",
+    translation: "Of course, we will condemn all acts of violence.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -6900,6 +7535,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Wenigstens war ____ freiwillig eine Jungfrau.",
     answer: "ich",
+    translation: "At least I was a virgin by choice.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -6922,6 +7559,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Ihr werdet ____ daran gewöhnen.",
     answer: "euch",
+    translation: "You will get used to it.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -6944,6 +7583,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Was sollte ____ tun, um Zeit zu sparen?",
     answer: "ich",
+    translation: "What should I do to save time?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -6966,6 +7607,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Aber zunächst möchte ____ etwas klären.",
     answer: "ich",
+    translation: "But first, there's something I'd like to clarify.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -6988,6 +7631,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Aber Großvater, ____ wollten bleiben und zusehen.",
     answer: "wir",
+    translation: "But, Grandpa, we wanted to stay and watch.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -7010,6 +7655,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Es bringt ____ weder Geld noch Ruhm.",
     answer: "uns",
+    translation: "It will bring us neither money nor fame.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -7032,6 +7679,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Kannst ____ ein Geheimnis bewahren?",
     answer: "du",
+    translation: "Can you keep a secret?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -7054,6 +7703,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Es ist nur ein Verdacht, den ____ habe.",
     answer: "ich",
+    translation: "It is just a suspicion I have.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -7076,6 +7727,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Die Kinder waren so laut, dass ____ nicht studieren konnte.",
     answer: "ich",
+    translation: "The children were so noisy that I couldn't study.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -7098,6 +7751,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Als Belohnung habe ____ Spaghetti gemacht.",
     answer: "ich",
+    translation: "As a reward, I made spaghetti.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -7120,6 +7775,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Das erscheint ____ ein bisschen albern.",
     answer: "mir",
+    translation: "That seems a little silly to me.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -7142,6 +7799,8 @@ export const pronounsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct pronoun:",
     stimulus: "Erstens, ____ hat einen Namen.",
     answer: "er",
+    translation: "First of all, he has a name.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "nominal",

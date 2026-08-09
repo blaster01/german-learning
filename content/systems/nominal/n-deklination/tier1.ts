@@ -20,6 +20,7 @@ export const nDeklinationTier1: ExerciseItem[] = [
     stimulus: "Ich sehe den ____.",
     options: ["Jungen", "Junge", "Jung", "Junger"],
     answer: 0,
+    translation: "I see the boy.",
     feedback: FEEDBACK,
     metadata: {
       cefr: "B1",
@@ -36,6 +37,7 @@ export const nDeklinationTier1: ExerciseItem[] = [
     stimulus: "Der ____ spielt Fußball.",
     options: ["Junge", "Jungen", "Jung", "Junger"],
     answer: 0,
+    translation: "The boy is playing soccer.",
     feedback: FEEDBACK,
     metadata: {
       cefr: "B1",
@@ -52,6 +54,7 @@ export const nDeklinationTier1: ExerciseItem[] = [
     stimulus: "Ich gebe dem ____ das Buch.",
     options: ["Studenten", "Student", "Studente", "Studentes"],
     answer: 0,
+    translation: "I'm giving the student the book.",
     feedback: FEEDBACK,
     metadata: {
       cefr: "B1",
@@ -68,6 +71,7 @@ export const nDeklinationTier1: ExerciseItem[] = [
     stimulus: "Kennst du den ____ dort drüben?",
     options: ["Herrn", "Herr", "Herre", "Herres"],
     answer: 0,
+    translation: "Do you know that gentleman over there?",
     feedback: FEEDBACK,
     metadata: {
       cefr: "B1",
@@ -84,6 +88,7 @@ export const nDeklinationTier1: ExerciseItem[] = [
     stimulus: "Der ____ hilft dem Patienten.",
     options: ["Kollege", "Kollegen", "Kolleg", "Kolleger"],
     answer: 0,
+    translation: "The colleague is helping the patient.",
     feedback: FEEDBACK,
     metadata: {
       cefr: "B1",
@@ -99,6 +104,7 @@ export const nDeklinationTier1: ExerciseItem[] = [
     prompt: "Fill in the correct ending (accusative):",
     stimulus: "Sie fragt den Kolleg____ nach dem Weg.",
     answer: "en",
+    translation: "She's asking the colleague for directions.",
     feedback: FEEDBACK,
     metadata: {
       cefr: "B1",
@@ -114,6 +120,7 @@ export const nDeklinationTier1: ExerciseItem[] = [
     prompt: "Fill in the correct form (dative):",
     stimulus: "Der Lehrer erklärt dem ____ die Aufgabe.",
     answer: "Studenten",
+    translation: "The teacher is explaining the assignment to the student.",
     feedback: FEEDBACK,
     metadata: {
       cefr: "B1",

@@ -20,6 +20,7 @@ export const nDeklinationTier3: ExerciseItem[] = [
     stimulus: "Die Bedeutung des ____ war allen klar.",
     options: ["Namens", "Name", "Namen", "Names"],
     answer: 0,
+    translation: "The meaning of the name was clear to everyone.",
     feedback: FEEDBACK,
     metadata: {
       cefr: "C1",
@@ -36,6 +37,7 @@ export const nDeklinationTier3: ExerciseItem[] = [
     stimulus: "Ich kenne seinen ____ nicht.",
     options: ["Namen", "Name", "Namens", "Nam"],
     answer: 0,
+    translation: "I don't know his name.",
     feedback: FEEDBACK,
     metadata: {
       cefr: "C1",
@@ -52,6 +54,7 @@ export const nDeklinationTier3: ExerciseItem[] = [
     stimulus: "Er folgt seinem eigenen ____.",
     options: ["Willen", "Wille", "Willens", "Will"],
     answer: 0,
+    translation: "He follows his own will.",
     feedback: FEEDBACK,
     metadata: {
       cefr: "C1",
@@ -67,6 +70,7 @@ export const nDeklinationTier3: ExerciseItem[] = [
     prompt: "Find and fix the genitive ending error:",
     stimulus: "Sie war wegen dieses Gedanken beunruhigt.",
     answer: "Sie war wegen dieses Gedankens beunruhigt.",
+    translation: "She was worried because of this thought.",
     feedback: FEEDBACK,
     metadata: {
       cefr: "C1",
@@ -82,6 +86,7 @@ export const nDeklinationTier3: ExerciseItem[] = [
     prompt: "Fill in the correct genitive ending (Name-type noun):",
     stimulus: "Trotz seines guten Glaub____ zweifelte er manchmal.",
     answer: "ens",
+    translation: "Despite his strong faith, he sometimes doubted.",
     feedback: FEEDBACK,
     metadata: {
       cefr: "C1",
@@ -97,6 +102,7 @@ export const nDeklinationTier3: ExerciseItem[] = [
     prompt: "Fill in the correct accusative ending:",
     stimulus: "Sie nannte ihren vollen Nam____.",
     answer: "en",
+    translation: "She gave her full name.",
     feedback: FEEDBACK,
     metadata: {
       cefr: "C1",

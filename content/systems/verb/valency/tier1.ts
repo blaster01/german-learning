@@ -20,6 +20,7 @@ export const valencyTier1: ExerciseItem[] = [
     stimulus: "Kannst du ____ helfen?",
     options: ["mir", "mich", "ich", "meine"],
     answer: 0,
+    translation: "Can you help me?",
     feedback: FEEDBACK,
     metadata: {
       cefr: "B1",
@@ -36,6 +37,7 @@ export const valencyTier1: ExerciseItem[] = [
     stimulus: "Ich danke ____ für die Hilfe.",
     options: ["dir", "dich", "du", "deine"],
     answer: 0,
+    translation: "I thank you for the help.",
     feedback: FEEDBACK,
     metadata: {
       cefr: "B1",
@@ -52,6 +54,7 @@ export const valencyTier1: ExerciseItem[] = [
     stimulus: "Das Buch gehört ____.",
     options: ["ihm", "ihn", "er", "es"],
     answer: 0,
+    translation: "The book belongs to him.",
     feedback: FEEDBACK,
     metadata: {
       cefr: "B1",
@@ -68,6 +71,7 @@ export const valencyTier1: ExerciseItem[] = [
     stimulus: "Der Film gefällt ____ sehr gut.",
     options: ["ihr", "sie", "ihre", "sich"],
     answer: 0,
+    translation: "She likes the movie a lot.",
     feedback: FEEDBACK,
     metadata: {
       cefr: "B1",
@@ -84,6 +88,7 @@ export const valencyTier1: ExerciseItem[] = [
     stimulus: "Wir gratulieren ____ zum Geburtstag.",
     options: ["dir", "dich", "du", "deine"],
     answer: 0,
+    translation: "We congratulate you on your birthday.",
     feedback: FEEDBACK,
     metadata: {
       cefr: "B1",
@@ -100,6 +105,7 @@ export const valencyTier1: ExerciseItem[] = [
       "Fill in the correct dative pronoun referring to 'der Chef' (antworten + dative):",
     stimulus: "Ich antworte ____ sofort.",
     answer: "ihm",
+    translation: "I'll answer him right away.",
     feedback: FEEDBACK,
     metadata: {
       cefr: "B1",
@@ -116,6 +122,7 @@ export const valencyTier1: ExerciseItem[] = [
       "Fill in the correct dative pronoun referring to 'die Frau' (folgen + dative):",
     stimulus: "Der Hund folgt ____ überallhin.",
     answer: "ihr",
+    translation: "The dog follows her everywhere.",
     feedback: FEEDBACK,
     metadata: {
       cefr: "B1",

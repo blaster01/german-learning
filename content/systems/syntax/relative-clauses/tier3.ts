@@ -20,6 +20,7 @@ export const relativeClausesTier3: ExerciseItem[] = [
     stimulus: "Der Mann, ____ Auto gestohlen wurde, hat Anzeige erstattet.",
     options: ["dessen", "deren", "dem", "den"],
     answer: 0,
+    translation: "The man whose car was stolen filed a police report.",
     feedback: FEEDBACK,
     metadata: {
       cefr: "C1",
@@ -36,6 +37,7 @@ export const relativeClausesTier3: ExerciseItem[] = [
     stimulus: "Die Frau, ____ Sohn Arzt ist, wohnt nebenan.",
     options: ["deren", "dessen", "der", "die"],
     answer: 0,
+    translation: "The woman whose son is a doctor lives next door.",
     feedback: FEEDBACK,
     metadata: {
       cefr: "C1",
@@ -52,6 +54,7 @@ export const relativeClausesTier3: ExerciseItem[] = [
     stimulus: "Das ist alles, ____ ich weiß.",
     options: ["was", "das", "die", "der"],
     answer: 0,
+    translation: "That's all I know.",
     feedback: FEEDBACK,
     metadata: {
       cefr: "C1",
@@ -69,6 +72,7 @@ export const relativeClausesTier3: ExerciseItem[] = [
     stimulus: "Sie hat die Prüfung bestanden, ____ mich sehr gefreut hat.",
     options: ["was", "das", "die", "wer"],
     answer: 0,
+    translation: "She passed the exam, which made me very happy.",
     feedback: FEEDBACK,
     metadata: {
       cefr: "C1",
@@ -85,6 +89,7 @@ export const relativeClausesTier3: ExerciseItem[] = [
     stimulus: "Die Stadt, ____ ich geboren bin, liegt am Rhein.",
     options: ["wo", "was", "die", "der"],
     answer: 0,
+    translation: "The city where I was born is on the Rhine.",
     feedback: FEEDBACK,
     metadata: {
       cefr: "C1",
@@ -100,6 +105,7 @@ export const relativeClausesTier3: ExerciseItem[] = [
     prompt: "Combine into one sentence using a relative clause:",
     stimulus: "Ich kenne den Autor. Sein Buch wurde verfilmt.",
     answer: "Ich kenne den Autor, dessen Buch verfilmt wurde.",
+    translation: "I know the author. His book was made into a movie.",
     feedback: FEEDBACK,
     metadata: {
       cefr: "C1",
@@ -115,6 +121,7 @@ export const relativeClausesTier3: ExerciseItem[] = [
     prompt: "Combine into one sentence using a relative clause:",
     stimulus: "Das ist die Kollegin. Ihr Vortrag war ausgezeichnet.",
     answer: "Das ist die Kollegin, deren Vortrag ausgezeichnet war.",
+    translation: "That's the colleague. Her presentation was excellent.",
     feedback: FEEDBACK,
     metadata: {
       cefr: "C1",

@@ -1,7 +1,7 @@
 "use client";
 
 import { Volume2 } from "lucide-react";
-import { useSpeech } from "@/lib/hooks/use-speech";
+import { toSpeakableGerman, useSpeech } from "@/lib/hooks/use-speech";
 import { cn } from "@/lib/utils";
 
 /**
@@ -37,7 +37,7 @@ export function SpeakButton({
         speaking && "border-primary/50 bg-primary/10 text-primary",
         className,
       )}
-      aria-label={label ?? `Listen: ${text}`}
+      aria-label={label ?? `Listen: ${toSpeakableGerman(text)}`}
     >
       <Volume2
         className={cn(

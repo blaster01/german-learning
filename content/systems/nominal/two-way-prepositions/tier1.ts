@@ -20,6 +20,7 @@ export const twoWayPrepositionsTier1: ExerciseItem[] = [
     stimulus: "Das Buch liegt auf d____ Tisch.",
     options: ["em", "en", "er", "es"],
     answer: 0,
+    translation: "The book is lying on the table.",
     feedback: FEEDBACK,
     metadata: {
       cefr: "B1",
@@ -36,6 +37,7 @@ export const twoWayPrepositionsTier1: ExerciseItem[] = [
     stimulus: "Ich lege das Buch auf d____ Tisch.",
     options: ["en", "em", "er", "es"],
     answer: 0,
+    translation: "I'm putting the book on the table.",
     feedback: FEEDBACK,
     metadata: {
       cefr: "B1",
@@ -52,6 +54,7 @@ export const twoWayPrepositionsTier1: ExerciseItem[] = [
     stimulus: "Die Kinder spielen in d____ Garten.",
     options: ["em", "en", "er", "es"],
     answer: 0,
+    translation: "The children are playing in the garden.",
     feedback: FEEDBACK,
     metadata: {
       cefr: "B1",
@@ -68,6 +71,7 @@ export const twoWayPrepositionsTier1: ExerciseItem[] = [
     stimulus: "Die Kinder laufen in d____ Garten.",
     options: ["en", "em", "er", "es"],
     answer: 0,
+    translation: "The children are running into the garden.",
     feedback: FEEDBACK,
     metadata: {
       cefr: "B1",
@@ -84,6 +88,7 @@ export const twoWayPrepositionsTier1: ExerciseItem[] = [
     stimulus: "Das Bild hängt an d____ Wand.",
     options: ["er", "em", "en", "es"],
     answer: 0,
+    translation: "The picture is hanging on the wall.",
     feedback: FEEDBACK,
     metadata: {
       cefr: "B1",
@@ -100,6 +105,7 @@ export const twoWayPrepositionsTier1: ExerciseItem[] = [
     stimulus: "Ich hänge das Bild an d____ Wand.",
     options: ["ie", "er", "em", "es"],
     answer: 0,
+    translation: "I'm hanging the picture on the wall.",
     feedback: FEEDBACK,
     metadata: {
       cefr: "B1",
@@ -115,6 +121,7 @@ export const twoWayPrepositionsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct article ending (location, 'unter'):",
     stimulus: "Die Katze schläft unter d____ Bett.",
     answer: "em",
+    translation: "The cat is sleeping under the bed.",
     feedback: FEEDBACK,
     metadata: {
       cefr: "B1",
@@ -130,6 +137,7 @@ export const twoWayPrepositionsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct article ending (motion, 'unter'):",
     stimulus: "Die Katze läuft unter d____ Bett.",
     answer: "as",
+    translation: "The cat is running under the bed.",
     feedback: FEEDBACK,
     metadata: {
       cefr: "B1",

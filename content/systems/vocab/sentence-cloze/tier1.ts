@@ -9,6 +9,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "John muss unschuldig ____.",
     answer: "sein",
+    translation: "John must be innocent.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -31,6 +33,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich frage mich, ____ lange es dauern wird.",
     answer: "wie",
+    translation: "I wonder how long it will last.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -53,6 +57,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "John ist immer ____ nett.",
     answer: "so",
+    translation: "John is always so nice.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -75,6 +81,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Wir haben keinen Grund, ____ zu bleiben.",
     answer: "hier",
+    translation: "We have no reason for staying here.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -97,6 +105,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Jeder sollte ein Ziel ____.",
     answer: "haben",
+    translation: "Everybody should have a purpose.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -119,6 +129,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Sitzt ____ ein Hund auf dem Tisch?",
     answer: "da",
+    translation: "Is there a dog on the table?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -141,6 +153,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich will eigentlich ____ nicht ein Kind.",
     answer: "noch",
+    translation: "Actually, I don't want a child yet.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -163,6 +177,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich kann nicht ____ schlafen.",
     answer: "gut",
+    translation: "I cannot sleep well.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -185,6 +201,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Funktioniert das ____ ohne Anmeldung?",
     answer: "auch",
+    translation: "Does it also work without registration?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -207,6 +225,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "John ist ____ fleißig bei der Arbeit.",
     answer: "schon",
+    translation: "John is already hard at work.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -229,6 +249,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Was soll ich John ____ sagen?",
     answer: "jetzt",
+    translation: "What should I tell John now?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -251,6 +273,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Jeder macht ____ einen Fehler.",
     answer: "mal",
+    translation: "Everyone makes a mistake at times.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -273,6 +297,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Aber wer bist du ____?",
     answer: "dann",
+    translation: "But who are you then?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -295,6 +321,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "John ist ____ ein Kind.",
     answer: "doch",
+    translation: "John is but a child.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -317,6 +345,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Und ____ bist du inzwischen gewesen?",
     answer: "wo",
+    translation: "And where have you been since then?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -339,6 +369,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Lass uns zusammen essen ____.",
     answer: "gehen",
+    translation: "Let's go to eat together.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -361,6 +393,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Wir können es uns nicht erlauben, noch ____ Zeit zu vertun.",
     answer: "mehr",
+    translation: "We can't afford to waste any more time.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -383,6 +417,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich kann mir nicht vorstellen, ____.",
     answer: "warum",
+    translation: "I can't imagine why.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -405,6 +441,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Was war ____ mit deiner Mutter?",
     answer: "los",
+    translation: "What was wrong with your mother?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -428,6 +466,9 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     stimulus:
       "Ich war schon ____ etwas neidisch auf deine Freundschaft mit John.",
     answer: "immer",
+    translation:
+      "I've always been a little jealous of your friendship with John.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -450,6 +491,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich verspreche, nicht ____ zu spät zu sein.",
     answer: "wieder",
+    translation: "I promise I won't be late again.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -472,6 +515,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Das ist ein ____ seltsamer Brief.",
     answer: "sehr",
+    translation: "This is a very strange letter.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -494,6 +539,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Durchs Fenster werden Sie viele hohe Berge ____.",
     answer: "sehen",
+    translation: "You'll see a lot of high mountains through the window.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -516,6 +563,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Sie ____ nicht die Wahrheit.",
     answer: "sagen",
+    translation: "You're not telling the truth.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -538,6 +587,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Dir ist das ____ schon mal passiert?",
     answer: "also",
+    translation: "So has that ever happened to you before?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -561,6 +612,9 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     stimulus:
       "Ich sprach mit ihm auf Englisch und fand, dass ich mich verständlich ____ konnte.",
     answer: "machen",
+    translation:
+      "I spoke to him in English and found I could make myself understood.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -583,6 +637,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Du hättest nicht so früh ____ sollen.",
     answer: "kommen",
+    translation: "You shouldn't have come so soon.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -606,6 +662,9 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     stimulus:
       "Ich möchte die Gelegenheit nutzen, um Ihnen allen für das Vertrauen zu ____, das Sie in uns setzen.",
     answer: "danken",
+    translation:
+      "I'd like to take this opportunity to thank you for all the trust you've placed in us.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -628,6 +687,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "John weiß, was wir ____.",
     answer: "tun",
+    translation: "John knows what we're doing.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -650,6 +711,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Kannst du mir deine Handy-Nummer ____?",
     answer: "geben",
+    translation: "Can you give me your cell number?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -672,6 +735,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Sprich ____ wieder so mit mir!",
     answer: "nie",
+    translation: "Don't ever talk to me like that again.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -694,6 +759,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Lasst uns diesen ____ gehen.",
     answer: "Weg",
+    translation: "Let's go this way.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -716,6 +783,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Dein ____ wird solch ein wunderbares Abenteuer sein.",
     answer: "Leben",
+    translation: "Your life is going to be such a marvelous adventure.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -738,6 +807,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Dieses Lied gefällt mir ____.",
     answer: "wirklich",
+    translation: "I really like this song.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -760,6 +831,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Was habt ihr ____ für mich?",
     answer: "heute",
+    translation: "What do you have for me today?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -782,6 +855,9 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Das Haus sieht mit dem erneuerten Anstrich ____ wunderbar aus.",
     answer: "ganz",
+    translation:
+      "The house looks quite wonderful with its fresh coat of paint.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -804,6 +880,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Die ____ für eine Reise kann ich mir nicht leisten.",
     answer: "Zeit",
+    translation: "I can't afford the time for a journey.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -826,6 +904,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Wir fahren ____ in die Stadt.",
     answer: "zurück",
+    translation: "We're going back to the city.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -848,6 +928,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich hörte, dass sein Vater ____ im Krankenhaus ist.",
     answer: "nun",
+    translation: "I heard that his father is in the hospital now.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -870,6 +952,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Bist du dir ____, dass John keine Freundin hat?",
     answer: "sicher",
+    translation: "Are you sure John doesn't have a girlfriend?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -893,6 +977,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     stimulus:
       "Es tut mir leid, aber dadurch wurde das ____ der Familie noch vergrößert.",
     answer: "Leid",
+    translation: "I'm sorry, but this added to the sorrow of the family.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -915,6 +1001,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Sie wollen mich nicht teilnehmen ____.",
     answer: "lassen",
+    translation: "They don't want to let me participate.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -937,6 +1025,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Teilen Sie das ____ unter sich auf!",
     answer: "Geld",
+    translation: "Divide the money among you.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -959,6 +1049,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Das ist sehr ____ von dir, danke.",
     answer: "lieb",
+    translation: "That's very sweet of you, thanks.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -981,6 +1073,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich gehe jeden ____ spazieren.",
     answer: "Tag",
+    translation: "I take a walk every day.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -1003,6 +1097,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Der Strand bei Sonnenuntergang ist sehr ____.",
     answer: "schön",
+    translation: "The beach at sunset is very beautiful.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -1025,6 +1121,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ihr werdet euch ____ nicht amüsieren.",
     answer: "wohl",
+    translation: "You probably won't have fun.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -1047,6 +1145,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich frage mich, ob John ____ ist, wie einsam ich bin.",
     answer: "klar",
+    translation: "I wonder if John realizes how lonely I am.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -1069,6 +1169,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich kann es noch immer nicht ____!",
     answer: "glauben",
+    translation: "I still can't believe it!",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -1091,6 +1193,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Die Menschen brachten uns nicht absichtlich ____.",
     answer: "her",
+    translation: "The people didn't dump us here on purpose.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -1113,6 +1217,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Halloween ist eine ____ voller Überraschungen.",
     answer: "Nacht",
+    translation: "Halloween is a night full of surprises.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -1135,6 +1241,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Nur die ____ kann die Welt verändern.",
     answer: "Liebe",
+    translation: "Only love can change the world.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -1157,6 +1265,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich brauche jemanden, mit dem ich ____ kann.",
     answer: "reden",
+    translation: "I need someone to talk with.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -1179,6 +1289,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Meine Karriere hat ____ erst angefangen.",
     answer: "gerade",
+    translation: "My career has just started.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -1201,6 +1313,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Wir ____ dich oft singen.",
     answer: "hören",
+    translation: "We often hear you sing.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -1223,6 +1337,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich schlage vor, dass wir ____ eine neue Fabrik bauen.",
     answer: "dort",
+    translation: "I suggest that we should build a new factory there.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -1245,6 +1361,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "John ist älter, als Sie ____.",
     answer: "denken",
+    translation: "John is older than you think.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -1267,6 +1385,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Trotzdem gehen wir einen Schritt ____.",
     answer: "weiter",
+    translation: "Nevertheless, we are now going a step further.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -1289,6 +1409,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich will die ____ nicht umstoßen. Es ist in Ordnung.",
     answer: "Ordnung",
+    translation: "I don't want to upset the order. It's OK.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -1311,6 +1433,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Was würde mit ihm ____?",
     answer: "passieren",
+    translation: "What would happen to him?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -1333,6 +1457,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich brauchte ____, um einzuschlafen.",
     answer: "lange",
+    translation: "It took me a long time to fall asleep.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -1355,6 +1481,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich kann ____ nicht kochen.",
     answer: "gar",
+    translation: "I can't cook at all.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -1377,6 +1505,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Aber ich will da nicht ____.",
     answer: "hin",
+    translation: "But I'm not going there.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -1399,6 +1529,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Alle Jungen sind ____ alt.",
     answer: "gleich",
+    translation: "All the boys are the same age.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -1421,6 +1553,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ein alter ____ kam zum Abendessen.",
     answer: "Freund",
+    translation: "An old friend came by for dinner.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -1443,6 +1577,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Warum hat Gott die ____ gerade so erschaffen?",
     answer: "Welt",
+    translation: "Why did God make the world the way He did?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -1465,6 +1601,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Dieses ____ ist wirklich alt.",
     answer: "Haus",
+    translation: "This house is really old.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -1487,6 +1625,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "John liebt ____ seine Kinder.",
     answer: "natürlich",
+    translation: "John loves his children, of course.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -1509,6 +1649,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Wir hatten gestern einen wundervollen ____.",
     answer: "Abend",
+    translation: "We were having a wonderful evening last night.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -1531,6 +1673,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Nehmen wir mal an, sie hat ____.",
     answer: "recht",
+    translation: "Let's just say that she's right.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -1553,6 +1697,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich muss versuchen, John zu ____.",
     answer: "finden",
+    translation: "I've got to try to find John.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -1575,6 +1721,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich frage mich, ____ Eier im Dutzend verkauft werden.",
     answer: "wieso",
+    translation: "I wonder why eggs are sold by the dozen.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -1597,6 +1745,9 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "John wollte gehen, doch Jane wollte noch etwas ____.",
     answer: "bleiben",
+    translation:
+      "John wanted to leave, but Jane wanted to stay a little longer.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -1619,6 +1770,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Du sagtest doch, er sei ____.",
     answer: "tot",
+    translation: "I thought you said he was dead.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -1641,6 +1794,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "John ist nicht so ____ wie ich.",
     answer: "jung",
+    translation: "John is not as young as I am.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -1664,6 +1819,9 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     stimulus:
       "Können Sie uns einen Extrarabatt von % geben, falls wir von diesem Artikel Stück ____?",
     answer: "nehmen",
+    translation:
+      "Are you able to grant us a special discount of 5% for 50 sets of the product?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -1686,6 +1844,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich habe euch ja gesagt, dass John uns ____ würde.",
     answer: "helfen",
+    translation: "I told you John would help us out.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -1708,6 +1868,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich bin nicht ____ genug.",
     answer: "schnell",
+    translation: "I'm not fast enough.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -1730,6 +1892,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "John kann nicht auf dich ____.",
     answer: "warten",
+    translation: "John can't wait for you.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -1752,6 +1916,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "John war nicht stark ____.",
     answer: "genug",
+    translation: "John wasn't strong enough.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -1774,6 +1940,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ihm steht die ____ bis zum Hals.",
     answer: "Scheiße",
+    translation: "He is in deep shit.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -1796,6 +1964,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Wir dürfen ____ durch die Gärten gehen.",
     answer: "zusammen",
+    translation: "We're allowed to walk through the gardens together.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -1818,6 +1988,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Der Umsatz dieses Unternehmens ist dieses ____ um % gestiegen.",
     answer: "Jahr",
+    translation: "The business has expanded by 50% this year.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -1840,6 +2012,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Aber ____ muss ich etwas klarstellen.",
     answer: "erst",
+    translation: "But first, I need to come clean.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -1862,6 +2036,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich möchte wissen, wo wir ____.",
     answer: "stehen",
+    translation: "I want to know where we stand.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -1884,6 +2060,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Das ist eine ____ schlechte Wahl.",
     answer: "verdammt",
+    translation: "Damn, that was a bad choice.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -1906,6 +2084,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Jemand musste dich zur Vernunft ____.",
     answer: "bringen",
+    translation: "Somebody had to bring you back to your senses.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -1928,6 +2108,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Sie ____ also tatsächlich keinen Makler mehr.",
     answer: "brauchen",
+    translation: "You really don't need a real estate agent anymore.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -1950,6 +2132,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Die Kinder ____ John und Jane.",
     answer: "heißen",
+    translation: "The children are called John and Jane.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -1972,6 +2156,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich muss dringend mit Ihnen ____.",
     answer: "sprechen",
+    translation: "It's urgent that I speak with you.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -1994,6 +2180,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Wir müssen die Äpfel ____ pflücken, sonst faulen sie.",
     answer: "sofort",
+    translation: "We have to pick the apples right now, or they'll decay.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -2016,6 +2204,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "John wurde als Vorletzter ____.",
     answer: "fertig",
+    translation: "John finished second-to-last.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -2038,6 +2228,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Wir ____ sie leider nicht.",
     answer: "kennen",
+    translation: "Unfortunately, we don't know her.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -2060,6 +2252,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Er lässt sich ____ im Monat die Haare schneiden.",
     answer: "einmal",
+    translation: "He has his hair cut once a month.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -2082,6 +2276,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Mein ____ liest sehr gerne Dinosaurierbücher.",
     answer: "Sohn",
+    translation: "My son loves to read books about dinosaurs.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -2104,6 +2300,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Du musst nur dein Versprechen ____.",
     answer: "halten",
+    translation: "All you have to do is keep your promise.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -2126,6 +2324,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich hatte wirklich Spaß ____.",
     answer: "dabei",
+    translation: "I really had fun with it.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -2148,6 +2348,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ein Prinz kann kein ____ aufziehen.",
     answer: "Kind",
+    translation: "A prince should not be raising a child.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -2170,6 +2372,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Warum seid ihr hier ____?",
     answer: "allein",
+    translation: "Why are you alone here?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -2192,6 +2396,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Was magst du lieber, Rockmusik oder klassische ____?",
     answer: "Musik",
+    translation: "Which do you like better, rock music or classical music?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -2214,6 +2420,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich weiß, dass es nicht ____ ist.",
     answer: "wahr",
+    translation: "I know that it isn't true.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -2236,6 +2444,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Es wird mir nicht zu ____ steigen.",
     answer: "Kopf",
+    translation: "I won't let it go to my head.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -2258,6 +2468,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Die ganze ____ dauerte keine Stunde.",
     answer: "Sache",
+    translation: "The whole thing took less than an hour.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -2280,6 +2492,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich helfe dir gerne. Ich kaufe ____ ein.",
     answer: "gern",
+    translation: "I'll gladly help you. I like shopping.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -2303,6 +2517,9 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     stimulus:
       "Wenn du weiter so viel trinkst, wirst du womöglich als Alkoholiker ____.",
     answer: "enden",
+    translation:
+      "If you go on drinking so much, you may well end up an alcoholic.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -2325,6 +2542,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ab und zu kommt sie zu ____ in die Schule.",
     answer: "spät",
+    translation: "Once in a while, she is late for school.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -2348,6 +2567,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     stimulus:
       "Sein Cousin, dessen Namen ich ____ habe, war ein Krankenpfleger.",
     answer: "vergessen",
+    translation: "His cousin, whose name I forgot, was a nurse.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -2370,6 +2591,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Sie kann nicht Auto ____.",
     answer: "fahren",
+    translation: "She can't drive a car.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -2392,6 +2615,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Gedankenverloren hörte er, wie sein ____ gerufen wurde.",
     answer: "Name",
+    translation: "While he was lost in thought, he heard his name called.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -2414,6 +2639,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Die Meinungen der anderen sind mir ____.",
     answer: "egal",
+    translation: "The opinion of others is all the same to me.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -2436,6 +2663,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Wie ____ ist der Flughafen entfernt?",
     answer: "weit",
+    translation: "How far is the airport?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -2458,6 +2687,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich kann hier nicht ____.",
     answer: "sterben",
+    translation: "I can't die here.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -2480,6 +2711,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Könnten Sie mir eine ____ lang zuhören?",
     answer: "Minute",
+    translation: "Can you listen to me for a minute?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -2502,6 +2735,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Sie ____ sicherlich, was das bedeutet.",
     answer: "verstehen",
+    translation: "I'm sure you understand the significance of that.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -2524,6 +2759,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Wir bedürfen deiner ____ nicht.",
     answer: "Hilfe",
+    translation: "We don't need your help.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -2546,6 +2783,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Wir müssen sie möglichst ____ aufhalten.",
     answer: "bald",
+    translation: "We must stop them as soon as possible.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -2568,6 +2807,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Dieser Schraubenzieher ist zu ____, um nützlich zu sein.",
     answer: "klein",
+    translation: "This screwdriver is too small to be any use.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -2590,6 +2831,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Das ____ gleicht seiner Mutter.",
     answer: "Baby",
+    translation: "The baby takes after his mother.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -2612,6 +2855,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich wünsche euch viel ____.",
     answer: "Glück",
+    translation: "I wish you the best of luck.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -2634,6 +2879,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ihr seid beide wirklich ____.",
     answer: "verrückt",
+    translation: "You are both really crazy.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -2656,6 +2903,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Könntet ihr bitte ____ sein?",
     answer: "ruhig",
+    translation: "Could you please be quiet?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -2678,6 +2927,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Kannst du bitte die ____ schließen?",
     answer: "Tür",
+    translation: "Can you please close the door?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -2700,6 +2951,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Nur ____ für mich, danke.",
     answer: "Wasser",
+    translation: "Only water for me, thank you.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -2722,6 +2975,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Das ____ ist eine wunderbare Erfindung.",
     answer: "Auto",
+    translation: "The automobile is a wonderful invention.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -2744,6 +2999,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich möchte Sie ____ nicht mit meinen Problemen belasten.",
     answer: "eigentlich",
+    translation: "I don't really want to bother you with my problems.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -2766,6 +3023,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "____, bitte. Die Kinder schlafen.",
     answer: "Ruhe",
+    translation: "Silence, please. The children are sleeping.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -2788,6 +3047,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ohne Pistole kannst du niemanden ____.",
     answer: "töten",
+    translation: "You can't kill anybody without a gun.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -2810,6 +3071,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Die guten Zeiten sind längst ____.",
     answer: "vorbei",
+    translation: "The good days have been over for a long time.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -2832,6 +3095,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Der ____ dauerte drei Jahre.",
     answer: "Krieg",
+    translation: "The war lasted for two years.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -2855,6 +3120,9 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     stimulus:
       "Shakespeare ist der größte Dichter, den England ____ hervorgebracht hat.",
     answer: "je",
+    translation:
+      "Shakespeare is the greatest poet that England has ever produced.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -2877,6 +3145,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Die Freiheitsstatue ist Meter ____.",
     answer: "hoch",
+    translation: "The Statue of Liberty is 46 meters tall.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -2900,6 +3170,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     stimulus:
       "Es sind schon ____ Jahre vergangen, aber du bist unverändert schön.",
     answer: "fast",
+    translation: "It's been almost ten years, but you're as beautiful as ever.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -2922,6 +3194,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Entschuldigung, aber darunter darf niemand ____.",
     answer: "schauen",
+    translation: "Forgive me, but no one must look under there.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -2944,6 +3218,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich habe ____ noch etwas Besseres.",
     answer: "sogar",
+    translation: "I've got something even better.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -2966,6 +3242,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Natürlich kann John Tennis ____.",
     answer: "spielen",
+    translation: "John sure can play tennis.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -2988,6 +3266,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich versuche, das ____ zu reparieren.",
     answer: "Ding",
+    translation: "I will try to fix the thing.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -3010,6 +3290,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "____, ich muss jetzt gehen.",
     answer: "Mama",
+    translation: "Mom, I have to go now.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -3032,6 +3314,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Versuche die Liste der möglichen Kandidaten zu ____.",
     answer: "bekommen",
+    translation: "See if you can get that list of possible candidates.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -3054,6 +3338,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Er wartet dort ____ auf dich.",
     answer: "oben",
+    translation: "He's up there waiting for you.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -3076,6 +3362,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Die aufzugeben bin ich nicht ____.",
     answer: "bereit",
+    translation: "That, I'm not ready to give up.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -3098,6 +3386,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich bin ____ hier, weißt du.",
     answer: "neu",
+    translation: "I am new here, you see.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -3120,6 +3410,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich weiß nicht, ____ das kam.",
     answer: "woher",
+    translation: "I don't know where that came from.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -3142,6 +3434,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich sagte dir doch, dass du im ____ bleiben sollst!",
     answer: "Wagen",
+    translation: "I told you to stay in the car.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -3164,6 +3458,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Sehen Sie, Sie sollten nicht so hart ____.",
     answer: "arbeiten",
+    translation: "See, you shouldn't work so hard.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -3187,6 +3483,9 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     stimulus:
       "Der durchschnittliche Abstand zwischen den Sternen unserer Galaxie beträgt ____ vier Lichtjahre.",
     answer: "etwa",
+    translation:
+      "The average distance between stars within our galaxy is about 4 light years.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -3209,6 +3508,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Das ist aber ____ niedlich.",
     answer: "echt",
+    translation: "That's really cute.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -3231,6 +3532,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Er hat französische ____ studiert.",
     answer: "Geschichte",
+    translation: "He studied French history.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -3253,6 +3556,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich würde gerne Ihre Tänzerin ____.",
     answer: "treffen",
+    translation: "I'd like to meet with your dancer.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -3275,6 +3580,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "John ist noch nicht ____.",
     answer: "draußen",
+    translation: "John isn't outside yet.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -3297,6 +3604,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Mein ____ ist echt groß.",
     answer: "Zimmer",
+    translation: "My room is really big.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -3319,6 +3628,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich hasse meinen ____ nicht.",
     answer: "Job",
+    translation: "I don't hate my job.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -3342,6 +3653,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     stimulus:
       "Sie sind sehr ____ und ich hätte gerne noch einen weiteren Drink.",
     answer: "nett",
+    translation: "You are very nice, and I would like another drink.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -3364,6 +3677,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Das wird demnächst ganz ____ aussehen.",
     answer: "anders",
+    translation: "It's going to look a lot different one of these days.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -3386,6 +3701,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Wir müssen uns hier nicht ____.",
     answer: "sorgen",
+    translation: "We don't have to worry in here.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -3408,6 +3725,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Der ____ Merkwürdige hier bist du.",
     answer: "einzig",
+    translation: "The only strange one around here is you.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -3430,6 +3749,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Müssen wir flach auf dem Boden ____?",
     answer: "liegen",
+    translation: "Do we have to lie flat on the ground?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -3452,6 +3773,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich bin jetzt Jahre ____.",
     answer: "alt",
+    translation: "I am 30 years old now.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -3475,6 +3798,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     stimulus:
       "Der ____ ist offensichtlich etwas verloren ohne seine Partnerin.",
     answer: "Kerl",
+    translation: "Clearly, the guy is a little lost without his partner.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -3497,6 +3822,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich sah diesen Film ____ Abend und er gefiel mir wirklich gut.",
     answer: "gestern",
+    translation: "I watched this movie last night and I really liked it.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -3519,6 +3846,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Der Nachtisch wird dir ____ schmecken.",
     answer: "bestimmt",
+    translation: "You'll certainly like the dessert.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -3541,6 +3870,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Das Kleid ist zu ____ für mich.",
     answer: "kurz",
+    translation: "The dress is too short for me.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -3563,6 +3894,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Mich interessiert Kunst ____ nicht.",
     answer: "überhaupt",
+    translation: "I'm not interested in art at all.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -3585,6 +3918,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Doch, ____ brauchst du mich.",
     answer: "darum",
+    translation: "But that's why you need me.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -3607,6 +3942,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Meine ____ ist zu jung, um in die Schule zu gehen.",
     answer: "Schwester",
+    translation: "My sister is too young to go to school.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -3629,6 +3966,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Das ist ____ zu sagen.",
     answer: "schwer",
+    translation: "That is hard to say.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -3651,6 +3990,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Gehen Sie und ____ Sie John!",
     answer: "suchen",
+    translation: "Go and look for John.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -3673,6 +4014,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Er war so freundlich, mir den Weg zur Bibliothek zu ____.",
     answer: "zeigen",
+    translation: "He was kind enough to show me the way to the library.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -3695,6 +4038,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Es ist nur ein ____, Jane.",
     answer: "Film",
+    translation: "It's only a movie, Jane.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -3717,6 +4062,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Butter ist ____ für Ihr Herz.",
     answer: "schlecht",
+    translation: "Butter is bad for your heart.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -3739,6 +4086,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich muss mir ein Autogramm ____.",
     answer: "holen",
+    translation: "I have got to get me an autograph.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -3761,6 +4110,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich werde morgen kämpfen und ____.",
     answer: "hoffen",
+    translation: "I'm going to fight tomorrow and hope.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -3783,6 +4134,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Du solltest im ____ bleiben.",
     answer: "Bett",
+    translation: "You should stay in bed.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -3805,6 +4158,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Auf ____ finden Sie weitere Informationen.",
     answer: "Seite",
+    translation: "Go to page 25 for more information.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -3827,6 +4182,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Das wird deiner Frau nicht ____.",
     answer: "gefallen",
+    translation: "Your wife won't like that.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -3849,6 +4206,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Wir müssen ____ unser Bestes tun.",
     answer: "eben",
+    translation: "We'll just have to do the best we can.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -3871,6 +4230,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Es ist das ____ der Insel.",
     answer: "Herz",
+    translation: "It's the heart of the island.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -3894,6 +4255,9 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     stimulus:
       "John fragte Jane, ____ er den Sack mit Hundefutter stellen sollte.",
     answer: "wohin",
+    translation:
+      "John asked Jane where she wanted him to put the bag of dog food.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -3917,6 +4281,9 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     stimulus:
       "John bereitete sich eine Tasse heißer Schokolade zu, aber er hatte keine Zeit, sie zu ____.",
     answer: "trinken",
+    translation:
+      "John made himself a cup of hot chocolate, but he didn't have time to drink it.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -3940,6 +4307,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     stimulus:
       "Der ____ hat sich seit der Steinzeit nicht allzu sehr verändert.",
     answer: "Mensch",
+    translation: "Humans haven't changed much since the Stone Age.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -3962,6 +4331,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Sie müssen diese Informationen ____ eingeben.",
     answer: "unten",
+    translation: "You will need to enter this information below.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -3984,6 +4355,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ein großes Licht strahlt aus deinem ____.",
     answer: "Gesicht",
+    translation: "There is a great light shining from your face.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -4006,6 +4379,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Wie viele Menschen ____ Englisch zu lernen?",
     answer: "versuchen",
+    translation: "How many people are trying to learn English?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -4028,6 +4403,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "In diesem ____ denke ich, dass er Recht hat.",
     answer: "Fall",
+    translation: "I think he is right in this case.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -4050,6 +4427,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Dann werde ich dich also ____.",
     answer: "verlassen",
+    translation: "Then, I'll be leaving you.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -4072,6 +4451,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Deshalb lasse ich dich hier ____.",
     answer: "schlafen",
+    translation: "That's why I let you sleep here.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -4094,6 +4475,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich hielt es für ____ witzig.",
     answer: "ziemlich",
+    translation: "I thought it was quite humorous.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -4116,6 +4499,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Wir alle brauchen ____ Ruhe.",
     answer: "manchmal",
+    translation: "Sometimes, we all need rest.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -4138,6 +4523,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Das wäre kein so lustiges ____.",
     answer: "Fest",
+    translation: "That wouldn't be such a fun celebration.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -4160,6 +4547,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Auf Wiedersehen. Du wirst mich nicht ____.",
     answer: "wiedersehen",
+    translation: "Goodbye. You will not see me again.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -4182,6 +4571,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Es ist gefährlich, auf Eisenbahnschienen zu ____.",
     answer: "laufen",
+    translation: "It's dangerous to walk on railway lines.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -4204,6 +4595,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "John wird den Unterschied ____ merken.",
     answer: "niemals",
+    translation: "John will never notice the difference.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -4226,6 +4619,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Sie hat eine ____, wie man eine Kunstsprache schaffen kann.",
     answer: "Idee",
+    translation: "She has an idea of how to create an artificial language.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -4248,6 +4643,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Die befinden sich im Gang ____ zwei.",
     answer: "Nummer",
+    translation: "They're in aisle number two.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -4270,6 +4667,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich will ____ und unabhängig sein.",
     answer: "frei",
+    translation: "I want to be free and independent.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -4292,6 +4691,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Reist du ____ ins Ausland?",
     answer: "oft",
+    translation: "Do you often travel abroad?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -4314,6 +4715,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "____, etwas ist schiefgegangen.",
     answer: "Entschuldigung",
+    translation: "Sorry, something went wrong.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -4336,6 +4739,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Nimm es nicht so ____.",
     answer: "ernst",
+    translation: "Don't take it so seriously.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -4358,6 +4763,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Mein Sohn geht in die ____.",
     answer: "Schule",
+    translation: "My son goes to school.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -4380,6 +4787,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "John kann keine Witze ____.",
     answer: "erzählen",
+    translation: "John can't tell jokes.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -4402,6 +4811,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Du bist ____ ein Schüler.",
     answer: "bloß",
+    translation: "You are only a student.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -4424,6 +4835,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich möchte mich für unser letztes Zusammentreffen ____.",
     answer: "entschuldigen",
+    translation: "I'd like to apologize for our previous encounter.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -4446,6 +4859,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Auch dafür müssen wir vernünftige Grenzen ____.",
     answer: "setzen",
+    translation: "This is another area where we need to set reasonable limits.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -4468,6 +4883,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Spiel nicht mit dem ____.",
     answer: "Feuer",
+    translation: "Don't play with fire.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -4490,6 +4907,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Einige der ausgewählten Komponenten ____ nicht zusammen.",
     answer: "passen",
+    translation: "Some of the components you chose do not fit together.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -4512,6 +4931,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Es war nicht meine ____.",
     answer: "Schuld",
+    translation: "It wasn't my fault.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -4534,6 +4955,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Das ist doch mein ____.",
     answer: "Platz",
+    translation: "But it is my place.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -4556,6 +4979,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Das sage ich meinem ____!",
     answer: "Papa",
+    translation: "I'll tell my dad!",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -4578,6 +5003,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Glaubst du, das würde ____ machen?",
     answer: "Spaß",
+    translation: "Do you think it would be fun to do that?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -4600,6 +5027,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Es ist ____, einander zu helfen.",
     answer: "wichtig",
+    translation: "It is important to help each other.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -4622,6 +5051,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Das ____ an meinem Hemd ist das meines Bruders.",
     answer: "Blut",
+    translation: "The blood on my shirt is my brother's.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -4644,6 +5075,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Sie baten mich ____ zu kommen.",
     answer: "hierher",
+    translation: "You asked me to come here.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -4666,6 +5099,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Mir würden Millionen nicht ____.",
     answer: "reichen",
+    translation: "10 million wouldn't be enough for me.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -4688,6 +5123,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "John wusste, dass Jane nicht ____ war.",
     answer: "glücklich",
+    translation: "John knew that Jane wasn't happy.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -4710,6 +5147,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Es ist bizarr, aber ____ unnatürlich.",
     answer: "kaum",
+    translation: "It's grotesque, yes, but hardly unnatural.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -4732,6 +5171,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Er wollte mich ____ nicht reinlassen.",
     answer: "zuerst",
+    translation: "He didn't want to let me in at first.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -4754,6 +5195,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Kannst du das Geschirr in den Schrank ____?",
     answer: "stellen",
+    translation: "Can you put the dishes away in the cupboard?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -4776,6 +5219,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Johns Vater ist ____ in den Ruhestand gegangen.",
     answer: "früh",
+    translation: "John's father retired early.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -4798,6 +5243,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Meine Eltern mögen meine ____ nicht.",
     answer: "Freundin",
+    translation: "My parents don't like my girlfriend.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -4820,6 +5267,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Wir ____ uns nicht mehr.",
     answer: "lieben",
+    translation: "We don't love each other anymore.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -4842,6 +5291,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich wäre etwas ____ gekommen.",
     answer: "früher",
+    translation: "I would have come a little earlier.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -4865,6 +5316,9 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     stimulus:
       "Letzte Nacht bin ich eingeschlafen, während ich mit Jane am ____ sprach.",
     answer: "Telefon",
+    translation:
+      "Last night, I fell asleep while talking with Jane on the phone.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -4887,6 +5341,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Der ____ ist heute grau.",
     answer: "Himmel",
+    translation: "The sky is gray today.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -4909,6 +5365,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Jane sagte, sie habe vor, Französisch zu ____.",
     answer: "lernen",
+    translation: "Jane said she planned to learn French.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -4931,6 +5389,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Sie sind alle hier ____.",
     answer: "willkommen",
+    translation: "You are all welcome here.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -4953,6 +5413,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "John hob Jane in die ____.",
     answer: "Luft",
+    translation: "John lifted Jane in the air.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -4975,6 +5437,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich wollte nur das ____ ausmachen.",
     answer: "Licht",
+    translation: "I was just going to turn off the light.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -4997,6 +5461,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich habe schon ____ nach John gesucht.",
     answer: "überall",
+    translation: "I've been looking all over for John.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -5019,6 +5485,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Die ____ ist viereinhalb Milliarde alt.",
     answer: "Erde",
+    translation: "The earth is four and a half billion years old.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -5041,6 +5509,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Sie sollten die Polizei ____!",
     answer: "rufen",
+    translation: "You should call the police.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -5063,6 +5533,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich glaube nicht, dass das überhaupt ____ ist.",
     answer: "möglich",
+    translation: "I don't think that's even possible.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -5085,6 +5557,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich stand meiner Schwester sehr ____.",
     answer: "nah",
+    translation: "My sister and I were very close.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -5107,6 +5581,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "John verkleidete sich zu Halloween als ein ____.",
     answer: "Mädchen",
+    translation: "John dressed as a girl for Halloween.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -5129,6 +5605,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Er ist ____ oben in einer Wohnung.",
     answer: "wahrscheinlich",
+    translation: "He's probably in one of the apartments upstairs.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -5151,6 +5629,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Und ____ Sie mich nicht so.",
     answer: "nennen",
+    translation: "And don't call me that.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -5173,6 +5653,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Was sie machten, war ____.",
     answer: "falsch",
+    translation: "What they did was wrong.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -5195,6 +5677,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "John ist aber nicht ____.",
     answer: "ehrlich",
+    translation: "John isn't honest, though.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -5217,6 +5701,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich hätte deinen Bruder ____ sollen.",
     answer: "heiraten",
+    translation: "I should have married your brother.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -5239,6 +5725,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich möchte ein ____ Kuchen.",
     answer: "Stück",
+    translation: "I'd like a piece of cake.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -5262,6 +5750,9 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     stimulus:
       "Obwohl der ____ sein Bestes gab, erholte sich der Patient nur langsam.",
     answer: "Doktor",
+    translation:
+      "Though the doctor did his best, the patient's recovery was slow.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -5284,6 +5775,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Was sagen Sie zu einer Tasse ____?",
     answer: "Kaffee",
+    translation: "How about a cup of coffee?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -5306,6 +5799,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Der Gedanke allein macht mich ____.",
     answer: "krank",
+    translation: "The thought of it makes me sick.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -5328,6 +5823,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich möchte mit Ihnen sofort ____ sprechen.",
     answer: "danach",
+    translation: "I want to speak to you straight after.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -5350,6 +5847,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Der ____ war vom guten Gesundheitszustand des Babys erfreut.",
     answer: "Arzt",
+    translation: "The doctor was pleased with the baby's good health.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -5372,6 +5871,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Er wollte eine künstliche Lebensform ____.",
     answer: "schaffen",
+    translation: "His intention was to create an artificial life form.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -5394,6 +5895,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Die Antwort ist ____ falsch.",
     answer: "völlig",
+    translation: "The answer is completely wrong.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -5416,6 +5919,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Mein Plan tut niemandem ____.",
     answer: "weh",
+    translation: "In my plan, nobody gets hurt.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -5438,6 +5943,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Da ____ soll es jetzt furchtbar sein.",
     answer: "drüben",
+    translation: "I hear it's terrible over there at the moment.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -5461,6 +5968,9 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     stimulus:
       "Wenn ich nicht hier wäre, würde dieses ____ in drei Tagen ins Chaos versinken.",
     answer: "Büro",
+    translation:
+      "If I wasn't here, this office would be in chaos in three days.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -5483,6 +5993,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Sag Bescheid, wenn ich ____ behilflich sein kann!",
     answer: "irgendwie",
+    translation: "Let me know if I can help you somehow.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -5505,6 +6017,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Aber das führt schon zu einem ____, oder?",
     answer: "Problem",
+    translation: "It does cause a problem, doesn't it?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -5527,6 +6041,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich sehe den ____ der Arbeit dieses Mannes nicht.",
     answer: "Wert",
+    translation: "I don't see the value of this man's work.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -5549,6 +6065,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ihr müsst uns eine Suite ____.",
     answer: "buchen",
+    translation: "We need you to book us a hotel suite.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -5571,6 +6089,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Welche Gemüse möchtest du ____?",
     answer: "kaufen",
+    translation: "What vegetables do you want to buy?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -5593,6 +6113,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Genau daran wollte ich Sie ____.",
     answer: "erinnern",
+    translation: "That's exactly what I wanted to remind you of.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -5615,6 +6137,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Du kannst mit dem Bus oder mit dem Zug ____ dorthin kommen.",
     answer: "direkt",
+    translation: "You can go there directly by bus or by train.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -5637,6 +6161,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich möchte es ____ im Detail untersuchen.",
     answer: "trotzdem",
+    translation: "Nevertheless, I would like to examine it in detail.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -5659,6 +6185,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich muss aber einen Bericht darüber ____.",
     answer: "schreiben",
+    translation: "I still need to write a report about it.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -5681,6 +6209,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Sei ____ während des Kurses.",
     answer: "still",
+    translation: "Be quiet during the course.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -5703,6 +6233,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Sie hat überall am ____ rote Flecken.",
     answer: "Körper",
+    translation: "She has red spots all over her body.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -5725,6 +6257,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Zum Glück bist du da, um sie zu ____!",
     answer: "retten",
+    translation: "Luckily, you're here to save them!",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -5747,6 +6281,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Die Farbe auf dem Stuhl, auf dem Sie ____, ist noch feucht.",
     answer: "sitzen",
+    translation: "The paint on the seat on which you are sitting is still wet.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -5769,6 +6305,9 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Zurzeit sind ____ keine offenen Ausbildungsstellen frei.",
     answer: "leider",
+    translation:
+      "Unfortunately, at the moment no open educational positions are available.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -5792,6 +6331,9 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     stimulus:
       "Ich bin der ____, der vor Leuten nervös wird, deshalb bin ich ein schlechter Redner.",
     answer: "Typ",
+    translation:
+      "I'm the type who gets nervous in front of people, so I'm bad at speech making.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -5814,6 +6356,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich habe meinen ____ verloren.",
     answer: "Schlüssel",
+    translation: "I've lost my key.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -5836,6 +6380,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Du solltest ein blaues Kleid ____.",
     answer: "tragen",
+    translation: "You should wear a blue dress.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -5858,6 +6404,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Er ist ____ jung, aber schlau.",
     answer: "zwar",
+    translation: "Though young, he is wise.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -5880,6 +6428,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Wir hatten diese Diskussion ____.",
     answer: "bereits",
+    translation: "We've already had this discussion.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -5902,6 +6452,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Janes Vater ist ____ beeinflussbar.",
     answer: "leicht",
+    translation: "Jane's father is easily influenced.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -5924,6 +6476,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich wollte immer ein ____ kommandieren.",
     answer: "Schiff",
+    translation: "I have always wanted to command my own ship.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -5946,6 +6500,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich will sie wirklich nicht ____.",
     answer: "verlieren",
+    translation: "I really don't want to lose them.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -5969,6 +6525,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     stimulus:
       "Stell dir vor, dein ____ würde uns zusammen sehen, was würde er sagen?",
     answer: "Vater",
+    translation: "Suppose your father saw us together, what would he say?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -5991,6 +6549,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Aber ich wollte nicht verrückt ____.",
     answer: "klingen",
+    translation: "But I didn't want to sound crazy.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -6013,6 +6573,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Können wir uns ____ unterhalten?",
     answer: "irgendwo",
+    translation: "Is there somewhere we can talk?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -6035,6 +6597,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich weiß, dass John und Jane ____ das zu tun.",
     answer: "planen",
+    translation: "I know that John and Jane are planning on doing that.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -6057,6 +6621,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich wollte ihn für die Bewegung ____.",
     answer: "interessieren",
+    translation: "I wanted to interest him in the movement.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -6079,6 +6645,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Sie sagten, sie würden nicht ____.",
     answer: "kämpfen",
+    translation: "They said they would not fight.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -6101,6 +6669,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Sie hat ihm erklärt, warum sie zu spät zu seiner ____ kam.",
     answer: "Party",
+    translation: "She explained to him why she was late for his party.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -6123,6 +6693,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Schauen wir mal ____ nach.",
     answer: "hinten",
+    translation: "Let's take a look in the back.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -6145,6 +6717,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Du willst bloß streiten, ____.",
     answer: "Kumpel",
+    translation: "You're looking for an argument, mate.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -6167,6 +6741,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Er wurde zum ____ befördert.",
     answer: "General",
+    translation: "He was advanced to the rank of general.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -6189,6 +6765,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Er wurde ____ auf mich.",
     answer: "böse",
+    translation: "He got angry with me.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -6211,6 +6789,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "____, mach jetzt keine Witze.",
     answer: "Liebling",
+    translation: "Now, darling, don't try to be funny.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -6233,6 +6813,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Er ist ____, die Nachricht zu hören.",
     answer: "froh",
+    translation: "He is glad to hear the news.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -6255,6 +6837,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Du arbeitest immer zu ____.",
     answer: "hart",
+    translation: "You always work too hard.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -6277,6 +6861,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Sei ____! Der Boden ist glatt.",
     answer: "vorsichtig",
+    translation: "Be careful! The floor is slippery.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -6299,6 +6885,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Was ist all das ____?",
     answer: "Zeug",
+    translation: "What is all this stuff?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -6321,6 +6909,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Es ist nicht gut, in einem dunklen Raum zu ____.",
     answer: "lesen",
+    translation: "It's not good to read in a dark room.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -6343,6 +6933,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "____, sie haben mich entdeckt.",
     answer: "Mist",
+    translation: "Shit, they have spotted me.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -6365,6 +6957,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Er könnte den falschen ____ genommen haben.",
     answer: "Zug",
+    translation: "He may have taken the wrong train.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -6387,6 +6981,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Er beabsichtigt sein ____ zu eröffnen.",
     answer: "Geschäft",
+    translation: "He is planning to launch his business.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -6409,6 +7005,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ja, das wird sofort ____.",
     answer: "aufhören",
+    translation: "Yes, it will stop immediately.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -6431,6 +7029,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Sie ist das beliebteste Mädchen in der ____.",
     answer: "Klasse",
+    translation: "She's the most popular girl in the class.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -6453,6 +7053,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Der ____ muss dir Medizin geben.",
     answer: "Boss",
+    translation: "The boss has to give you some medicine.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -6475,6 +7077,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich werde es dir nicht ____.",
     answer: "erklären",
+    translation: "I'm not going to explain it to you.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -6497,6 +7101,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich muss am Wochenende nach Denver ____.",
     answer: "fliegen",
+    translation: "I have to fly to Denver at the weekend.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -6519,6 +7125,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Dieser ____ wird um neun Uhr geschlossen.",
     answer: "Laden",
+    translation: "This shop is closed at nine.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -6541,6 +7149,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Es sind alle sehr ____ auf euch.",
     answer: "stolz",
+    translation: "Everyone is very proud of you.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -6563,6 +7173,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich war nicht ____ genug.",
     answer: "stark",
+    translation: "I wasn't strong enough.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -6585,6 +7197,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Hast du geweint, als ich ____ war?",
     answer: "fort",
+    translation: "Did you cry when I was away?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -6607,6 +7221,9 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Der Ministerrat war ____ verantwortlich für diese Versäumnisse.",
     answer: "genauso",
+    translation:
+      "The Council of Ministers was equally responsible for these failures.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -6630,6 +7247,9 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     stimulus:
       "John fiel aufgrund seiner Alkoholkrankheit im Januar ins Koma und starb im ____.",
     answer: "Mai",
+    translation:
+      "John fell into a coma caused by his alcoholism in January and died in May.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -6652,6 +7272,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich mag Musik, ____ klassische Musik.",
     answer: "besonders",
+    translation: "I like music, especially classical music.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -6674,6 +7296,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Versuch Jane keinen ____ zu machen.",
     answer: "Ärger",
+    translation: "Try not to give Jane any trouble.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -6696,6 +7320,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Viele Menschen ____ so wie Sie.",
     answer: "fühlen",
+    translation: "A lot of people feel the same way you do.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -6718,6 +7344,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "____, Ich muss zur Toilette.",
     answer: "Verzeihung",
+    translation: "Sorry, I must use the restroom.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -6740,6 +7368,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Bitte ____ Sie es mir per Fax.",
     answer: "schicken",
+    translation: "Please send it to me by fax.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -6762,6 +7392,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Man kann hier keine Gerechtigkeit ____.",
     answer: "erwarten",
+    translation: "You can't expect justice here.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -6784,6 +7416,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Diese ____ macht mich traurig.",
     answer: "Nachricht",
+    translation: "This news makes me sad.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -6806,6 +7440,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Er eröffnete mir, dass er im ____ gewesen war.",
     answer: "Gefängnis",
+    translation: "He disclosed to me that he had been in prison.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -6829,6 +7465,9 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     stimulus:
       "Der alte Mann wurde von einem Auto angefahren und sofort ins ____ gebracht.",
     answer: "Krankenhaus",
+    translation:
+      "The old man was hit by a car and was immediately taken to the hospital.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -6851,6 +7490,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Jemand will Dr. Weitzman ____.",
     answer: "umbringen",
+    translation: "Somebody's trying to kill Dr. Weitzman.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -6873,6 +7514,9 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Sie ist ____ naiv und glaubt alles, was ihr jemand erzählt.",
     answer: "total",
+    translation:
+      "She is completely naïve and believes everything people tell her.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -6895,6 +7539,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Kannst du dir einen blauen Ferrari ____?",
     answer: "vorstellen",
+    translation: "Can you imagine a blue Ferrari?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -6917,6 +7563,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Es macht leider keinen ____.",
     answer: "Sinn",
+    translation: "Unfortunately, it makes no sense.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -6939,6 +7587,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "John wird sich nicht ____.",
     answer: "ändern",
+    translation: "John isn't going to change.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -6961,6 +7611,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich sehe keinen Weg hier ____.",
     answer: "heraus",
+    translation: "I can't see a way out of this.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -6983,6 +7635,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Willst du mit mir ____?",
     answer: "tanzen",
+    translation: "Do you want to dance with me?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -7005,6 +7659,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ihr solltet nicht über John ____, wenn er einen Fehler macht!",
     answer: "lachen",
+    translation: "You shouldn't laugh at John when he makes mistakes.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -7027,6 +7683,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Er legte seinen ____ um ihre Taille.",
     answer: "Arm",
+    translation: "He put his arm around her waist.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -7049,6 +7707,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich sah ihn stolpern und ____.",
     answer: "fallen",
+    translation: "I saw him trip and fall.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -7071,6 +7731,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Wir können es ____ versuchen.",
     answer: "wenigstens",
+    translation: "We can at least try.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -7093,6 +7755,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Dir wird gleich noch etwas ____.",
     answer: "geschehen",
+    translation: "Well, something else is about to happen to you.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -7115,6 +7779,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Bitte ____ Sie seinem Beispiel.",
     answer: "folgen",
+    translation: "Follow his example, please.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -7137,6 +7803,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Das Ergebnis war ____ enttäuschend.",
     answer: "eher",
+    translation: "The result was rather disappointing.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -7159,6 +7827,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Das klingt richtig oberflächlich und ____.",
     answer: "dumm",
+    translation: "That sounds really shallow and stupid.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -7181,6 +7851,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Und ____ unterrichte ich keine Geografie.",
     answer: "deswegen",
+    translation: "And that's why I don't teach geography.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -7204,6 +7876,9 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     stimulus:
       "Bitte unterlassen Sie das Rauchen, ____ die Rauchverbotssymbole leuchten.",
     answer: "solange",
+    translation:
+      "Please refrain from smoking, while the non-smoking signs are on.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -7227,6 +7902,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     stimulus:
       "Es ist fast ____, sich als Manga-Künstler seinen Lebensunterhalt zu verdienen.",
     answer: "unmöglich",
+    translation: "Making a living as a manga artist is almost impossible.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -7249,6 +7926,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Das ____ erinnert mich an meine Studentenzeit.",
     answer: "Bild",
+    translation: "This picture reminds me of when I was a student.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -7271,6 +7950,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Durch das Dorf ____ Radfahrwege.",
     answer: "führen",
+    translation: "Cycling trails lead through the village.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -7293,6 +7974,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Das ist ____ gut.",
     answer: "unglaublich",
+    translation: "This is incredibly good.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -7315,6 +7998,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich hatte nie die Absicht, euch zu ____.",
     answer: "verletzen",
+    translation: "It was never my intention to hurt you.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -7337,6 +8022,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Dieses Umstyling, das war irgendwie ____.",
     answer: "cool",
+    translation: "The makeover thing, that was kind of cool.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -7359,6 +8046,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Wir hatten schon ____ schlechte Presse.",
     answer: "vorher",
+    translation: "We've had bad things written about us before.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -7381,6 +8070,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "In ihrem Herzen rührte sich ____ Mitleid für das Kind.",
     answer: "plötzlich",
+    translation: "Pity was suddenly stirring in her heart for the child.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -7403,6 +8094,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich wollte ____, aber du warst weg.",
     answer: "anrufen",
+    translation: "I tried to call, but you weren't there.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -7425,6 +8118,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Jede ____ des Tänzers war perfekt.",
     answer: "Bewegung",
+    translation: "Each movement of the dancer was perfect.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -7447,6 +8142,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Wir müssen uns um das Problem ____.",
     answer: "kümmern",
+    translation: "We must deal with this problem.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -7469,6 +8166,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Unter anderen Umständen wäre das ____.",
     answer: "komisch",
+    translation: "Another time and place, this would be funny.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -7491,6 +8190,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "John sagt, er habe im ____ nicht sehr viel Geld bei sich.",
     answer: "Augenblick",
+    translation: "John says he doesn't have very much money on him right now.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -7513,6 +8214,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "John tastete in der Dunkelheit ____, um seine Brille zu finden.",
     answer: "herum",
+    translation: "John was groping around in the dark for his glasses.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -7535,6 +8238,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Rache ist ein Gericht, das am besten ____ serviert wird.",
     answer: "kalt",
+    translation: "Revenge is a dish best served cold.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -7557,6 +8262,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Das ist ____, danke sehr.",
     answer: "wunderbar",
+    translation: "It is wonderful, thank you very much.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -7579,6 +8286,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Und du wirst ____ darin sein.",
     answer: "großartig",
+    translation: "And you're going to be great in it.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -7601,6 +8310,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "John hat ein ____ für moderne Kunst.",
     answer: "Auge",
+    translation: "John has an eye for modern art.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -7623,6 +8334,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Manchmal wartet man Minuten auf einen ____.",
     answer: "Tisch",
+    translation: "Sometimes it takes 30 minutes to get a table.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -7645,6 +8358,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Er irrte gestern am Bahnhof ____.",
     answer: "rum",
+    translation: "He was wandering around the station yesterday.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -7667,6 +8382,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "John wartet noch immer auf eine ____.",
     answer: "Antwort",
+    translation: "John is still waiting for an answer.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -7689,6 +8406,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ihre Verletzung scheint ziemlich ____ gewesen zu sein.",
     answer: "schlimm",
+    translation: "It appears that her injury was pretty bad.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -7711,6 +8430,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Sie möchte ihre Tochter mit einem Arzt ____.",
     answer: "verheiraten",
+    translation: "She would like to marry her daughter to a doctor.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -7733,6 +8454,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich kann seinem ____ nicht trauen.",
     answer: "Wort",
+    translation: "I can't trust his word.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -7755,6 +8478,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich möchte jedoch zur ____ mahnen.",
     answer: "Vorsicht",
+    translation: "I want to add a word of caution.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -7777,6 +8502,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Wir können den Taxifahrer nicht ____, wenn wir kein Geld haben.",
     answer: "bezahlen",
+    translation: "We can't pay the taxi driver if we don't have any money.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -7800,6 +8527,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     stimulus:
       "Hebräisch schreibt man von rechts nach ____, genauso wie Arabisch.",
     answer: "links",
+    translation: "Hebrew is written from right to left, just like Arabic.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -7822,6 +8551,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich werde ____ das Gelbe anprobieren.",
     answer: "nochmal",
+    translation: "I'll try the yellow one on again.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -7844,6 +8575,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Die Regierung sollte ihre ____ ein für alle Mal stärken!",
     answer: "Armee",
+    translation: "The government should strengthen its army once and for all!",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -7866,6 +8599,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Kannst du John nicht einfach ____, uns zu helfen?",
     answer: "bitten",
+    translation: "Can't you just ask John to help us?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -7888,6 +8623,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Sie hatte ein Pflaster am ____.",
     answer: "Finger",
+    translation: "She had a Band-Aid on her finger.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -7910,6 +8647,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Nichtmitglieder ____ Dollar zusätzlich.",
     answer: "zahlen",
+    translation: "Non-members pay an additional 50 dollars.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -7932,6 +8671,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "John macht sich Sorgen um deine ____.",
     answer: "Sicherheit",
+    translation: "John is worried about your safety.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -7954,6 +8695,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "John hat beschlossen, sein Haus zu ____.",
     answer: "verkaufen",
+    translation: "John has decided to sell his house.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -7976,6 +8719,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ja, aber ich hatte keine Ahnung, ____.",
     answer: "wozu",
+    translation: "Yes, but I didn't know why.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -7998,6 +8743,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich bin sehr ____ nach der harten Arbeit.",
     answer: "müde",
+    translation: "I am very tired after hard work.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -8020,6 +8767,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Das Auge ist der Spiegel der ____.",
     answer: "Seele",
+    translation: "The eye is the mirror of the soul.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -8042,6 +8791,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Keine Bewegung oder wir werden ____.",
     answer: "schießen",
+    translation: "Don't move, or we will shoot.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -8064,6 +8815,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Es ist ein optimaler Schutz bei ____ und Regen.",
     answer: "Sonne",
+    translation: "It's optimum protection against sun and rain.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -8086,6 +8839,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Wünschen Sie sich, Sie könnten in den Weltraum ____?",
     answer: "reisen",
+    translation: "Do you wish you could travel to space?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -8108,6 +8863,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Wir müssen ein ____ sein.",
     answer: "Team",
+    translation: "We must be a team.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -8130,6 +8887,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Wenn wir unseren Atem ____, meistern wir unseren Geist.",
     answer: "meistern",
+    translation: "When we master our breath, we master our mind.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -8152,6 +8911,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Am ____ hatten wir nur sechs Mitarbeiter.",
     answer: "Anfang",
+    translation: "In the beginning, we only had six employees.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -8174,6 +8935,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Jane wird uns nicht ____.",
     answer: "fangen",
+    translation: "Jane will not catch us.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -8196,6 +8959,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Das Haus ist zu groß für uns und ____ ist es zu teuer.",
     answer: "außerdem",
+    translation: "The house is too big for us, and it is also too expensive.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -8218,6 +8983,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Hatten Sie wirklich ____ mit ihm?",
     answer: "Sex",
+    translation: "Did you really have sex with him?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -8240,6 +9007,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Das Leben ist eine ____.",
     answer: "Reise",
+    translation: "Life is a journey.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -8262,6 +9031,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Du solltest immer ____ und deutlich reden.",
     answer: "laut",
+    translation: "You should always speak loudly and clearly.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -8284,6 +9055,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich sehe keinen ____ dafür.",
     answer: "Grund",
+    translation: "I don't see any reason for it.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -8306,6 +9079,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich glaube nicht, dass das ____ wird.",
     answer: "klappen",
+    translation: "I don't think it will work.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -8328,6 +9103,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich möchte nach ____ fahren.",
     answer: "Amerika",
+    translation: "I would like to go to America.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -8350,6 +9127,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "John ist gewalttätig und ____.",
     answer: "gefährlich",
+    translation: "John is violent and dangerous.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -8372,6 +9151,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Dieses Rennen muss er wirklich ____.",
     answer: "gewinnen",
+    translation: "This is a race he really has to win.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -8395,6 +9176,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     stimulus:
       "Er hat sich im vergangenen ____ von seiner Frau scheiden lassen.",
     answer: "Monat",
+    translation: "He divorced his wife last month.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -8417,6 +9200,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Wie lange willst du es ____?",
     answer: "behalten",
+    translation: "How long do you want to keep it?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -8439,6 +9224,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich will unsere Zahnprothesen nachts ins selbe Glas ____.",
     answer: "legen",
+    translation: "I want us to put our teeth in the same glass at night.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -8461,6 +9248,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Der ____ wollte die heikle Frage nicht beantworten.",
     answer: "Präsident",
+    translation: "The president declined to answer the delicate question.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -8483,6 +9272,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Arabisch wird von ____ nach links gelesen.",
     answer: "rechts",
+    translation: "Arabic is read from right to left.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -8505,6 +9296,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Lassen Sie uns hier ____!",
     answer: "anfangen",
+    translation: "Let's start here.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -8527,6 +9320,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Am ____ waren wir gute Freunde.",
     answer: "Schluss",
+    translation: "By the end, we were great friends.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -8549,6 +9344,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Sie weiß es immer besser als der ____.",
     answer: "Chef",
+    translation: "She always knows better than the boss.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -8571,6 +9368,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Er ist bei Weitem nicht ____.",
     answer: "perfekt",
+    translation: "He is far from perfect.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -8593,6 +9392,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Vielleicht können wir sie doch ____.",
     answer: "schlagen",
+    translation: "Maybe we can beat them after all.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -8615,6 +9416,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich fühle mich ____ etwas krank.",
     answer: "tatsächlich",
+    translation: "I'm feeling a little sick, actually.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -8637,6 +9440,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Wo hast du das ____?",
     answer: "erfahren",
+    translation: "Where did you learn this?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -8659,6 +9464,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich möchte einen mehrfachen ____ melden.",
     answer: "Mord",
+    translation: "I would like to report a multiple murder.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -8681,6 +9488,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "John lebt in der ____ des Schlosses.",
     answer: "Nähe",
+    translation: "John lives in the vicinity of the castle.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -8704,6 +9513,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     stimulus:
       "John beschloss für sich, dass es nicht ____ sei, Vitamine einzunehmen.",
     answer: "nötig",
+    translation: "John decided that it wasn't necessary to take vitamins.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -8726,6 +9537,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Die Frage des Sitzes bleibt ____.",
     answer: "offen",
+    translation: "The issue of the headquarters remains open.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -8748,6 +9561,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Dafür willst du bestimmt ____ sein.",
     answer: "wach",
+    translation: "You'll want to be awake for this.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -8770,6 +9585,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich würde dich irgendwann sehr gerne ____ hören.",
     answer: "singen",
+    translation: "I'd love to hear you sing sometime.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -8792,6 +9609,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Zum ____, magst du Deutsch?",
     answer: "Beispiel",
+    translation: "For example, do you like German?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -8814,6 +9633,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Wir machen zurzeit ____ nichts.",
     answer: "sowieso",
+    translation: "We aren't doing anything these days, anyway.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -8836,6 +9657,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ein ____ in einem Schloss ist immer noch ein Schwein.",
     answer: "Schwein",
+    translation: "A pig who lives in a castle is still a pig.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -8858,6 +9681,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Moderater Sport erfrischt Körper und ____.",
     answer: "Geist",
+    translation: "Moderate exercise will refresh both body and mind.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -8880,6 +9705,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich habe dich in den Tunneln ____ gehört.",
     answer: "schreien",
+    translation: "I heard you scream in the tunnels.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -8902,6 +9729,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Er ist kein Politiker, sondern ein ____.",
     answer: "Anwalt",
+    translation: "He is not a politician but a lawyer.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -8924,6 +9753,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Die ____ dauerte zwei Stunden.",
     answer: "Show",
+    translation: "The show lasted for two hours.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -8946,6 +9777,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ein Haus macht noch kein ____.",
     answer: "Heim",
+    translation: "A house is not a home.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -8968,6 +9801,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich muss sein Erbe ____ und Gerechtigkeit verlangen.",
     answer: "ehren",
+    translation: "I have to honor his legacy and demand justice.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -8990,6 +9825,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Wir sind bereits ____ zu Ihnen.",
     answer: "unterwegs",
+    translation: "We are already on the way to you.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -9013,6 +9850,9 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     stimulus:
       "Nur weil ein Mann ____ ist, heißt das noch nicht, dass er auch glücklich ist.",
     answer: "reich",
+    translation:
+      "Just because a man is rich, it does not necessarily follow that he is happy.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -9035,6 +9875,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "____ heißen Wunder, weil sie nicht passieren!",
     answer: "Wunder",
+    translation: "Miracles are called miracles because they don't happen!",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -9057,6 +9899,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Du hast früher nie ____ gespielt.",
     answer: "Opfer",
+    translation: "I have never seen you play the victim.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -9079,6 +9923,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Er ist im ganzen Land ____.",
     answer: "bekannt",
+    translation: "He is known to the entire country.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -9101,6 +9947,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich wollte ihn nicht ____.",
     answer: "hauen",
+    translation: "I was not trying to hit him.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -9123,6 +9971,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Wende mir nicht den ____ zu.",
     answer: "Rücken",
+    translation: "Don't turn your back on me.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -9145,6 +9995,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Warst du ____ im Ausland?",
     answer: "jemals",
+    translation: "Have you ever been to a foreign country?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -9167,6 +10019,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich bin jetzt Ihr ____.",
     answer: "Partner",
+    translation: "I'm your partner now.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -9189,6 +10043,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Sein Leben war in ____.",
     answer: "Gefahr",
+    translation: "His life was in danger.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -9211,6 +10067,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Die ____ ist nicht mehr wirksam.",
     answer: "Regel",
+    translation: "The rule is no longer effective.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -9233,6 +10091,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Es ist ____ notwendig, dass wir es finden.",
     answer: "absolut",
+    translation: "It is absolutely necessary that we find it.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -9255,6 +10115,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Wir sollten jetzt ____ durchatmen.",
     answer: "tief",
+    translation: "We should take a deep breath now.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -9277,6 +10139,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "John, das ist ein ____.",
     answer: "Befehl",
+    translation: "John, that is an order.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -9299,6 +10163,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich bin sehr ____ mit meinen Händen.",
     answer: "geschickt",
+    translation: "I'm very skilled with my hands.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -9321,6 +10187,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich verlor eine ____ gegen John.",
     answer: "Wette",
+    translation: "I lost a bet to John.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -9344,6 +10212,9 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     stimulus:
       "Ich bin in Deutschland geboren und ich werde dort nächsten Monat ein Kind ____.",
     answer: "gebären",
+    translation:
+      "I was born in Germany, and I will give birth to a child there next month.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -9366,6 +10237,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Möge die ____ mit dir sein!",
     answer: "Kraft",
+    translation: "May the Force be with you!",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -9388,6 +10261,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "In dieser ____ musst du bar zahlen.",
     answer: "Bar",
+    translation: "You have to pay cash in this bar.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -9410,6 +10285,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Wir eilten in ____ des Feuers.",
     answer: "Richtung",
+    translation: "We hurried in the direction of the fire.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -9432,6 +10309,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "John sieht nicht wie ein ____ aus.",
     answer: "Professor",
+    translation: "John doesn't look like a professor.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -9454,6 +10333,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich spreche ____ mit mir selbst.",
     answer: "ständig",
+    translation: "I constantly talk to myself.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -9476,6 +10357,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "John stand früh auf, um den ersten Zug zu ____.",
     answer: "erwischen",
+    translation: "John got up early in order to catch the first train.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -9498,6 +10381,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Es war ____ kalt am Montag.",
     answer: "schrecklich",
+    translation: "It was terribly cold on Monday.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -9520,6 +10405,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Es ist ziemlich komisch auf eine furchtbare ____.",
     answer: "Weise",
+    translation: "That is pretty funny in a horrible way.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -9542,6 +10429,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Wir leben hier in ____.",
     answer: "Frieden",
+    translation: "We live in peace here.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -9564,6 +10453,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Du scheinst ____ zu sein.",
     answer: "verliebt",
+    translation: "You seem to be in love.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -9586,6 +10477,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich würde im Herbst ____ wechseln.",
     answer: "dahin",
+    translation: "I'd be transferring there in the fall.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -9608,6 +10501,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Wie lange wird es ____?",
     answer: "dauern",
+    translation: "How long will it last?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -9630,6 +10525,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Mein Hund schlief ____ mir.",
     answer: "neben",
+    translation: "My dog slept next to me.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -9652,6 +10549,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich sagte ihm, er solle den ____ verlassen.",
     answer: "Raum",
+    translation: "I told him to leave the room.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -9674,6 +10573,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Wofür wirst du es ____?",
     answer: "benutzen",
+    translation: "What will you use it for?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -9696,6 +10597,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Die ____ sollte diese alten Vorschriften abschaffen.",
     answer: "Regierung",
+    translation: "The government should do away with those old regulations.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -9718,6 +10621,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Kannst du mir sagen, wo auf dieser ____ ich mich befinde?",
     answer: "Karte",
+    translation: "Can you tell me where I am on this map?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -9740,6 +10645,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Das Essen stillte seinen ____. Jetzt hat er keinen Hunger mehr.",
     answer: "Hunger",
+    translation: "The meal satisfied his hunger. He isn't hungry anymore.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -9762,6 +10669,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Der ____ ist niedrig, aber die Qualität ist nicht sehr gut.",
     answer: "Preis",
+    translation: "The price is low, but the quality isn't very good.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -9784,6 +10693,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Packe dieses ____ zuerst aus.",
     answer: "Geschenk",
+    translation: "Open this present first.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -9806,6 +10717,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich muss mir Ihre Füße ____.",
     answer: "ansehen",
+    translation: "I need to have a look at your feet.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -9828,6 +10741,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Die ____ des Hotels ist sehr gut.",
     answer: "Lage",
+    translation: "The location of the hotel is very good.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -9850,6 +10765,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich wollte euch einen schönen Abend ____.",
     answer: "wünschen",
+    translation: "I wanted to wish you a pleasant evening.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -9872,6 +10789,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Erstens ____ uns die finanziellen Mittel.",
     answer: "fehlen",
+    translation: "First of all, we lack financial resources.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -9894,6 +10813,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Sie haben einen Monat Zeit, einen ____ anzufechten.",
     answer: "Bescheid",
+    translation: "You have one month to challenge a decision.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -9916,6 +10837,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Vielleicht wird es ihm zu ____.",
     answer: "heiß",
+    translation: "Maybe it's getting too hot for him.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -9938,6 +10861,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "John ist ____ von Beruf.",
     answer: "Bulle",
+    translation: "John is a cop.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -9960,6 +10885,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich würde unsere letzten Monate ____.",
     answer: "genießen",
+    translation: "I would enjoy our last few months together.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -9982,6 +10909,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Er kann sich nicht ____.",
     answer: "bewegen",
+    translation: "He can't move.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -10004,6 +10933,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "John hat am März ____.",
     answer: "Geburtstag",
+    translation: "John's birthday is on March 25th.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -10026,6 +10957,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Unsere Vorräte werden nicht ____ halten.",
     answer: "ewig",
+    translation: "Our supplies won't last forever.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -10048,6 +10981,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Der ____ durch den Taifun war immens.",
     answer: "Schaden",
+    translation: "The damage from the typhoon was enormous.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -10070,6 +11005,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Dieses Lied ist ____ und wunderschön zugleich.",
     answer: "traurig",
+    translation: "This song is both sad and beautiful.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -10093,6 +11030,9 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     stimulus:
       "Heute spreche ich über die Bedeutung des Sports in der modernen ____.",
     answer: "Gesellschaft",
+    translation:
+      "Today, I'm going to talk about the importance of sport in modern society.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -10115,6 +11055,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Diesen ____ habe ich bereits beantwortet.",
     answer: "Punkt",
+    translation: "I have already responded to this point.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -10137,6 +11079,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Die geretteten Flüchtlinge sehnten sich nach ____.",
     answer: "Freiheit",
+    translation: "The rescued refugees were longing for freedom.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -10159,6 +11103,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Und du wirst großartig ____ sein.",
     answer: "darin",
+    translation: "And you're going to be great in it.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -10181,6 +11127,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Er ist hier eine ____ geblieben.",
     answer: "Weile",
+    translation: "He stayed here for a while.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -10203,6 +11151,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Einem geschenkten Gaul schaut man nicht ins ____.",
     answer: "Maul",
+    translation: "Don't look a gift horse in the mouth.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -10225,6 +11175,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Er wird nie etwas ____, wenn er nicht härter arbeitet.",
     answer: "erreichen",
+    translation: "He'll never achieve anything unless he works harder.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -10247,6 +11199,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Gerade habe ich mir das ____ angesehen.",
     answer: "Foto",
+    translation: "I was just looking at the photo.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -10269,6 +11223,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "John meinte, dass Jane das gar nicht ____ tun müsse.",
     answer: "unbedingt",
+    translation: "John said he didn't think Jane really needed to do that.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -10291,6 +11247,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich möchte wie John ____.",
     answer: "aussehen",
+    translation: "I would like to look like John.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -10313,6 +11271,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Dies ist ein sehr guter ____.",
     answer: "Tee",
+    translation: "This is a very good tea.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -10335,6 +11295,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Du musst etwas Geschäftliches für mich ____.",
     answer: "erledigen",
+    translation: "I need you to handle some business for me.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -10357,6 +11319,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Die Italiener trinken immer ____.",
     answer: "Wein",
+    translation: "Italians always drink wine.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -10379,6 +11343,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "In Russland feiert man ____ am Januar.",
     answer: "Weihnachten",
+    translation: "Christmas is celebrated on January 7th in Russia.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -10401,6 +11367,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ruf mich ____ mal an.",
     answer: "irgendwann",
+    translation: "Give me a call sometime.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -10423,6 +11391,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich habe keine ____ sie zu küssen.",
     answer: "Lust",
+    translation: "I have no desire to kiss her.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -10445,6 +11415,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich fühle mein linkes ____ kaum noch.",
     answer: "Bein",
+    translation: "I'm losing feeling in my left leg.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -10467,6 +11439,9 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Der Hersteller des Fernsehers ist eine japanische ____.",
     answer: "Firma",
+    translation:
+      "The manufacturer of the television set is a Japanese company.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -10489,6 +11464,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Bei sowas würde ich nie ____.",
     answer: "lügen",
+    translation: "I wouldn't lie about something like that.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -10511,6 +11488,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Sie müssen sich vor nichts ____.",
     answer: "fürchten",
+    translation: "You have nothing to be afraid of.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -10533,6 +11512,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Die Türklingel ist wieder ____.",
     answer: "kaputt",
+    translation: "The doorbell is broken again.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -10555,6 +11536,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Wirf den ____ nicht so hoch.",
     answer: "Ball",
+    translation: "Don't throw the ball so high.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -10577,6 +11560,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Aber es fühlt sich so ____ an.",
     answer: "seltsam",
+    translation: "But it just feels so strange.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -10599,6 +11584,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich wollte nicht vor ihnen ____.",
     answer: "weinen",
+    translation: "I didn't want to cry in front of them.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -10621,6 +11608,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Das ist mir ein großes ____.",
     answer: "Vergnügen",
+    translation: "That gives me great pleasure.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -10643,6 +11632,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ist dein Zimmer nicht ____?",
     answer: "sauber",
+    translation: "Isn't your room clean?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -10665,6 +11656,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Mein ____ ist nicht bei dir.",
     answer: "Zuhause",
+    translation: "My home is not with you.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -10687,6 +11680,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Warum bittest du John nicht ____?",
     answer: "herein",
+    translation: "Why don't you invite John inside?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -10709,6 +11704,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Dies ist eine ____ aller Tipps des Tages.",
     answer: "Liste",
+    translation: "This is a list of all tips of the day.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -10731,6 +11728,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "„Das ist in Deutschland ____.“ „Echt?“",
     answer: "normal",
+    translation: '"This is normal in Germany." "Really?"',
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -10753,6 +11752,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Wir ____ alles, was Sie für unseren Jungen machen.",
     answer: "schätzen",
+    translation: "We appreciate all you are doing for our boy.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -10775,6 +11776,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Das wäre wohl einen ____ wert.",
     answer: "Blick",
+    translation: "That would be worth a look.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -10798,6 +11801,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     stimulus:
       "Die Jungen wurden dabei erwischt, wie sie Äpfel vom Baum ____ wollten.",
     answer: "stehlen",
+    translation: "The boys were caught stealing apples from the tree.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -10820,6 +11825,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Du solltest nach ____ schauen.",
     answer: "vorne",
+    translation: "You should look ahead.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -10842,6 +11849,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Es war vor einem Monat fällig, ____ im Mai.",
     answer: "nämlich",
+    translation: "It was due a month ago, namely in May.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -10864,6 +11873,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Zweifellos haben wir einander viel zu ____.",
     answer: "lehren",
+    translation: "No doubt we have much to teach each other.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -10886,6 +11897,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ihre Augen sind auch ____ blau.",
     answer: "wunderschön",
+    translation: "Your eyes are a beautiful blue, too.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -10908,6 +11921,9 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Wir beraten Sie gerne und ____ uns auf Sie.",
     answer: "freuen",
+    translation:
+      "We would be happy to advise you and look forward to hearing from you.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -10930,6 +11946,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Sag mir, wem diese Bücher ____.",
     answer: "gehören",
+    translation: "Tell me whom these books belong to.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -10952,6 +11970,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich musste ____ nichts zu sagen.",
     answer: "schwören",
+    translation: "I had to swear not to say anything.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -10974,6 +11994,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Das hätte viele Nationen ____ gemacht.",
     answer: "nervös",
+    translation: "It could have made a lot of countries nervous.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -10996,6 +12018,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Er trägt es um seinen ____.",
     answer: "Hals",
+    translation: "He's wearing it around his neck.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -11018,6 +12042,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich möchte gern ein ____ Wein.",
     answer: "Glas",
+    translation: "I would like to have a glass of wine.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -11040,6 +12066,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Hier drin können wir uns ____.",
     answer: "verstecken",
+    translation: "We can hide in here.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -11062,6 +12090,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Dann haben wir den gleichen ____.",
     answer: "Feind",
+    translation: "Well then, we share a common enemy.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -11084,6 +12114,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich werde dir das niemals ____.",
     answer: "verzeihen",
+    translation: "I will never forgive you for this.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -11106,6 +12138,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Bitte ____ Sie das Fenster nicht.",
     answer: "öffnen",
+    translation: "Please don't open the window.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -11128,6 +12162,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "____ würde gern Ihr Haus besichtigen.",
     answer: "Madame",
+    translation: "Madame would like to see your house.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -11150,6 +12186,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Aber er ist so nett und ____.",
     answer: "süß",
+    translation: "But he's so good and sweet.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -11172,6 +12210,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Das hängt von deiner ____ ab.",
     answer: "Entscheidung",
+    translation: "It rests on your decision.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -11194,6 +12234,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "John konnte sich nicht vorstellen, jemanden zu ____.",
     answer: "erschießen",
+    translation: "John couldn't imagine himself shooting anyone.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -11216,6 +12258,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Das wird dein Spiel nicht ____.",
     answer: "verändern",
+    translation: "It won't change the way you play.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -11239,6 +12283,9 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     stimulus:
       "Niemandem, der ein Haustier besitzt, ist es erlaubt, in diesem Appartementhaus zu ____.",
     answer: "wohnen",
+    translation:
+      "No one who owns a pet is allowed to live in this apartment building.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -11261,6 +12308,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ein solcher ____ kann bei nassem Untergrund rutschig sein.",
     answer: "Schuh",
+    translation: "This kind of shoe is apt to slip on wet ground.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -11283,6 +12332,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Du wirst dieses Buch sehr ____ finden.",
     answer: "interessant",
+    translation: "You'll find this book very interesting.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -11305,6 +12356,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Er wird seinen Captain nicht ____.",
     answer: "verraten",
+    translation: "He's not going to betray his Captain.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -11328,6 +12381,9 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     stimulus:
       "Jeder kann meine Vorlesungen ____, aber nicht jeder kann sie verstehen.",
     answer: "besuchen",
+    translation:
+      "Anyone can attend my lectures, but not everyone can understand them.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -11350,6 +12406,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Sie können das nicht ____.",
     answer: "beweisen",
+    translation: "You can't prove it.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -11372,6 +12430,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Aus der Ferne betrachtet, ähnelte die ____ einer Wolke.",
     answer: "Insel",
+    translation: "Viewed from a distance, the island looked like a cloud.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -11394,6 +12454,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich war vom Auftritt der ____ begeistert.",
     answer: "Gruppe",
+    translation: "I was enchanted by the performance of the group.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -11416,6 +12478,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Du musst auf diese Frage nicht ____.",
     answer: "antworten",
+    translation: "You don't have to answer this question.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -11439,6 +12503,9 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     stimulus:
       "Dieser Brief ist ____, ich will nicht, dass jemand anders ihn liest.",
     answer: "persönlich",
+    translation:
+      "This letter is personal, and I don't want anyone else to read it.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -11461,6 +12528,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Jetzt will ich lieber einen ____.",
     answer: "Drink",
+    translation: "Right now I'd rather have a drink.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -11483,6 +12552,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Das war mein ____, Jane.",
     answer: "Fuß",
+    translation: "That was my foot, Jane.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -11505,6 +12576,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich werde nicht ____, John.",
     answer: "gucken",
+    translation: "I'm not going to look, John.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -11527,6 +12600,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Sicher bleibt noch etwas Gutes ____.",
     answer: "übrig",
+    translation: "I'm sure there'll be something good left.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -11549,6 +12624,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ihr ____ ist bei uns sicher.",
     answer: "Geheimnis",
+    translation: "Your secret is safe with us.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -11571,6 +12648,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich lerne jeden Tag ____ zwei Stunden lang.",
     answer: "ungefähr",
+    translation: "I study for about two hours every day.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -11593,6 +12672,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "John hängte seinen Mantel an einen der Haken ____ der Tür.",
     answer: "nahe",
+    translation: "John hung his coat on one of the hooks near the door.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -11615,6 +12696,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Er schrieb ein ____ über China.",
     answer: "Buch",
+    translation: "He wrote a book on China.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -11637,6 +12720,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Du jammerst wie ein altes ____.",
     answer: "Weib",
+    translation: "You sound like an old woman.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -11659,6 +12744,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Wir sind die wichtigste ____ der Welt.",
     answer: "Zeitung",
+    translation: "We're the most important newspaper in the whole world.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -11681,6 +12768,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Sie sind ____ mit dem Vertrag.",
     answer: "zufrieden",
+    translation: "They are satisfied with the contract.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -11703,6 +12792,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Wir müssen dieses ____ mit irgendetwas füllen.",
     answer: "Loch",
+    translation: "We have got to fill this hole with something.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -11725,6 +12816,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Wer zum ____ war das?",
     answer: "Teufel",
+    translation: "Who the devil was that?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -11747,6 +12840,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Das ist genau, ____ er wartet.",
     answer: "worauf",
+    translation: "That's just what he is looking for.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -11769,6 +12864,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Also mach unseren Boss nicht ____.",
     answer: "sauer",
+    translation: "So, don't make our boss angry.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -11791,6 +12888,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Sie ____ mich und Jane natürlich nicht.",
     answer: "erkennen",
+    translation: "Naturally, you do not recognize me or Jane.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -11813,6 +12912,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Der Flughafen ist weniger als einen Kilometer ____.",
     answer: "entfernt",
+    translation: "The airport's only half a mile away.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -11835,6 +12936,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Aber ich muss meine Mutter ____.",
     answer: "mitnehmen",
+    translation: "But, I have to take my mother.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -11857,6 +12960,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich warte auf seinen ____.",
     answer: "Anruf",
+    translation: "I'm waiting for his call.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -11879,6 +12984,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Das war nur ein böser ____.",
     answer: "Traum",
+    translation: "It was only a bad dream.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -11901,6 +13008,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Wie viel wird das ____?",
     answer: "kosten",
+    translation: "How much will it cost?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -11923,6 +13032,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich sollte auch mehr ____ essen.",
     answer: "Fisch",
+    translation: "I should eat more fish, too.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -11945,6 +13056,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "John wurde für ____ befunden.",
     answer: "schuldig",
+    translation: "John was found guilty.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -11967,6 +13080,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich kann dich ____ sehen.",
     answer: "zumindest",
+    translation: "At least I can see you.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -11989,6 +13104,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Wir arbeiten ____ und nicht gegeneinander.",
     answer: "miteinander",
+    translation: "We are working together and not against each other.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -12011,6 +13128,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Einige Tage später begann seine Schulter zu ____.",
     answer: "schmerzen",
+    translation: "A few days later, his shoulder started to hurt.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -12033,6 +13152,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich dachte, ihr wolltet ____.",
     answer: "fischen",
+    translation: "I thought you wanted to fish.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -12055,6 +13176,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Du hast immer diesen Tee mitgebracht, der ____ gerochen hat.",
     answer: "furchtbar",
+    translation: "You always brought that tea that smelled terrible.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -12077,6 +13200,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Sie machten einige Schritte ____.",
     answer: "vorwärts",
+    translation: "They stepped a few paces forward.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -12099,6 +13224,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Du musstest deinen Preis nicht ____.",
     answer: "teilen",
+    translation: "You didn't have to share the award.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -12121,6 +13248,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich halte ____ zwischen John und den Kunden.",
     answer: "Kontakt",
+    translation: "I keep contact between John and the customers.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -12143,6 +13272,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Die Spüle in der ____ war voll schmutzigen Geschirrs.",
     answer: "Küche",
+    translation: "The kitchen sink was full of dirty dishes.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -12165,6 +13296,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Manche sind ____ auf das Gewicht.",
     answer: "wütend",
+    translation: "Some of them are angry with the weight.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -12187,6 +13320,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Was er als Nächstes tat, war für mich schon eine ____.",
     answer: "Überraschung",
+    translation: "What he did next was quite a surprise to me.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -12209,6 +13344,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Das ____ wurde total zerstört.",
     answer: "Gebäude",
+    translation: "The building was completely destroyed.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -12231,6 +13368,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Seine Kleider ____ noch im Schrank.",
     answer: "hängen",
+    translation: "His clothes are still hanging in the wardrobe.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -12253,6 +13392,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Das ____ wird unter unserem Gewicht brechen.",
     answer: "Eis",
+    translation: "The ice will crack beneath our weight.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -12275,6 +13416,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Er wollte nicht seine Arbeit ____.",
     answer: "zerstören",
+    translation: "He didn't want to destroy his work.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -12297,6 +13440,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich werde seinen ____ nicht packen.",
     answer: "Koffer",
+    translation: "I'm not going to pack his suitcase.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -12319,6 +13464,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Der ____ stöhnte vor Schmerzen.",
     answer: "Mann",
+    translation: "The man groaned in pain.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -12341,6 +13488,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich sagte ja, sie ist ____.",
     answer: "witzig",
+    translation: "See, I told you she was funny.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -12363,6 +13512,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Das sollte alles schon ____ sein.",
     answer: "drinnen",
+    translation: "All of this should be inside by now.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -12385,6 +13536,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Sie haben nur noch Stunden, um sich zu ____.",
     answer: "entscheiden",
+    translation: "You only have 24 hours left to decide.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -12407,6 +13560,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Sie werden das Recht zu wählen ____.",
     answer: "erhalten",
+    translation: "You will get the right to choose.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -12429,6 +13584,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Wir sollten ihm eine Schule ____.",
     answer: "bauen",
+    translation: "Maybe we should build a school for him.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -12451,6 +13608,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Du solltest ein blaues ____ tragen.",
     answer: "Kleid",
+    translation: "You should wear a blue dress.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -12473,6 +13632,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "So ____ kann sie nicht sein.",
     answer: "übel",
+    translation: "She can't be that bad.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -12495,6 +13656,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Mit Glück ____ wir die Nacht.",
     answer: "überleben",
+    translation: "With luck, we will survive the night.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -12517,6 +13680,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Wir finden den Weg ____.",
     answer: "hinaus",
+    translation: "We'll find the way out.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -12539,6 +13704,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Gut, aber ____ Sie sich.",
     answer: "beeilen",
+    translation: "Fine, but hurry.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -12561,6 +13728,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Die Gesellschaften ____ rund Mitarbeiter.",
     answer: "beschäftigen",
+    translation: "The companies employ about 850 people.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -12583,6 +13752,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Menschen wie Sie suchen normalerweise keine emotionale ____.",
     answer: "Verbindung",
+    translation: "People like you don't usually seek an emotional connection.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -12605,6 +13776,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Das geht alles zurück auf ____ Elisabeth.",
     answer: "Königin",
+    translation: "It all goes back to Queen Elizabeth.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -12627,6 +13800,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "An dieser ____ ist eine Telefonzelle.",
     answer: "Ecke",
+    translation: "There is a public telephone on that corner.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -12649,6 +13824,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Die Arbeit ist ____ getan.",
     answer: "halb",
+    translation: "The job is half done.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -12671,6 +13848,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Jeder muss einen ____ darüber schreiben, was er gesehen hat.",
     answer: "Bericht",
+    translation: "Each of them has to write a report about what he saw.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -12693,6 +13872,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Johns ____ hat ihn eingeholt.",
     answer: "Vergangenheit",
+    translation: "John's past caught up with him.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -12715,6 +13896,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Das ____ geht mir auf die Nerven.",
     answer: "Radio",
+    translation: "The radio gets on my nerves.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -12737,6 +13920,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Wir haben eine offene ____.",
     answer: "Beziehung",
+    translation: "We have an open relationship.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -12759,6 +13944,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich wollte nur nicht alleine ____.",
     answer: "feiern",
+    translation: "I just didn't want to celebrate alone.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -12781,6 +13968,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Die Polizei könnte dich dafür ____.",
     answer: "verhaften",
+    translation: "The police could arrest you for that.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -12803,6 +13992,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich stellte fest, dass die ____ nutzlos war.",
     answer: "Maschine",
+    translation: "I found that the machine was of no use.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -12825,6 +14016,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Jemand hat versucht, dich zu ____.",
     answer: "ermorden",
+    translation: "Somebody tried to murder you.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -12847,6 +14040,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Laut Zeitung wird es heute ____.",
     answer: "regnen",
+    translation: "According to the newspaper, it's going to rain today.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -12869,6 +14064,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich bin ein wenig ____.",
     answer: "betrunken",
+    translation: "I'm a little drunk.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -12891,6 +14088,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich hatte ein sehr schlechtes ____.",
     answer: "Gefühl",
+    translation: "I had a very bad feeling.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -12913,6 +14112,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Die Gespräche sollten bald ____.",
     answer: "beginnen",
+    translation: "The talks should begin soon.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -12935,6 +14136,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Wir haben keine Zeit für diesen ____.",
     answer: "Quatsch",
+    translation: "We don't have time for this nonsense.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -12958,6 +14161,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     stimulus:
       "Glaube nichts von dem, was du hörst, und nur die ____ von dem, was du siehst.",
     answer: "Hälfte",
+    translation: "Believe none of what you hear and a half of what you see.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -12980,6 +14185,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Wann wurde Amerika unabhängig von ____?",
     answer: "England",
+    translation: "When did America become independent of England?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -13002,6 +14209,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Das schaut nicht allzu ____ aus.",
     answer: "schwierig",
+    translation: "That doesn't look too difficult.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -13024,6 +14233,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ein bisschen mehr ____, bitte!",
     answer: "Respekt",
+    translation: "A little more respect, please!",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -13046,6 +14257,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich kenne noch nicht einmal deine ____.",
     answer: "Adresse",
+    translation: "I don't even know your address.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -13068,6 +14281,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Wie ____ fütterst du die Fische?",
     answer: "häufig",
+    translation: "How often do you feed the fish?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -13090,6 +14305,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Wir müssen eine neue Probe ____.",
     answer: "besorgen",
+    translation: "We'll need to get a fresh sample.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -13112,6 +14329,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Hier kannst du nicht ____.",
     answer: "parken",
+    translation: "You can't park here.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -13134,6 +14353,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich habe meinen ____ verpasst.",
     answer: "Flug",
+    translation: "I missed my flight.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -13156,6 +14377,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich bin ein ehemaliger FBI-____.",
     answer: "Agent",
+    translation: "I'm a former FBI agent.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -13178,6 +14401,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Wir möchten einen ____ haben.",
     answer: "Hund",
+    translation: "We would like to have a dog.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -13200,6 +14425,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich bin bereit einen ____ vorwärts zu machen.",
     answer: "Schritt",
+    translation: "I'm ready to take a step to the future.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -13222,6 +14449,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Angeblich soll hier eine ____ sein.",
     answer: "Bombe",
+    translation: "Supposedly, there is a bomb here.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -13244,6 +14473,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Du siehst sehr ____ aus.",
     answer: "gelassen",
+    translation: "You look very calm.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -13266,6 +14497,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich habe eine ____ für dich.",
     answer: "Aufgabe",
+    translation: "I've got a task for you.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -13288,6 +14521,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Die Reise war schön, ____ ermüdend.",
     answer: "allerdings",
+    translation: "The journey was lovely, though exhausting.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -13310,6 +14545,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich will eine ____ heiraten.",
     answer: "Prinzessin",
+    translation: "I want to marry a princess.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -13332,6 +14569,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Könnten Sie zur Seite ____?",
     answer: "treten",
+    translation: "Could you step aside?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -13354,6 +14593,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Hunde können keine Farben ____.",
     answer: "unterscheiden",
+    translation: "Dogs can't distinguish between colors.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -13376,6 +14617,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich werde bald wieder ____ sein.",
     answer: "gesund",
+    translation: "I will soon be healthy again.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -13398,6 +14641,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Die Preise ____ immer höher.",
     answer: "steigen",
+    translation: "Prices go on rising.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -13420,6 +14665,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Er schien aufrichtig ____ zu sein.",
     answer: "besorgt",
+    translation: "He sounded genuinely concerned.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -13442,6 +14689,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich angle gerne im ____.",
     answer: "Fluss",
+    translation: "I like to fish in the river.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -13465,6 +14714,9 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     stimulus:
       "Das Brandenburger ____ ist eines der berühmtesten Wahrzeichen Deutschlands.",
     answer: "Tor",
+    translation:
+      "The Brandenburg Gate is one of the most famous landmarks in Germany.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -13487,6 +14739,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Herzlichen ____, Sie haben gewonnen.",
     answer: "Glückwunsch",
+    translation: "Congratulations, you have won.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -13509,6 +14763,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Niemand will ____ aussehen.",
     answer: "blöd",
+    translation: "Nobody wants to look stupid.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -13531,6 +14787,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Mein ____ sah darin fantastisch aus.",
     answer: "Hintern",
+    translation: "My butt looked fantastic in them.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -13553,6 +14811,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich schlafe unter meinem eigenen ____.",
     answer: "Dach",
+    translation: "I sleep under my own roof.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -13575,6 +14835,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Er trägt eine ____ im Schultergurt.",
     answer: "Pistole",
+    translation: "He carries a gun in a shoulder holster.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -13597,6 +14859,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Frauen und Kinder ____ in Konfliktzeiten am meisten.",
     answer: "leiden",
+    translation: "Women and children suffer the most in times of conflict.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -13620,6 +14884,9 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     stimulus:
       "All das funktioniert anscheinend noch nicht ganz perfekt, aber das ____ ist interessant.",
     answer: "System",
+    translation:
+      "Apparently all that doesn't work perfectly yet, but the system is interesting.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -13642,6 +14909,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Dieses ____ muss er wirklich gewinnen.",
     answer: "Rennen",
+    translation: "This is a race he really has to win.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -13664,6 +14933,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Er versuchte, mich zu ____.",
     answer: "küssen",
+    translation: "He tried to kiss me.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -13686,6 +14957,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Wir können uns Misstrauen nicht ____.",
     answer: "leisten",
+    translation: "We can't afford not to trust each other.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -13708,6 +14981,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich werde deine Mutter nicht ____.",
     answer: "vermissen",
+    translation: "I won't miss your mother.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -13730,6 +15005,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Es ist doch kein ____.",
     answer: "Verbrechen",
+    translation: "It isn't a crime after all.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -13752,6 +15029,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Du wirst mir jedes Ergebnis persönlich ____.",
     answer: "melden",
+    translation: "You will report every result back to me personally.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -13774,6 +15053,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich bin dafür ____, aber meine Freunde sind es nicht.",
     answer: "verantwortlich",
+    translation: "I am responsible for it, but my friends are not.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -13796,6 +15077,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Dort wurde deutlich, dass Veränderungen ____ müssen.",
     answer: "erfolgen",
+    translation: "There, it was clear that changes must take place.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -13818,6 +15101,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Die erste Frage ist eher meteorologischer ____.",
     answer: "Natur",
+    translation: "The first question is rather of a meteorological nature.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -13840,6 +15125,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "John kommt im ____ der amerikanischen Regierung.",
     answer: "Auftrag",
+    translation: "John is here by order of the American government.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -13862,6 +15149,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Sie kann uns nicht ____.",
     answer: "aufhalten",
+    translation: "She cannot stop us.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -13884,6 +15173,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Lange ____ war ich dein Freund.",
     answer: "davor",
+    translation: "Long before that, I was your friend.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -13906,6 +15197,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich wollte sie wirklich ____.",
     answer: "überraschen",
+    translation: "I really wanted to surprise her.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -13928,6 +15221,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Jetzt kann ich kaum noch auf einen ____ klettern.",
     answer: "Baum",
+    translation: "Now I can barely climb a tree.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -13950,6 +15245,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Der Laden war ziemlich ____.",
     answer: "leer",
+    translation: "The store was relatively empty.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -13972,6 +15269,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Er arbeitet ____ auf dem Bauernhof.",
     answer: "morgens",
+    translation: "He works on the farm in the morning.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -13994,6 +15293,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Da ist Blut an der ____.",
     answer: "Wand",
+    translation: "There is blood on the wall.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -14016,6 +15317,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ist es euch nicht in den Sinn gekommen, die Fenster zu ____?",
     answer: "schließen",
+    translation: "Didn't it occur to you to close the windows?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -14038,6 +15341,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Sie müssen einen Helm tragen, um Ihren Kopf zu ____.",
     answer: "schützen",
+    translation: "You have to wear a helmet to protect your head.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -14060,6 +15365,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Er konnte schnell genug schwimmen, um die Prüfung zu ____.",
     answer: "bestehen",
+    translation: "He could swim fast enough to pass the test.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -14082,6 +15389,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Wir sollen hier nicht ____.",
     answer: "rauchen",
+    translation: "We shouldn't smoke here.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -14104,6 +15413,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Das ist nicht die einzige ____.",
     answer: "Schwierigkeit",
+    translation: "That's not the only difficulty.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -14126,6 +15437,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich suche nach einem großen ____.",
     answer: "Stein",
+    translation: "I'm looking for a big stone.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -14148,6 +15461,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Deutschland liegt ____ in Europa.",
     answer: "mitten",
+    translation: "Germany is in the middle of Europe.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -14170,6 +15485,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "John öffnete die Schachtel und blickte ____.",
     answer: "hinein",
+    translation: "John opened the box and looked inside.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -14192,6 +15509,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich konnte meine ____ nicht finden.",
     answer: "Hose",
+    translation: "I couldn't find my pants.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -14214,6 +15533,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich habe John noch nie ____ betrunken gesehen.",
     answer: "zuvor",
+    translation: "I'd never seen John drunk before.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -14236,6 +15557,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Sie, ich und Macintosh wären ein ____ Team.",
     answer: "prima",
+    translation: "You, me and Macintosh could make a great team.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -14258,6 +15581,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Jane hasst ihren ____ aus vielen Gründen.",
     answer: "Beruf",
+    translation: "Jane hates her profession for many reasons.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -14280,6 +15605,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Das kommt, weil du ____ aussiehst.",
     answer: "lächerlich",
+    translation: "That's because you look ridiculous.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -14302,6 +15629,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Davor wollte ich dich ____.",
     answer: "beschützen",
+    translation: "I wanted to protect you from that.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -14324,6 +15653,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Das können Sie mir nicht ____.",
     answer: "befehlen",
+    translation: "You can't order me to do that.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -14346,6 +15677,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "John weiß ____ nicht, wer gut singen kann und wer nicht.",
     answer: "vermutlich",
+    translation: "John probably doesn't know who can sing well and who can't.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -14368,6 +15701,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "John und Jane sind ____ auf der Couch gesessen.",
     answer: "gemeinsam",
+    translation: "John and Jane were sitting on the couch together.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -14390,6 +15725,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Sollen wir eine ____ machen?",
     answer: "Pause",
+    translation: "Let's take a break, shall we?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -14412,6 +15749,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich hätte besser ____ sollen.",
     answer: "aufpassen",
+    translation: "I should have paid more attention.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -14434,6 +15773,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Sie ist sogar ____, dass du es schreibst.",
     answer: "einverstanden",
+    translation: "She even agreed that you would write it.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -14456,6 +15797,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich will meine Glückssträhne nicht ____.",
     answer: "brechen",
+    translation: "I don't want to break my winning streak.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -14478,6 +15821,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Notieren oder ____ Sie die folgenden Anweisungen.",
     answer: "drucken",
+    translation: "Write down the following instructions, or print them.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -14500,6 +15845,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Es ist ____ notwendig, die Kosten zu reduzieren.",
     answer: "daher",
+    translation: "Therefore, it's necessary to reduce the cost.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -14522,6 +15869,9 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Mütter müssen jedoch keine Verantwortung dafür ____.",
     answer: "übernehmen",
+    translation:
+      "Mothers, however, do not have to take any responsibility for it.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -14544,6 +15894,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "John ist heute ____ beschäftigt.",
     answer: "Nachmittag",
+    translation: "John is busy this afternoon.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -14566,6 +15918,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Vergiss dein Versprechen nicht, ____.",
     answer: "Schätzchen",
+    translation: "Don't forget about your promise, sweetie.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -14588,6 +15942,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Kann ich einen ____ zu einem Rockkonzert tragen?",
     answer: "Rock",
+    translation: "Can I wear a skirt to a rock concert?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -14610,6 +15966,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Es ist nicht zu ____, dass du drei Töchter hast.",
     answer: "fassen",
+    translation: "It is hard to believe that you have three daughters.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -14632,6 +15990,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich wollte dir etwas aus Frankreich ____.",
     answer: "mitbringen",
+    translation: "I meant to bring you something back from France.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -14654,6 +16014,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Und wir müssen bald ____ zurück.",
     answer: "dorthin",
+    translation: "And we need to get back in there soon.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -14676,6 +16038,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Sie können sich im Flugzeug ____.",
     answer: "unterhalten",
+    translation: "You can talk on the plane.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -14698,6 +16062,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Seine törichten Freunde wollen uns morgen früh ____.",
     answer: "angreifen",
+    translation: "His foolish friends intend to attack us in the morning.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -14720,6 +16086,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Sie müssen sich entspannen und einfach ____.",
     answer: "beruhigen",
+    translation: "You need to relax and just calm down.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -14742,6 +16110,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Das ist ____ eine Liste von Colleges.",
     answer: "offensichtlich",
+    translation: "Obviously, it's a list of colleges.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -14764,6 +16134,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich will ihn nicht ____.",
     answer: "stören",
+    translation: "I don't want to disturb him.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -14786,6 +16158,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Mir gefällt diese ____ nicht.",
     answer: "Farbe",
+    translation: "I don't like this color.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -14808,6 +16182,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich habe ihn ____ getroffen.",
     answer: "zufällig",
+    translation: "I met him by chance.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -14830,6 +16206,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Das ist eine gefährliche ____.",
     answer: "Mission",
+    translation: "This is a dangerous mission.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -14852,6 +16230,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Es ist ein großes ____.",
     answer: "Unternehmen",
+    translation: "It's a big company.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -14874,6 +16254,9 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Diese Modernisierung wurde insbesondere in fünf Punkten ____.",
     answer: "notwendig",
+    translation:
+      "That modernization came to be particularly necessary for five reasons.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -14896,6 +16279,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Dein neuer Job wird ____ sein.",
     answer: "fantastisch",
+    translation: "Your new job is going to be fantastic.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -14918,6 +16303,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "In ein paar Minuten servieren wir ____.",
     answer: "Frühstück",
+    translation: "We'll be serving breakfast in a few minutes.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -14940,6 +16327,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Es wird im Allgemeinen gut ____.",
     answer: "vertragen",
+    translation: "It is generally well tolerated.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -14962,6 +16351,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Die Schwachen mussten den Starken ____.",
     answer: "dienen",
+    translation: "The weak were made to serve the strong.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -14984,6 +16375,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Das wollte ich um nichts in der Welt ____!",
     answer: "verpassen",
+    translation: "I wouldn't miss it for anything.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -15006,6 +16399,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Der ____ hielt sich in den Bergen versteckt.",
     answer: "Mörder",
+    translation: "The murderer hid in the mountains.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -15028,6 +16423,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Die Spielzeugabteilung ist im fünften ____.",
     answer: "Stock",
+    translation: "The toy department is on the fifth floor.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -15050,6 +16447,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Warum willst du nicht ____?",
     answer: "mitkommen",
+    translation: "Why don't you want to come along?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -15072,6 +16471,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Es war ____ nicht deine Schuld.",
     answer: "gewiss",
+    translation: "It was certainly not your fault.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -15094,6 +16495,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich kann bereits das Schweinekotelett ____.",
     answer: "schmecken",
+    translation: "I can already taste those pork chops.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -15116,6 +16519,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Stell dich in die ____.",
     answer: "Reihe",
+    translation: "Get in line.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -15138,6 +16543,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Haltet euch natürlich vom Fluss ____.",
     answer: "fern",
+    translation: "Stay away from the river, of course.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -15160,6 +16567,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "John geht den ____ entlang.",
     answer: "Gang",
+    translation: "John is walking down the aisle.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -15182,6 +16591,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ihr hattet doch ____ recht.",
     answer: "vollkommen",
+    translation: "You were totally right after all.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -15205,6 +16616,9 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     stimulus:
       "Es gibt zurzeit noch ____ 5.300 offene Lehrstellen, denen etwa 2.300 Bewerber gegenüberstehen.",
     answer: "rund",
+    translation:
+      "At the moment, there are still some 5,300 vacant apprenticeship places, with some 2,300 applicants.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -15228,6 +16642,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     stimulus:
       "John kann es sich leisten, jeden Tag in einem teuren ____ zu essen.",
     answer: "Restaurant",
+    translation: "John can afford to eat at an expensive restaurant every day.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -15250,6 +16666,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich brauche etwas ____ über Jane.",
     answer: "Dreck",
+    translation: "I need some dirt on Jane.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -15272,6 +16690,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Der ____ des ursprünglichen Angebots wurde entfernt.",
     answer: "Untertitel",
+    translation: "Your subtitle from the original listing has been removed.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -15294,6 +16714,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Es ist heute recht ____.",
     answer: "warm",
+    translation: "It's quite warm today.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -15316,6 +16738,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Wir haben alles auf ____.",
     answer: "Lager",
+    translation: "We have everything in stock.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -15338,6 +16762,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Man kann hier nicht ____.",
     answer: "atmen",
+    translation: "You can't breathe here.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -15360,6 +16786,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Wir müssen darüber ein ernsthaftes ____ führen.",
     answer: "Gespräch",
+    translation: "We have to have a serious talk about this.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -15382,6 +16810,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Sie bauen die Autos heutzutage so ____.",
     answer: "leise",
+    translation: "They make cars so quiet now.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -15404,6 +16834,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Wir sind am falschen ____ gelandet.",
     answer: "Flughafen",
+    translation: "We landed at the wrong airport.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -15426,6 +16858,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Nina ist ____ und drogensüchtig.",
     answer: "schwanger",
+    translation: "Nina is pregnant and a drug addict.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -15448,6 +16882,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Sie halfen ihm, die ____ durchzuführen.",
     answer: "Operation",
+    translation: "They assisted him in performing the operation.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -15470,6 +16906,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "John ergriff die ____ mit beiden Händen.",
     answer: "Gelegenheit",
+    translation: "John grabbed the opportunity with both hands.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -15492,6 +16930,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "John glaubte an mich und ich bin ihm dafür ____.",
     answer: "dankbar",
+    translation: "John believed in me, and I am grateful to him.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -15514,6 +16954,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "In der Unterhaltung kam ein neues ____ auf.",
     answer: "Thema",
+    translation: "A new topic came up in conversation.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -15536,6 +16978,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Diese ____ ist eine Last für ihn.",
     answer: "Verantwortung",
+    translation: "That responsibility is a burden to him.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -15558,6 +17002,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich habe dieses Fahrrad ____ bekommen.",
     answer: "umsonst",
+    translation: "I got this bicycle for free.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -15580,6 +17026,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Wir wollen es gar nicht ____.",
     answer: "verbieten",
+    translation: "We don't want to prohibit it.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -15602,6 +17050,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Einige Flächen sind vermutlich zu ____.",
     answer: "dick",
+    translation: "There may be areas which are too thick.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -15625,6 +17075,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     stimulus:
       "Sie können es sich bei diesem Experiment nicht ____, unvorsichtig zu sein.",
     answer: "erlauben",
+    translation: "You can't afford to be careless in this experiment.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -15647,6 +17099,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Außerdem hast du einen neuen ____.",
     answer: "Gast",
+    translation: "And, besides, you got a new guest.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -15669,6 +17123,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Räder müssen ____ für den Sieg!",
     answer: "rollen",
+    translation: "Wheels must roll for victory!",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -15691,6 +17147,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Diese Woche war eine wunderbare ____.",
     answer: "Erfahrung",
+    translation: "This week has been an amazing experience.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -15713,6 +17171,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ihre Wangen waren nicht ____.",
     answer: "rot",
+    translation: "Her cheeks were not red.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -15735,6 +17195,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich will nicht zu ____ greifen.",
     answer: "Gewalt",
+    translation: "I don't want to resort to violence.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -15757,6 +17219,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Zum Glück konnten sie ____.",
     answer: "entkommen",
+    translation: "Fortunately, they were able to escape.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -15779,6 +17243,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich konnte ihr Essen ____.",
     answer: "riechen",
+    translation: "I could smell their food.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -15801,6 +17267,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich sah nur eine Person am ____.",
     answer: "Strand",
+    translation: "I only saw one person on the beach.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -15823,6 +17291,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ihr müsst ein bisschen früher ____.",
     answer: "aufstehen",
+    translation: "You have to get up a little earlier.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -15845,6 +17315,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Sie hämmerten in meinem Kopf und machten mich ____.",
     answer: "wahnsinnig",
+    translation: "They pounded away in my head, driving me insane.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -15867,6 +17339,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich muss über all das ____.",
     answer: "nachdenken",
+    translation: "I'll have to think about all that.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -15889,6 +17363,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "So ____ wir nicht den Unterricht.",
     answer: "beenden",
+    translation: "That's not how we end this class.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -15911,6 +17387,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Wir haben ein ____ vorbereitet.",
     answer: "Angebot",
+    translation: "We have prepared an offer.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -15933,6 +17411,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Diese Regeln ____ für alle ohne Ausnahme.",
     answer: "gelten",
+    translation: "These rules apply to everyone without a single exception.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -15955,6 +17435,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich gehe jetzt zur ____.",
     answer: "Post",
+    translation: "I am going to the post office.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -15977,6 +17459,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Die Schauspielerin lernt ihre ____.",
     answer: "Rolle",
+    translation: "The actress is studying her role.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -15999,6 +17483,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Künstler werden in ____ hoch geschätzt.",
     answer: "Frankreich",
+    translation: "Artists are highly respected in France.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -16021,6 +17507,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Wir müssen ihn als ____ großziehen.",
     answer: "Gentleman",
+    translation: "We need to bring him up as a gentleman.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -16043,6 +17531,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Die ____ durchschoss seinen Arm.",
     answer: "Kugel",
+    translation: "The bullet pierced his arm.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -16065,6 +17555,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Die Kuh gibt uns ____.",
     answer: "Milch",
+    translation: "A cow gives us milk.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -16087,6 +17579,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Wir müssen ____, welche Medikamente wirken.",
     answer: "herausfinden",
+    translation: "We have to find out which of the drugs will work.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -16109,6 +17603,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich habe ____ 2.000 Bücher.",
     answer: "mindestens",
+    translation: "I have at least 2,000 books.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -16131,6 +17627,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Gib mir wenigstens noch einen ____.",
     answer: "Kuss",
+    translation: "At least give me another kiss.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -16153,6 +17651,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "John fiel auf die ____.",
     answer: "Knie",
+    translation: "John dropped to his knees.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -16175,6 +17675,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich habe vergessen, ____ es dabei ging.",
     answer: "worum",
+    translation: "I have forgotten what it was about.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -16197,6 +17699,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Sie sind dabei, ein Loch zu ____.",
     answer: "graben",
+    translation: "They are digging a hole.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -16219,6 +17723,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich lief ____, um alle zu warnen.",
     answer: "voraus",
+    translation: "I ran ahead to warn everybody 66",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -16241,6 +17747,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Die meisten Wissenschaftler sind ____ dafür.",
     answer: "blind",
+    translation: "Most men of science are blind to it.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -16263,6 +17771,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "____, denn ich mochte diesen Pulli irgendwie.",
     answer: "Schande",
+    translation: "That's a shame because I kind of liked that sweater.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -16285,6 +17795,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Sie ist sich ihrer ____ nicht bewusst.",
     answer: "Schönheit",
+    translation: "She is not aware of her beauty.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -16307,6 +17819,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Der alte Baum spendet ____.",
     answer: "Schatten",
+    translation: "The old tree provides shade.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -16329,6 +17843,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Und dafür ____ wir ihm Dank.",
     answer: "schulden",
+    translation: "And for that, we owe him a great vote of thanks.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -16351,6 +17867,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Wir bieten ebenfalls zwei Zimmer mit separatem ____.",
     answer: "Badezimmer",
+    translation: "We also have two rooms with a separate bathroom.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -16373,6 +17891,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "John kann noch nicht ____.",
     answer: "schwimmen",
+    translation: "John doesn't know how to swim yet.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -16396,6 +17916,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     stimulus:
       "Menschliche Wesen ____ emotionale Bindungen, während sie aufwachsen.",
     answer: "formen",
+    translation: "Human beings form emotional attachments as they grow up.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -16418,6 +17940,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Es war ____ und still im Haus.",
     answer: "dunkel",
+    translation: "The house was dark and silent.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -16440,6 +17964,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Jane sagte, sie wolle ____.",
     answer: "siegen",
+    translation: "Jane said she wanted to win.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -16462,6 +17988,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich bin absolut gegen den ____.",
     answer: "Plan",
+    translation: "I'm dead set against the plan.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -16484,6 +18012,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Das war lediglich ein ____.",
     answer: "Zufall",
+    translation: "That was just a coincidence.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -16506,6 +18036,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Du kannst alle ____, die kommen wollen.",
     answer: "einladen",
+    translation: "You may invite whoever wants to come.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -16528,6 +18060,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Es ist nur ein ____.",
     answer: "Scherz",
+    translation: "It is only a joke.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -16550,6 +18084,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Es ist ____ nicht so dreckig.",
     answer: "gewöhnlich",
+    translation: "It's not usually this messy in here.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -16572,6 +18108,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich habe die ____ nicht entworfen.",
     answer: "Form",
+    translation: "I didn't design the form.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -16594,6 +18132,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Der ____ überholte das Auto.",
     answer: "Fahrer",
+    translation: "The driver overtook the car.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -16616,6 +18156,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Jedes auffällige ____ wird gemeldet und untersucht.",
     answer: "Verhalten",
+    translation: "Any unusual behavior is to be reported and investigated.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -16638,6 +18180,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Das Haus hat einen großen ____.",
     answer: "Garten",
+    translation: "The house has a big garden.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -16660,6 +18204,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Dein ____ war ein guter Mensch.",
     answer: "Großvater",
+    translation: "Your grandfather was a good man.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -16683,6 +18229,9 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     stimulus:
       "Man kann dadurch ____ sparen, dass man beim Verlassen eines Zimmers das Licht ausschaltet.",
     answer: "Energie",
+    translation:
+      "You can save energy by turning off the lights when you leave a room.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -16705,6 +18254,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Der ____ der Show war John.",
     answer: "Star",
+    translation: "The star of the show was John.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -16727,6 +18278,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Der Hausherr beschäftigte sich schon früh mit ____.",
     answer: "Kunst",
+    translation: "The landlord already got involved with art quite early on.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -16749,6 +18302,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Hol mir die Stiefel, ____.",
     answer: "Mädel",
+    translation: "Get those boots for me, girl.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -16771,6 +18326,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Der ____ beteiligte sich bei den Spielen der Kinder.",
     answer: "Priester",
+    translation: "The priest participated in the children's games.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -16793,6 +18350,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich will nur den Blutfluss ____.",
     answer: "stoppen",
+    translation: "I only want to stop the loss of blood.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -16815,6 +18374,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Sein ____ hat sich verbessert.",
     answer: "Zustand",
+    translation: "His condition changed for the better.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -16837,6 +18398,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Die ____ ist jetzt geschlossen.",
     answer: "Grenze",
+    translation: "The border is now closed.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -16859,6 +18422,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich habe mein Dorf ____ sehen.",
     answer: "brennen",
+    translation: "I saw my village burn.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -16882,6 +18447,9 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     stimulus:
       "Wenn du ____ hast, sag Bescheid; dann gebe ich dir seine Nummer.",
     answer: "Interesse",
+    translation:
+      "If you're interested, let me know, and I'll give you his number.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -16904,6 +18472,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Sieh mal diesen hohen ____.",
     answer: "Berg",
+    translation: "Look at this high mountain.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -16926,6 +18496,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich brauche ____ Ihre Hilfe.",
     answer: "dringend",
+    translation: "I urgently need your help.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -16948,6 +18520,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Sie können also die Flash-Version dieser Seite ____.",
     answer: "nutzen",
+    translation: "So you can take advantage of the Flash version of this site.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -16970,6 +18544,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Sie konnten keinerlei Geheimnis ____.",
     answer: "entdecken",
+    translation: "They weren't able to discover any secrets.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -16993,6 +18569,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     stimulus:
       "Egal welche Zeitung du liest, die ____ wird immer die gleiche sein.",
     answer: "Story",
+    translation: "Any paper you read will tell the same story.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -17015,6 +18593,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Keine Sorge, ich schlafe ____.",
     answer: "woanders",
+    translation: "It's okay, I'll sleep somewhere else.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -17037,6 +18617,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Du musst deine alten Freunde ____.",
     answer: "aufgeben",
+    translation: "You have to give up your old friends.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -17059,6 +18641,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Wir könnten ____ einen Spaziergang machen.",
     answer: "nachher",
+    translation: "We can take a walk later.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -17081,6 +18665,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Danke, ich bin schon ____.",
     answer: "satt",
+    translation: "Thank you, I'm full.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -17104,6 +18690,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     stimulus:
       "Der Geburtstag meines Vaters fällt in diesem Jahr auf einen ____.",
     answer: "Sonntag",
+    translation: "My father's birthday falls on Sunday this year.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -17126,6 +18714,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "John fragte sich, ____ Jane wohl dachte.",
     answer: "woran",
+    translation: "John wondered what Jane was thinking about.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -17148,6 +18738,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Man geht ____ von montags bis freitags in die Schule.",
     answer: "normalerweise",
+    translation: "You usually go to school from Monday to Friday.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -17170,6 +18762,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Der Kapitän des Schiffes entschied sich den ____ zu ändern.",
     answer: "Kurs",
+    translation: "The captain of the ship decided to change course.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -17192,6 +18786,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Wenn wir ____, steig aus.",
     answer: "anhalten",
+    translation: "When we stop, I want you to get out of the car.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -17214,6 +18810,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Einen schönen Tag der Deutschen ____!",
     answer: "Einheit",
+    translation: "Happy German Unity Day!",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -17236,6 +18834,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich werde meinen ____ darunter legen.",
     answer: "Mantel",
+    translation: "I'm going to put my coat underneath.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -17258,6 +18858,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich werde alles tun, was Sie ____.",
     answer: "verlangen",
+    translation: "I'll do whatever you ask.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -17281,6 +18883,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     stimulus:
       "Wir müssen ____, was die Repression in Argentinien bedeutet hat.",
     answer: "überlegen",
+    translation: "We have to consider what repression meant in Argentina.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -17303,6 +18907,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "John ist einer meiner ____.",
     answer: "Schüler",
+    translation: "John is one of my students.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -17325,6 +18931,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Mit ihr ____ Sie mehr Zeit als mit mir.",
     answer: "verbringen",
+    translation: "You spend more time with her than with me.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -17347,6 +18955,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Das ist die Halskette meiner ____.",
     answer: "Großmutter",
+    translation: "This is my grandmother's necklace.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -17369,6 +18979,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Unsere Grundprinzipien ____ Ausgewogenheit und Stabilität.",
     answer: "lauten",
+    translation: "Our approach is based on equilibrium and stability.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -17391,6 +19003,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Du wirfst alles ____, John.",
     answer: "durcheinander",
+    translation: "You've got I all mixed up, John.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -17413,6 +19027,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Der ____ bräuchte alle vier Schlüssel.",
     answer: "Dieb",
+    translation: "A thief would have to get all four keys.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -17435,6 +19051,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Welche Länder ____ an Deutschland?",
     answer: "grenzen",
+    translation: "What countries border on Germany?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -17457,6 +19075,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich frage mich, ____ sie John gewählt haben.",
     answer: "weshalb",
+    translation: "I wonder why they chose John.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -17479,6 +19099,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Du hast keinen Grund an mir zu ____.",
     answer: "zweifeln",
+    translation: "There's no reason for you to doubt me.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -17501,6 +19123,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "John wurde gestern ein ____ gezogen.",
     answer: "Zahn",
+    translation: "John had a tooth pulled out yesterday.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -17523,6 +19147,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich kann sehr gut ____.",
     answer: "kochen",
+    translation: "I can cook very well.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -17545,6 +19171,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich will mir jedes Wort ____.",
     answer: "merken",
+    translation: "I want to remember every word.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -17567,6 +19195,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich würde das nicht weiter ____.",
     answer: "verfolgen",
+    translation: "I wouldn't pursue this any further.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -17589,6 +19219,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Sie wird immer in unserer ____ weiterleben.",
     answer: "Erinnerung",
+    translation: "She will forever live on in our memories.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -17611,6 +19243,9 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Jede Reform der EU-Verträge muss ____ und ausgewogen erfolgen.",
     answer: "fair",
+    translation:
+      "Any reform of European Union treaties must be fair and balanced.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -17633,6 +19268,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Die Farmer hätten es ____ entdeckt.",
     answer: "längst",
+    translation: "Those farmers would have found it a long time ago.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -17655,6 +19292,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Wir bewegen uns nach ____.",
     answer: "Norden",
+    translation: "We are heading north.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -17677,6 +19316,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Kopenhagen wäre dann genauso ____ und traurig.",
     answer: "einsam",
+    translation: "It would be the same in Copenhagen, lonely and sad.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -17699,6 +19340,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Der ____ sitzt in der Küche.",
     answer: "Koch",
+    translation: "The cook is sitting in the kitchen.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -17721,6 +19364,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Dieses ____ ist wirklich teuer.",
     answer: "Handy",
+    translation: "This cell phone is really expensive.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -17743,6 +19388,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich wohne in einem ländlichen ____.",
     answer: "Gebiet",
+    translation: "I live in a rural area.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -17765,6 +19412,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "In welcher ____ arbeitet ihr?",
     answer: "Abteilung",
+    translation: "In which department do you work?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -17787,6 +19436,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Sie ersetzten ____ durch Öl.",
     answer: "Kohle",
+    translation: "They replaced coal with oil.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -17809,6 +19460,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich sollte aus der Torte ____.",
     answer: "springen",
+    translation: "I was supposed to jump out of the cake.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -17831,6 +19484,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Vielleicht durfte er den ____ nicht verlassen.",
     answer: "Staat",
+    translation: "Maybe he wasn't allowed to leave the state.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -17853,6 +19508,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Das Messer ist nicht ____.",
     answer: "scharf",
+    translation: "The knife is not sharp.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -17875,6 +19532,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Dieses Geschäft ist im wahren Leben ____.",
     answer: "langweilig",
+    translation: "This business is boring in real life.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -17897,6 +19556,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Alle seltenen Dinge sind ____.",
     answer: "teuer",
+    translation: "Every rare thing is expensive.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -17919,6 +19580,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich gebe meiner Katze immer morgens und ____ zu fressen.",
     answer: "abends",
+    translation: "I feed my cat every morning and every evening.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -17942,6 +19605,9 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     stimulus:
       "Unsere berühmten Nachspeisen werden Sie sicherlich ____ begeistern.",
     answer: "ebenso",
+    translation:
+      "You will surely be delighted with our famous desserts as well.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -17964,6 +19630,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Sie sind ____ zu unserer Feier eingeladen.",
     answer: "herzlich",
+    translation: "You are cordially invited to our celebration.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -17986,6 +19654,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ob wir eine Zugabe spielen oder nicht, hängt vom ____ ab.",
     answer: "Publikum",
+    translation: "Whether or not we play an encore, depends on the audience.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -18008,6 +19678,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich will das ____ ausziehen.",
     answer: "Hemd",
+    translation: "I want to take the shirt off.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -18030,6 +19702,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich werde für dich ____.",
     answer: "beten",
+    translation: "I will pray for you.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -18052,6 +19726,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Der ____ hat eine bemerkenswerte Geschichte.",
     answer: "Stuhl",
+    translation: "There is a strange story about that chair.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -18074,6 +19750,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Die ____ hat Ihren Organismus geschwächt.",
     answer: "Krankheit",
+    translation: "The illness has weakened your organism.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -18096,6 +19774,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Das ist allerdings sehr ____.",
     answer: "klug",
+    translation: "That's very clever, though.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -18118,6 +19798,9 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Die Mitgliedstaaten stellen jedem ____ einen Ausweis aus.",
     answer: "Inspektor",
+    translation:
+      "The Member States shall issue an identity document to each inspector.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -18140,6 +19823,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich bin ____ sehr glücklich.",
     answer: "selbstverständlich",
+    translation: "Of course, I'm very happy.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -18162,6 +19847,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Zugleich müssen wir ____ vernünftig bleiben.",
     answer: "jedoch",
+    translation: "At the same time, however, we must remain reasonable.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -18184,6 +19871,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Wir haben besprochen, wer auf den Posten ____ werden sollte.",
     answer: "berufen",
+    translation: "We discussed whom to appoint to the post.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -18206,6 +19895,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "John fing an zu sprechen, doch beschloss dann zu ____.",
     answer: "schweigen",
+    translation: "John started to speak but then decided to remain silent.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -18228,6 +19919,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Mein ____ ist auch Italiener.",
     answer: "Nachbar",
+    translation: "I have an Italian neighbor, too.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -18251,6 +19944,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     stimulus:
       "Ihr kennt diesen ____ nicht, also versucht ihn nicht mitzusingen.",
     answer: "Song",
+    translation: "You don't know this song, so don't try to sing along.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -18273,6 +19968,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "John hat Angst davor, ____ zu werden.",
     answer: "entlassen",
+    translation: "John is afraid he'll be dismissed.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -18295,6 +19992,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Und dann werden wir ihn ____.",
     answer: "begraben",
+    translation: "And then we will bury him.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -18317,6 +20016,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Wir haben viel Schnee im ____.",
     answer: "Winter",
+    translation: "We have a lot of snow in the winter.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -18339,6 +20040,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich persönlich halte diese ____ für ziemlich romantisch.",
     answer: "Vorstellung",
+    translation: "Personally, I conceive this idea as quite romantic, though.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -18362,6 +20065,9 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     stimulus:
       "Menschliche Wesen unterscheiden sich von den Tieren ____, dass sie denken und sprechen können.",
     answer: "dadurch",
+    translation:
+      "Human beings are different from animals in that they can think and speak.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -18384,6 +20090,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich gehe deine Mutter ____.",
     answer: "abholen",
+    translation: "I'm off to pick up your mother.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -18406,6 +20114,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich studiere ____ im Hauptfach.",
     answer: "Medizin",
+    translation: "I am majoring in medicine.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -18428,6 +20138,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich trinke meinen Kaffee lieber ____.",
     answer: "schwach",
+    translation: "I drink my coffee weak.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -18450,6 +20162,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "John hat die ____ bezahlt.",
     answer: "Rechnung",
+    translation: "John paid the bill.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -18472,6 +20186,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Wir haben ____ deine Mutter verloren.",
     answer: "beinahe",
+    translation: "We almost lost your mother.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -18494,6 +20210,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Die ____ bestätigte die Gerüchte.",
     answer: "Presse",
+    translation: "The press confirmed the rumors.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -18516,6 +20234,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Meine ____ fühlte sich behaart an.",
     answer: "Zunge",
+    translation: "My tongue felt like it had hair on it.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -18538,6 +20258,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Nach Ansicht der Wissenschaftler sollte es sofort ____.",
     answer: "wirken",
+    translation: "According to scientists, it should work almost immediately.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -18560,6 +20282,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Du solltest nicht egoistisch ____.",
     answer: "handeln",
+    translation: "You shouldn't act selfishly.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -18582,6 +20306,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich habe sie ____ getroffen.",
     answer: "neulich",
+    translation: "I met her the other day.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -18604,6 +20330,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ein ____ entfremdete die Jungen einander.",
     answer: "Streit",
+    translation: "A dispute estranged one boy from the other.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -18626,6 +20354,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich wollte bloß den Schrank ____.",
     answer: "aufmachen",
+    translation: "I only wanted to open up the cupboard.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -18648,6 +20378,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Du wirst mich nicht ____.",
     answer: "bemerken",
+    translation: "You won't notice me.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -18670,6 +20402,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Es gibt eine separate ____ mit Waschbecken.",
     answer: "Toilette",
+    translation: "There is a separate toilet with a washbasin.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -18692,6 +20426,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Das gestern war ein guter ____.",
     answer: "Trick",
+    translation: "That was a neat trick you did yesterday.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -18714,6 +20450,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Die Einheimischen waren nicht ____.",
     answer: "freundlich",
+    translation: "The locals were not friendly.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -18736,6 +20474,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Es passen ____ zwanzig Menschen in diesen Saal.",
     answer: "knapp",
+    translation: "This room fits barely twenty people.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -18758,6 +20498,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Deswegen kann ich diese Auszeichnung nicht ____.",
     answer: "annehmen",
+    translation: "This is why I can't accept this award.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -18780,6 +20522,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Haben Sie bei ihm einen ____?",
     answer: "Termin",
+    translation: "Do you have an appointment with him?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -18802,6 +20546,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Er ist ____ und Sie sollen das beweisen.",
     answer: "unschuldig",
+    translation: "He is innocent, and we expect you to prove that.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -18824,6 +20570,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Unsere neue Lehrerin kommt ____ von der Uni.",
     answer: "frisch",
+    translation: "Our new teacher is fresh out of college.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -18846,6 +20594,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Lege dich auf den ____.",
     answer: "Bauch",
+    translation: "Lie on your stomach.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -18868,6 +20618,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Dann musst du mich ____.",
     answer: "decken",
+    translation: "Then you will have to cover for me.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -18890,6 +20642,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich muss die Beleuchtung ____.",
     answer: "überprüfen",
+    translation: "I have to check the lights.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -18912,6 +20666,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Unsere Kinder verlangen ständige ____.",
     answer: "Aufmerksamkeit",
+    translation: "Our children always demand our attention.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -18934,6 +20690,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ihr Vater hat unseren geliebten ____ erschossen.",
     answer: "Führer",
+    translation: "Her father shot and killed our beloved leader.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -18956,6 +20714,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Wir müssen uns auf das Schlimmste ____.",
     answer: "vorbereiten",
+    translation: "We need to prepare for the worst.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -18978,6 +20738,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Das zeigt seinen theoretischen ____.",
     answer: "Hintergrund",
+    translation: "That shows his theoretical background.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -19000,6 +20762,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Warte bitte ____ des Hauses.",
     answer: "außerhalb",
+    translation: "Please wait outside the house.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -19022,6 +20786,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Wir haben diese wichtige ____ außer Acht gelassen.",
     answer: "Tatsache",
+    translation: "We have overlooked this important fact.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -19044,6 +20810,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Sie konnte das Problem in zehn Minuten ____.",
     answer: "lösen",
+    translation: "She was able to solve the problem in ten minutes.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -19066,6 +20834,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Jeder Android ist ein ____.",
     answer: "Roboter",
+    translation: "Every android is a robot.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -19088,6 +20858,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Zum Beenden des Textbearbeitungsmodus ____ Sie ESC.",
     answer: "drücken",
+    translation: "To exit the text edit mode, press ESC.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -19110,6 +20882,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Leg dieses Messer sofort ____.",
     answer: "nieder",
+    translation: "Put that knife down now.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -19132,6 +20906,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Sie wollen ____ werden und heiraten.",
     answer: "erwachsen",
+    translation: "They want to grow up and get married.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -19154,6 +20930,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Jetzt musst du ____, Jane.",
     answer: "pressen",
+    translation: "You have to push now, Jane.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -19176,6 +20954,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich werde es für dich ____.",
     answer: "klauen",
+    translation: "I'll steal it for you.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -19198,6 +20978,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Lauf nicht ____ herum im Haus.",
     answer: "nackt",
+    translation: "Don't walk around naked inside the house.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -19220,6 +21002,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Kannst du das hier ____?",
     answer: "unterschreiben",
+    translation: "Can you sign this?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -19242,6 +21026,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Wenn er mir die Wahrheit gesagt hätte, hätte ich ihm ____.",
     answer: "vergeben",
+    translation: "If he had told me the truth, I would have forgiven him.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -19264,6 +21050,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Gehen Sie die ____ hinauf.",
     answer: "Treppe",
+    translation: "Go up the stairs.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -19286,6 +21074,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Eine so kurze ____ wäre mir nicht eingefallen.",
     answer: "Erklärung",
+    translation: "I couldn't think of a brief explanation.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -19308,6 +21098,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich brauche eine ____ für ihn.",
     answer: "Decke",
+    translation: "I need a blanket for him.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -19330,6 +21122,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Bücher zu lesen ist sehr ____.",
     answer: "spannend",
+    translation: "Reading books is very exciting.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -19352,6 +21146,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Am ____ arbeite ich nicht.",
     answer: "Montag",
+    translation: "I don't work on Mondays.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -19375,6 +21171,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     stimulus:
       "Wenn Sie nicht über dieses ____ verfügen, können Sie es jetzt herunterladen.",
     answer: "Programm",
+    translation: "If you do not have this program, you can download it now.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -19397,6 +21195,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Er wurde nicht ____ begraben.",
     answer: "lebendig",
+    translation: "He wasn't buried alive.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -19419,6 +21219,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Wie viel ____ sie an?",
     answer: "bieten",
+    translation: "How much are they offering?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -19441,6 +21243,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Kann man den ____ von Gewalt rechtfertigen?",
     answer: "Einsatz",
+    translation: "Can you justify the use of violence?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -19463,6 +21267,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Das ist echt ____, Jane.",
     answer: "peinlich",
+    translation: "This is really embarrassing, Jane.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -19485,6 +21291,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Die Sahara ist eine ____.",
     answer: "Wüste",
+    translation: "The Sahara is a desert.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -19507,6 +21315,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Der ganze ____ auf dem Berg ist verschwunden.",
     answer: "Schnee",
+    translation: "All the snow on the mountain has disappeared.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -19529,6 +21339,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Sie möchte mit uns allen etwas ____.",
     answer: "besprechen",
+    translation: "She wanted to discuss something with all of us.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -19551,6 +21363,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Moment, ich empfange ein ____.",
     answer: "Signal",
+    translation: "Just a second, I'm picking up a signal.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -19573,6 +21387,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Kennst du den Grund, warum der Himmel ____ aussieht?",
     answer: "blau",
+    translation: "Do you know the reason why the sky looks blue?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -19595,6 +21411,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Davon ist die Kommission nicht ____.",
     answer: "überzeugt",
+    translation: "The Commission is not convinced that this would be the case.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -19617,6 +21435,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Vielleicht sollten wir dir nicht ____.",
     answer: "trauen",
+    translation: "Maybe we shouldn't trust you.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -19639,6 +21459,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich versprach über dich zu ____.",
     answer: "wachen",
+    translation: "I promised to watch over you.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -19661,6 +21483,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Diese Sitte ist uns ____.",
     answer: "fremd",
+    translation: "That custom is foreign to us.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -19683,6 +21507,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Das Essen war ____, Bruder.",
     answer: "ausgezeichnet",
+    translation: "The food was excellent, brother.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -19705,6 +21531,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Der Neustartvorgang kann ____ Minuten dauern.",
     answer: "mehrere",
+    translation: "The reboot operation could take several minutes to complete.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -19727,6 +21555,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich würde dort nicht allein ____.",
     answer: "hingehen",
+    translation: "I wouldn't go there on my own.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -19749,6 +21579,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich wollte dich nicht ____ machen.",
     answer: "eifersüchtig",
+    translation: "I didn't want to make you jealous.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -19771,6 +21603,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Die Eule tötet ihre Jungen und ____ weint sie darüber.",
     answer: "hinterher",
+    translation: "The owl kills her young, and afterward, she cries about it.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -19793,6 +21627,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Bitte ____ Sie die Katze gut!",
     answer: "behandeln",
+    translation: "Please treat the cat well.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -19815,6 +21651,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich kann diese Stille nicht ____.",
     answer: "ertragen",
+    translation: "I cannot bear this silence.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -19837,6 +21675,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Vielleicht will er dann hierher ____.",
     answer: "zurückkommen",
+    translation: "Maybe he will want to come back here.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -19859,6 +21699,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Die ____ behagt mir ganz und gar nicht.",
     answer: "Bedingung",
+    translation: "I am not at all pleased with the condition.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -19881,6 +21723,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich hatte ____ und habe überreagiert.",
     answer: "Unrecht",
+    translation: "I was wrong, and I overreacted.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -19903,6 +21747,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Sie können sich ____ an mich wenden.",
     answer: "jederzeit",
+    translation: "You can contact me anytime.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -19925,6 +21771,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Sie können glänzend oder ____ sein.",
     answer: "matt",
+    translation: "They can be shiny or matt.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -19947,6 +21795,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Sie ist ____ im Hintergrund zu finden.",
     answer: "nirgendwo",
+    translation: "She's nowhere to be found in the background.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -19969,6 +21819,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Sie wollte uns ____ bringen.",
     answer: "auseinander",
+    translation: "She wanted to keep us apart.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -19991,6 +21843,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Sie war ____ nicht die einzige.",
     answer: "offenbar",
+    translation: "She wasn't the only one, apparently.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -20013,6 +21867,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "John will nicht heute ____.",
     answer: "ausgehen",
+    translation: "John doesn't want to go out today.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -20035,6 +21891,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "John schenkt seiner Frau ____ etwas.",
     answer: "selten",
+    translation: "John seldom gives his wife presents.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -20057,6 +21915,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Die sind alle zusammen nicht so ____ wie du.",
     answer: "schlau",
+    translation: "All of them combined aren't as smart as you.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -20079,6 +21939,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Der General inspizierte die ____.",
     answer: "Truppe",
+    translation: "The general inspected the troops.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -20101,6 +21963,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Mitchell könnte deine Hilfe im Computerraum ____.",
     answer: "gebrauchen",
+    translation: "Mitchell could use your help in the computer lab.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -20123,6 +21987,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich werde seinen Koffer nicht ____.",
     answer: "packen",
+    translation: "I'm not going to pack his suitcase.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -20145,6 +22011,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Dieses Gefühl verleiht deiner Arbeit ____.",
     answer: "Bedeutung",
+    translation: "It's that feeling that will give your work meaning.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -20167,6 +22035,9 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Änderungen im Stil-Editor ____ nur das gewählte Objekt.",
     answer: "betreffen",
+    translation:
+      "Changes made in the Style Editor affect only the selected object.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -20189,6 +22060,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Machen Sie den dritten Knopf ihrer teuren ____ zu.",
     answer: "Jacke",
+    translation: "Do up the third button of your expensive jacket.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -20211,6 +22084,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "John wollte nicht mit Jane ____.",
     answer: "streiten",
+    translation: "John didn't want to argue with Jane.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -20233,6 +22108,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich könnte einen ganzen Elefanten ____.",
     answer: "fressen",
+    translation: "I'm so hungry I could eat a whole elephant.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -20255,6 +22132,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Wir müssen nach der Freiheit ____.",
     answer: "greifen",
+    translation: "We must reach out for freedom.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -20277,6 +22156,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Du brauchst die ____ der beiden.",
     answer: "Erlaubnis",
+    translation: "You have to get their permission first.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -20299,6 +22180,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Wir haben die ____ verpasst.",
     answer: "Bahn",
+    translation: "We missed the train.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -20321,6 +22204,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Niemand kann uns hier ____.",
     answer: "kontrollieren",
+    translation: "Nobody can control us here.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -20343,6 +22228,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Nicole hier ist so gelassen wie eine hinduistische ____.",
     answer: "Kuh",
+    translation: "Nicole here is as calm as a Hindu cow.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -20366,6 +22253,9 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     stimulus:
       "Diese Frucht hat die Form einer Orange und den ____ einer Ananas.",
     answer: "Geschmack",
+    translation:
+      "This fruit is shaped like an orange and tastes like a pineapple.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -20388,6 +22278,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Die besten Pläne laufen oft ____.",
     answer: "schief",
+    translation: "The best-laid plans often go awry.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -20410,6 +22302,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Mein Vater ist ____ krank.",
     answer: "ernsthaft",
+    translation: "My father is seriously ill.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -20432,6 +22326,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich rede über die ____ dahinter.",
     answer: "Absicht",
+    translation: "I'm talking about the intention behind it.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -20454,6 +22350,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich werde diese Probe zum ____ weiterleiten.",
     answer: "Labor",
+    translation: "I'll run this specimen over to the laboratory.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -20476,6 +22374,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Wir brauchen einen ____ Benzintank.",
     answer: "extra",
+    translation: "We need an extra gas tank.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -20498,6 +22398,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich muss einen positiven ____ machen.",
     answer: "Eindruck",
+    translation: "I must make a good impression.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -20520,6 +22422,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Es muss ____ von ihr kommen.",
     answer: "anscheinend",
+    translation: "It has to come from her, apparently.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -20542,6 +22446,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich hätte das ____ können.",
     answer: "verhindern",
+    translation: "I could have prevented that.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -20564,6 +22470,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Lasst uns ____, wenn John einverstanden ist.",
     answer: "weitermachen",
+    translation: "Let's carry on if it's okay with John.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -20586,6 +22494,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Wir kriegen fünf ____ pro Tisch.",
     answer: "Prozent",
+    translation: "We get five percent of every table.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -20608,6 +22518,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich muss noch viel Fleisch ____.",
     answer: "schneiden",
+    translation: "I got a whole lot of meat to cut.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -20630,6 +22542,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich will auch nicht ____ werden.",
     answer: "verwirrt",
+    translation: "I don't want to be confused, either.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -20652,6 +22566,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Lieber Mr. Warne, ich bin ____.",
     answer: "erfreut",
+    translation: "My dear Mr. Warne, well, I'm pleased.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -20674,6 +22590,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Aber diese Sachen musst du nicht ____.",
     answer: "erwähnen",
+    translation: "But you don't have to mention those things.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -20696,6 +22614,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Mit viel ____ wurde diese Union möglich.",
     answer: "Mühe",
+    translation: "Much effort has gone into making this union possible",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -20718,6 +22638,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich habe den ____ vergessen.",
     answer: "Code",
+    translation: "I have forgotten the code.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -20740,6 +22662,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Standardmäßig ist die erste ____ des Rasters bereits vorhanden.",
     answer: "Linie",
+    translation: "By default, the first line of the grid is already present.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -20762,6 +22686,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Die Polizei versuchte, die beiden verfeindeten Banden zu ____.",
     answer: "trennen",
+    translation: "The police tried to separate the two hostile gangs.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -20784,6 +22710,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich weiß nichts über ein ____.",
     answer: "Gift",
+    translation: "I don't know anything about any poison.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -20806,6 +22734,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Dinge, die mich ____ sollten, prallen einfach von mir ab.",
     answer: "aufregen",
+    translation: "Things that should upset me just bounce right off.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -20828,6 +22758,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich erhielt einen freundlichen ____.",
     answer: "Brief",
+    translation: "I received a friendly letter.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -20850,6 +22782,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Wir müssen es auf jeden Fall ____.",
     answer: "probieren",
+    translation: "In any case, we've got to try it.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -20872,6 +22806,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Teilnehmer können es auch ____ nutzen.",
     answer: "weiterhin",
+    translation: "Participants can also continue to use it.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -20894,6 +22830,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich sollte Sie nicht ____.",
     answer: "begleiten",
+    translation: "It would be better if l didn't accompany you.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -20916,6 +22854,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Geben Sie keinen ____ ins Wasser.",
     answer: "Zucker",
+    translation: "Don't put any sugar in the water.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -20938,6 +22878,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Wir müssen auch diese Themen ____.",
     answer: "angehen",
+    translation: "We have to address these subjects, too.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -20960,6 +22902,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "So etwas wollen wir nicht ____.",
     answer: "erleben",
+    translation: "This is not something we want to experience.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -20982,6 +22926,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Und versucht bloß nicht zu ____.",
     answer: "fliehen",
+    translation: "And don't think about trying to escape.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -21004,6 +22950,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Damit ist Ihre ____ offiziell beendet.",
     answer: "Untersuchung",
+    translation: "This officially concludes your investigation.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -21026,6 +22974,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Das ist nicht mein ____.",
     answer: "Stil",
+    translation: "It's not my style.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -21048,6 +22998,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Sie ist immer noch in einer ____.",
     answer: "Kiste",
+    translation: "She is still in a box.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -21070,6 +23022,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich wusste nichts von der ____.",
     answer: "Flucht",
+    translation: "I knew nothing about the escape.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -21092,6 +23046,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich bin müde, ____ und ein wenig reizbar.",
     answer: "hungrig",
+    translation: "I'm tired, hungry and just a little bit irritable.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -21114,6 +23070,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Wie oft wäschst du deine ____?",
     answer: "Kleidung",
+    translation: "How often do you wash your clothes?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -21136,6 +23094,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Fehler zu machen, macht uns ____.",
     answer: "menschlich",
+    translation: "Making mistakes is what makes us human.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -21158,6 +23118,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "John und ich kamen ____ dort an.",
     answer: "gleichzeitig",
+    translation: "John and I got there at the same time.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -21181,6 +23143,9 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     stimulus:
       "Wir brauchen noch einmal drei Millionen Dollar, um dieses ____ zu Ende zu führen.",
     answer: "Projekt",
+    translation:
+      "We need another three million dollars to complete this project.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -21203,6 +23168,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Man kann hier keine ____ erwarten.",
     answer: "Gerechtigkeit",
+    translation: "You can't expect justice here.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -21225,6 +23192,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Meine Augen sind eigentlich ____.",
     answer: "grün",
+    translation: "Actually, I have green eyes.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -21247,6 +23216,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Sie wäre ____ für den Job.",
     answer: "spitze",
+    translation: "She would do a great job.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -21269,6 +23240,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich muss meine alte Uniform ____.",
     answer: "anziehen",
+    translation: "I have to put on my old uniform.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -21291,6 +23264,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Sie würde niemanden in ____ wegschicken.",
     answer: "Not",
+    translation: "She won't turn away any man in need.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -21313,6 +23288,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Er versucht seine geheime Identität zu ____.",
     answer: "wahren",
+    translation: "He's trying to maintain his secret identity.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -21335,6 +23312,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Sie möchten die Daten dieser Gruppen ____ halten.",
     answer: "getrennt",
+    translation: "They want to keep the data for these groups separated.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -21357,6 +23336,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Wir sind nicht hier, um zu ____.",
     answer: "punkten",
+    translation: "We are not here to score points.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -21379,6 +23360,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Er wird dir ____ zu kämpfen.",
     answer: "raten",
+    translation: "He will advise you to fight.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -21402,6 +23385,9 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     stimulus:
       "Um eine Republik zu ____, braucht man Politik, nicht nur Schlachten.",
     answer: "gründen",
+    translation:
+      "To establish a Republic we need not only battles but also politics.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -21424,6 +23410,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Wir ____ einen Keil zwischen sie.",
     answer: "treiben",
+    translation: "We will drive a wedge between them.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -21446,6 +23434,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Diese Maschine erzeugt ____ für unseren täglichen Bedarf.",
     answer: "Strom",
+    translation: "This machine produces electricity for our daily use.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -21468,6 +23458,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich bin schwanger, nicht ____.",
     answer: "fett",
+    translation: "I'm pregnant, not fat.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -21490,6 +23482,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Dann ist Ihre Familie sicher sehr ____.",
     answer: "enttäuscht",
+    translation: "Well then, I'm sure your family will be very disappointed.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -21512,6 +23506,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Wann werden wir mit diesem Flug in Berlin ____?",
     answer: "ankommen",
+    translation: "What time will we arrive in Berlin if we take this plane?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -21534,6 +23530,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Wir essen gegen ____ Mittagessen.",
     answer: "Mittag",
+    translation: "We have lunch at about noon.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -21556,6 +23554,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Es kam einer ____ gefährlich nahe.",
     answer: "Explosion",
+    translation: "It was dangerously close to an explosion.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -21578,6 +23578,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Die Bremsen sind manchmal etwas ____.",
     answer: "locker",
+    translation: "The brakes can be a little loose sometimes.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -21600,6 +23602,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich unterwerfe mich der ____ des Gerichts.",
     answer: "Gnade",
+    translation: "I'm throwing myself on the mercy of the court.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -21622,6 +23626,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Kein einziger Fahrgast wollte mir ____.",
     answer: "zuhören",
+    translation: "Not a single passenger would listen to me.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -21644,6 +23650,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Wir werden die Durchführung der Wahlen ____.",
     answer: "beobachten",
+    translation: "We are going to observe the conduct of the elections.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -21666,6 +23674,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Die sind zu ____ für mich.",
     answer: "fein",
+    translation: "They are too fine for me.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -21688,6 +23698,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Gehen Sie zur Tür und ____ an.",
     answer: "klopfen",
+    translation: "Go to the door and knock.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -21710,6 +23722,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Sie sind ein sehr begabter ____.",
     answer: "Künstler",
+    translation: "You're a very gifted artist.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -21732,6 +23746,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Sei heute nicht ____ zu mir.",
     answer: "gemein",
+    translation: "Don't be mean to me today.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -21754,6 +23770,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Wann war John ____ zu spät?",
     answer: "zuletzt",
+    translation: "When was the last time John was late?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -21776,6 +23794,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Die Tochter ____ wir auch bald.",
     answer: "schnappen",
+    translation: "It's just a matter of time until we catch the daughter.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -21798,6 +23818,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich habe es heute ____.",
     answer: "eilig",
+    translation: "I'm in a hurry today.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -21820,6 +23842,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Du musst ihn für mich ____.",
     answer: "festhalten",
+    translation: "I need you to hold him for me.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -21842,6 +23866,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich schreibe meine Telefonnummer auf den ____.",
     answer: "Scheck",
+    translation: "I'll write my phone number on the check.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -21864,6 +23890,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Er ist die längste ____ in der Klasse.",
     answer: "Person",
+    translation: "He is the tallest person in the class.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -21886,6 +23914,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Eine andere Entität muss ____ stecken.",
     answer: "dahinter",
+    translation: "Some other being has to be behind it.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -21908,6 +23938,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ein guter ____ folgt dem Gesetz.",
     answer: "Bürger",
+    translation: "A good citizen obeys the laws.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -21930,6 +23962,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Er hat das ____ getan.",
     answer: "Gegenteil",
+    translation: "He did the opposite.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -21952,6 +23986,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Sonntags ist das Museum nicht ____.",
     answer: "geöffnet",
+    translation: "On Sundays, the museum is not open.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -21974,6 +24010,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Kann ich Ihre Bestellung ____?",
     answer: "aufnehmen",
+    translation: "Can I take your order?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -21996,6 +24034,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich trage die Verantwortung für Janes ____.",
     answer: "Benehmen",
+    translation: "I have to take responsibility for Jane's behavior.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -22018,6 +24058,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich sterbe nicht mit leerem ____.",
     answer: "Magen",
+    translation: "I'm not dying on an empty stomach.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -22040,6 +24082,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Aus dem ____ riecht es sehr ausgereift.",
     answer: "Hof",
+    translation: "It smells pretty ripe out in that yard.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -22062,6 +24106,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Nun will ich meinen Lebenstraum ____.",
     answer: "erfüllen",
+    translation: "Now I want to fulfill my dream.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -22084,6 +24130,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Da kann ich mich besser ____.",
     answer: "verteidigen",
+    translation: "I will be able to defend myself better.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -22106,6 +24154,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Wir sahen eine alte ____ am Waldesrand stehen.",
     answer: "Hütte",
+    translation: "We saw an old hut standing at the margin of the forest.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -22128,6 +24178,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Alles auf der Welt ist mit allem anderen ____.",
     answer: "verbunden",
+    translation: "Everything in the world is connected to everything else.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -22150,6 +24202,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Die ____ stellt Elektroherde her.",
     answer: "Fabrik",
+    translation: "This factory manufactures electric stoves.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -22172,6 +24226,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Den Fehler werde ich gewiss nie ____.",
     answer: "wiederholen",
+    translation: "Never again will I make that mistake.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -22194,6 +24250,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Wir sollten im Park ____ gehen.",
     answer: "spazieren",
+    translation: "We should go for a walk in the park.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -22216,6 +24274,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Wir werden Sie aus dem Fahrstuhl ____.",
     answer: "befreien",
+    translation: "We will free you from the elevator.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -22238,6 +24298,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Diesen neuen ____ empfehlen wir vorbehaltlos.",
     answer: "Titel",
+    translation: "This is the title which we warmly recommend.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -22260,6 +24322,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Hast du ____ einen Partner gefunden?",
     answer: "inzwischen",
+    translation: "Have you found a partner by now?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -22282,6 +24346,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Als Erstes müssen Sie diese ____ loswerden.",
     answer: "Uniform",
+    translation: "First, you have to get rid of that uniform.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -22304,6 +24370,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Mein ____ hat einen Kollegen.",
     answer: "Kollege",
+    translation: "My colleague has a colleague.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -22326,6 +24394,9 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Sie stand in dem Ruf, sehr ____ gegen ihre Kinder zu sein.",
     answer: "streng",
+    translation:
+      "She had the reputation of being very strict with her children.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -22349,6 +24420,9 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     stimulus:
       "Ich erwog, die Arbeit zu ____, doch letztlich entschied ich mich dagegen.",
     answer: "wechseln",
+    translation:
+      "I considered changing my job, but in the end, I decided not to.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -22372,6 +24446,9 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     stimulus:
       "Ich lebe in einem Land, in dem ein Liter ____ billiger als ein Liter Wasser ist.",
     answer: "Benzin",
+    translation:
+      "I live in a country where a liter of petrol is cheaper than a liter of water.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -22394,6 +24471,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Könnt ihr es mir ____?",
     answer: "bestellen",
+    translation: "Can you order it for me?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -22416,6 +24495,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "John sagte, dass wir ohne ihn ____ können.",
     answer: "starten",
+    translation: "John says we can start without him.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -22438,6 +24519,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Sie dürfen die Spieler nicht ____.",
     answer: "anfassen",
+    translation: "You aren't allowed to touch the players.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -22460,6 +24543,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Er ist ____ schon tot.",
     answer: "praktisch",
+    translation: "He is practically dead.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -22482,6 +24567,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Sie können euch entweder beschützen oder ____.",
     answer: "vernichten",
+    translation: "They can be used to protect you or destroy you.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -22504,6 +24591,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich habe heute so viel zu ____.",
     answer: "waschen",
+    translation: "I've got so much wash to do today.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -22526,6 +24615,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich halte diesen Vorschlag für sehr ____.",
     answer: "vernünftig",
+    translation: "I believe that this is a very reasonable proposal.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -22548,6 +24639,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich stehe ____ unter Druck.",
     answer: "dauernd",
+    translation: "I'm constantly under pressure.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -22570,6 +24663,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Sie ____ ihn von Kopf bis Fuß.",
     answer: "untersuchen",
+    translation: "They are examining him from top to bottom.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -22592,6 +24687,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich wollte nur ____ und warten.",
     answer: "herkommen",
+    translation: "I only wanted to come here and wait.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -22614,6 +24711,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich hätte nie erwartet, ihm dort zu ____.",
     answer: "begegnen",
+    translation: "Never did I expect that I would meet him there.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -22636,6 +24735,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Blumen ____ in warmen Ländern.",
     answer: "wachsen",
+    translation: "Flowers grow in warm countries.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -22658,6 +24759,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich hatte ____ ein Problem mit dem Gerät.",
     answer: "ebenfalls",
+    translation: "I also had a problem with the machine.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -22680,6 +24783,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich kann die Hitze von hier ____.",
     answer: "spüren",
+    translation: "I can feel the heat from here.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -22702,6 +24807,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich würde diese ____ gegen nichts eintauschen.",
     answer: "Freundschaft",
+    translation: "I wouldn't exchange that friendship for anything.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -22724,6 +24831,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Du kannst deinem Körper nichts Schlimmeres ____.",
     answer: "antun",
+    translation: "It's the worst thing you could do to your body.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -22746,6 +24855,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich will nicht ihre Sicherheit ____.",
     answer: "riskieren",
+    translation: "I am unwilling to risk her safety.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -22768,6 +24879,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Normalerweise gehe ich am Freitag auf den ____.",
     answer: "Markt",
+    translation: "I usually go to the market on Friday.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -22790,6 +24903,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Sie erinnern mich an einen entfernten ____.",
     answer: "Cousin",
+    translation: "You remind me of a distant cousin.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -22812,6 +24927,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Danke für die schnelle ____.",
     answer: "Aufnahme",
+    translation: "Thank you for the quick admission.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -22834,6 +24951,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Jane grub ihre Zehen in den warmen ____.",
     answer: "Sand",
+    translation: "Jane buried her toes in the warm sand.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -22856,6 +24975,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Wir sind gleich alt, aber ____ groß.",
     answer: "verschieden",
+    translation: "We are the same age, but different heights.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -22878,6 +24999,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Vergiss nicht, den ____ rauszubringen.",
     answer: "Müll",
+    translation: "Don't forget to take out the garbage.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -22900,6 +25023,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "John wäscht sich ____ die Hände, bevor er etwas isst.",
     answer: "stets",
+    translation: "John always washes his hands before eating anything.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -22922,6 +25047,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Wir können nicht ins ____ gehen.",
     answer: "Studio",
+    translation: "We cannot go into the studio.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -22944,6 +25071,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich will, dass unsere Beziehung ____ bleibt.",
     answer: "geheim",
+    translation: "I want to keep our relationship secret.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -22966,6 +25095,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Die ____ hat mich heute sitzen lassen.",
     answer: "Ratte",
+    translation: "Actually, the rat stood me up today.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -22988,6 +25119,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Der Ausdruck muss eine gültige Datensatznummer ____.",
     answer: "ergeben",
+    translation: "The expression must result in a valid record number.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -23010,6 +25143,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Wir müssen eine neue von Energie ____.",
     answer: "entwickeln",
+    translation: "We need to develop a new kind of energy.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -23032,6 +25167,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Sie hat eine perfekte ____.",
     answer: "Figur",
+    translation: "She has a perfect figure.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -23054,6 +25191,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Er war sich der Gefahr ____.",
     answer: "bewusst",
+    translation: "He was aware of the danger.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -23076,6 +25215,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Meine Uhr gibt das ____ an.",
     answer: "Datum",
+    translation: "My watch tells the date.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -23098,6 +25239,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich machte auch gerade eine ____ durch.",
     answer: "Scheidung",
+    translation: "Anyway, I was also going through a divorce.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -23120,6 +25263,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich kann eine Antenne problemlos ____.",
     answer: "reparieren",
+    translation: "I can repair a broken aerial, no problem.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -23142,6 +25287,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich weiß, wie ____ es auf dem College ist.",
     answer: "geil",
+    translation: "I know how awesome college is.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -23164,6 +25311,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Kann ich euch irgendwie ____?",
     answer: "überzeugen",
+    translation: "Is there any way I can convince you?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -23186,6 +25335,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Oder verfolge einen echten ____.",
     answer: "Verbrecher",
+    translation: "Or you can go after a real criminal.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -23208,6 +25359,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich wollte deine Rede nicht ____.",
     answer: "ruinieren",
+    translation: "I didn't want to ruin your speech.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -23230,6 +25383,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich kann damit im Moment nicht ____.",
     answer: "umgehen",
+    translation: "I can't deal with this right now.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -23252,6 +25407,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "John ist noch nicht soweit, Besuch zu ____.",
     answer: "empfangen",
+    translation: "John isn't ready yet to receive visitors.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -23274,6 +25431,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich mache diesem vergifteten ____ ein Ende.",
     answer: "Universum",
+    translation: "And I will put an end to this poisoned universe.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -23296,6 +25455,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Es ist im ____ hinter den Spirituosenflaschen.",
     answer: "Schrank",
+    translation: "It's in the cabinet behind the liquor bottles.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -23318,6 +25479,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Der ____ war gar nicht platt.",
     answer: "Reifen",
+    translation: "The tire was not flat after all.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -23340,6 +25503,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich habe fünfzehn Jahre lang ____ Klavier geübt.",
     answer: "täglich",
+    translation: "I have practiced the piano every day for fifteen years.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -23362,6 +25527,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Sie können auf dieser Basis Ihre eigenen Übungen ____.",
     answer: "erfinden",
+    translation: "Using this basis you can try to invent your own exercises.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -23384,6 +25551,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Weißt du, wann John ____ wird?",
     answer: "zurückkehren",
+    translation: "Do you know when John will be back?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -23406,6 +25575,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "John ist der ____ dieses Grundstücks.",
     answer: "Besitzer",
+    translation: "John is the owner of this land.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -23428,6 +25599,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Wir sollten unsere Eltern ____.",
     answer: "achten",
+    translation: "We should respect our parents.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -23450,6 +25623,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Es ist ein ____, John.",
     answer: "Notfall",
+    translation: "It's an emergency, John.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -23473,6 +25648,9 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     stimulus:
       "Diese und ____ noch andere Sätze müssen aus dem Korpus entfernt werden.",
     answer: "möglicherweise",
+    translation:
+      "These and possibly other sentences need to be removed from the corpus.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -23495,6 +25673,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Dazu möchte ich Jane ____.",
     answer: "gratulieren",
+    translation: "I would like to congratulate Jane on this.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -23517,6 +25697,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Mit seiner ____ sollte man nicht spielen.",
     answer: "Gesundheit",
+    translation: "You shouldn't play games with your health.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -23539,6 +25721,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Die ____ wird erst mit Zahlungseingang versandt.",
     answer: "Ware",
+    translation: "The goods will be shipped with receipt of payment.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -23561,6 +25745,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Sprechen Sie langsam und ____.",
     answer: "deutlich",
+    translation: "Speak slowly and clearly.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -23583,6 +25769,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Sie wollte auch ____ werden.",
     answer: "berühmt",
+    translation: "She wanted to be famous, too.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -23605,6 +25793,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich erreichte den Zug ____.",
     answer: "rechtzeitig",
+    translation: "I got there in time for the train.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -23627,6 +25817,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Unsere Gäste fühlen sich ____ versorgt.",
     answer: "bestens",
+    translation: "Our guests are very well looked after.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -23649,6 +25841,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Wir ____ Sprachenliebhaber aus aller Welt.",
     answer: "vereinigen",
+    translation: "We unite language lovers from all over the world.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -23671,6 +25865,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "John ist nicht mehr der Mann, der er ____ war.",
     answer: "einst",
+    translation: "John isn't the man he once used to be.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -23693,6 +25889,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Jane war die letzte, die John ____ gesehen hat.",
     answer: "lebend",
+    translation: "Jane was the last person to see John alive.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -23715,6 +25913,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Er fuhr von ____ nach Ost.",
     answer: "West",
+    translation: "He was heading west to east.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -23737,6 +25937,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich bin ein ____ der Mannschaft.",
     answer: "Mitglied",
+    translation: "I'm a member of the team.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -23759,6 +25961,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Die Kinder beschuldigten sich ____.",
     answer: "gegenseitig",
+    translation: "The children blamed each other.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -23781,6 +25985,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Du musst den König von Spanien als dein Oberhaupt ____.",
     answer: "akzeptieren",
+    translation: "You must accept the king of Spain as your leader.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -23803,6 +26009,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Männer sind genauso ____ wie Frauen.",
     answer: "neugierig",
+    translation: "Men are just as curious as women.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -23825,6 +26033,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Wir müssen auch John ____.",
     answer: "warnen",
+    translation: "We've got to warn John as well.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -23847,6 +26057,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich möchte in deinen Armen ____.",
     answer: "aufwachen",
+    translation: "I want to wake up in your arms.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -23869,6 +26081,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Der Mann ____ ist mein Freund.",
     answer: "daneben",
+    translation: "The man next to it is my friend.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -23891,6 +26105,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich konnte nicht zur ____ kommen.",
     answer: "Beerdigung",
+    translation: "I couldn't come to the funeral.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -23913,6 +26129,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Du wirst in Schwierigkeiten ____.",
     answer: "geraten",
+    translation: "You'll get into trouble.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -23935,6 +26153,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Das ____ funktioniert nicht bei allen Vampiren.",
     answer: "Kreuz",
+    translation: "The cross does not work on all vampires.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -23957,6 +26177,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Sie ____ dieses Stück Land schon seit Generationen.",
     answer: "besitzen",
+    translation: "They have owned this land for generations.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -23979,6 +26201,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Wir wollten eine neue Welt ____.",
     answer: "erschaffen",
+    translation: "We wanted to create a new world.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -24001,6 +26225,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Und jetzt seid ____ und geht schlafen.",
     answer: "brav",
+    translation: "Well, now, be good and go back to sleep.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -24023,6 +26249,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Wisst ihr, wo wir uns ____?",
     answer: "befinden",
+    translation: "Do you know where we are?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -24045,6 +26273,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Wir testen gerade eine ____ neue Methode.",
     answer: "komplett",
+    translation: "We are trying a completely new method.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -24067,6 +26297,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Diese Schuhe sind zu ____.",
     answer: "eng",
+    translation: "These shoes are too tight.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -24089,6 +26321,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Die ____ ist mir zu abstrakt.",
     answer: "Theorie",
+    translation: "The theory is too abstract for me.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -24111,6 +26345,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "John ist ein hervorragender ____.",
     answer: "Pilot",
+    translation: "John is an excellent pilot.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -24133,6 +26369,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Die Kinder ____ auch ständig.",
     answer: "lärmen",
+    translation: "The children make a lot of noise, too.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -24155,6 +26393,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Der ____ macht mich krank.",
     answer: "Gedanke",
+    translation: "The thought of it makes me sick.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -24177,6 +26417,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Wir benutzen ____ falsche Namen.",
     answer: "meistens",
+    translation: "We mostly use fake names.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -24199,6 +26441,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Jetzt wird sie sich bestimmt ____.",
     answer: "entspannen",
+    translation: "I'm sure she'll relax now.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -24221,6 +26465,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Das ist die harte ____ unseres Berufs.",
     answer: "Realität",
+    translation: "It's the harsh reality of our profession.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -24243,6 +26489,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "John versuchte, Jane zum Aufhören zu ____.",
     answer: "zwingen",
+    translation: "John tried to force Jane to quit.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -24265,6 +26513,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Es ist ____ fair, John.",
     answer: "äußerst",
+    translation: "Yes, it's extremely fair, John.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -24287,6 +26537,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Die Mitglieder können aber seine Auflösung ____.",
     answer: "beschließen",
+    translation: "The members can, however, decide to dissolve it.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -24309,6 +26561,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Forschen Sie nach der ____!",
     answer: "Ursache",
+    translation: "Investigate the cause of it.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -24331,6 +26585,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich werde nicht ____, dass du ihr etwas tust.",
     answer: "zulassen",
+    translation: "I won't let you harm her.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -24353,6 +26609,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ein ____ ins Dunkle ist besser als nichts.",
     answer: "Schuss",
+    translation: "A shot in the dark is better than nothing.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -24375,6 +26633,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich würde die ____ gern bezahlen.",
     answer: "Suppe",
+    translation: "I'd like to pay for the soup.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -24398,6 +26658,9 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     stimulus:
       "Das Erdbeben führte zu einer Katastrophe, größer als jede, die das ____ je gesehen hatte.",
     answer: "Land",
+    translation:
+      "The earthquake caused a catastrophe greater than any the country had ever known.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -24420,6 +26683,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Du hast unsere volle ____.",
     answer: "Unterstützung",
+    translation: "You have our full support.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -24442,6 +26707,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Der Mann wurde der Polizei ____.",
     answer: "übergeben",
+    translation: "The man was handed over to the police.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -24464,6 +26731,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich bin rausgegangen, um Kaninchen zu ____.",
     answer: "jagen",
+    translation: "I came out to hunt rabbits.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -24486,6 +26755,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Jetzt lass uns zur Schule ____.",
     answer: "eilen",
+    translation: "Now let's hurry to school.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -24508,6 +26779,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Aus meiner ____ hast du Unrecht.",
     answer: "Sicht",
+    translation: "In my view, you are wrong.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -24530,6 +26803,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Unsere Footballmannschaft hat eine gute ____.",
     answer: "Verteidigung",
+    translation: "Our football team has a good defense.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -24552,6 +26827,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich finde John wirklich ____.",
     answer: "sexy",
+    translation: "I think John is really sexy.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -24574,6 +26851,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Das Essen war nicht gut, aber ____ preiswert.",
     answer: "immerhin",
+    translation: "The food wasn't good, but at least it was cheap.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -24596,6 +26875,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Fahrräder haben keine ____.",
     answer: "Flügel",
+    translation: "There are no wings on bicycles.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -24618,6 +26899,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Es muss sehr ____ sein, was du tust.",
     answer: "aufregend",
+    translation: "It must be very exciting what you do.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -24640,6 +26923,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Es gibt keinerlei Anzeichen von ____.",
     answer: "Krebs",
+    translation: "There's no sign of cancer at all.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -24662,6 +26947,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich drücke den ____ aber nichts passiert.",
     answer: "Knopf",
+    translation: "I keep pressing the button, and nothing is happening.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -24684,6 +26971,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich komme zu spät zu einer anderen ____.",
     answer: "Verabredung",
+    translation: "I'm late for another appointment.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -24706,6 +26995,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Herzprobleme können manchmal ____ und schwerwiegend sein.",
     answer: "auftreten",
+    translation: "Heart problems can sometimes occur and can be serious.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -24728,6 +27019,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Er will eine neue ____.",
     answer: "Stellung",
+    translation: "He is looking for a new position.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -24750,6 +27043,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Seine Antwort war nicht ____.",
     answer: "negativ",
+    translation: "His answer was not negative.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -24772,6 +27067,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Darauf müssen wir unsere Aufmerksamkeit ____.",
     answer: "richten",
+    translation: "This is what we must focus our attention on.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -24794,6 +27091,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich bin heute Morgen am ____ angekommen.",
     answer: "Bahnhof",
+    translation: "I got to the station this morning.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -24816,6 +27115,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Sie ist nicht ____ zu lügen.",
     answer: "fähig",
+    translation: "She isn't capable of lying.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -24838,6 +27139,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Wir besorgen dir gleich einen ____.",
     answer: "Krankenwagen",
+    translation: "We'll get you an ambulance right away.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -24860,6 +27163,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Der ____ lobte seine Verdienste.",
     answer: "Manager",
+    translation: "The manager complimented him on his achievement.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -24883,6 +27188,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     stimulus:
       "Nachdem du jeden ____ gehört hast, schreibe einen kurzen Bericht.",
     answer: "Text",
+    translation: "After listening to each text, write a short report.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -24905,6 +27212,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Der Unfall ist ihm noch lebhaft im ____.",
     answer: "Gedächtnis",
+    translation: "The accident is still vivid in his memory.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -24927,6 +27236,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Eine leere Seite wird im Arbeitsbereich ____.",
     answer: "erscheinen",
+    translation: "A blank page will appear in the working area.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -24949,6 +27260,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Er verschrieb sein ganzes Leben der ____.",
     answer: "Wissenschaft",
+    translation: "He devoted his whole life to science.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -24971,6 +27284,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Soll ich mein Hemd ____?",
     answer: "ausziehen",
+    translation: "Should I take off my shirt?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -24993,6 +27308,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Eine ____ von Dieben brach in die Bank ein.",
     answer: "Bande",
+    translation: "A gang of thieves broke into the bank.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -25015,6 +27332,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich möchte ein ____ Kleid haben.",
     answer: "rosa",
+    translation: "I'd like to have a pink dress.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -25037,6 +27356,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "John, du kannst dich ____.",
     answer: "umdrehen",
+    translation: "John, you can turn around.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -25059,6 +27380,9 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Fragen oder Anregungen zu unserem Produkt ____ wir gerne.",
     answer: "beantworten",
+    translation:
+      "We are happy to answer questions and suggestions about our product.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -25081,6 +27405,9 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Betriebswirtschaftslehre wird nicht immer aus ____ studiert.",
     answer: "Leidenschaft",
+    translation:
+      "Business administration is not always studied out of a passion for the subject.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -25103,6 +27430,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Streifen nicht mit der Nadel ____.",
     answer: "berühren",
+    translation: "Do not allow the needle to touch the strip.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -25125,6 +27454,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich wollte eure ____ nicht belauschen.",
     answer: "Unterhaltung",
+    translation: "I didn't mean to eavesdrop on your conversation.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -25148,6 +27479,9 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     stimulus:
       "Eine Woche hat sieben Tage: Montag, Dienstag, Mittwoch, ____, Freitag, Samstag und Sonntag.",
     answer: "Donnerstag",
+    translation:
+      "A week has seven days: Monday, Tuesday, Wednesday, Thursday, Friday, Saturday and Sunday.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -25170,6 +27504,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Wir sollten dem ____ gehorchen.",
     answer: "Gesetz",
+    translation: "We ought to obey the law.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -25192,6 +27528,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Wir sollen nur nachschauen und ____.",
     answer: "berichten",
+    translation: "We should only check and report.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -25214,6 +27552,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Okay, du hattest einen schlechten ____.",
     answer: "Start",
+    translation: "Okay, so you had a rough start.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -25236,6 +27576,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Sie möchten mich nicht ____.",
     answer: "loswerden",
+    translation: "They don't want to get rid of me.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -25258,6 +27600,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "John erläuterte Jane den ____ des Projekts.",
     answer: "Zweck",
+    translation: "John explained the purpose of the project to Jane.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -25281,6 +27625,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     stimulus:
       "An kalten Tagen können Sie bei uns ein elektrisches Heizgerät ____.",
     answer: "mieten",
+    translation: "On cold days you can rent an electric heating radiator.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -25303,6 +27649,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Es gibt da ____ einige Punkte, die erwägenswert sind.",
     answer: "sicherlich",
+    translation: "There are certainly some points worth considering.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -25325,6 +27673,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Wir brauchen eine politische ____.",
     answer: "Revolution",
+    translation: "We need a political revolution.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -25347,6 +27697,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "____ und Ananas gehören nicht in denselben Luftraum.",
     answer: "Pizza",
+    translation: "Pizza and pineapple do not belong in the same airspace.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -25369,6 +27721,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Er will mir ein Cabrio ____.",
     answer: "schenken",
+    translation: "He wants to give me a convertible.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -25391,6 +27745,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Fünf ____ drei gleich acht.",
     answer: "plus",
+    translation: "Five plus three is eight.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -25413,6 +27769,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Alle Objekte ____ aus dem Motelzimmer.",
     answer: "stammen",
+    translation: "All the objects come from the motel room.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -25435,6 +27793,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Das ist ja auch keine echte ____.",
     answer: "Kanone",
+    translation: "This is not a real gun.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -25457,6 +27817,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich würde gern in Südamerika ____.",
     answer: "malen",
+    translation: "I'd like to go and paint in South America.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -25479,6 +27841,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "John ist ____ kälteempfindlich.",
     answer: "erstaunlich",
+    translation: "John is surprisingly sensitive to cold.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -25501,6 +27865,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Du kannst mich nicht dafür ____.",
     answer: "bestrafen",
+    translation: "You can't punish me for that.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -25523,6 +27889,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Du hast mein ____ im Krieg gesehen.",
     answer: "Versagen",
+    translation: "You saw my failure in the war.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -25545,6 +27913,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "John ist ein guter ____.",
     answer: "Schauspieler",
+    translation: "John is a good actor.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -25567,6 +27937,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich weiß, dass John ____ war.",
     answer: "unglücklich",
+    translation: "I know John was unhappy.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -25589,6 +27961,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Der ____ notierte alles, was gesagt wurde.",
     answer: "Reporter",
+    translation: "The reporter took down everything that was said.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -25611,6 +27985,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Er ist blind, nicht ____.",
     answer: "taub",
+    translation: "He is blind, not deaf.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -25633,6 +28009,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "John kann sich nicht ____.",
     answer: "konzentrieren",
+    translation: "John can't concentrate.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -25655,6 +28033,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Eigentlich wollte ich dich heute ____.",
     answer: "beeindrucken",
+    translation: "The truth is, I meant to impress you tonight.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -25677,6 +28057,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Die ____ sah wunderschön aus.",
     answer: "Braut",
+    translation: "The bride looked stunning.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -25699,6 +28081,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Meine Freundschaft mit Jane ist ____.",
     answer: "kompliziert",
+    translation: "My friendship with Jane is complicated.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -25721,6 +28105,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich habe ein beachtliches ____ aufgegeben.",
     answer: "Vermögen",
+    translation: "I've just given up a sizable fortune.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -25743,6 +28129,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Das ist bloß eine städtische ____.",
     answer: "Legende",
+    translation: "It is only an urban legend.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -25765,6 +28153,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "John konnte seine ____ nicht unterdrücken.",
     answer: "Wut",
+    translation: "John could not suppress his anger.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -25787,6 +28177,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Es ist nicht an uns das Urteil zu ____.",
     answer: "fällen",
+    translation: "The judgment isn't ours to make.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -25809,6 +28201,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Wir haben nicht genug ____ dabei.",
     answer: "Seil",
+    translation: "We don't have enough rope.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -25831,6 +28225,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Versuche, zu allen Dingen eine positive ____ einzunehmen.",
     answer: "Einstellung",
+    translation: "Try to have a positive attitude about everything.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -25853,6 +28249,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Sie ____, John wusste nichts davon.",
     answer: "behaupten",
+    translation: "They claim John didn't know anything about it.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -25875,6 +28273,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Natürlich werden wir alle Gewalttaten ____.",
     answer: "verurteilen",
+    translation: "Of course, we will condemn all acts of violence.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -25897,6 +28297,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Die ____ des Objekts ist unwichtig.",
     answer: "Höhe",
+    translation: "The height of the object is not important.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -25919,6 +28321,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Wenigstens war ich freiwillig eine ____.",
     answer: "Jungfrau",
+    translation: "At least I was a virgin by choice.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -25941,6 +28345,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Mir tut die ____ weh.",
     answer: "Schulter",
+    translation: "My shoulder hurts.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -25963,6 +28369,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ihr werdet euch daran ____.",
     answer: "gewöhnen",
+    translation: "You will get used to it.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -25985,6 +28393,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich fand den wilden ____ etwas übertrieben.",
     answer: "Applaus",
+    translation: "I thought the wild applause was a bit excessive.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -26007,6 +28417,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Der Zweck heiligt die ____.",
     answer: "Mittel",
+    translation: "The end justifies the means.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -26029,6 +28441,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "John will nach ____ gehen.",
     answer: "Japan",
+    translation: "John wants to go to Japan.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -26051,6 +28465,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Jane war hier in der ____.",
     answer: "Klinik",
+    translation: "Jane was here at the clinic.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -26073,6 +28489,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Man sollte immer die Beweise ____.",
     answer: "verbrennen",
+    translation: "It's always better to burn the evidence.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -26095,6 +28513,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Was sollte ich tun, um Zeit zu ____?",
     answer: "sparen",
+    translation: "What should I do to save time?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -26117,6 +28537,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich habe kein Recht über jemanden zu ____.",
     answer: "urteilen",
+    translation: "I have no right to judge you or any man.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -26139,6 +28561,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Aber zunächst möchte ich etwas ____.",
     answer: "klären",
+    translation: "But first, there's something I'd like to clarify.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -26161,6 +28585,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich muss mir Ihre Tasche ____.",
     answer: "anschauen",
+    translation: "I need to take a look at your bag.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -26183,6 +28609,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich nehme die ____ nicht an.",
     answer: "Einladung",
+    translation: "I don't accept the invitation.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -26205,6 +28633,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Aber Großvater, wir wollten bleiben und ____.",
     answer: "zusehen",
+    translation: "But, Grandpa, we wanted to stay and watch.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -26227,6 +28657,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Sie sollten diese doppelten Einträge ____.",
     answer: "entfernen",
+    translation: "You should remove these duplicate entries.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -26249,6 +28681,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Es bringt uns weder Geld noch ____.",
     answer: "Ruhm",
+    translation: "It will bring us neither money nor fame.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -26271,6 +28705,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Kannst du ein Geheimnis ____?",
     answer: "bewahren",
+    translation: "Can you keep a secret?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -26293,6 +28729,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Es ist nur ein ____, den ich habe.",
     answer: "Verdacht",
+    translation: "It is just a suspicion I have.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -26315,6 +28753,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Sie ist ein ____ der italienischen Oper.",
     answer: "Fan",
+    translation: "She's a fan of Italian opera.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -26337,6 +28777,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Die Kinder waren so laut, dass ich nicht ____ konnte.",
     answer: "studieren",
+    translation: "The children were so noisy that I couldn't study.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -26359,6 +28801,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Als ____ habe ich Spaghetti gemacht.",
     answer: "Belohnung",
+    translation: "As a reward, I made spaghetti.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -26381,6 +28825,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich kann diesen Behälter nicht ____.",
     answer: "heben",
+    translation: "I cannot lift this box.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -26403,6 +28849,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "In diesem ____ sollte man auch weiterkommen.",
     answer: "Bereich",
+    translation: "We should also be able to make progress in this area.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -26425,6 +28873,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "John ist Student an der ____.",
     answer: "Universität",
+    translation: "John is a university student.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -26447,6 +28897,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Das Haus, das auf dem ____ steht, ist sehr alt.",
     answer: "Hügel",
+    translation: "The house which stands on the hill is very old.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -26469,6 +28921,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Wohltätigkeit ist keine ____, Jane.",
     answer: "Sünde",
+    translation: "There's no sin in charity, Jane.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -26491,6 +28945,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Das neue Auto durchlief ____ alle Tests.",
     answer: "erfolgreich",
+    translation: "The new car underwent its tests successfully.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -26513,6 +28969,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Aber vielleicht sind andere ebenso ____.",
     answer: "hervorragend",
+    translation: "But also, someone else might be just as excellent.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -26535,6 +28993,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Setze es nicht dem ____ aus.",
     answer: "Regen",
+    translation: "Don't expose it to the rain.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -26557,6 +29017,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Aus dem ____ kam das dumpfe Geräusch einer Zugpfeife.",
     answer: "Tunnel",
+    translation: "The muted sound of a train whistle came from the tunnel.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -26579,6 +29041,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Du kannst mich hier nicht ____.",
     answer: "einsperren",
+    translation: "You can't lock me up here.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -26601,6 +29065,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Das erscheint mir ein bisschen ____.",
     answer: "albern",
+    translation: "That seems a little silly to me.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -26623,6 +29089,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Wir brauchen einen ____, bitte.",
     answer: "Ausweis",
+    translation: "We need an ID, please.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -26645,6 +29113,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "An der nächsten Station müssen Sie ____.",
     answer: "aussteigen",
+    translation: "The next station is where you get off.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -26667,6 +29137,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "So kann es nicht ____.",
     answer: "weitergehen",
+    translation: "It can't go on like this.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -26689,6 +29161,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich liebe diesen ____ über alles.",
     answer: "See",
+    translation: "I love this lake more than anything else.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -26711,6 +29185,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Das ist natürlich eine interne ____.",
     answer: "Angelegenheit",
+    translation: "That is, of course, an internal matter.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -26733,6 +29209,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Sie werden es auf der Couch ____ haben.",
     answer: "bequem",
+    translation: "You'll be more comfortable on the couch.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -26755,6 +29233,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Gehen Sie auf ihre ____.",
     answer: "Posten",
+    translation: "Go to your posts.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -26777,6 +29257,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Sie sind wie Taschentücher, ____ und wegwerfbar.",
     answer: "weich",
+    translation: "They are like Kleenex, soft and disposable.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -26799,6 +29281,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Die Fotos dürfen nicht ____ werden.",
     answer: "nass",
+    translation: "The photos cannot get wet.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -26821,6 +29305,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Das ist der Lebensmittelladen, wo sie ____.",
     answer: "einkaufen",
+    translation: "This is the grocery store where they shop.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -26843,6 +29329,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ist deine Mama auch ____?",
     answer: "daheim",
+    translation: "Is your mum at home, too?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -26865,6 +29353,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Diese ____ umgibt den ganzen Park.",
     answer: "Mauer",
+    translation: "This wall surrounds the whole park.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -26887,6 +29377,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Ich garantiere dafür, dass diese Information ____ ist.",
     answer: "korrekt",
+    translation: "I guarantee that this information is correct.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",
@@ -26909,6 +29401,8 @@ export const sentenceClozeTier1: ExerciseItem[] = [
     prompt: "Fill in the missing word:",
     stimulus: "Er wollte Frauen und Kinder ____.",
     answer: "überfallen",
+    translation: "He wanted to attack women and children.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "vocab",

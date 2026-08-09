@@ -7,7 +7,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-001",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "In the end, this may be the most important lesson of all.",
     tokens: [
       "das",
       "sein.",
@@ -28,6 +27,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "überhaupt",
       "sein.",
     ],
+    translation: "In the end, this may be the most important lesson of all.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -50,7 +51,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-002",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "The football match was broadcasted live on television.",
     tokens: [
       "Fußballspiel",
       "übertragen.",
@@ -69,6 +69,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Fernsehen",
       "übertragen.",
     ],
+    translation: "The football match was broadcasted live on television.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -91,9 +93,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-003",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "John would've loved the concert.",
     tokens: ["Konzert", "gefallen.", "John", "das", "hätte"],
     solution: ["John", "hätte", "das", "Konzert", "gefallen."],
+    translation: "John would've loved the concert.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -116,7 +119,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-004",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "That is why I will teach him that code.",
     tokens: ["Deshalb", "Code", "diesen", "ihm", "werde", "ich", "beibringen."],
     solution: [
       "Deshalb",
@@ -127,6 +129,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Code",
       "beibringen.",
     ],
+    translation: "That is why I will teach him that code.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -149,7 +153,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-005",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "John paused a moment to read what the sign said.",
     tokens: [
       "um",
       "Schild",
@@ -180,6 +183,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Schild",
       "stand.",
     ],
+    translation: "John paused a moment to read what the sign said.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -202,9 +207,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-006",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I can turn at the next exit.",
     tokens: ["kann", "Ausfahrt", "wenden.", "an", "Ich", "der", "nächsten"],
     solution: ["Ich", "kann", "an", "der", "nächsten", "Ausfahrt", "wenden."],
+    translation: "I can turn at the next exit.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -227,7 +233,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-007",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "It's rude to make fun of your boss in public.",
     tokens: [
       "lustig",
       "ist",
@@ -258,6 +263,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "zu",
       "machen.",
     ],
+    translation: "It's rude to make fun of your boss in public.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -280,9 +287,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-008",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "That's very brave and grown-up of you.",
     tokens: ["ist", "Das", "mutig", "und", "echt", "erwachsen."],
     solution: ["Das", "ist", "echt", "mutig", "und", "erwachsen."],
+    translation: "That's very brave and grown-up of you.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -305,9 +313,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-009",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "This type of cat has no tail.",
     tokens: ["Diese", "Katzenart", "hat", "Schwanz.", "keinen"],
     solution: ["Diese", "Katzenart", "hat", "keinen", "Schwanz."],
+    translation: "This type of cat has no tail.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -330,9 +339,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-010",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "The students were sitting in the circle.",
     tokens: ["Kreis.", "Die", "Schüler", "im", "saßen"],
     solution: ["Die", "Schüler", "saßen", "im", "Kreis."],
+    translation: "The students were sitting in the circle.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -355,9 +365,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-011",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "You don't even want to say goodbye.",
     tokens: ["verabschieden.", "dich", "möchtest", "einmal", "nicht", "Du"],
     solution: ["Du", "möchtest", "dich", "nicht", "einmal", "verabschieden."],
+    translation: "You don't even want to say goodbye.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -380,9 +391,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-012",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "A tiger is a beast of prey.",
     tokens: ["Tiger", "Der", "ist", "Raubtier.", "ein"],
     solution: ["Der", "Tiger", "ist", "ein", "Raubtier."],
+    translation: "A tiger is a beast of prey.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -405,7 +417,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-013",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "He took advantage of the opportunity to visit the museum.",
     tokens: [
       "besuchen.",
       "Museum",
@@ -426,6 +437,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "zu",
       "besuchen.",
     ],
+    translation: "He took advantage of the opportunity to visit the museum.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -448,9 +461,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-014",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "You have got a shower in your office?",
     tokens: ["haben", "Dusche?", "Sie", "eine", "Büro", "im"],
     solution: ["Sie", "haben", "im", "Büro", "eine", "Dusche?"],
+    translation: "You have got a shower in your office?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -473,9 +487,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-015",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Can you clearly define this word?",
     tokens: ["du", "eindeutig", "definieren?", "Wort", "dieses", "Kannst"],
     solution: ["Kannst", "du", "dieses", "Wort", "eindeutig", "definieren?"],
+    translation: "Can you clearly define this word?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -498,9 +513,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-016",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "May they bless us with good fortune.",
     tokens: ["Mögen", "mit", "segnen.", "Sie", "Glück", "uns"],
     solution: ["Mögen", "Sie", "uns", "mit", "Glück", "segnen."],
+    translation: "May they bless us with good fortune.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -523,9 +539,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-017",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Now it's finally official.",
     tokens: ["offiziell.", "Erst", "ist", "jetzt", "es"],
     solution: ["Erst", "jetzt", "ist", "es", "offiziell."],
+    translation: "Now it's finally official.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -548,7 +565,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-018",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "However, you can control lights individually.",
     tokens: [
       "Lichtquellen",
       "auch",
@@ -567,6 +583,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "einzeln",
       "steuern.",
     ],
+    translation: "However, you can control lights individually.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -589,9 +607,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-019",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "The dinner was simple and delicious.",
     tokens: ["Abendessen", "lecker.", "und", "einfach", "Das", "war"],
     solution: ["Das", "Abendessen", "war", "einfach", "und", "lecker."],
+    translation: "The dinner was simple and delicious.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -614,9 +633,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-020",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "We're humble servants of the Crown.",
     tokens: ["Krone.", "Wir", "demütige", "sind", "Diener", "der"],
     solution: ["Wir", "sind", "demütige", "Diener", "der", "Krone."],
+    translation: "We're humble servants of the Crown.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -639,7 +659,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-021",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "He read an interesting novel yesterday.",
     tokens: [
       "gelesen.",
       "interessanten",
@@ -658,6 +677,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Roman",
       "gelesen.",
     ],
+    translation: "He read an interesting novel yesterday.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -680,9 +701,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-022",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "You don't have to explain anything to me.",
     tokens: ["Du", "gar", "erklären.", "mir", "nix", "musst"],
     solution: ["Du", "musst", "mir", "gar", "nix", "erklären."],
+    translation: "You don't have to explain anything to me.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -705,7 +727,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-023",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Furniture made of good materials sells well.",
     tokens: ["verkaufen", "aus", "gutem", "gut.", "sich", "Möbel", "Material"],
     solution: [
       "Möbel",
@@ -716,6 +737,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "sich",
       "gut.",
     ],
+    translation: "Furniture made of good materials sells well.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -738,9 +761,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-024",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "It is not under the fridge",
     tokens: ["ist", "nicht.", "dem", "Kühlschrank", "Unter", "es"],
     solution: ["Unter", "dem", "Kühlschrank", "ist", "es", "nicht."],
+    translation: "It is not under the fridge",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -763,7 +787,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-025",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "So, as some of you know, my father is a little scary.",
     tokens: [
       "wissen,",
       "mein",
@@ -788,6 +811,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "etwas",
       "unheimlich.",
     ],
+    translation: "So, as some of you know, my father is a little scary.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -810,7 +835,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-026",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "You can only circle the flame for so long.",
     tokens: [
       "Du",
       "ewig",
@@ -831,6 +855,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Flamme",
       "kreisen.",
     ],
+    translation: "You can only circle the flame for so long.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -853,9 +879,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-027",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "The dragon protects the mountain.",
     tokens: ["Der", "Drache", "Berg.", "den", "beschützt"],
     solution: ["Der", "Drache", "beschützt", "den", "Berg."],
+    translation: "The dragon protects the mountain.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -878,9 +905,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-028",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Shall I check the oil?",
     tokens: ["Ölstand", "den", "prüfen?", "Soll", "ich"],
     solution: ["Soll", "ich", "den", "Ölstand", "prüfen?"],
+    translation: "Shall I check the oil?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -903,7 +931,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-029",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "This new lover of yours has really made you bloom.",
     tokens: [
       "neuer",
       "echt",
@@ -922,6 +949,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "echt",
       "aufblühen.",
     ],
+    translation: "This new lover of yours has really made you bloom.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -944,9 +973,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-030",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Unfortunately, this threat is very real.",
     tokens: ["Gefahr", "ist", "diese", "real.", "sehr", "Leider"],
     solution: ["Leider", "ist", "diese", "Gefahr", "sehr", "real."],
+    translation: "Unfortunately, this threat is very real.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -969,9 +999,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-031",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "And no one is ever going to suspect you.",
     tokens: ["dich", "Und", "wird", "verdächtigen.", "niemand", "jemals"],
     solution: ["Und", "niemand", "wird", "jemals", "dich", "verdächtigen."],
+    translation: "And no one is ever going to suspect you.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -994,7 +1025,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-032",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Please choose one of the following options to enter the site.",
     tokens: [
       "der",
       "wählen",
@@ -1023,6 +1053,9 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "zu",
       "betreten.",
     ],
+    translation:
+      "Please choose one of the following options to enter the site.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -1045,7 +1078,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-033",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Her Majesty wishes that you should attend her at the palace.",
     tokens: [
       "Palast.",
       "Majestät",
@@ -1064,6 +1096,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "im",
       "Palast.",
     ],
+    translation: "Her Majesty wishes that you should attend her at the palace.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -1086,7 +1120,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-034",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I'd like to offer the buyer a refund.",
     tokens: [
       "Käufer",
       "eine",
@@ -1105,6 +1138,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Rückerstattung",
       "anbieten.",
     ],
+    translation: "I'd like to offer the buyer a refund.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -1127,9 +1162,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-035",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "The wound was not serious.",
     tokens: ["ernsthaft.", "Die", "war", "nicht", "Wunde"],
     solution: ["Die", "Wunde", "war", "nicht", "ernsthaft."],
+    translation: "The wound was not serious.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -1152,9 +1188,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-036",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "The task is deleted without warning.",
     tokens: ["Warnung", "Task", "gelöscht.", "wird", "ohne", "Der"],
     solution: ["Der", "Task", "wird", "ohne", "Warnung", "gelöscht."],
+    translation: "The task is deleted without warning.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -1177,9 +1214,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-037",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "It's still hot in September.",
     tokens: ["Im", "ist", "es", "September", "noch", "heiß."],
     solution: ["Im", "September", "ist", "es", "noch", "heiß."],
+    translation: "It's still hot in September.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -1202,7 +1240,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-038",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "He's so excited about all of this stuff.",
     tokens: ["Er", "ganzen", "dem", "so", "begeistert", "ist", "Zeug.", "von"],
     solution: [
       "Er",
@@ -1214,6 +1251,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "ganzen",
       "Zeug.",
     ],
+    translation: "He's so excited about all of this stuff.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -1236,9 +1275,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-039",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Circumstances have changed.",
     tokens: ["haben", "geändert.", "Die", "Umstände", "sich"],
     solution: ["Die", "Umstände", "haben", "sich", "geändert."],
+    translation: "Circumstances have changed.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -1261,7 +1301,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-040",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Without his wife's money, he would never be a director.",
     tokens: [
       "er",
       "Geld",
@@ -1286,6 +1325,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Regisseur",
       "geworden.",
     ],
+    translation: "Without his wife's money, he would never be a director.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -1308,9 +1349,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-041",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Why do you ask me of all people?",
     tokens: ["ausgerechnet", "Warum", "du", "mich?", "fragst"],
     solution: ["Warum", "fragst", "du", "ausgerechnet", "mich?"],
+    translation: "Why do you ask me of all people?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -1333,7 +1375,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-042",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Their job will be to monitor the treatment of civilians.",
     tokens: [
       "Zivilisten",
       "Sie",
@@ -1352,6 +1393,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Zivilisten",
       "kontrollieren.",
     ],
+    translation: "Their job will be to monitor the treatment of civilians.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -1374,7 +1417,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-043",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I was the last person she phoned.",
     tokens: [
       "telefoniert",
       "Ich",
@@ -1397,6 +1439,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "telefoniert",
       "hat.",
     ],
+    translation: "I was the last person she phoned.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -1419,9 +1463,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-044",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "In Valencia, they speak Spanish.",
     tokens: ["Valencia", "In", "spricht", "man", "Spanisch."],
     solution: ["In", "Valencia", "spricht", "man", "Spanisch."],
+    translation: "In Valencia, they speak Spanish.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -1444,9 +1489,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-045",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I thought no one was supposed to leave.",
     tokens: ["weggehen.", "darf", "Ich", "niemand", "dachte,"],
     solution: ["Ich", "dachte,", "niemand", "darf", "weggehen."],
+    translation: "I thought no one was supposed to leave.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -1469,7 +1515,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-046",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "The initial symptoms of the disease are fever and sore throat.",
     tokens: [
       "sind",
       "Fieber",
@@ -1492,6 +1537,9 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "und",
       "Halsschmerzen.",
     ],
+    translation:
+      "The initial symptoms of the disease are fever and sore throat.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -1514,9 +1562,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-047",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I'm at your disposal.",
     tokens: ["zur", "Ich", "Verfügung.", "Ihnen", "stehe"],
     solution: ["Ich", "stehe", "Ihnen", "zur", "Verfügung."],
+    translation: "I'm at your disposal.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -1539,7 +1588,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-048",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I'm not accustomed to all this physical exertion.",
     tokens: ["gewohnt.", "bin", "nicht", "körperliche", "Anstrengungen", "Ich"],
     solution: [
       "Ich",
@@ -1549,6 +1597,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "nicht",
       "gewohnt.",
     ],
+    translation: "I'm not accustomed to all this physical exertion.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -1571,9 +1621,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-049",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I have misjudged your character.",
     tokens: ["falsch", "eingeschätzt.", "Ich", "deinen", "Charakter", "habe"],
     solution: ["Ich", "habe", "deinen", "Charakter", "falsch", "eingeschätzt."],
+    translation: "I have misjudged your character.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -1596,9 +1647,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-050",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I need the following things.",
     tokens: ["die", "Dinge.", "Ich", "folgenden", "brauche"],
     solution: ["Ich", "brauche", "die", "folgenden", "Dinge."],
+    translation: "I need the following things.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -1621,9 +1673,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-051",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "The elderly lady next door is deaf.",
     tokens: ["ältere", "Die", "Dame", "ist", "nebenan", "schwerhörig."],
     solution: ["Die", "ältere", "Dame", "nebenan", "ist", "schwerhörig."],
+    translation: "The elderly lady next door is deaf.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -1646,7 +1699,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-052",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "It was wrong to support John's claim.",
     tokens: ["zu", "Es", "falsch", "war", "Johns", "unterstützen.", "Anspruch"],
     solution: [
       "Es",
@@ -1657,6 +1709,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "zu",
       "unterstützen.",
     ],
+    translation: "It was wrong to support John's claim.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -1679,7 +1733,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-053",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Can you please try on the new model?",
     tokens: ["bitte", "Modell", "anprobieren?", "das", "Kannst", "neue", "du"],
     solution: [
       "Kannst",
@@ -1690,6 +1743,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Modell",
       "anprobieren?",
     ],
+    translation: "Can you please try on the new model?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -1712,7 +1767,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-054",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Sorry, but you can't use this category.",
     tokens: [
       "Sie",
       "Kategorie",
@@ -1731,6 +1785,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "nicht",
       "verwenden.",
     ],
+    translation: "Sorry, but you can't use this category.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -1753,7 +1809,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-055",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "A copy of this predefined rule has been saved.",
     tokens: [
       "wurde",
       "Regel",
@@ -1772,6 +1827,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "wurde",
       "gespeichert.",
     ],
+    translation: "A copy of this predefined rule has been saved.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -1794,9 +1851,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-056",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "You have to swallow this pill.",
     tokens: ["diese", "Du", "musst", "jetzt", "Pille", "schlucken."],
     solution: ["Du", "musst", "diese", "Pille", "jetzt", "schlucken."],
+    translation: "You have to swallow this pill.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -1819,9 +1877,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-057",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Hawaii is known as an earthly paradise.",
     tokens: ["Hawaii", "Paradies", "Erden.", "auf", "man", "nennt"],
     solution: ["Hawaii", "nennt", "man", "Paradies", "auf", "Erden."],
+    translation: "Hawaii is known as an earthly paradise.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -1844,9 +1903,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-058",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "You can catch a fish without a hook.",
     tokens: ["fängst", "Haken.", "Fische", "ohne", "die", "Du"],
     solution: ["Du", "fängst", "die", "Fische", "ohne", "Haken."],
+    translation: "You can catch a fish without a hook.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -1869,9 +1929,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-059",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "You just don't want to admit it.",
     tokens: ["bloß", "nicht", "es", "Du", "zugeben.", "möchtest"],
     solution: ["Du", "möchtest", "es", "bloß", "nicht", "zugeben."],
+    translation: "You just don't want to admit it.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -1894,9 +1955,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-060",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Fear is a great motivator.",
     tokens: ["großer", "Furcht", "ist", "Motivator.", "ein"],
     solution: ["Furcht", "ist", "ein", "großer", "Motivator."],
+    translation: "Fear is a great motivator.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -1919,9 +1981,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-061",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Well, this is definitely where John was killed.",
     tokens: ["John", "Nun,", "wurde", "definitiv", "getötet.", "hier"],
     solution: ["Nun,", "hier", "wurde", "John", "definitiv", "getötet."],
+    translation: "Well, this is definitely where John was killed.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -1944,9 +2007,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-062",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "John doesn't have insurance.",
     tokens: ["Versicherung.", "keine", "hat", "John"],
     solution: ["John", "hat", "keine", "Versicherung."],
+    translation: "John doesn't have insurance.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -1969,9 +2033,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-063",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "There's no place to sit down around here.",
     tokens: ["Hier", "sich", "man", "kann", "nirgendwo", "hinsetzen."],
     solution: ["Hier", "kann", "man", "sich", "nirgendwo", "hinsetzen."],
+    translation: "There's no place to sit down around here.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -1994,9 +2059,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-064",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "A better person would let her go.",
     tokens: ["loslassen.", "Mensch", "würde", "sie", "besserer", "Ein"],
     solution: ["Ein", "besserer", "Mensch", "würde", "sie", "loslassen."],
+    translation: "A better person would let her go.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -2019,9 +2085,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-065",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Jane was late because of the storm.",
     tokens: ["verspätete", "Sturms.", "des", "Jane", "aufgrund", "sich"],
     solution: ["Jane", "verspätete", "sich", "aufgrund", "des", "Sturms."],
+    translation: "Jane was late because of the storm.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -2044,9 +2111,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-066",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I even found ash on the ground.",
     tokens: ["dem", "Ich", "habe", "auf", "Boden", "Asche", "gefunden."],
     solution: ["Ich", "habe", "Asche", "auf", "dem", "Boden", "gefunden."],
+    translation: "I even found ash on the ground.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -2069,9 +2137,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-067",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I hate girls that giggle all the time.",
     tokens: ["hasse", "kichern.", "ständig", "Mädchen,", "Ich", "die"],
     solution: ["Ich", "hasse", "Mädchen,", "die", "ständig", "kichern."],
+    translation: "I hate girls that giggle all the time.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -2094,7 +2163,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-068",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Don't forget to confirm your reservation in advance.",
     tokens: [
       "Vergiss",
       "Reservierung",
@@ -2115,6 +2183,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "zu",
       "bestätigen.",
     ],
+    translation: "Don't forget to confirm your reservation in advance.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -2137,9 +2207,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-069",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "The situation has changed dramatically.",
     tokens: ["Situation", "dramatisch", "sich", "geändert.", "Die", "hat"],
     solution: ["Die", "Situation", "hat", "sich", "dramatisch", "geändert."],
+    translation: "The situation has changed dramatically.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -2162,9 +2233,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-070",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "He showed up late to practice.",
     tokens: ["kam", "spät", "zu", "zum", "Training.", "Es"],
     solution: ["Es", "kam", "zu", "spät", "zum", "Training."],
+    translation: "He showed up late to practice.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -2187,7 +2259,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-071",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I will defeat the English on their own ground.",
     tokens: [
       "werde",
       "eigenem",
@@ -2208,6 +2279,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Boden",
       "besiegen.",
     ],
+    translation: "I will defeat the English on their own ground.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -2230,9 +2303,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-072",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Make sure to get back on time.",
     tokens: ["bist.", "zurück", "du", "pünktlich", "dass", "Sieh", "zu,"],
     solution: ["Sieh", "zu,", "dass", "du", "pünktlich", "zurück", "bist."],
+    translation: "Make sure to get back on time.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -2255,9 +2329,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-073",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "We do not collect credit card details ourselves.",
     tokens: ["keine", "Details", "sammeln", "über", "Wir", "Kreditkarten."],
     solution: ["Wir", "sammeln", "keine", "Details", "über", "Kreditkarten."],
+    translation: "We do not collect credit card details ourselves.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -2280,7 +2355,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-074",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Advanced technology works in harmony with nature.",
     tokens: [
       "Einklang",
       "Technik",
@@ -2301,6 +2375,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "der",
       "Natur.",
     ],
+    translation: "Advanced technology works in harmony with nature.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -2323,9 +2399,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-075",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "He was offended but kept silent.",
     tokens: ["blieb", "Er", "aber", "stumm.", "er", "beleidigt,", "war"],
     solution: ["Er", "war", "beleidigt,", "aber", "er", "blieb", "stumm."],
+    translation: "He was offended but kept silent.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -2348,9 +2425,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-076",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "It's not a cave, it's a sewer.",
     tokens: ["ein", "das", "Das", "ist", "Kanal.", "Höhle,", "ist", "keine"],
     solution: ["Das", "ist", "keine", "Höhle,", "das", "ist", "ein", "Kanal."],
+    translation: "It's not a cave, it's a sewer.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -2373,7 +2451,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-077",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "We found this truck on the side of the road.",
     tokens: ["am", "haben", "Wir", "Straßenrand", "Laster", "gefunden.", "den"],
     solution: [
       "Wir",
@@ -2384,6 +2461,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Straßenrand",
       "gefunden.",
     ],
+    translation: "We found this truck on the side of the road.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -2406,9 +2485,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-078",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "That is what I'm afraid of.",
     tokens: ["ist", "ich", "Das", "gerade,", "habe.", "wovor", "Angst"],
     solution: ["Das", "ist", "gerade,", "wovor", "ich", "Angst", "habe."],
+    translation: "That is what I'm afraid of.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -2431,9 +2511,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-079",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "A moment ago you heard me sigh.",
     tokens: ["seufzen", "Vorhin", "habt", "ihr", "hören.", "mich"],
     solution: ["Vorhin", "habt", "ihr", "mich", "seufzen", "hören."],
+    translation: "A moment ago you heard me sigh.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -2456,7 +2537,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-080",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Rachel's on her way, and I wanted to practice my smile.",
     tokens: [
       "wollte",
       "Rachel",
@@ -2485,6 +2565,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Lächeln",
       "üben.",
     ],
+    translation: "Rachel's on her way, and I wanted to practice my smile.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -2507,9 +2589,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-081",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Please translate this into English.",
     tokens: ["Übersetzen", "ins", "dies", "Sie", "Englische.", "bitte"],
     solution: ["Übersetzen", "Sie", "dies", "bitte", "ins", "Englische."],
+    translation: "Please translate this into English.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -2532,9 +2615,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-082",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "That's how you move a conversation forward.",
     tokens: ["man", "treibt", "So", "eine", "voran.", "Konversation"],
     solution: ["So", "treibt", "man", "eine", "Konversation", "voran."],
+    translation: "That's how you move a conversation forward.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -2557,9 +2641,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-083",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I have gained weight.",
     tokens: ["Gewicht", "zugelegt.", "an", "Ich", "habe"],
     solution: ["Ich", "habe", "an", "Gewicht", "zugelegt."],
+    translation: "I have gained weight.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -2582,9 +2667,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-084",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I'm not easily shocked.",
     tokens: ["leicht", "schockt", "nichts.", "Mich", "so"],
     solution: ["Mich", "schockt", "so", "leicht", "nichts."],
+    translation: "I'm not easily shocked.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -2607,7 +2693,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-085",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I think that these are some of the central questions.",
     tokens: [
       "die",
       "Erachtens",
@@ -2626,6 +2711,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "zentralen",
       "Punkte.",
     ],
+    translation: "I think that these are some of the central questions.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -2648,9 +2735,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-086",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "He died previous to my arrival.",
     tokens: ["vor", "Er", "starb", "meiner", "Ankunft."],
     solution: ["Er", "starb", "vor", "meiner", "Ankunft."],
+    translation: "He died previous to my arrival.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -2673,9 +2761,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-087",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Does anyone else use your account?",
     tokens: ["Ihr", "sonst", "Konto?", "jemand", "Benutzt", "noch"],
     solution: ["Benutzt", "sonst", "noch", "jemand", "Ihr", "Konto?"],
+    translation: "Does anyone else use your account?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -2698,9 +2787,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-088",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "We will gladly send you our brochure.",
     tokens: ["Gerne", "Ihnen", "senden", "Broschüre.", "wir", "unsere"],
     solution: ["Gerne", "senden", "wir", "Ihnen", "unsere", "Broschüre."],
+    translation: "We will gladly send you our brochure.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -2723,9 +2813,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-089",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I was obsessed with this case.",
     tokens: ["war", "von", "Fall.", "dem", "besessen", "Ich"],
     solution: ["Ich", "war", "besessen", "von", "dem", "Fall."],
+    translation: "I was obsessed with this case.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -2748,7 +2839,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-090",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "The entrance to the toilet is very dirty.",
     tokens: ["zur", "Der", "schmutzig.", "ist", "Eingang", "sehr", "Toilette"],
     solution: [
       "Der",
@@ -2759,6 +2849,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "sehr",
       "schmutzig.",
     ],
+    translation: "The entrance to the toilet is very dirty.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -2781,9 +2873,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-091",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I went down to the port.",
     tokens: ["Hafen.", "Ich", "herunter", "ging", "zum"],
     solution: ["Ich", "ging", "herunter", "zum", "Hafen."],
+    translation: "I went down to the port.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -2806,7 +2899,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-092",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Obviously, it was a personal loss as well.",
     tokens: [
       "Natürlich",
       "es",
@@ -2825,6 +2917,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "persönlicher",
       "Verlust.",
     ],
+    translation: "Obviously, it was a personal loss as well.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -2847,8 +2941,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-093",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus:
-      "Everyone has the right to equal access to public service in his country.",
     tokens: [
       "das",
       "Recht",
@@ -2879,6 +2971,9 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "seinem",
       "Lande.",
     ],
+    translation:
+      "Everyone has the right to equal access to public service in his country.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -2901,7 +2996,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-094",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "The theory of evolution is beyond the reach of my imagination.",
     tokens: [
       "meines",
       "jenseits",
@@ -2918,6 +3012,9 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "meines",
       "Vorstellungsvermögens.",
     ],
+    translation:
+      "The theory of evolution is beyond the reach of my imagination.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -2940,9 +3037,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-095",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "This is an old device.",
     tokens: ["alter", "Apparat.", "ist", "Das", "ein"],
     solution: ["Das", "ist", "ein", "alter", "Apparat."],
+    translation: "This is an old device.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -2965,9 +3063,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-096",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Here's also my driver's license.",
     tokens: ["mein", "ist", "Führerschein.", "Hier", "noch"],
     solution: ["Hier", "ist", "noch", "mein", "Führerschein."],
+    translation: "Here's also my driver's license.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -2990,7 +3089,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-097",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "The providing of data is voluntary.",
     tokens: [
       "ist",
       "Die",
@@ -3007,6 +3105,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "ist",
       "freiwillig.",
     ],
+    translation: "The providing of data is voluntary.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -3029,7 +3129,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-098",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "A formal request was, however, never made.",
     tokens: [
       "wurde",
       "allerdings",
@@ -3048,6 +3147,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "nie",
       "gestellt.",
     ],
+    translation: "A formal request was, however, never made.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -3070,9 +3171,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-099",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "The winner gets me for his opponent tomorrow.",
     tokens: ["kämpft", "Gewinner", "mich.", "Der", "morgen", "gegen"],
     solution: ["Der", "Gewinner", "kämpft", "morgen", "gegen", "mich."],
+    translation: "The winner gets me for his opponent tomorrow.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -3095,7 +3197,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-100",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "We'll be broke soon if we don't stop spending money.",
     tokens: [
       "pleite,",
       "Bald",
@@ -3120,6 +3221,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Geld",
       "auszugeben.",
     ],
+    translation: "We'll be broke soon if we don't stop spending money.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -3142,9 +3245,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-101",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "The senator has got a big influence here.",
     tokens: ["großen", "Der", "hat", "hier.", "Senator", "Einfluss"],
     solution: ["Der", "Senator", "hat", "großen", "Einfluss", "hier."],
+    translation: "The senator has got a big influence here.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -3167,7 +3271,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-102",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "All rooms, as well as the public areas, are air-conditioned.",
     tokens: [
       "sind",
       "Zimmer",
@@ -3186,6 +3289,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "sind",
       "klimatisiert.",
     ],
+    translation: "All rooms, as well as the public areas, are air-conditioned.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -3208,9 +3313,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-103",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "That excuse will not suffice.",
     tokens: ["genügen.", "Diese", "wird", "nicht", "Ausrede"],
     solution: ["Diese", "Ausrede", "wird", "nicht", "genügen."],
+    translation: "That excuse will not suffice.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -3233,7 +3339,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-104",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "The grenade blew up before the terrorist could throw it.",
     tokens: [
       "Die",
       "konnte.",
@@ -3258,6 +3363,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "werfen",
       "konnte.",
     ],
+    translation: "The grenade blew up before the terrorist could throw it.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -3280,9 +3387,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-105",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Just a second, I need a pen.",
     tokens: ["ich", "brauche", "Moment,", "einen", "Stift."],
     solution: ["Moment,", "ich", "brauche", "einen", "Stift."],
+    translation: "Just a second, I need a pen.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -3305,9 +3413,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-106",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "There is one thing they can never resist.",
     tokens: ["Sache", "können", "sie", "nie", "Einer", "widerstehen."],
     solution: ["Einer", "Sache", "können", "sie", "nie", "widerstehen."],
+    translation: "There is one thing they can never resist.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -3330,9 +3439,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-107",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "We can arrange a special price.",
     tokens: ["Sonderpreis", "können", "Wir", "verabreden.", "einen"],
     solution: ["Wir", "können", "einen", "Sonderpreis", "verabreden."],
+    translation: "We can arrange a special price.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -3355,9 +3465,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-108",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "The headquarters is in Italy.",
     tokens: ["in", "ist", "Italien.", "Zentrale", "Die"],
     solution: ["Die", "Zentrale", "ist", "in", "Italien."],
+    translation: "The headquarters is in Italy.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -3380,9 +3491,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-109",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I'd like to adjust the volume.",
     tokens: ["möchte", "Lautstärke", "Ich", "einstellen.", "die"],
     solution: ["Ich", "möchte", "die", "Lautstärke", "einstellen."],
+    translation: "I'd like to adjust the volume.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -3405,7 +3517,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-110",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I'll give you two weeks to vacate it.",
     tokens: ["zu", "Wochen,", "gebe", "es", "Ich", "räumen.", "zwei", "Ihnen"],
     solution: [
       "Ich",
@@ -3417,6 +3528,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "zu",
       "räumen.",
     ],
+    translation: "I'll give you two weeks to vacate it.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -3439,7 +3552,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-111",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "You don't have to keep it just because of me.",
     tokens: ["Du", "es", "zu", "meinetwegen", "nicht", "brauchst", "behalten."],
     solution: [
       "Du",
@@ -3450,6 +3562,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "zu",
       "behalten.",
     ],
+    translation: "You don't have to keep it just because of me.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -3472,9 +3586,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-112",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "John would murder for money.",
     tokens: ["für", "morden.", "würde", "John", "Geld"],
     solution: ["John", "würde", "für", "Geld", "morden."],
+    translation: "John would murder for money.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -3497,9 +3612,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-113",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "We'll rest here for a short time.",
     tokens: ["werden", "hier", "ausruhen.", "Wir", "kurze", "Zeit"],
     solution: ["Wir", "werden", "hier", "kurze", "Zeit", "ausruhen."],
+    translation: "We'll rest here for a short time.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -3522,9 +3638,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-114",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "This subject isn't unimportant.",
     tokens: ["Dieses", "Thema", "nicht", "ist", "unwichtig."],
     solution: ["Dieses", "Thema", "ist", "nicht", "unwichtig."],
+    translation: "This subject isn't unimportant.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -3547,9 +3664,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-115",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "If we push at the same time, it might work.",
     tokens: ["alle", "Wenn", "schieben,", "geht", "vielleicht.", "es", "wir"],
     solution: ["Wenn", "wir", "alle", "schieben,", "geht", "es", "vielleicht."],
+    translation: "If we push at the same time, it might work.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -3572,9 +3690,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-116",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "We've both lost a lot of weight since then.",
     tokens: ["haben", "Wir", "abgenommen.", "viel", "beide", "seither"],
     solution: ["Wir", "haben", "beide", "seither", "viel", "abgenommen."],
+    translation: "We've both lost a lot of weight since then.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -3597,9 +3716,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-117",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "No, I don't want to exchange them.",
     tokens: ["tauschen.", "will", "Nein,", "sie", "nicht", "ich"],
     solution: ["Nein,", "ich", "will", "sie", "nicht", "tauschen."],
+    translation: "No, I don't want to exchange them.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -3622,9 +3742,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-118",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I have already said it three times.",
     tokens: ["gesagt.", "Ich", "es", "habe", "dreimal", "schon"],
     solution: ["Ich", "habe", "es", "schon", "dreimal", "gesagt."],
+    translation: "I have already said it three times.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -3647,9 +3768,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-119",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "That will benefit the community.",
     tokens: ["Das", "Gemeinde", "nützen.", "wird", "der"],
     solution: ["Das", "wird", "der", "Gemeinde", "nützen."],
+    translation: "That will benefit the community.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -3672,9 +3794,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-120",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "What's his motive for committing murder?",
     tokens: ["ist", "begehen?", "sein", "zu", "Mord", "Motiv", "Was"],
     solution: ["Was", "ist", "sein", "Motiv", "Mord", "zu", "begehen?"],
+    translation: "What's his motive for committing murder?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -3697,7 +3820,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-121",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "John promised Jane that he'd always be faithful to her.",
     tokens: [
       "sein.",
       "John",
@@ -3718,6 +3840,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "zu",
       "sein.",
     ],
+    translation: "John promised Jane that he'd always be faithful to her.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -3740,8 +3864,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-122",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus:
-      "Jane isn't as beautiful as her sister, but she's still quite attractive.",
     tokens: [
       "nicht",
       "Schwester,",
@@ -3774,6 +3896,9 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "ziemlich",
       "attraktiv.",
     ],
+    translation:
+      "Jane isn't as beautiful as her sister, but she's still quite attractive.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -3796,7 +3921,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-123",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "My sources tell me the Russians are planning something.",
     tokens: [
       "dass",
       "die",
@@ -3819,6 +3943,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "etwas",
       "planen.",
     ],
+    translation: "My sources tell me the Russians are planning something.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -3841,7 +3967,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-124",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: 'Um, what day was it today again? "August 5th."',
     tokens: [
       "ein",
       "heute",
@@ -3870,6 +3995,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "fünfte",
       "August.“",
     ],
+    translation: 'Um, what day was it today again? "August 5th."',
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -3892,7 +4019,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-125",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Words cannot describe the beauty.",
     tokens: ["Worte", "Schönheit", "diese", "nicht", "können", "beschreiben."],
     solution: [
       "Worte",
@@ -3902,6 +4028,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "nicht",
       "beschreiben.",
     ],
+    translation: "Words cannot describe the beauty.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -3924,9 +4052,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-126",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Come blow the candles.",
     tokens: ["wir", "Kommt,", "Kerzen", "aus.", "blasen", "die"],
     solution: ["Kommt,", "wir", "blasen", "die", "Kerzen", "aus."],
+    translation: "Come blow the candles.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -3949,7 +4078,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-127",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Relax, I could never be that cruel.",
     tokens: [
       "grausam",
       "könnte",
@@ -3972,6 +4100,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "grausam",
       "sein.",
     ],
+    translation: "Relax, I could never be that cruel.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -3994,9 +4124,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-128",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "On Sundays, we do our laundry together.",
     tokens: ["die", "Sonntags", "zusammen", "wir", "machen", "Wäsche."],
     solution: ["Sonntags", "machen", "wir", "zusammen", "die", "Wäsche."],
+    translation: "On Sundays, we do our laundry together.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -4019,9 +4150,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-129",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "They consider it to be a precautionary measure.",
     tokens: ["als", "eine", "Sie", "Vorsichtsmaßnahme.", "es", "betrachten"],
     solution: ["Sie", "betrachten", "es", "als", "eine", "Vorsichtsmaßnahme."],
+    translation: "They consider it to be a precautionary measure.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -4044,9 +4176,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-130",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "You might need to wake me then.",
     tokens: ["mich", "Möglicherweise", "dann", "Sie", "müssen", "wecken."],
     solution: ["Möglicherweise", "müssen", "Sie", "mich", "dann", "wecken."],
+    translation: "You might need to wake me then.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -4069,9 +4202,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-131",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "You'll have to guide me through it.",
     tokens: ["hindurch", "Du", "leiten.", "mich", "musst"],
     solution: ["Du", "musst", "mich", "hindurch", "leiten."],
+    translation: "You'll have to guide me through it.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -4094,7 +4228,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-132",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "John made me an offer I couldn't refuse.",
     tokens: [
       "ich",
       "ablehnen",
@@ -4119,6 +4252,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "ablehnen",
       "konnte.",
     ],
+    translation: "John made me an offer I couldn't refuse.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -4141,9 +4276,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-133",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I should've delivered this yesterday.",
     tokens: ["schon", "hätte", "sollen.", "gestern", "das", "Ich", "liefern"],
     solution: ["Ich", "hätte", "das", "schon", "gestern", "liefern", "sollen."],
+    translation: "I should've delivered this yesterday.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -4166,9 +4302,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-134",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I had to lend him money.",
     tokens: ["Ich", "Geld", "musste", "leihen.", "ihm"],
     solution: ["Ich", "musste", "ihm", "Geld", "leihen."],
+    translation: "I had to lend him money.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -4191,9 +4328,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-135",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Doing homework is extremely boring.",
     tokens: ["extrem", "zu", "langweilig.", "Hausaufgaben", "ist", "machen,"],
     solution: ["Hausaufgaben", "zu", "machen,", "ist", "extrem", "langweilig."],
+    translation: "Doing homework is extremely boring.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -4216,9 +4354,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-136",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "This wild beast is called a domestic cat.",
     tokens: ["Hauskatze.", "Diese", "wilde", "nennt", "Bestie", "sich"],
     solution: ["Diese", "wilde", "Bestie", "nennt", "sich", "Hauskatze."],
+    translation: "This wild beast is called a domestic cat.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -4241,7 +4380,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-137",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "The explanation is included below in standard font.",
     tokens: [
       "Die",
       "steht",
@@ -4258,6 +4396,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "im",
       "Standardschriftsatz.",
     ],
+    translation: "The explanation is included below in standard font.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -4280,9 +4420,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-138",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I'm glad I amuse you.",
     tokens: ["ich", "froh,", "dich", "Ich", "bin", "amüsiere.", "dass"],
     solution: ["Ich", "bin", "froh,", "dass", "ich", "dich", "amüsiere."],
+    translation: "I'm glad I amuse you.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -4305,7 +4446,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-139",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "The company spends a lot of money on advertising.",
     tokens: ["Die", "für", "aus.", "viel", "Werbung", "Geld", "gibt", "Firma"],
     solution: [
       "Die",
@@ -4317,6 +4457,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Werbung",
       "aus.",
     ],
+    translation: "The company spends a lot of money on advertising.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -4339,9 +4481,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-140",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "The hunter followed the bear's tracks.",
     tokens: ["Fährte", "Jäger", "die", "Bären.", "des", "verfolgte", "Der"],
     solution: ["Der", "Jäger", "verfolgte", "die", "Fährte", "des", "Bären."],
+    translation: "The hunter followed the bear's tracks.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -4364,9 +4507,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-141",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "John was telling me all about the university.",
     tokens: ["von", "mir", "der", "John", "hat", "Uni", "erzählt."],
     solution: ["John", "hat", "mir", "von", "der", "Uni", "erzählt."],
+    translation: "John was telling me all about the university.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -4389,9 +4533,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-142",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Jane is a lovely girl.",
     tokens: ["Mädchen.", "ein", "reizendes", "Jane", "ist"],
     solution: ["Jane", "ist", "ein", "reizendes", "Mädchen."],
+    translation: "Jane is a lovely girl.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -4414,9 +4559,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-143",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I don't want to waste another minute.",
     tokens: ["verschwenden.", "Ich", "andere", "will", "keine", "Minute"],
     solution: ["Ich", "will", "keine", "andere", "Minute", "verschwenden."],
+    translation: "I don't want to waste another minute.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -4439,9 +4585,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-144",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "He served in the navy.",
     tokens: ["Er", "bei", "Marine.", "der", "war"],
     solution: ["Er", "war", "bei", "der", "Marine."],
+    translation: "He served in the navy.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -4464,9 +4611,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-145",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Why don't you like Spain?",
     tokens: ["Spanien", "nicht?", "magst", "Warum", "du"],
     solution: ["Warum", "magst", "du", "Spanien", "nicht?"],
+    translation: "Why don't you like Spain?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -4489,7 +4637,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-146",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "He is possessed with the ambition to rule over the world.",
     tokens: [
       "herrschen.",
       "Wunsch",
@@ -4514,6 +4661,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "zu",
       "herrschen.",
     ],
+    translation: "He is possessed with the ambition to rule over the world.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -4536,7 +4685,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-147",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "That old man is, so to speak, a walking dictionary.",
     tokens: [
       "Mann",
       "ein",
@@ -4557,6 +4705,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "wandelndes",
       "Wörterbuch.",
     ],
+    translation: "That old man is, so to speak, a walking dictionary.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -4579,7 +4729,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-148",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I would like to hire you to clean my house.",
     tokens: [
       "mein",
       "möchte",
@@ -4602,6 +4751,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "zu",
       "putzen.",
     ],
+    translation: "I would like to hire you to clean my house.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -4624,9 +4775,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-149",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Strong leadership is needed.",
     tokens: ["starke", "ist", "Eine", "nötig.", "Führung"],
     solution: ["Eine", "starke", "Führung", "ist", "nötig."],
+    translation: "Strong leadership is needed.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -4649,7 +4801,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-150",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "A woman whose husband is dead is called a widow.",
     tokens: [
       "deren",
       "tot",
@@ -4672,6 +4823,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Witwe",
       "genannt.",
     ],
+    translation: "A woman whose husband is dead is called a widow.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -4694,9 +4847,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-151",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I have to learn these skills.",
     tokens: ["Ich", "muss", "Fähigkeiten", "diese", "lernen."],
     solution: ["Ich", "muss", "diese", "Fähigkeiten", "lernen."],
+    translation: "I have to learn these skills.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -4719,7 +4873,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-152",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Spring is the season for planting trees.",
     tokens: [
       "Bäumepflanzen.",
       "zum",
@@ -4738,6 +4891,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "zum",
       "Bäumepflanzen.",
     ],
+    translation: "Spring is the season for planting trees.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -4760,9 +4915,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-153",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "He believes in Santa Claus.",
     tokens: ["glaubt", "Weihnachtsmann.", "den", "an", "Er"],
     solution: ["Er", "glaubt", "an", "den", "Weihnachtsmann."],
+    translation: "He believes in Santa Claus.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -4785,7 +4941,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-154",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "My husband has decided to divorce me.",
     tokens: [
       "mir",
       "sich",
@@ -4812,6 +4967,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "zu",
       "lassen.",
     ],
+    translation: "My husband has decided to divorce me.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -4834,9 +4991,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-155",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Let's play cards instead.",
     tokens: ["Lass", "spielen.", "Karten", "uns", "stattdessen"],
     solution: ["Lass", "uns", "stattdessen", "Karten", "spielen."],
+    translation: "Let's play cards instead.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -4859,7 +5017,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-156",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "John put on his helmet and got on his bike.",
     tokens: [
       "John",
       "auf",
@@ -4884,6 +5041,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "sein",
       "Rad.",
     ],
+    translation: "John put on his helmet and got on his bike.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -4906,9 +5065,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-157",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "He often quotes the Bible",
     tokens: ["oft", "zitiert", "die", "Er", "Bibel."],
     solution: ["Er", "zitiert", "oft", "die", "Bibel."],
+    translation: "He often quotes the Bible",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -4931,9 +5091,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-158",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "At most, it'll only take three hours.",
     tokens: ["drei", "höchstens", "Es", "Stunden.", "dauert"],
     solution: ["Es", "dauert", "höchstens", "drei", "Stunden."],
+    translation: "At most, it'll only take three hours.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -4956,9 +5117,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-159",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Because I'm desperate, that's why.",
     tokens: ["deshalb.", "ich", "Weil", "verzweifelt", "bin,"],
     solution: ["Weil", "ich", "verzweifelt", "bin,", "deshalb."],
+    translation: "Because I'm desperate, that's why.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -4981,9 +5143,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-160",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "You are a coward like everybody else.",
     tokens: ["Feigling,", "alle", "ein", "bist", "Du", "anderen.", "wie"],
     solution: ["Du", "bist", "ein", "Feigling,", "wie", "alle", "anderen."],
+    translation: "You are a coward like everybody else.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -5006,9 +5169,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-161",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I like it bright and formal.",
     tokens: ["ist", "am", "So", "es", "schönsten.", "hell"],
     solution: ["So", "hell", "ist", "es", "am", "schönsten."],
+    translation: "I like it bright and formal.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -5031,9 +5195,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-162",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "They would make a perfect couple.",
     tokens: ["ein", "perfektes", "würden", "abgeben.", "Paar", "Sie"],
     solution: ["Sie", "würden", "ein", "perfektes", "Paar", "abgeben."],
+    translation: "They would make a perfect couple.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -5056,9 +5221,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-163",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I was trying to stop the duke.",
     tokens: ["habe", "den", "Ich", "versucht,", "Herzog", "aufzuhalten."],
     solution: ["Ich", "habe", "versucht,", "den", "Herzog", "aufzuhalten."],
+    translation: "I was trying to stop the duke.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -5081,9 +5247,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-164",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "These kids are everywhere and nowhere.",
     tokens: ["nirgends.", "sind", "Diese", "überall", "Kinder", "und"],
     solution: ["Diese", "Kinder", "sind", "überall", "und", "nirgends."],
+    translation: "These kids are everywhere and nowhere.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -5106,9 +5273,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-165",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Young people love adventure.",
     tokens: ["Abenteuer.", "liebt", "das", "Jugend", "Die"],
     solution: ["Die", "Jugend", "liebt", "das", "Abenteuer."],
+    translation: "Young people love adventure.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -5131,9 +5299,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-166",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I use this expression very rarely.",
     tokens: ["gebrauche", "höchst", "diesen", "Ich", "Ausdruck", "selten."],
     solution: ["Ich", "gebrauche", "diesen", "Ausdruck", "höchst", "selten."],
+    translation: "I use this expression very rarely.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -5156,9 +5325,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-167",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Too many questions are still pointless.",
     tokens: ["viele", "Zu", "sinnlos.", "doch", "Fragen", "sind"],
     solution: ["Zu", "viele", "Fragen", "sind", "doch", "sinnlos."],
+    translation: "Too many questions are still pointless.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -5181,9 +5351,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-168",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I will tear him in half for this.",
     tokens: ["entzwei", "Ich", "dafür", "werde", "reißen.", "ihn"],
     solution: ["Ich", "werde", "ihn", "dafür", "entzwei", "reißen."],
+    translation: "I will tear him in half for this.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -5206,9 +5377,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-169",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I cannot understand what she wants.",
     tokens: ["nicht", "kann", "was", "Ich", "begreifen,", "will.", "sie"],
     solution: ["Ich", "kann", "nicht", "begreifen,", "was", "sie", "will."],
+    translation: "I cannot understand what she wants.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -5231,9 +5403,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-170",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I do not want to cause you any trouble.",
     tokens: ["Ich", "keinen", "euch", "Ärger", "möchte", "bereiten."],
     solution: ["Ich", "möchte", "euch", "keinen", "Ärger", "bereiten."],
+    translation: "I do not want to cause you any trouble.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -5256,9 +5429,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-171",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I saw it done in a circus once.",
     tokens: ["habe", "mal", "ich", "im", "Das", "Zirkus", "gesehen."],
     solution: ["Das", "habe", "ich", "mal", "im", "Zirkus", "gesehen."],
+    translation: "I saw it done in a circus once.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -5281,9 +5455,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-172",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "But now I need you to be useful.",
     tokens: ["müssen", "Aber", "nützlich", "sein.", "nun", "Sie"],
     solution: ["Aber", "nun", "müssen", "Sie", "nützlich", "sein."],
+    translation: "But now I need you to be useful.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -5306,8 +5481,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-173",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus:
-      "It is not unusual for physicians to initially suspect other disorders.",
     tokens: [
       "anfänglich",
       "Krankheiten.",
@@ -5324,6 +5497,9 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "andere",
       "Krankheiten.",
     ],
+    translation:
+      "It is not unusual for physicians to initially suspect other disorders.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -5346,9 +5522,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-174",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "We should take it to the temple of Poseidon.",
     tokens: ["Tempel", "bringen.", "es", "Poseidons", "in", "Wir", "sollten"],
     solution: ["Wir", "sollten", "es", "in", "Poseidons", "Tempel", "bringen."],
+    translation: "We should take it to the temple of Poseidon.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -5371,7 +5548,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-175",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I thought I'd check there first.",
     tokens: [
       "dachte",
       "mir,",
@@ -5394,6 +5570,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Erstes",
       "nachsehen.",
     ],
+    translation: "I thought I'd check there first.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -5416,9 +5594,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-176",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "You have to be brave until the day you die.",
     tokens: ["bleiben.", "tapfer", "Bis", "zum", "Tod", "musst", "du"],
     solution: ["Bis", "zum", "Tod", "musst", "du", "tapfer", "bleiben."],
+    translation: "You have to be brave until the day you die.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -5441,9 +5620,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-177",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Where did you spend your vacation?",
     tokens: ["deine", "Ferien", "du", "verbracht?", "hast", "Wo"],
     solution: ["Wo", "hast", "du", "deine", "Ferien", "verbracht?"],
+    translation: "Where did you spend your vacation?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -5466,7 +5646,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-178",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "But my mom wanted to meet all of you.",
     tokens: [
       "kennenlernen.",
       "Mutter",
@@ -5485,6 +5664,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "alle",
       "kennenlernen.",
     ],
+    translation: "But my mom wanted to meet all of you.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -5507,9 +5688,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-179",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "You know this is nuts, right?",
     tokens: ["dass", "Du", "oder?", "bescheuert", "ist,", "es", "weißt,"],
     solution: ["Du", "weißt,", "dass", "es", "bescheuert", "ist,", "oder?"],
+    translation: "You know this is nuts, right?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -5532,7 +5714,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-180",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "We want to avoid similar situations in the future.",
     tokens: [
       "künftig",
       "Situationen",
@@ -5549,6 +5730,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Situationen",
       "vermeiden.",
     ],
+    translation: "We want to avoid similar situations in the future.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -5571,7 +5754,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-181",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "The coach made us run three extra laps.",
     tokens: [
       "zusätzliche",
       "ließ",
@@ -5592,6 +5774,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Runden",
       "laufen.",
     ],
+    translation: "The coach made us run three extra laps.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -5614,7 +5798,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-182",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Contrary to popular belief, children need boundaries.",
     tokens: [
       "Grenzen.",
       "Kinder",
@@ -5631,6 +5814,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Kinder",
       "Grenzen.",
     ],
+    translation: "Contrary to popular belief, children need boundaries.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -5653,9 +5838,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-183",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "John was entranced by Jane's singing.",
     tokens: ["war", "John", "Gesang", "Janes", "entzückt.", "von"],
     solution: ["John", "war", "von", "Janes", "Gesang", "entzückt."],
+    translation: "John was entranced by Jane's singing.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -5678,7 +5864,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-184",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "If you look, you'll notice that he's turning left.",
     tokens: [
       "hinsiehst,",
       "dir",
@@ -5703,6 +5888,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "links",
       "abbiegt.",
     ],
+    translation: "If you look, you'll notice that he's turning left.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -5725,9 +5912,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-185",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Get in your truck and follow me.",
     tokens: ["in", "und", "den", "folgt", "mir.", "Steigt", "Truck"],
     solution: ["Steigt", "in", "den", "Truck", "und", "folgt", "mir."],
+    translation: "Get in your truck and follow me.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -5750,9 +5938,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-186",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Needless to say, lines are beginning to form.",
     tokens: ["Natürlich", "sich", "langsam", "jetzt", "Schlangen.", "bilden"],
     solution: ["Natürlich", "bilden", "sich", "jetzt", "langsam", "Schlangen."],
+    translation: "Needless to say, lines are beginning to form.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -5775,9 +5964,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-187",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I spoke to the minister myself.",
     tokens: ["gesprochen.", "habe", "Minister", "persönlich", "Ich", "den"],
     solution: ["Ich", "habe", "den", "Minister", "persönlich", "gesprochen."],
+    translation: "I spoke to the minister myself.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -5800,7 +5990,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-188",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "You will soon regret your rash conduct.",
     tokens: [
       "bald",
       "wirst",
@@ -5819,6 +6008,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Verhalten",
       "bereuen.",
     ],
+    translation: "You will soon regret your rash conduct.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -5841,9 +6032,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-189",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Give me your plate, John.",
     tokens: ["John.", "Gib", "Teller,", "deinen", "mir"],
     solution: ["Gib", "mir", "deinen", "Teller,", "John."],
+    translation: "Give me your plate, John.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -5866,9 +6058,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-190",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Well, the plan is to exhaust you.",
     tokens: ["der", "erschöpfen.", "ist,", "Plan", "Nun,", "dich", "zu"],
     solution: ["Nun,", "der", "Plan", "ist,", "dich", "zu", "erschöpfen."],
+    translation: "Well, the plan is to exhaust you.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -5891,7 +6084,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-191",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "It is typical of him to do such a thing.",
     tokens: [
       "ist",
       "für",
@@ -5914,6 +6106,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "zu",
       "machen.",
     ],
+    translation: "It is typical of him to do such a thing.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -5936,9 +6130,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-192",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "The king governed the country.",
     tokens: ["regierte", "Der", "Land.", "König", "das"],
     solution: ["Der", "König", "regierte", "das", "Land."],
+    translation: "The king governed the country.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -5961,9 +6156,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-193",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "That was a very touching farewell.",
     tokens: ["Das", "rührender", "ein", "war", "sehr", "Abschied."],
     solution: ["Das", "war", "ein", "sehr", "rührender", "Abschied."],
+    translation: "That was a very touching farewell.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -5986,7 +6182,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-194",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "This novel was written by an American writer.",
     tokens: [
       "Dieser",
       "Autor",
@@ -6007,6 +6202,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Autor",
       "verfasst.",
     ],
+    translation: "This novel was written by an American writer.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -6029,9 +6226,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-195",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Let me try it again.",
     tokens: ["Lass", "es", "nochmals", "probieren.", "mich"],
     solution: ["Lass", "es", "mich", "nochmals", "probieren."],
+    translation: "Let me try it again.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -6054,9 +6252,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-196",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I have overruled your objection.",
     tokens: ["abgelehnt.", "Ihren", "habe", "Ich", "Einspruch"],
     solution: ["Ich", "habe", "Ihren", "Einspruch", "abgelehnt."],
+    translation: "I have overruled your objection.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -6079,9 +6278,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-197",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "There was a spark or two.",
     tokens: ["oder", "Funken", "zwei.", "gab", "einen", "Es"],
     solution: ["Es", "gab", "einen", "Funken", "oder", "zwei."],
+    translation: "There was a spark or two.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -6104,7 +6304,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-198",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "With today's technology, it is easy to do.",
     tokens: [
       "problemlos",
       "Technik",
@@ -6125,6 +6324,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "problemlos",
       "möglich.",
     ],
+    translation: "With today's technology, it is easy to do.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -6147,7 +6348,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-199",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "You will finish every last drop.",
     tokens: [
       "bis",
       "Du",
@@ -6168,6 +6368,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Tropfen",
       "austrinken.",
     ],
+    translation: "You will finish every last drop.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -6190,7 +6392,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-200",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "He spent countless hours preparing for the test.",
     tokens: [
       "der",
       "Vorbereitung",
@@ -6215,6 +6416,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "den",
       "Test.",
     ],
+    translation: "He spent countless hours preparing for the test.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -6237,7 +6440,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-201",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "You'll never pay twice for the same translation.",
     tokens: [
       "niemals",
       "Sie",
@@ -6254,6 +6456,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "niemals",
       "doppelt.",
     ],
+    translation: "You'll never pay twice for the same translation.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -6276,9 +6480,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-202",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "He wants us to get in.",
     tokens: ["einsteigen.", "Er", "wir", "will,", "dass"],
     solution: ["Er", "will,", "dass", "wir", "einsteigen."],
+    translation: "He wants us to get in.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -6301,7 +6506,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-203",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "The information concerns the organization's structure.",
     tokens: [
       "der",
       "Organisation.",
@@ -6320,6 +6524,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "der",
       "Organisation.",
     ],
+    translation: "The information concerns the organization's structure.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -6342,9 +6548,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-204",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I'm against this marriage.",
     tokens: ["Heirat.", "bin", "diese", "gegen", "Ich"],
     solution: ["Ich", "bin", "gegen", "diese", "Heirat."],
+    translation: "I'm against this marriage.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -6367,9 +6574,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-205",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "We reluctantly accepted.",
     tokens: ["zugestimmt.", "Wir", "ungern", "nur", "haben"],
     solution: ["Wir", "haben", "nur", "ungern", "zugestimmt."],
+    translation: "We reluctantly accepted.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -6392,9 +6600,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-206",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "He was huge, like that basketball player.",
     tokens: ["wie", "Er", "Basketballspieler.", "riesig,", "ein", "war"],
     solution: ["Er", "war", "riesig,", "wie", "ein", "Basketballspieler."],
+    translation: "He was huge, like that basketball player.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -6417,9 +6626,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-207",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "John began gasping again.",
     tokens: ["begann", "keuchen.", "zu", "wieder", "John"],
     solution: ["John", "begann", "wieder", "zu", "keuchen."],
+    translation: "John began gasping again.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -6442,9 +6652,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-208",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "You are only punishing yourself.",
     tokens: ["strafst", "dich", "Du", "nur", "selbst."],
     solution: ["Du", "strafst", "nur", "dich", "selbst."],
+    translation: "You are only punishing yourself.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -6467,9 +6678,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-209",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "You'll never have to move because of me.",
     tokens: ["Sie", "nie", "werden", "umziehen", "meinetwegen", "müssen."],
     solution: ["Sie", "werden", "nie", "meinetwegen", "umziehen", "müssen."],
+    translation: "You'll never have to move because of me.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -6492,7 +6704,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-210",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "It must be wonderful there now.",
     tokens: ["herrlich", "es", "dort", "Um", "Zeit", "diese", "muss", "sein."],
     solution: [
       "Um",
@@ -6504,6 +6715,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "herrlich",
       "sein.",
     ],
+    translation: "It must be wonderful there now.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -6526,9 +6739,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-211",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Sadly, I had to empty the accounts.",
     tokens: ["die", "leeren.", "Leider", "musste", "Konten", "ich"],
     solution: ["Leider", "musste", "ich", "die", "Konten", "leeren."],
+    translation: "Sadly, I had to empty the accounts.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -6551,9 +6765,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-212",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I'll see you later, Junior.",
     tokens: ["dich", "sehe", "Junior.", "Ich", "später,"],
     solution: ["Ich", "sehe", "dich", "später,", "Junior."],
+    translation: "I'll see you later, Junior.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -6576,9 +6791,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-213",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "You don't forget a betrayal like that.",
     tokens: ["Verrat", "vergisst", "so", "Man", "einen", "nicht."],
     solution: ["Man", "vergisst", "so", "einen", "Verrat", "nicht."],
+    translation: "You don't forget a betrayal like that.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -6601,9 +6817,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-214",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "The party was a complete disaster.",
     tokens: ["Die", "eine", "totale", "Katastrophe.", "war", "Party"],
     solution: ["Die", "Party", "war", "eine", "totale", "Katastrophe."],
+    translation: "The party was a complete disaster.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -6626,9 +6843,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-215",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "The punishment was too strict.",
     tokens: ["zu", "war", "Die", "streng.", "Strafe"],
     solution: ["Die", "Strafe", "war", "zu", "streng."],
+    translation: "The punishment was too strict.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -6651,9 +6869,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-216",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "There was lightning in my house.",
     tokens: ["ein", "in", "Haus.", "Blitz", "meinem", "Es", "war"],
     solution: ["Es", "war", "ein", "Blitz", "in", "meinem", "Haus."],
+    translation: "There was lightning in my house.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -6676,7 +6895,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-217",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Our families run in the same social circles.",
     tokens: [
       "verkehren",
       "Unsere",
@@ -6693,6 +6911,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "gesellschaftlich",
       "miteinander.",
     ],
+    translation: "Our families run in the same social circles.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -6715,9 +6935,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-218",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "We'll identify him soon enough.",
     tokens: ["Wir", "ihn", "identifizieren.", "schon", "werden", "noch"],
     solution: ["Wir", "werden", "ihn", "schon", "noch", "identifizieren."],
+    translation: "We'll identify him soon enough.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -6740,7 +6961,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-219",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "He is getting along with his employees.",
     tokens: ["gut", "sich", "versteht", "mit", "Er", "Mitarbeitern.", "seinen"],
     solution: [
       "Er",
@@ -6751,6 +6971,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "seinen",
       "Mitarbeitern.",
     ],
+    translation: "He is getting along with his employees.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -6773,9 +6995,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-220",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I won't rape you.",
     tokens: ["werde", "Ich", "nicht", "vergewaltigen.", "dich"],
     solution: ["Ich", "werde", "dich", "nicht", "vergewaltigen."],
+    translation: "I won't rape you.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -6798,9 +7021,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-221",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "He's getting you out of here.",
     tokens: ["hier", "wird", "dich", "Er", "rausholen."],
     solution: ["Er", "wird", "dich", "hier", "rausholen."],
+    translation: "He's getting you out of here.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -6823,9 +7047,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-222",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "People were in need of clowns and laughter.",
     tokens: ["benötigten", "Gelächter.", "Die", "Clowns", "Menschen", "und"],
     solution: ["Die", "Menschen", "benötigten", "Clowns", "und", "Gelächter."],
+    translation: "People were in need of clowns and laughter.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -6848,7 +7073,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-223",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "This is no way for a man to welcome a kinswoman.",
     tokens: ["ein", "Verwandte", "keine", "sollte", "Mann", "begrüßen.", "So"],
     solution: [
       "So",
@@ -6859,6 +7083,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Verwandte",
       "begrüßen.",
     ],
+    translation: "This is no way for a man to welcome a kinswoman.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -6881,9 +7107,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-224",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Turn on channel four.",
     tokens: ["auf", "vier!", "Kanal", "mal", "Geh"],
     solution: ["Geh", "mal", "auf", "Kanal", "vier!"],
+    translation: "Turn on channel four.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -6906,9 +7133,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-225",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "You seem to be in a bad mood today.",
     tokens: ["Ihr", "scheint", "Laune", "zu", "heute", "schlechter", "sein."],
     solution: ["Ihr", "scheint", "heute", "schlechter", "Laune", "zu", "sein."],
+    translation: "You seem to be in a bad mood today.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -6931,9 +7159,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-226",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Well, we could use it to our advantage.",
     tokens: ["Vorteil", "Wir", "zu", "unserem", "es", "nutzen.", "könnten"],
     solution: ["Wir", "könnten", "es", "zu", "unserem", "Vorteil", "nutzen."],
+    translation: "Well, we could use it to our advantage.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -6956,9 +7185,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-227",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I explained the procedures to him.",
     tokens: ["die", "Ich", "ihm", "erklärte", "Verfahren."],
     solution: ["Ich", "erklärte", "ihm", "die", "Verfahren."],
+    translation: "I explained the procedures to him.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -6981,9 +7211,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-228",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I always wear a chain.",
     tokens: ["trage", "eine", "Ich", "Kette.", "immer"],
     solution: ["Ich", "trage", "immer", "eine", "Kette."],
+    translation: "I always wear a chain.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -7006,9 +7237,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-229",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "My house is rich and powerful.",
     tokens: ["Mein", "ist", "Haus", "mächtig.", "reich", "und"],
     solution: ["Mein", "Haus", "ist", "reich", "und", "mächtig."],
+    translation: "My house is rich and powerful.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -7031,9 +7263,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-230",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Not that you'll benefit much from it.",
     tokens: ["viel", "nicht", "allerdings", "dir", "Sie", "wird", "nützen."],
     solution: ["Sie", "wird", "dir", "allerdings", "nicht", "viel", "nützen."],
+    translation: "Not that you'll benefit much from it.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -7056,9 +7289,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-231",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Jae was beside herself with excitement.",
     tokens: ["Jane", "sich", "war", "außer", "vor", "Aufregung."],
     solution: ["Jane", "war", "außer", "sich", "vor", "Aufregung."],
+    translation: "Jae was beside herself with excitement.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -7081,9 +7315,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-232",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I don't want to trick you.",
     tokens: ["will", "euch", "Ich", "nicht", "hereinlegen."],
     solution: ["Ich", "will", "euch", "nicht", "hereinlegen."],
+    translation: "I don't want to trick you.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -7106,9 +7341,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-233",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "You should be ashamed, too.",
     tokens: ["auch", "solltest", "schämen.", "dich", "Du"],
     solution: ["Du", "solltest", "dich", "auch", "schämen."],
+    translation: "You should be ashamed, too.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -7131,9 +7367,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-234",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "It's a long march ahead.",
     tokens: ["langer", "Ein", "liegt", "vor", "Marsch", "uns."],
     solution: ["Ein", "langer", "Marsch", "liegt", "vor", "uns."],
+    translation: "It's a long march ahead.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -7156,9 +7393,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-235",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Hurray! I have found it.",
     tokens: ["es", "Ich", "Hurra!", "habe", "gefunden."],
     solution: ["Hurra!", "Ich", "habe", "es", "gefunden."],
+    translation: "Hurray! I have found it.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -7181,7 +7419,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-236",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "We will pass out guns and arm the men.",
     tokens: [
       "die",
       "aus",
@@ -7204,6 +7441,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "die",
       "Männer.",
     ],
+    translation: "We will pass out guns and arm the men.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -7226,7 +7465,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-237",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "They both point in the direction of the Turkish army.",
     tokens: [
       "türkischen",
       "Armee.",
@@ -7247,6 +7485,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "türkischen",
       "Armee.",
     ],
+    translation: "They both point in the direction of the Turkish army.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -7269,7 +7509,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-238",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "This is not a joke to be told in the presence of your parents.",
     tokens: [
       "Gegenwart",
       "Das",
@@ -7298,6 +7537,9 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "erzählen",
       "solltest.",
     ],
+    translation:
+      "This is not a joke to be told in the presence of your parents.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -7320,7 +7562,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-239",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "You need to start thinking about a new secretary.",
     tokens: [
       "neue",
       "musst",
@@ -7339,6 +7580,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Sekretärin",
       "nachdenken.",
     ],
+    translation: "You need to start thinking about a new secretary.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -7361,9 +7604,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-240",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I have to get this load to Berlin.",
     tokens: ["Berlin", "Ich", "Ladung", "bringen.", "diese", "muss", "nach"],
     solution: ["Ich", "muss", "diese", "Ladung", "nach", "Berlin", "bringen."],
+    translation: "I have to get this load to Berlin.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -7386,9 +7630,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-241",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "All my life, I was a farmer.",
     tokens: ["mein", "Leben", "lang", "Ich", "Bauer.", "war"],
     solution: ["Ich", "war", "mein", "Leben", "lang", "Bauer."],
+    translation: "All my life, I was a farmer.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -7411,7 +7656,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-242",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "In addition, you have to copy each set of data individually.",
     tokens: [
       "jeden",
       "kopieren.",
@@ -7432,6 +7676,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "einzeln",
       "kopieren.",
     ],
+    translation: "In addition, you have to copy each set of data individually.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -7454,9 +7700,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-243",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "But you can't raise a spy.",
     tokens: ["Spion", "keinen", "man", "großziehen.", "kann", "Aber"],
     solution: ["Aber", "man", "kann", "keinen", "Spion", "großziehen."],
+    translation: "But you can't raise a spy.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -7479,8 +7726,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-244",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus:
-      "The foreign policy ambitions of the European Union are impressive.",
     tokens: [
       "Europäischen",
       "Union",
@@ -7501,6 +7746,9 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "sind",
       "beeindruckend.",
     ],
+    translation:
+      "The foreign policy ambitions of the European Union are impressive.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -7523,9 +7771,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-245",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I have to take care of my cattle.",
     tokens: ["Vieh", "um", "mich", "muss", "Ich", "mein", "kümmern."],
     solution: ["Ich", "muss", "mich", "um", "mein", "Vieh", "kümmern."],
+    translation: "I have to take care of my cattle.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -7548,7 +7797,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-246",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "We are happy to inform you about our commissions.",
     tokens: [
       "unsere",
       "informieren",
@@ -7567,6 +7815,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "unsere",
       "Provisionen.",
     ],
+    translation: "We are happy to inform you about our commissions.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -7589,9 +7839,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-247",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "It is likely that it can be the same perpetrator.",
     tokens: ["es", "Täter.", "der", "gleiche", "ist", "Vermutlich"],
     solution: ["Vermutlich", "ist", "es", "der", "gleiche", "Täter."],
+    translation: "It is likely that it can be the same perpetrator.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -7614,7 +7865,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-248",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "That poet lived here a little over twenty years.",
     tokens: [
       "Der",
       "etwas",
@@ -7637,6 +7887,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Jahre",
       "hier.",
     ],
+    translation: "That poet lived here a little over twenty years.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -7659,9 +7911,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-249",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Someone locked the door from the outside.",
     tokens: ["verriegelt.", "hat", "Jemand", "Tür", "von", "die", "außen"],
     solution: ["Jemand", "hat", "von", "außen", "die", "Tür", "verriegelt."],
+    translation: "Someone locked the door from the outside.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -7684,9 +7937,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-250",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "All I have to do is raise my hand.",
     tokens: ["Ich", "meine", "muss", "erheben.", "nur", "Hand"],
     solution: ["Ich", "muss", "nur", "meine", "Hand", "erheben."],
+    translation: "All I have to do is raise my hand.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -7709,9 +7963,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-251",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I didn't want to go in alone.",
     tokens: ["allein", "Ich", "wollte", "reingehen.", "nicht"],
     solution: ["Ich", "wollte", "nicht", "allein", "reingehen."],
+    translation: "I didn't want to go in alone.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -7734,9 +7989,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-252",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Mommy is not home at the moment.",
     tokens: ["Hause.", "zu", "momentan", "ist", "Mami", "nicht"],
     solution: ["Mami", "ist", "momentan", "nicht", "zu", "Hause."],
+    translation: "Mommy is not home at the moment.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -7759,8 +8015,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-253",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus:
-      "Links can connect users to either external or internal websites.",
     tokens: [
       "verbinden",
       "Benutzer",
@@ -7781,6 +8035,9 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "internen",
       "Websites.",
     ],
+    translation:
+      "Links can connect users to either external or internal websites.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -7803,7 +8060,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-254",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "That's a healthy, normal reaction.",
     tokens: [
       "natürliche,",
       "ist",
@@ -7822,6 +8078,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "normale",
       "Reaktion.",
     ],
+    translation: "That's a healthy, normal reaction.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -7844,9 +8102,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-255",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "The tire was a bit flat.",
     tokens: ["Reifen", "platt.", "Der", "ein", "wenig", "war"],
     solution: ["Der", "Reifen", "war", "ein", "wenig", "platt."],
+    translation: "The tire was a bit flat.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -7869,9 +8128,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-256",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Real heroes don't have anything to hide.",
     tokens: ["nichts", "zu", "Echte", "Helden", "haben", "verbergen."],
     solution: ["Echte", "Helden", "haben", "nichts", "zu", "verbergen."],
+    translation: "Real heroes don't have anything to hide.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -7894,9 +8154,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-257",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I've come down to persuade you.",
     tokens: ["kam", "Sie", "Ich", "um", "umzustimmen.", "herunter,"],
     solution: ["Ich", "kam", "herunter,", "um", "Sie", "umzustimmen."],
+    translation: "I've come down to persuade you.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -7919,8 +8180,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-258",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus:
-      "We did not actually need the reference in the Rules of Procedure.",
     tokens: [
       "in",
       "Ein",
@@ -7941,6 +8200,9 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "nicht",
       "erforderlich.",
     ],
+    translation:
+      "We did not actually need the reference in the Rules of Procedure.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -7963,7 +8225,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-259",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I was shy and didn't make friends with a single German.",
     tokens: [
       "und",
       "habe",
@@ -7990,6 +8251,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Deutschen",
       "angefreundet.",
     ],
+    translation: "I was shy and didn't make friends with a single German.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -8012,7 +8275,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-260",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Please let me know by Wednesday if you can't attend.",
     tokens: [
       "du",
       "Mittwoch",
@@ -8041,6 +8303,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "teilnehmen",
       "kannst.",
     ],
+    translation: "Please let me know by Wednesday if you can't attend.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -8063,9 +8327,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-261",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "You don't need to know anything about magic.",
     tokens: ["musst", "Du", "über", "nichts", "wissen.", "Magie"],
     solution: ["Du", "musst", "nichts", "über", "Magie", "wissen."],
+    translation: "You don't need to know anything about magic.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -8088,9 +8353,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-262",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "That is the price of civilization.",
     tokens: ["Das", "ist", "Preis", "Zivilisation.", "der", "der"],
     solution: ["Das", "ist", "der", "Preis", "der", "Zivilisation."],
+    translation: "That is the price of civilization.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -8113,7 +8379,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-263",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Our team did very well.",
     tokens: [
       "Unsere",
       "sich",
@@ -8132,6 +8397,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "gut",
       "geschlagen.",
     ],
+    translation: "Our team did very well.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -8154,9 +8421,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-264",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "John died of internal injuries.",
     tokens: ["an", "John", "starb", "inneren", "Verletzungen."],
     solution: ["John", "starb", "an", "inneren", "Verletzungen."],
+    translation: "John died of internal injuries.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -8179,7 +8447,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-265",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "One more step and we fall into the black hole.",
     tokens: [
       "stürzen",
       "wir",
@@ -8202,6 +8469,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Schwarze",
       "Loch.",
     ],
+    translation: "One more step and we fall into the black hole.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -8224,7 +8493,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-266",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "When we move closer, they are gone.",
     tokens: ["sie.", "ihnen", "wir", "nähern,", "uns", "Wenn", "verschwinden"],
     solution: [
       "Wenn",
@@ -8235,6 +8503,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "verschwinden",
       "sie.",
     ],
+    translation: "When we move closer, they are gone.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -8257,9 +8527,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-267",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Sure, his mom gets roses.",
     tokens: ["seine", "Klar,", "Rosen.", "bekommt", "Mutter"],
     solution: ["Klar,", "seine", "Mutter", "bekommt", "Rosen."],
+    translation: "Sure, his mom gets roses.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -8282,9 +8553,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-268",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Let's begin with the first chapter.",
     tokens: ["mit", "Kapitel", "uns", "beginnen.", "Lasst"],
     solution: ["Lasst", "uns", "mit", "Kapitel", "beginnen."],
+    translation: "Let's begin with the first chapter.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -8307,9 +8579,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-269",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "A bear was crossing the highway.",
     tokens: ["Bär", "überquerte", "Ein", "Autobahn.", "die"],
     solution: ["Ein", "Bär", "überquerte", "die", "Autobahn."],
+    translation: "A bear was crossing the highway.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -8332,9 +8605,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-270",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "It was heading down the main road.",
     tokens: ["Hauptstraße", "fuhr", "Er", "die", "hinunter."],
     solution: ["Er", "fuhr", "die", "Hauptstraße", "hinunter."],
+    translation: "It was heading down the main road.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -8357,9 +8631,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-271",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "It can be confusing at first.",
     tokens: ["kann", "zunächst", "Es", "sein.", "verwirrend"],
     solution: ["Es", "kann", "zunächst", "verwirrend", "sein."],
+    translation: "It can be confusing at first.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -8382,9 +8657,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-272",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "We must be very generous here.",
     tokens: ["Hier", "sein.", "wir", "sehr", "großzügig", "müssen"],
     solution: ["Hier", "müssen", "wir", "sehr", "großzügig", "sein."],
+    translation: "We must be very generous here.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -8407,9 +8683,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-273",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I've been teaching the kids in secret.",
     tokens: ["Ich", "Kinder", "unterrichtet.", "heimlich", "die", "habe"],
     solution: ["Ich", "habe", "die", "Kinder", "heimlich", "unterrichtet."],
+    translation: "I've been teaching the kids in secret.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -8432,9 +8709,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-274",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "That was very rude, though.",
     tokens: ["aber", "unhöflich.", "Das", "wirklich", "war"],
     solution: ["Das", "war", "aber", "wirklich", "unhöflich."],
+    translation: "That was very rude, though.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -8457,9 +8735,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-275",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I'd like to open the box.",
     tokens: ["Schachtel", "Ich", "möchte", "die", "öffnen."],
     solution: ["Ich", "möchte", "die", "Schachtel", "öffnen."],
+    translation: "I'd like to open the box.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -8482,9 +8761,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-276",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I've just changed my mind.",
     tokens: ["es", "anders", "überlegt.", "habe", "Ich", "soeben", "mir"],
     solution: ["Ich", "habe", "es", "mir", "soeben", "anders", "überlegt."],
+    translation: "I've just changed my mind.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -8507,9 +8787,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-277",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "My throat feels dry.",
     tokens: ["eine", "habe", "Ich", "trockene", "Kehle."],
     solution: ["Ich", "habe", "eine", "trockene", "Kehle."],
+    translation: "My throat feels dry.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -8532,9 +8813,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-278",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Barking dogs don't always bite.",
     tokens: ["Hunde,", "die", "beißen", "bellen,", "nicht."],
     solution: ["Hunde,", "die", "bellen,", "beißen", "nicht."],
+    translation: "Barking dogs don't always bite.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -8557,7 +8839,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-279",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I spy a fraud who probably never even knew his grandmother.",
     tokens: [
       "der",
       "Betrüger,",
@@ -8582,6 +8863,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "nie",
       "kannte.",
     ],
+    translation: "I spy a fraud who probably never even knew his grandmother.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -8604,9 +8887,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-280",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "If that's so, all the better.",
     tokens: ["es", "so", "besser.", "ist,", "Wenn", "umso"],
     solution: ["Wenn", "es", "so", "ist,", "umso", "besser."],
+    translation: "If that's so, all the better.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -8629,7 +8913,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-281",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I may be wrong about that part.",
     tokens: [
       "Punkt",
       "In",
@@ -8650,6 +8933,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "vielleicht",
       "irren.",
     ],
+    translation: "I may be wrong about that part.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -8672,7 +8957,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-282",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "We climbed higher so that we might get a better view.",
     tokens: [
       "eine",
       "um",
@@ -8695,6 +8979,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "zu",
       "bekommen.",
     ],
+    translation: "We climbed higher so that we might get a better view.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -8717,7 +9003,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-283",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "In the meantime, hunger and thirst will weaken you.",
     tokens: [
       "Inzwischen",
       "euch",
@@ -8736,6 +9021,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "euch",
       "schwächen.",
     ],
+    translation: "In the meantime, hunger and thirst will weaken you.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -8758,7 +9045,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-284",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "It is an essential part of every gentleman's education.",
     tokens: [
       "ist",
       "Ausbildung",
@@ -8781,6 +9067,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "eines",
       "Gentlemans.",
     ],
+    translation: "It is an essential part of every gentleman's education.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -8803,9 +9091,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-285",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Give it to me, weirdo.",
     tokens: ["Gib", "zurück,", "Spinner.", "es", "mir"],
     solution: ["Gib", "es", "mir", "zurück,", "Spinner."],
+    translation: "Give it to me, weirdo.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -8828,9 +9117,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-286",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I think that's enough for now.",
     tokens: ["das", "reichen.", "sollte", "Ich", "denke,", "erstmal"],
     solution: ["Ich", "denke,", "das", "sollte", "erstmal", "reichen."],
+    translation: "I think that's enough for now.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -8853,9 +9143,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-287",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "He cut off a slice of meat.",
     tokens: ["Fleisch", "eine", "Er", "schnitt", "ab.", "Scheibe"],
     solution: ["Er", "schnitt", "eine", "Scheibe", "Fleisch", "ab."],
+    translation: "He cut off a slice of meat.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -8878,9 +9169,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-288",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I was engaged once, too.",
     tokens: ["einmal", "verlobt.", "Ich", "auch", "war"],
     solution: ["Ich", "war", "auch", "einmal", "verlobt."],
+    translation: "I was engaged once, too.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -8903,9 +9195,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-289",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "It's a golden retriever.",
     tokens: ["Retriever.", "Das", "Golden", "ein", "ist"],
     solution: ["Das", "ist", "ein", "Golden", "Retriever."],
+    translation: "It's a golden retriever.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -8928,7 +9221,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-290",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "An apology is not a sign of weakness.",
     tokens: [
       "Zeichen",
       "nicht",
@@ -8947,6 +9239,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "der",
       "Schwäche.",
     ],
+    translation: "An apology is not a sign of weakness.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -8969,9 +9263,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-291",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Then how will you greet him?",
     tokens: ["Sie", "werden", "grüßen?", "ihn", "Wie", "also"],
     solution: ["Wie", "werden", "Sie", "ihn", "also", "grüßen?"],
+    translation: "Then how will you greet him?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -8994,7 +9289,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-292",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Today is June 18th and it is Jane's birthday!",
     tokens: [
       "von",
       "das",
@@ -9021,6 +9315,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "von",
       "Jane!",
     ],
+    translation: "Today is June 18th and it is Jane's birthday!",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -9043,7 +9339,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-293",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "It's hard to wound them fatally with a gun.",
     tokens: [
       "ist",
       "Es",
@@ -9068,6 +9363,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "zu",
       "verwunden.",
     ],
+    translation: "It's hard to wound them fatally with a gun.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -9090,9 +9387,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-294",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "In case of fire, do not use the lift.",
     tokens: ["nicht", "Aufzug", "Feuer", "benutzen.", "Bei", "den"],
     solution: ["Bei", "Feuer", "den", "Aufzug", "nicht", "benutzen."],
+    translation: "In case of fire, do not use the lift.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -9115,9 +9413,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-295",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "She accused him of lying.",
     tokens: ["hat", "geziehen.", "der", "Sie", "Lüge", "ihn"],
     solution: ["Sie", "hat", "ihn", "der", "Lüge", "geziehen."],
+    translation: "She accused him of lying.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -9140,9 +9439,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-296",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "You have to squeeze the trigger gently.",
     tokens: ["musst", "Abzug", "sachte", "Du", "den", "drücken."],
     solution: ["Du", "musst", "sachte", "den", "Abzug", "drücken."],
+    translation: "You have to squeeze the trigger gently.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -9165,9 +9465,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-297",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I can't give you a gun.",
     tokens: ["Gewehr", "Ich", "kein", "kann", "Ihnen", "geben."],
     solution: ["Ich", "kann", "Ihnen", "kein", "Gewehr", "geben."],
+    translation: "I can't give you a gun.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -9190,7 +9491,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-298",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "You seem determined to be a stranger to us.",
     tokens: [
       "scheinen",
       "fremd",
@@ -9211,6 +9511,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "zu",
       "wollen.",
     ],
+    translation: "You seem determined to be a stranger to us.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -9233,9 +9535,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-299",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "This letter bears no signature.",
     tokens: ["trägt", "Unterschrift.", "Dieser", "Brief", "keine"],
     solution: ["Dieser", "Brief", "trägt", "keine", "Unterschrift."],
+    translation: "This letter bears no signature.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -9258,9 +9561,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-300",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "You always want to run away, Jane.",
     tokens: ["willst", "weglaufe,", "Du", "immer", "Jane."],
     solution: ["Du", "willst", "immer", "weglaufe,", "Jane."],
+    translation: "You always want to run away, Jane.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -9283,7 +9587,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-301",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Last week, John received a portion of your shipment.",
     tokens: [
       "deiner",
       "John",
@@ -9304,6 +9607,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "deiner",
       "Lieferung.",
     ],
+    translation: "Last week, John received a portion of your shipment.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -9326,9 +9631,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-302",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Go straight, then turn right.",
     tokens: ["geradeaus", "und", "nach", "Gehe", "rechts.", "dann"],
     solution: ["Gehe", "geradeaus", "und", "dann", "nach", "rechts."],
+    translation: "Go straight, then turn right.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -9351,8 +9657,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-303",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus:
-      "By joining forces, we will be able to combat this problem effectively.",
     tokens: [
       "Problem",
       "bekämpfen.",
@@ -9371,6 +9675,9 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "wirksam",
       "bekämpfen.",
     ],
+    translation:
+      "By joining forces, we will be able to combat this problem effectively.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -9393,7 +9700,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-304",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "The object appears to be emitting its own light.",
     tokens: [
       "abzugeben.",
       "Licht",
@@ -9412,6 +9718,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Licht",
       "abzugeben.",
     ],
+    translation: "The object appears to be emitting its own light.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -9434,9 +9742,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-305",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "You can turn anyone into a professional.",
     tokens: ["machen.", "Profi", "Du", "zum", "kannst", "doch", "jeden"],
     solution: ["Du", "kannst", "doch", "jeden", "zum", "Profi", "machen."],
+    translation: "You can turn anyone into a professional.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -9459,9 +9768,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-306",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Don't take the bat out of my hand.",
     tokens: ["mir", "Schläger", "den", "weg.", "Nimm", "nicht"],
     solution: ["Nimm", "mir", "nicht", "den", "Schläger", "weg."],
+    translation: "Don't take the bat out of my hand.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -9484,9 +9794,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-307",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "You should join us.",
     tokens: ["mitmachen.", "bei", "Du", "solltest", "uns"],
     solution: ["Du", "solltest", "bei", "uns", "mitmachen."],
+    translation: "You should join us.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -9509,7 +9820,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-308",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "There are other historical buildings worth a look.",
     tokens: [
       "sich",
       "lohnen",
@@ -9528,6 +9838,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "zu",
       "sehen.",
     ],
+    translation: "There are other historical buildings worth a look.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -9550,9 +9862,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-309",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Admiral, you might want to take a look at this.",
     tokens: ["vielleicht", "das.", "Admiral,", "interessiert", "Sie"],
     solution: ["Admiral,", "vielleicht", "interessiert", "Sie", "das."],
+    translation: "Admiral, you might want to take a look at this.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -9575,9 +9888,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-310",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Without a body, they can't charge him.",
     tokens: ["Leiche", "ihn", "Ohne", "nicht", "sie", "können", "anklagen."],
     solution: ["Ohne", "Leiche", "können", "sie", "ihn", "nicht", "anklagen."],
+    translation: "Without a body, they can't charge him.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -9600,7 +9914,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-311",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "The plan was supported by practically all the staff.",
     tokens: [
       "Der",
       "ganzen",
@@ -9621,6 +9934,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Personal",
       "unterstützt.",
     ],
+    translation: "The plan was supported by practically all the staff.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -9643,9 +9958,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-312",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "This is not the entrance.",
     tokens: ["Das", "der", "nicht", "ist", "Eingang.", "hier"],
     solution: ["Das", "hier", "ist", "nicht", "der", "Eingang."],
+    translation: "This is not the entrance.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -9668,7 +9984,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-313",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "We situated ourselves in the seats nearest the exit.",
     tokens: [
       "Stühlen",
       "Wir",
@@ -9691,6 +10006,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "dem",
       "Ausgang.",
     ],
+    translation: "We situated ourselves in the seats nearest the exit.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -9713,9 +10030,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-314",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I had my camera stolen.",
     tokens: ["gestohlen.", "Mir", "Kamera", "wurde", "die"],
     solution: ["Mir", "wurde", "die", "Kamera", "gestohlen."],
+    translation: "I had my camera stolen.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -9738,9 +10056,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-315",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "The bomb will explode in 20 seconds.",
     tokens: ["Die", "explodieren.", "Sekunden", "wird", "Bombe", "in"],
     solution: ["Die", "Bombe", "wird", "in", "Sekunden", "explodieren."],
+    translation: "The bomb will explode in 20 seconds.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -9763,7 +10082,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-316",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "The pointer will continue to indicate the battery capacity.",
     tokens: [
       "Batteriekapazität",
       "anzeigen.",
@@ -9782,6 +10100,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Batteriekapazität",
       "anzeigen.",
     ],
+    translation: "The pointer will continue to indicate the battery capacity.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -9804,9 +10124,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-317",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "He's getting a motorcycle for Christmas.",
     tokens: ["Weihnachten", "bekommt", "ein", "Motorrad.", "zu", "Er"],
     solution: ["Er", "bekommt", "zu", "Weihnachten", "ein", "Motorrad."],
+    translation: "He's getting a motorcycle for Christmas.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -9829,7 +10150,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-318",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Please reconfirm the reservation by March 10.",
     tokens: [
       "Reservierung",
       "zum",
@@ -9852,6 +10172,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "zum",
       "März.",
     ],
+    translation: "Please reconfirm the reservation by March 10.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -9874,9 +10196,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-319",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "It is both good and cheap.",
     tokens: ["gut", "zugleich.", "ist", "billig", "und", "Es"],
     solution: ["Es", "ist", "gut", "und", "billig", "zugleich."],
+    translation: "It is both good and cheap.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -9899,7 +10222,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-320",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "John, I've asked you not to whistle that annoying tune.",
     tokens: [
       "ich",
       "Melodie",
@@ -9926,6 +10248,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "zu",
       "pfeifen.",
     ],
+    translation: "John, I've asked you not to whistle that annoying tune.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -9948,9 +10272,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-321",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "The colors are bright and cheerful.",
     tokens: ["Die", "Farben", "sind", "und", "fröhlich.", "hell"],
     solution: ["Die", "Farben", "sind", "hell", "und", "fröhlich."],
+    translation: "The colors are bright and cheerful.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -9973,8 +10298,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-322",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus:
-      "We are currently working to restore normal service as soon as possible.",
     tokens: [
       "normalen",
       "Wir",
@@ -9999,6 +10322,9 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "schnell",
       "wiederherzustellen.",
     ],
+    translation:
+      "We are currently working to restore normal service as soon as possible.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -10021,9 +10347,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-323",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Visitors to Switzerland admire the Alps.",
     tokens: ["Schweiz", "Alpen.", "der", "die", "Besucher", "bewundern"],
     solution: ["Besucher", "der", "Schweiz", "bewundern", "die", "Alpen."],
+    translation: "Visitors to Switzerland admire the Alps.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -10046,7 +10373,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-324",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "It will take five to ten years for the technology to be ready.",
     tokens: [
       "ist.",
       "fünf",
@@ -10075,6 +10401,9 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "bereit",
       "ist.",
     ],
+    translation:
+      "It will take five to ten years for the technology to be ready.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -10097,9 +10426,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-325",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I have to plant trees in the garden.",
     tokens: ["Ich", "im", "muss", "Bäume", "Garten", "pflanzen."],
     solution: ["Ich", "muss", "im", "Garten", "Bäume", "pflanzen."],
+    translation: "I have to plant trees in the garden.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -10122,7 +10452,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-326",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "The driver maintained a high speed.",
     tokens: [
       "Geschwindigkeit",
       "bei.",
@@ -10141,6 +10470,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Geschwindigkeit",
       "bei.",
     ],
+    translation: "The driver maintained a high speed.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -10163,9 +10494,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-327",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Don't salt it until the last minute.",
     tokens: ["Moment", "allerletzten", "es", "muss", "im", "salzen.", "Man"],
     solution: ["Man", "muss", "es", "im", "allerletzten", "Moment", "salzen."],
+    translation: "Don't salt it until the last minute.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -10188,9 +10520,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-328",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Everybody says I have no imagination at all.",
     tokens: ["habe", "Fantasie.", "angeblich", "gar", "keine", "Ich"],
     solution: ["Ich", "habe", "angeblich", "gar", "keine", "Fantasie."],
+    translation: "Everybody says I have no imagination at all.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -10213,9 +10546,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-329",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "There is no reason to whisper.",
     tokens: ["Grund", "flüstern.", "Es", "kein", "besteht", "zu"],
     solution: ["Es", "besteht", "kein", "Grund", "zu", "flüstern."],
+    translation: "There is no reason to whisper.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -10238,9 +10572,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-330",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I will not allow this.",
     tokens: ["ich", "Das", "nicht", "gestatten.", "werde"],
     solution: ["Das", "werde", "ich", "nicht", "gestatten."],
+    translation: "I will not allow this.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -10263,9 +10598,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-331",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "It's very decent of you.",
     tokens: ["anständig", "Das", "sehr", "von", "ist", "Ihnen."],
     solution: ["Das", "ist", "sehr", "anständig", "von", "Ihnen."],
+    translation: "It's very decent of you.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -10288,9 +10624,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-332",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "It is illegal to park a car there.",
     tokens: ["sein", "illegal,", "ist", "Auto", "dort", "Es", "abzustellen."],
     solution: ["Es", "ist", "illegal,", "dort", "sein", "Auto", "abzustellen."],
+    translation: "It is illegal to park a car there.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -10313,7 +10650,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-333",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "The guide book says it's fancy and very romantic.",
     tokens: [
       "und",
       "ist",
@@ -10334,6 +10670,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "sehr",
       "romantisch.",
     ],
+    translation: "The guide book says it's fancy and very romantic.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -10356,7 +10694,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-334",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "On principle, I can't negotiate with these people.",
     tokens: [
       "prinzipiell",
       "mit",
@@ -10377,6 +10714,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "nicht",
       "verhandeln.",
     ],
+    translation: "On principle, I can't negotiate with these people.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -10399,8 +10738,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-335",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus:
-      "Such goods shall be subject to supervision by the customs authorities.",
     tokens: [
       "Waren",
       "zollamtlichen",
@@ -10417,6 +10754,9 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "zollamtlichen",
       "Überwachung.",
     ],
+    translation:
+      "Such goods shall be subject to supervision by the customs authorities.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -10439,9 +10779,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-336",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "The flame was really hot.",
     tokens: ["Flamme", "Die", "sehr", "heiß.", "war"],
     solution: ["Die", "Flamme", "war", "sehr", "heiß."],
+    translation: "The flame was really hot.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -10464,9 +10805,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-337",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Sadly, we have absolutely no connection.",
     tokens: ["leider", "haben", "Verbindung.", "Wir", "keinerlei"],
     solution: ["Wir", "haben", "leider", "keinerlei", "Verbindung."],
+    translation: "Sadly, we have absolutely no connection.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -10489,9 +10831,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-338",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I need to get out of here before they show up.",
     tokens: ["sie", "muss", "auftauchen.", "verschwinden,", "Ich", "bevor"],
     solution: ["Ich", "muss", "verschwinden,", "bevor", "sie", "auftauchen."],
+    translation: "I need to get out of here before they show up.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -10514,7 +10857,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-339",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "His Excellency's car is always at the end of the train.",
     tokens: [
       "Seiner",
       "Waggon",
@@ -10535,6 +10877,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "am",
       "Zugende.",
     ],
+    translation: "His Excellency's car is always at the end of the train.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -10557,9 +10901,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-340",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I would love to eat your toast.",
     tokens: ["Toast", "essen.", "gerne", "deinen", "Ich", "würde", "sehr"],
     solution: ["Ich", "würde", "sehr", "gerne", "deinen", "Toast", "essen."],
+    translation: "I would love to eat your toast.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -10582,9 +10927,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-341",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "You're unusually quiet today.",
     tokens: ["Du", "heute", "ungewöhnlich", "still.", "bist"],
     solution: ["Du", "bist", "heute", "ungewöhnlich", "still."],
+    translation: "You're unusually quiet today.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -10607,9 +10953,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-342",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "The factory is being occupied by the workers.",
     tokens: ["besetzt.", "von", "wird", "Die", "Arbeitern", "Fabrik"],
     solution: ["Die", "Fabrik", "wird", "von", "Arbeitern", "besetzt."],
+    translation: "The factory is being occupied by the workers.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -10632,7 +10979,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-343",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "John shouldn't have compared his teacher to Hitler.",
     tokens: [
       "hätte",
       "vergleichen",
@@ -10655,6 +11001,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "vergleichen",
       "sollen.",
     ],
+    translation: "John shouldn't have compared his teacher to Hitler.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -10677,9 +11025,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-344",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "He is not so dangerous in a cage.",
     tokens: ["gefährlich.", "er", "Im", "weniger", "Käfig", "ist"],
     solution: ["Im", "Käfig", "ist", "er", "weniger", "gefährlich."],
+    translation: "He is not so dangerous in a cage.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -10702,9 +11051,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-345",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "My thumb was too close to the flame.",
     tokens: ["an", "der", "zu", "nah", "Mein", "Daumen", "Flamme.", "war"],
     solution: ["Mein", "Daumen", "war", "zu", "nah", "an", "der", "Flamme."],
+    translation: "My thumb was too close to the flame.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -10727,9 +11077,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-346",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "John has gone mad.",
     tokens: ["zu", "spinnen.", "John", "an", "fängt"],
     solution: ["John", "fängt", "an", "zu", "spinnen."],
+    translation: "John has gone mad.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -10752,8 +11103,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-347",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus:
-      "I think it is good that books still exist, but they do make me sleepy.",
     tokens: [
       "schläfrig.",
       "gut,",
@@ -10786,6 +11135,9 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "mich",
       "schläfrig.",
     ],
+    translation:
+      "I think it is good that books still exist, but they do make me sleepy.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -10808,9 +11160,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-348",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I'm supposed to get a toy with this.",
     tokens: ["doch", "ein", "Spielzeug", "Da", "gehört", "dazu."],
     solution: ["Da", "gehört", "doch", "ein", "Spielzeug", "dazu."],
+    translation: "I'm supposed to get a toy with this.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -10833,7 +11186,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-349",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "You can search only one store at a time.",
     tokens: [
       "einen",
       "nur",
@@ -10852,6 +11204,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Shop",
       "durchsuchen.",
     ],
+    translation: "You can search only one store at a time.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -10874,9 +11228,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-350",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "The effects of the medicine were wearing off.",
     tokens: ["ab.", "nahm", "Medizin", "allmählich", "der", "Wirkung", "Die"],
     solution: ["Die", "Wirkung", "der", "Medizin", "nahm", "allmählich", "ab."],
+    translation: "The effects of the medicine were wearing off.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -10899,9 +11254,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-351",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I have to thank you for it.",
     tokens: ["dafür", "bedanken.", "mich", "muss", "Ich"],
     solution: ["Ich", "muss", "mich", "dafür", "bedanken."],
+    translation: "I have to thank you for it.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -10924,7 +11280,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-352",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "John has three months left until he graduates.",
     tokens: [
       "Abschluss",
       "er",
@@ -10949,6 +11304,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Abschluss",
       "macht.",
     ],
+    translation: "John has three months left until he graduates.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -10971,9 +11328,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-353",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I've lost my wallet.",
     tokens: ["verloren.", "habe", "meine", "Ich", "Brieftasche"],
     solution: ["Ich", "habe", "meine", "Brieftasche", "verloren."],
+    translation: "I've lost my wallet.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -10996,9 +11354,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-354",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "He didn't hurt me.",
     tokens: ["mir", "Er", "hat", "wehgetan.", "nicht"],
     solution: ["Er", "hat", "mir", "nicht", "wehgetan."],
+    translation: "He didn't hurt me.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -11021,9 +11380,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-355",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Camels may be smelly, but they're smart.",
     tokens: ["Kamele", "sind", "intelligent.", "sie", "stinken,", "aber"],
     solution: ["Kamele", "stinken,", "aber", "sie", "sind", "intelligent."],
+    translation: "Camels may be smelly, but they're smart.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -11046,9 +11406,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-356",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "He said he might stop by.",
     tokens: ["Er", "würde", "er", "sagte,", "vorbeikommen."],
     solution: ["Er", "sagte,", "er", "würde", "vorbeikommen."],
+    translation: "He said he might stop by.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -11071,9 +11432,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-357",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "It places a tremendous strain on the spleen and the liver.",
     tokens: ["ungemein.", "Es", "Leber", "und", "belastet", "Milz"],
     solution: ["Es", "belastet", "Milz", "und", "Leber", "ungemein."],
+    translation: "It places a tremendous strain on the spleen and the liver.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -11096,7 +11458,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-358",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "The total number of countries involved must be at least 3.",
     tokens: [
       "muss",
       "betragen.",
@@ -11115,6 +11476,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "mindestens",
       "betragen.",
     ],
+    translation: "The total number of countries involved must be at least 3.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -11137,9 +11500,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-359",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Then I'll have to find out for myself.",
     tokens: ["allein", "ich", "rausfinden.", "es", "Dann", "muss"],
     solution: ["Dann", "muss", "ich", "es", "allein", "rausfinden."],
+    translation: "Then I'll have to find out for myself.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -11162,9 +11526,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-360",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "This boy is an incredible fighter.",
     tokens: ["Kämpfer.", "Junge", "ist", "unglaublicher", "ein", "Dieser"],
     solution: ["Dieser", "Junge", "ist", "ein", "unglaublicher", "Kämpfer."],
+    translation: "This boy is an incredible fighter.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -11187,9 +11552,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-361",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "The cottage was clean and tidy.",
     tokens: ["ordentlich.", "sauber", "war", "und", "Die", "Hütte"],
     solution: ["Die", "Hütte", "war", "sauber", "und", "ordentlich."],
+    translation: "The cottage was clean and tidy.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -11212,9 +11578,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-362",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I never wanted to deceive you.",
     tokens: ["täuschen.", "Ich", "niemals", "Sie", "wollte"],
     solution: ["Ich", "wollte", "Sie", "niemals", "täuschen."],
+    translation: "I never wanted to deceive you.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -11237,9 +11604,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-363",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Put your hand gently on his arm.",
     tokens: ["eine", "Leg", "Arm.", "auf", "seinen", "Hand", "sanft"],
     solution: ["Leg", "eine", "Hand", "sanft", "auf", "seinen", "Arm."],
+    translation: "Put your hand gently on his arm.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -11262,7 +11630,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-364",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "The Cabinet was meeting today to discuss the crisis.",
     tokens: [
       "Kabinett",
       "zusammen,",
@@ -11287,6 +11654,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "zu",
       "diskutieren.",
     ],
+    translation: "The Cabinet was meeting today to discuss the crisis.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -11309,7 +11678,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-365",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "For every action, there is an equal and opposite reaction.",
     tokens: [
       "entgegengesetzte",
       "Jede",
@@ -11330,6 +11698,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "entgegengesetzte",
       "Reaktion.",
     ],
+    translation: "For every action, there is an equal and opposite reaction.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -11352,8 +11722,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-366",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus:
-      "You're actively copying their established brand for your own gain.",
     tokens: [
       "Nutzen.",
       "zum",
@@ -11374,6 +11742,9 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "eigenen",
       "Nutzen.",
     ],
+    translation:
+      "You're actively copying their established brand for your own gain.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -11396,9 +11767,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-367",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "The time limit shall be fixed by the authority.",
     tokens: ["Frist", "von", "der", "Behörde", "wird", "festgesetzt.", "Die"],
     solution: ["Die", "Frist", "wird", "von", "der", "Behörde", "festgesetzt."],
+    translation: "The time limit shall be fixed by the authority.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -11421,7 +11793,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-368",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Our basic attitude towards the European Union is positive.",
     tokens: [
       "Unsere",
       "positiv.",
@@ -11440,6 +11811,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "ist",
       "positiv.",
     ],
+    translation: "Our basic attitude towards the European Union is positive.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -11462,9 +11835,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-369",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I don't want to ever listen to that tape again.",
     tokens: ["nie", "wieder", "anhören.", "Ich", "dieses", "Band", "möchte"],
     solution: ["Ich", "möchte", "dieses", "Band", "nie", "wieder", "anhören."],
+    translation: "I don't want to ever listen to that tape again.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -11487,9 +11861,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-370",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I hate spiders.",
     tokens: ["nicht", "leiden.", "Spinnen", "kann", "Ich"],
     solution: ["Ich", "kann", "Spinnen", "nicht", "leiden."],
+    translation: "I hate spiders.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -11512,9 +11887,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-371",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "That needle was sticking out of your forehead.",
     tokens: ["Die", "deiner", "steckte", "in", "Stirn.", "Nadel"],
     solution: ["Die", "Nadel", "steckte", "in", "deiner", "Stirn."],
+    translation: "That needle was sticking out of your forehead.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -11537,9 +11913,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-372",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I didn't want to spoil the evening.",
     tokens: ["wollte", "verderben.", "Abend", "den", "Ich", "nicht"],
     solution: ["Ich", "wollte", "den", "Abend", "nicht", "verderben."],
+    translation: "I didn't want to spoil the evening.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -11562,9 +11939,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-373",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I think we can rule out a mouse.",
     tokens: ["ausschließen.", "wir", "Eine", "können", "Maus", "wohl"],
     solution: ["Eine", "Maus", "können", "wir", "wohl", "ausschließen."],
+    translation: "I think we can rule out a mouse.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -11587,9 +11965,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-374",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Let's make this as smooth as possible.",
     tokens: ["wir", "Machen", "glatt", "wie", "es", "möglich.", "so"],
     solution: ["Machen", "wir", "es", "so", "glatt", "wie", "möglich."],
+    translation: "Let's make this as smooth as possible.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -11612,9 +11991,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-375",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I would like to thank him for his understanding.",
     tokens: ["Verständnis.", "sein", "ihm", "Ich", "für", "danke"],
     solution: ["Ich", "danke", "ihm", "für", "sein", "Verständnis."],
+    translation: "I would like to thank him for his understanding.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -11637,9 +12017,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-376",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "The café is closed today.",
     tokens: ["heute", "Café", "ist", "Das", "geschlossen."],
     solution: ["Das", "Café", "ist", "heute", "geschlossen."],
+    translation: "The café is closed today.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -11662,9 +12043,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-377",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "He has to grow up with his father.",
     tokens: ["aufwachsen.", "bei", "Er", "Vater", "seinem", "muss"],
     solution: ["Er", "muss", "bei", "seinem", "Vater", "aufwachsen."],
+    translation: "He has to grow up with his father.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -11687,9 +12069,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-378",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Is there anything you want me to tell John?",
     tokens: ["John", "ich", "Soll", "irgendetwas", "ausrichten?"],
     solution: ["Soll", "ich", "John", "irgendetwas", "ausrichten?"],
+    translation: "Is there anything you want me to tell John?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -11712,7 +12095,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-379",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "The price includes linen, towels, free coffee, and tea.",
     tokens: [
       "inkludieren",
       "Leinen,",
@@ -11733,6 +12115,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "und",
       "Tee.",
     ],
+    translation: "The price includes linen, towels, free coffee, and tea.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -11755,7 +12139,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-380",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "The cozy comforters guarantee a great night's sleep.",
     tokens: [
       "eine",
       "Daunendecken",
@@ -11776,6 +12159,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "herrliche",
       "Nacht.",
     ],
+    translation: "The cozy comforters guarantee a great night's sleep.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -11798,9 +12183,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-381",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I don't know this neighborhood too well.",
     tokens: ["Umgebung", "Ich", "gut.", "allzu", "diese", "nicht", "kenne"],
     solution: ["Ich", "kenne", "diese", "Umgebung", "nicht", "allzu", "gut."],
+    translation: "I don't know this neighborhood too well.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -11823,9 +12209,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-382",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "You are disgusting, and I hate you.",
     tokens: ["Du", "widerlich", "dich.", "hasse", "bist", "ich", "und"],
     solution: ["Du", "bist", "widerlich", "und", "ich", "hasse", "dich."],
+    translation: "You are disgusting, and I hate you.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -11848,9 +12235,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-383",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "You should come back soon, too.",
     tokens: ["wiederkommen.", "solltest", "bald", "du", "Auch"],
     solution: ["Auch", "du", "solltest", "bald", "wiederkommen."],
+    translation: "You should come back soon, too.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -11873,7 +12261,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-384",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "It's the most beautiful spot on earth.",
     tokens: [
       "auf",
       "Das",
@@ -11894,6 +12281,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "dieser",
       "Erde.",
     ],
+    translation: "It's the most beautiful spot on earth.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -11916,9 +12305,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-385",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I don't think anyone could doubt that.",
     tokens: ["bezweifeln.", "niemand", "das", "könnte", "glaube,", "Ich"],
     solution: ["Ich", "glaube,", "das", "könnte", "niemand", "bezweifeln."],
+    translation: "I don't think anyone could doubt that.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -11941,7 +12331,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-386",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "20 minutes go by, and a man in a mask shows up.",
     tokens: [
       "auf.",
       "einer",
@@ -11966,6 +12355,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "taucht",
       "auf.",
     ],
+    translation: "20 minutes go by, and a man in a mask shows up.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -11988,7 +12379,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-387",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "The price of the stock declined by half in a month.",
     tokens: [
       "eines",
       "um",
@@ -12015,6 +12405,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "die",
       "Hälfte.",
     ],
+    translation: "The price of the stock declined by half in a month.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -12037,9 +12429,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-388",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Something has come to my mind.",
     tokens: ["etwas", "eingefallen.", "gerade", "ist", "Mir"],
     solution: ["Mir", "ist", "gerade", "etwas", "eingefallen."],
+    translation: "Something has come to my mind.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -12062,7 +12455,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-389",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I made out a tower in the distance.",
     tokens: [
       "Ich",
       "konnte",
@@ -12083,6 +12475,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Turm",
       "ausmachen.",
     ],
+    translation: "I made out a tower in the distance.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -12105,9 +12499,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-390",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I just need to pee really bad.",
     tokens: ["pinkeln.", "Ich", "muss", "nur", "ganz", "schlimm"],
     solution: ["Ich", "muss", "nur", "ganz", "schlimm", "pinkeln."],
+    translation: "I just need to pee really bad.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -12130,9 +12525,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-391",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "It's at your convenience, of course.",
     tokens: ["nach", "Es", "Ihrem", "Belieben,", "ist", "natürlich."],
     solution: ["Es", "ist", "nach", "Ihrem", "Belieben,", "natürlich."],
+    translation: "It's at your convenience, of course.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -12155,9 +12551,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-392",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "The narrator said something.",
     tokens: ["Erzähler", "hat", "gesagt.", "etwas", "Der"],
     solution: ["Der", "Erzähler", "hat", "etwas", "gesagt."],
+    translation: "The narrator said something.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -12180,9 +12577,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-393",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I would very much like to do my own magic.",
     tokens: ["Ich", "zaubern.", "wirklich", "würde", "gern", "selbst"],
     solution: ["Ich", "würde", "wirklich", "gern", "selbst", "zaubern."],
+    translation: "I would very much like to do my own magic.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -12205,9 +12603,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-394",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "At the top of the fence, there'll be a camera.",
     tokens: ["Oben", "am", "eine", "Kamera.", "Zaun", "ist"],
     solution: ["Oben", "am", "Zaun", "ist", "eine", "Kamera."],
+    translation: "At the top of the fence, there'll be a camera.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -12230,9 +12629,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-395",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Otherwise, I turn into a demon.",
     tokens: ["Ansonsten", "ich", "werde", "zum", "Dämon."],
     solution: ["Ansonsten", "werde", "ich", "zum", "Dämon."],
+    translation: "Otherwise, I turn into a demon.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -12255,8 +12655,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-396",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus:
-      "Members aren't supposed to enter into relationships with each other.",
     tokens: [
       "sollten",
       "Beziehung",
@@ -12273,6 +12671,9 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "miteinander",
       "eingehen.",
     ],
+    translation:
+      "Members aren't supposed to enter into relationships with each other.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -12295,9 +12696,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-397",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I don't like this tradition anymore.",
     tokens: ["nicht", "mag", "mehr.", "Tradition", "diese", "Ich"],
     solution: ["Ich", "mag", "diese", "Tradition", "nicht", "mehr."],
+    translation: "I don't like this tradition anymore.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -12320,9 +12722,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-398",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "But I would like to make friends with him.",
     tokens: ["befreunden.", "mit", "möchte", "Aber", "mich", "ich", "ihm"],
     solution: ["Aber", "ich", "möchte", "mich", "mit", "ihm", "befreunden."],
+    translation: "But I would like to make friends with him.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -12345,9 +12748,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-399",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "For my generation, that's in the past.",
     tokens: ["meine", "Für", "ist", "das", "Generation", "vorbei."],
     solution: ["Für", "meine", "Generation", "ist", "das", "vorbei."],
+    translation: "For my generation, that's in the past.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -12370,9 +12774,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-400",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Please, give me a hint.",
     tokens: ["geben", "Sie", "Bitte,", "einen", "mir", "Tipp."],
     solution: ["Bitte,", "geben", "Sie", "mir", "einen", "Tipp."],
+    translation: "Please, give me a hint.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -12395,9 +12800,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-401",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I will change this translation.",
     tokens: ["ändern.", "Übersetzung", "diese", "werde", "Ich"],
     solution: ["Ich", "werde", "diese", "Übersetzung", "ändern."],
+    translation: "I will change this translation.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -12420,9 +12826,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-402",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "John won't be expecting us.",
     tokens: ["mit", "kaum", "rechnen.", "uns", "John", "wird"],
     solution: ["John", "wird", "kaum", "mit", "uns", "rechnen."],
+    translation: "John won't be expecting us.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -12445,9 +12852,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-403",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "We'll evaluate your actions later.",
     tokens: ["Ihre", "später", "aus.", "Aktionen", "werten", "Wir"],
     solution: ["Wir", "werten", "Ihre", "Aktionen", "später", "aus."],
+    translation: "We'll evaluate your actions later.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -12470,7 +12878,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-404",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "It would require decisions which are overly difficult.",
     tokens: [
       "Entscheidungen",
       "erfordern.",
@@ -12487,6 +12894,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Entscheidungen",
       "erfordern.",
     ],
+    translation: "It would require decisions which are overly difficult.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -12509,7 +12918,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-405",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "The Commission is following the case very closely.",
     tokens: [
       "Kommission",
       "Fall",
@@ -12528,6 +12936,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "sehr",
       "aufmerksam.",
     ],
+    translation: "The Commission is following the case very closely.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -12550,7 +12960,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-406",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Finally, we agree on something here.",
     tokens: [
       "bei",
       "doch",
@@ -12571,6 +12980,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "etwas",
       "einig.",
     ],
+    translation: "Finally, we agree on something here.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -12593,7 +13004,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-407",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "John couldn't fall asleep, so he got up and took a walk.",
     tokens: [
       "nicht",
       "er",
@@ -12622,6 +13032,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "einen",
       "Spaziergang.",
     ],
+    translation: "John couldn't fall asleep, so he got up and took a walk.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -12644,9 +13056,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-408",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "This is the last step.",
     tokens: ["letzte", "Das", "die", "ist", "Stufe."],
     solution: ["Das", "ist", "die", "letzte", "Stufe."],
+    translation: "This is the last step.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -12669,9 +13082,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-409",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I didn't mean to be so rough.",
     tokens: ["Ich", "so", "grob", "sein.", "nicht", "wollte"],
     solution: ["Ich", "wollte", "nicht", "so", "grob", "sein."],
+    translation: "I didn't mean to be so rough.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -12694,9 +13108,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-410",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "We walked more quickly than usual.",
     tokens: ["gegangen", "als", "Wir", "üblich.", "schneller", "sind"],
     solution: ["Wir", "sind", "schneller", "gegangen", "als", "üblich."],
+    translation: "We walked more quickly than usual.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -12719,9 +13134,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-411",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "There were almost no cars in the parking lot.",
     tokens: ["kaum", "Es", "Parkplatz.", "dem", "auf", "Autos", "waren"],
     solution: ["Es", "waren", "kaum", "Autos", "auf", "dem", "Parkplatz."],
+    translation: "There were almost no cars in the parking lot.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -12744,9 +13160,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-412",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "The interview was too long.",
     tokens: ["zu", "Das", "war", "Interview", "lang."],
     solution: ["Das", "Interview", "war", "zu", "lang."],
+    translation: "The interview was too long.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -12769,9 +13186,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-413",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "They should pick a film.",
     tokens: ["sollen", "sich", "Film", "aussuchen.", "Sie", "einen"],
     solution: ["Sie", "sollen", "sich", "einen", "Film", "aussuchen."],
+    translation: "They should pick a film.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -12794,7 +13212,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-414",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "When the bell sounds, use your key.",
     tokens: [
       "Benutze",
       "Schlüssel,",
@@ -12813,6 +13230,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Glocke",
       "ertönt.",
     ],
+    translation: "When the bell sounds, use your key.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -12835,7 +13254,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-415",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Maybe he was trying to transform him into something like them.",
     tokens: [
       "Vielleicht",
       "er",
@@ -12854,6 +13272,9 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "ihresgleichen",
       "verwandeln.",
     ],
+    translation:
+      "Maybe he was trying to transform him into something like them.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -12876,7 +13297,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-416",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "With light-colored clothing, the underwear shows right through.",
     tokens: [
       "die",
       "Unterwäsche",
@@ -12895,6 +13315,9 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Unterwäsche",
       "durch.",
     ],
+    translation:
+      "With light-colored clothing, the underwear shows right through.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -12917,9 +13340,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-417",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Isn't it fabulous, Jane?",
     tokens: ["nicht", "das", "fabelhaft,", "Jane?", "Ist"],
     solution: ["Ist", "das", "nicht", "fabelhaft,", "Jane?"],
+    translation: "Isn't it fabulous, Jane?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -12942,7 +13366,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-418",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "The girl was sobbing in the corner of the room.",
     tokens: [
       "schluchzte",
       "der",
@@ -12963,6 +13386,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "des",
       "Zimmers.",
     ],
+    translation: "The girl was sobbing in the corner of the room.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -12985,9 +13410,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-419",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "The door banged shut again.",
     tokens: ["knallte", "Tür", "Die", "wieder", "zu."],
     solution: ["Die", "Tür", "knallte", "wieder", "zu."],
+    translation: "The door banged shut again.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -13010,9 +13436,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-420",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Why don't you wish it away?",
     tokens: ["du", "hinweg?", "wünschst", "nicht", "Warum", "es"],
     solution: ["Warum", "wünschst", "du", "es", "nicht", "hinweg?"],
+    translation: "Why don't you wish it away?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -13035,9 +13462,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-421",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "He is still in camp.",
     tokens: ["im", "Er", "Camp.", "ist", "noch"],
     solution: ["Er", "ist", "noch", "im", "Camp."],
+    translation: "He is still in camp.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -13060,9 +13488,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-422",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "We didn't want to interview him.",
     tokens: ["ihn", "interviewen.", "Wir", "nicht", "wollten"],
     solution: ["Wir", "wollten", "ihn", "nicht", "interviewen."],
+    translation: "We didn't want to interview him.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -13085,9 +13514,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-423",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "You will have to train your left hand.",
     tokens: ["trainieren.", "linke", "musst", "Du", "Hand", "deine"],
     solution: ["Du", "musst", "deine", "linke", "Hand", "trainieren."],
+    translation: "You will have to train your left hand.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -13110,9 +13540,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-424",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I know nothing but this.",
     tokens: ["Ansonsten", "ich", "gar", "nichts.", "weiß"],
     solution: ["Ansonsten", "weiß", "ich", "gar", "nichts."],
+    translation: "I know nothing but this.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -13135,9 +13566,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-425",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Women and children are leaving the zone.",
     tokens: ["Frauen", "verlassen", "Kinder", "die", "und", "Zone."],
     solution: ["Frauen", "und", "Kinder", "verlassen", "die", "Zone."],
+    translation: "Women and children are leaving the zone.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -13160,9 +13592,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-426",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "She thinks I'm lower than scum.",
     tokens: ["als", "Sie", "mieser", "sei", "denkt,", "Abschaum.", "ich"],
     solution: ["Sie", "denkt,", "ich", "sei", "mieser", "als", "Abschaum."],
+    translation: "She thinks I'm lower than scum.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -13185,9 +13618,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-427",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Sometimes he even smells like soap.",
     tokens: ["sogar", "nach", "er", "Manchmal", "Seife.", "riecht"],
     solution: ["Manchmal", "riecht", "er", "sogar", "nach", "Seife."],
+    translation: "Sometimes he even smells like soap.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -13210,9 +13644,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-428",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "He should use an alternate route.",
     tokens: ["benutzen.", "alternative", "eine", "sollte", "Strecke", "Er"],
     solution: ["Er", "sollte", "eine", "alternative", "Strecke", "benutzen."],
+    translation: "He should use an alternate route.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -13235,9 +13670,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-429",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "He's unconscious, but he's still breathing.",
     tokens: ["ohnmächtig,", "er", "ist", "aber", "atmet.", "Er"],
     solution: ["Er", "ist", "ohnmächtig,", "aber", "er", "atmet."],
+    translation: "He's unconscious, but he's still breathing.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -13260,9 +13696,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-430",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I was apparently annoying him.",
     tokens: ["ich", "habe", "verärgert.", "ihn", "Scheinbar"],
     solution: ["Scheinbar", "habe", "ich", "ihn", "verärgert."],
+    translation: "I was apparently annoying him.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -13285,7 +13722,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-431",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Pulse is thready, blood pressure dropping steadily.",
     tokens: [
       "Der",
       "schwach,",
@@ -13306,6 +13742,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "sinkt",
       "beständig.",
     ],
+    translation: "Pulse is thready, blood pressure dropping steadily.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -13328,9 +13766,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-432",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "The smell of these eggs is disgusting.",
     tokens: ["ist", "Geruch", "dieser", "Eier", "ekelhaft.", "Der"],
     solution: ["Der", "Geruch", "dieser", "Eier", "ist", "ekelhaft."],
+    translation: "The smell of these eggs is disgusting.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -13353,9 +13792,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-433",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Your wine is absolutely delicious.",
     tokens: ["Ihr", "Wein", "wirklich", "ist", "köstlich."],
     solution: ["Ihr", "Wein", "ist", "wirklich", "köstlich."],
+    translation: "Your wine is absolutely delicious.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -13378,9 +13818,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-434",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I'm not taking off the tie.",
     tokens: ["ab.", "nehme", "Ich", "die", "nicht", "Krawatte"],
     solution: ["Ich", "nehme", "die", "Krawatte", "nicht", "ab."],
+    translation: "I'm not taking off the tie.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -13403,9 +13844,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-435",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "We want to camp there together.",
     tokens: ["wollen", "campen.", "dort", "zusammen", "Wir"],
     solution: ["Wir", "wollen", "dort", "zusammen", "campen."],
+    translation: "We want to camp there together.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -13428,7 +13870,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-436",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Have you ever listened to the French version of this opera?",
     tokens: [
       "französische",
       "die",
@@ -13453,6 +13894,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Oper",
       "gehört?",
     ],
+    translation: "Have you ever listened to the French version of this opera?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -13475,9 +13918,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-437",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "They were attempting to kidnap one of the women.",
     tokens: ["Sie", "der", "entführen.", "wollten", "Frauen", "eine"],
     solution: ["Sie", "wollten", "eine", "der", "Frauen", "entführen."],
+    translation: "They were attempting to kidnap one of the women.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -13500,9 +13944,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-438",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "He is a hostage of the uprising.",
     tokens: ["die", "Aufstands.", "Er", "Geisel", "des", "ist"],
     solution: ["Er", "ist", "die", "Geisel", "des", "Aufstands."],
+    translation: "He is a hostage of the uprising.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -13525,7 +13970,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-439",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Version 1.5.0 of the software has just been released.",
     tokens: [
       "wurde",
       "der",
@@ -13550,6 +13994,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "1.5.0",
       "veröffentlicht.",
     ],
+    translation: "Version 1.5.0 of the software has just been released.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -13572,9 +14018,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-440",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I can only stretch it so far.",
     tokens: ["so", "Ich", "es", "nur", "kann", "weit", "strecken."],
     solution: ["Ich", "kann", "es", "nur", "so", "weit", "strecken."],
+    translation: "I can only stretch it so far.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -13597,7 +14044,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-441",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Even a pirate should have better manners than that.",
     tokens: [
       "haben.",
       "bessere",
@@ -13616,6 +14062,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Manieren",
       "haben.",
     ],
+    translation: "Even a pirate should have better manners than that.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -13638,9 +14086,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-442",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "It can undergo complex reactions.",
     tokens: ["Es", "Reaktionen", "komplexe", "durchmachen.", "kann"],
     solution: ["Es", "kann", "komplexe", "Reaktionen", "durchmachen."],
+    translation: "It can undergo complex reactions.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -13663,9 +14112,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-443",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "We could make a series out of it.",
     tokens: ["könnten", "Serie", "machen.", "draus", "eine", "Wir"],
     solution: ["Wir", "könnten", "eine", "Serie", "draus", "machen."],
+    translation: "We could make a series out of it.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -13688,9 +14138,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-444",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I have chicken and sandwiches.",
     tokens: ["habe", "und", "Sandwiches.", "Ich", "Hühnchen"],
     solution: ["Ich", "habe", "Hühnchen", "und", "Sandwiches."],
+    translation: "I have chicken and sandwiches.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -13713,8 +14164,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-445",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus:
-      "The temperature went down to minus ten degrees centigrade last night.",
     tokens: [
       "minus",
       "Die",
@@ -13739,6 +14188,9 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Grad",
       "Celsius.",
     ],
+    translation:
+      "The temperature went down to minus ten degrees centigrade last night.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -13761,9 +14213,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-446",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "She'll turn into a vampire within seven days.",
     tokens: ["wird", "sieben", "zum", "sie", "Binnen", "Tage", "Vampir."],
     solution: ["Binnen", "sieben", "Tage", "wird", "sie", "zum", "Vampir."],
+    translation: "She'll turn into a vampire within seven days.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -13786,8 +14239,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-447",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus:
-      "Eventually, someone is going to have to tell John that he needs to behave himself.",
     tokens: [
       "wird",
       "jemand",
@@ -13816,6 +14267,9 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "benehmen",
       "hat.",
     ],
+    translation:
+      "Eventually, someone is going to have to tell John that he needs to behave himself.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -13838,9 +14292,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-448",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "All we have left is to blow up the fort.",
     tokens: ["sprengen", "nur", "Festung.", "die", "noch", "Wir"],
     solution: ["Wir", "sprengen", "nur", "noch", "die", "Festung."],
+    translation: "All we have left is to blow up the fort.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -13863,7 +14318,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-449",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "My brothers have been shot, and they are still alive.",
     tokens: [
       "leben",
       "angeschossen",
@@ -13882,6 +14336,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "leben",
       "noch.",
     ],
+    translation: "My brothers have been shot, and they are still alive.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -13904,9 +14360,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-450",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Please fill in this application form.",
     tokens: ["diesen", "füllen", "Bitte", "Sie", "Bewerbungsbogen", "aus."],
     solution: ["Bitte", "füllen", "Sie", "diesen", "Bewerbungsbogen", "aus."],
+    translation: "Please fill in this application form.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -13929,7 +14386,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-451",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I don't wear shoes that might squeak.",
     tokens: [
       "Schuhe,",
       "keine",
@@ -13948,6 +14404,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "quietschen",
       "könnten.",
     ],
+    translation: "I don't wear shoes that might squeak.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -13970,7 +14428,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-452",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "The burglar must have entered the villa from the roof.",
     tokens: [
       "Dach",
       "in",
@@ -13997,6 +14454,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "eingedrungen",
       "sein.",
     ],
+    translation: "The burglar must have entered the villa from the roof.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -14019,9 +14478,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-453",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I don't want to mess up.",
     tokens: ["will", "vermasseln.", "nicht", "Ich", "es"],
     solution: ["Ich", "will", "es", "nicht", "vermasseln."],
+    translation: "I don't want to mess up.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -14044,7 +14504,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-454",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "There is a double tragedy taking place in Libya at the moment.",
     tokens: [
       "eine",
       "In",
@@ -14065,6 +14524,9 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "zweifache",
       "Tragödie.",
     ],
+    translation:
+      "There is a double tragedy taking place in Libya at the moment.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -14087,7 +14549,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-455",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I was sometimes lazy and tried to avoid helping at home.",
     tokens: [
       "geholfen.",
       "gern",
@@ -14114,6 +14575,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Haushalt",
       "geholfen.",
     ],
+    translation: "I was sometimes lazy and tried to avoid helping at home.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -14136,7 +14599,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-456",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "In times of crisis, one should never idealize the past.",
     tokens: [
       "Es",
       "Krise",
@@ -14163,6 +14625,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "zu",
       "idealisieren.",
     ],
+    translation: "In times of crisis, one should never idealize the past.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -14185,7 +14649,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-457",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "By default, the page is taller than it is wide.",
     tokens: [
       "höher",
       "als",
@@ -14204,6 +14667,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "als",
       "breit.",
     ],
+    translation: "By default, the page is taller than it is wide.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -14226,9 +14691,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-458",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Anyone can beat up a junkie.",
     tokens: ["Jeder", "kann", "verprügeln.", "Junkie", "einen"],
     solution: ["Jeder", "kann", "einen", "Junkie", "verprügeln."],
+    translation: "Anyone can beat up a junkie.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -14251,9 +14717,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-459",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "The thermometer reads ten degrees.",
     tokens: ["Das", "Grad.", "zeigt", "Thermometer", "zehn"],
     solution: ["Das", "Thermometer", "zeigt", "zehn", "Grad."],
+    translation: "The thermometer reads ten degrees.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -14276,9 +14743,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-460",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I want to get a little bit closer.",
     tokens: ["kommen.", "wenig", "näher", "ein", "heran", "will", "Ich"],
     solution: ["Ich", "will", "ein", "wenig", "näher", "heran", "kommen."],
+    translation: "I want to get a little bit closer.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -14301,7 +14769,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-461",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I'm quite agreeable to the proposal.",
     tokens: [
       "durchaus",
       "einverstanden",
@@ -14320,6 +14787,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "diesem",
       "Vorschlag.",
     ],
+    translation: "I'm quite agreeable to the proposal.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -14342,9 +14811,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-462",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I think you are brilliant.",
     tokens: ["denke,", "Ich", "bist.", "du", "genial", "dass"],
     solution: ["Ich", "denke,", "dass", "du", "genial", "bist."],
+    translation: "I think you are brilliant.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -14367,7 +14837,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-463",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "We could go to Fiji and learn how to dive.",
     tokens: [
       "die",
       "und",
@@ -14390,6 +14859,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "tauchen",
       "lernen.",
     ],
+    translation: "We could go to Fiji and learn how to dive.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -14412,9 +14883,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-464",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "She was shot in the chest.",
     tokens: ["Brust", "wurde", "die", "geschossen.", "Sie", "in"],
     solution: ["Sie", "wurde", "in", "die", "Brust", "geschossen."],
+    translation: "She was shot in the chest.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -14437,9 +14909,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-465",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "He is egotistical, selfish and cowardly.",
     tokens: ["Er", "ist", "selbstsüchtig", "und", "feige.", "egoistisch,"],
     solution: ["Er", "ist", "egoistisch,", "selbstsüchtig", "und", "feige."],
+    translation: "He is egotistical, selfish and cowardly.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -14462,7 +14935,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-466",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I'll have some scrambled eggs made for you, and a plain salad.",
     tokens: [
       "Rühreier",
       "lassen",
@@ -14491,6 +14963,9 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "einfachen",
       "Salat.",
     ],
+    translation:
+      "I'll have some scrambled eggs made for you, and a plain salad.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -14513,7 +14988,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-467",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "John has changed his email address recently.",
     tokens: ["seine", "E-Mail-Adresse", "geändert.", "John", "hat", "kürzlich"],
     solution: [
       "John",
@@ -14523,6 +14997,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "E-Mail-Adresse",
       "geändert.",
     ],
+    translation: "John has changed his email address recently.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -14545,9 +15021,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-468",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "A thousand dollars is a large sum.",
     tokens: ["Dollar", "sind", "Summe.", "eine", "große", "Tausend"],
     solution: ["Tausend", "Dollar", "sind", "eine", "große", "Summe."],
+    translation: "A thousand dollars is a large sum.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -14570,9 +15047,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-469",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Wooden buildings catch fire easily.",
     tokens: ["leicht", "in", "Holzgebäude", "Brand.", "geraten"],
     solution: ["Holzgebäude", "geraten", "leicht", "in", "Brand."],
+    translation: "Wooden buildings catch fire easily.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -14595,9 +15073,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-470",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "And I need to start learning to ignore people.",
     tokens: ["Leute", "muss", "zu", "ich", "anfangen", "Und", "ignorieren."],
     solution: ["Und", "ich", "muss", "anfangen", "Leute", "zu", "ignorieren."],
+    translation: "And I need to start learning to ignore people.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -14620,7 +15099,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-471",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "The teacher asked us to clean our classroom every day.",
     tokens: [
       "bat",
       "uns,",
@@ -14645,6 +15123,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "zu",
       "putzen.",
     ],
+    translation: "The teacher asked us to clean our classroom every day.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -14667,9 +15147,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-472",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Yes, I have no excuse.",
     tokens: ["keine", "Ja,", "habe", "Ausrede.", "ich"],
     solution: ["Ja,", "ich", "habe", "keine", "Ausrede."],
+    translation: "Yes, I have no excuse.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -14692,9 +15173,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-473",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "They need the comfort of their father.",
     tokens: ["ihres", "Trost", "brauchen", "den", "Sie", "Vaters."],
     solution: ["Sie", "brauchen", "den", "Trost", "ihres", "Vaters."],
+    translation: "They need the comfort of their father.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -14717,9 +15199,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-474",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Men like us don't fish.",
     tokens: ["Männer", "angeln", "nicht.", "wir", "wie"],
     solution: ["Männer", "wie", "wir", "angeln", "nicht."],
+    translation: "Men like us don't fish.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -14742,9 +15225,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-475",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I didn't want to scare the rabbit.",
     tokens: ["den", "wollte", "Ich", "Hasen", "nicht", "erschrecken."],
     solution: ["Ich", "wollte", "den", "Hasen", "nicht", "erschrecken."],
+    translation: "I didn't want to scare the rabbit.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -14767,7 +15251,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-476",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "The navigation of the menu is both enjoyable and fast.",
     tokens: [
       "angenehm",
       "Navigation",
@@ -14788,6 +15271,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "und",
       "flott.",
     ],
+    translation: "The navigation of the menu is both enjoyable and fast.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -14810,7 +15295,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-477",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Then he raised his hand to interrupt me.",
     tokens: [
       "die",
       "er",
@@ -14833,6 +15317,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "zu",
       "unterbrechen.",
     ],
+    translation: "Then he raised his hand to interrupt me.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -14855,9 +15341,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-478",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "They'll invite me for some booze.",
     tokens: ["Sie", "werden", "einladen.", "zum", "mich", "Schnaps"],
     solution: ["Sie", "werden", "mich", "zum", "Schnaps", "einladen."],
+    translation: "They'll invite me for some booze.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -14880,9 +15367,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-479",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "All of us had the opportunity and a motive.",
     tokens: ["und", "hatten", "die", "Alle", "ein", "Gelegenheit", "Motiv."],
     solution: ["Alle", "hatten", "die", "Gelegenheit", "und", "ein", "Motiv."],
+    translation: "All of us had the opportunity and a motive.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -14905,7 +15393,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-480",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "The distribution of the ballots took ten minutes.",
     tokens: [
       "der",
       "zehn",
@@ -14924,6 +15411,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "zehn",
       "Minuten.",
     ],
+    translation: "The distribution of the ballots took ten minutes.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -14946,9 +15435,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-481",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I loved that series.",
     tokens: ["Serie", "Ich", "habe", "geliebt.", "die"],
     solution: ["Ich", "habe", "die", "Serie", "geliebt."],
+    translation: "I loved that series.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -14971,9 +15461,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-482",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Well, so long as you admit your error.",
     tokens: ["solange", "eingestehen.", "Gut,", "Irrtum", "Ihren", "Sie"],
     solution: ["Gut,", "solange", "Sie", "Ihren", "Irrtum", "eingestehen."],
+    translation: "Well, so long as you admit your error.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -14996,7 +15487,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-483",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "No, but I may be able to close their induction vents.",
     tokens: [
       "Nein,",
       "ihre",
@@ -15015,6 +15505,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Ventile",
       "verschließen.",
     ],
+    translation: "No, but I may be able to close their induction vents.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -15037,9 +15529,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-484",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "We could stop at a motel.",
     tokens: ["Motel", "suchen.", "uns", "könnten", "Wir", "ein"],
     solution: ["Wir", "könnten", "uns", "ein", "Motel", "suchen."],
+    translation: "We could stop at a motel.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -15062,8 +15555,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-485",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus:
-      "Culture creates value in both an intellectual and a material sense.",
     tokens: [
       "materielle",
       "schafft",
@@ -15080,6 +15571,9 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "materielle",
       "Werte.",
     ],
+    translation:
+      "Culture creates value in both an intellectual and a material sense.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -15102,9 +15596,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-486",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "You should have considered that in the beginning.",
     tokens: ["du", "hättest", "gleich", "bedenken", "sollen.", "Das"],
     solution: ["Das", "hättest", "du", "gleich", "bedenken", "sollen."],
+    translation: "You should have considered that in the beginning.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -15127,9 +15622,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-487",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "The experiment confirmed his theory.",
     tokens: ["Das", "Experiment", "seine", "Theorie.", "bestätigte"],
     solution: ["Das", "Experiment", "bestätigte", "seine", "Theorie."],
+    translation: "The experiment confirmed his theory.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -15152,7 +15648,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-488",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "He earns more money than he can spend.",
     tokens: [
       "mehr",
       "Er",
@@ -15173,6 +15668,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "ausgeben",
       "kann.",
     ],
+    translation: "He earns more money than he can spend.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -15195,9 +15692,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-489",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I really don't want to get involved in this.",
     tokens: ["will", "verwickeln", "lassen.", "da", "mich", "Ich", "nicht"],
     solution: ["Ich", "will", "mich", "da", "nicht", "verwickeln", "lassen."],
+    translation: "I really don't want to get involved in this.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -15220,7 +15718,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-490",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "There's one critical element here I may have overlooked.",
     tokens: [
       "entscheidendes",
       "Ich",
@@ -15239,6 +15736,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Element",
       "übersehen.",
     ],
+    translation: "There's one critical element here I may have overlooked.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -15261,7 +15760,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-491",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "He is an agent working undercover for the Russian mafia.",
     tokens: [
       "für",
       "Er",
@@ -15288,6 +15786,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Mafia",
       "arbeitet.",
     ],
+    translation: "He is an agent working undercover for the Russian mafia.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -15310,9 +15810,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-492",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "His name is John, and he plays baseball.",
     tokens: ["Er", "spielt", "Baseball.", "John", "heißt", "und"],
     solution: ["Er", "heißt", "John", "und", "spielt", "Baseball."],
+    translation: "His name is John, and he plays baseball.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -15335,9 +15836,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-493",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "The furniture is cozy and comfortable.",
     tokens: ["Die", "Einrichtung", "komfortabel.", "ist", "gemütlich", "und"],
     solution: ["Die", "Einrichtung", "ist", "gemütlich", "und", "komfortabel."],
+    translation: "The furniture is cozy and comfortable.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -15360,9 +15862,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-494",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "You are the big winner tonight.",
     tokens: ["bist", "Du", "Sieger.", "heute", "der", "große"],
     solution: ["Du", "bist", "heute", "der", "große", "Sieger."],
+    translation: "You are the big winner tonight.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -15385,9 +15888,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-495",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Careful preparations ensure success.",
     tokens: ["Vorbereitungen", "Erfolg.", "Sorgsame", "sichern", "den"],
     solution: ["Sorgsame", "Vorbereitungen", "sichern", "den", "Erfolg."],
+    translation: "Careful preparations ensure success.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -15410,9 +15914,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-496",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I need to lie down here and sleep.",
     tokens: ["mich", "muss", "und", "Ich", "hinlegen", "schlafen."],
     solution: ["Ich", "muss", "mich", "hinlegen", "und", "schlafen."],
+    translation: "I need to lie down here and sleep.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -15435,7 +15940,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-497",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "It won't be dark yet before the fighting starts.",
     tokens: [
       "vor",
       "werden",
@@ -15454,6 +15958,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Kämpfe",
       "losgehen.",
     ],
+    translation: "It won't be dark yet before the fighting starts.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -15476,9 +15982,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-498",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "He didn't reveal his identity.",
     tokens: ["gab", "Identität", "preis.", "nicht", "seine", "Er"],
     solution: ["Er", "gab", "seine", "Identität", "nicht", "preis."],
+    translation: "He didn't reveal his identity.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -15501,7 +16008,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-499",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Jane will determine the cause of the illness.",
     tokens: ["den", "der", "wird", "bestimmen.", "Grund", "Jane", "Krankheit"],
     solution: [
       "Jane",
@@ -15512,6 +16018,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Krankheit",
       "bestimmen.",
     ],
+    translation: "Jane will determine the cause of the illness.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -15534,9 +16042,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-500",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "The board is too long.",
     tokens: ["zu", "Brett", "lang.", "ist", "Das"],
     solution: ["Das", "Brett", "ist", "zu", "lang."],
+    translation: "The board is too long.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -15559,7 +16068,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-501",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "That's the letter I wrote to Bob Dylan on the plane.",
     tokens: [
       "Brief",
       "Flieger",
@@ -15584,6 +16092,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Flieger",
       "geschrieben.",
     ],
+    translation: "That's the letter I wrote to Bob Dylan on the plane.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -15606,9 +16116,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-502",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I can hear the waves on the coast.",
     tokens: ["Küste.", "an", "Wellen", "der", "die", "höre", "Ich"],
     solution: ["Ich", "höre", "die", "Wellen", "an", "der", "Küste."],
+    translation: "I can hear the waves on the coast.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -15631,9 +16142,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-503",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "John wrote down Jane's phone number.",
     tokens: ["Telefonnummer", "sich", "schrieb", "Janes", "John", "auf."],
     solution: ["John", "schrieb", "sich", "Janes", "Telefonnummer", "auf."],
+    translation: "John wrote down Jane's phone number.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -15656,9 +16168,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-504",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "We study Chinese at college.",
     tokens: ["an", "studieren", "Wir", "der", "Chinesisch", "Universität."],
     solution: ["Wir", "studieren", "Chinesisch", "an", "der", "Universität."],
+    translation: "We study Chinese at college.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -15681,7 +16194,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-505",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "And we'll help you move the couch later.",
     tokens: [
       "nachher",
       "verrücken",
@@ -15702,6 +16214,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "nachher",
       "zusammen.",
     ],
+    translation: "And we'll help you move the couch later.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -15724,9 +16238,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-506",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "You cannot go out there.",
     tokens: ["da", "nicht", "Du", "kannst", "rausgehen."],
     solution: ["Du", "kannst", "nicht", "da", "rausgehen."],
+    translation: "You cannot go out there.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -15749,9 +16264,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-507",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "We must replace this carpet.",
     tokens: ["Wir", "müssen", "ersetzen.", "diesen", "Teppich"],
     solution: ["Wir", "müssen", "diesen", "Teppich", "ersetzen."],
+    translation: "We must replace this carpet.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -15774,9 +16290,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-508",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "The walls are really thin here.",
     tokens: ["hier", "Wände", "sehr", "Die", "dünn.", "sind"],
     solution: ["Die", "Wände", "hier", "sind", "sehr", "dünn."],
+    translation: "The walls are really thin here.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -15799,9 +16316,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-509",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "You're the expert here.",
     tokens: ["der", "Du", "hier.", "bist", "Experte"],
     solution: ["Du", "bist", "der", "Experte", "hier."],
+    translation: "You're the expert here.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -15824,7 +16342,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-510",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I will get out and open the trunk.",
     tokens: [
       "den",
       "Kofferraum",
@@ -15843,6 +16360,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Kofferraum",
       "öffnen.",
     ],
+    translation: "I will get out and open the trunk.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -15865,9 +16384,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-511",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "This is forward, that's backward.",
     tokens: ["ist", "das", "vorwärts,", "Das", "hier", "rückwärts."],
     solution: ["Das", "hier", "ist", "vorwärts,", "das", "rückwärts."],
+    translation: "This is forward, that's backward.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -15890,7 +16410,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-512",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "We had a clown die in our living room.",
     tokens: ["In", "Clown.", "unserem", "starb", "ein", "Wohnzimmer", "einmal"],
     solution: [
       "In",
@@ -15901,6 +16420,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "ein",
       "Clown.",
     ],
+    translation: "We had a clown die in our living room.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -15923,9 +16444,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-513",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "You are upset, I get it now.",
     tokens: ["bist", "schon.", "Du", "ich", "verstehe", "verärgert,"],
     solution: ["Du", "bist", "verärgert,", "ich", "verstehe", "schon."],
+    translation: "You are upset, I get it now.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -15948,9 +16470,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-514",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "You mean you don't have enough friends?",
     tokens: ["Du", "nicht", "du", "genügend", "Freunde?", "hast", "meinst,"],
     solution: ["Du", "meinst,", "du", "hast", "nicht", "genügend", "Freunde?"],
+    translation: "You mean you don't have enough friends?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -15973,9 +16496,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-515",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Put that towel on his face.",
     tokens: ["sein", "Leg", "auf", "das", "Gesicht.", "Handtuch"],
     solution: ["Leg", "das", "Handtuch", "auf", "sein", "Gesicht."],
+    translation: "Put that towel on his face.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -15998,7 +16522,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-516",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "This conspiracy goes a lot higher than we thought.",
     tokens: [
       "höher",
       "reicht",
@@ -16017,6 +16540,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "als",
       "gedacht.",
     ],
+    translation: "This conspiracy goes a lot higher than we thought.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -16039,9 +16564,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-517",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I would like to present our development.",
     tokens: ["unsere", "präsentieren.", "Entwicklung", "möchte", "Ich"],
     solution: ["Ich", "möchte", "unsere", "Entwicklung", "präsentieren."],
+    translation: "I would like to present our development.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -16064,9 +16590,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-518",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Mother, I've got the oil.",
     tokens: ["Mutter,", "habe", "das", "ich", "Öl."],
     solution: ["Mutter,", "ich", "habe", "das", "Öl."],
+    translation: "Mother, I've got the oil.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -16089,9 +16616,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-519",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "The party took place in a big room.",
     tokens: ["in", "Saal", "einem", "Das", "Fest", "statt.", "fand"],
     solution: ["Das", "Fest", "fand", "in", "einem", "Saal", "statt."],
+    translation: "The party took place in a big room.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -16114,9 +16642,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-520",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Kindly do as you are told!",
     tokens: ["danach!", "dich", "gefälligst", "Richte"],
     solution: ["Richte", "dich", "gefälligst", "danach!"],
+    translation: "Kindly do as you are told!",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -16139,7 +16668,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-521",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "You don't have to be a slave to your programming.",
     tokens: [
       "Programmierung",
       "Ihrer",
@@ -16158,6 +16686,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Programmierung",
       "sein.",
     ],
+    translation: "You don't have to be a slave to your programming.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -16180,9 +16710,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-522",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I feel lousy about yesterday.",
     tokens: ["wegen", "gestern.", "mich", "mies", "Ich", "fühle"],
     solution: ["Ich", "fühle", "mich", "mies", "wegen", "gestern."],
+    translation: "I feel lousy about yesterday.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -16205,7 +16736,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-523",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "This is one negotiation he won't want to miss.",
     tokens: [
       "nicht",
       "wird",
@@ -16224,6 +16754,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "verpassen",
       "wollen.",
     ],
+    translation: "This is one negotiation he won't want to miss.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -16246,9 +16778,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-524",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "It was my ancestor who lived here.",
     tokens: ["hier", "mein", "lebte.", "Es", "der", "Vorfahre,", "war"],
     solution: ["Es", "war", "mein", "Vorfahre,", "der", "hier", "lebte."],
+    translation: "It was my ancestor who lived here.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -16271,7 +16804,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-525",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "It is something that he can't control.",
     tokens: [
       "was",
       "kann.",
@@ -16292,6 +16824,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "beherrschen",
       "kann.",
     ],
+    translation: "It is something that he can't control.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -16314,9 +16848,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-526",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Despite that, we have acted and reacted.",
     tokens: ["haben", "gehandelt", "Trotzdem", "reagiert.", "wir", "und"],
     solution: ["Trotzdem", "haben", "wir", "gehandelt", "und", "reagiert."],
+    translation: "Despite that, we have acted and reacted.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -16339,9 +16874,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-527",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I'm the failure here, not you.",
     tokens: ["Versager,", "du.", "der", "hier", "nicht", "bin", "Ich"],
     solution: ["Ich", "bin", "hier", "der", "Versager,", "nicht", "du."],
+    translation: "I'm the failure here, not you.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -16364,9 +16900,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-528",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "He was brilliant, even as a boy.",
     tokens: ["brillant,", "war", "Er", "Junge.", "sogar", "als"],
     solution: ["Er", "war", "brillant,", "sogar", "als", "Junge."],
+    translation: "He was brilliant, even as a boy.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -16389,9 +16926,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-529",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "It is relatively straightforward to poison water.",
     tokens: ["ist", "zu", "vergiften", "Wasser", "einfach.", "relativ"],
     solution: ["Wasser", "zu", "vergiften", "ist", "relativ", "einfach."],
+    translation: "It is relatively straightforward to poison water.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -16414,7 +16952,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-530",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I have got an air conditioner that I have to oil myself.",
     tokens: [
       "ölen",
       "Klimaanlage,",
@@ -16437,6 +16974,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "ölen",
       "muss.",
     ],
+    translation: "I have got an air conditioner that I have to oil myself.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -16459,7 +16998,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-531",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "We have come only as curious observers.",
     tokens: [
       "sind",
       "als",
@@ -16478,6 +17016,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Beobachter",
       "gekommen.",
     ],
+    translation: "We have come only as curious observers.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -16500,9 +17040,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-532",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "All the sounds play a melody of the heart.",
     tokens: ["Alle", "spielen", "des", "Töne", "eine", "Herzens.", "Melodie"],
     solution: ["Alle", "Töne", "spielen", "eine", "Melodie", "des", "Herzens."],
+    translation: "All the sounds play a melody of the heart.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -16525,7 +17066,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-533",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "There's no reason why we should remain strangers.",
     tokens: [
       "Fremde",
       "müssten.",
@@ -16548,6 +17088,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "bleiben",
       "müssten.",
     ],
+    translation: "There's no reason why we should remain strangers.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -16570,7 +17112,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-534",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Don't expose the plant to direct sunlight.",
     tokens: [
       "aussetzen.",
       "nicht",
@@ -16585,6 +17126,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Sonneneinstrahlung",
       "aussetzen.",
     ],
+    translation: "Don't expose the plant to direct sunlight.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -16607,9 +17150,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-535",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I would like to open a checking account.",
     tokens: ["möchte", "Girokonto", "eröffnen.", "Ich", "ein"],
     solution: ["Ich", "möchte", "ein", "Girokonto", "eröffnen."],
+    translation: "I would like to open a checking account.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -16632,9 +17176,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-536",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I am called the Knight of the Mirrors.",
     tokens: ["genannt.", "der", "Ich", "Spiegel", "werde", "Ritter"],
     solution: ["Ich", "werde", "Ritter", "der", "Spiegel", "genannt."],
+    translation: "I am called the Knight of the Mirrors.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -16657,7 +17202,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-537",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "You've begun to admire this girl.",
     tokens: ["bewundern.", "Du", "zu", "das", "hast", "Mädchen", "angefangen,"],
     solution: [
       "Du",
@@ -16668,6 +17212,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "zu",
       "bewundern.",
     ],
+    translation: "You've begun to admire this girl.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -16690,9 +17236,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-538",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Can I speak to you in private?",
     tokens: ["Kann", "ich", "privat", "dir", "mit", "sprechen?"],
     solution: ["Kann", "ich", "mit", "dir", "privat", "sprechen?"],
+    translation: "Can I speak to you in private?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -16715,9 +17262,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-539",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "They are known for their wisdom.",
     tokens: ["bekannt", "ihre", "Weisheit.", "Sie", "für", "sind"],
     solution: ["Sie", "sind", "bekannt", "für", "ihre", "Weisheit."],
+    translation: "They are known for their wisdom.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -16740,7 +17288,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-540",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "My girlfriend thinks she needs to puke.",
     tokens: ["muss.", "sie", "glaubt,", "kotzen", "dass", "Meine", "Freundin"],
     solution: [
       "Meine",
@@ -16751,6 +17298,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "kotzen",
       "muss.",
     ],
+    translation: "My girlfriend thinks she needs to puke.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -16773,9 +17322,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-541",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "He looks so happy and peaceful.",
     tokens: ["Er", "so", "sieht", "friedlich", "glücklich", "und", "aus."],
     solution: ["Er", "sieht", "so", "glücklich", "und", "friedlich", "aus."],
+    translation: "He looks so happy and peaceful.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -16798,7 +17348,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-542",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "And I may need your help before this is over.",
     tokens: [
       "brauchen,",
       "Ihre",
@@ -16825,6 +17374,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "vorüber",
       "ist.",
     ],
+    translation: "And I may need your help before this is over.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -16847,9 +17398,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-543",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I know how unpleasant it is for you.",
     tokens: ["dir", "weiß,", "wie", "ist.", "Ich", "unangenehm", "das"],
     solution: ["Ich", "weiß,", "wie", "unangenehm", "dir", "das", "ist."],
+    translation: "I know how unpleasant it is for you.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -16872,9 +17424,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-544",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "You should have died over there, traitor.",
     tokens: ["hättest", "du", "sollen,", "sterben", "Verräter.", "Du"],
     solution: ["Du", "hättest", "sterben", "sollen,", "du", "Verräter."],
+    translation: "You should have died over there, traitor.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -16897,7 +17450,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-545",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Such a rare event deserves to be highlighted.",
     tokens: [
       "Ereignis",
       "seltenes",
@@ -16914,6 +17466,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "verdient",
       "Aufmerksamkeit.",
     ],
+    translation: "Such a rare event deserves to be highlighted.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -16936,9 +17490,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-546",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I'm looking for a dentist, too.",
     tokens: ["suche", "nämlich", "Zahnarzt.", "einen", "Ich", "auch"],
     solution: ["Ich", "suche", "nämlich", "auch", "einen", "Zahnarzt."],
+    translation: "I'm looking for a dentist, too.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -16961,9 +17516,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-547",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "He was kind enough to oblige.",
     tokens: ["Er", "lieb", "zu", "verpflichten.", "so", "sich", "war"],
     solution: ["Er", "war", "so", "lieb", "sich", "zu", "verpflichten."],
+    translation: "He was kind enough to oblige.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -16986,9 +17542,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-548",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "They are waving a white flag.",
     tokens: ["Flagge.", "zeigen", "eine", "weiße", "Sie"],
     solution: ["Sie", "zeigen", "eine", "weiße", "Flagge."],
+    translation: "They are waving a white flag.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -17011,9 +17568,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-549",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "We have to return the car.",
     tokens: ["Auto", "Wir", "zurückgeben.", "das", "müssen"],
     solution: ["Wir", "müssen", "das", "Auto", "zurückgeben."],
+    translation: "We have to return the car.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -17036,7 +17594,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-550",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "What are your thoughts about Japan's economy?",
     tokens: [
       "hast",
       "die",
@@ -17057,6 +17614,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "japanische",
       "Wirtschaft?",
     ],
+    translation: "What are your thoughts about Japan's economy?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -17079,8 +17638,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-551",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus:
-      "Any plate that fails to conform to the above criteria must be rejected.",
     tokens: [
       "weggeworfen.",
       "Kriterien",
@@ -17103,6 +17660,9 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "werden",
       "weggeworfen.",
     ],
+    translation:
+      "Any plate that fails to conform to the above criteria must be rejected.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -17125,9 +17685,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-552",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "She's sending a message to her mother.",
     tokens: ["schickt", "eine", "Sie", "Mutter", "ihrer", "Nachricht."],
     solution: ["Sie", "schickt", "ihrer", "Mutter", "eine", "Nachricht."],
+    translation: "She's sending a message to her mother.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -17150,9 +17711,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-553",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "You won't regret this.",
     tokens: ["werden", "bedauern.", "nicht", "Sie", "es"],
     solution: ["Sie", "werden", "es", "nicht", "bedauern."],
+    translation: "You won't regret this.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -17175,9 +17737,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-554",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I'm sorry, that's not polite.",
     tokens: ["ist", "Entschuldigung,", "nicht", "das", "höflich."],
     solution: ["Entschuldigung,", "das", "ist", "nicht", "höflich."],
+    translation: "I'm sorry, that's not polite.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -17200,9 +17763,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-555",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Apparently, the bus was late.",
     tokens: ["anscheinend", "hatte", "Der", "Verspätung.", "Bus"],
     solution: ["Der", "Bus", "hatte", "anscheinend", "Verspätung."],
+    translation: "Apparently, the bus was late.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -17225,9 +17789,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-556",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I meant it as a serious comment.",
     tokens: ["gedacht.", "ernsthafter", "Kommentar", "Das", "als", "war"],
     solution: ["Das", "war", "als", "ernsthafter", "Kommentar", "gedacht."],
+    translation: "I meant it as a serious comment.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -17250,7 +17815,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-557",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "The next meeting will take place in a few days.",
     tokens: [
       "Die",
       "einigen",
@@ -17271,6 +17835,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Tagen",
       "statt.",
     ],
+    translation: "The next meeting will take place in a few days.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -17293,9 +17859,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-558",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "You did this intentionally.",
     tokens: ["du", "getan.", "hast", "absichtlich", "Das"],
     solution: ["Das", "hast", "du", "absichtlich", "getan."],
+    translation: "You did this intentionally.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -17318,9 +17885,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-559",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "That's thoroughly and utterly absurd.",
     tokens: ["gar", "ist", "und", "absurd.", "ganz", "Das"],
     solution: ["Das", "ist", "ganz", "und", "gar", "absurd."],
+    translation: "That's thoroughly and utterly absurd.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -17343,9 +17911,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-560",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "You can't get Codeine without a prescription.",
     tokens: ["Kodein", "kriegst", "Du", "Rezept.", "ohne", "kein"],
     solution: ["Du", "kriegst", "kein", "Kodein", "ohne", "Rezept."],
+    translation: "You can't get Codeine without a prescription.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -17368,9 +17937,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-561",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "John is still in a coma.",
     tokens: ["im", "John", "Koma.", "noch", "liegt"],
     solution: ["John", "liegt", "noch", "im", "Koma."],
+    translation: "John is still in a coma.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -17393,9 +17963,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-562",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Yes, it exercises every muscle in the body.",
     tokens: ["trainiert", "im", "das", "Ja,", "Muskel", "jeden", "Körper."],
     solution: ["Ja,", "das", "trainiert", "jeden", "Muskel", "im", "Körper."],
+    translation: "Yes, it exercises every muscle in the body.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -17418,9 +17989,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-563",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "This belt fits me too tightly.",
     tokens: ["zu", "Gürtel", "eng.", "sitzt", "Dieser"],
     solution: ["Dieser", "Gürtel", "sitzt", "zu", "eng."],
+    translation: "This belt fits me too tightly.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -17443,9 +18015,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-564",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I looked up at this man.",
     tokens: ["schaute", "zu", "Mann.", "diesem", "hinauf", "Ich"],
     solution: ["Ich", "schaute", "hinauf", "zu", "diesem", "Mann."],
+    translation: "I looked up at this man.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -17468,9 +18041,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-565",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "They don't look very Russian to me.",
     tokens: ["sehen", "Die", "nicht", "sehr", "aus.", "russisch"],
     solution: ["Die", "sehen", "nicht", "sehr", "russisch", "aus."],
+    translation: "They don't look very Russian to me.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -17493,7 +18067,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-566",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Maybe we can put this discovery into practical use.",
     tokens: [
       "wir",
       "die",
@@ -17512,6 +18085,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "vorteilhaft",
       "einsetzen.",
     ],
+    translation: "Maybe we can put this discovery into practical use.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -17534,9 +18109,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-567",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I want to go somewhere in Europe.",
     tokens: ["irgendwohin", "Ich", "in", "will", "Europa."],
     solution: ["Ich", "will", "irgendwohin", "in", "Europa."],
+    translation: "I want to go somewhere in Europe.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -17559,7 +18135,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-568",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Could you tell me how to delete this sentence?",
     tokens: [
       "Satz",
       "erklären,",
@@ -17584,6 +18159,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "löschen",
       "kann?",
     ],
+    translation: "Could you tell me how to delete this sentence?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -17606,8 +18183,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-569",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus:
-      "I shall, however, faithfully represent the view of the Commission.",
     tokens: [
       "der",
       "vertreten.",
@@ -17643,6 +18218,9 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
         "vertreten.",
       ],
     ],
+    translation:
+      "I shall, however, faithfully represent the view of the Commission.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -17665,9 +18243,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-570",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "It's time for your therapy.",
     tokens: ["ist", "Therapie.", "deine", "Es", "Zeit", "für"],
     solution: ["Es", "ist", "Zeit", "für", "deine", "Therapie."],
+    translation: "It's time for your therapy.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -17690,9 +18269,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-571",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I don't want to fall in love with you.",
     tokens: ["Ich", "möchte", "mich", "dich", "verlieben.", "nicht", "in"],
     solution: ["Ich", "möchte", "mich", "nicht", "in", "dich", "verlieben."],
+    translation: "I don't want to fall in love with you.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -17715,9 +18295,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-572",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I was abroad last year.",
     tokens: ["im", "Ausland.", "vergangenes", "Ich", "war", "Jahr"],
     solution: ["Ich", "war", "vergangenes", "Jahr", "im", "Ausland."],
+    translation: "I was abroad last year.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -17740,7 +18321,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-573",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "We are responsible for the whole of that area.",
     tokens: ["Wir", "dieses", "gesamte", "sind", "Gebiet", "zuständig.", "für"],
     solution: [
       "Wir",
@@ -17751,6 +18331,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Gebiet",
       "zuständig.",
     ],
+    translation: "We are responsible for the whole of that area.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -17773,8 +18355,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-574",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus:
-      "They would then be able to monitor how effective the implementation process was.",
     tokens: [
       "die",
       "der",
@@ -17795,6 +18375,9 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Durchführung",
       "überwachen.",
     ],
+    translation:
+      "They would then be able to monitor how effective the implementation process was.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -17817,9 +18400,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-575",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "The couch wasn't comfortable.",
     tokens: ["nicht", "Die", "bequem.", "Couch", "war"],
     solution: ["Die", "Couch", "war", "nicht", "bequem."],
+    translation: "The couch wasn't comfortable.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -17842,9 +18426,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-576",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Do you know how to operate it?",
     tokens: ["wie", "Sie,", "es", "ist?", "Wissen", "zu", "bedienen"],
     solution: ["Wissen", "Sie,", "wie", "es", "zu", "bedienen", "ist?"],
+    translation: "Do you know how to operate it?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -17867,9 +18452,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-577",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Where did you learn to box like that?",
     tokens: ["du", "gelernt?", "boxen", "Wo", "hast", "so"],
     solution: ["Wo", "hast", "du", "so", "boxen", "gelernt?"],
+    translation: "Where did you learn to box like that?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -17892,9 +18478,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-578",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "The combination was too complex.",
     tokens: ["zu", "kompliziert.", "Die", "Kombination", "war"],
     solution: ["Die", "Kombination", "war", "zu", "kompliziert."],
+    translation: "The combination was too complex.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -17917,7 +18504,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-579",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Could anyone point me to some information that could help?",
     tokens: [
       "hilfreiche",
       "irgendwer",
@@ -17936,6 +18522,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Informationen",
       "hinweisen?",
     ],
+    translation: "Could anyone point me to some information that could help?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -17958,7 +18546,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-580",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "The war brought about death and destruction in the city.",
     tokens: [
       "und",
       "brachte",
@@ -17981,6 +18568,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "die",
       "Stadt.",
     ],
+    translation: "The war brought about death and destruction in the city.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -18003,9 +18592,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-581",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Yes, the loneliness is unbearable.",
     tokens: ["Ja,", "unerträglich.", "Einsamkeit", "ist", "die"],
     solution: ["Ja,", "die", "Einsamkeit", "ist", "unerträglich."],
+    translation: "Yes, the loneliness is unbearable.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -18028,7 +18618,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-582",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "The label shall provide the following information.",
     tokens: [
       "ist",
       "versehen.",
@@ -18049,6 +18638,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "zu",
       "versehen.",
     ],
+    translation: "The label shall provide the following information.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -18071,9 +18662,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-583",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "You can't bake a cake without a cooker.",
     tokens: ["Kuchen", "kannst", "keinen", "backen.", "du", "Ohne", "Herd"],
     solution: ["Ohne", "Herd", "kannst", "du", "keinen", "Kuchen", "backen."],
+    translation: "You can't bake a cake without a cooker.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -18096,9 +18688,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-584",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Can you make an exception?",
     tokens: ["machen?", "du", "Kannst", "eine", "Ausnahme"],
     solution: ["Kannst", "du", "eine", "Ausnahme", "machen?"],
+    translation: "Can you make an exception?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -18121,7 +18714,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-585",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Clearly, the robbers came from this direction.",
     tokens: [
       "Räuber",
       "Richtung.",
@@ -18140,6 +18732,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "dieser",
       "Richtung.",
     ],
+    translation: "Clearly, the robbers came from this direction.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -18162,9 +18756,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-586",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Without the formula, they are useless.",
     tokens: ["Formel", "Ohne", "die", "sie", "sind", "nutzlos."],
     solution: ["Ohne", "die", "Formel", "sind", "sie", "nutzlos."],
+    translation: "Without the formula, they are useless.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -18187,7 +18782,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-587",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Please turn your head and cough.",
     tokens: [
       "und",
       "drehen",
@@ -18208,6 +18802,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "husten",
       "Sie.",
     ],
+    translation: "Please turn your head and cough.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -18230,7 +18826,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-588",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Keep an eye out for anything suspicious.",
     tokens: [
       "Sie",
       "verdächtig",
@@ -18255,6 +18850,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "verdächtig",
       "ist.",
     ],
+    translation: "Keep an eye out for anything suspicious.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -18277,9 +18874,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-589",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "We can't go anywhere with this chip.",
     tokens: ["Mit", "dem", "Chip", "nirgendwohin.", "können", "wir"],
     solution: ["Mit", "dem", "Chip", "können", "wir", "nirgendwohin."],
+    translation: "We can't go anywhere with this chip.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -18302,9 +18900,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-590",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I wanted to go back and watch them secretly.",
     tokens: ["zurückgehen", "wollte", "sie", "bespitzeln.", "Ich", "und"],
     solution: ["Ich", "wollte", "zurückgehen", "und", "sie", "bespitzeln."],
+    translation: "I wanted to go back and watch them secretly.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -18327,7 +18926,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-591",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I can assure you that won't happen.",
     tokens: [
       "versichern,",
       "nicht",
@@ -18348,6 +18946,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "nicht",
       "passieren.",
     ],
+    translation: "I can assure you that won't happen.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -18370,9 +18970,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-592",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I hope it was your homework.",
     tokens: ["hoffe,", "deine", "Ich", "war", "Hausaufgabe.", "das"],
     solution: ["Ich", "hoffe,", "das", "war", "deine", "Hausaufgabe."],
+    translation: "I hope it was your homework.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -18395,7 +18996,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-593",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "This would clearly be unfair and impracticable.",
     tokens: [
       "nicht",
       "unfair",
@@ -18414,6 +19014,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "nicht",
       "durchführbar.",
     ],
+    translation: "This would clearly be unfair and impracticable.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -18436,7 +19038,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-594",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I have a hangover, and I don't recall the party.",
     tokens: [
       "Ich",
       "habe",
@@ -18465,6 +19066,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "die",
       "Party.",
     ],
+    translation: "I have a hangover, and I don't recall the party.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -18487,9 +19090,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-595",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "That's why he came here.",
     tokens: ["hierhin", "ist", "gekommen.", "Deshalb", "er"],
     solution: ["Deshalb", "ist", "er", "hierhin", "gekommen."],
+    translation: "That's why he came here.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -18512,9 +19116,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-596",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Cats are often run over by moving vehicles.",
     tokens: ["Katzen", "von", "überfahren.", "Fahrzeugen", "werden", "oft"],
     solution: ["Katzen", "werden", "oft", "von", "Fahrzeugen", "überfahren."],
+    translation: "Cats are often run over by moving vehicles.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -18537,7 +19142,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-597",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Apparently, there was something she wanted to tell you.",
     tokens: ["dir", "mitteilen.", "Augenscheinlich", "wollte", "etwas", "sie"],
     solution: [
       "Augenscheinlich",
@@ -18547,6 +19151,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "etwas",
       "mitteilen.",
     ],
+    translation: "Apparently, there was something she wanted to tell you.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -18569,9 +19175,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-598",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I just don't want to disappoint her anymore.",
     tokens: ["Ich", "möchte", "sie", "mehr", "nicht", "enttäuschen."],
     solution: ["Ich", "möchte", "sie", "nicht", "mehr", "enttäuschen."],
+    translation: "I just don't want to disappoint her anymore.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -18594,7 +19201,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-599",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I could hardly refuse John's challenge.",
     tokens: [
       "Johns",
       "Ich",
@@ -18611,6 +19217,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "schwerlich",
       "ablehnen.",
     ],
+    translation: "I could hardly refuse John's challenge.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -18633,9 +19241,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-600",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "We have to speak German without an accent.",
     tokens: ["sprechen.", "Wir", "Akzent", "müssen", "Deutsch", "ohne"],
     solution: ["Wir", "müssen", "ohne", "Akzent", "Deutsch", "sprechen."],
+    translation: "We have to speak German without an accent.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -18658,9 +19267,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-601",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "It was pretty brutal, but that's how it was.",
     tokens: ["brutal,", "Ziemlich", "aber", "war", "es.", "so"],
     solution: ["Ziemlich", "brutal,", "aber", "so", "war", "es."],
+    translation: "It was pretty brutal, but that's how it was.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -18683,7 +19293,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-602",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Under these conditions, fog is highly unlikely.",
     tokens: [
       "unwahrscheinlich.",
       "Bedingungen",
@@ -18702,6 +19311,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "höchst",
       "unwahrscheinlich.",
     ],
+    translation: "Under these conditions, fog is highly unlikely.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -18724,7 +19335,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-603",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "In my opinion, it would be better to change the policy.",
     tokens: [
       "besser,",
       "Meiner",
@@ -18749,6 +19359,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "zu",
       "ändern.",
     ],
+    translation: "In my opinion, it would be better to change the policy.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -18771,7 +19383,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-604",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Bill took his little brother to the zoo.",
     tokens: [
       "mit",
       "nahm",
@@ -18794,6 +19405,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "den",
       "Zoo.",
     ],
+    translation: "Bill took his little brother to the zoo.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -18816,9 +19429,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-605",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "A total of 30 countries presently participate.",
     tokens: ["insgesamt", "Länder.", "sich", "beteiligen", "Derzeit"],
     solution: ["Derzeit", "beteiligen", "sich", "insgesamt", "Länder."],
+    translation: "A total of 30 countries presently participate.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -18841,9 +19455,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-606",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "We've only got cold chicken.",
     tokens: ["nur", "Wir", "haben", "Huhn.", "kaltes"],
     solution: ["Wir", "haben", "nur", "kaltes", "Huhn."],
+    translation: "We've only got cold chicken.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -18866,9 +19481,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-607",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "The lawn needs to be watered.",
     tokens: ["gesprengt", "werden.", "muss", "Rasen", "Der"],
     solution: ["Der", "Rasen", "muss", "gesprengt", "werden."],
+    translation: "The lawn needs to be watered.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -18891,7 +19507,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-608",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "A teacher's salary is less than an attorney's.",
     tokens: [
       "das",
       "eines",
@@ -18916,6 +19531,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "eines",
       "Rechtsanwalts.",
     ],
+    translation: "A teacher's salary is less than an attorney's.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -18938,7 +19555,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-609",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "His son-in-law completely recovered from his illness.",
     tokens: [
       "Krankheit",
       "erholt.",
@@ -18961,6 +19577,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Krankheit",
       "erholt.",
     ],
+    translation: "His son-in-law completely recovered from his illness.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -18983,9 +19601,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-610",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "A truck will pick you up in two hours.",
     tokens: ["zwei", "ab.", "Lkw", "Stunden", "holt", "ein", "Sie", "In"],
     solution: ["In", "zwei", "Stunden", "holt", "ein", "Lkw", "Sie", "ab."],
+    translation: "A truck will pick you up in two hours.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -19008,9 +19627,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-611",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I don't want to bring back the silverware.",
     tokens: ["zurückbringen.", "Besteck", "Ich", "das", "will", "nicht"],
     solution: ["Ich", "will", "das", "Besteck", "nicht", "zurückbringen."],
+    translation: "I don't want to bring back the silverware.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -19033,7 +19653,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-612",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "You have brought me nothing but pain and misery.",
     tokens: [
       "gebracht.",
       "Elend",
@@ -19056,6 +19675,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Elend",
       "gebracht.",
     ],
+    translation: "You have brought me nothing but pain and misery.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -19078,9 +19699,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-613",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "She will give him a shot.",
     tokens: ["Spritze.", "gibt", "Sie", "eine", "ihm"],
     solution: ["Sie", "gibt", "ihm", "eine", "Spritze."],
+    translation: "She will give him a shot.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -19103,9 +19725,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-614",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "He's passed out on the sofa.",
     tokens: ["auf", "liegt", "Sofa.", "dem", "Er", "bewusstlos"],
     solution: ["Er", "liegt", "bewusstlos", "auf", "dem", "Sofa."],
+    translation: "He's passed out on the sofa.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -19128,7 +19751,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-615",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "We shouldn't apply overly strict criteria here.",
     tokens: [
       "strenge",
       "hier",
@@ -19149,6 +19771,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Kriterien",
       "anlegen.",
     ],
+    translation: "We shouldn't apply overly strict criteria here.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -19171,9 +19795,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-616",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I must put an end to this madness.",
     tokens: ["diesem", "Ich", "setzen.", "muss", "ein", "Wahnsinn", "Ende"],
     solution: ["Ich", "muss", "diesem", "Wahnsinn", "ein", "Ende", "setzen."],
+    translation: "I must put an end to this madness.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -19196,9 +19821,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-617",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Don't try to annoy me.",
     tokens: ["nicht,", "Versuch", "zu", "mich", "ärgern!"],
     solution: ["Versuch", "nicht,", "mich", "zu", "ärgern!"],
+    translation: "Don't try to annoy me.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -19221,7 +19847,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-618",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "We just have to wait it out a few more hours.",
     tokens: ["müssen", "abwarten.", "Stunden", "einfach", "Wir", "ein", "paar"],
     solution: [
       "Wir",
@@ -19232,6 +19857,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Stunden",
       "abwarten.",
     ],
+    translation: "We just have to wait it out a few more hours.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -19254,9 +19881,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-619",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "The whole thing is starting to stink.",
     tokens: ["stinken.", "zu", "Sache", "an,", "Die", "fängt", "ganze"],
     solution: ["Die", "ganze", "Sache", "fängt", "an,", "zu", "stinken."],
+    translation: "The whole thing is starting to stink.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -19279,7 +19907,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-620",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Fortunately, I don't need your approval.",
     tokens: [
       "Glücklicherweise",
       "Zustimmung",
@@ -19296,6 +19923,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Zustimmung",
       "nicht.",
     ],
+    translation: "Fortunately, I don't need your approval.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -19318,7 +19947,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-621",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I don't know, but everyone is very worried.",
     tokens: [
       "weiß",
       "Ich",
@@ -19339,6 +19967,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "sehr",
       "beunruhigt.",
     ],
+    translation: "I don't know, but everyone is very worried.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -19361,9 +19991,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-622",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Many rivers flow into the sea.",
     tokens: ["Viele", "ins", "Meer.", "Flüsse", "fließen"],
     solution: ["Viele", "Flüsse", "fließen", "ins", "Meer."],
+    translation: "Many rivers flow into the sea.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -19386,7 +20017,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-623",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "This is a valuable addition to our collection.",
     tokens: [
       "Sammlung.",
       "eine",
@@ -19405,6 +20035,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "unserer",
       "Sammlung.",
     ],
+    translation: "This is a valuable addition to our collection.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -19427,9 +20059,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-624",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I'm responsible for the incident.",
     tokens: ["Für", "ich", "bin", "den", "verantwortlich.", "Vorfall"],
     solution: ["Für", "den", "Vorfall", "bin", "ich", "verantwortlich."],
+    translation: "I'm responsible for the incident.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -19452,7 +20085,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-625",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "It feels more like an act of desperation.",
     tokens: [
       "der",
       "Verzweiflung",
@@ -19477,6 +20109,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Verzweiflung",
       "an.",
     ],
+    translation: "It feels more like an act of desperation.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -19499,9 +20133,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-626",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "At what temperature does it melt?",
     tokens: ["es?", "schmilzt", "welcher", "Bei", "Temperatur"],
     solution: ["Bei", "welcher", "Temperatur", "schmilzt", "es?"],
+    translation: "At what temperature does it melt?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -19524,9 +20159,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-627",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "There is a monster under my bed.",
     tokens: ["ist", "meinem", "ein", "Da", "Ungeheuer", "Bett.", "unter"],
     solution: ["Da", "ist", "ein", "Ungeheuer", "unter", "meinem", "Bett."],
+    translation: "There is a monster under my bed.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -19549,8 +20185,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-628",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus:
-      "As for the pipelines, all of them have to pass through Poland to reach Russia.",
     tokens: [
       "Pipelines",
       "laufen.",
@@ -19571,6 +20205,9 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Polen",
       "laufen.",
     ],
+    translation:
+      "As for the pipelines, all of them have to pass through Poland to reach Russia.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -19593,7 +20230,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-629",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Unfortunately, I can't find this article.",
     tokens: ["ich", "finden.", "kann", "diesen", "Artikel", "nicht", "Leider"],
     solution: [
       "Leider",
@@ -19604,6 +20240,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "nicht",
       "finden.",
     ],
+    translation: "Unfortunately, I can't find this article.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -19626,9 +20264,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-630",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "We have to get to the bridge.",
     tokens: ["auf", "Wir", "die", "müssen", "Brücke", "gelangen."],
     solution: ["Wir", "müssen", "auf", "die", "Brücke", "gelangen."],
+    translation: "We have to get to the bridge.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -19651,7 +20290,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-631",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "That, I can assure you, is impossible.",
     tokens: [
       "Ich",
       "ist",
@@ -19670,6 +20308,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "ist",
       "ausgeschlossen.",
     ],
+    translation: "That, I can assure you, is impossible.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -19692,9 +20332,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-632",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "You knew my parents were divorced.",
     tokens: ["Du", "sind", "geschieden.", "wusstest,", "Eltern", "meine"],
     solution: ["Du", "wusstest,", "meine", "Eltern", "sind", "geschieden."],
+    translation: "You knew my parents were divorced.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -19717,7 +20358,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-633",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I was waiting for you in our cabin.",
     tokens: [
       "auf",
       "Ich",
@@ -19738,6 +20378,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Kabine",
       "gewartet.",
     ],
+    translation: "I was waiting for you in our cabin.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -19760,7 +20402,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-634",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "We need to refuel at the next gas station.",
     tokens: [
       "wir",
       "Bei",
@@ -19779,6 +20420,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "wir",
       "tanken.",
     ],
+    translation: "We need to refuel at the next gas station.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -19801,9 +20444,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-635",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "But the interval between is worth it all.",
     tokens: ["wert.", "es", "die", "Aber", "dazwischen", "ist", "Zeit"],
     solution: ["Aber", "die", "Zeit", "dazwischen", "ist", "es", "wert."],
+    translation: "But the interval between is worth it all.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -19826,9 +20470,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-636",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Can you pick it up, please?",
     tokens: ["Kannst", "aufheben?", "du", "bitte", "es"],
     solution: ["Kannst", "du", "es", "bitte", "aufheben?"],
+    translation: "Can you pick it up, please?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -19851,9 +20496,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-637",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "He was so charming and good looking.",
     tokens: ["und", "gutaussehend.", "war", "charmant", "Er", "so"],
     solution: ["Er", "war", "so", "charmant", "und", "gutaussehend."],
+    translation: "He was so charming and good looking.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -19876,7 +20522,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-638",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "The feed should be available when vaccinating.",
     tokens: [
       "zur",
       "der",
@@ -19897,6 +20542,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Verfügung",
       "stehen.",
     ],
+    translation: "The feed should be available when vaccinating.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -19919,9 +20566,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-639",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Do you want to row across the lake with me?",
     tokens: ["den", "über", "See", "du", "mit", "mir", "rudern?", "Würdest"],
     solution: ["Würdest", "du", "mit", "mir", "über", "den", "See", "rudern?"],
+    translation: "Do you want to row across the lake with me?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -19944,9 +20592,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-640",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "The needle is very sharp.",
     tokens: ["scharf.", "Nadel", "ist", "Die", "sehr"],
     solution: ["Die", "Nadel", "ist", "sehr", "scharf."],
+    translation: "The needle is very sharp.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -19969,9 +20618,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-641",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "The girl is so cheeky.",
     tokens: ["so", "Mädchen", "ist", "Das", "frech."],
     solution: ["Das", "Mädchen", "ist", "so", "frech."],
+    translation: "The girl is so cheeky.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -19994,9 +20644,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-642",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "She lived there for years.",
     tokens: ["gelebt.", "hat", "jahrelang", "Sie", "dort"],
     solution: ["Sie", "hat", "dort", "jahrelang", "gelebt."],
+    translation: "She lived there for years.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -20019,9 +20670,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-643",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "The baseball season opens before long.",
     tokens: ["bald", "Baseball-Saison", "Die", "an.", "fängt"],
     solution: ["Die", "Baseball-Saison", "fängt", "bald", "an."],
+    translation: "The baseball season opens before long.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -20044,9 +20696,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-644",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I'm British and a lord.",
     tokens: ["ein", "und", "Lord.", "Ich", "Brite", "bin"],
     solution: ["Ich", "bin", "Brite", "und", "ein", "Lord."],
+    translation: "I'm British and a lord.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -20069,9 +20722,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-645",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "We received a large package.",
     tokens: ["großes", "erhielten", "ein", "Wir", "Paket."],
     solution: ["Wir", "erhielten", "ein", "großes", "Paket."],
+    translation: "We received a large package.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -20094,9 +20748,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-646",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "He can't do without you.",
     tokens: ["nicht", "Er", "euch", "kann", "auf", "verzichten."],
     solution: ["Er", "kann", "auf", "euch", "nicht", "verzichten."],
+    translation: "He can't do without you.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -20119,7 +20774,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-647",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Seen from a distance, the rock looks like an old castle.",
     tokens: [
       "Schloss.",
       "der",
@@ -20146,6 +20800,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "altes",
       "Schloss.",
     ],
+    translation: "Seen from a distance, the rock looks like an old castle.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -20168,9 +20824,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-648",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Now, the driver hardly had time to brake.",
     tokens: ["Zeit", "kaum", "zu", "bremsen.", "Fahrer", "blieb", "Dem"],
     solution: ["Dem", "Fahrer", "blieb", "kaum", "Zeit", "zu", "bremsen."],
+    translation: "Now, the driver hardly had time to brake.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -20193,9 +20850,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-649",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "This is a package from our dealer.",
     tokens: ["ein", "von", "ist", "Paket", "unserem", "Dealer.", "Es"],
     solution: ["Es", "ist", "ein", "Paket", "von", "unserem", "Dealer."],
+    translation: "This is a package from our dealer.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -20218,9 +20876,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-650",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Could we maybe stay here overnight?",
     tokens: ["vielleicht", "wir", "übernachten?", "Könnten", "hier"],
     solution: ["Könnten", "wir", "vielleicht", "hier", "übernachten?"],
+    translation: "Could we maybe stay here overnight?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -20243,9 +20902,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-651",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "We discussed the plan yesterday.",
     tokens: ["Wir", "gestern", "Vorhaben", "haben", "besprochen.", "das"],
     solution: ["Wir", "haben", "das", "Vorhaben", "gestern", "besprochen."],
+    translation: "We discussed the plan yesterday.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -20268,9 +20928,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-652",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I asked you for a little thing.",
     tokens: ["Kleinigkeit", "Ich", "gebeten.", "um", "habe", "eine", "dich"],
     solution: ["Ich", "habe", "dich", "um", "eine", "Kleinigkeit", "gebeten."],
+    translation: "I asked you for a little thing.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -20293,9 +20954,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-653",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "This hotel has free Wi-Fi.",
     tokens: ["hat", "Dieses", "kostenloses", "WLAN.", "Hotel"],
     solution: ["Dieses", "Hotel", "hat", "kostenloses", "WLAN."],
+    translation: "This hotel has free Wi-Fi.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -20318,9 +20980,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-654",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "The radio is a great invention.",
     tokens: ["Erfindung.", "Das", "großartige", "Radio", "ist", "eine"],
     solution: ["Das", "Radio", "ist", "eine", "großartige", "Erfindung."],
+    translation: "The radio is a great invention.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -20343,9 +21006,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-655",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I have just received the message.",
     tokens: ["gerade", "Meldung", "bekommen.", "Ich", "die", "habe"],
     solution: ["Ich", "habe", "gerade", "die", "Meldung", "bekommen."],
+    translation: "I have just received the message.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -20368,9 +21032,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-656",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Life and death are seldom logical.",
     tokens: ["und", "Leben", "sind", "Tod", "logisch.", "selten"],
     solution: ["Leben", "und", "Tod", "sind", "selten", "logisch."],
+    translation: "Life and death are seldom logical.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -20393,9 +21058,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-657",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "John noticed a change in Jane.",
     tokens: ["an", "eine", "bemerkte", "Veränderung", "John", "Jane."],
     solution: ["John", "bemerkte", "eine", "Veränderung", "an", "Jane."],
+    translation: "John noticed a change in Jane.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -20418,7 +21084,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-658",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Modern philosophy has its beginnings in the 19th century.",
     tokens: ["im", "moderne", "Die", "Philosophie", "beginnt", "Jahrhundert."],
     solution: [
       "Die",
@@ -20428,6 +21093,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "im",
       "Jahrhundert.",
     ],
+    translation: "Modern philosophy has its beginnings in the 19th century.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -20450,9 +21117,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-659",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Water and air surround us everywhere.",
     tokens: ["und", "uns", "umgeben", "überall.", "Luft", "Wasser"],
     solution: ["Wasser", "und", "Luft", "umgeben", "uns", "überall."],
+    translation: "Water and air surround us everywhere.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -20475,9 +21143,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-660",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "It's Roger's, from the gas station.",
     tokens: ["gehört", "Roger", "der", "Es", "von", "Tankstelle."],
     solution: ["Es", "gehört", "Roger", "von", "der", "Tankstelle."],
+    translation: "It's Roger's, from the gas station.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -20500,9 +21169,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-661",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "The second term starts at the beginning of January.",
     tokens: ["Term", "Der", "Januar.", "beginnt", "Anfang", "zweite"],
     solution: ["Der", "zweite", "Term", "beginnt", "Anfang", "Januar."],
+    translation: "The second term starts at the beginning of January.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -20525,8 +21195,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-662",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus:
-      "Unfortunately, many Japanese still cling to clichés about Americans.",
     tokens: [
       "Vorurteile",
       "über",
@@ -20547,6 +21215,9 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "über",
       "Amerikaner.",
     ],
+    translation:
+      "Unfortunately, many Japanese still cling to clichés about Americans.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -20569,8 +21240,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-663",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus:
-      "I would like to point out the most important features of the report.",
     tokens: [
       "Berichts",
       "die",
@@ -20593,6 +21262,9 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Berichts",
       "hinweisen.",
     ],
+    translation:
+      "I would like to point out the most important features of the report.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -20615,7 +21287,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-664",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "We have to come up with a scientific experiment.",
     tokens: [
       "ausdenken.",
       "wissenschaftliches",
@@ -20632,6 +21303,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Experiment",
       "ausdenken.",
     ],
+    translation: "We have to come up with a scientific experiment.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -20654,9 +21327,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-665",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "You owe me 40 bucks.",
     tokens: ["Piepen.", "mir", "schuldest", "Du"],
     solution: ["Du", "schuldest", "mir", "Piepen."],
+    translation: "You owe me 40 bucks.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -20679,9 +21353,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-666",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Was I unconscious the whole time?",
     tokens: ["ganze", "Zeit", "die", "ich", "bewusstlos?", "War"],
     solution: ["War", "ich", "die", "ganze", "Zeit", "bewusstlos?"],
+    translation: "Was I unconscious the whole time?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -20704,9 +21379,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-667",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "John won't confess, of course.",
     tokens: ["gestehen.", "John", "nicht", "wird", "natürlich"],
     solution: ["John", "wird", "natürlich", "nicht", "gestehen."],
+    translation: "John won't confess, of course.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -20729,9 +21405,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-668",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I found this envelope on the table.",
     tokens: ["ich", "auf", "Diesen", "Tisch.", "fand", "Umschlag", "dem"],
     solution: ["Diesen", "Umschlag", "fand", "ich", "auf", "dem", "Tisch."],
+    translation: "I found this envelope on the table.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -20754,9 +21431,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-669",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "The bullet is still lodged in the skull.",
     tokens: ["Kugel", "noch", "Die", "steckt", "im", "Schädel."],
     solution: ["Die", "Kugel", "steckt", "noch", "im", "Schädel."],
+    translation: "The bullet is still lodged in the skull.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -20779,9 +21457,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-670",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "They will march with us.",
     tokens: ["marschieren.", "uns", "Sie", "mit", "werden"],
     solution: ["Sie", "werden", "mit", "uns", "marschieren."],
+    translation: "They will march with us.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -20804,7 +21483,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-671",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I am afraid she may have got lost.",
     tokens: ["sie", "Ich", "fürchte,", "verlaufen", "sich", "haben.", "könnte"],
     solution: [
       "Ich",
@@ -20815,6 +21493,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "verlaufen",
       "haben.",
     ],
+    translation: "I am afraid she may have got lost.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -20837,9 +21517,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-672",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Children are to obey their parents.",
     tokens: ["gehorchen.", "ihren", "Eltern", "Kinder", "müssen"],
     solution: ["Kinder", "müssen", "ihren", "Eltern", "gehorchen."],
+    translation: "Children are to obey their parents.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -20862,7 +21543,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-673",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I'm just too sober to be talking about this.",
     tokens: ["nüchtern,", "bin", "reden.", "um", "darüber", "Ich", "zu", "zu"],
     solution: [
       "Ich",
@@ -20874,6 +21554,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "zu",
       "reden.",
     ],
+    translation: "I'm just too sober to be talking about this.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -20896,9 +21578,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-674",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I'm a newspaperman, not a politician.",
     tokens: ["Ich", "Reporter,", "Politiker.", "kein", "bin"],
     solution: ["Ich", "bin", "Reporter,", "kein", "Politiker."],
+    translation: "I'm a newspaperman, not a politician.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -20921,7 +21604,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-675",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "It's all very fascinating, but I'm afraid we must be going.",
     tokens: [
       "ist",
       "faszinierend,",
@@ -20946,6 +21628,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "leider",
       "gehen.",
     ],
+    translation: "It's all very fascinating, but I'm afraid we must be going.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -20968,7 +21652,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-676",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "We have never designated our movement to be political.",
     tokens: [
       "Wir",
       "nie",
@@ -20987,6 +21670,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "als",
       "politisch.",
     ],
+    translation: "We have never designated our movement to be political.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -21009,9 +21694,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-677",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I would like to become a tailor once.",
     tokens: ["ein", "Ich", "mal", "Schneider", "werden.", "möchte"],
     solution: ["Ich", "möchte", "mal", "ein", "Schneider", "werden."],
+    translation: "I would like to become a tailor once.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -21034,9 +21720,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-678",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I didn't want to lie to you.",
     tokens: ["Ich", "dich", "wollte", "anlügen.", "nicht"],
     solution: ["Ich", "wollte", "dich", "nicht", "anlügen."],
+    translation: "I didn't want to lie to you.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -21059,9 +21746,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-679",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "My room is on the fourth floor.",
     tokens: ["Stock.", "vierten", "Mein", "ist", "Zimmer", "im"],
     solution: ["Mein", "Zimmer", "ist", "im", "vierten", "Stock."],
+    translation: "My room is on the fourth floor.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -21084,7 +21772,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-680",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Many young people died in the war in the name of democracy.",
     tokens: [
       "starben",
       "Namen",
@@ -21109,6 +21796,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "der",
       "Demokratie.",
     ],
+    translation: "Many young people died in the war in the name of democracy.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -21131,9 +21820,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-681",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "The man starts to tie Jane up.",
     tokens: ["fesseln.", "Jane", "Mann", "beginnt", "Der", "zu"],
     solution: ["Der", "Mann", "beginnt", "Jane", "zu", "fesseln."],
+    translation: "The man starts to tie Jane up.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -21156,9 +21846,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-682",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "He's headed for the ravine.",
     tokens: ["sich", "Deshalb", "zu", "hat", "davor", "hüten.", "man"],
     solution: ["Deshalb", "hat", "man", "sich", "davor", "zu", "hüten."],
+    translation: "He's headed for the ravine.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -21181,9 +21872,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-683",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Put the ladder in the shed.",
     tokens: ["Schuppen.", "in", "Stell", "die", "Leiter", "den"],
     solution: ["Stell", "die", "Leiter", "in", "den", "Schuppen."],
+    translation: "Put the ladder in the shed.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -21206,9 +21898,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-684",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "This is what happened last autumn.",
     tokens: ["das", "Genau", "letzten", "Herbst.", "passierte"],
     solution: ["Genau", "das", "passierte", "letzten", "Herbst."],
+    translation: "This is what happened last autumn.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -21231,9 +21924,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-685",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I can take away all the pain.",
     tokens: ["kann", "Ich", "ganzen", "Schmerz", "wegnehmen.", "den"],
     solution: ["Ich", "kann", "den", "ganzen", "Schmerz", "wegnehmen."],
+    translation: "I can take away all the pain.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -21256,8 +21950,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-686",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus:
-      "John was undoubtedly the most intelligent student in the entire school.",
     tokens: [
       "ganzen",
       "zweifellos",
@@ -21280,6 +21972,9 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "ganzen",
       "Schule.",
     ],
+    translation:
+      "John was undoubtedly the most intelligent student in the entire school.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -21302,9 +21997,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-687",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "We have iron in our blood.",
     tokens: ["haben", "Blut.", "Wir", "in", "Eisen", "unserem"],
     solution: ["Wir", "haben", "Eisen", "in", "unserem", "Blut."],
+    translation: "We have iron in our blood.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -21327,9 +22023,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-688",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "It is a very good steak.",
     tokens: ["ein", "Es", "ist", "gutes", "Steak.", "echt"],
     solution: ["Es", "ist", "ein", "echt", "gutes", "Steak."],
+    translation: "It is a very good steak.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -21352,9 +22049,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-689",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "He reacted so violently.",
     tokens: ["hat", "heftig", "Er", "reagiert.", "so"],
     solution: ["Er", "hat", "so", "heftig", "reagiert."],
+    translation: "He reacted so violently.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -21377,9 +22075,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-690",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "We will work it out at the meeting.",
     tokens: ["in", "regeln", "Wir", "der", "das", "Versammlung."],
     solution: ["Wir", "regeln", "das", "in", "der", "Versammlung."],
+    translation: "We will work it out at the meeting.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -21402,9 +22101,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-691",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I didn't want to scare you.",
     tokens: ["dich", "wollte", "Ich", "nicht", "schrecken."],
     solution: ["Ich", "wollte", "dich", "nicht", "schrecken."],
+    translation: "I didn't want to scare you.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -21427,9 +22127,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-692",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "He didn't commit that burglary.",
     tokens: ["Einbruch", "hat", "Er", "nicht", "den", "begangen."],
     solution: ["Er", "hat", "den", "Einbruch", "nicht", "begangen."],
+    translation: "He didn't commit that burglary.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -21452,7 +22153,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-693",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Thanks for the compliment, it is very motivating.",
     tokens: [
       "das",
       "motivierend.",
@@ -21473,6 +22173,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "sehr",
       "motivierend.",
     ],
+    translation: "Thanks for the compliment, it is very motivating.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -21495,7 +22197,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-694",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "This district is notorious for air pollution.",
     tokens: [
       "Luftverschmutzung.",
       "Dieser",
@@ -21514,6 +22215,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "der",
       "Luftverschmutzung.",
     ],
+    translation: "This district is notorious for air pollution.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -21536,9 +22239,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-695",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "This matter is currently being discussed.",
     tokens: ["zurzeit", "Dieses", "wird", "Thema", "noch", "erörtert."],
     solution: ["Dieses", "Thema", "wird", "zurzeit", "noch", "erörtert."],
+    translation: "This matter is currently being discussed.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -21561,7 +22265,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-696",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "The winners will compete in a competition next Friday.",
     tokens: [
       "Gewinner",
       "Wettkampf",
@@ -21584,6 +22287,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Wettkampf",
       "antreten.",
     ],
+    translation: "The winners will compete in a competition next Friday.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -21606,7 +22311,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-697",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "They threw his hat over the fence.",
     tokens: [
       "haben",
       "seine",
@@ -21627,6 +22331,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Zaun",
       "geworfen.",
     ],
+    translation: "They threw his hat over the fence.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -21649,9 +22355,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-698",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I would report the theft right away.",
     tokens: ["Diebstahl", "melden.", "würde", "Ich", "den", "gleich"],
     solution: ["Ich", "würde", "den", "Diebstahl", "gleich", "melden."],
+    translation: "I would report the theft right away.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -21674,9 +22381,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-699",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I have seen the movie many times.",
     tokens: ["Film", "gesehen.", "vielmals", "den", "habe", "Ich"],
     solution: ["Ich", "habe", "den", "Film", "vielmals", "gesehen."],
+    translation: "I have seen the movie many times.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -21699,7 +22407,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-700",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I couldn't anticipate that it would happen.",
     tokens: [
       "ahnen,",
       "passieren",
@@ -21720,6 +22427,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "passieren",
       "würde.",
     ],
+    translation: "I couldn't anticipate that it would happen.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -21742,9 +22451,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-701",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "We unite three brands under a single umbrella.",
     tokens: ["Wir", "Marken", "Dach.", "einem", "vereinen", "drei", "unter"],
     solution: ["Wir", "vereinen", "drei", "Marken", "unter", "einem", "Dach."],
+    translation: "We unite three brands under a single umbrella.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -21767,9 +22477,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-702",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "There's a medical explanation for everything that happened.",
     tokens: ["medizinisch", "sich", "alles", "Das", "lässt", "erklären."],
     solution: ["Das", "lässt", "sich", "alles", "medizinisch", "erklären."],
+    translation: "There's a medical explanation for everything that happened.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -21792,7 +22503,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-703",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "He's got a nice, fat worm for you.",
     tokens: [
       "für",
       "dich.",
@@ -21813,6 +22523,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "für",
       "dich.",
     ],
+    translation: "He's got a nice, fat worm for you.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -21835,9 +22547,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-704",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "He seems to like the warmth.",
     tokens: ["gefallen.", "Wärme", "zu", "die", "Ihm", "scheint"],
     solution: ["Ihm", "scheint", "die", "Wärme", "zu", "gefallen."],
+    translation: "He seems to like the warmth.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -21860,9 +22573,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-705",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "It was a harsh blow.",
     tokens: ["war", "ein", "Schlag.", "Es", "schwerer"],
     solution: ["Es", "war", "ein", "schwerer", "Schlag."],
+    translation: "It was a harsh blow.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -21885,9 +22599,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-706",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "You don't sound very relaxed, captain.",
     tokens: ["klingen", "Captain.", "nicht", "Sie", "sehr", "entspannt,"],
     solution: ["Sie", "klingen", "nicht", "sehr", "entspannt,", "Captain."],
+    translation: "You don't sound very relaxed, captain.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -21910,7 +22625,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-707",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "We rented a truck to move our furniture.",
     tokens: [
       "mieteten",
       "einen",
@@ -21933,6 +22647,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "zu",
       "transportieren.",
     ],
+    translation: "We rented a truck to move our furniture.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -21955,7 +22671,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-708",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I just cheer when everyone else does.",
     tokens: ["wenn", "jubeln.", "alle", "anderen", "Ich", "juble", "einfach,"],
     solution: [
       "Ich",
@@ -21966,6 +22681,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "anderen",
       "jubeln.",
     ],
+    translation: "I just cheer when everyone else does.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -21988,8 +22705,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-709",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus:
-      "In both restaurants, local cuisine is served as well as continental.",
     tokens: [
       "sowohl",
       "lokale",
@@ -22012,6 +22727,9 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "kontinentale",
       "Spezialitäten.",
     ],
+    translation:
+      "In both restaurants, local cuisine is served as well as continental.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -22034,9 +22752,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-710",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "The sugar content was very low.",
     tokens: ["gering.", "sehr", "waren", "Die", "Zuckergehalte"],
     solution: ["Die", "Zuckergehalte", "waren", "sehr", "gering."],
+    translation: "The sugar content was very low.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -22059,8 +22778,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-711",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus:
-      "Not all police investigations necessarily lead to the arrest of a suspect.",
     tokens: [
       "Ermittlung",
       "polizeiliche",
@@ -22085,6 +22802,9 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "eines",
       "Verdächtigen.",
     ],
+    translation:
+      "Not all police investigations necessarily lead to the arrest of a suspect.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -22107,7 +22827,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-712",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I promise that this discussion will be the last of its kind.",
     tokens: [
       "verspreche,",
       "dass",
@@ -22132,6 +22851,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "sein",
       "wird.",
     ],
+    translation: "I promise that this discussion will be the last of its kind.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -22154,9 +22875,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-713",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "This will warm your feet.",
     tokens: ["hier", "Das", "wärmen.", "wird", "Füße", "deine"],
     solution: ["Das", "hier", "wird", "deine", "Füße", "wärmen."],
+    translation: "This will warm your feet.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -22179,9 +22901,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-714",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "We want to question him, not kill him.",
     tokens: ["befragen,", "Wir", "umbringen.", "möchten", "nicht", "ihn"],
     solution: ["Wir", "möchten", "ihn", "befragen,", "nicht", "umbringen."],
+    translation: "We want to question him, not kill him.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -22204,9 +22927,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-715",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Millions of people starve to death every year.",
     tokens: ["Menschen.", "Millionen", "Jahr", "von", "Jedes", "verhungern"],
     solution: ["Jedes", "Jahr", "verhungern", "Millionen", "von", "Menschen."],
+    translation: "Millions of people starve to death every year.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -22229,9 +22953,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-716",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Kids bump their heads all the time.",
     tokens: ["Zeit.", "ganze", "Köpfe", "stoßen", "Kinder", "die", "ihre"],
     solution: ["Kinder", "stoßen", "ihre", "Köpfe", "die", "ganze", "Zeit."],
+    translation: "Kids bump their heads all the time.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -22254,7 +22979,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-717",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "John devoted his life to the study of this phenomenon.",
     tokens: [
       "dem",
       "dieses",
@@ -22275,6 +22999,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "dieses",
       "Phänomens.",
     ],
+    translation: "John devoted his life to the study of this phenomenon.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -22297,9 +23023,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-718",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I don't want to offend the star.",
     tokens: ["beleidigen.", "will", "den", "nicht", "Star", "Ich"],
     solution: ["Ich", "will", "den", "Star", "nicht", "beleidigen."],
+    translation: "I don't want to offend the star.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -22322,7 +23049,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-719",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "The dime is a small American coin.",
     tokens: ["Dime", "kleine", "amerikanische", "eine", "Münze.", "ist", "Der"],
     solution: [
       "Der",
@@ -22333,6 +23059,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "amerikanische",
       "Münze.",
     ],
+    translation: "The dime is a small American coin.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -22355,9 +23083,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-720",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "The landing out there was highly successful.",
     tokens: ["Landung", "Die", "sehr", "war", "erfolgreich."],
     solution: ["Die", "Landung", "war", "sehr", "erfolgreich."],
+    translation: "The landing out there was highly successful.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -22380,9 +23109,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-721",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "He loves to exaggerate.",
     tokens: ["Er", "übertreiben.", "liebt", "zu", "es,"],
     solution: ["Er", "liebt", "es,", "zu", "übertreiben."],
+    translation: "He loves to exaggerate.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -22405,9 +23135,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-722",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "She'll tremble when you touch her.",
     tokens: ["du", "würde", "berührst.", "Sie", "wenn", "zittern,", "sie"],
     solution: ["Sie", "würde", "zittern,", "wenn", "du", "sie", "berührst."],
+    translation: "She'll tremble when you touch her.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -22430,9 +23161,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-723",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I'm not a prince, either.",
     tokens: ["auch", "Ich", "bin", "kein", "Prinz."],
     solution: ["Ich", "bin", "auch", "kein", "Prinz."],
+    translation: "I'm not a prince, either.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -22455,9 +23187,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-724",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Why don't you get the banner yourself?",
     tokens: ["selbst?", "du", "holst", "nicht", "Warum", "die", "Fahne"],
     solution: ["Warum", "holst", "du", "die", "Fahne", "nicht", "selbst?"],
+    translation: "Why don't you get the banner yourself?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -22480,9 +23213,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-725",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Chess is the game of kings.",
     tokens: ["der", "Könige.", "Spiel", "Schach", "ist", "das"],
     solution: ["Schach", "ist", "das", "Spiel", "der", "Könige."],
+    translation: "Chess is the game of kings.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -22505,9 +23239,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-726",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "They are an interesting contrast, these two.",
     tokens: ["beiden", "Die", "sind", "interessanter", "Gegensatz.", "ein"],
     solution: ["Die", "beiden", "sind", "ein", "interessanter", "Gegensatz."],
+    translation: "They are an interesting contrast, these two.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -22530,9 +23265,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-727",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "You are not a rebel, John.",
     tokens: ["Du", "kein", "John.", "bist", "Rebell,"],
     solution: ["Du", "bist", "kein", "Rebell,", "John."],
+    translation: "You are not a rebel, John.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -22555,9 +23291,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-728",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I need another bag.",
     tokens: ["brauche", "noch", "Ich", "Tüte.", "eine"],
     solution: ["Ich", "brauche", "noch", "eine", "Tüte."],
+    translation: "I need another bag.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -22580,9 +23317,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-729",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Then I drove to my hut.",
     tokens: ["fuhr", "in", "Bude.", "Dann", "ich", "meine"],
     solution: ["Dann", "fuhr", "ich", "in", "meine", "Bude."],
+    translation: "Then I drove to my hut.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -22605,9 +23343,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-730",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I couldn't stand the stench.",
     tokens: ["den", "Gestank", "ertragen.", "Ich", "konnte", "nicht"],
     solution: ["Ich", "konnte", "den", "Gestank", "nicht", "ertragen."],
+    translation: "I couldn't stand the stench.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -22630,9 +23369,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-731",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "And that's just one client.",
     tokens: ["Klient.", "ist", "Und", "das", "ein", "nur"],
     solution: ["Und", "das", "ist", "nur", "ein", "Klient."],
+    translation: "And that's just one client.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -22655,9 +23395,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-732",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "They mainly live on milk.",
     tokens: ["hauptsächlich", "Milch.", "von", "Sie", "leben"],
     solution: ["Sie", "leben", "hauptsächlich", "von", "Milch."],
+    translation: "They mainly live on milk.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -22680,9 +23421,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-733",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "We will do this another time.",
     tokens: ["machen", "ein", "andermal.", "Wir", "das"],
     solution: ["Wir", "machen", "das", "ein", "andermal."],
+    translation: "We will do this another time.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -22705,7 +23447,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-734",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "He urged us to obey the rule.",
     tokens: ["uns,", "die", "ermahnte", "Er", "beachten.", "zu", "Vorschrift"],
     solution: [
       "Er",
@@ -22716,6 +23457,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "zu",
       "beachten.",
     ],
+    translation: "He urged us to obey the rule.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -22738,9 +23481,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-735",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Elevator three has been stopping on every floor.",
     tokens: ["Etage.", "auf", "hält", "jeder", "Aufzug"],
     solution: ["Aufzug", "hält", "auf", "jeder", "Etage."],
+    translation: "Elevator three has been stopping on every floor.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -22763,9 +23507,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-736",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Don't you see the connection?",
     tokens: ["den", "Zusammenhang?", "ihr", "Seht", "nicht"],
     solution: ["Seht", "ihr", "nicht", "den", "Zusammenhang?"],
+    translation: "Don't you see the connection?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -22788,9 +23533,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-737",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "You don't get any money, you moron.",
     tokens: ["bekommst", "kein", "Geld,", "Du", "Schwachkopf."],
     solution: ["Du", "bekommst", "kein", "Geld,", "Schwachkopf."],
+    translation: "You don't get any money, you moron.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -22813,9 +23559,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-738",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "The police could arrest you for that.",
     tokens: ["Die", "könnte", "Polizei", "dafür", "dich", "festnehmen."],
     solution: ["Die", "Polizei", "könnte", "dich", "dafür", "festnehmen."],
+    translation: "The police could arrest you for that.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -22838,9 +23585,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-739",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Dolly the sheep, however, changes everything.",
     tokens: ["Schaf", "Dolly", "ändert", "jedoch", "alles.", "Das"],
     solution: ["Das", "Schaf", "Dolly", "ändert", "jedoch", "alles."],
+    translation: "Dolly the sheep, however, changes everything.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -22863,9 +23611,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-740",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "He was never better than under John's direction.",
     tokens: ["Regie.", "als", "Johns", "besser", "war", "nie", "Er", "unter"],
     solution: ["Er", "war", "nie", "besser", "als", "unter", "Johns", "Regie."],
+    translation: "He was never better than under John's direction.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -22888,9 +23637,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-741",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "We feed our dog three times a day.",
     tokens: ["täglich.", "Wir", "unseren", "dreimal", "Hund", "füttern"],
     solution: ["Wir", "füttern", "unseren", "Hund", "dreimal", "täglich."],
+    translation: "We feed our dog three times a day.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -22913,7 +23663,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-742",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "When grey, values are positive as usual.",
     tokens: [
       "positiv",
       "Wenn",
@@ -22934,6 +23683,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "wie",
       "normal.",
     ],
+    translation: "When grey, values are positive as usual.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -22956,7 +23707,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-743",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "We have to get this relationship correct at some point.",
     tokens: ["klären.", "wir", "müssen", "Verhältnis", "Irgendwann", "dieses"],
     solution: [
       "Irgendwann",
@@ -22966,6 +23716,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Verhältnis",
       "klären.",
     ],
+    translation: "We have to get this relationship correct at some point.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -22988,8 +23740,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-744",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus:
-      "In my village, there is a small, narrow footbridge over a brook.",
     tokens: [
       "schmalen",
       "Steg",
@@ -23018,6 +23768,9 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "einen",
       "Bach.",
     ],
+    translation:
+      "In my village, there is a small, narrow footbridge over a brook.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -23040,9 +23793,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-745",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "He conquered the city.",
     tokens: ["hat", "Stadt", "die", "Er", "erobert."],
     solution: ["Er", "hat", "die", "Stadt", "erobert."],
+    translation: "He conquered the city.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -23065,9 +23819,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-746",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I think it is a lion.",
     tokens: ["denke,", "es", "ein", "Löwe.", "ist", "Ich"],
     solution: ["Ich", "denke,", "es", "ist", "ein", "Löwe."],
+    translation: "I think it is a lion.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -23090,9 +23845,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-747",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Your baby is so cute.",
     tokens: ["Baby", "so", "Dein", "niedlich.", "ist"],
     solution: ["Dein", "Baby", "ist", "so", "niedlich."],
+    translation: "Your baby is so cute.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -23115,7 +23871,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-748",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "It's better to swallow pride than blood.",
     tokens: [
       "deinen",
       "solltest",
@@ -23134,6 +23889,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Stolz",
       "schlucken.",
     ],
+    translation: "It's better to swallow pride than blood.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -23156,7 +23913,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-749",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I don't think John was involved in the scandal.",
     tokens: [
       "beteiligt",
       "dass",
@@ -23181,6 +23937,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "beteiligt",
       "war.",
     ],
+    translation: "I don't think John was involved in the scandal.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -23203,7 +23961,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-750",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "The natural wealth of this area is immense.",
     tokens: [
       "dieses",
       "ist",
@@ -23222,6 +23979,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "ist",
       "riesig.",
     ],
+    translation: "The natural wealth of this area is immense.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -23244,9 +24003,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-751",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "But it wasn't a sunset at all.",
     tokens: ["Aber", "Sonnenuntergang.", "kein", "gar", "war", "es"],
     solution: ["Aber", "es", "war", "gar", "kein", "Sonnenuntergang."],
+    translation: "But it wasn't a sunset at all.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -23269,9 +24029,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-752",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Then you can take my place.",
     tokens: ["meinen", "Platz", "kannst", "du", "einnehmen.", "Dann"],
     solution: ["Dann", "kannst", "du", "meinen", "Platz", "einnehmen."],
+    translation: "Then you can take my place.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -23294,9 +24055,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-753",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "We want to improve our service.",
     tokens: ["Wir", "verbessern.", "Service", "wollen", "unseren"],
     solution: ["Wir", "wollen", "unseren", "Service", "verbessern."],
+    translation: "We want to improve our service.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -23319,7 +24081,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-754",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I can't stand this pain anymore.",
     tokens: ["aushalten.", "diesen", "nicht", "Schmerz", "mehr", "kann", "Ich"],
     solution: [
       "Ich",
@@ -23330,6 +24091,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "mehr",
       "aushalten.",
     ],
+    translation: "I can't stand this pain anymore.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -23352,9 +24115,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-755",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "There, this basket was full of eggs.",
     tokens: ["Da", "voller", "Korb", "dieser", "Eier.", "war"],
     solution: ["Da", "war", "dieser", "Korb", "voller", "Eier."],
+    translation: "There, this basket was full of eggs.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -23377,7 +24141,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-756",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "We don't know how your symptoms will progress.",
     tokens: [
       "werden.",
       "wie",
@@ -23398,6 +24161,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "fortschreiten",
       "werden.",
     ],
+    translation: "We don't know how your symptoms will progress.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -23420,7 +24185,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-757",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "This difference is what I will express in my painting.",
     tokens: [
       "ich",
       "will",
@@ -23441,6 +24205,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Gemälde",
       "ausdrücken.",
     ],
+    translation: "This difference is what I will express in my painting.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -23463,9 +24229,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-758",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "My small nephew was among them.",
     tokens: ["Unter", "Neffe.", "auch", "mein", "kleiner", "war", "ihnen"],
     solution: ["Unter", "ihnen", "war", "auch", "mein", "kleiner", "Neffe."],
+    translation: "My small nephew was among them.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -23488,7 +24255,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-759",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "The name will be included in the file history.",
     tokens: [
       "Name",
       "in",
@@ -23507,6 +24273,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Dateihistorie",
       "eingeschlossen.",
     ],
+    translation: "The name will be included in the file history.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -23529,9 +24297,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-760",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Scars are supposed to heal, you know.",
     tokens: ["Narben", "sollen", "weißt", "du.", "heilen,"],
     solution: ["Narben", "sollen", "heilen,", "weißt", "du."],
+    translation: "Scars are supposed to heal, you know.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -23554,9 +24323,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-761",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "A break in the skin or a cut can be fatal.",
     tokens: ["kann", "oder", "Schnitt", "Kratzer", "tödlich", "Ein", "sein."],
     solution: ["Ein", "Kratzer", "oder", "Schnitt", "kann", "tödlich", "sein."],
+    translation: "A break in the skin or a cut can be fatal.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -23579,9 +24349,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-762",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "It has been bleeding all morning.",
     tokens: ["ganzen", "Es", "den", "schon", "Morgen.", "blutet"],
     solution: ["Es", "blutet", "schon", "den", "ganzen", "Morgen."],
+    translation: "It has been bleeding all morning.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -23604,9 +24375,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-763",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "It's a small scar.",
     tokens: ["eine", "Narbe.", "ist", "Es", "kleine"],
     solution: ["Es", "ist", "eine", "kleine", "Narbe."],
+    translation: "It's a small scar.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -23629,7 +24401,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-764",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Or perhaps you'd like to grill your sausage.",
     tokens: [
       "dein",
       "du",
@@ -23648,6 +24419,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Würstchen",
       "grillen.",
     ],
+    translation: "Or perhaps you'd like to grill your sausage.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -23670,9 +24443,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-765",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Have you seen the snake?",
     tokens: ["gesehen?", "die", "Schlange", "du", "Hast"],
     solution: ["Hast", "du", "die", "Schlange", "gesehen?"],
+    translation: "Have you seen the snake?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -23695,9 +24469,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-766",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "We operate distribution systems for chilled goods.",
     tokens: ["für", "betreiben", "Wir", "Vertriebssysteme", "Kühlwaren."],
     solution: ["Wir", "betreiben", "Vertriebssysteme", "für", "Kühlwaren."],
+    translation: "We operate distribution systems for chilled goods.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -23720,9 +24495,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-767",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "You are here to guard the gates.",
     tokens: ["bist", "zu", "die", "bewachen.", "Du", "da,", "Tore", "um"],
     solution: ["Du", "bist", "da,", "um", "die", "Tore", "zu", "bewachen."],
+    translation: "You are here to guard the gates.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -23745,9 +24521,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-768",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "You are really drunk now.",
     tokens: ["richtig", "Du", "bist", "besoffen.", "jetzt"],
     solution: ["Du", "bist", "jetzt", "richtig", "besoffen."],
+    translation: "You are really drunk now.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -23770,9 +24547,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-769",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I'll go get a pole.",
     tokens: ["Ich", "Stange.", "gehe", "hole", "eine", "und"],
     solution: ["Ich", "gehe", "und", "hole", "eine", "Stange."],
+    translation: "I'll go get a pole.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -23795,9 +24573,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-770",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "You're behaving like a common whore.",
     tokens: ["dich", "billige", "eine", "benimmst", "Du", "Hure.", "wie"],
     solution: ["Du", "benimmst", "dich", "wie", "eine", "billige", "Hure."],
+    translation: "You're behaving like a common whore.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -23820,7 +24599,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-771",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "You can change the path of the output file.",
     tokens: ["der", "Sie", "Ausgabedatei", "den", "ändern.", "Pfad", "können"],
     solution: [
       "Sie",
@@ -23831,6 +24609,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Ausgabedatei",
       "ändern.",
     ],
+    translation: "You can change the path of the output file.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -23853,7 +24633,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-772",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "We're looking for a consultant to work with the writers.",
     tokens: [
       "für",
       "noch",
@@ -23874,6 +24653,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "unsere",
       "Autoren.",
     ],
+    translation: "We're looking for a consultant to work with the writers.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -23896,7 +24677,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-773",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "You have to respect the national ratification procedures.",
     tokens: [
       "Sie",
       "die",
@@ -23913,6 +24693,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Ratifizierungsverfahren",
       "respektieren.",
     ],
+    translation: "You have to respect the national ratification procedures.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -23935,8 +24717,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-774",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus:
-      "New additions to infrastructure are often unnecessary and very expensive.",
     tokens: [
       "Infrastruktur",
       "der",
@@ -23957,6 +24737,9 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "und",
       "teuer.",
     ],
+    translation:
+      "New additions to infrastructure are often unnecessary and very expensive.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -23979,7 +24762,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-775",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Minutes of the previous meeting were accepted.",
     tokens: [
       "Das",
       "Protokoll",
@@ -23998,6 +24780,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "wurde",
       "angenommen.",
     ],
+    translation: "Minutes of the previous meeting were accepted.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -24020,7 +24804,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-776",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I want you to organize a meeting.",
     tokens: [
       "dass",
       "möchte,",
@@ -24039,6 +24822,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Treffen",
       "organisieren.",
     ],
+    translation: "I want you to organize a meeting.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -24061,9 +24846,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-777",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I saw a fox at the hunt.",
     tokens: ["Fuchs.", "der", "einen", "ich", "Bei", "sah", "Jagd"],
     solution: ["Bei", "der", "Jagd", "sah", "ich", "einen", "Fuchs."],
+    translation: "I saw a fox at the hunt.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -24086,7 +24872,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-778",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Malaria is a disease that mosquitoes carry.",
     tokens: [
       "Krankheit,",
       "wird.",
@@ -24109,6 +24894,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "übertragen",
       "wird.",
     ],
+    translation: "Malaria is a disease that mosquitoes carry.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -24131,7 +24918,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-779",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "As I see it, that is the best approach.",
     tokens: [
       "das",
       "Meinung",
@@ -24152,6 +24938,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "beste",
       "Vorgehen.",
     ],
+    translation: "As I see it, that is the best approach.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -24174,9 +24962,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-780",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "It's only invisible in the water.",
     tokens: ["im", "Das", "ist", "nur", "Wasser", "unsichtbar."],
     solution: ["Das", "ist", "nur", "im", "Wasser", "unsichtbar."],
+    translation: "It's only invisible in the water.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -24199,9 +24988,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-781",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "But the neighborhood is about to be invaded.",
     tokens: ["erobert.", "Aber", "die", "Nachbarschaft", "wird", "bald"],
     solution: ["Aber", "die", "Nachbarschaft", "wird", "bald", "erobert."],
+    translation: "But the neighborhood is about to be invaded.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -24224,7 +25014,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-782",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "For the moment, no one is going to bother you.",
     tokens: [
       "wird",
       "Für",
@@ -24245,6 +25034,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "nicht",
       "belästigen.",
     ],
+    translation: "For the moment, no one is going to bother you.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -24267,9 +25058,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-783",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "It wouldn't surprise me.",
     tokens: ["wundern.", "mich", "würde", "nicht", "Es"],
     solution: ["Es", "würde", "mich", "nicht", "wundern."],
+    translation: "It wouldn't surprise me.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -24292,9 +25084,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-784",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "You're going to need a bigger boat.",
     tokens: ["Boot", "Du", "ein", "brauchen.", "wirst", "größeres"],
     solution: ["Du", "wirst", "ein", "größeres", "Boot", "brauchen."],
+    translation: "You're going to need a bigger boat.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -24317,9 +25110,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-785",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Your attitude definitely improved.",
     tokens: ["Deine", "gebessert.", "definitiv", "Haltung", "hat", "sich"],
     solution: ["Deine", "Haltung", "hat", "sich", "definitiv", "gebessert."],
+    translation: "Your attitude definitely improved.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -24342,9 +25136,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-786",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Some of the regulars are starting to complain.",
     tokens: ["Einige", "der", "beginnen", "klagen.", "zu", "Stammkunden"],
     solution: ["Einige", "der", "Stammkunden", "beginnen", "zu", "klagen."],
+    translation: "Some of the regulars are starting to complain.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -24367,9 +25162,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-787",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "The situation quickly got out of control.",
     tokens: ["geriet", "Die", "Kontrolle.", "Situation", "außer", "rasch"],
     solution: ["Die", "Situation", "geriet", "rasch", "außer", "Kontrolle."],
+    translation: "The situation quickly got out of control.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -24392,9 +25188,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-788",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Cherries are ripe in June or July.",
     tokens: ["reif.", "Kirschen", "Juli", "oder", "Juni", "sind", "im"],
     solution: ["Kirschen", "sind", "im", "Juni", "oder", "Juli", "reif."],
+    translation: "Cherries are ripe in June or July.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -24417,7 +25214,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-789",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "You will not persuade him to persecute them.",
     tokens: [
       "verfolgen.",
       "werden",
@@ -24438,6 +25234,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "zu",
       "verfolgen.",
     ],
+    translation: "You will not persuade him to persecute them.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -24460,9 +25258,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-790",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I don't owe the government a cent.",
     tokens: ["Ich", "schulde", "der", "Cent.", "keinen", "Regierung"],
     solution: ["Ich", "schulde", "der", "Regierung", "keinen", "Cent."],
+    translation: "I don't owe the government a cent.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -24485,7 +25284,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-791",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "On Sundays, we gather for a ceremonial Mass.",
     tokens: [
       "Am",
       "dem",
@@ -24508,6 +25306,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "festlichen",
       "Gottesdienst.",
     ],
+    translation: "On Sundays, we gather for a ceremonial Mass.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -24530,7 +25330,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-792",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Layla stole a lot of cash from the bank.",
     tokens: [
       "eine",
       "Bargeld",
@@ -24551,6 +25350,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "der",
       "Bank.",
     ],
+    translation: "Layla stole a lot of cash from the bank.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -24573,9 +25374,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-793",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "As of now, he is only a witness.",
     tokens: ["ist", "er", "Momentan", "nur", "Zeuge.", "ein"],
     solution: ["Momentan", "ist", "er", "nur", "ein", "Zeuge."],
+    translation: "As of now, he is only a witness.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -24598,9 +25400,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-794",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Can you see that buck up there?",
     tokens: ["Bock", "da", "Sehen", "oben?", "Sie", "den"],
     solution: ["Sehen", "Sie", "den", "Bock", "da", "oben?"],
+    translation: "Can you see that buck up there?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -24623,9 +25426,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-795",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Try your best to excite me.",
     tokens: ["zu", "mich", "Gib", "alles,", "um", "erregen."],
     solution: ["Gib", "alles,", "um", "mich", "zu", "erregen."],
+    translation: "Try your best to excite me.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -24648,9 +25452,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-796",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "John eats nothing but fruit and vegetables.",
     tokens: ["außer", "isst", "nichts", "und", "John", "Gemüse.", "Obst"],
     solution: ["John", "isst", "nichts", "außer", "Obst", "und", "Gemüse."],
+    translation: "John eats nothing but fruit and vegetables.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -24673,9 +25478,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-797",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "A square has four angles.",
     tokens: ["Winkel.", "Quadrat", "vier", "hat", "Ein"],
     solution: ["Ein", "Quadrat", "hat", "vier", "Winkel."],
+    translation: "A square has four angles.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -24698,9 +25504,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-798",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "When did the error occur?",
     tokens: ["Wobei", "aufgetreten?", "ist", "der", "Fehler"],
     solution: ["Wobei", "ist", "der", "Fehler", "aufgetreten?"],
+    translation: "When did the error occur?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -24723,9 +25530,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-799",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "And by the way, therapy doesn't work.",
     tokens: ["hilft", "nebenbei,", "nicht.", "Therapie", "Und"],
     solution: ["Und", "nebenbei,", "Therapie", "hilft", "nicht."],
+    translation: "And by the way, therapy doesn't work.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -24748,9 +25556,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-800",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Then we heard a loud crash.",
     tokens: ["Dann", "ein", "lautes", "hörten", "wir", "Krachen."],
     solution: ["Dann", "hörten", "wir", "ein", "lautes", "Krachen."],
+    translation: "Then we heard a loud crash.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -24773,9 +25582,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-801",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I ate a biscuit.",
     tokens: ["einen", "gegessen.", "Keks", "Ich", "habe"],
     solution: ["Ich", "habe", "einen", "Keks", "gegessen."],
+    translation: "I ate a biscuit.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -24798,9 +25608,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-802",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "You can return to the hotel, countess Ferenczy.",
     tokens: ["Ferenczy.", "Gräfin", "ins", "Hotel,", "Gehen", "ruhig", "Sie"],
     solution: ["Gehen", "Sie", "ruhig", "ins", "Hotel,", "Gräfin", "Ferenczy."],
+    translation: "You can return to the hotel, countess Ferenczy.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -24823,9 +25634,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-803",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Now, baby, it's only a scratch.",
     tokens: ["ein", "es", "Kratzer.", "ist", "Baby,", "nur"],
     solution: ["Baby,", "es", "ist", "nur", "ein", "Kratzer."],
+    translation: "Now, baby, it's only a scratch.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -24848,9 +25660,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-804",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "We talked to the hairdresser.",
     tokens: ["haben", "Wir", "gesprochen.", "mit", "dem", "Friseur"],
     solution: ["Wir", "haben", "mit", "dem", "Friseur", "gesprochen."],
+    translation: "We talked to the hairdresser.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -24873,9 +25686,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-805",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "We should have lighter paint in the hall.",
     tokens: ["gestrichen", "sein.", "heller", "Die", "sollte", "Halle"],
     solution: ["Die", "Halle", "sollte", "heller", "gestrichen", "sein."],
+    translation: "We should have lighter paint in the hall.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -24898,9 +25712,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-806",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I can make about every knot there is.",
     tokens: ["Ich", "kenne", "gibt.", "Knoten,", "alle", "die", "es"],
     solution: ["Ich", "kenne", "alle", "Knoten,", "die", "es", "gibt."],
+    translation: "I can make about every knot there is.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -24923,7 +25738,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-807",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Delegates from many countries participated in the conference.",
     tokens: [
       "an",
       "Delegierte",
@@ -24946,6 +25760,9 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Konferenz",
       "teil.",
     ],
+    translation:
+      "Delegates from many countries participated in the conference.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -24968,9 +25785,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-808",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I have got a ranch to build up.",
     tokens: ["muss", "eine", "Ranch", "aufbauen.", "Ich"],
     solution: ["Ich", "muss", "eine", "Ranch", "aufbauen."],
+    translation: "I have got a ranch to build up.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -24993,7 +25811,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-809",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "These rules may require the lodging of a deposit.",
     tokens: [
       "vorsehen.",
       "Diese",
@@ -25016,6 +25833,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Kaution",
       "vorsehen.",
     ],
+    translation: "These rules may require the lodging of a deposit.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -25038,7 +25857,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-810",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I shall, of course, inform the President of your request.",
     tokens: [
       "Präsidentin",
       "Bitte",
@@ -25061,6 +25879,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Bitte",
       "unterrichten.",
     ],
+    translation: "I shall, of course, inform the President of your request.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -25083,8 +25903,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-811",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus:
-      "The eyes should be rinsed immediately and thoroughly with water.",
     tokens: [
       "gründlich",
       "Augen",
@@ -25105,6 +25923,9 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "ausgewaschen",
       "werden.",
     ],
+    translation:
+      "The eyes should be rinsed immediately and thoroughly with water.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -25127,7 +25948,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-812",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "The castle has been restored and is open to the public.",
     tokens: [
       "Das",
       "öffentlich",
@@ -25148,6 +25968,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "öffentlich",
       "zugänglich.",
     ],
+    translation: "The castle has been restored and is open to the public.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -25170,7 +25992,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-813",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I owe it to my doctor that I am still alive.",
     tokens: [
       "Ich",
       "es",
@@ -25201,6 +26022,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Leben",
       "bin.",
     ],
+    translation: "I owe it to my doctor that I am still alive.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -25223,9 +26046,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-814",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I'm curious to see his reaction.",
     tokens: ["Reaktion", "gespannt.", "Ich", "bin", "auf", "seine"],
     solution: ["Ich", "bin", "auf", "seine", "Reaktion", "gespannt."],
+    translation: "I'm curious to see his reaction.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -25248,9 +26072,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-815",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "And he says we're acting peculiar.",
     tokens: ["wir", "Und", "verhalten", "er", "eigenartig.", "uns", "sagt,"],
     solution: ["Und", "er", "sagt,", "wir", "verhalten", "uns", "eigenartig."],
+    translation: "And he says we're acting peculiar.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -25273,9 +26098,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-816",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "It's 30 euros per night, cash up front.",
     tokens: ["Euro", "Nacht,", "ist", "pro", "Voraus.", "Cash", "Es", "im"],
     solution: ["Es", "ist", "Euro", "pro", "Nacht,", "Cash", "im", "Voraus."],
+    translation: "It's 30 euros per night, cash up front.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -25298,9 +26124,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-817",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "If you were royal, you would know.",
     tokens: ["Wärst", "wissen.", "du", "würdest", "du", "es", "königlich,"],
     solution: ["Wärst", "du", "königlich,", "würdest", "du", "es", "wissen."],
+    translation: "If you were royal, you would know.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -25323,7 +26150,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-818",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "It's by no means impossible to earn one million a month.",
     tokens: [
       "Es",
       "eine",
@@ -25346,6 +26172,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "zu",
       "verdienen.",
     ],
+    translation: "It's by no means impossible to earn one million a month.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -25368,9 +26196,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-819",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "You have never wanted to study anyway.",
     tokens: ["ohnehin", "wolltest", "ja", "lernen.", "nie", "Du"],
     solution: ["Du", "wolltest", "ja", "ohnehin", "nie", "lernen."],
+    translation: "You have never wanted to study anyway.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -25393,9 +26222,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-820",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Do you like apples or oranges?",
     tokens: ["Magst", "oder", "du", "Orangen?", "Äpfel"],
     solution: ["Magst", "du", "Äpfel", "oder", "Orangen?"],
+    translation: "Do you like apples or oranges?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -25418,7 +26248,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-821",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "But it seems to be the main reason for his jealousy.",
     tokens: [
       "seine",
       "für",
@@ -25439,6 +26268,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "seine",
       "Eifersucht.",
     ],
+    translation: "But it seems to be the main reason for his jealousy.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -25461,9 +26292,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-822",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "The project is taking shape.",
     tokens: ["nimmt", "Das", "an.", "Gestalt", "Projekt"],
     solution: ["Das", "Projekt", "nimmt", "Gestalt", "an."],
+    translation: "The project is taking shape.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -25486,9 +26318,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-823",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "She seems somewhat melancholy.",
     tokens: ["melancholisch", "scheint", "Sie", "sein.", "etwas", "zu"],
     solution: ["Sie", "scheint", "etwas", "melancholisch", "zu", "sein."],
+    translation: "She seems somewhat melancholy.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -25511,7 +26344,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-824",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "The renovation at the city hall was totally unknown to us.",
     tokens: [
       "völlig",
       "Stadthalle",
@@ -25532,6 +26364,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "völlig",
       "unbekannt.",
     ],
+    translation: "The renovation at the city hall was totally unknown to us.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -25554,9 +26388,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-825",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I'm a businessman, not a grief counselor.",
     tokens: ["Ich", "bin", "ein", "kein", "Trauerberater.", "Geschäftsmann,"],
     solution: ["Ich", "bin", "ein", "Geschäftsmann,", "kein", "Trauerberater."],
+    translation: "I'm a businessman, not a grief counselor.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -25579,7 +26414,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-826",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I, on the other hand, can give you a great deal.",
     tokens: ["eine", "Menge", "bieten.", "andererseits", "kann", "Ich", "euch"],
     solution: [
       "Ich",
@@ -25590,6 +26424,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Menge",
       "bieten.",
     ],
+    translation: "I, on the other hand, can give you a great deal.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -25612,7 +26448,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-827",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Because of you, I'm having problems with my blood pressure.",
     tokens: [
       "dem",
       "Deinetwegen",
@@ -25631,6 +26466,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "dem",
       "Blutdruck.",
     ],
+    translation: "Because of you, I'm having problems with my blood pressure.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -25653,9 +26490,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-828",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "It's all perfectly legal, sir.",
     tokens: ["legal,", "ist", "Exzellenz.", "vollkommen", "Alles"],
     solution: ["Alles", "ist", "vollkommen", "legal,", "Exzellenz."],
+    translation: "It's all perfectly legal, sir.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -25678,8 +26516,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-829",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus:
-      "It tells you where your current page is placed in relation to the start page.",
     tokens: [
       "Er",
       "an.",
@@ -25710,6 +26546,9 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Startseite",
       "an.",
     ],
+    translation:
+      "It tells you where your current page is placed in relation to the start page.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -25732,9 +26571,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-830",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I don't speak Japanese well.",
     tokens: ["nicht", "Japanisch.", "Ich", "sehr", "spreche", "gut"],
     solution: ["Ich", "spreche", "nicht", "sehr", "gut", "Japanisch."],
+    translation: "I don't speak Japanese well.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -25757,9 +26597,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-831",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "They are demanding shorter working hours.",
     tokens: ["eine", "fordern", "Sie", "Verkürzung", "der", "Arbeitszeit."],
     solution: ["Sie", "fordern", "eine", "Verkürzung", "der", "Arbeitszeit."],
+    translation: "They are demanding shorter working hours.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -25782,9 +26623,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-832",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "My brother wanted to become a cowboy, too.",
     tokens: ["Bruder", "Mein", "werden.", "Cowboy", "auch", "wollte"],
     solution: ["Mein", "Bruder", "wollte", "auch", "Cowboy", "werden."],
+    translation: "My brother wanted to become a cowboy, too.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -25807,7 +26649,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-833",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "It was hard for him to live on his small pension.",
     tokens: [
       "ihn,",
       "schwer",
@@ -25834,6 +26675,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "zu",
       "leben.",
     ],
+    translation: "It was hard for him to live on his small pension.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -25856,9 +26699,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-834",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "The tension is killing me!",
     tokens: ["Spannung", "noch", "um!", "Die", "bringt", "mich"],
     solution: ["Die", "Spannung", "bringt", "mich", "noch", "um!"],
+    translation: "The tension is killing me!",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -25881,7 +26725,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-835",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "No wonder she is your ex-girlfriend then.",
     tokens: [
       "ist.",
       "dass",
@@ -25906,6 +26749,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Ex",
       "ist.",
     ],
+    translation: "No wonder she is your ex-girlfriend then.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -25928,9 +26773,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-836",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I will go with you.",
     tokens: ["werde", "Ich", "mit", "mitfahren.", "dir"],
     solution: ["Ich", "werde", "mit", "dir", "mitfahren."],
+    translation: "I will go with you.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -25953,7 +26799,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-837",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "She has a claim on her deceased husband's estate.",
     tokens: [
       "Anspruch",
       "Mannes.",
@@ -25978,6 +26823,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "verstorbenen",
       "Mannes.",
     ],
+    translation: "She has a claim on her deceased husband's estate.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -26000,9 +26847,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-838",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I said that people would discourage them.",
     tokens: ["sie", "sagte,", "Menschen", "würden", "abhalten.", "Ich"],
     solution: ["Ich", "sagte,", "Menschen", "würden", "sie", "abhalten."],
+    translation: "I said that people would discourage them.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -26025,9 +26873,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-839",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Can you recommend a good book?",
     tokens: ["ein", "du", "Kannst", "empfehlen?", "gutes", "Buch", "mir"],
     solution: ["Kannst", "du", "mir", "ein", "gutes", "Buch", "empfehlen?"],
+    translation: "Can you recommend a good book?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -26050,7 +26899,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-840",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "We should all help provide starving people with food.",
     tokens: [
       "helfen,",
       "Essen",
@@ -26075,6 +26923,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "zu",
       "versorgen.",
     ],
+    translation: "We should all help provide starving people with food.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -26097,7 +26947,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-841",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "The furniture in this office is really modern.",
     tokens: [
       "in",
       "wirklich",
@@ -26118,6 +26967,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "wirklich",
       "modern.",
     ],
+    translation: "The furniture in this office is really modern.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -26140,9 +26991,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-842",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "They are the two parts of the lung.",
     tokens: ["sind", "die", "Das", "Flügel", "beiden", "Lunge.", "der"],
     solution: ["Das", "sind", "die", "beiden", "Flügel", "der", "Lunge."],
+    translation: "They are the two parts of the lung.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -26165,7 +27017,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-843",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "She was blond in the picture in your apartment.",
     tokens: [
       "in",
       "war",
@@ -26188,6 +27039,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "sie",
       "blond.",
     ],
+    translation: "She was blond in the picture in your apartment.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -26210,9 +27063,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-844",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Now, I can arrange delivery.",
     tokens: ["kann", "die", "arrangieren.", "Also,", "Lieferung", "ich"],
     solution: ["Also,", "ich", "kann", "die", "Lieferung", "arrangieren."],
+    translation: "Now, I can arrange delivery.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -26235,9 +27089,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-845",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "He had a mild heart attack.",
     tokens: ["Herzinfarkt.", "leichten", "hatte", "Er", "einen"],
     solution: ["Er", "hatte", "einen", "leichten", "Herzinfarkt."],
+    translation: "He had a mild heart attack.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -26260,9 +27115,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-846",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "This dictionary contains also example sentences.",
     tokens: ["Dieses", "Beispielsätze.", "enthält", "Wörterbuch", "auch"],
     solution: ["Dieses", "Wörterbuch", "enthält", "auch", "Beispielsätze."],
+    translation: "This dictionary contains also example sentences.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -26285,9 +27141,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-847",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "They have been soaked in honey for eight days.",
     tokens: ["Tage", "waren", "acht", "Sie", "Honig", "in", "eingelegt."],
     solution: ["Sie", "waren", "acht", "Tage", "in", "Honig", "eingelegt."],
+    translation: "They have been soaked in honey for eight days.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -26310,9 +27167,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-848",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "You are supposed to be in your wheelchair.",
     tokens: ["Du", "Rollstuhl", "solltest", "sein.", "deinem", "in"],
     solution: ["Du", "solltest", "in", "deinem", "Rollstuhl", "sein."],
+    translation: "You are supposed to be in your wheelchair.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -26335,9 +27193,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-849",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "That's what the creature is looking for.",
     tokens: ["wonach", "Das", "Kreatur", "die", "ist,", "sucht."],
     solution: ["Das", "ist,", "wonach", "die", "Kreatur", "sucht."],
+    translation: "That's what the creature is looking for.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -26360,9 +27219,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-850",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I guess we all have a twin.",
     tokens: ["Ich", "wir", "schätze,", "haben", "einen", "alle", "Zwilling."],
     solution: ["Ich", "schätze,", "wir", "haben", "alle", "einen", "Zwilling."],
+    translation: "I guess we all have a twin.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -26385,7 +27245,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-851",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "So tell me more about this so-called rape.",
     tokens: [
       "mir",
       "sogenannten",
@@ -26402,6 +27261,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "sogenannten",
       "Vergewaltigung.",
     ],
+    translation: "So tell me more about this so-called rape.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -26424,8 +27285,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-852",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus:
-      "Sport is an excellent way to engage people in their communities.",
     tokens: [
       "bietet",
       "Der",
@@ -26458,6 +27317,9 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "zu",
       "engagieren.",
     ],
+    translation:
+      "Sport is an excellent way to engage people in their communities.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -26480,7 +27342,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-853",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "They look mean, but they're completely harmless.",
     tokens: [
       "Die",
       "harmlos.",
@@ -26505,6 +27366,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "absolut",
       "harmlos.",
     ],
+    translation: "They look mean, but they're completely harmless.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -26527,7 +27390,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-854",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I need another can of paint to finish painting the ceiling.",
     tokens: [
       "brauche",
       "Farbe,",
@@ -26558,6 +27420,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "zu",
       "streichen.",
     ],
+    translation: "I need another can of paint to finish painting the ceiling.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -26580,9 +27444,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-855",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "He will be a great chief.",
     tokens: ["ein", "Er", "guter", "sein.", "Häuptling", "wird"],
     solution: ["Er", "wird", "ein", "guter", "Häuptling", "sein."],
+    translation: "He will be a great chief.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -26605,9 +27470,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-856",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Get it back, and we are quits.",
     tokens: ["sie", "Gib", "wir", "quitt.", "zurück", "und", "sind"],
     solution: ["Gib", "sie", "zurück", "und", "wir", "sind", "quitt."],
+    translation: "Get it back, and we are quits.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -26630,9 +27496,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-857",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I don't have brown hair.",
     tokens: ["sind", "nicht", "braun.", "Haare", "Meine"],
     solution: ["Meine", "Haare", "sind", "nicht", "braun."],
+    translation: "I don't have brown hair.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -26655,7 +27522,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-858",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "We did not receive a decision regarding your order status.",
     tokens: [
       "haben",
       "Bestellstatus",
@@ -26676,6 +27542,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Bestellstatus",
       "erhalten.",
     ],
+    translation: "We did not receive a decision regarding your order status.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -26698,9 +27566,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-859",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I cannot agree with you.",
     tokens: ["Ich", "Ihnen", "zustimmen.", "nicht", "kann"],
     solution: ["Ich", "kann", "Ihnen", "nicht", "zustimmen."],
+    translation: "I cannot agree with you.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -26723,9 +27592,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-860",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "The dog next door is always barking.",
     tokens: ["immer.", "von", "Hund", "Der", "bellt", "nebenan"],
     solution: ["Der", "Hund", "von", "nebenan", "bellt", "immer."],
+    translation: "The dog next door is always barking.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -26748,9 +27618,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-861",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "You could climb into one of these pods.",
     tokens: ["klettern.", "in", "eine", "Du", "Kapsel", "könntest"],
     solution: ["Du", "könntest", "in", "eine", "Kapsel", "klettern."],
+    translation: "You could climb into one of these pods.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -26773,7 +27644,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-862",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I was present yesterday, and I forgot to sign in.",
     tokens: [
       "gestern",
       "und",
@@ -26794,6 +27664,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "zu",
       "unterschreiben.",
     ],
+    translation: "I was present yesterday, and I forgot to sign in.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -26816,9 +27688,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-863",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "This truck is really big.",
     tokens: ["groß.", "ist", "Lastwagen", "Dieser", "wirklich"],
     solution: ["Dieser", "Lastwagen", "ist", "wirklich", "groß."],
+    translation: "This truck is really big.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -26841,9 +27714,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-864",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "After 70, retirement is mandatory.",
     tokens: ["obligatorisch.", "Ruhestand", "ist", "der", "Über"],
     solution: ["Über", "ist", "der", "Ruhestand", "obligatorisch."],
+    translation: "After 70, retirement is mandatory.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -26866,9 +27740,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-865",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Do you need anything else?",
     tokens: ["anderes?", "etwas", "Sie", "Benötigen", "noch"],
     solution: ["Benötigen", "Sie", "noch", "etwas", "anderes?"],
+    translation: "Do you need anything else?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -26891,9 +27766,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-866",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Sit in the cart.",
     tokens: ["Setz", "Karre.", "dich", "die", "in"],
     solution: ["Setz", "dich", "in", "die", "Karre."],
+    translation: "Sit in the cart.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -26916,9 +27792,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-867",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "The broad lines correspond to roads.",
     tokens: ["entsprechen", "Linien", "breiten", "Die", "Straßen."],
     solution: ["Die", "breiten", "Linien", "entsprechen", "Straßen."],
+    translation: "The broad lines correspond to roads.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -26941,9 +27818,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-868",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "No, we're not related.",
     tokens: ["wir", "verwandt.", "nicht", "Nein,", "sind"],
     solution: ["Nein,", "wir", "sind", "nicht", "verwandt."],
+    translation: "No, we're not related.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -26966,9 +27844,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-869",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "That's very gracious of you.",
     tokens: ["ist", "von", "wirklich", "gnädig", "dir.", "Das"],
     solution: ["Das", "ist", "wirklich", "gnädig", "von", "dir."],
+    translation: "That's very gracious of you.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -26991,9 +27870,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-870",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "The ticket is good through Monday.",
     tokens: ["Das", "bis", "einschließlich", "gilt", "Montag.", "Ticket"],
     solution: ["Das", "Ticket", "gilt", "bis", "einschließlich", "Montag."],
+    translation: "The ticket is good through Monday.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -27016,9 +27896,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-871",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "And for that, I am sincerely grateful.",
     tokens: ["aufrichtig", "bin", "Und", "ich", "dankbar.", "dafür"],
     solution: ["Und", "dafür", "bin", "ich", "aufrichtig", "dankbar."],
+    translation: "And for that, I am sincerely grateful.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -27041,9 +27922,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-872",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "We can't all be as blessed as you.",
     tokens: ["so", "gesegnet", "Sie.", "nicht", "alle", "wie", "sind", "Wir"],
     solution: ["Wir", "sind", "nicht", "alle", "so", "gesegnet", "wie", "Sie."],
+    translation: "We can't all be as blessed as you.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -27066,7 +27948,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-873",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "If it's too risky for you now, just say so.",
     tokens: [
       "es",
       "zu",
@@ -27089,6 +27970,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "sag",
       "es.",
     ],
+    translation: "If it's too risky for you now, just say so.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -27111,7 +27994,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-874",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "What's your favorite song on this album?",
     tokens: [
       "auf",
       "Album?",
@@ -27130,6 +28012,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "diesem",
       "Album?",
     ],
+    translation: "What's your favorite song on this album?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -27152,9 +28036,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-875",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "No admission for children under the age of 12.",
     tokens: ["unter", "Zutritt.", "Kinder", "haben", "keinen", "Jahren"],
     solution: ["Kinder", "unter", "Jahren", "haben", "keinen", "Zutritt."],
+    translation: "No admission for children under the age of 12.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -27177,7 +28062,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-876",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "The payoff is still too uncertain.",
     tokens: [
       "Erfolg",
       "zu",
@@ -27198,6 +28082,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "zu",
       "unsicher.",
     ],
+    translation: "The payoff is still too uncertain.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -27220,9 +28106,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-877",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Do you shave your legs?",
     tokens: ["die", "du", "Rasierst", "Beine?", "dir"],
     solution: ["Rasierst", "du", "dir", "die", "Beine?"],
+    translation: "Do you shave your legs?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -27245,9 +28132,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-878",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Just allow yourself to feel something.",
     tokens: ["einfach,", "empfinden.", "etwas", "zu", "Erlaube", "dir"],
     solution: ["Erlaube", "dir", "einfach,", "etwas", "zu", "empfinden."],
+    translation: "Just allow yourself to feel something.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -27270,9 +28158,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-879",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "All the flowers in the garden are yellow.",
     tokens: ["gelb.", "Alle", "Blumen", "sind", "im", "Garten"],
     solution: ["Alle", "Blumen", "im", "Garten", "sind", "gelb."],
+    translation: "All the flowers in the garden are yellow.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -27295,7 +28184,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-880",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "They'll ring the bells all day and night.",
     tokens: [
       "Es",
       "werden",
@@ -27316,6 +28204,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Glocken",
       "läuten.",
     ],
+    translation: "They'll ring the bells all day and night.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -27338,7 +28228,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-881",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "We need flight records, commercial and private.",
     tokens: [
       "privat.",
       "Flugaufzeichnungen,",
@@ -27357,6 +28246,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "und",
       "privat.",
     ],
+    translation: "We need flight records, commercial and private.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -27379,9 +28270,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-882",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Don't tell me you're embarrassed?",
     tokens: ["etwa", "doch", "verlegen?", "Sie", "sind", "nicht"],
     solution: ["Sie", "sind", "doch", "nicht", "etwa", "verlegen?"],
+    translation: "Don't tell me you're embarrassed?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -27404,9 +28296,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-883",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "But first, we need to bury these bodies.",
     tokens: ["müssen", "Erst", "Leichen", "vergraben.", "diese", "wir"],
     solution: ["Erst", "müssen", "wir", "diese", "Leichen", "vergraben."],
+    translation: "But first, we need to bury these bodies.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -27429,7 +28322,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-884",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "But there is a second danger of misunderstanding.",
     tokens: [
       "droht",
       "noch",
@@ -27446,6 +28338,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "weiteres",
       "Missverständnis.",
     ],
+    translation: "But there is a second danger of misunderstanding.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -27468,7 +28362,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-885",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I like the concept of this website.",
     tokens: [
       "Konzept",
       "dieses",
@@ -27487,6 +28380,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Internetauftritts",
       "gut.",
     ],
+    translation: "I like the concept of this website.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -27509,9 +28404,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-886",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I need change for a dollar.",
     tokens: ["Dollar.", "brauche", "für", "Kleingeld", "Ich", "einen"],
     solution: ["Ich", "brauche", "Kleingeld", "für", "einen", "Dollar."],
+    translation: "I need change for a dollar.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -27534,9 +28430,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-887",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "These are the gentlemen who saved our tobacco.",
     tokens: ["Diese", "Tabak", "gerettet.", "unseren", "haben", "Herren"],
     solution: ["Diese", "Herren", "haben", "unseren", "Tabak", "gerettet."],
+    translation: "These are the gentlemen who saved our tobacco.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -27559,9 +28456,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-888",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Jane was elected to the Senate in 2008.",
     tokens: ["den", "Jane", "wurde", "Senat", "gewählt.", "in"],
     solution: ["Jane", "wurde", "in", "den", "Senat", "gewählt."],
+    translation: "Jane was elected to the Senate in 2008.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -27584,8 +28482,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-889",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus:
-      "I guess life-threatening situations don't always bring out the best in me.",
     tokens: [
       "Lebensbedrohliche",
       "bringen",
@@ -27606,6 +28502,9 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Seiten",
       "hervor.",
     ],
+    translation:
+      "I guess life-threatening situations don't always bring out the best in me.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -27628,8 +28527,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-890",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus:
-      "I don't feel very British any more, rather more and more Scottish.",
     tokens: [
       "britisch,",
       "Ich",
@@ -27654,6 +28551,9 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "immer",
       "schottischer.",
     ],
+    translation:
+      "I don't feel very British any more, rather more and more Scottish.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -27676,9 +28576,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-891",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "It's my brother-in-law, Marc Corman.",
     tokens: ["Corman.", "Marc", "Das", "Schwager,", "ist", "mein"],
     solution: ["Das", "ist", "mein", "Schwager,", "Marc", "Corman."],
+    translation: "It's my brother-in-law, Marc Corman.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -27701,9 +28602,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-892",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Here, we call it kidnapping.",
     tokens: ["das", "nennen", "wir", "Hier", "Entführung."],
     solution: ["Hier", "nennen", "wir", "das", "Entführung."],
+    translation: "Here, we call it kidnapping.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -27726,8 +28628,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-893",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus:
-      "It is more expensive & challenging to move large data sets around.",
     tokens: [
       "riskant.",
       "Datensätze",
@@ -27748,6 +28648,9 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "und",
       "riskant.",
     ],
+    translation:
+      "It is more expensive & challenging to move large data sets around.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -27770,7 +28673,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-894",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Otherwise, inconsistent display of objects might occur.",
     tokens: [
       "nicht",
       "Anderenfalls",
@@ -27795,6 +28697,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "dargestellt",
       "werden.",
     ],
+    translation: "Otherwise, inconsistent display of objects might occur.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -27817,9 +28721,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-895",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I ate an apple.",
     tokens: ["habe", "einen", "gegessen.", "Ich", "Apfel"],
     solution: ["Ich", "habe", "einen", "Apfel", "gegessen."],
+    translation: "I ate an apple.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -27842,7 +28747,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-896",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I gave up keeping up with fashion trends.",
     tokens: [
       "es",
       "Mode",
@@ -27863,6 +28767,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "zu",
       "folgen.",
     ],
+    translation: "I gave up keeping up with fashion trends.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -27885,9 +28791,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-897",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "It's only a bit of poo.",
     tokens: ["ein", "Es", "ist", "doch", "nur", "Kacke.", "bisschen"],
     solution: ["Es", "ist", "doch", "nur", "ein", "bisschen", "Kacke."],
+    translation: "It's only a bit of poo.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -27910,9 +28817,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-898",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I did so for exactly the same reason.",
     tokens: ["Meine", "Gründe", "dafür", "exakt", "dieselben.", "waren"],
     solution: ["Meine", "Gründe", "dafür", "waren", "exakt", "dieselben."],
+    translation: "I did so for exactly the same reason.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -27935,9 +28843,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-899",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Could you hug me, too?",
     tokens: ["auch", "umarmen?", "mich", "du", "Könntest"],
     solution: ["Könntest", "du", "mich", "auch", "umarmen?"],
+    translation: "Could you hug me, too?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -27960,9 +28869,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-900",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "We're both in a jam.",
     tokens: ["beide", "in", "der", "Wir", "stecken", "Klemme."],
     solution: ["Wir", "stecken", "beide", "in", "der", "Klemme."],
+    translation: "We're both in a jam.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -27985,9 +28895,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-901",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Have you given up smoking for good and all?",
     tokens: ["Hast", "Rauchen", "endgültig", "das", "aufgegeben?", "du"],
     solution: ["Hast", "du", "das", "Rauchen", "endgültig", "aufgegeben?"],
+    translation: "Have you given up smoking for good and all?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -28010,9 +28921,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-902",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "The professor here was very helpful with that.",
     tokens: ["Professor", "dabei", "Der", "hilfreich.", "sehr", "war"],
     solution: ["Der", "Professor", "war", "dabei", "sehr", "hilfreich."],
+    translation: "The professor here was very helpful with that.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -28035,7 +28947,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-903",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "This tool does not change the original table in any way.",
     tokens: [
       "verändert",
       "Dieses",
@@ -28052,6 +28963,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Ursprungsrelation",
       "nicht.",
     ],
+    translation: "This tool does not change the original table in any way.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -28074,9 +28987,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-904",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I look stupid in a tuxedo.",
     tokens: ["sehe", "in", "einem", "doof", "aus.", "Ich", "Smoking"],
     solution: ["Ich", "sehe", "in", "einem", "Smoking", "doof", "aus."],
+    translation: "I look stupid in a tuxedo.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -28099,9 +29013,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-905",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "You had sex with two women?",
     tokens: ["gebumst?", "hast", "zwei", "mit", "Frauen", "Du"],
     solution: ["Du", "hast", "mit", "zwei", "Frauen", "gebumst?"],
+    translation: "You had sex with two women?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -28124,7 +29039,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-906",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "What additional guidelines would you like to establish, if any?",
     tokens: [
       "eventuell",
       "weiteren",
@@ -28143,6 +29057,9 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "eventuell",
       "aufstellen?",
     ],
+    translation:
+      "What additional guidelines would you like to establish, if any?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -28165,9 +29082,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-907",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "A rod appears in the graphics window.",
     tokens: ["im", "wird", "Arbeitsfenster", "Stab", "Ein", "angezeigt."],
     solution: ["Ein", "Stab", "wird", "im", "Arbeitsfenster", "angezeigt."],
+    translation: "A rod appears in the graphics window.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -28190,7 +29108,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-908",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Today we no longer have a local market for food.",
     tokens: [
       "gibt",
       "lokal",
@@ -28211,6 +29128,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Lebensmittelmarkt",
       "mehr.",
     ],
+    translation: "Today we no longer have a local market for food.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -28233,7 +29152,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-909",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "The first letter is always made capital by default.",
     tokens: [
       "groß.",
       "Der",
@@ -28252,6 +29170,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "immer",
       "groß.",
     ],
+    translation: "The first letter is always made capital by default.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -28274,7 +29194,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-910",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Maybe he wants to expel the evil ghosts of the wood.",
     tokens: [
       "die",
       "dem",
@@ -28299,6 +29218,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Wald",
       "vertreiben.",
     ],
+    translation: "Maybe he wants to expel the evil ghosts of the wood.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -28321,7 +29242,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-911",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "With 7 guest rooms altogether, we are a rather small hotel.",
     tokens: [
       "Mit",
       "unseren",
@@ -28344,6 +29264,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "kleines",
       "Hotel.",
     ],
+    translation: "With 7 guest rooms altogether, we are a rather small hotel.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -28366,7 +29288,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-912",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Here's a list of t-shirts we can produce.",
     tokens: [
       "Hier",
       "T-Shirts,",
@@ -28391,6 +29312,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "herstellen",
       "können.",
     ],
+    translation: "Here's a list of t-shirts we can produce.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -28413,9 +29336,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-913",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "You can cancel the operation at any time.",
     tokens: ["Vorgang", "können", "jederzeit", "den", "abbrechen.", "Sie"],
     solution: ["Sie", "können", "den", "Vorgang", "jederzeit", "abbrechen."],
+    translation: "You can cancel the operation at any time.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -28438,7 +29362,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-914",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "The adapter comes with a two-year warranty.",
     tokens: [
       "Für",
       "Adapter",
@@ -28457,6 +29380,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "zweijährige",
       "Gewährleistung.",
     ],
+    translation: "The adapter comes with a two-year warranty.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -28479,9 +29404,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-915",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Cut the meat into thin strips.",
     tokens: ["Fleisch", "Streifen", "Das", "schneiden.", "dünne", "in"],
     solution: ["Das", "Fleisch", "in", "dünne", "Streifen", "schneiden."],
+    translation: "Cut the meat into thin strips.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -28504,7 +29430,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-916",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "That is what makes the post of ombudsman so valuable.",
     tokens: [
       "Bürgerbeauftragten",
       "so",
@@ -28525,6 +29450,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "so",
       "wertvoll.",
     ],
+    translation: "That is what makes the post of ombudsman so valuable.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -28547,9 +29474,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-917",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Besides, there's a nice scent in here.",
     tokens: ["Duft.", "Außerdem", "dieser", "nette", "hier", "ist"],
     solution: ["Außerdem", "ist", "hier", "dieser", "nette", "Duft."],
+    translation: "Besides, there's a nice scent in here.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -28572,7 +29500,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-918",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "A lot of divorced parents raise their children together.",
     tokens: [
       "ihre",
       "Eltern",
@@ -28591,6 +29518,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Kinder",
       "gemeinsam.",
     ],
+    translation: "A lot of divorced parents raise their children together.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -28613,9 +29542,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-919",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "He is quite tall for a dwarf.",
     tokens: ["ziemlich", "groß", "einen", "ist", "für", "Zwerg.", "Er"],
     solution: ["Er", "ist", "ziemlich", "groß", "für", "einen", "Zwerg."],
+    translation: "He is quite tall for a dwarf.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -28638,7 +29568,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-920",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I work as an accountant in a family business.",
     tokens: [
       "Ich",
       "Familienunternehmen.",
@@ -28655,6 +29584,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "im",
       "Familienunternehmen.",
     ],
+    translation: "I work as an accountant in a family business.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -28677,9 +29608,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-921",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "We use this device to measure blood pressure.",
     tokens: ["Blutdrücke.", "messen", "Gerät", "diesem", "wir", "Mit"],
     solution: ["Mit", "diesem", "Gerät", "messen", "wir", "Blutdrücke."],
+    translation: "We use this device to measure blood pressure.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -28702,9 +29634,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-922",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "My license is still suspended.",
     tokens: ["Meine", "immer", "Lizenz", "mir", "noch", "entzogen.", "ist"],
     solution: ["Meine", "Lizenz", "ist", "mir", "immer", "noch", "entzogen."],
+    translation: "My license is still suspended.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -28727,7 +29660,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-923",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I was just trying to be helpful.",
     tokens: ["sein.", "Ich", "nur", "behilflich", "zu", "versuchen,", "wollte"],
     solution: [
       "Ich",
@@ -28738,6 +29670,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "zu",
       "sein.",
     ],
+    translation: "I was just trying to be helpful.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -28760,8 +29694,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-924",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus:
-      "For Norwegians, it is normally not difficult to understand what a Swede is saying.",
     tokens: [
       "was",
       "Schwede",
@@ -28790,6 +29722,9 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Schwede",
       "sagt.",
     ],
+    translation:
+      "For Norwegians, it is normally not difficult to understand what a Swede is saying.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -28812,7 +29747,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-925",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Luckily, it seems to be stable at the moment.",
     tokens: [
       "Glücklicherweise",
       "zu",
@@ -28831,6 +29765,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "zu",
       "sein.",
     ],
+    translation: "Luckily, it seems to be stable at the moment.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -28853,9 +29789,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-926",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I turned off the tap.",
     tokens: ["habe", "den", "Ich", "zugedreht.", "Hahn"],
     solution: ["Ich", "habe", "den", "Hahn", "zugedreht."],
+    translation: "I turned off the tap.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -28878,7 +29815,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-927",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "The international community will have to take clear action.",
     tokens: [
       "Die",
       "Gemeinschaft",
@@ -28897,6 +29833,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Maßnahmen",
       "ergreifen.",
     ],
+    translation: "The international community will have to take clear action.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -28919,9 +29857,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-928",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "My whole body was covered in insects.",
     tokens: ["bedeckt.", "Mein", "mit", "Insekten", "war", "Körper"],
     solution: ["Mein", "Körper", "war", "mit", "Insekten", "bedeckt."],
+    translation: "My whole body was covered in insects.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -28944,7 +29883,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-929",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "She was at a bar, and there was an incident.",
     tokens: [
       "war",
       "in",
@@ -28971,6 +29909,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Inzident",
       "passiert.",
     ],
+    translation: "She was at a bar, and there was an incident.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -28993,7 +29933,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-930",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "The new software enables me to work from home.",
     tokens: [
       "ermöglicht",
       "zu",
@@ -29022,6 +29961,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "zu",
       "arbeiten.",
     ],
+    translation: "The new software enables me to work from home.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -29044,7 +29985,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-931",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Only, instead of a potato, we shoot a flaming arrow.",
     tokens: [
       "einen",
       "einer",
@@ -29067,6 +30007,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "brennenden",
       "Pfeil.",
     ],
+    translation: "Only, instead of a potato, we shoot a flaming arrow.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -29089,9 +30031,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-932",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "You told me to bring him here.",
     tokens: ["soll", "Sie", "herbringen.", "hier", "ich", "sagten,", "ihn"],
     solution: ["Sie", "sagten,", "ich", "soll", "ihn", "hier", "herbringen."],
+    translation: "You told me to bring him here.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -29114,9 +30057,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-933",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Yet it is there for everyone.",
     tokens: ["Dennoch", "jedermann.", "es", "gilt", "für"],
     solution: ["Dennoch", "gilt", "es", "für", "jedermann."],
+    translation: "Yet it is there for everyone.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -29139,9 +30083,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-934",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "What sort of injury did he have?",
     tokens: ["Verletzung", "eine", "Was", "er?", "hatte", "für"],
     solution: ["Was", "für", "eine", "Verletzung", "hatte", "er?"],
+    translation: "What sort of injury did he have?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -29164,9 +30109,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-935",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "It must prove itself to be a community of values.",
     tokens: ["Wertegemeinschaft", "als", "sich", "erweisen.", "Sie", "muss"],
     solution: ["Sie", "muss", "sich", "als", "Wertegemeinschaft", "erweisen."],
+    translation: "It must prove itself to be a community of values.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -29189,7 +30135,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-936",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "He was first elected to Congress in 1948.",
     tokens: [
       "Kongress",
       "gewählt.",
@@ -29212,6 +30157,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Kongress",
       "gewählt.",
     ],
+    translation: "He was first elected to Congress in 1948.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -29234,9 +30181,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-937",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "The community is made up of individuals.",
     tokens: ["Individuen.", "besteht", "Die", "aus", "Gemeinschaft"],
     solution: ["Die", "Gemeinschaft", "besteht", "aus", "Individuen."],
+    translation: "The community is made up of individuals.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -29259,9 +30207,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-938",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Help me move this stone.",
     tokens: ["zu", "mir,", "diesen", "Hilf", "versetzen.", "Stein"],
     solution: ["Hilf", "mir,", "diesen", "Stein", "zu", "versetzen."],
+    translation: "Help me move this stone.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -29284,9 +30233,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-939",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "You look stunning in this dress.",
     tokens: ["Kleid", "diesem", "umwerfend", "siehst", "in", "Du", "aus."],
     solution: ["Du", "siehst", "umwerfend", "in", "diesem", "Kleid", "aus."],
+    translation: "You look stunning in this dress.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -29309,7 +30259,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-940",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "The applicant may withdraw his or her appeal at any time.",
     tokens: [
       "Antragsteller",
       "Der",
@@ -29328,6 +30277,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "jederzeit",
       "zurückziehen.",
     ],
+    translation: "The applicant may withdraw his or her appeal at any time.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -29350,9 +30301,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-941",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "He lived in a caravan all those years.",
     tokens: ["Wohnwagen.", "in", "einem", "seit", "Er", "wohnt", "Jahren"],
     solution: ["Er", "wohnt", "seit", "Jahren", "in", "einem", "Wohnwagen."],
+    translation: "He lived in a caravan all those years.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -29375,9 +30327,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-942",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "John and I were in a car accident.",
     tokens: ["hatten", "und", "ich", "einen", "Autounfall.", "John"],
     solution: ["John", "und", "ich", "hatten", "einen", "Autounfall."],
+    translation: "John and I were in a car accident.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -29400,9 +30353,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-943",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Susie wasn't very feminine.",
     tokens: ["weiblich.", "nicht", "war", "sehr", "Susie"],
     solution: ["Susie", "war", "nicht", "sehr", "weiblich."],
+    translation: "Susie wasn't very feminine.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -29425,7 +30379,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-944",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I tried to use my keys to bend them apart.",
     tokens: [
       "biegen.",
       "zu",
@@ -29450,6 +30403,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "zu",
       "biegen.",
     ],
+    translation: "I tried to use my keys to bend them apart.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -29472,7 +30427,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-945",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "We'll give you the second one for free.",
     tokens: ["ihnen", "dazugeben.", "das", "zweite", "gratis", "werden", "Wir"],
     solution: [
       "Wir",
@@ -29483,6 +30437,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "gratis",
       "dazugeben.",
     ],
+    translation: "We'll give you the second one for free.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -29505,9 +30461,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-946",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "We certainly do not lack the capital.",
     tokens: ["Kapital", "mangeln.", "nicht", "Am", "wird", "es", "gewiss"],
     solution: ["Am", "Kapital", "wird", "es", "gewiss", "nicht", "mangeln."],
+    translation: "We certainly do not lack the capital.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -29530,7 +30487,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-947",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "But I know you'll pull through and make me proud.",
     tokens: [
       "machen.",
       "du",
@@ -29557,6 +30513,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "stolz",
       "machen.",
     ],
+    translation: "But I know you'll pull through and make me proud.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -29579,7 +30537,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-948",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Well, let's at least throw this TV out.",
     tokens: [
       "Na",
       "dann",
@@ -29602,6 +30559,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Fernseher",
       "raus.",
     ],
+    translation: "Well, let's at least throw this TV out.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -29624,7 +30583,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-949",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "We need to go through everything one more time.",
     tokens: ["müssen", "Wir", "nur", "durchgehen.", "alles", "noch", "einmal"],
     solution: [
       "Wir",
@@ -29635,6 +30593,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "alles",
       "durchgehen.",
     ],
+    translation: "We need to go through everything one more time.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -29657,7 +30617,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-950",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Then I heard shouting, so I decided to go home.",
     tokens: [
       "Geschrei",
       "und",
@@ -29678,6 +30637,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "wollte",
       "gehen.",
     ],
+    translation: "Then I heard shouting, so I decided to go home.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -29700,9 +30661,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-951",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "We'd never be able to crack that code.",
     tokens: ["knacken.", "nie", "Diesen", "Code", "könnten", "wir"],
     solution: ["Diesen", "Code", "könnten", "wir", "nie", "knacken."],
+    translation: "We'd never be able to crack that code.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -29725,9 +30687,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-952",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Surely, you don't want to get lost.",
     tokens: ["dich", "verirren.", "doch", "Du", "nicht", "willst"],
     solution: ["Du", "willst", "dich", "doch", "nicht", "verirren."],
+    translation: "Surely, you don't want to get lost.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -29750,9 +30713,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-953",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "There is plenty of space for everyone.",
     tokens: ["ist", "Hier", "für", "Platz", "reichlich", "alle."],
     solution: ["Hier", "ist", "reichlich", "Platz", "für", "alle."],
+    translation: "There is plenty of space for everyone.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -29775,9 +30739,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-954",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "This maniac is capable of anything.",
     tokens: ["allem", "ist", "fähig.", "Dieser", "Irre", "zu"],
     solution: ["Dieser", "Irre", "ist", "zu", "allem", "fähig."],
+    translation: "This maniac is capable of anything.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -29800,9 +30765,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-955",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "You will find the right battery here.",
     tokens: ["Batterie.", "Sie", "finden", "die", "passende", "Hier"],
     solution: ["Hier", "finden", "Sie", "die", "passende", "Batterie."],
+    translation: "You will find the right battery here.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -29825,9 +30791,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-956",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Why are you so sweaty and filthy?",
     tokens: ["du", "bist", "und", "verschwitzt", "Wieso", "dreckig?"],
     solution: ["Wieso", "bist", "du", "verschwitzt", "und", "dreckig?"],
+    translation: "Why are you so sweaty and filthy?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -29850,7 +30817,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-957",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I'll come back to Australia the day after tomorrow.",
     tokens: [
       "zurückkommen.",
       "Ich",
@@ -29867,6 +30833,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Australien",
       "zurückkommen.",
     ],
+    translation: "I'll come back to Australia the day after tomorrow.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -29889,7 +30857,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-958",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Not long after the war broke out, he was accused of treason.",
     tokens: [
       "angeklagt.",
       "nach",
@@ -29910,6 +30877,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Hochverrats",
       "angeklagt.",
     ],
+    translation: "Not long after the war broke out, he was accused of treason.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -29932,9 +30901,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-959",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I will bake a cake.",
     tokens: ["Ich", "Torte", "eine", "backen.", "werde"],
     solution: ["Ich", "werde", "eine", "Torte", "backen."],
+    translation: "I will bake a cake.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -29957,8 +30927,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-960",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus:
-      "Since the day before yesterday, they've been calling constantly.",
     tokens: [
       "bei",
       "Seit",
@@ -29979,6 +30947,9 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "uns",
       "angerufen.",
     ],
+    translation:
+      "Since the day before yesterday, they've been calling constantly.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -30001,9 +30972,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-961",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Where are the forks and spoons?",
     tokens: ["sind", "Löffel?", "Wo", "Gabeln", "und"],
     solution: ["Wo", "sind", "Gabeln", "und", "Löffel?"],
+    translation: "Where are the forks and spoons?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -30026,9 +30998,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-962",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "That's the only way across.",
     tokens: ["der", "einzige", "ist", "hinüber.", "Weg", "Das"],
     solution: ["Das", "ist", "der", "einzige", "Weg", "hinüber."],
+    translation: "That's the only way across.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -30051,7 +31024,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-963",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "But you have seen them face to face.",
     tokens: [
       "Aber",
       "haben",
@@ -30074,6 +31046,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Angesicht",
       "gesehen.",
     ],
+    translation: "But you have seen them face to face.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -30096,7 +31070,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-964",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Jane is a classically-trained musician.",
     tokens: ["eine", "ausgebildete", "ist", "klassisch", "Jane", "Musikerin."],
     solution: [
       "Jane",
@@ -30106,6 +31079,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "ausgebildete",
       "Musikerin.",
     ],
+    translation: "Jane is a classically-trained musician.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -30128,9 +31103,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-965",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I'm not equipped for this terrain.",
     tokens: ["ausgerüstet", "Gelände.", "bin", "für", "Ich", "das", "nicht"],
     solution: ["Ich", "bin", "nicht", "ausgerüstet", "für", "das", "Gelände."],
+    translation: "I'm not equipped for this terrain.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -30153,9 +31129,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-966",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Of course, one must not be naive.",
     tokens: ["naiv", "darf", "sein.", "Natürlich", "nicht", "man"],
     solution: ["Natürlich", "darf", "man", "nicht", "naiv", "sein."],
+    translation: "Of course, one must not be naive.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -30178,8 +31155,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-967",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus:
-      "Global warming is influencing the construction sector – and vice versa.",
     tokens: [
       "umgekehrt.",
       "Der",
@@ -30200,6 +31175,9 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "und",
       "umgekehrt.",
     ],
+    translation:
+      "Global warming is influencing the construction sector – and vice versa.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -30222,9 +31200,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-968",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "You've got to read this little passage aloud.",
     tokens: ["musst", "Du", "diese", "Passage", "vorlesen.", "kleine"],
     solution: ["Du", "musst", "diese", "kleine", "Passage", "vorlesen."],
+    translation: "You've got to read this little passage aloud.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -30247,7 +31226,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-969",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I would like to conclude with a sincere thank you.",
     tokens: [
       "Dankeschön.",
       "möchte",
@@ -30266,6 +31244,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "herzlichen",
       "Dankeschön.",
     ],
+    translation: "I would like to conclude with a sincere thank you.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -30288,9 +31268,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-970",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "You don't even let me stay here.",
     tokens: ["einmal", "mich", "hierbleiben.", "lässt", "Du", "nicht"],
     solution: ["Du", "lässt", "mich", "nicht", "einmal", "hierbleiben."],
+    translation: "You don't even let me stay here.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -30313,9 +31294,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-971",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "It does not match the original.",
     tokens: ["nicht", "entspricht", "Es", "Original.", "dem"],
     solution: ["Es", "entspricht", "nicht", "dem", "Original."],
+    translation: "It does not match the original.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -30338,9 +31320,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-972",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I'll make a note to remind you.",
     tokens: ["dir", "eine", "schreibe", "zur", "Erinnerung.", "Notiz", "Ich"],
     solution: ["Ich", "schreibe", "dir", "eine", "Notiz", "zur", "Erinnerung."],
+    translation: "I'll make a note to remind you.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -30363,7 +31346,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-973",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "We are facing an extremely difficult situation.",
     tokens: [
       "schwierigen",
       "vor",
@@ -30382,6 +31364,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "schwierigen",
       "Situation.",
     ],
+    translation: "We are facing an extremely difficult situation.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -30404,7 +31388,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-974",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Captains have responsibility for ship and crew.",
     tokens: [
       "Kapitäne",
       "Schiff",
@@ -30425,6 +31408,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "und",
       "Besatzung.",
     ],
+    translation: "Captains have responsibility for ship and crew.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -30447,9 +31432,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-975",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "He is no prince of darkness.",
     tokens: ["kein", "Fürst", "Er", "Finsternis.", "ist", "doch", "der"],
     solution: ["Er", "ist", "doch", "kein", "Fürst", "der", "Finsternis."],
+    translation: "He is no prince of darkness.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -30472,7 +31458,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-976",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "After Jane's arrest, I went through a gloomy period.",
     tokens: [
       "Janes",
       "Nach",
@@ -30493,6 +31478,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "düstere",
       "Phase.",
     ],
+    translation: "After Jane's arrest, I went through a gloomy period.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -30515,9 +31502,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-977",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "My hands are tied.",
     tokens: ["gebunden.", "Hände", "sind", "Mir", "die"],
     solution: ["Mir", "sind", "die", "Hände", "gebunden."],
+    translation: "My hands are tied.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -30540,9 +31528,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-978",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Tell me you have got a lighter",
     tokens: ["dass", "du", "mir,", "Feuerzeug", "hast.", "ein", "Sag"],
     solution: ["Sag", "mir,", "dass", "du", "ein", "Feuerzeug", "hast."],
+    translation: "Tell me you have got a lighter",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -30565,9 +31554,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-979",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "All the boys were whistling and cheering.",
     tokens: ["Sämtliche", "jubelten.", "Jungen", "und", "pfiffen"],
     solution: ["Sämtliche", "Jungen", "pfiffen", "und", "jubelten."],
+    translation: "All the boys were whistling and cheering.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -30590,9 +31580,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-980",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Parcels are rarely damaged during shipping.",
     tokens: ["beim", "Pakete", "selten", "Versand", "beschädigt.", "werden"],
     solution: ["Pakete", "werden", "beim", "Versand", "selten", "beschädigt."],
+    translation: "Parcels are rarely damaged during shipping.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -30615,9 +31606,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-981",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "There are also many civil servants and witnesses.",
     tokens: ["und", "viele", "auch", "Zeugen.", "Beamte", "kommen", "Es"],
     solution: ["Es", "kommen", "auch", "viele", "Beamte", "und", "Zeugen."],
+    translation: "There are also many civil servants and witnesses.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -30640,9 +31632,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-982",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "The neck is short and strong.",
     tokens: ["Der", "ist", "Hals", "kräftig.", "kurz", "und", "sehr"],
     solution: ["Der", "Hals", "ist", "kurz", "und", "sehr", "kräftig."],
+    translation: "The neck is short and strong.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -30665,9 +31658,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-983",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "First, you have to close up the leak.",
     tokens: ["das", "müssen", "Sie", "schließen.", "Leck", "Zuerst"],
     solution: ["Zuerst", "müssen", "Sie", "das", "Leck", "schließen."],
+    translation: "First, you have to close up the leak.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -30690,9 +31684,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-984",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "This is part of your old wardrobe.",
     tokens: ["Garderobe.", "alten", "deiner", "aus", "Das", "ist"],
     solution: ["Das", "ist", "aus", "deiner", "alten", "Garderobe."],
+    translation: "This is part of your old wardrobe.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -30715,9 +31710,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-985",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "You know this can't succeed.",
     tokens: ["wissen,", "nicht", "gelingen.", "kann", "das", "Sie"],
     solution: ["Sie", "wissen,", "das", "kann", "nicht", "gelingen."],
+    translation: "You know this can't succeed.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -30740,7 +31736,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-986",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "This ground-breaking approach is unique in the world.",
     tokens: [
       "ist",
       "Ansatz",
@@ -30757,6 +31752,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "weltweit",
       "einzigartig.",
     ],
+    translation: "This ground-breaking approach is unique in the world.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -30779,9 +31776,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-987",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I didn't want to lie to him.",
     tokens: ["wollte", "Ich", "nicht", "belügen.", "ihn"],
     solution: ["Ich", "wollte", "ihn", "nicht", "belügen."],
+    translation: "I didn't want to lie to him.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -30804,7 +31802,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-988",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Don't lock the baby in the basement.",
     tokens: [
       "den",
       "darfst",
@@ -30827,6 +31824,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Keller",
       "sperren.",
     ],
+    translation: "Don't lock the baby in the basement.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -30849,7 +31848,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-989",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "The new nation is under the economic influence of Japan.",
     tokens: [
       "neue",
       "unter",
@@ -30872,6 +31870,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Einfluss",
       "Japans.",
     ],
+    translation: "The new nation is under the economic influence of Japan.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -30894,9 +31894,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-990",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "There were some scissors on the table.",
     tokens: ["lag", "eine", "Tisch", "dem", "Schere.", "Auf"],
     solution: ["Auf", "dem", "Tisch", "lag", "eine", "Schere."],
+    translation: "There were some scissors on the table.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -30919,7 +31920,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-991",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I will instruct Jane to reject John's offer.",
     tokens: [
       "beauftragen,",
       "abzulehnen.",
@@ -30938,6 +31938,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Angebot",
       "abzulehnen.",
     ],
+    translation: "I will instruct Jane to reject John's offer.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -30960,7 +31962,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-992",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I just had a meeting with one of our developers.",
     tokens: [
       "Besprechung",
       "mit",
@@ -30979,6 +31980,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "unseren",
       "Planern.",
     ],
+    translation: "I just had a meeting with one of our developers.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -31001,9 +32004,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-993",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "It isn't yukky, John.",
     tokens: ["Es", "John.", "nicht", "ist", "eklig,"],
     solution: ["Es", "ist", "nicht", "eklig,", "John."],
+    translation: "It isn't yukky, John.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -31026,9 +32030,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-994",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "John might move in.",
     tokens: ["vielleicht", "John", "einziehen.", "wird", "hier"],
     solution: ["John", "wird", "vielleicht", "hier", "einziehen."],
+    translation: "John might move in.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -31051,7 +32056,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-995",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I have hired a waiter, so you can go.",
     tokens: [
       "Kellner",
       "habe",
@@ -31074,6 +32078,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "gehen",
       "kannst.",
     ],
+    translation: "I have hired a waiter, so you can go.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -31096,7 +32102,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-996",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "She had a knife hidden in her boot.",
     tokens: [
       "Sie",
       "hatte",
@@ -31117,6 +32122,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "ihrer",
       "Stiefel.",
     ],
+    translation: "She had a knife hidden in her boot.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -31139,9 +32146,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-997",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I have got all this junk here.",
     tokens: ["viel", "hier.", "Kram", "so", "habe", "Ich"],
     solution: ["Ich", "habe", "so", "viel", "Kram", "hier."],
+    translation: "I have got all this junk here.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -31164,9 +32172,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-998",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Boy, listen to that thunder.",
     tokens: ["dir", "an.", "Junge,", "Donner", "den", "hör"],
     solution: ["Junge,", "hör", "dir", "den", "Donner", "an."],
+    translation: "Boy, listen to that thunder.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -31189,9 +32198,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-999",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "This table is made of wood.",
     tokens: ["aus", "Dieser", "Holz.", "Tisch", "besteht"],
     solution: ["Dieser", "Tisch", "besteht", "aus", "Holz."],
+    translation: "This table is made of wood.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -31214,9 +32224,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1000",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "She wants to keep him at a distance.",
     tokens: ["halten.", "Sie", "möchte", "ihn", "Abstand", "auf"],
     solution: ["Sie", "möchte", "ihn", "auf", "Abstand", "halten."],
+    translation: "She wants to keep him at a distance.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -31239,9 +32250,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1001",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "The grass is too wet to sit on.",
     tokens: ["nass", "zu", "Das", "Gras", "Hinsetzen.", "ist", "zum"],
     solution: ["Das", "Gras", "ist", "zu", "nass", "zum", "Hinsetzen."],
+    translation: "The grass is too wet to sit on.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -31264,9 +32276,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1002",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "A man was fishing on the opposite shore.",
     tokens: ["Ein", "Mann", "angelte", "gegenüberliegenden", "Ufer.", "am"],
     solution: ["Ein", "Mann", "angelte", "am", "gegenüberliegenden", "Ufer."],
+    translation: "A man was fishing on the opposite shore.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -31289,9 +32302,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1003",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "This place is absolutely fantastic.",
     tokens: ["so", "phantastisch.", "Ort", "Dieser", "ist"],
     solution: ["Dieser", "Ort", "ist", "so", "phantastisch."],
+    translation: "This place is absolutely fantastic.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -31314,9 +32328,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1004",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "The hunter shot at the bird.",
     tokens: ["auf", "Jäger", "schoss", "Der", "den", "Vogel."],
     solution: ["Der", "Jäger", "schoss", "auf", "den", "Vogel."],
+    translation: "The hunter shot at the bird.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -31339,7 +32354,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1005",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "No place in the world is so beautiful as the Swiss Alps.",
     tokens: [
       "Schweizer",
       "so",
@@ -31366,6 +32380,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Schweizer",
       "Alpen.",
     ],
+    translation: "No place in the world is so beautiful as the Swiss Alps.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -31388,7 +32404,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1006",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I read the entire works of Milton over the holiday.",
     tokens: [
       "gesamte",
       "das",
@@ -31411,6 +32426,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Werk",
       "Miltons.",
     ],
+    translation: "I read the entire works of Milton over the holiday.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -31433,9 +32450,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1007",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I hate dust more than anything.",
     tokens: ["hasse", "als", "Ich", "mehr", "andere.", "alles", "Staub"],
     solution: ["Ich", "hasse", "Staub", "mehr", "als", "alles", "andere."],
+    translation: "I hate dust more than anything.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -31458,7 +32476,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1008",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "It's amazing the panic you can cause with a single computer.",
     tokens: [
       "einzigen",
       "man",
@@ -31481,6 +32498,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "anrichten",
       "kann.",
     ],
+    translation: "It's amazing the panic you can cause with a single computer.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -31503,7 +32522,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1009",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "The elevator goes down to the basement floor.",
     tokens: ["Fahrstuhl", "ins", "Kellergeschoss.", "fährt", "Der", "herunter"],
     solution: [
       "Der",
@@ -31513,6 +32531,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "ins",
       "Kellergeschoss.",
     ],
+    translation: "The elevator goes down to the basement floor.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -31535,7 +32555,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1010",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "We are internationally competitive in production technology.",
     tokens: [
       "Wir",
       "international",
@@ -31554,6 +32573,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "der",
       "Produktionstechnik.",
     ],
+    translation: "We are internationally competitive in production technology.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -31576,9 +32597,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1011",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "He was really shy at first.",
     tokens: ["wirklich", "Er", "anfangs", "war", "schüchtern."],
     solution: ["Er", "war", "anfangs", "wirklich", "schüchtern."],
+    translation: "He was really shy at first.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -31601,9 +32623,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1012",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "The rest was incomprehensible, John.",
     tokens: ["war", "Rest", "John.", "unverständlich,", "Der"],
     solution: ["Der", "Rest", "war", "unverständlich,", "John."],
+    translation: "The rest was incomprehensible, John.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -31626,9 +32649,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1013",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "John turned down the promotion.",
     tokens: ["John", "ab.", "die", "lehnte", "Beförderung"],
     solution: ["John", "lehnte", "die", "Beförderung", "ab."],
+    translation: "John turned down the promotion.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -31651,7 +32675,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1014",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Extend fully and position for the best reception.",
     tokens: [
       "für",
       "Empfang",
@@ -31670,6 +32693,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Empfang",
       "ausrichten.",
     ],
+    translation: "Extend fully and position for the best reception.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -31692,9 +32717,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1015",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "You didn't have to make a special trip.",
     tokens: ["speziellen", "Trip", "machen.", "Du", "keinen", "musstest"],
     solution: ["Du", "musstest", "keinen", "speziellen", "Trip", "machen."],
+    translation: "You didn't have to make a special trip.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -31717,7 +32743,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1016",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Not exactly how l wanted to cross the finish line.",
     tokens: ["überqueren.", "die", "Ziellinie", "nicht", "So", "ich", "wollte"],
     solution: [
       "So",
@@ -31728,6 +32753,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "nicht",
       "überqueren.",
     ],
+    translation: "Not exactly how l wanted to cross the finish line.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -31750,9 +32777,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1017",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I would like to light a candle for her.",
     tokens: ["ihr", "Ich", "Kerze", "möchte", "eine", "anzünden."],
     solution: ["Ich", "möchte", "ihr", "eine", "Kerze", "anzünden."],
+    translation: "I would like to light a candle for her.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -31775,9 +32803,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1018",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I'll have to check my calendar.",
     tokens: ["meine", "checken.", "muss", "Termine", "Ich"],
     solution: ["Ich", "muss", "meine", "Termine", "checken."],
+    translation: "I'll have to check my calendar.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -31800,9 +32829,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1019",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "My father wants to cancel the wedding.",
     tokens: ["die", "absagen.", "Mein", "Hochzeit", "will", "Vater"],
     solution: ["Mein", "Vater", "will", "die", "Hochzeit", "absagen."],
+    translation: "My father wants to cancel the wedding.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -31825,9 +32855,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1020",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Forgiveness is a virtue, too.",
     tokens: ["ist", "eine", "Vergebung", "auch", "Tugend."],
     solution: ["Vergebung", "ist", "auch", "eine", "Tugend."],
+    translation: "Forgiveness is a virtue, too.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -31850,9 +32881,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1021",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Don't forget our rehearsal on Wednesday.",
     tokens: ["am", "Vergesst", "Mittwoch.", "Probe", "nicht", "unsere"],
     solution: ["Vergesst", "nicht", "unsere", "Probe", "am", "Mittwoch."],
+    translation: "Don't forget our rehearsal on Wednesday.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -31875,8 +32907,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1022",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus:
-      "If you go on drinking so much, you may well end up an alcoholic.",
     tokens: [
       "wirst",
       "Wenn",
@@ -31903,6 +32933,9 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Alkoholiker",
       "enden.",
     ],
+    translation:
+      "If you go on drinking so much, you may well end up an alcoholic.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -31925,7 +32958,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1023",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I don't like such things as steaks and hamburgers.",
     tokens: [
       "Steaks",
       "nicht.",
@@ -31946,6 +32978,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "ich",
       "nicht.",
     ],
+    translation: "I don't like such things as steaks and hamburgers.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -31968,9 +33002,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1024",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "This is quite explosive, Jane.",
     tokens: ["echter", "Sprengstoff,", "Das", "ist", "Jane."],
     solution: ["Das", "ist", "echter", "Sprengstoff,", "Jane."],
+    translation: "This is quite explosive, Jane.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -31993,9 +33028,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1025",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "You're not very fit.",
     tokens: ["fit.", "Du", "nicht", "bist", "sehr"],
     solution: ["Du", "bist", "nicht", "sehr", "fit."],
+    translation: "You're not very fit.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -32018,9 +33054,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1026",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "The kettle is on the stove in there.",
     tokens: ["Kocher", "ist", "Herd.", "dem", "Der", "da", "auf"],
     solution: ["Der", "Kocher", "ist", "da", "auf", "dem", "Herd."],
+    translation: "The kettle is on the stove in there.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -32043,9 +33080,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1027",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I need to cancel my subscription.",
     tokens: ["kündigen.", "Ich", "muss", "mein", "Abo"],
     solution: ["Ich", "muss", "mein", "Abo", "kündigen."],
+    translation: "I need to cancel my subscription.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -32068,9 +33106,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1028",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "He grabbed me by the collar.",
     tokens: ["mich", "Kragen.", "packte", "am", "Er"],
     solution: ["Er", "packte", "mich", "am", "Kragen."],
+    translation: "He grabbed me by the collar.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -32093,7 +33132,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1029",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "This legal basis thus seems to be the appropriate one.",
     tokens: [
       "geeignet.",
       "Rechtsgrundlage",
@@ -32110,6 +33148,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "als",
       "geeignet.",
     ],
+    translation: "This legal basis thus seems to be the appropriate one.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -32132,7 +33172,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1030",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "In a perfect world, gratitude would be enough.",
     tokens: [
       "In",
       "Dankbarkeit",
@@ -32151,6 +33190,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Dankbarkeit",
       "genug.",
     ],
+    translation: "In a perfect world, gratitude would be enough.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -32173,9 +33214,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1031",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I think we should go there.",
     tokens: ["hinfahren.", "Ich", "denke,", "sollen", "wir", "hier"],
     solution: ["Ich", "denke,", "wir", "sollen", "hier", "hinfahren."],
+    translation: "I think we should go there.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -32198,9 +33240,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1032",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "As a chairman, I want to say something.",
     tokens: ["ich", "sagen.", "Als", "etwas", "Vorsitzender", "will"],
     solution: ["Als", "Vorsitzender", "will", "ich", "etwas", "sagen."],
+    translation: "As a chairman, I want to say something.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -32223,7 +33266,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1033",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "It is warm and pleasant during the day thanks to very dry air.",
     tokens: [
       "Es",
       "warm",
@@ -32248,6 +33290,9 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "trockener",
       "Luft.",
     ],
+    translation:
+      "It is warm and pleasant during the day thanks to very dry air.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -32270,7 +33315,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1034",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Considering our current situation, I have to turn you down.",
     tokens: [
       "muss",
       "ich",
@@ -32289,6 +33333,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "ich",
       "absagen.",
     ],
+    translation: "Considering our current situation, I have to turn you down.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -32311,7 +33357,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1035",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Here is what I found out about our competition.",
     tokens: [
       "unsere",
       "herausgefunden.",
@@ -32330,6 +33375,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Konkurrenz",
       "herausgefunden.",
     ],
+    translation: "Here is what I found out about our competition.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -32352,9 +33399,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1036",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "We operate in a very different time reference.",
     tokens: ["einem", "anderen", "Zeitraum.", "operieren", "in", "Wir"],
     solution: ["Wir", "operieren", "in", "einem", "anderen", "Zeitraum."],
+    translation: "We operate in a very different time reference.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -32377,7 +33425,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1037",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "When I was his age, I was in charge of a full regiment.",
     tokens: [
       "seinem",
       "In",
@@ -32400,6 +33447,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "ganzes",
       "Regiment.",
     ],
+    translation: "When I was his age, I was in charge of a full regiment.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -32422,9 +33471,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1038",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I can get you an Aspirin.",
     tokens: ["Ich", "Aspirin", "kann", "besorgen.", "dir", "ein"],
     solution: ["Ich", "kann", "dir", "ein", "Aspirin", "besorgen."],
+    translation: "I can get you an Aspirin.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -32447,9 +33497,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1039",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "The dead cab driver was not a gypsy.",
     tokens: ["war", "Taxifahrer", "kein", "Der", "tote", "Zigeuner."],
     solution: ["Der", "tote", "Taxifahrer", "war", "kein", "Zigeuner."],
+    translation: "The dead cab driver was not a gypsy.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -32472,9 +33523,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1040",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "This activity is not dangerous.",
     tokens: ["ist", "Diese", "Aktivität", "nicht", "gefährlich."],
     solution: ["Diese", "Aktivität", "ist", "nicht", "gefährlich."],
+    translation: "This activity is not dangerous.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -32497,7 +33549,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1041",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Next, turn off the workstation and attach the transmitter.",
     tokens: [
       "anschließen.",
       "die",
@@ -32518,6 +33569,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Transmitter",
       "anschließen.",
     ],
+    translation: "Next, turn off the workstation and attach the transmitter.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -32540,7 +33593,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1042",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "It is a hollow needle sharp enough to pierce a noodle.",
     tokens: [
       "ist",
       "spitz",
@@ -32569,6 +33621,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "zu",
       "zerstechen.",
     ],
+    translation: "It is a hollow needle sharp enough to pierce a noodle.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -32591,7 +33645,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1043",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "You can draw horizontal segments in a plan view.",
     tokens: [
       "Segmente",
       "Draufsicht",
@@ -32612,6 +33665,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Draufsicht",
       "zeichnen.",
     ],
+    translation: "You can draw horizontal segments in a plan view.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -32634,7 +33689,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1044",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I didn't want to continue the conversation.",
     tokens: [
       "nicht",
       "weiterführen.",
@@ -32651,6 +33705,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "nicht",
       "weiterführen.",
     ],
+    translation: "I didn't want to continue the conversation.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -32673,7 +33729,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1045",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "We cannot give in to despair.",
     tokens: [
       "uns",
       "hingeben.",
@@ -32692,6 +33747,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "nicht",
       "hingeben.",
     ],
+    translation: "We cannot give in to despair.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -32714,9 +33771,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1046",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "We almost had an assassination here.",
     tokens: ["sind", "Wir", "knapp", "einem", "Attentat", "entgangen."],
     solution: ["Wir", "sind", "knapp", "einem", "Attentat", "entgangen."],
+    translation: "We almost had an assassination here.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -32739,9 +33797,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1047",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "And the other switch is down there in the basement.",
     tokens: ["Der", "andere", "ist", "Keller.", "im", "Schalter"],
     solution: ["Der", "andere", "Schalter", "ist", "im", "Keller."],
+    translation: "And the other switch is down there in the basement.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -32764,7 +33823,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1048",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Some people might call this a behavioral pattern.",
     tokens: [
       "Einige",
       "als",
@@ -32783,6 +33841,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Verhaltensmuster",
       "bezeichnen.",
     ],
+    translation: "Some people might call this a behavioral pattern.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -32805,8 +33865,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1049",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus:
-      "According to the police, John wasn't the only one who broke into Jane's house.",
     tokens: [
       "Haus.",
       "der",
@@ -32835,6 +33893,9 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Janes",
       "Haus.",
     ],
+    translation:
+      "According to the police, John wasn't the only one who broke into Jane's house.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -32857,7 +33918,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1050",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "This video resolution is ideal for high-end graphical use.",
     tokens: [
       "ideal",
       "anspruchsvolle",
@@ -32876,6 +33936,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "anspruchsvolle",
       "Grafiken.",
     ],
+    translation: "This video resolution is ideal for high-end graphical use.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -32898,7 +33960,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1051",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "The burglars appear to have been surprised by the watchman.",
     tokens: [
       "Wachmann",
       "Die",
@@ -32923,6 +33984,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "zu",
       "sein.",
     ],
+    translation: "The burglars appear to have been surprised by the watchman.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -32945,9 +34008,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1052",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Well, I can't complain.",
     tokens: ["beschweren.", "ja,", "kann", "nicht", "Na", "mich", "ich"],
     solution: ["Na", "ja,", "ich", "kann", "mich", "nicht", "beschweren."],
+    translation: "Well, I can't complain.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -32970,9 +34034,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1053",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I would like to invite you to dinner.",
     tokens: ["Dinner", "zum", "dich", "möchte", "Ich", "einladen."],
     solution: ["Ich", "möchte", "dich", "zum", "Dinner", "einladen."],
+    translation: "I would like to invite you to dinner.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -32995,7 +34060,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1054",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Two years have passed since our separation.",
     tokens: [
       "Zwei",
       "unserer",
@@ -33014,6 +34078,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Trennung",
       "vergangen.",
     ],
+    translation: "Two years have passed since our separation.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -33036,8 +34102,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1055",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus:
-      "I would like to congratulate you on those articles you wrote about evolution.",
     tokens: [
       "Glückwunsch",
       "Ihren",
@@ -33058,6 +34122,9 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "die",
       "Evolution.",
     ],
+    translation:
+      "I would like to congratulate you on those articles you wrote about evolution.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -33080,9 +34147,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1056",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "He's on my neck like a vulture.",
     tokens: ["sitzt", "Er", "Geier", "im", "wie", "Nacken.", "ein", "mir"],
     solution: ["Er", "sitzt", "mir", "wie", "ein", "Geier", "im", "Nacken."],
+    translation: "He's on my neck like a vulture.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -33105,7 +34173,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1057",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "You say that, in this case, conflicts could still arise.",
     tokens: [
       "noch",
       "nach",
@@ -33126,6 +34193,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Konflikte",
       "entstehen.",
     ],
+    translation: "You say that, in this case, conflicts could still arise.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -33148,9 +34217,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1058",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I had the dagger in my hand!",
     tokens: ["der", "in", "den", "Dolch", "hatte", "Ich", "Hand!"],
     solution: ["Ich", "hatte", "den", "Dolch", "in", "der", "Hand!"],
+    translation: "I had the dagger in my hand!",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -33173,9 +34243,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1059",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "The man answered to the description.",
     tokens: ["Beschreibung.", "Der", "Mann", "der", "entsprach"],
     solution: ["Der", "Mann", "entsprach", "der", "Beschreibung."],
+    translation: "The man answered to the description.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -33198,7 +34269,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1060",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "The first time I saw you drum I envied you.",
     tokens: [
       "Mal",
       "ich",
@@ -33225,6 +34295,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "ich",
       "neidisch.",
     ],
+    translation: "The first time I saw you drum I envied you.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -33247,8 +34319,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1061",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus:
-      "The image archive offers a great choice of the most different motives.",
     tokens: [
       "eine",
       "Motiven.",
@@ -33271,6 +34341,9 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "verschiedensten",
       "Motiven.",
     ],
+    translation:
+      "The image archive offers a great choice of the most different motives.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -33293,9 +34366,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1062",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "So, I ran around, pretending to be a pirate.",
     tokens: ["Pirat.", "rannte", "spielte", "ich", "umher", "und", "Also"],
     solution: ["Also", "rannte", "ich", "umher", "und", "spielte", "Pirat."],
+    translation: "So, I ran around, pretending to be a pirate.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -33318,8 +34392,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1063",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus:
-      "Pakistan is one of the most important textile countries worldwide.",
     tokens: [
       "der",
       "weltweit.",
@@ -33338,6 +34410,9 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Textilländer",
       "weltweit.",
     ],
+    translation:
+      "Pakistan is one of the most important textile countries worldwide.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -33360,9 +34435,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1064",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "And that is one hell of an act.",
     tokens: ["Handlung.", "ist", "das", "Und", "höllische", "eine"],
     solution: ["Und", "das", "ist", "eine", "höllische", "Handlung."],
+    translation: "And that is one hell of an act.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -33385,7 +34461,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1065",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I think we have possibly not understood one another.",
     tokens: [
       "verstanden",
       "wir",
@@ -33410,6 +34485,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "verstanden",
       "haben.",
     ],
+    translation: "I think we have possibly not understood one another.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -33432,9 +34509,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1066",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "This is a z-axis ordinate.",
     tokens: ["z-Achse.", "ist", "Koordinate", "der", "Dies", "eine"],
     solution: ["Dies", "ist", "eine", "Koordinate", "der", "z-Achse."],
+    translation: "This is a z-axis ordinate.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -33457,7 +34535,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1067",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "That permission is granted by the Israeli authorities.",
     tokens: [
       "israelischen",
       "Die",
@@ -33474,6 +34551,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "diese",
       "Genehmigungen.",
     ],
+    translation: "That permission is granted by the Israeli authorities.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -33496,8 +34575,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1068",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus:
-      "And no golf on Thursdays, because you'll have to take Jane to the ballet class.",
     tokens: [
       "bringen.",
       "Jane",
@@ -33524,6 +34601,9 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Ballett",
       "bringen.",
     ],
+    translation:
+      "And no golf on Thursdays, because you'll have to take Jane to the ballet class.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -33546,7 +34626,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1069",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Your friend here can fill you in on the details.",
     tokens: [
       "Dein",
       "über",
@@ -33565,6 +34644,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "die",
       "Einzelheiten.",
     ],
+    translation: "Your friend here can fill you in on the details.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -33587,7 +34668,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1070",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "By the way, we're out of alcoholic beverages.",
     tokens: [
       "Getränke",
       "Apropos,",
@@ -33606,6 +34686,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Getränke",
       "mehr.",
     ],
+    translation: "By the way, we're out of alcoholic beverages.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -33628,9 +34710,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1071",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "A lion roars, and a dog barks.",
     tokens: ["bellt.", "brüllt", "und", "ein", "Löwe", "Hund", "Ein"],
     solution: ["Ein", "Löwe", "brüllt", "und", "ein", "Hund", "bellt."],
+    translation: "A lion roars, and a dog barks.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -33653,7 +34736,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1072",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Find the strength and fight back.",
     tokens: ["die", "Stärke", "sich.", "wehren", "Finden", "Sie", "Sie", "und"],
     solution: [
       "Finden",
@@ -33665,6 +34747,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Sie",
       "sich.",
     ],
+    translation: "Find the strength and fight back.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -33687,9 +34771,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1073",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Arabic is not my mother tongue.",
     tokens: ["meine", "Muttersprache.", "ist", "Arabisch", "nicht"],
     solution: ["Arabisch", "ist", "nicht", "meine", "Muttersprache."],
+    translation: "Arabic is not my mother tongue.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -33712,9 +34797,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1074",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "It just all seems so silly.",
     tokens: ["einfach", "so", "Es", "aus.", "sieht", "alles", "dämlich"],
     solution: ["Es", "sieht", "alles", "einfach", "so", "dämlich", "aus."],
+    translation: "It just all seems so silly.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -33737,9 +34823,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1075",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "The beetle itself is not as well-known.",
     tokens: ["bekannt.", "Käfer", "nicht", "so", "selbst", "Der", "ist"],
     solution: ["Der", "Käfer", "selbst", "ist", "nicht", "so", "bekannt."],
+    translation: "The beetle itself is not as well-known.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -33762,7 +34849,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1076",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "You should not judge people based on their name.",
     tokens: [
       "nach",
       "Man",
@@ -33785,6 +34871,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Namen",
       "beurteilen.",
     ],
+    translation: "You should not judge people based on their name.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -33807,7 +34895,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1077",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "In life, I was helpless.",
     tokens: [
       "Leben",
       "realen",
@@ -33828,6 +34915,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "hilflos",
       "gegenüber.",
     ],
+    translation: "In life, I was helpless.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -33850,7 +34939,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1078",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "But this time, he'll have to accept his defeat.",
     tokens: [
       "muss",
       "er",
@@ -33871,6 +34959,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Niederlage",
       "eingestehen.",
     ],
+    translation: "But this time, he'll have to accept his defeat.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -33893,9 +34983,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1079",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I had a cat once when I was a child.",
     tokens: ["Ich", "Katze.", "hatte", "als", "Kind", "eine"],
     solution: ["Ich", "hatte", "als", "Kind", "eine", "Katze."],
+    translation: "I had a cat once when I was a child.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -33918,7 +35009,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1080",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "You've been staring at that thing for days now.",
     tokens: ["Seit", "Tagen", "dieses", "auf", "Ding", "starrst", "du", "da."],
     solution: [
       "Seit",
@@ -33930,6 +35020,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Ding",
       "da.",
     ],
+    translation: "You've been staring at that thing for days now.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -33952,9 +35044,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1081",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "It's not purple. It's lavender.",
     tokens: ["sondern", "lila,", "Das", "ist", "nicht", "Lavendel."],
     solution: ["Das", "ist", "nicht", "lila,", "sondern", "Lavendel."],
+    translation: "It's not purple. It's lavender.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -33977,7 +35070,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1082",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "It's in the drawer above the blow-heater.",
     tokens: [
       "über",
       "Heizgerät.",
@@ -33998,6 +35090,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "dem",
       "Heizgerät.",
     ],
+    translation: "It's in the drawer above the blow-heater.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -34020,9 +35114,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1083",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "May I suggest another option?",
     tokens: ["eine", "Alternative", "ich", "vorschlagen?", "Darf"],
     solution: ["Darf", "ich", "eine", "Alternative", "vorschlagen?"],
+    translation: "May I suggest another option?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -34045,9 +35140,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1084",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "We think that's mighty selfish of you.",
     tokens: ["egoistisch.", "finden", "Wir", "das", "schön", "ganz"],
     solution: ["Wir", "finden", "das", "ganz", "schön", "egoistisch."],
+    translation: "We think that's mighty selfish of you.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -34070,9 +35166,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1085",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "We shouldn't have taken the highway.",
     tokens: ["den", "nicht", "nehmen", "hätten", "sollen.", "Wir", "Highway"],
     solution: ["Wir", "hätten", "nicht", "den", "Highway", "nehmen", "sollen."],
+    translation: "We shouldn't have taken the highway.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -34095,7 +35192,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1086",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "She thinks silence is bravery, not stupidity.",
     tokens: [
       "hält",
       "Tapferkeit,",
@@ -34114,6 +35210,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "nicht",
       "Dummheit.",
     ],
+    translation: "She thinks silence is bravery, not stupidity.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -34136,7 +35234,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1087",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Clearly, more resources increase our leverage.",
     tokens: [
       "weitere",
       "erhöhen",
@@ -34153,6 +35250,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "unseren",
       "Einfluss.",
     ],
+    translation: "Clearly, more resources increase our leverage.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -34175,8 +35274,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1088",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus:
-      "The value of his discovery was not realized until after his death.",
     tokens: [
       "erfasste",
       "Tod.",
@@ -34201,6 +35298,9 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "seinem",
       "Tod.",
     ],
+    translation:
+      "The value of his discovery was not realized until after his death.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -34223,9 +35323,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1089",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "It was easy to lure him here.",
     tokens: ["hierher", "leicht,", "zu", "ihn", "locken.", "war", "Es"],
     solution: ["Es", "war", "leicht,", "ihn", "hierher", "zu", "locken."],
+    translation: "It was easy to lure him here.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -34248,7 +35349,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1090",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I felt light as a feather.",
     tokens: ["Feder.", "leicht", "Ich", "mich", "eine", "so", "wie", "fühlte"],
     solution: [
       "Ich",
@@ -34260,6 +35360,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "eine",
       "Feder.",
     ],
+    translation: "I felt light as a feather.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -34282,7 +35384,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1091",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "You're just not used to having a mother that shows affection.",
     tokens: [
       "einfach",
       "Zuneigung",
@@ -34301,6 +35402,9 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Zuneigung",
       "gewohnt.",
     ],
+    translation:
+      "You're just not used to having a mother that shows affection.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -34323,9 +35427,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1092",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "We should put our differences aside.",
     tokens: ["wir", "unsere", "Differenzen", "beiseite.", "Legen"],
     solution: ["Legen", "wir", "unsere", "Differenzen", "beiseite."],
+    translation: "We should put our differences aside.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -34348,9 +35453,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1093",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "He had charisma and could rule.",
     tokens: ["hatte", "regieren.", "und", "Er", "Charisma", "konnte"],
     solution: ["Er", "hatte", "Charisma", "und", "konnte", "regieren."],
+    translation: "He had charisma and could rule.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -34373,9 +35479,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1094",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Well, that's a fine greeting.",
     tokens: ["ja", "Begrüßung.", "Das", "ist", "eine", "schöne"],
     solution: ["Das", "ist", "ja", "eine", "schöne", "Begrüßung."],
+    translation: "Well, that's a fine greeting.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -34398,9 +35505,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1095",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I was your father's superior.",
     tokens: ["deines", "der", "Vorgesetzte", "Vaters.", "Ich", "war"],
     solution: ["Ich", "war", "der", "Vorgesetzte", "deines", "Vaters."],
+    translation: "I was your father's superior.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -34423,8 +35531,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1096",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus:
-      "We must constantly evaluate whether an agency provides any added value.",
     tokens: [
       "bringt.",
       "Wir",
@@ -34447,6 +35553,9 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Nutzen",
       "bringt.",
     ],
+    translation:
+      "We must constantly evaluate whether an agency provides any added value.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -34469,9 +35578,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1097",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "The execution will go on as scheduled.",
     tokens: ["durchgeführt.", "wird", "wie", "Hinrichtung", "Die", "geplant"],
     solution: ["Die", "Hinrichtung", "wird", "wie", "geplant", "durchgeführt."],
+    translation: "The execution will go on as scheduled.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -34494,9 +35604,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1098",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I'm easily influenced.",
     tokens: ["Man", "leicht", "kann", "beeinflussen.", "mich"],
     solution: ["Man", "kann", "mich", "leicht", "beeinflussen."],
+    translation: "I'm easily influenced.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -34519,7 +35630,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1099",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Put your name on this document.",
     tokens: ["Dokument.", "dieses", "Setzen", "Sie", "unter", "Namen", "Ihren"],
     solution: [
       "Setzen",
@@ -34530,6 +35640,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "dieses",
       "Dokument.",
     ],
+    translation: "Put your name on this document.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -34552,8 +35664,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1100",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus:
-      "Jane had an ultrasound to determine the sex of her and John's unborn baby.",
     tokens: [
       "und",
       "hat",
@@ -34584,6 +35694,9 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "feststellen",
       "lassen.",
     ],
+    translation:
+      "Jane had an ultrasound to determine the sex of her and John's unborn baby.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -34606,8 +35719,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1101",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus:
-      "Does she come from the agency that sent the last temporary I had?",
     tokens: [
       "Agentur,",
       "hatte?",
@@ -34640,6 +35751,9 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "ich",
       "hatte?",
     ],
+    translation:
+      "Does she come from the agency that sent the last temporary I had?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -34662,9 +35776,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1102",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "You're beginning to depress me.",
     tokens: ["mich", "deprimieren.", "Sie", "fangen", "zu", "an,"],
     solution: ["Sie", "fangen", "an,", "mich", "zu", "deprimieren."],
+    translation: "You're beginning to depress me.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -34687,9 +35802,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1103",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "It takes a lot of money to raise a teenager.",
     tokens: ["aufzuziehen", "Teenager", "viel", "Geld.", "Einen", "kostet"],
     solution: ["Einen", "Teenager", "aufzuziehen", "kostet", "viel", "Geld."],
+    translation: "It takes a lot of money to raise a teenager.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -34712,7 +35828,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1104",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "This material is not suitable for a dress.",
     tokens: [
       "für",
       "nicht",
@@ -34733,6 +35848,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "ein",
       "Kleid.",
     ],
+    translation: "This material is not suitable for a dress.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -34755,8 +35872,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1105",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus:
-      "A few years ago, on Mother's Day, I gave my stepmother a pendant as a present.",
     tokens: [
       "habe",
       "geschenkt.",
@@ -34787,6 +35902,9 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Anhänger",
       "geschenkt.",
     ],
+    translation:
+      "A few years ago, on Mother's Day, I gave my stepmother a pendant as a present.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -34809,9 +35927,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1106",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I'm going to roast you a chicken.",
     tokens: ["Ich", "braten.", "ein", "dir", "werde", "Hühnchen"],
     solution: ["Ich", "werde", "dir", "ein", "Hühnchen", "braten."],
+    translation: "I'm going to roast you a chicken.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -34834,9 +35953,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1107",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "John is going to testify against you tomorrow.",
     tokens: ["gegen", "aussagen.", "John", "wird", "morgen", "dich"],
     solution: ["John", "wird", "morgen", "gegen", "dich", "aussagen."],
+    translation: "John is going to testify against you tomorrow.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -34859,9 +35979,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1108",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "It's always so cold and damp.",
     tokens: ["und", "Es", "ist", "immer", "kalt", "so", "feucht."],
     solution: ["Es", "ist", "immer", "so", "kalt", "und", "feucht."],
+    translation: "It's always so cold and damp.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -34884,9 +36005,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1109",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I'll write it on the board.",
     tokens: ["an", "Ich", "die", "es", "schreibe", "Tafel."],
     solution: ["Ich", "schreibe", "es", "an", "die", "Tafel."],
+    translation: "I'll write it on the board.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -34909,7 +36031,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1110",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "You can discard half of these cards.",
     tokens: ["Stapels", "Du", "die", "kannst", "deines", "Hälfte", "ablegen!"],
     solution: [
       "Du",
@@ -34920,6 +36041,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Stapels",
       "ablegen!",
     ],
+    translation: "You can discard half of these cards.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -34942,7 +36065,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1111",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "The rabbit crawls under the log.",
     tokens: [
       "kriecht",
       "Der",
@@ -34961,6 +36083,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Holzstamm",
       "hindurch.",
     ],
+    translation: "The rabbit crawls under the log.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -34983,9 +36107,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1112",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "She's just letting off a little steam.",
     tokens: ["etwas", "ab.", "lässt", "Dampf", "einfach", "Sie"],
     solution: ["Sie", "lässt", "einfach", "etwas", "Dampf", "ab."],
+    translation: "She's just letting off a little steam.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -35008,9 +36133,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1113",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "She has no respect for my authority.",
     tokens: ["meine", "nicht", "respektiert", "Autorität.", "Sie"],
     solution: ["Sie", "respektiert", "nicht", "meine", "Autorität."],
+    translation: "She has no respect for my authority.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -35033,7 +36159,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1114",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Tell him to honk and I'll be right out.",
     tokens: [
       "gleich",
       "ihm,",
@@ -35058,6 +36183,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "gleich",
       "da.",
     ],
+    translation: "Tell him to honk and I'll be right out.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -35080,9 +36207,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1115",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I'm a master of disguise.",
     tokens: ["Tarnung.", "der", "Meister", "der", "Ich", "bin"],
     solution: ["Ich", "bin", "der", "Meister", "der", "Tarnung."],
+    translation: "I'm a master of disguise.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -35105,7 +36233,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1116",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "It's just you're so smart and kind.",
     tokens: [
       "bist",
       "so",
@@ -35128,6 +36255,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "und",
       "gütig.",
     ],
+    translation: "It's just you're so smart and kind.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -35150,9 +36279,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1117",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "All his efforts were useless.",
     tokens: ["alle", "Seine", "vergeblich.", "waren", "Bemühungen"],
     solution: ["Seine", "Bemühungen", "waren", "alle", "vergeblich."],
+    translation: "All his efforts were useless.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -35175,9 +36305,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1118",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Many of them are fairly well educated.",
     tokens: ["sind", "gut", "recht", "Viele", "von", "ihnen", "ausgebildet."],
     solution: ["Viele", "von", "ihnen", "sind", "recht", "gut", "ausgebildet."],
+    translation: "Many of them are fairly well educated.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -35200,7 +36331,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1119",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Please, let us enter into negotiations once more.",
     tokens: [
       "bitte",
       "eintreten.",
@@ -35223,6 +36353,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Verhandlungen",
       "eintreten.",
     ],
+    translation: "Please, let us enter into negotiations once more.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -35245,9 +36377,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1120",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I hope you have your umbrella.",
     tokens: ["hast", "dabei.", "hoffe,", "deinen", "Ich", "du", "Schirm"],
     solution: ["Ich", "hoffe,", "du", "hast", "deinen", "Schirm", "dabei."],
+    translation: "I hope you have your umbrella.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -35270,9 +36403,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1121",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "The siren is too loud.",
     tokens: ["zu", "Die", "laut.", "ist", "Sirene"],
     solution: ["Die", "Sirene", "ist", "zu", "laut."],
+    translation: "The siren is too loud.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -35295,7 +36429,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1122",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "My knee gets stiff in the water.",
     tokens: ["Knie", "wenig", "wird", "ein", "Mein", "steif.", "Wasser", "im"],
     solution: [
       "Mein",
@@ -35307,6 +36440,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "wenig",
       "steif.",
     ],
+    translation: "My knee gets stiff in the water.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -35329,8 +36464,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1123",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus:
-      "Switzerland is situated between France, Italy, Austria, and Germany.",
     tokens: [
       "zwischen",
       "und",
@@ -35353,6 +36486,9 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "und",
       "Deutschland.",
     ],
+    translation:
+      "Switzerland is situated between France, Italy, Austria, and Germany.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -35375,7 +36511,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1124",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Freedom, sunshine and a flower. That's what we need.",
     tokens: [
       "man.",
       "Sonnenschein",
@@ -35394,6 +36529,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "braucht",
       "man.",
     ],
+    translation: "Freedom, sunshine and a flower. That's what we need.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -35416,9 +36553,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1125",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I hear them howl at night.",
     tokens: ["nachts", "Ich", "heulen.", "sie", "höre"],
     solution: ["Ich", "höre", "sie", "nachts", "heulen."],
+    translation: "I hear them howl at night.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -35441,9 +36579,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1126",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I wanted to spit in your face.",
     tokens: ["dir", "Gesicht", "Ich", "ins", "spucken.", "wollte"],
     solution: ["Ich", "wollte", "dir", "ins", "Gesicht", "spucken."],
+    translation: "I wanted to spit in your face.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -35466,7 +36605,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1127",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "They should not be able to block others.",
     tokens: [
       "anderen",
       "können.",
@@ -35485,6 +36623,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "blockieren",
       "können.",
     ],
+    translation: "They should not be able to block others.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -35507,7 +36647,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1128",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "As a general rule, our company does not organize transport.",
     tokens: [
       "Unser",
       "keinen",
@@ -35524,6 +36663,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "keinen",
       "Transport.",
     ],
+    translation: "As a general rule, our company does not organize transport.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -35546,9 +36687,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1129",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Read what it says down below.",
     tokens: ["Lies", "mal,", "was", "drunter", "steht.", "da"],
     solution: ["Lies", "mal,", "was", "da", "drunter", "steht."],
+    translation: "Read what it says down below.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -35571,7 +36713,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1130",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Even if they kill you, your name will live on forever.",
     tokens: [
       "weiterleben.",
       "wird",
@@ -35596,6 +36737,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "ewig",
       "weiterleben.",
     ],
+    translation: "Even if they kill you, your name will live on forever.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -35618,9 +36761,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1131",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "We had an arrangement, Jane.",
     tokens: ["Jane.", "Wir", "eine", "hatten", "Abmachung,"],
     solution: ["Wir", "hatten", "eine", "Abmachung,", "Jane."],
+    translation: "We had an arrangement, Jane.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -35643,9 +36787,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1132",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "She didn't want to falsely accuse him.",
     tokens: ["wollte", "nicht", "beschuldigen.", "Sie", "ihn", "fälschlich"],
     solution: ["Sie", "wollte", "ihn", "nicht", "fälschlich", "beschuldigen."],
+    translation: "She didn't want to falsely accuse him.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -35668,7 +36813,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1133",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "It is usually no problem to photograph in Dubai.",
     tokens: [
       "ist",
       "normalerweise",
@@ -35691,6 +36835,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "zu",
       "fotografieren.",
     ],
+    translation: "It is usually no problem to photograph in Dubai.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -35713,7 +36859,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1134",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "You can publish the results of this case study.",
     tokens: [
       "die",
       "veröffentlichen.",
@@ -35732,6 +36877,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Fallstudie",
       "veröffentlichen.",
     ],
+    translation: "You can publish the results of this case study.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -35754,9 +36901,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1135",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I don't know, it seems unlikely.",
     tokens: ["unwahrscheinlich.", "weiß", "es", "Ich", "scheint", "nicht,"],
     solution: ["Ich", "weiß", "nicht,", "es", "scheint", "unwahrscheinlich."],
+    translation: "I don't know, it seems unlikely.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -35779,9 +36927,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1136",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "The runners poured water over their heads.",
     tokens: ["gossen", "Wasser", "ihre", "über", "Die", "Läufer", "Köpfe."],
     solution: ["Die", "Läufer", "gossen", "Wasser", "über", "ihre", "Köpfe."],
+    translation: "The runners poured water over their heads.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -35804,8 +36953,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1137",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus:
-      "The Commission will cooperate with the Council of Europe on these matters.",
     tokens: [
       "in",
       "zusammenarbeiten.",
@@ -35830,6 +36977,9 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Europarat",
       "zusammenarbeiten.",
     ],
+    translation:
+      "The Commission will cooperate with the Council of Europe on these matters.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -35852,9 +37002,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1138",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Are you staring at me or her?",
     tokens: ["mich", "an?", "Glotzt", "sie", "oder", "du"],
     solution: ["Glotzt", "du", "mich", "oder", "sie", "an?"],
+    translation: "Are you staring at me or her?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -35877,8 +37028,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1139",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus:
-      "Conflicting reports prompted the director to reconsider her position.",
     tokens: [
       "Standpunkt",
       "zu",
@@ -35901,6 +37050,9 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "zu",
       "überdenken.",
     ],
+    translation:
+      "Conflicting reports prompted the director to reconsider her position.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -35923,9 +37075,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1140",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "It doesn't have to be a formal prayer.",
     tokens: ["formelles", "muss", "Es", "sein.", "Gebet", "kein"],
     solution: ["Es", "muss", "kein", "formelles", "Gebet", "sein."],
+    translation: "It doesn't have to be a formal prayer.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -35948,9 +37101,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1141",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "If there's anything I cannot stand, it's a sore loser.",
     tokens: ["ausstehen.", "Schlechte", "ich", "kann", "Verlierer", "nicht"],
     solution: ["Schlechte", "Verlierer", "kann", "ich", "nicht", "ausstehen."],
+    translation: "If there's anything I cannot stand, it's a sore loser.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -35973,7 +37127,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1142",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "On February 14th, Americans celebrate Valentine's Day.",
     tokens: [
       "Valentinstag.",
       "vierzehnten",
@@ -35994,6 +37147,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "den",
       "Valentinstag.",
     ],
+    translation: "On February 14th, Americans celebrate Valentine's Day.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -36016,9 +37171,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1143",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "We don't have a single gene in common.",
     tokens: ["Wir", "Gen", "haben", "kein", "einziges", "gemeinsam."],
     solution: ["Wir", "haben", "kein", "einziges", "Gen", "gemeinsam."],
+    translation: "We don't have a single gene in common.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -36041,9 +37197,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1144",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "You could sail around the world.",
     tokens: ["segeln.", "um", "könntest", "Du", "Welt", "die"],
     solution: ["Du", "könntest", "um", "die", "Welt", "segeln."],
+    translation: "You could sail around the world.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -36066,7 +37223,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1145",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "You should just hang up now so I can order a pizza.",
     tokens: [
       "Pizza",
       "bestellen",
@@ -36093,6 +37249,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "bestellen",
       "kann.",
     ],
+    translation: "You should just hang up now so I can order a pizza.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -36115,9 +37273,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1146",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I'm a loner, but not a monk.",
     tokens: ["bin", "Einzelgänger,", "Mönch.", "Ich", "kein"],
     solution: ["Ich", "bin", "Einzelgänger,", "kein", "Mönch."],
+    translation: "I'm a loner, but not a monk.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -36140,9 +37299,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1147",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "May God have mercy on your soul.",
     tokens: ["mit", "Möge", "Seele", "haben.", "Gott", "Ihrer", "Erbarmen"],
     solution: ["Möge", "Gott", "mit", "Ihrer", "Seele", "Erbarmen", "haben."],
+    translation: "May God have mercy on your soul.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -36165,9 +37325,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1148",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "We'll beat the truth out of them.",
     tokens: ["aus", "raus.", "Wahrheit", "prügeln", "Wir", "ihnen", "die"],
     solution: ["Wir", "prügeln", "die", "Wahrheit", "aus", "ihnen", "raus."],
+    translation: "We'll beat the truth out of them.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -36190,7 +37351,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1149",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "This is why we urgently need the relevant information, though.",
     tokens: [
       "aber",
       "Dazu",
@@ -36211,6 +37371,9 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "nötigen",
       "Informationen.",
     ],
+    translation:
+      "This is why we urgently need the relevant information, though.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -36233,7 +37396,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1150",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "The population of this country is gradually diminishing.",
     tokens: [
       "Die",
       "allmählich",
@@ -36252,6 +37414,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "allmählich",
       "ab.",
     ],
+    translation: "The population of this country is gradually diminishing.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -36274,7 +37438,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1151",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Apparently, he's upright, and he's even speaking.",
     tokens: [
       "er",
       "sogar.",
@@ -36295,6 +37458,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "spricht",
       "sogar.",
     ],
+    translation: "Apparently, he's upright, and he's even speaking.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -36317,9 +37482,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1152",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Jane is sending him a telegram.",
     tokens: ["Telegramm.", "Jane", "ein", "ihm", "gerade", "schickt"],
     solution: ["Jane", "schickt", "ihm", "gerade", "ein", "Telegramm."],
+    translation: "Jane is sending him a telegram.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -36342,7 +37508,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1153",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "The frenzied plan of escape was hopeless from the beginning.",
     tokens: [
       "von",
       "Fluchtplan",
@@ -36363,6 +37528,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "an",
       "hoffnungslos.",
     ],
+    translation: "The frenzied plan of escape was hopeless from the beginning.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -36385,9 +37552,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1154",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Can someone pronounce this word here?",
     tokens: ["aussprechen?", "jemand", "Kann", "dieses", "hier", "Wort"],
     solution: ["Kann", "jemand", "dieses", "Wort", "hier", "aussprechen?"],
+    translation: "Can someone pronounce this word here?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -36410,7 +37578,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1155",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "However, the infected data files do not spread the virus.",
     tokens: [
       "den",
       "nicht.",
@@ -36431,6 +37598,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "jedoch",
       "nicht.",
     ],
+    translation: "However, the infected data files do not spread the virus.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -36453,9 +37622,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1156",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "There is nothing to sweep at all.",
     tokens: ["Da", "es", "nichts", "zu", "gar", "gibt", "kehren."],
     solution: ["Da", "gibt", "es", "gar", "nichts", "zu", "kehren."],
+    translation: "There is nothing to sweep at all.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -36478,9 +37648,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1157",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "The curtain has just moved.",
     tokens: ["bewegt.", "Vorhang", "hat", "Gerade", "der", "sich"],
     solution: ["Gerade", "hat", "sich", "der", "Vorhang", "bewegt."],
+    translation: "The curtain has just moved.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -36503,8 +37674,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1158",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus:
-      "This additive should, therefore, be authorized for an unlimited period.",
     tokens: [
       "Der",
       "unbefristet",
@@ -36523,6 +37692,9 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "zugelassen",
       "werden.",
     ],
+    translation:
+      "This additive should, therefore, be authorized for an unlimited period.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -36545,9 +37717,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1159",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "We'll have our little chat later on.",
     tokens: ["wenig", "plaudern.", "später", "werden", "ein", "Wir"],
     solution: ["Wir", "werden", "später", "ein", "wenig", "plaudern."],
+    translation: "We'll have our little chat later on.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -36570,7 +37743,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1160",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "A lot of things around here require my attention.",
     tokens: ["Viele", "erfordern", "meine", "Dinge", "Aufmerksamkeit.", "hier"],
     solution: [
       "Viele",
@@ -36580,6 +37752,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "meine",
       "Aufmerksamkeit.",
     ],
+    translation: "A lot of things around here require my attention.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -36602,7 +37776,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1161",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "It is difficult for a foreigner to learn Japanese.",
     tokens: [
       "zu",
       "ist",
@@ -36625,6 +37798,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "zu",
       "lernen.",
     ],
+    translation: "It is difficult for a foreigner to learn Japanese.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -36647,7 +37822,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1162",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "You have to access and follow the instructions yourself.",
     tokens: [
       "die",
       "selbst",
@@ -36668,6 +37842,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "und",
       "befolgen.",
     ],
+    translation: "You have to access and follow the instructions yourself.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -36690,9 +37866,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1163",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "A bike may not weigh more than 23 kg.",
     tokens: ["höchstens", "kg", "Ein", "Fahrrad", "wiegen.", "darf"],
     solution: ["Ein", "Fahrrad", "darf", "höchstens", "kg", "wiegen."],
+    translation: "A bike may not weigh more than 23 kg.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -36715,7 +37892,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1164",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Dealing in information like that is extremely dangerous.",
     tokens: [
       "solchen",
       "ist",
@@ -36736,6 +37912,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "ausgesprochen",
       "gefährlich.",
     ],
+    translation: "Dealing in information like that is extremely dangerous.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -36758,7 +37936,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1165",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "The floor is just really nice and cool.",
     tokens: ["schön", "einfach", "nur", "Der", "ist", "und", "kühl.", "Boden"],
     solution: [
       "Der",
@@ -36770,6 +37947,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "und",
       "kühl.",
     ],
+    translation: "The floor is just really nice and cool.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -36792,7 +37971,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1166",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I can occasionally identify with that.",
     tokens: ["kann", "Ich", "gelegentlich", "damit", "mich", "identifizieren."],
     solution: [
       "Ich",
@@ -36802,6 +37980,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "damit",
       "identifizieren.",
     ],
+    translation: "I can occasionally identify with that.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -36824,7 +38004,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1167",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "We will spend four days hiking in the Cordillera Blanca.",
     tokens: [
       "in",
       "Cordillera",
@@ -36849,6 +38028,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Cordillera",
       "Blanca.",
     ],
+    translation: "We will spend four days hiking in the Cordillera Blanca.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -36871,7 +38052,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1168",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "But I can't just leave you behind.",
     tokens: [
       "nicht",
       "zurücklassen.",
@@ -36890,6 +38070,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "einfach",
       "zurücklassen.",
     ],
+    translation: "But I can't just leave you behind.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -36912,7 +38094,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1169",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "This world is doomed to drown in its own blood now.",
     tokens: [
       "Blut",
       "Welt",
@@ -36935,6 +38116,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Blut",
       "ertrinken.",
     ],
+    translation: "This world is doomed to drown in its own blood now.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -36957,9 +38140,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1170",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "We should pack our bags and leave this place immediately.",
     tokens: ["packen", "Wir", "sollten", "umgehend", "aufbrechen.", "und"],
     solution: ["Wir", "sollten", "packen", "und", "umgehend", "aufbrechen."],
+    translation: "We should pack our bags and leave this place immediately.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -36982,9 +38166,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1171",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "We're not active now.",
     tokens: ["sind", "Wir", "jetzt", "nicht", "aktiv."],
     solution: ["Wir", "sind", "jetzt", "nicht", "aktiv."],
+    translation: "We're not active now.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -37007,7 +38192,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1172",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "This is the core of our business philosophy.",
     tokens: [
       "unserer",
       "der",
@@ -37024,6 +38208,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "unserer",
       "Unternehmensphilosophie.",
     ],
+    translation: "This is the core of our business philosophy.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -37046,7 +38232,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1173",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "This is a factor that must be considered.",
     tokens: [
       "der",
       "werden",
@@ -37067,6 +38252,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "werden",
       "muss.",
     ],
+    translation: "This is a factor that must be considered.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -37089,9 +38276,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1174",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "This cage is made of wire.",
     tokens: ["Dieser", "aus", "gemacht.", "Käfig", "ist", "Draht"],
     solution: ["Dieser", "Käfig", "ist", "aus", "Draht", "gemacht."],
+    translation: "This cage is made of wire.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -37114,9 +38302,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1175",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "She started laughing hysterically.",
     tokens: ["Sie", "lachen.", "begann", "hysterisch", "zu"],
     solution: ["Sie", "begann", "hysterisch", "zu", "lachen."],
+    translation: "She started laughing hysterically.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -37139,9 +38328,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1176",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Tell her I'll call back later.",
     tokens: ["dass", "ihr,", "Sag", "ich", "zurückrufe.", "später"],
     solution: ["Sag", "ihr,", "dass", "ich", "später", "zurückrufe."],
+    translation: "Tell her I'll call back later.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -37164,9 +38354,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1177",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "He is an excellent speaker.",
     tokens: ["Er", "ist", "Sprecher.", "ein", "guter"],
     solution: ["Er", "ist", "ein", "guter", "Sprecher."],
+    translation: "He is an excellent speaker.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -37189,7 +38380,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1178",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Shipping Discounts are offered directly from the seller.",
     tokens: [
       "Versandrabatte",
       "angeboten.",
@@ -37206,6 +38396,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Verkäufer",
       "angeboten.",
     ],
+    translation: "Shipping Discounts are offered directly from the seller.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -37228,9 +38420,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1179",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "He is totally dependent on his parents.",
     tokens: ["Er", "Eltern.", "ist", "völlig", "seinen", "abhängig", "von"],
     solution: ["Er", "ist", "völlig", "abhängig", "von", "seinen", "Eltern."],
+    translation: "He is totally dependent on his parents.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -37253,9 +38446,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1180",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "She is envious of my success.",
     tokens: ["auf", "meinen", "ist", "Sie", "neidisch.", "Erfolg"],
     solution: ["Sie", "ist", "auf", "meinen", "Erfolg", "neidisch."],
+    translation: "She is envious of my success.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -37278,9 +38472,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1181",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "She came in company with her friends.",
     tokens: ["Freunde.", "Sie", "in", "ihrer", "Begleitung", "kam"],
     solution: ["Sie", "kam", "in", "Begleitung", "ihrer", "Freunde."],
+    translation: "She came in company with her friends.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -37303,9 +38498,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1182",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "They tried to rob us, and we got away.",
     tokens: ["Sie", "entkamen.", "uns", "wollten", "wir", "und", "ausrauben"],
     solution: ["Sie", "wollten", "uns", "ausrauben", "und", "wir", "entkamen."],
+    translation: "They tried to rob us, and we got away.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -37328,7 +38524,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1183",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Could you put this report into Italian for me?",
     tokens: [
       "übersetzen?",
       "mir",
@@ -37349,6 +38544,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Italienisch",
       "übersetzen?",
     ],
+    translation: "Could you put this report into Italian for me?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -37371,7 +38568,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1184",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "He is expecting all that coke to be here.",
     tokens: ["Koks", "erwartet,", "ist.", "ganze", "Er", "dass", "hier", "das"],
     solution: [
       "Er",
@@ -37383,6 +38579,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "hier",
       "ist.",
     ],
+    translation: "He is expecting all that coke to be here.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -37405,8 +38603,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1185",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus:
-      "You may notice an increase in disk activity during the analysis.",
     tokens: [
       "Festplattenaktivität",
       "Sie",
@@ -37429,6 +38625,9 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Festplattenaktivität",
       "feststellen.",
     ],
+    translation:
+      "You may notice an increase in disk activity during the analysis.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -37451,9 +38650,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1186",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "You must think I'm a terrible dancer.",
     tokens: ["furchtbarer", "Ich", "bin", "Tänzer.", "ein", "sicher"],
     solution: ["Ich", "bin", "sicher", "ein", "furchtbarer", "Tänzer."],
+    translation: "You must think I'm a terrible dancer.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -37476,9 +38676,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1187",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I need to look around for a bit.",
     tokens: ["umsehen.", "wenig", "ein", "Ich", "nur", "muss", "mich"],
     solution: ["Ich", "muss", "mich", "nur", "ein", "wenig", "umsehen."],
+    translation: "I need to look around for a bit.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -37501,7 +38702,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1188",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "It's always the good ones that go crazy the fastest.",
     tokens: [
       "die",
       "durchdrehen.",
@@ -37524,6 +38724,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "schnellsten",
       "durchdrehen.",
     ],
+    translation: "It's always the good ones that go crazy the fastest.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -37546,7 +38748,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1189",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "This gives me a chance to honor her memory.",
     tokens: [
       "ehren.",
       "Andenken",
@@ -37569,6 +38770,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "zu",
       "ehren.",
     ],
+    translation: "This gives me a chance to honor her memory.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -37591,9 +38794,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1190",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I will not leave the carriage.",
     tokens: ["nicht", "die", "Ich", "werde", "Kutsche", "verlassen."],
     solution: ["Ich", "werde", "die", "Kutsche", "nicht", "verlassen."],
+    translation: "I will not leave the carriage.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -37616,7 +38820,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1191",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "They'll do anything to avoid jail time.",
     tokens: [
       "tun,",
       "um",
@@ -37639,6 +38842,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "zu",
       "entgehen.",
     ],
+    translation: "They'll do anything to avoid jail time.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -37661,7 +38866,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1192",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "We'll have to give them a Christian burial.",
     tokens: [
       "ein",
       "christliches",
@@ -37680,6 +38884,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Begräbnis",
       "geben.",
     ],
+    translation: "We'll have to give them a Christian burial.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -37702,9 +38908,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1193",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Earlier I was often there, professionally.",
     tokens: ["dort", "Früher", "war", "beruflich.", "ich", "häufig"],
     solution: ["Früher", "war", "ich", "dort", "häufig", "beruflich."],
+    translation: "Earlier I was often there, professionally.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -37727,9 +38934,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1194",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "A retard could figure it out.",
     tokens: ["das", "Vollidiot", "hinkriegen.", "Jeder", "würde"],
     solution: ["Jeder", "Vollidiot", "würde", "das", "hinkriegen."],
+    translation: "A retard could figure it out.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -37752,7 +38960,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1195",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Father, I'll help them tidy up",
     tokens: [
       "Vater,",
       "gehe",
@@ -37773,6 +38980,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "beim",
       "Aufräumen.",
     ],
+    translation: "Father, I'll help them tidy up",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -37795,9 +39004,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1196",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "These people, they worship you.",
     tokens: ["Diese", "sie", "dich.", "Menschen,", "verehren"],
     solution: ["Diese", "Menschen,", "sie", "verehren", "dich."],
+    translation: "These people, they worship you.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -37820,7 +39030,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1197",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "First, we'll go to the shed for an ax.",
     tokens: [
       "eine",
       "Schuppen.",
@@ -37841,6 +39050,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "dem",
       "Schuppen.",
     ],
+    translation: "First, we'll go to the shed for an ax.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -37863,8 +39074,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1198",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus:
-      "Luckily, I don't have any, so that particular temptation hasn't presented itself.",
     tokens: [
       "diese",
       "habe",
@@ -37893,6 +39102,9 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Versuchung",
       "nicht.",
     ],
+    translation:
+      "Luckily, I don't have any, so that particular temptation hasn't presented itself.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -37915,7 +39127,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1199",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Some food is pretty bland without salt.",
     tokens: [
       "ohne",
       "Salz.",
@@ -37934,6 +39145,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "ohne",
       "Salz.",
     ],
+    translation: "Some food is pretty bland without salt.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -37956,9 +39169,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1200",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "My private life's already in a mess.",
     tokens: ["genug.", "schwierig", "ist", "Privatleben", "schon", "Mein"],
     solution: ["Mein", "Privatleben", "ist", "schon", "schwierig", "genug."],
+    translation: "My private life's already in a mess.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -37981,7 +39195,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1201",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Do not mix with other products of cleaning agents.",
     tokens: [
       "oder",
       "Reinigungsmitteln",
@@ -38000,6 +39213,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Reinigungsmitteln",
       "mischen.",
     ],
+    translation: "Do not mix with other products of cleaning agents.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -38022,7 +39237,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1202",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I might have to threaten one of them.",
     tokens: [
       "drohen",
       "einem",
@@ -38043,6 +39257,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "drohen",
       "müssen.",
     ],
+    translation: "I might have to threaten one of them.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -38065,9 +39281,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1203",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "This is the bastard that stole my dog.",
     tokens: ["meinen", "Bastard", "gestohlen.", "hat", "Hund", "Dieser"],
     solution: ["Dieser", "Bastard", "hat", "meinen", "Hund", "gestohlen."],
+    translation: "This is the bastard that stole my dog.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -38090,9 +39307,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1204",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "The eagle dived at its prey.",
     tokens: ["Adler", "Beute.", "auf", "seine", "stürzte", "Der", "sich"],
     solution: ["Der", "Adler", "stürzte", "sich", "auf", "seine", "Beute."],
+    translation: "The eagle dived at its prey.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -38115,9 +39333,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1205",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "You need to listen to some blues, man.",
     tokens: ["mal", "Du", "musst", "Mann.", "hören,", "Blues"],
     solution: ["Du", "musst", "mal", "Blues", "hören,", "Mann."],
+    translation: "You need to listen to some blues, man.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -38140,8 +39359,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1206",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus:
-      "A dynamic HTML template can be used alternatively to the static one.",
     tokens: [
       "benutzt",
       "werden.",
@@ -38166,6 +39383,9 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "benutzt",
       "werden.",
     ],
+    translation:
+      "A dynamic HTML template can be used alternatively to the static one.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -38188,9 +39408,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1207",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "She put the magazine on the table.",
     tokens: ["Tisch.", "die", "Sie", "auf", "den", "legte", "Zeitschrift"],
     solution: ["Sie", "legte", "die", "Zeitschrift", "auf", "den", "Tisch."],
+    translation: "She put the magazine on the table.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -38213,8 +39434,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1208",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus:
-      "There was no intention to prevent John from expressing his opinion.",
     tokens: [
       "Äußerung",
       "einer",
@@ -38235,6 +39454,9 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Äußerung",
       "hindern.",
     ],
+    translation:
+      "There was no intention to prevent John from expressing his opinion.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -38257,9 +39479,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1209",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "He danced like a leaf in the autumn wind.",
     tokens: ["im", "ein", "wie", "tanzte", "Herbstwind.", "Er", "Blatt"],
     solution: ["Er", "tanzte", "wie", "ein", "Blatt", "im", "Herbstwind."],
+    translation: "He danced like a leaf in the autumn wind.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -38282,9 +39505,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1210",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "You are not worthy of my father's sword.",
     tokens: ["bist", "Du", "nicht", "Vaters", "Schwert", "würdig.", "meines"],
     solution: ["Du", "bist", "meines", "Vaters", "Schwert", "nicht", "würdig."],
+    translation: "You are not worthy of my father's sword.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -38307,7 +39531,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1211",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I'm not about to beg to stay here.",
     tokens: [
       "werde",
       "hier",
@@ -38328,6 +39551,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "zu",
       "bleiben.",
     ],
+    translation: "I'm not about to beg to stay here.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -38350,9 +39575,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1212",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "The police will arrive every moment now.",
     tokens: ["jeden", "Polizei", "Die", "Moment", "muss", "eintreffen."],
     solution: ["Die", "Polizei", "muss", "jeden", "Moment", "eintreffen."],
+    translation: "The police will arrive every moment now.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -38375,9 +39601,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1213",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I am relieved you're here.",
     tokens: ["Sie", "Ich", "zu", "sehen.", "bin", "erleichtert"],
     solution: ["Ich", "bin", "erleichtert", "Sie", "zu", "sehen."],
+    translation: "I am relieved you're here.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -38400,7 +39627,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1214",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "They are planning an assault on the freedom of the press.",
     tokens: [
       "Anschlag",
       "geplant!",
@@ -38421,6 +39647,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Pressefreiheit",
       "geplant!",
     ],
+    translation: "They are planning an assault on the freedom of the press.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -38443,9 +39671,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1215",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "John was unfaithful to me repeatedly.",
     tokens: ["mir", "John", "mehrmals.", "war", "untreu,", "gegenüber"],
     solution: ["John", "war", "mir", "gegenüber", "untreu,", "mehrmals."],
+    translation: "John was unfaithful to me repeatedly.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -38468,9 +39697,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1216",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Besides, I have got two kids to feed.",
     tokens: ["habe", "zu", "Nebenbei", "zwei", "Kinder", "ernähren.", "ich"],
     solution: ["Nebenbei", "habe", "ich", "zwei", "Kinder", "zu", "ernähren."],
+    translation: "Besides, I have got two kids to feed.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -38493,7 +39723,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1217",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Sadly, this balance is lacking in several places.",
     tokens: [
       "Dieses",
       "mehreren",
@@ -38512,6 +39741,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "mehreren",
       "Stellen.",
     ],
+    translation: "Sadly, this balance is lacking in several places.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -38534,9 +39765,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1218",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I was worried, waiting and waiting for hours.",
     tokens: ["stundenlang.", "besorgt", "war", "wartete", "und", "Ich"],
     solution: ["Ich", "war", "besorgt", "und", "wartete", "stundenlang."],
+    translation: "I was worried, waiting and waiting for hours.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -38559,9 +39791,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1219",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I don't want to lose my pension.",
     tokens: ["Ich", "meine", "nicht", "Pension", "verlieren.", "will"],
     solution: ["Ich", "will", "meine", "Pension", "nicht", "verlieren."],
+    translation: "I don't want to lose my pension.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -38584,9 +39817,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1220",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "The meeting will, therefore, take place tomorrow.",
     tokens: ["Das", "morgen", "stattfinden.", "Treffen", "also", "wird"],
     solution: ["Das", "Treffen", "wird", "also", "morgen", "stattfinden."],
+    translation: "The meeting will, therefore, take place tomorrow.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -38609,9 +39843,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1221",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Besides, you don't own a jet anymore.",
     tokens: ["mehr.", "Jet", "gehört", "dir", "kein", "Außerdem"],
     solution: ["Außerdem", "gehört", "dir", "kein", "Jet", "mehr."],
+    translation: "Besides, you don't own a jet anymore.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -38634,7 +39869,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1222",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "You can read the current issue or browse the archives.",
     tokens: [
       "können",
       "blättern.",
@@ -38661,6 +39895,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Archiv",
       "blättern.",
     ],
+    translation: "You can read the current issue or browse the archives.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -38683,7 +39919,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1223",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Of course, it's difficult to gain access to the Prime Minister.",
     tokens: [
       "Zugang",
       "ist",
@@ -38706,6 +39941,9 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "zu",
       "gewinnen.",
     ],
+    translation:
+      "Of course, it's difficult to gain access to the Prime Minister.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -38728,7 +39966,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1224",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "At least your boss isn't sexually harassing you.",
     tokens: [
       "nicht",
       "Boss",
@@ -38747,6 +39984,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "nicht",
       "sexuell.",
     ],
+    translation: "At least your boss isn't sexually harassing you.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -38769,7 +40008,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1225",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I will not be held responsible for your virtue.",
     tokens: ["Ich", "nicht", "Ihre", "bin", "verantwortlich", "Tugend.", "für"],
     solution: [
       "Ich",
@@ -38780,6 +40018,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Ihre",
       "Tugend.",
     ],
+    translation: "I will not be held responsible for your virtue.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -38802,9 +40042,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1226",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I don't want to torture you at all.",
     tokens: ["will", "quälen.", "Ich", "nicht", "überhaupt", "dich"],
     solution: ["Ich", "will", "dich", "überhaupt", "nicht", "quälen."],
+    translation: "I don't want to torture you at all.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -38827,9 +40068,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1227",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I am sensitive to the smell of open sewers.",
     tokens: ["offene", "reagiere", "Kloaken.", "auf", "empfindlich", "Ich"],
     solution: ["Ich", "reagiere", "empfindlich", "auf", "offene", "Kloaken."],
+    translation: "I am sensitive to the smell of open sewers.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -38852,7 +40094,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1228",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "The description of the main story will follow soon.",
     tokens: [
       "Beschreibung",
       "folgt",
@@ -38869,6 +40110,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "folgt",
       "demnächst.",
     ],
+    translation: "The description of the main story will follow soon.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -38891,8 +40134,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1229",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus:
-      "You must acquire as soon as possible a good knowledge of business English.",
     tokens: [
       "dir",
       "zulegen.",
@@ -38915,6 +40156,9 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Business-Englisch",
       "zulegen.",
     ],
+    translation:
+      "You must acquire as soon as possible a good knowledge of business English.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -38937,7 +40181,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1230",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "He can sue the paper for a million dollars.",
     tokens: ["kann", "auf", "Zeitung", "verklagen.", "Millionen", "die", "Er"],
     solution: [
       "Er",
@@ -38948,6 +40191,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Millionen",
       "verklagen.",
     ],
+    translation: "He can sue the paper for a million dollars.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -38970,9 +40215,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1231",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "But the language has a Slavic root.",
     tokens: ["eine", "Wurzel.", "Aber", "Sprache", "hat", "slawische", "die"],
     solution: ["Aber", "die", "Sprache", "hat", "eine", "slawische", "Wurzel."],
+    translation: "But the language has a Slavic root.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -38995,7 +40241,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1232",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Eventually, after decades of strife, outside mediation helped.",
     tokens: [
       "Nach",
       "schließlich",
@@ -39016,6 +40261,9 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "von",
       "außen.",
     ],
+    translation:
+      "Eventually, after decades of strife, outside mediation helped.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -39038,9 +40286,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1233",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Of course, you are shocked and bewildered.",
     tokens: ["verwirrt.", "Sie", "natürlich", "schockiert", "sind", "und"],
     solution: ["Sie", "sind", "natürlich", "schockiert", "und", "verwirrt."],
+    translation: "Of course, you are shocked and bewildered.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -39063,7 +40312,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1234",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "He had four hours to recover.",
     tokens: ["um", "Stunden,", "zu", "Er", "hatte", "erholen.", "vier", "sich"],
     solution: [
       "Er",
@@ -39075,6 +40323,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "zu",
       "erholen.",
     ],
+    translation: "He had four hours to recover.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -39097,9 +40347,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1235",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Come and help me mend the sail.",
     tokens: ["Segel", "Komm,", "flicken.", "das", "mir", "hilf"],
     solution: ["Komm,", "hilf", "mir", "das", "Segel", "flicken."],
+    translation: "Come and help me mend the sail.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -39122,7 +40373,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1236",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Tell me just to satisfy my curiosity.",
     tokens: [
       "mir,",
       "befriedigen.",
@@ -39143,6 +40393,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "zu",
       "befriedigen.",
     ],
+    translation: "Tell me just to satisfy my curiosity.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -39165,9 +40417,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1237",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "The committee has considered your plan.",
     tokens: ["Ihren", "besprochen.", "hat", "Das", "Komitee", "Plan"],
     solution: ["Das", "Komitee", "hat", "Ihren", "Plan", "besprochen."],
+    translation: "The committee has considered your plan.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -39190,9 +40443,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1238",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "We don't have to cut off his leg.",
     tokens: ["nicht", "müssen", "sein", "Wir", "abschneiden.", "Bein"],
     solution: ["Wir", "müssen", "sein", "Bein", "nicht", "abschneiden."],
+    translation: "We don't have to cut off his leg.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -39215,9 +40469,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1239",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "So, fuel is not their concern.",
     tokens: ["also", "Treibstoff", "nicht", "Problem.", "ist", "ihr"],
     solution: ["Treibstoff", "ist", "also", "nicht", "ihr", "Problem."],
+    translation: "So, fuel is not their concern.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -39240,7 +40495,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1240",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "This jeep has been the subject of a search since last Friday.",
     tokens: [
       "Dieser",
       "wird",
@@ -39259,6 +40513,9 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Freitag",
       "gesucht.",
     ],
+    translation:
+      "This jeep has been the subject of a search since last Friday.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -39281,7 +40538,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1241",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "John's team is the worst team in the league.",
     tokens: [
       "ist",
       "Mannschaft",
@@ -39302,6 +40558,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "der",
       "Liga.",
     ],
+    translation: "John's team is the worst team in the league.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -39324,7 +40582,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1242",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "John had to cancel his lecture because he was sick.",
     tokens: [
       "John",
       "absagen.",
@@ -39343,6 +40600,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Krankheit",
       "absagen.",
     ],
+    translation: "John had to cancel his lecture because he was sick.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -39365,9 +40624,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1243",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Every creature deserves a warm meal.",
     tokens: ["Jede", "Kreatur", "verdient", "warme", "eine", "Mahlzeit."],
     solution: ["Jede", "Kreatur", "verdient", "eine", "warme", "Mahlzeit."],
+    translation: "Every creature deserves a warm meal.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -39390,7 +40650,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1244",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "In effect, it is a mediator between client and server.",
     tokens: [
       "um",
       "sich",
@@ -39417,6 +40676,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "und",
       "Server.",
     ],
+    translation: "In effect, it is a mediator between client and server.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -39439,7 +40700,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1245",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "In the meantime, we need to go talk to somebody.",
     tokens: [
       "reden.",
       "zu",
@@ -39466,6 +40726,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "zu",
       "reden.",
     ],
+    translation: "In the meantime, we need to go talk to somebody.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -39488,7 +40750,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1246",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "He is no longer a member of our club.",
     tokens: [
       "nicht",
       "ist",
@@ -39509,6 +40770,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "unserem",
       "Klub.",
     ],
+    translation: "He is no longer a member of our club.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -39531,7 +40794,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1247",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Your grandmother always said you were a bad seed.",
     tokens: [
       "Großmutter",
       "dass",
@@ -39558,6 +40820,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Same",
       "bist.",
     ],
+    translation: "Your grandmother always said you were a bad seed.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -39580,9 +40844,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1248",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Why don't you tell us about the blackmail?",
     tokens: ["Warum", "reden", "nicht", "über", "die", "Sie", "Erpressung?"],
     solution: ["Warum", "reden", "Sie", "nicht", "über", "die", "Erpressung?"],
+    translation: "Why don't you tell us about the blackmail?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -39605,7 +40870,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1249",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Gravity is pulling it deeper into the atmosphere.",
     tokens: [
       "Schwerkraft",
       "zieht",
@@ -39628,6 +40892,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Atmosphäre",
       "hinunter.",
     ],
+    translation: "Gravity is pulling it deeper into the atmosphere.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -39650,8 +40916,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1250",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus:
-      "First, big companies are now multinational, while governments remain national.",
     tokens: [
       "heutzutage",
       "weiter",
@@ -39678,6 +40942,9 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "national",
       "sind.",
     ],
+    translation:
+      "First, big companies are now multinational, while governments remain national.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -39700,7 +40967,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1251",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "At least the day wasn't a total waste.",
     tokens: [
       "Tag",
       "keine",
@@ -39719,6 +40985,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "komplette",
       "Verschwendung.",
     ],
+    translation: "At least the day wasn't a total waste.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -39741,7 +41009,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1252",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "The different airbag systems work independently of each other.",
     tokens: [
       "voneinander.",
       "unabhängig",
@@ -39758,6 +41025,9 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "unabhängig",
       "voneinander.",
     ],
+    translation:
+      "The different airbag systems work independently of each other.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -39780,7 +41050,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1253",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "But l believe a word of honor would mean something to you.",
     tokens: [
       "bedeuten.",
       "Aber",
@@ -39803,6 +41072,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "etwas",
       "bedeuten.",
     ],
+    translation: "But l believe a word of honor would mean something to you.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -39825,9 +41096,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1254",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Miss, I need you to button your blouse.",
     tokens: ["Bluse", "Miss,", "Sie", "knöpfen", "die", "zu.", "bitte"],
     solution: ["Miss,", "bitte", "knöpfen", "Sie", "die", "Bluse", "zu."],
+    translation: "Miss, I need you to button your blouse.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -39850,9 +41122,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1255",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I have challenged the editor to a duel.",
     tokens: ["gefordert.", "Ich", "zum", "den", "Duell", "Verleger", "habe"],
     solution: ["Ich", "habe", "den", "Verleger", "zum", "Duell", "gefordert."],
+    translation: "I have challenged the editor to a duel.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -39875,9 +41148,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1256",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "You can then turn off the appliance.",
     tokens: ["dann", "Appliance", "können", "abschalten.", "die", "Sie"],
     solution: ["Sie", "können", "die", "Appliance", "dann", "abschalten."],
+    translation: "You can then turn off the appliance.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -39900,9 +41174,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1257",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "War could break out any day.",
     tokens: ["ausbrechen.", "jederzeit", "Krieg", "könnte"],
     solution: ["Krieg", "könnte", "jederzeit", "ausbrechen."],
+    translation: "War could break out any day.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -39925,8 +41200,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1258",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus:
-      "This determination is repeated until a good degree of agreement in the results is obtained.",
     tokens: [
       "Diese",
       "wiederholt,",
@@ -39957,6 +41230,9 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "erzielt",
       "wird.",
     ],
+    translation:
+      "This determination is repeated until a good degree of agreement in the results is obtained.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -39979,7 +41255,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1259",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "That is a moral duty as well as a human one.",
     tokens: [
       "menschliche",
       "moralische",
@@ -39998,6 +41273,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "menschliche",
       "Pflicht.",
     ],
+    translation: "That is a moral duty as well as a human one.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -40020,7 +41297,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1260",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Taliban rule has set the country back many years.",
     tokens: [
       "viele",
       "Herrschaft",
@@ -40047,6 +41323,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Jahre",
       "zurückgeworfen.",
     ],
+    translation: "Taliban rule has set the country back many years.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -40069,7 +41347,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1261",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "That is something no one could accuse you of.",
     tokens: [
       "was",
       "nichts,",
@@ -40090,6 +41367,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "vorwerfen",
       "kann.",
     ],
+    translation: "That is something no one could accuse you of.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -40112,9 +41391,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1262",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "We have to find a way to decrease the mass.",
     tokens: ["Wir", "müssen", "irgendwie", "reduzieren.", "Masse", "die"],
     solution: ["Wir", "müssen", "irgendwie", "die", "Masse", "reduzieren."],
+    translation: "We have to find a way to decrease the mass.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -40137,7 +41417,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1263",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Critics also fear that the internet would get more expensive.",
     tokens: [
       "zudem",
       "Internets.",
@@ -40156,6 +41435,9 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "des",
       "Internets.",
     ],
+    translation:
+      "Critics also fear that the internet would get more expensive.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -40178,7 +41460,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1264",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "He wanted to spare me the sight of his suffering.",
     tokens: [
       "wollte",
       "ersparen.",
@@ -40199,6 +41480,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Leiden",
       "ersparen.",
     ],
+    translation: "He wanted to spare me the sight of his suffering.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -40221,7 +41504,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1265",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "We all feel that his suspension was completely unjust.",
     tokens: [
       "war.",
       "Meinung,",
@@ -40246,6 +41528,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "ungerecht",
       "war.",
     ],
+    translation: "We all feel that his suspension was completely unjust.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -40268,7 +41552,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1266",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Otherwise, they'll make someone pay for this failure.",
     tokens: [
       "für",
       "Ansonsten",
@@ -40289,6 +41572,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "büßen",
       "müssen.",
     ],
+    translation: "Otherwise, they'll make someone pay for this failure.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -40311,7 +41596,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1267",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Straight lines form a grid of squares on the plot area.",
     tokens: [
       "Gitter",
       "bilden",
@@ -40334,6 +41618,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "der",
       "Zeichenfläche.",
     ],
+    translation: "Straight lines form a grid of squares on the plot area.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -40356,9 +41642,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1268",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "It was a really thoughtful gesture.",
     tokens: ["war", "eine", "sehr", "nette", "Das", "Geste."],
     solution: ["Das", "war", "eine", "sehr", "nette", "Geste."],
+    translation: "It was a really thoughtful gesture.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -40381,7 +41668,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1269",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "My parents are going to donate a lot of money for this school.",
     tokens: [
       "Eltern",
       "Menge",
@@ -40406,6 +41692,9 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Schule",
       "spenden.",
     ],
+    translation:
+      "My parents are going to donate a lot of money for this school.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -40428,9 +41717,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1270",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "My assistant is taking it to print as we speak.",
     tokens: ["zum", "Mein", "bringt", "sie", "Druck.", "Assistent", "gerade"],
     solution: ["Mein", "Assistent", "bringt", "sie", "gerade", "zum", "Druck."],
+    translation: "My assistant is taking it to print as we speak.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -40453,8 +41743,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1271",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus:
-      "The bride and groom will have one last toast before the wedding night.",
     tokens: [
       "der",
       "einen",
@@ -40477,6 +41765,9 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "der",
       "Hochzeitsnacht.",
     ],
+    translation:
+      "The bride and groom will have one last toast before the wedding night.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -40499,9 +41790,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1272",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "There are no secrets in this casino.",
     tokens: ["Geheimnisse.", "gibt", "diesem", "Kasino", "In", "es", "keine"],
     solution: ["In", "diesem", "Kasino", "gibt", "es", "keine", "Geheimnisse."],
+    translation: "There are no secrets in this casino.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -40524,7 +41816,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1273",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I am acquainted with the chairman of the committee.",
     tokens: [
       "Kommission",
       "Ich",
@@ -40545,6 +41836,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Kommission",
       "bekannt.",
     ],
+    translation: "I am acquainted with the chairman of the committee.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -40567,7 +41860,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1274",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I'm the guy that shot his brother.",
     tokens: [
       "Ich",
       "abgeknallt",
@@ -40590,6 +41882,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "abgeknallt",
       "hat.",
     ],
+    translation: "I'm the guy that shot his brother.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -40612,7 +41906,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1275",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "John is going to be there, which is pretty awesome.",
     tokens: [
       "abgefahren",
       "sein,",
@@ -40633,6 +41926,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "abgefahren",
       "ist.",
     ],
+    translation: "John is going to be there, which is pretty awesome.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -40655,9 +41950,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1276",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I'm the producer of this movie.",
     tokens: ["Ich", "Films.", "dieses", "Produzent", "der", "bin"],
     solution: ["Ich", "bin", "der", "Produzent", "dieses", "Films."],
+    translation: "I'm the producer of this movie.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -40680,7 +41976,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1277",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "It's easier to breastfeed if you sleep together.",
     tokens: [
       "wenn",
       "neben",
@@ -40705,6 +42000,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "dir",
       "schläft.",
     ],
+    translation: "It's easier to breastfeed if you sleep together.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -40727,7 +42024,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1278",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "There is an enormous volume of air traffic in Central Europe.",
     tokens: [
       "Mitteleuropa",
       "Luftverkehrsaufkommen",
@@ -40744,6 +42040,9 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "ist",
       "gewaltig.",
     ],
+    translation:
+      "There is an enormous volume of air traffic in Central Europe.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -40766,7 +42065,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1279",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I'm glad I'm living in this age of great beginnings.",
     tokens: [
       "bin",
       "Ich",
@@ -40789,6 +42087,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "zu",
       "leben.",
     ],
+    translation: "I'm glad I'm living in this age of great beginnings.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -40811,7 +42111,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1280",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "You must complete the quiz in order to continue.",
     tokens: [
       "müssen",
       "abschließen.",
@@ -40830,6 +42129,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Quiz",
       "abschließen.",
     ],
+    translation: "You must complete the quiz in order to continue.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -40852,9 +42153,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1281",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "He is unfortunately just numb, John.",
     tokens: ["Er", "ist", "leider", "John.", "benommen,", "nur"],
     solution: ["Er", "ist", "leider", "nur", "benommen,", "John."],
+    translation: "He is unfortunately just numb, John.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -40877,9 +42179,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1282",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "A wolf would chew off its own paw.",
     tokens: ["würde", "abkauen.", "seine", "Pfote", "Ein", "eigene", "Wolf"],
     solution: ["Ein", "Wolf", "würde", "seine", "eigene", "Pfote", "abkauen."],
+    translation: "A wolf would chew off its own paw.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -40902,7 +42205,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1283",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Other events, however, might generate a continuous value.",
     tokens: [
       "jedoch",
       "Andere",
@@ -40923,6 +42225,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Wert",
       "erzeugen.",
     ],
+    translation: "Other events, however, might generate a continuous value.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -40945,9 +42249,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1284",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "And please don't break any of those dishes.",
     tokens: ["Und", "bitte", "Geschirr.", "kein", "zerbrechen", "Sie"],
     solution: ["Und", "zerbrechen", "Sie", "bitte", "kein", "Geschirr."],
+    translation: "And please don't break any of those dishes.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -40970,9 +42275,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1285",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I'm not allowed to serve coffee today.",
     tokens: ["servieren.", "heute", "darf", "Kaffee", "Ich", "keinen"],
     solution: ["Ich", "darf", "heute", "keinen", "Kaffee", "servieren."],
+    translation: "I'm not allowed to serve coffee today.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -40995,9 +42301,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1286",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "There's nothing criminal in socializing.",
     tokens: ["treffen.", "Es", "nicht", "ist", "zu", "kriminell", "Leute"],
     solution: ["Es", "ist", "nicht", "kriminell", "Leute", "zu", "treffen."],
+    translation: "There's nothing criminal in socializing.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -41020,7 +42327,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1287",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "You've had an itch you can't scratch.",
     tokens: ["Es", "kannst", "kratzen.", "nicht", "du", "dich", "und", "juckt"],
     solution: [
       "Es",
@@ -41032,6 +42338,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "nicht",
       "kratzen.",
     ],
+    translation: "You've had an itch you can't scratch.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -41054,7 +42362,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1288",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "The result is fairly flat and lacking in detail.",
     tokens: ["Ergebnis", "und", "detailarm.", "ist", "flach", "Das", "relativ"],
     solution: [
       "Das",
@@ -41065,6 +42372,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "und",
       "detailarm.",
     ],
+    translation: "The result is fairly flat and lacking in detail.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -41087,9 +42396,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1289",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "We all think that we're immortal.",
     tokens: ["uns", "für", "alle", "Wir", "unsterblich.", "halten"],
     solution: ["Wir", "halten", "uns", "alle", "für", "unsterblich."],
+    translation: "We all think that we're immortal.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -41112,7 +42422,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1290",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "The scholarship does not need to be repaid.",
     tokens: ["Das", "werden.", "Stipendium", "nicht", "zurückgezahlt", "muss"],
     solution: [
       "Das",
@@ -41122,6 +42431,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "zurückgezahlt",
       "werden.",
     ],
+    translation: "The scholarship does not need to be repaid.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -41144,9 +42455,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1291",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I'm on cloud nine.",
     tokens: ["Wolke", "Ich", "auf", "schwebe", "sieben."],
     solution: ["Ich", "schwebe", "auf", "Wolke", "sieben."],
+    translation: "I'm on cloud nine.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -41169,7 +42481,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1292",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I can drive with a broken rib.",
     tokens: ["gebrochenen", "Ich", "mit", "fahren.", "Rippe", "einer", "kann"],
     solution: [
       "Ich",
@@ -41180,6 +42491,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Rippe",
       "fahren.",
     ],
+    translation: "I can drive with a broken rib.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -41202,9 +42515,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1293",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Some would call you a drunk.",
     tokens: ["würden", "Manche", "nennen.", "einen", "Sie", "Säufer"],
     solution: ["Manche", "würden", "Sie", "einen", "Säufer", "nennen."],
+    translation: "Some would call you a drunk.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -41227,9 +42541,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1294",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Look, we shouldn't waste any more time.",
     tokens: ["vergeuden.", "sollten", "nicht", "mehr", "Wir", "noch", "Zeit"],
     solution: ["Wir", "sollten", "nicht", "noch", "mehr", "Zeit", "vergeuden."],
+    translation: "Look, we shouldn't waste any more time.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -41252,9 +42567,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1295",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "They are unemployed now, too.",
     tokens: ["arbeitslos.", "Sie", "auch", "jetzt", "sind"],
     solution: ["Sie", "sind", "jetzt", "auch", "arbeitslos."],
+    translation: "They are unemployed now, too.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -41277,7 +42593,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1296",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "They eliminate unpleasant body odors and disinfect the body.",
     tokens: [
       "beseitigen",
       "desinfizieren.",
@@ -41296,6 +42611,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "und",
       "desinfizieren.",
     ],
+    translation: "They eliminate unpleasant body odors and disinfect the body.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -41318,9 +42635,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1297",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Let's hope he can reverse that process.",
     tokens: ["er", "Prozess", "Hoffentlich", "den", "kann", "umkehren."],
     solution: ["Hoffentlich", "kann", "er", "den", "Prozess", "umkehren."],
+    translation: "Let's hope he can reverse that process.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -41343,9 +42661,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1298",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Your password must contain a minimum of 6 characters.",
     tokens: ["muss", "Passwort", "mindestens", "Dein", "Zeichen", "haben."],
     solution: ["Dein", "Passwort", "muss", "mindestens", "Zeichen", "haben."],
+    translation: "Your password must contain a minimum of 6 characters.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -41368,9 +42687,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1299",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "You have to eat regularly to lose weight.",
     tokens: ["regelmäßig", "essen,", "abzunehmen.", "Man", "um", "muss"],
     solution: ["Man", "muss", "regelmäßig", "essen,", "um", "abzunehmen."],
+    translation: "You have to eat regularly to lose weight.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -41393,7 +42713,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1300",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "She was very convincing, playing Anne Frank.",
     tokens: [
       "überzeugend",
       "Frank",
@@ -41416,6 +42735,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "zu",
       "spielen.",
     ],
+    translation: "She was very convincing, playing Anne Frank.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -41438,9 +42759,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1301",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "The boy suddenly seemed extremely tired.",
     tokens: ["auffallend", "plötzlich", "Knabe", "war", "müde.", "Der"],
     solution: ["Der", "Knabe", "war", "plötzlich", "auffallend", "müde."],
+    translation: "The boy suddenly seemed extremely tired.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -41463,9 +42785,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1302",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "How much for a ticket to the frontier?",
     tokens: ["bis", "Grenze?", "zur", "Fahrkarte", "kostet", "die", "Was"],
     solution: ["Was", "kostet", "die", "Fahrkarte", "bis", "zur", "Grenze?"],
+    translation: "How much for a ticket to the frontier?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -41488,9 +42811,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1303",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "First, remove power cords from an outlet.",
     tokens: ["Ausgang", "Stromkabel", "vom", "alle", "abziehen.", "Zuerst"],
     solution: ["Zuerst", "alle", "Stromkabel", "vom", "Ausgang", "abziehen."],
+    translation: "First, remove power cords from an outlet.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -41513,9 +42837,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1304",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I got a bad feeling about what's going on in there.",
     tokens: ["da", "ist", "ungut.", "Was", "läuft,", "drinnen"],
     solution: ["Was", "da", "drinnen", "läuft,", "ist", "ungut."],
+    translation: "I got a bad feeling about what's going on in there.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -41538,8 +42863,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1305",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus:
-      "Even stubborn, deep-seated dirt can thus be removed without difficulty.",
     tokens: [
       "einwandfrei",
       "festsitzender",
@@ -41560,6 +42883,9 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "einwandfrei",
       "entfernt.",
     ],
+    translation:
+      "Even stubborn, deep-seated dirt can thus be removed without difficulty.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -41582,9 +42908,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1306",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Trust me, it's unbearable.",
     tokens: ["unerträglich.", "Glaub", "es", "ist", "mir,"],
     solution: ["Glaub", "mir,", "es", "ist", "unerträglich."],
+    translation: "Trust me, it's unbearable.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -41607,9 +42934,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1307",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Even now, I had to contact you.",
     tokens: ["Sogar", "musste", "ich", "kontaktieren.", "jetzt", "dich"],
     solution: ["Sogar", "jetzt", "musste", "ich", "dich", "kontaktieren."],
+    translation: "Even now, I had to contact you.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -41632,9 +42960,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1308",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Maybe that's why he was so upset.",
     tokens: ["so", "war", "er", "aufgebracht.", "Vielleicht", "deshalb"],
     solution: ["Vielleicht", "war", "er", "deshalb", "so", "aufgebracht."],
+    translation: "Maybe that's why he was so upset.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -41657,7 +42986,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1309",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "People dress up as their favorite movie character.",
     tokens: [
       "ihre",
       "verkleiden",
@@ -41674,6 +43002,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "ihre",
       "Lieblingsfilmfigur.",
     ],
+    translation: "People dress up as their favorite movie character.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -41696,9 +43026,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1310",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I am to carry out these tests myself.",
     tokens: ["selbst", "durchführen.", "Versuche", "werde", "Diese", "ich"],
     solution: ["Diese", "Versuche", "werde", "ich", "selbst", "durchführen."],
+    translation: "I am to carry out these tests myself.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -41721,7 +43052,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1311",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "We are going to need a description of the encounter.",
     tokens: ["Wir", "Beschreibung", "brauchen", "dieser", "eine", "Begegnung."],
     solution: [
       "Wir",
@@ -41731,6 +43061,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "dieser",
       "Begegnung.",
     ],
+    translation: "We are going to need a description of the encounter.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -41753,8 +43085,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1312",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus:
-      "It is essential that the EU clarify its position on this matter.",
     tokens: [
       "in",
       "muss",
@@ -41779,6 +43109,9 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "unbedingt",
       "klarstellen.",
     ],
+    translation:
+      "It is essential that the EU clarify its position on this matter.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -41801,7 +43134,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1313",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "This item has been purchased with immediate payment.",
     tokens: [
       "mit",
       "gekauft.",
@@ -41820,6 +43152,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Bezahlung",
       "gekauft.",
     ],
+    translation: "This item has been purchased with immediate payment.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -41842,9 +43176,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1314",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Yet, they would never deny their origin.",
     tokens: ["Herkunft", "Dennoch", "leugnen", "ihre", "nie.", "sie"],
     solution: ["Dennoch", "leugnen", "sie", "ihre", "Herkunft", "nie."],
+    translation: "Yet, they would never deny their origin.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -41867,7 +43202,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1315",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "The foundation found your research worthy of support.",
     tokens: ["Stiftung", "Arbeit", "unterstützenswert.", "Die", "fand", "Ihre"],
     solution: [
       "Die",
@@ -41877,6 +43211,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Arbeit",
       "unterstützenswert.",
     ],
+    translation: "The foundation found your research worthy of support.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -41899,7 +43235,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1316",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I assure you I have no special knowledge on the matter.",
     tokens: [
       "keine",
       "diesem",
@@ -41922,6 +43257,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "diesem",
       "Thema.",
     ],
+    translation: "I assure you I have no special knowledge on the matter.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -41944,8 +43281,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1317",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus:
-      "The church has an architectural style which is both elegant and, at the same time, severe.",
     tokens: [
       "der",
       "architektonische",
@@ -41972,6 +43307,9 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "auch",
       "streng.",
     ],
+    translation:
+      "The church has an architectural style which is both elegant and, at the same time, severe.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -41994,8 +43332,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1318",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus:
-      "Failure to follow the proper procedure can cause a serious accident.",
     tokens: [
       "Falsche",
       "verursachen.",
@@ -42012,6 +43348,9 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Unfälle",
       "verursachen.",
     ],
+    translation:
+      "Failure to follow the proper procedure can cause a serious accident.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -42034,9 +43373,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1319",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "And we'll listen to some nice jazz.",
     tokens: ["netten", "uns", "Wir", "werden", "Jazz", "anhören."],
     solution: ["Wir", "werden", "uns", "netten", "Jazz", "anhören."],
+    translation: "And we'll listen to some nice jazz.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -42059,9 +43399,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1320",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Jane, it's freezing over there.",
     tokens: ["da", "Jane,", "drüben", "es", "ist", "eiskalt."],
     solution: ["Jane,", "da", "drüben", "ist", "es", "eiskalt."],
+    translation: "Jane, it's freezing over there.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -42084,7 +43425,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1321",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "She is as charming as her sister.",
     tokens: ["wie", "bezaubernd", "ihre", "Sie", "Schwester.", "ebenso", "ist"],
     solution: [
       "Sie",
@@ -42095,6 +43435,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "ihre",
       "Schwester.",
     ],
+    translation: "She is as charming as her sister.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -42117,7 +43459,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1322",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "There were so many, and you can only execute me once.",
     tokens: [
       "und",
       "so",
@@ -42144,6 +43485,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "einmal",
       "hinrichten.",
     ],
+    translation: "There were so many, and you can only execute me once.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -42166,7 +43509,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1323",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Wipe the screen carefully using a clean cloth.",
     tokens: [
       "Tuch",
       "vorsichtig",
@@ -42183,6 +43525,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Tuch",
       "reinigen.",
     ],
+    translation: "Wipe the screen carefully using a clean cloth.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -42205,7 +43549,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1324",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "One of them makes people glow in the dark.",
     tokens: ["lässt", "Dunkeln", "im", "Eines", "Leute", "leuchten.", "davon"],
     solution: [
       "Eines",
@@ -42216,6 +43559,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Dunkeln",
       "leuchten.",
     ],
+    translation: "One of them makes people glow in the dark.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -42238,9 +43583,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1325",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "The whole of Paris is talking about your salon.",
     tokens: ["Salon.", "Paris", "Ganz", "spricht", "von", "Ihrem"],
     solution: ["Ganz", "Paris", "spricht", "von", "Ihrem", "Salon."],
+    translation: "The whole of Paris is talking about your salon.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -42263,9 +43609,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1326",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I need you to hang the black skirt.",
     tokens: ["aufhängen.", "Du", "den", "schwarzen", "Rock", "musst"],
     solution: ["Du", "musst", "den", "schwarzen", "Rock", "aufhängen."],
+    translation: "I need you to hang the black skirt.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -42288,9 +43635,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1327",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "John had his finger on the trigger.",
     tokens: ["am", "Abzug.", "den", "Finger", "John", "hatte"],
     solution: ["John", "hatte", "den", "Finger", "am", "Abzug."],
+    translation: "John had his finger on the trigger.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -42313,8 +43661,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1328",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus:
-      "These documents are classified as confidential in some countries.",
     tokens: [
       "vertraulich.",
       "diese",
@@ -42333,6 +43679,9 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Dokumente",
       "vertraulich.",
     ],
+    translation:
+      "These documents are classified as confidential in some countries.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -42355,9 +43704,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1329",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "The man lost his way in the forest.",
     tokens: ["sich", "Wald", "Mann", "Der", "hat", "verlaufen.", "im"],
     solution: ["Der", "Mann", "hat", "sich", "im", "Wald", "verlaufen."],
+    translation: "The man lost his way in the forest.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -42380,9 +43730,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1330",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "That mummy is 643 years old.",
     tokens: ["Jahre", "Diese", "ist", "Mumie", "alt."],
     solution: ["Diese", "Mumie", "ist", "Jahre", "alt."],
+    translation: "That mummy is 643 years old.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -42405,7 +43756,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1331",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "With pure logic, you can prove the biggest nonsense.",
     tokens: [
       "Schwachsinn",
       "man",
@@ -42428,6 +43778,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Schwachsinn",
       "beweisen.",
     ],
+    translation: "With pure logic, you can prove the biggest nonsense.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -42450,9 +43802,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1332",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Careful, we're coming to a bend.",
     tokens: ["Vorsicht,", "Kurve.", "eine", "da", "kommt"],
     solution: ["Vorsicht,", "da", "kommt", "eine", "Kurve."],
+    translation: "Careful, we're coming to a bend.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -42475,7 +43828,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1333",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Follow the instructions to capture the desired information.",
     tokens: [
       "zu",
       "Informationen",
@@ -42500,6 +43852,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "zu",
       "erfassen.",
     ],
+    translation: "Follow the instructions to capture the desired information.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -42522,7 +43876,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1334",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "John decided to buy a used car instead of a new one.",
     tokens: [
       "zuzulegen.",
       "eines",
@@ -42547,6 +43900,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Gebrauchtwagen",
       "zuzulegen.",
     ],
+    translation: "John decided to buy a used car instead of a new one.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -42569,7 +43924,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1335",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "As the days passed, our campaign grew in momentum.",
     tokens: [
       "der",
       "Tage",
@@ -42596,6 +43950,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "in",
       "Schwung.",
     ],
+    translation: "As the days passed, our campaign grew in momentum.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -42618,9 +43974,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1336",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "We will now go together to the press conference.",
     tokens: ["Wir", "gemeinsam", "Pressekonferenz.", "jetzt", "zur", "gehen"],
     solution: ["Wir", "gehen", "jetzt", "gemeinsam", "zur", "Pressekonferenz."],
+    translation: "We will now go together to the press conference.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -42643,8 +44000,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1337",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus:
-      "After getting through customs, I was free to go wherever I wanted.",
     tokens: [
       "hatte,",
       "ich",
@@ -42673,6 +44028,9 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "ich",
       "wollte.",
     ],
+    translation:
+      "After getting through customs, I was free to go wherever I wanted.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -42695,9 +44053,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1338",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "The meat was very tender inside.",
     tokens: ["Fleisch", "sehr", "Das", "war", "innen", "zart."],
     solution: ["Das", "Fleisch", "war", "innen", "sehr", "zart."],
+    translation: "The meat was very tender inside.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -42720,7 +44079,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1339",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Every division in the city is working on this.",
     tokens: ["Division", "dieser", "Stadt", "Jede", "in", "arbeitet", "daran."],
     solution: [
       "Jede",
@@ -42731,6 +44089,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "arbeitet",
       "daran.",
     ],
+    translation: "Every division in the city is working on this.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -42753,7 +44113,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1340",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "However, I have another solution I'd like to try with you.",
     tokens: [
       "eine",
       "Ich",
@@ -42776,6 +44135,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Ihnen",
       "ausprobieren.",
     ],
+    translation: "However, I have another solution I'd like to try with you.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -42798,7 +44159,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1341",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "We need to stick together and keep an eye on each other.",
     tokens: [
       "und",
       "aufeinander",
@@ -42815,6 +44175,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "aufeinander",
       "achten.",
     ],
+    translation: "We need to stick together and keep an eye on each other.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -42837,7 +44199,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1342",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I didn't want to invade your privacy.",
     tokens: [
       "Ihre",
       "Ich",
@@ -42856,6 +44217,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Privatsphäre",
       "eindringen.",
     ],
+    translation: "I didn't want to invade your privacy.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -42878,9 +44241,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1343",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "You are ready for your final test.",
     tokens: ["bist", "finalen", "bereit", "den", "für", "Test.", "Du"],
     solution: ["Du", "bist", "bereit", "für", "den", "finalen", "Test."],
+    translation: "You are ready for your final test.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -42903,9 +44267,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1344",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "The European Union is not rigid.",
     tokens: ["starr.", "Union", "Die", "Europäische", "ist", "nicht"],
     solution: ["Die", "Europäische", "Union", "ist", "nicht", "starr."],
+    translation: "The European Union is not rigid.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -42928,9 +44293,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1345",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "But we must fill his cup.",
     tokens: ["füllen.", "Becher", "seinen", "müssen", "Aber", "wir"],
     solution: ["Aber", "wir", "müssen", "seinen", "Becher", "füllen."],
+    translation: "But we must fill his cup.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -42953,7 +44319,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1346",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Which is exactly why you and John will interrogate him.",
     tokens: [
       "verhören.",
       "John",
@@ -42974,6 +44339,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "ihn",
       "verhören.",
     ],
+    translation: "Which is exactly why you and John will interrogate him.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -42996,9 +44363,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1347",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "How infinitely vast this country is.",
     tokens: ["Land", "dieses", "unendlich", "weit", "Wie", "ist."],
     solution: ["Wie", "unendlich", "weit", "dieses", "Land", "ist."],
+    translation: "How infinitely vast this country is.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -43021,9 +44389,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1348",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "You're an exceptionally good cook.",
     tokens: ["Sie", "Köchin.", "sind", "eine", "gute", "außergewöhnlich"],
     solution: ["Sie", "sind", "eine", "außergewöhnlich", "gute", "Köchin."],
+    translation: "You're an exceptionally good cook.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -43046,9 +44415,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1349",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "He departed for London the day before yesterday.",
     tokens: ["nach", "London", "vorgestern", "Er", "abgereist.", "ist"],
     solution: ["Er", "ist", "vorgestern", "nach", "London", "abgereist."],
+    translation: "He departed for London the day before yesterday.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -43071,8 +44441,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1350",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus:
-      "The relationship between husband and wife should be based on love.",
     tokens: [
       "Die",
       "zwischen",
@@ -43097,6 +44465,9 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Liebe",
       "basieren.",
     ],
+    translation:
+      "The relationship between husband and wife should be based on love.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -43119,9 +44490,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1351",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I'd love to see you wrestle.",
     tokens: ["Ich", "würde", "sehen.", "dich", "ringen", "gerne"],
     solution: ["Ich", "würde", "dich", "gerne", "ringen", "sehen."],
+    translation: "I'd love to see you wrestle.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -43144,9 +44516,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1352",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Naturally, he would deny the whole thing.",
     tokens: ["das", "Natürlich", "Ganze", "er", "leugnen.", "würde"],
     solution: ["Natürlich", "würde", "er", "das", "Ganze", "leugnen."],
+    translation: "Naturally, he would deny the whole thing.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -43169,8 +44542,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1353",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus:
-      "This process is intended to be performed by a trained technician.",
     tokens: [
       "durchgeführt",
       "einem",
@@ -43193,6 +44564,9 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "durchgeführt",
       "werden.",
     ],
+    translation:
+      "This process is intended to be performed by a trained technician.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -43215,7 +44589,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1354",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I don't see how a man can sink that low.",
     tokens: [
       "tief",
       "man",
@@ -43238,6 +44611,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "sinken",
       "kann.",
     ],
+    translation: "I don't see how a man can sink that low.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -43260,9 +44635,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1355",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "All your life you're the lucky guy.",
     tokens: ["Glückspilz.", "Leben", "bist", "lang", "Dein", "du", "der"],
     solution: ["Dein", "Leben", "lang", "bist", "du", "der", "Glückspilz."],
+    translation: "All your life you're the lucky guy.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -43285,7 +44661,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1356",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "What happened to the rest of the food?",
     tokens: [
       "Was",
       "Lebensmittel",
@@ -43306,6 +44681,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Lebensmittel",
       "geschehen?",
     ],
+    translation: "What happened to the rest of the food?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -43328,9 +44705,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1357",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "There will be a flood and a fire.",
     tokens: ["Flut", "Es", "ein", "Feuer.", "wird", "geben", "eine", "und"],
     solution: ["Es", "wird", "eine", "Flut", "geben", "und", "ein", "Feuer."],
+    translation: "There will be a flood and a fire.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -43353,9 +44731,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1358",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I know how scared you must be.",
     tokens: ["du", "musst.", "Ich", "sein", "weiß,", "ängstlich", "wie"],
     solution: ["Ich", "weiß,", "wie", "ängstlich", "du", "sein", "musst."],
+    translation: "I know how scared you must be.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -43378,7 +44757,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1359",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Be careful not to inhale the spores; they're deadly.",
     tokens: [
       "Sporen",
       "sie",
@@ -43403,6 +44781,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "sind",
       "tödlich.",
     ],
+    translation: "Be careful not to inhale the spores; they're deadly.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -43425,7 +44805,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1360",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Do not connect or use during a lightning storm.",
     tokens: [
       "anschließen",
       "verwenden.",
@@ -43444,6 +44823,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "oder",
       "verwenden.",
     ],
+    translation: "Do not connect or use during a lightning storm.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -43466,7 +44847,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1361",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "His remarks had the opposite effect.",
     tokens: [
       "hatten",
       "Bemerkungen",
@@ -43483,6 +44863,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "gegenteiligen",
       "Effekt.",
     ],
+    translation: "His remarks had the opposite effect.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -43505,9 +44887,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1362",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "He was running from the whip.",
     tokens: ["ist", "von", "Er", "Peitsche", "gelaufen.", "der"],
     solution: ["Er", "ist", "von", "der", "Peitsche", "gelaufen."],
+    translation: "He was running from the whip.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -43530,9 +44913,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1363",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "She informed me of her departure.",
     tokens: ["informierte", "über", "Abreise.", "Sie", "mich", "ihre"],
     solution: ["Sie", "informierte", "mich", "über", "ihre", "Abreise."],
+    translation: "She informed me of her departure.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -43555,9 +44939,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1364",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "It's not worth complaining about.",
     tokens: ["Es", "lohnt", "zu", "nicht", "sich", "jammern."],
     solution: ["Es", "lohnt", "sich", "nicht", "zu", "jammern."],
+    translation: "It's not worth complaining about.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -43580,7 +44965,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1365",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "In the meantime, we have to completely evacuate the compound.",
     tokens: [
       "Anlage",
       "Zwischenzeit",
@@ -43603,6 +44987,9 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "komplett",
       "evakuieren.",
     ],
+    translation:
+      "In the meantime, we have to completely evacuate the compound.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -43625,8 +45012,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1366",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus:
-      "Where agreed, these upgrades will be sent to customers on physical media.",
     tokens: [
       "Datenträgern",
       "Diese",
@@ -43651,6 +45036,9 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Datenträgern",
       "zugesandt.",
     ],
+    translation:
+      "Where agreed, these upgrades will be sent to customers on physical media.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -43673,9 +45061,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1367",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "He can overcome any obstacle.",
     tokens: ["kann", "jedes", "überwinden.", "Hindernis", "Er"],
     solution: ["Er", "kann", "jedes", "Hindernis", "überwinden."],
+    translation: "He can overcome any obstacle.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -43698,7 +45087,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1368",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "You can enter a weekday using the full name or an abbreviation.",
     tokens: [
       "als",
       "den",
@@ -43721,6 +45109,9 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Abkürzung",
       "eingeben.",
     ],
+    translation:
+      "You can enter a weekday using the full name or an abbreviation.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -43743,7 +45134,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1369",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "The campaign seems to be going like a bomb.",
     tokens: [
       "Kampagne",
       "einzuschlagen.",
@@ -43762,6 +45152,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Bombe",
       "einzuschlagen.",
     ],
+    translation: "The campaign seems to be going like a bomb.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -43784,9 +45176,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1370",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I was there in order to express my condolence.",
     tokens: ["bekunden.", "zu", "Ich", "mein", "da,", "um", "war", "Beileid"],
     solution: ["Ich", "war", "da,", "um", "mein", "Beileid", "zu", "bekunden."],
+    translation: "I was there in order to express my condolence.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -43809,9 +45202,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1371",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Can I have everybody's attention, please?",
     tokens: ["bitte?", "herhören,", "alle", "Können", "mal"],
     solution: ["Können", "alle", "mal", "herhören,", "bitte?"],
+    translation: "Can I have everybody's attention, please?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -43834,9 +45228,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1372",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Just forget modeling, you should be a lawyer.",
     tokens: ["Anwältin.", "Modeln,", "werde", "das", "Vergiss"],
     solution: ["Vergiss", "das", "Modeln,", "werde", "Anwältin."],
+    translation: "Just forget modeling, you should be a lawyer.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -43859,7 +45254,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1373",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "It is a modern tool for international communication.",
     tokens: [
       "ist",
       "ein",
@@ -43880,6 +45274,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "internationalen",
       "Kommunikation.",
     ],
+    translation: "It is a modern tool for international communication.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -43902,8 +45298,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1374",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus:
-      "Europe's leaders repeatedly vow to do everything necessary to save the euro.",
     tokens: [
       "Führer",
       "tun,",
@@ -43936,6 +45330,9 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "zu",
       "retten.",
     ],
+    translation:
+      "Europe's leaders repeatedly vow to do everything necessary to save the euro.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -43958,9 +45355,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1375",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I'll see you again this afternoon.",
     tokens: ["Ich", "dich", "werde", "wiedersehen.", "nachmittags"],
     solution: ["Ich", "werde", "dich", "nachmittags", "wiedersehen."],
+    translation: "I'll see you again this afternoon.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -43983,7 +45381,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1376",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "The Sistine chapel is Michelangelo's masterpiece.",
     tokens: [
       "Meisterwerk.",
       "Kapelle",
@@ -44000,6 +45397,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Michelangelos",
       "Meisterwerk.",
     ],
+    translation: "The Sistine chapel is Michelangelo's masterpiece.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -44022,7 +45421,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1377",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Heavy artillery is nothing new in terrorist operations.",
     tokens: [
       "Neues.",
       "Artillerie",
@@ -44041,6 +45439,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "nichts",
       "Neues.",
     ],
+    translation: "Heavy artillery is nothing new in terrorist operations.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -44063,9 +45463,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1378",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "They say that the whole country is in turmoil.",
     tokens: ["ja", "im", "Aufruhr", "ganze", "soll", "sein.", "Land", "Das"],
     solution: ["Das", "ganze", "Land", "soll", "ja", "im", "Aufruhr", "sein."],
+    translation: "They say that the whole country is in turmoil.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -44088,7 +45489,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1379",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Can you find Iraq on a map?",
     tokens: ["einer", "Karte", "finden?", "du", "auf", "Irak", "den", "Kannst"],
     solution: [
       "Kannst",
@@ -44100,6 +45500,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Irak",
       "finden?",
     ],
+    translation: "Can you find Iraq on a map?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -44122,9 +45524,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1380",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I met him quite unexpectedly.",
     tokens: ["ihn", "traf", "Ich", "unerwartet.", "völlig"],
     solution: ["Ich", "traf", "ihn", "völlig", "unerwartet."],
+    translation: "I met him quite unexpectedly.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -44147,7 +45550,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1381",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "You all believe that I stole the jewel.",
     tokens: [
       "ich",
       "hätte",
@@ -44170,6 +45572,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Juwel",
       "gestohlen.",
     ],
+    translation: "You all believe that I stole the jewel.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -44192,8 +45596,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1382",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus:
-      "Health workers provide a social service and are not a means of generating profit.",
     tokens: [
       "keinen",
       "erzeugen",
@@ -44220,6 +45622,9 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "keinen",
       "Profit.",
     ],
+    translation:
+      "Health workers provide a social service and are not a means of generating profit.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -44242,9 +45647,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1383",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "He was just trying to get his job back.",
     tokens: ["Er", "nur", "seinen", "wiederhaben.", "wollte", "Job"],
     solution: ["Er", "wollte", "nur", "seinen", "Job", "wiederhaben."],
+    translation: "He was just trying to get his job back.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -44267,8 +45673,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1384",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus:
-      "Hessen belongs meanwhile to the most attractive places in Germany.",
     tokens: [
       "zu",
       "Orten",
@@ -44291,6 +45695,9 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "in",
       "Deutschland.",
     ],
+    translation:
+      "Hessen belongs meanwhile to the most attractive places in Germany.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -44313,7 +45720,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1385",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Even with private security, these boats are very vulnerable.",
     tokens: [
       "Sicherheitsdiensten",
       "mit",
@@ -44334,6 +45740,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Schiffe",
       "gefährdet.",
     ],
+    translation: "Even with private security, these boats are very vulnerable.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -44356,7 +45764,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1386",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "You can also change the color, font, and text height.",
     tokens: [
       "Texthöhe",
       "können",
@@ -44377,6 +45784,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Texthöhe",
       "ändern.",
     ],
+    translation: "You can also change the color, font, and text height.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -44399,7 +45808,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1387",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I know of a city whose residents never smoked.",
     tokens: [
       "Ich",
       "kenne",
@@ -44426,6 +45834,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "geraucht",
       "haben.",
     ],
+    translation: "I know of a city whose residents never smoked.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -44448,7 +45858,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1388",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "There were a lot of excited fans in the stadium.",
     tokens: [
       "im",
       "Stadion.",
@@ -44467,6 +45876,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "im",
       "Stadion.",
     ],
+    translation: "There were a lot of excited fans in the stadium.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -44489,9 +45900,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1389",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "The old woman's stomach growls.",
     tokens: ["Frau", "der", "alten", "Der", "knurrt.", "Magen"],
     solution: ["Der", "Magen", "der", "alten", "Frau", "knurrt."],
+    translation: "The old woman's stomach growls.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -44514,7 +45926,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1390",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "This might sound strange, but I envy you.",
     tokens: [
       "klingt",
       "komisch,",
@@ -44535,6 +45946,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "beneide",
       "Sie.",
     ],
+    translation: "This might sound strange, but I envy you.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -44557,7 +45970,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1391",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "If we don't play along, he'll kill us for sure.",
     tokens: [
       "ganz",
       "uns",
@@ -44582,6 +45994,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "sicher",
       "töten.",
     ],
+    translation: "If we don't play along, he'll kill us for sure.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -44604,7 +46018,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1392",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "But we had to shorten the film as much as possible.",
     tokens: [
       "möglichst",
       "den",
@@ -44625,6 +46038,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "stark",
       "kürzen.",
     ],
+    translation: "But we had to shorten the film as much as possible.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -44647,7 +46062,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1393",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I imagine you have more to confess than anybody here.",
     tokens: [
       "hast",
       "andere",
@@ -44674,6 +46088,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "andere",
       "hier.",
     ],
+    translation: "I imagine you have more to confess than anybody here.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -44696,7 +46112,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1394",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Ask the Doctor if the baby will be mute.",
     tokens: [
       "Arzt,",
       "sein",
@@ -44719,6 +46134,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "sein",
       "wird.",
     ],
+    translation: "Ask the Doctor if the baby will be mute.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -44741,7 +46158,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1395",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "We should reject this pseudo-reform for Europe's sake.",
     tokens: [
       "Wir",
       "Europa",
@@ -44760,6 +46176,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "zuliebe",
       "ablehnen.",
     ],
+    translation: "We should reject this pseudo-reform for Europe's sake.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -44782,9 +46200,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1396",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Your session seems to have expired.",
     tokens: ["sein.", "scheint", "Sitzung", "abgelaufen", "Ihre", "zu"],
     solution: ["Ihre", "Sitzung", "scheint", "abgelaufen", "zu", "sein."],
+    translation: "Your session seems to have expired.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -44807,8 +46226,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1397",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus:
-      "Some of the effects, however, are universal, or at least widespread.",
     tokens: [
       "Einige",
       "sehr",
@@ -44831,6 +46248,9 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "sehr",
       "verbreitet.",
     ],
+    translation:
+      "Some of the effects, however, are universal, or at least widespread.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -44853,9 +46273,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1398",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "But that never ceases to be amusing.",
     tokens: ["wieder", "amüsant.", "Aber", "immer", "es", "ist"],
     solution: ["Aber", "es", "ist", "immer", "wieder", "amüsant."],
+    translation: "But that never ceases to be amusing.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -44878,9 +46299,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1399",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "There's something very peculiar about that man.",
     tokens: ["ist", "an", "diesem", "Mann.", "merkwürdig", "Irgendwas"],
     solution: ["Irgendwas", "ist", "merkwürdig", "an", "diesem", "Mann."],
+    translation: "There's something very peculiar about that man.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -44903,7 +46325,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1400",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "We'll leave and give you some privacy.",
     tokens: ["Privatsphäre.", "Wir", "und", "euch", "lassen", "etwas", "gehen"],
     solution: [
       "Wir",
@@ -44914,6 +46335,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "etwas",
       "Privatsphäre.",
     ],
+    translation: "We'll leave and give you some privacy.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -44936,7 +46359,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1401",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Your position is, of course, extremely understandable.",
     tokens: [
       "natürlich",
       "durchaus",
@@ -44953,6 +46375,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "durchaus",
       "verständlich.",
     ],
+    translation: "Your position is, of course, extremely understandable.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -44975,7 +46399,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1402",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "They are specifically designed to avoid false negatives.",
     tokens: [
       "speziell",
       "dafür",
@@ -45000,6 +46423,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "zu",
       "vermeiden.",
     ],
+    translation: "They are specifically designed to avoid false negatives.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -45022,7 +46447,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1403",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "We sent our man into an ambush.",
     tokens: [
       "Hinterhalt.",
       "schickten",
@@ -45041,6 +46465,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "einen",
       "Hinterhalt.",
     ],
+    translation: "We sent our man into an ambush.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -45063,7 +46489,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1404",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "This decision is fair, technically correct and necessary.",
     tokens: [
       "Entscheidung",
       "und",
@@ -45084,6 +46509,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "und",
       "notwendig.",
     ],
+    translation: "This decision is fair, technically correct and necessary.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -45106,7 +46533,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1405",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Quito, Ecuador, is a little south of the equator.",
     tokens: [
       "etwas",
       "Quito,",
@@ -45125,6 +46551,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "des",
       "Äquators.",
     ],
+    translation: "Quito, Ecuador, is a little south of the equator.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -45147,9 +46575,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1406",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I know you're no whore.",
     tokens: ["du", "Ich", "weiß,", "bist.", "Nutte", "dass", "keine"],
     solution: ["Ich", "weiß,", "dass", "du", "keine", "Nutte", "bist."],
+    translation: "I know you're no whore.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -45172,7 +46601,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1407",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "In addition to that, there are one million illegal immigrants.",
     tokens: ["eine", "Million", "Hinzu", "Einwanderer.", "kommt", "illegaler"],
     solution: [
       "Hinzu",
@@ -45182,6 +46610,9 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "illegaler",
       "Einwanderer.",
     ],
+    translation:
+      "In addition to that, there are one million illegal immigrants.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -45204,7 +46635,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1408",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Haven't you got a cheaper edition?",
     tokens: ["auch", "eine", "Ausgabe?", "billigere", "Sie", "nicht", "Hätten"],
     solution: [
       "Hätten",
@@ -45215,6 +46645,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "billigere",
       "Ausgabe?",
     ],
+    translation: "Haven't you got a cheaper edition?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -45237,9 +46669,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1409",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "We've seen their smoke on the horizon!",
     tokens: ["sahen", "Rauch", "am", "Horizont!", "ihren", "Wir"],
     solution: ["Wir", "sahen", "ihren", "Rauch", "am", "Horizont!"],
+    translation: "We've seen their smoke on the horizon!",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -45262,8 +46695,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1410",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus:
-      "Albert Einstein's theory of relativity is the most famous formula in the world.",
     tokens: [
       "Relativitätstheorie",
       "der",
@@ -45286,6 +46717,9 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "der",
       "Welt.",
     ],
+    translation:
+      "Albert Einstein's theory of relativity is the most famous formula in the world.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -45308,9 +46742,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1411",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "We provide significant business benefits to customers.",
     tokens: ["Wir", "Kunden", "dem", "Vorteile.", "spürbare", "verschaffen"],
     solution: ["Wir", "verschaffen", "dem", "Kunden", "spürbare", "Vorteile."],
+    translation: "We provide significant business benefits to customers.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -45333,8 +46768,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1412",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus:
-      "Since you became emperor, I've only given my seal to one person.",
     tokens: [
       "gab",
       "wurdest,",
@@ -45359,6 +46792,9 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "nur",
       "einem.",
     ],
+    translation:
+      "Since you became emperor, I've only given my seal to one person.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -45381,9 +46817,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1413",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "They've created the illusion of the town.",
     tokens: ["Sie", "der", "Illusion", "die", "erschufen", "Stadt."],
     solution: ["Sie", "erschufen", "die", "Illusion", "der", "Stadt."],
+    translation: "They've created the illusion of the town.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -45406,9 +46843,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1414",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "The bus tours were thrilling and exhausting.",
     tokens: ["Die", "waren", "und", "anstrengend.", "spannend", "Bustouren"],
     solution: ["Die", "Bustouren", "waren", "spannend", "und", "anstrengend."],
+    translation: "The bus tours were thrilling and exhausting.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -45431,9 +46869,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1415",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "You chop that onion into fine little pieces, John.",
     tokens: ["hacken", "die", "John.", "Zwiebeln,", "Ganz", "klein"],
     solution: ["Ganz", "klein", "hacken", "die", "Zwiebeln,", "John."],
+    translation: "You chop that onion into fine little pieces, John.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -45456,7 +46895,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1416",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "All generalizations are false, including this one.",
     tokens: [
       "einschließlich",
       "hier.",
@@ -45475,6 +46913,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "dieser",
       "hier.",
     ],
+    translation: "All generalizations are false, including this one.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -45497,9 +46937,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1417",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Not every citizen of Russia is Russian.",
     tokens: ["ist", "Nicht", "jeder", "Russlands", "Russe.", "Bürger", "ein"],
     solution: ["Nicht", "jeder", "Bürger", "Russlands", "ist", "ein", "Russe."],
+    translation: "Not every citizen of Russia is Russian.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -45522,7 +46963,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1418",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Everyone should fulfill their duty to pay taxes.",
     tokens: [
       "nachkommen.",
       "Pflicht,",
@@ -45543,6 +46983,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "zahlen,",
       "nachkommen.",
     ],
+    translation: "Everyone should fulfill their duty to pay taxes.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -45565,7 +47007,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1419",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "But the beauty of Wagner's poetry is in the music.",
     tokens: ["seine", "Aber", "Musik.", "wirkt", "Poesie", "Wagners", "durch"],
     solution: [
       "Aber",
@@ -45576,6 +47017,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "seine",
       "Musik.",
     ],
+    translation: "But the beauty of Wagner's poetry is in the music.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -45598,7 +47041,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1420",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "After everything he's done, he's still modest.",
     tokens: [
       "er",
       "all",
@@ -45619,6 +47061,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "bescheiden",
       "geblieben.",
     ],
+    translation: "After everything he's done, he's still modest.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -45641,7 +47085,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1421",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "It's good with the hot sauce, too.",
     tokens: [
       "der",
       "auch",
@@ -45662,6 +47105,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "scharfen",
       "Soße.",
     ],
+    translation: "It's good with the hot sauce, too.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -45684,7 +47129,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1422",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I'm afraid I'll get bored there.",
     tokens: ["ich", "dort", "befürchte,", "langweile.", "Ich", "dass", "mich"],
     solution: [
       "Ich",
@@ -45695,6 +47139,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "dort",
       "langweile.",
     ],
+    translation: "I'm afraid I'll get bored there.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -45717,7 +47163,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1423",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I do not take your hesitation as a promising sign.",
     tokens: [
       "Ich",
       "Zögern",
@@ -45740,6 +47185,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "gutes",
       "Zeichen.",
     ],
+    translation: "I do not take your hesitation as a promising sign.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -45762,7 +47209,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1424",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "John refused to sign the document.",
     tokens: [
       "das",
       "sich,",
@@ -45781,6 +47227,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "zu",
       "unterzeichnen.",
     ],
+    translation: "John refused to sign the document.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -45803,9 +47251,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1425",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Apply the sensor to your finger.",
     tokens: ["anbringen.", "Finger", "Den", "am", "eigenen", "Sensor"],
     solution: ["Den", "Sensor", "am", "eigenen", "Finger", "anbringen."],
+    translation: "Apply the sensor to your finger.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -45828,9 +47277,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1426",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "We're proceeding according to plan.",
     tokens: ["verfahren", "dem", "entsprechend.", "Plan", "Wir"],
     solution: ["Wir", "verfahren", "dem", "Plan", "entsprechend."],
+    translation: "We're proceeding according to plan.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -45853,7 +47303,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1427",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I hope he's this upset if he ever breaks up with me.",
     tokens: [
       "so",
       "macht.",
@@ -45886,6 +47335,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Schluss",
       "macht.",
     ],
+    translation: "I hope he's this upset if he ever breaks up with me.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -45908,9 +47359,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1428",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Have an apple or a pear.",
     tokens: ["ein", "Birne.", "Apfel", "eine", "Iss", "oder"],
     solution: ["Iss", "ein", "Apfel", "oder", "eine", "Birne."],
+    translation: "Have an apple or a pear.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -45933,7 +47385,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1429",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "He was training at a base a hundred miles away that night.",
     tokens: [
       "dieser",
       "Nacht.",
@@ -45960,6 +47411,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "dieser",
       "Nacht.",
     ],
+    translation: "He was training at a base a hundred miles away that night.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -45982,8 +47435,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1430",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus:
-      "For a thousand years, we have been awaiting the fulfillment of prophecy.",
     tokens: [
       "Jahren",
       "auf",
@@ -46006,6 +47457,9 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "der",
       "Prophezeiung.",
     ],
+    translation:
+      "For a thousand years, we have been awaiting the fulfillment of prophecy.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -46028,7 +47482,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1431",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "The acid will dissolve the key in a matter of seconds.",
     tokens: [
       "Die",
       "auflösen.",
@@ -46051,6 +47504,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Sekunden",
       "auflösen.",
     ],
+    translation: "The acid will dissolve the key in a matter of seconds.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -46073,7 +47528,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1432",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "He had never been to John's estate.",
     tokens: ["auf", "Johns", "Anwesen", "noch", "gewesen.", "war", "Er", "nie"],
     solution: [
       "Er",
@@ -46085,6 +47539,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Anwesen",
       "gewesen.",
     ],
+    translation: "He had never been to John's estate.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -46107,9 +47563,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1433",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "These days, everything seems pathetic to me.",
     tokens: ["alles", "Moment", "erscheint", "erbärmlich.", "Im", "mir"],
     solution: ["Im", "Moment", "erscheint", "mir", "alles", "erbärmlich."],
+    translation: "These days, everything seems pathetic to me.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -46132,9 +47589,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1434",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Your apologies are worthless to me.",
     tokens: ["wertlos.", "mich", "für", "Entschuldigungen", "Deine", "sind"],
     solution: ["Deine", "Entschuldigungen", "sind", "für", "mich", "wertlos."],
+    translation: "Your apologies are worthless to me.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -46157,7 +47615,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1435",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "English women dress like everyone else in the evening.",
     tokens: [
       "Damen",
       "wie",
@@ -46182,6 +47639,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "anderen",
       "Damen.",
     ],
+    translation: "English women dress like everyone else in the evening.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -46204,7 +47663,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1436",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "At least I hope he's a fraud.",
     tokens: [
       "ist.",
       "ein",
@@ -46225,6 +47683,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Schwindler",
       "ist.",
     ],
+    translation: "At least I hope he's a fraud.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -46247,7 +47707,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1437",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "The arms swing opposite to the legs.",
     tokens: [
       "entgegen",
       "schwingen",
@@ -46268,6 +47727,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "der",
       "Beine.",
     ],
+    translation: "The arms swing opposite to the legs.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -46290,9 +47751,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1438",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "My speech was appropriate for the occasion.",
     tokens: ["war", "angemessen.", "Rede", "Meine", "Anlass", "dem"],
     solution: ["Meine", "Rede", "war", "dem", "Anlass", "angemessen."],
+    translation: "My speech was appropriate for the occasion.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -46315,9 +47777,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1439",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "We've both been deeply wounded by them.",
     tokens: ["wurden", "Wir", "beide", "verletzt.", "zutiefst", "davon"],
     solution: ["Wir", "wurden", "beide", "zutiefst", "davon", "verletzt."],
+    translation: "We've both been deeply wounded by them.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -46340,9 +47803,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1440",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I'm not supposed to leave without that suit.",
     tokens: ["Ich", "nicht", "ohne", "sollte", "den", "Anzug", "losfahren."],
     solution: ["Ich", "sollte", "ohne", "den", "Anzug", "nicht", "losfahren."],
+    translation: "I'm not supposed to leave without that suit.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -46365,9 +47829,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1441",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "We punished him according to the rules.",
     tokens: ["bestraft.", "ihn", "der", "Regel", "gemäß", "Wir", "haben"],
     solution: ["Wir", "haben", "ihn", "gemäß", "der", "Regel", "bestraft."],
+    translation: "We punished him according to the rules.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -46390,9 +47855,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1442",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "You're really a good photographer.",
     tokens: ["ein", "Fotograf.", "wirklich", "Du", "bist", "guter"],
     solution: ["Du", "bist", "wirklich", "ein", "guter", "Fotograf."],
+    translation: "You're really a good photographer.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -46415,7 +47881,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1443",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "We can't just break into the office.",
     tokens: [
       "in",
       "einbrechen.",
@@ -46436,6 +47901,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Büro",
       "einbrechen.",
     ],
+    translation: "We can't just break into the office.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -46458,7 +47925,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1444",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "But the salvation will not come from Brussels.",
     tokens: [
       "nicht",
       "kommen.",
@@ -46479,6 +47945,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Brüssel",
       "kommen.",
     ],
+    translation: "But the salvation will not come from Brussels.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -46501,7 +47969,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1445",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I have three dogs; one is male, and the others are female.",
     tokens: [
       "ist",
       "drei",
@@ -46530,6 +47997,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "sind",
       "weiblich.",
     ],
+    translation: "I have three dogs; one is male, and the others are female.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -46552,9 +48021,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1446",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I've been tracking this assassin.",
     tokens: ["Spur.", "Ich", "der", "auf", "Attentäter", "bin", "dem"],
     solution: ["Ich", "bin", "dem", "Attentäter", "auf", "der", "Spur."],
+    translation: "I've been tracking this assassin.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -46577,9 +48047,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1447",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "John has been single all his life.",
     tokens: ["John", "sein", "lang", "Single.", "Leben", "war", "ganzes"],
     solution: ["John", "war", "sein", "ganzes", "Leben", "lang", "Single."],
+    translation: "John has been single all his life.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -46602,9 +48073,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1448",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "He has led a loose life since then.",
     tokens: ["er", "ein", "Seither", "Lotterleben.", "führt"],
     solution: ["Seither", "führt", "er", "ein", "Lotterleben."],
+    translation: "He has led a loose life since then.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -46627,9 +48099,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1449",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "If that's for me, tear it up.",
     tokens: ["es", "ist,", "Wenn", "Sie", "es.", "zerreißen", "für", "mich"],
     solution: ["Wenn", "es", "für", "mich", "ist,", "zerreißen", "Sie", "es."],
+    translation: "If that's for me, tear it up.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -46652,7 +48125,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1450",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Read the instructions carefully before you begin.",
     tokens: [
       "bevor",
       "sorgfältig",
@@ -46671,6 +48143,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "du",
       "anfängst.",
     ],
+    translation: "Read the instructions carefully before you begin.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -46693,7 +48167,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1451",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I know you will not refuse free whiskey.",
     tokens: [
       "kostenlosen",
       "keinen",
@@ -46710,6 +48183,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "kostenlosen",
       "Whiskey.",
     ],
+    translation: "I know you will not refuse free whiskey.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -46732,7 +48207,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1452",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "And this sequence shows the buildup of that model.",
     tokens: [
       "zeigt",
       "Modells.",
@@ -46751,6 +48225,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "dieses",
       "Modells.",
     ],
+    translation: "And this sequence shows the buildup of that model.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -46773,7 +48249,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1453",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I'm sure you'll come through as you always do.",
     tokens: [
       "durchkommen,",
       "bin",
@@ -46794,6 +48269,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "wie",
       "immer.",
     ],
+    translation: "I'm sure you'll come through as you always do.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -46816,9 +48293,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1454",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Don't I look tragic enough already?",
     tokens: ["aus?", "Sehe", "ich", "tragisch", "nicht", "genug"],
     solution: ["Sehe", "ich", "nicht", "tragisch", "genug", "aus?"],
+    translation: "Don't I look tragic enough already?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -46841,7 +48319,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1455",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "We have received your application and will process it promptly.",
     tokens: [
       "unverzüglich",
       "Anmeldung",
@@ -46866,6 +48343,9 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "unverzüglich",
       "bearbeiten.",
     ],
+    translation:
+      "We have received your application and will process it promptly.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -46888,7 +48368,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1456",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "OK, switch us back to autopilot.",
     tokens: ["schalten", "auf", "uns", "Autopilot.", "Okay,", "Sie", "zurück"],
     solution: [
       "Okay,",
@@ -46899,6 +48378,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "auf",
       "Autopilot.",
     ],
+    translation: "OK, switch us back to autopilot.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -46921,7 +48402,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1457",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Why can't people just be nice to each other?",
     tokens: [
       "die",
       "nicht",
@@ -46946,6 +48426,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "zueinander",
       "sein?",
     ],
+    translation: "Why can't people just be nice to each other?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -46968,9 +48450,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1458",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I would like to design my own medal.",
     tokens: ["möchte", "meinen", "Orden", "entwerfen.", "eigenen", "Ich"],
     solution: ["Ich", "möchte", "meinen", "eigenen", "Orden", "entwerfen."],
+    translation: "I would like to design my own medal.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -46993,7 +48476,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1459",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "We can commemorate this moment in a photo.",
     tokens: [
       "können",
       "einem",
@@ -47014,6 +48496,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Foto",
       "gedenken.",
     ],
+    translation: "We can commemorate this moment in a photo.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -47036,9 +48520,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1460",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "When did you buy this video?",
     tokens: ["hast", "Video", "gekauft?", "du", "Wann", "dieses"],
     solution: ["Wann", "hast", "du", "dieses", "Video", "gekauft?"],
+    translation: "When did you buy this video?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -47061,9 +48546,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1461",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Get the nail out of my hand!",
     tokens: ["Holt", "aus", "Nagel", "meiner", "Hand!", "den"],
     solution: ["Holt", "den", "Nagel", "aus", "meiner", "Hand!"],
+    translation: "Get the nail out of my hand!",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -47086,9 +48572,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1462",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I've been up since dawn.",
     tokens: ["seit", "Morgengrauen", "Ich", "auf.", "bin", "dem"],
     solution: ["Ich", "bin", "seit", "dem", "Morgengrauen", "auf."],
+    translation: "I've been up since dawn.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -47111,9 +48598,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1463",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "This car originally belonged to John.",
     tokens: ["John.", "Auto", "Dieses", "gehörte", "ursprünglich"],
     solution: ["Dieses", "Auto", "gehörte", "ursprünglich", "John."],
+    translation: "This car originally belonged to John.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -47136,7 +48624,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1464",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I've spent much of my life in this arena.",
     tokens: [
       "in",
       "Ich",
@@ -47161,6 +48648,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Arena",
       "verbracht.",
     ],
+    translation: "I've spent much of my life in this arena.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -47183,9 +48672,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1465",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I'm hiding in the middle of a parade.",
     tokens: ["Ich", "Parade.", "verstecke", "mich", "einer", "inmitten"],
     solution: ["Ich", "verstecke", "mich", "inmitten", "einer", "Parade."],
+    translation: "I'm hiding in the middle of a parade.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -47208,9 +48698,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1466",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "She sings in the choir at our church.",
     tokens: ["Sie", "singt", "Kirche.", "Chor", "im", "unserer"],
     solution: ["Sie", "singt", "im", "Chor", "unserer", "Kirche."],
+    translation: "She sings in the choir at our church.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -47233,9 +48724,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1467",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "What is the largest country in South America?",
     tokens: ["in", "größte", "das", "Land", "ist", "Was", "Südamerika?"],
     solution: ["Was", "ist", "das", "größte", "Land", "in", "Südamerika?"],
+    translation: "What is the largest country in South America?",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -47258,8 +48750,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1468",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus:
-      "For more than thirty years I had a feeling that I was a social outcast.",
     tokens: [
       "Gefühl,",
       "sei",
@@ -47288,6 +48778,9 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "ein",
       "Ausgestoßener.",
     ],
+    translation:
+      "For more than thirty years I had a feeling that I was a social outcast.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -47310,7 +48803,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1469",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I know the rules by heart, but I'm not so good playing.",
     tokens: [
       "so",
       "aber",
@@ -47337,6 +48829,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "so",
       "gut.",
     ],
+    translation: "I know the rules by heart, but I'm not so good playing.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -47359,9 +48853,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1470",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "We found his fingerprints at the crime scene.",
     tokens: ["Tatort.", "Fingerabdrücke", "am", "fanden", "Wir", "seine"],
     solution: ["Wir", "fanden", "seine", "Fingerabdrücke", "am", "Tatort."],
+    translation: "We found his fingerprints at the crime scene.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -47384,9 +48879,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1471",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I thought we had an agreement.",
     tokens: ["wir", "Ich", "eine", "hätten", "Vereinbarung.", "dachte,"],
     solution: ["Ich", "dachte,", "wir", "hätten", "eine", "Vereinbarung."],
+    translation: "I thought we had an agreement.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -47409,8 +48905,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1472",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus:
-      "This agreement shall be subject to regular review by the parties.",
     tokens: [
       "Vertragsparteien",
       "regelmäßig",
@@ -47431,6 +48925,9 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "regelmäßig",
       "überprüft.",
     ],
+    translation:
+      "This agreement shall be subject to regular review by the parties.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -47453,7 +48950,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1473",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Which is exactly why we are not waiting around for a warrant.",
     tokens: [
       "einen",
       "Genau",
@@ -47474,6 +48970,9 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "einen",
       "Durchsuchungsbefehl.",
     ],
+    translation:
+      "Which is exactly why we are not waiting around for a warrant.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -47496,7 +48995,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1474",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "You were his assistant and lover at the same time.",
     tokens: [
       "Du",
       "und",
@@ -47515,6 +49013,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Geliebte",
       "zugleich.",
     ],
+    translation: "You were his assistant and lover at the same time.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -47537,7 +49037,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1475",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "The shop is kept under police supervision.",
     tokens: ["Der", "unter", "steht", "polizeilicher", "Überwachung.", "Laden"],
     solution: [
       "Der",
@@ -47547,6 +49046,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "polizeilicher",
       "Überwachung.",
     ],
+    translation: "The shop is kept under police supervision.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -47569,7 +49070,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1476",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "There's no need for you to become emotional.",
     tokens: ["zu", "werden.", "Es", "emotional", "ist", "nicht", "notwendig,"],
     solution: [
       "Es",
@@ -47580,6 +49080,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "zu",
       "werden.",
     ],
+    translation: "There's no need for you to become emotional.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -47602,7 +49104,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1477",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Our assortment has about fifty different variations.",
     tokens: [
       "Unser",
       "Variationen.",
@@ -47621,6 +49122,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "verschiedene",
       "Variationen.",
     ],
+    translation: "Our assortment has about fifty different variations.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -47643,9 +49146,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1478",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "Forgive me if I'm still a bit wary.",
     tokens: ["Verzeih,", "misstrauisch", "wenn", "etwas", "ich", "bin."],
     solution: ["Verzeih,", "wenn", "ich", "etwas", "misstrauisch", "bin."],
+    translation: "Forgive me if I'm still a bit wary.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -47668,7 +49172,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1479",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "One by one, I will extinguish all your hopes.",
     tokens: [
       "Hoffnungen",
       "auslöschen.",
@@ -47691,6 +49194,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "Hoffnungen",
       "auslöschen.",
     ],
+    translation: "One by one, I will extinguish all your hopes.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -47713,8 +49218,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1480",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus:
-      "Bob mounted the portrait in a fancy frame, but it was upside down.",
     tokens: [
       "verkehrt",
       "montierte",
@@ -47745,6 +49248,9 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "verkehrt",
       "herum.",
     ],
+    translation:
+      "Bob mounted the portrait in a fancy frame, but it was upside down.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -47767,9 +49273,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1481",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "We need some blankets, tobacco, and matches.",
     tokens: ["Streichhölzer.", "und", "Tabak", "Decken,", "brauchen", "Wir"],
     solution: ["Wir", "brauchen", "Decken,", "Tabak", "und", "Streichhölzer."],
+    translation: "We need some blankets, tobacco, and matches.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -47792,9 +49299,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1482",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "It's locked up in my father's safe.",
     tokens: ["Es", "Vaters.", "meines", "Tresor", "liegt", "im"],
     solution: ["Es", "liegt", "im", "Tresor", "meines", "Vaters."],
+    translation: "It's locked up in my father's safe.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -47817,9 +49325,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1483",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "He had to stand in line at the ticket office.",
     tokens: ["Fahrkartenschalter", "am", "Er", "musste", "anstehen."],
     solution: ["Er", "musste", "am", "Fahrkartenschalter", "anstehen."],
+    translation: "He had to stand in line at the ticket office.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -47842,9 +49351,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1484",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I need you to build me a time machine.",
     tokens: ["Du", "eine", "Zeitmaschine", "musst", "bauen.", "mir"],
     solution: ["Du", "musst", "mir", "eine", "Zeitmaschine", "bauen."],
+    translation: "I need you to build me a time machine.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -47867,9 +49377,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1485",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I appreciate your cooperation.",
     tokens: ["dankbar.", "Zusammenarbeit", "Ihre", "für", "Ich", "bin"],
     solution: ["Ich", "bin", "für", "Ihre", "Zusammenarbeit", "dankbar."],
+    translation: "I appreciate your cooperation.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -47892,7 +49403,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1486",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "The footprints indicate a human is responsible.",
     tokens: [
       "Mensch",
       "ist.",
@@ -47913,6 +49423,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "verantwortlich",
       "ist.",
     ],
+    translation: "The footprints indicate a human is responsible.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -47935,7 +49447,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1487",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "The reports will be collected and made available in the future.",
     tokens: [
       "verfügbar",
       "in",
@@ -47958,6 +49469,9 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "verfügbar",
       "gemacht.",
     ],
+    translation:
+      "The reports will be collected and made available in the future.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -47980,9 +49494,10 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1488",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "I was only putting back the receiver.",
     tokens: ["habe", "Ich", "den", "aufgelegt.", "doch", "nur", "Hörer"],
     solution: ["Ich", "habe", "doch", "nur", "den", "Hörer", "aufgelegt."],
+    translation: "I was only putting back the receiver.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -48005,8 +49520,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1489",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus:
-      "The two squirrels chased each other around the trunk of a large tree.",
     tokens: [
       "um",
       "den",
@@ -48037,6 +49550,9 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "herum",
       "nach.",
     ],
+    translation:
+      "The two squirrels chased each other around the trunk of a large tree.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -48059,7 +49575,6 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
     id: "syn-sb-t2-1490",
     engine: "builder",
     prompt: "Put the words in the correct order:",
-    stimulus: "The effects of the drug are intense but brief.",
     tokens: [
       "kurzer",
       "aber",
@@ -48084,6 +49599,8 @@ export const sentenceBuilderTier2: ExerciseItem[] = [
       "kurzer",
       "Dauer.",
     ],
+    translation: "The effects of the drug are intense but brief.",
+    translationVisibility: "always",
     metadata: {
       cefr: "B1",
       system: "syntax",

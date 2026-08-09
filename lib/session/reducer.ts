@@ -6,7 +6,8 @@ import type { LastResult, SessionSnapshot } from "./types";
 export type SessionAction =
   | { type: "INIT"; items: ExerciseItem[] }
   | { type: "SUBMIT"; attempt: unknown }
-  | { type: "CONTINUE" };
+  | { type: "CONTINUE" }
+  | { type: "END" };
 
 const MAX_ATTEMPTS = 3;
 
@@ -17,6 +18,7 @@ const loading: SessionSnapshot = {
   attemptsByItem: {},
   resolved: [],
   targetCount: 0,
+  correctCount: 0,
 };
 
 /**
@@ -73,8 +75,10 @@ export function sessionReducer(
         attemptsByItem: {},
         resolved: [],
         targetCount: action.items.length,
+        correctCount: 0,
         lastResult: undefined,
         lastCorrectAnswer: undefined,
+        endedEarly: false,
       };
     }
 
@@ -85,7 +89,7 @@ export function sessionReducer(
 
       const raw = validateItem(item, action.attempt);
       const lastResult: LastResult = raw.ok
-        ? { ok: true, errorTags: [] }
+        ? { ok: true, errorTags: [], note: raw.note }
         : mergeHint(item, {
             ok: false,
             errorTags: raw.errorTags,
@@ -97,11 +101,13 @@ export function sessionReducer(
 
       let newQueue = state.queue;
       let newResolved = state.resolved;
+      let newCorrectCount = state.correctCount;
 
       if (lastResult.ok) {
         // Correct — resolve immediately
         if (!newResolved.includes(item.id)) {
           newResolved = [...newResolved, item.id];
+          newCorrectCount += 1;
         }
       } else {
         // Wrong — re-queue if attempts < MAX_ATTEMPTS, else resolve as failed
@@ -122,6 +128,7 @@ export function sessionReducer(
         queue: newQueue,
         attemptsByItem: { ...state.attemptsByItem, [item.id]: newAttempts },
         resolved: newResolved,
+        correctCount: newCorrectCount,
         lastResult,
         lastCorrectAnswer: lastResult.ok ? undefined : correctAnswerText(item),
       };
@@ -142,6 +149,17 @@ export function sessionReducer(
         ...state,
         phase: "prompt",
         cursor: next,
+        lastResult: undefined,
+        lastCorrectAnswer: undefined,
+      };
+    }
+
+    case "END": {
+      if (state.phase === "loading" || state.phase === "done") return state;
+      return {
+        ...state,
+        phase: "done",
+        endedEarly: true,
         lastResult: undefined,
         lastCorrectAnswer: undefined,
       };

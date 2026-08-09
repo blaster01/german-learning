@@ -5,6 +5,7 @@ import type { TimedItem } from "@/lib/content/schema";
 import type { EngineProps } from "@/lib/engines/types";
 import { Button } from "@/components/ui/button";
 import { SpeakButton } from "@/components/ui/speak-button";
+import { UmlautKeys } from "@/components/ui/umlaut-keys";
 import { cn } from "@/lib/utils";
 
 export function TimedProduction({
@@ -16,6 +17,7 @@ export function TimedProduction({
   const limit = item.timeLimitSec ?? 45;
   const [left, setLeft] = useState(limit);
   const fired = useRef(false);
+  const ref = useRef<HTMLInputElement>(null);
 
   useEffect(() => {
     fired.current = false;
@@ -62,13 +64,14 @@ export function TimedProduction({
         </div>
       ) : null}
       <input
+        ref={ref}
         className="w-full rounded-full border border-border bg-card px-5 py-3 text-base outline-none transition placeholder:text-muted-foreground focus:border-primary focus:ring-2 focus:ring-primary/30 disabled:opacity-50"
         value={value}
         disabled={disabled || timedOut}
         placeholder="Type your answer…"
         onChange={(e) => setValue(e.target.value)}
         onKeyDown={(e) => {
-          if (e.key === "Enter" && !e.shiftKey) {
+          if (e.key === "Enter" && !e.shiftKey && !e.repeat) {
             e.preventDefault();
             if (!disabled && !timedOut) onSubmit(value.trim());
           }
@@ -76,6 +79,12 @@ export function TimedProduction({
         autoComplete="off"
         aria-label="Your answer"
         autoFocus
+      />
+      <UmlautKeys
+        targetRef={ref}
+        value={value}
+        onInsert={setValue}
+        disabled={disabled || timedOut}
       />
       <Button
         type="button"

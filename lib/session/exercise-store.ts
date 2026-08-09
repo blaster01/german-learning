@@ -8,6 +8,7 @@ export type ExerciseSessionStore = {
   init: (items: ExerciseItem[]) => void;
   submit: (attempt: unknown) => void;
   continue: () => void;
+  end: () => void;
 };
 
 export function createExerciseSessionStore() {
@@ -28,6 +29,9 @@ export function createExerciseSessionStore() {
     },
     continue() {
       set({ snapshot: sessionReducer(get().snapshot, { type: "CONTINUE" }) });
+    },
+    end() {
+      set({ snapshot: sessionReducer(get().snapshot, { type: "END" }) });
     },
   }));
 }

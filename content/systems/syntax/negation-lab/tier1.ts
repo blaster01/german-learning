@@ -9,6 +9,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Ich habe ____ Zeit dafür.",
     answer: "keine",
+    translation: "I don't have time for that.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -33,6 +34,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fix the negation in this sentence:",
     stimulus: "Ich habe nicht Zeit dafür.",
     answer: "Ich habe keine Zeit dafür.",
+    translation: "I don't have time for that.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -57,6 +59,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "War Jane ____ deine Freundin?",
     answer: "nicht",
+    translation: "Wasn't Jane your girlfriend?",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -81,6 +84,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Wirklich, du kannst ____ tun.",
     answer: "nichts",
+    translation: "Honestly, there's nothing you can do.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -105,6 +109,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Trinken Sie ____ das Wasser!",
     answer: "nicht",
+    translation: "Don't drink the water!",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -129,6 +134,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Ich habe gewartet, aber er ist ____ gekommen.",
     answer: "nicht",
+    translation: "I waited, but he failed to arrive.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -153,6 +159,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Wir haben ____ Grund, hier zu bleiben.",
     answer: "keinen",
+    translation: "We have no reason for staying here.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -177,6 +184,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fix the negation in this sentence:",
     stimulus: "Wir haben nicht Grund, hier zu bleiben.",
     answer: "Wir haben keinen Grund, hier zu bleiben.",
+    translation: "We have no reason for staying here.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -202,6 +210,8 @@ export const negationLabTier1: ExerciseItem[] = [
     stimulus:
       "Auch wenn die Fakten dagegen sprachen, bestand er darauf, dass er es ____ gestohlen hatte.",
     answer: "nicht",
+    translation:
+      "Even when the facts demonstrated the opposite, he maintained he hadn't stolen it.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -226,6 +236,8 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Johns Frau mag es ____, wenn er im Wohnzimmer raucht.",
     answer: "nicht",
+    translation:
+      "John's wife doesn't like it when he smokes in the living room.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -250,6 +262,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Nein, ich bin ____ verheiratet.",
     answer: "nicht",
+    translation: "No, I am not married.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -274,6 +287,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Ich will eigentlich noch ____ ein Kind.",
     answer: "nicht",
+    translation: "Actually, I don't want a child yet.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -298,6 +312,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Ich weiß ____, wer er ist.",
     answer: "nicht",
+    translation: "I don't know who he is.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -322,6 +337,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Wir können euch ____ helfen.",
     answer: "nicht",
+    translation: "We can't help you.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -346,6 +362,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Ich kann ____ gut schlafen.",
     answer: "nicht",
+    translation: "I cannot sleep well.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -370,6 +387,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Mein Vater ist noch ____ zu Hause.",
     answer: "nicht",
+    translation: "My father is not home yet.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -394,6 +412,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Leider hatte ich ____ Wahl.",
     answer: "keine",
+    translation: "Unfortunately, I had no choice.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -418,6 +437,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fix the negation in this sentence:",
     stimulus: "Leider hatte ich nicht Wahl.",
     answer: "Leider hatte ich keine Wahl.",
+    translation: "Unfortunately, I had no choice.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -442,6 +462,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Warum sagen Sie ____ Nettes zu Ihrer Frau?",
     answer: "nichts",
+    translation: "Why don't you say anything nice to your wife?",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -466,6 +487,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Wir können es uns ____ erlauben, noch mehr Zeit zu vertun.",
     answer: "nicht",
+    translation: "We can't afford to waste any more time.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -490,6 +512,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Ich kann mir ____ vorstellen, warum.",
     answer: "nicht",
+    translation: "I can't imagine why.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -514,6 +537,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Bitte sag das ____!",
     answer: "nicht",
+    translation: "Please don't say that.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -538,6 +562,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Ich verspreche, ____ wieder zu spät zu sein.",
     answer: "nicht",
+    translation: "I promise I won't be late again.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -562,6 +587,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Sie sagen ____ die Wahrheit.",
     answer: "nicht",
+    translation: "You're not telling the truth.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -586,6 +612,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Ich vertraue ihm, denn er lügt ____.",
     answer: "nie",
+    translation: "I trust him because he never tells a lie.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -610,6 +637,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Du hättest ____ so früh kommen sollen.",
     answer: "nicht",
+    translation: "You shouldn't have come so soon.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -634,6 +662,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Sprich ____ wieder so mit mir!",
     answer: "nie",
+    translation: "Don't ever talk to me like that again.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -658,6 +687,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Die Zeit für eine Reise kann ich mir ____ leisten.",
     answer: "nicht",
+    translation: "I can't afford the time for a journey.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -683,6 +713,7 @@ export const negationLabTier1: ExerciseItem[] = [
     stimulus:
       "John krempelte seine Hosenbeine hoch, damit sie ____ nass werden konnten.",
     answer: "nicht",
+    translation: "John rolled up his pant legs, so they wouldn't get wet.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -707,6 +738,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Bist du dir sicher, dass John ____ Freundin hat?",
     answer: "keine",
+    translation: "Are you sure John doesn't have a girlfriend?",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -731,6 +763,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fix the negation in this sentence:",
     stimulus: "Bist du dir sicher, dass John nicht Freundin hat?",
     answer: "Bist du dir sicher, dass John keine Freundin hat?",
+    translation: "Are you sure John doesn't have a girlfriend?",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -755,6 +788,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Sie wollen mich ____ teilnehmen lassen.",
     answer: "nicht",
+    translation: "They don't want to let me participate.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -779,6 +813,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Gehe ____ ohne Regenschirm aus.",
     answer: "nicht",
+    translation: "Don't go out without an umbrella.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -803,6 +838,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Ihr werdet euch wohl ____ amüsieren.",
     answer: "nicht",
+    translation: "You probably won't have fun.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -827,6 +863,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Ich kann es noch immer ____ glauben!",
     answer: "nicht",
+    translation: "I still can't believe it!",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -851,6 +888,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Die Menschen brachten uns ____ absichtlich her.",
     answer: "nicht",
+    translation: "The people didn't dump us here on purpose.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -875,6 +913,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Menschen, die Hunde ____ mögen, sind mir suspekt.",
     answer: "nicht",
+    translation: "I'm suspicious of people who don't like dogs.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -899,6 +938,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Ich will die Ordnung ____ umstoßen. Es ist in Ordnung.",
     answer: "nicht",
+    translation: "I don't want to upset the order. It's OK.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -923,6 +963,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Ich kann gar ____ kochen.",
     answer: "nicht",
+    translation: "I can't cook at all.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -947,6 +988,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Aber ich will da ____ hin.",
     answer: "nicht",
+    translation: "But I'm not going there.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -971,6 +1013,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "John ist ____ so jung wie ich.",
     answer: "nicht",
+    translation: "John is not as young as I am.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -995,6 +1038,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Ich bin ____ schnell genug.",
     answer: "nicht",
+    translation: "I'm not fast enough.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -1019,6 +1063,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "John kann ____ auf dich warten.",
     answer: "nicht",
+    translation: "John can't wait for you.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -1043,6 +1088,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Die Adresse stimmt ____ mehr.",
     answer: "nicht",
+    translation: "The address isn't correct anymore.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -1067,6 +1113,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "John war ____ stark genug.",
     answer: "nicht",
+    translation: "John wasn't strong enough.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -1091,6 +1138,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Halt! Hier können Sie ____ durch.",
     answer: "nicht",
+    translation: "Stop! You can't continue.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -1115,6 +1163,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Sie brauchen also tatsächlich ____ Makler mehr.",
     answer: "keinen",
+    translation: "You really don't need a real estate agent anymore.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -1139,6 +1188,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fix the negation in this sentence:",
     stimulus: "Sie brauchen also tatsächlich nicht Makler mehr.",
     answer: "Sie brauchen also tatsächlich keinen Makler mehr.",
+    translation: "You really don't need a real estate agent anymore.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -1163,6 +1213,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Warum fragst du ____ deine Mutter?",
     answer: "nicht",
+    translation: "Why don't you ask your mother?",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -1187,6 +1238,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Wir kennen sie leider ____.",
     answer: "nicht",
+    translation: "Unfortunately, we don't know her.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -1211,6 +1263,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Ein Prinz kann ____ Kind aufziehen.",
     answer: "kein",
+    translation: "A prince should not be raising a child.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -1235,6 +1288,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fix the negation in this sentence:",
     stimulus: "Ein Prinz kann nicht Kind aufziehen.",
     answer: "Ein Prinz kann kein Kind aufziehen.",
+    translation: "A prince should not be raising a child.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -1259,6 +1313,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Ich weiß, dass es ____ wahr ist.",
     answer: "nicht",
+    translation: "I know that it isn't true.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -1283,6 +1338,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Es wird mir ____ zu Kopf steigen.",
     answer: "nicht",
+    translation: "I won't let it go to my head.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -1307,6 +1363,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Die ganze Sache dauerte ____ Stunde.",
     answer: "keine",
+    translation: "The whole thing took less than an hour.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -1331,6 +1388,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fix the negation in this sentence:",
     stimulus: "Die ganze Sache dauerte nicht Stunde.",
     answer: "Die ganze Sache dauerte keine Stunde.",
+    translation: "The whole thing took less than an hour.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -1355,6 +1413,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Sie kann ____ Auto fahren.",
     answer: "nicht",
+    translation: "She can't drive a car.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -1379,6 +1438,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Ich kann daran ____ Komisches entdecken.",
     answer: "nichts",
+    translation: "I don't see anything funny about it.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -1403,6 +1463,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Ich kann hier ____ sterben.",
     answer: "nicht",
+    translation: "I can't die here.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -1427,6 +1488,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Wir bedürfen deiner Hilfe ____.",
     answer: "nicht",
+    translation: "We don't need your help.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -1451,6 +1513,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Ich möchte Sie eigentlich ____ mit meinen Problemen belasten.",
     answer: "nicht",
+    translation: "I don't really want to bother you with my problems.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -1475,6 +1538,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Entschuldigung, aber darunter darf ____ schauen.",
     answer: "niemand",
+    translation: "Forgive me, but no one must look under there.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -1499,6 +1563,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Die aufzugeben bin ich ____ bereit.",
     answer: "nicht",
+    translation: "That, I'm not ready to give up.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -1523,6 +1588,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Ich weiß ____, woher das kam.",
     answer: "nicht",
+    translation: "I don't know where that came from.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -1547,6 +1613,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Sehen Sie, Sie sollten ____ so hart arbeiten.",
     answer: "nicht",
+    translation: "See, you shouldn't work so hard.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -1571,6 +1638,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "John ist noch ____ draußen.",
     answer: "nicht",
+    translation: "John isn't outside yet.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -1596,6 +1664,7 @@ export const negationLabTier1: ExerciseItem[] = [
     stimulus:
       "Ich glaube ____, dass ich bis fünf Uhr mit der ganzen Arbeit fertig sein werde.",
     answer: "nicht",
+    translation: "I don't think I can get through all this work by five.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -1620,6 +1689,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Ich hasse meinen Job ____.",
     answer: "nicht",
+    translation: "I don't hate my job.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -1644,6 +1714,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Wir müssen uns hier ____ sorgen.",
     answer: "nicht",
+    translation: "We don't have to worry in here.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -1668,6 +1739,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Ich weiß ____, welchen Weg ich nehmen soll.",
     answer: "nicht",
+    translation: "I don't know which way to go.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -1692,6 +1764,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Mich interessiert Kunst überhaupt ____.",
     answer: "nicht",
+    translation: "I'm not interested in art at all.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -1716,6 +1789,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Das wird deiner Frau ____ gefallen.",
     answer: "nicht",
+    translation: "Your wife won't like that.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -1741,6 +1815,8 @@ export const negationLabTier1: ExerciseItem[] = [
     stimulus:
       "John bereitete sich eine Tasse heißer Schokolade zu, aber er hatte ____ Zeit, sie zu trinken.",
     answer: "keine",
+    translation:
+      "John made himself a cup of hot chocolate, but he didn't have time to drink it.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -1767,6 +1843,8 @@ export const negationLabTier1: ExerciseItem[] = [
       "John bereitete sich eine Tasse heißer Schokolade zu, aber er hatte nicht Zeit, sie zu trinken.",
     answer:
       "John bereitete sich eine Tasse heißer Schokolade zu, aber er hatte keine Zeit, sie zu trinken.",
+    translation:
+      "John made himself a cup of hot chocolate, but he didn't have time to drink it.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -1792,6 +1870,7 @@ export const negationLabTier1: ExerciseItem[] = [
     stimulus:
       "Der Mensch hat sich seit der Steinzeit ____ allzu sehr verändert.",
     answer: "nicht",
+    translation: "Humans haven't changed much since the Stone Age.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -1816,6 +1895,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Das wäre ____ so lustiges Fest.",
     answer: "kein",
+    translation: "That wouldn't be such a fun celebration.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -1840,6 +1920,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Auf Wiedersehen. Du wirst mich ____ wiedersehen.",
     answer: "nicht",
+    translation: "Goodbye. You will not see me again.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -1864,6 +1945,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Tiere können ____ zwischen wahr und falsch unterscheiden.",
     answer: "nicht",
+    translation: "Animals can't distinguish between true and false.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -1888,6 +1970,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "John wird den Unterschied ____ merken.",
     answer: "niemals",
+    translation: "John will never notice the difference.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -1912,6 +1995,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Er ist ____ Lehrer, sondern Anwalt.",
     answer: "nicht",
+    translation: "He isn't a teacher, but a doctor.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -1936,6 +2020,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Nimm es ____ so ernst.",
     answer: "nicht",
+    translation: "Don't take it so seriously.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -1960,6 +2045,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "John kann ____ Witze erzählen.",
     answer: "keine",
+    translation: "John can't tell jokes.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -1984,6 +2070,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fix the negation in this sentence:",
     stimulus: "John kann nicht Witze erzählen.",
     answer: "John kann keine Witze erzählen.",
+    translation: "John can't tell jokes.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -2008,6 +2095,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Spiel ____ mit dem Feuer.",
     answer: "nicht",
+    translation: "Don't play with fire.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -2032,6 +2120,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Einige der ausgewählten Komponenten passen ____ zusammen.",
     answer: "nicht",
+    translation: "Some of the components you chose do not fit together.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -2056,6 +2145,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Es war ____ meine Schuld.",
     answer: "nicht",
+    translation: "It wasn't my fault.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -2080,6 +2170,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Mir würden Millionen ____ reichen.",
     answer: "nicht",
+    translation: "10 million wouldn't be enough for me.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -2104,6 +2195,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "John wusste, dass Jane ____ glücklich war.",
     answer: "nicht",
+    translation: "John knew that Jane wasn't happy.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -2128,6 +2220,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Er wollte mich zuerst ____ reinlassen.",
     answer: "nicht",
+    translation: "He didn't want to let me in at first.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -2152,6 +2245,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Sie dürfen auch mindestens sechs Monate ____ arbeiten.",
     answer: "nicht",
+    translation: "You mustn't work for at least six months.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -2176,6 +2270,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Meine Eltern mögen meine Freundin ____.",
     answer: "nicht",
+    translation: "My parents don't like my girlfriend.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -2200,6 +2295,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Wir lieben uns ____ mehr.",
     answer: "nicht",
+    translation: "We don't love each other anymore.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -2224,6 +2320,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Du bist ____ länger Teil meines Lebens.",
     answer: "nicht",
+    translation: "You're no longer part of my life.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -2248,6 +2345,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Ich glaube ____, dass das überhaupt möglich ist.",
     answer: "nicht",
+    translation: "I don't think that's even possible.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -2272,6 +2370,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Und nennen Sie mich ____ so.",
     answer: "nicht",
+    translation: "And don't call me that.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -2296,6 +2395,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "John ist aber ____ ehrlich.",
     answer: "nicht",
+    translation: "John isn't honest, though.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -2321,6 +2421,8 @@ export const negationLabTier1: ExerciseItem[] = [
     stimulus:
       "Wenn ich ____ hier wäre, würde dieses Büro in drei Tagen ins Chaos versinken.",
     answer: "nicht",
+    translation:
+      "If I wasn't here, this office would be in chaos in three days.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -2345,6 +2447,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Ich sehe den Wert der Arbeit dieses Mannes ____.",
     answer: "nicht",
+    translation: "I don't see the value of this man's work.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -2369,6 +2472,8 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Zurzeit sind leider ____ offenen Ausbildungsstellen frei.",
     answer: "keine",
+    translation:
+      "Unfortunately, at the moment no open educational positions are available.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -2393,6 +2498,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Ich will sie wirklich ____ verlieren.",
     answer: "nicht",
+    translation: "I really don't want to lose them.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -2417,6 +2523,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Aber ich wollte ____ verrückt klingen.",
     answer: "nicht",
+    translation: "But I didn't want to sound crazy.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -2441,6 +2548,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Sie sagten, sie würden ____ kämpfen.",
     answer: "nicht",
+    translation: "They said they would not fight.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -2465,6 +2573,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Liebling, mach jetzt ____ Witze.",
     answer: "keine",
+    translation: "Now, darling, don't try to be funny.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -2489,6 +2598,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fix the negation in this sentence:",
     stimulus: "Liebling, mach jetzt nicht Witze.",
     answer: "Liebling, mach jetzt keine Witze.",
+    translation: "Now, darling, don't try to be funny.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -2513,6 +2623,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Es ist ____ gut, in einem dunklen Raum zu lesen.",
     answer: "nicht",
+    translation: "It's not good to read in a dark room.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -2537,6 +2648,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Ich werde es dir ____ erklären.",
     answer: "nicht",
+    translation: "I'm not going to explain it to you.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -2561,6 +2673,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Ich war ____ stark genug.",
     answer: "nicht",
+    translation: "I wasn't strong enough.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -2585,6 +2698,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Versuch Jane ____ Ärger zu machen.",
     answer: "keinen",
+    translation: "Try not to give Jane any trouble.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -2609,6 +2723,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fix the negation in this sentence:",
     stimulus: "Versuch Jane nicht Ärger zu machen.",
     answer: "Versuch Jane keinen Ärger zu machen.",
+    translation: "Try not to give Jane any trouble.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -2633,6 +2748,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Man kann hier ____ Gerechtigkeit erwarten.",
     answer: "keine",
+    translation: "You can't expect justice here.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -2657,6 +2773,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fix the negation in this sentence:",
     stimulus: "Man kann hier nicht Gerechtigkeit erwarten.",
     answer: "Man kann hier keine Gerechtigkeit erwarten.",
+    translation: "You can't expect justice here.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -2681,6 +2798,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Es macht leider ____ Sinn.",
     answer: "keinen",
+    translation: "Unfortunately, it makes no sense.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -2705,6 +2823,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fix the negation in this sentence:",
     stimulus: "Es macht leider nicht Sinn.",
     answer: "Es macht leider keinen Sinn.",
+    translation: "Unfortunately, it makes no sense.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -2729,6 +2848,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "John wird sich ____ ändern.",
     answer: "nicht",
+    translation: "John isn't going to change.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -2753,6 +2873,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Ich sehe ____ Weg hier heraus.",
     answer: "keinen",
+    translation: "I can't see a way out of this.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -2777,6 +2898,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fix the negation in this sentence:",
     stimulus: "Ich sehe nicht Weg hier heraus.",
     answer: "Ich sehe keinen Weg hier heraus.",
+    translation: "I can't see a way out of this.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -2801,6 +2923,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Ihr solltet ____ über John lachen, wenn er einen Fehler macht!",
     answer: "nicht",
+    translation: "You shouldn't laugh at John when he makes mistakes.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -2825,6 +2948,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Und deswegen unterrichte ich ____ Geografie.",
     answer: "keine",
+    translation: "And that's why I don't teach geography.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -2849,6 +2973,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fix the negation in this sentence:",
     stimulus: "Und deswegen unterrichte ich nicht Geografie.",
     answer: "Und deswegen unterrichte ich keine Geografie.",
+    translation: "And that's why I don't teach geography.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -2873,6 +2998,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Ich kann ihm ____ vertrauen.",
     answer: "nicht",
+    translation: "I can't trust him.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -2897,6 +3023,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Ich hatte ____ die Absicht, euch zu verletzen.",
     answer: "nie",
+    translation: "It was never my intention to hurt you.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -2921,6 +3048,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "John sagt, er habe im Augenblick ____ sehr viel Geld bei sich.",
     answer: "nicht",
+    translation: "John says he doesn't have very much money on him right now.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -2945,6 +3073,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Ich kann seinem Wort ____ trauen.",
     answer: "nicht",
+    translation: "I can't trust his word.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -2970,6 +3099,7 @@ export const negationLabTier1: ExerciseItem[] = [
     stimulus:
       "Wir können den Taxifahrer ____ bezahlen, wenn wir kein Geld haben.",
     answer: "nicht",
+    translation: "We can't pay the taxi driver if we don't have any money.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -2994,6 +3124,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Kannst du John ____ einfach bitten, uns zu helfen?",
     answer: "nicht",
+    translation: "Can't you just ask John to help us?",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -3018,6 +3149,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Ja, aber ich hatte ____ Ahnung, wozu.",
     answer: "keine",
+    translation: "Yes, but I didn't know why.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -3042,6 +3174,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fix the negation in this sentence:",
     stimulus: "Ja, aber ich hatte nicht Ahnung, wozu.",
     answer: "Ja, aber ich hatte keine Ahnung, wozu.",
+    translation: "Yes, but I didn't know why.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -3066,6 +3199,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Ich will Dinge ____ selber erledigen.",
     answer: "nicht",
+    translation: "I don't want to do things myself.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -3090,6 +3224,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Jane wird uns ____ fangen.",
     answer: "nicht",
+    translation: "Jane will not catch us.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -3114,6 +3249,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Ich sehe ____ Grund dafür.",
     answer: "keinen",
+    translation: "I don't see any reason for it.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -3138,6 +3274,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fix the negation in this sentence:",
     stimulus: "Ich sehe nicht Grund dafür.",
     answer: "Ich sehe keinen Grund dafür.",
+    translation: "I don't see any reason for it.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -3162,6 +3299,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Ich glaube ____, dass das klappen wird.",
     answer: "nicht",
+    translation: "I don't think it will work.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -3186,6 +3324,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Der Präsident wollte die heikle Frage ____ beantworten.",
     answer: "nicht",
+    translation: "The president declined to answer the delicate question.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -3210,6 +3349,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Sie wird ihr Versprechen ____ halten.",
     answer: "nicht",
+    translation: "She will not keep her promise.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -3234,6 +3374,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Er ist bei Weitem ____ perfekt.",
     answer: "nicht",
+    translation: "He is far from perfect.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -3259,6 +3400,7 @@ export const negationLabTier1: ExerciseItem[] = [
     stimulus:
       "John beschloss für sich, dass es ____ nötig sei, Vitamine einzunehmen.",
     answer: "nicht",
+    translation: "John decided that it wasn't necessary to take vitamins.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -3283,6 +3425,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Wir machen zurzeit sowieso ____.",
     answer: "nichts",
+    translation: "We aren't doing anything these days, anyway.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -3307,6 +3450,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Er ist ____ Politiker, sondern ein Anwalt.",
     answer: "kein",
+    translation: "He is not a politician but a lawyer.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -3331,6 +3475,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fix the negation in this sentence:",
     stimulus: "Er ist nicht Politiker, sondern ein Anwalt.",
     answer: "Er ist kein Politiker, sondern ein Anwalt.",
+    translation: "He is not a politician but a lawyer.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -3355,6 +3500,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Ein Haus macht noch ____ Heim.",
     answer: "kein",
+    translation: "A house is not a home.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -3379,6 +3525,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fix the negation in this sentence:",
     stimulus: "Ein Haus macht noch nicht Heim.",
     answer: "Ein Haus macht noch kein Heim.",
+    translation: "A house is not a home.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -3404,6 +3551,8 @@ export const negationLabTier1: ExerciseItem[] = [
     stimulus:
       "Nur weil ein Mann reich ist, heißt das noch ____, dass er auch glücklich ist.",
     answer: "nicht",
+    translation:
+      "Just because a man is rich, it does not necessarily follow that he is happy.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -3428,6 +3577,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Wunder heißen Wunder, weil sie ____ passieren!",
     answer: "nicht",
+    translation: "Miracles are called miracles because they don't happen!",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -3452,6 +3602,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Du hast früher ____ Opfer gespielt.",
     answer: "nie",
+    translation: "I have never seen you play the victim.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -3476,6 +3627,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Ich wollte ihn ____ hauen.",
     answer: "nicht",
+    translation: "I was not trying to hit him.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -3500,6 +3652,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Wende mir ____ den Rücken zu.",
     answer: "nicht",
+    translation: "Don't turn your back on me.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -3524,6 +3677,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Die Regel ist ____ mehr wirksam.",
     answer: "nicht",
+    translation: "The rule is no longer effective.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -3548,6 +3702,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "John sieht ____ wie ein Professor aus.",
     answer: "nicht",
+    translation: "John doesn't look like a professor.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -3572,6 +3727,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Das Essen stillte seinen Hunger. Jetzt hat er ____ Hunger mehr.",
     answer: "keinen",
+    translation: "The meal satisfied his hunger. He isn't hungry anymore.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -3597,6 +3753,7 @@ export const negationLabTier1: ExerciseItem[] = [
     stimulus:
       "Das Essen stillte seinen Hunger. Jetzt hat er nicht Hunger mehr.",
     answer: "Das Essen stillte seinen Hunger. Jetzt hat er keinen Hunger mehr.",
+    translation: "The meal satisfied his hunger. He isn't hungry anymore.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -3621,6 +3778,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Der Preis ist niedrig, aber die Qualität ist ____ sehr gut.",
     answer: "nicht",
+    translation: "The price is low, but the quality isn't very good.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -3645,6 +3803,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Hoffentlich verirrst du dich ____.",
     answer: "nicht",
+    translation: "I hope you won't get lost.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -3669,6 +3828,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Er kann sich ____ bewegen.",
     answer: "nicht",
+    translation: "He can't move.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -3693,6 +3853,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Unsere Vorräte werden ____ ewig halten.",
     answer: "nicht",
+    translation: "Our supplies won't last forever.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -3717,6 +3878,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Einem geschenkten Gaul schaut man ____ ins Maul.",
     answer: "nicht",
+    translation: "Don't look a gift horse in the mouth.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -3741,6 +3903,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Er wird nie etwas erreichen, wenn er ____ härter arbeitet.",
     answer: "nicht",
+    translation: "He'll never achieve anything unless he works harder.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -3765,6 +3928,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "John meinte, dass Jane das gar ____ unbedingt tun müsse.",
     answer: "nicht",
+    translation: "John said he didn't think Jane really needed to do that.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -3789,6 +3953,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Ich habe ____ Lust sie zu küssen.",
     answer: "keine",
+    translation: "I have no desire to kiss her.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -3813,6 +3978,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fix the negation in this sentence:",
     stimulus: "Ich habe nicht Lust sie zu küssen.",
     answer: "Ich habe keine Lust sie zu küssen.",
+    translation: "I have no desire to kiss her.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -3837,6 +4003,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Bei sowas würde ich ____ lügen.",
     answer: "nie",
+    translation: "I wouldn't lie about something like that.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -3861,6 +4028,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Sie müssen sich vor ____ fürchten.",
     answer: "nichts",
+    translation: "You have nothing to be afraid of.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -3885,6 +4053,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Wirf den Ball ____ so hoch.",
     answer: "nicht",
+    translation: "Don't throw the ball so high.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -3909,6 +4078,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Ich wollte ____ vor ihnen weinen.",
     answer: "nicht",
+    translation: "I didn't want to cry in front of them.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -3933,6 +4103,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Ist dein Zimmer ____ sauber?",
     answer: "nicht",
+    translation: "Isn't your room clean?",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -3957,6 +4128,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Mein Zuhause ist ____ bei dir.",
     answer: "nicht",
+    translation: "My home is not with you.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -3981,6 +4153,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Warum bittest du John ____ herein?",
     answer: "nicht",
+    translation: "Why don't you invite John inside?",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -4006,6 +4179,8 @@ export const negationLabTier1: ExerciseItem[] = [
     stimulus:
       "John muss jede Nacht mindestens neun Stunden schlafen, sonst funktioniert er ____.",
     answer: "nicht",
+    translation:
+      "John needs at least nine hours of sleep every night, or he can't function.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -4030,6 +4205,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Ich musste schwören ____ zu sagen.",
     answer: "nichts",
+    translation: "I had to swear not to say anything.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -4054,6 +4230,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Ich werde dir das ____ verzeihen.",
     answer: "niemals",
+    translation: "I will never forgive you for this.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -4078,6 +4255,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Bitte öffnen Sie das Fenster ____.",
     answer: "nicht",
+    translation: "Please don't open the window.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -4102,6 +4280,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "John konnte sich ____ vorstellen, jemanden zu erschießen.",
     answer: "nicht",
+    translation: "John couldn't imagine himself shooting anyone.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -4126,6 +4305,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Das wird dein Spiel ____ verändern.",
     answer: "nicht",
+    translation: "It won't change the way you play.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -4150,6 +4330,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Er wird seinen Captain ____ verraten.",
     answer: "nicht",
+    translation: "He's not going to betray his Captain.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -4175,6 +4356,8 @@ export const negationLabTier1: ExerciseItem[] = [
     stimulus:
       "Jeder kann meine Vorlesungen besuchen, aber ____ jeder kann sie verstehen.",
     answer: "nicht",
+    translation:
+      "Anyone can attend my lectures, but not everyone can understand them.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -4199,6 +4382,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Sie können das ____ beweisen.",
     answer: "nicht",
+    translation: "You can't prove it.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -4223,6 +4407,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Du musst auf diese Frage ____ antworten.",
     answer: "nicht",
+    translation: "You don't have to answer this question.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -4248,6 +4433,8 @@ export const negationLabTier1: ExerciseItem[] = [
     stimulus:
       "Dieser Brief ist persönlich, ich will ____, dass jemand anders ihn liest.",
     answer: "nicht",
+    translation:
+      "This letter is personal, and I don't want anyone else to read it.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -4272,6 +4459,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Ich werde ____ gucken, John.",
     answer: "nicht",
+    translation: "I'm not going to look, John.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -4296,6 +4484,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Also mach unseren Boss ____ sauer.",
     answer: "nicht",
+    translation: "So, don't make our boss angry.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -4320,6 +4509,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Sie erkennen mich und Jane natürlich ____.",
     answer: "nicht",
+    translation: "Naturally, you do not recognize me or Jane.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -4344,6 +4534,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Wir arbeiten miteinander und ____ gegeneinander.",
     answer: "nicht",
+    translation: "We are working together and not against each other.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -4368,6 +4559,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Du musstest deinen Preis ____ teilen.",
     answer: "nicht",
+    translation: "You didn't have to share the award.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -4392,6 +4584,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Er wollte ____ seine Arbeit zerstören.",
     answer: "nicht",
+    translation: "He didn't want to destroy his work.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -4416,6 +4609,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Ich werde seinen Koffer ____ packen.",
     answer: "nicht",
+    translation: "I'm not going to pack his suitcase.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -4440,6 +4634,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "So übel kann sie ____ sein.",
     answer: "nicht",
+    translation: "She can't be that bad.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -4465,6 +4660,7 @@ export const negationLabTier1: ExerciseItem[] = [
     stimulus:
       "Menschen wie Sie suchen normalerweise ____ emotionale Verbindung.",
     answer: "keine",
+    translation: "People like you don't usually seek an emotional connection.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -4489,6 +4685,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Ich wollte nur ____ alleine feiern.",
     answer: "nicht",
+    translation: "I just didn't want to celebrate alone.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -4513,6 +4710,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Wir haben ____ Zeit für diesen Quatsch.",
     answer: "keine",
+    translation: "We don't have time for this nonsense.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -4537,6 +4735,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fix the negation in this sentence:",
     stimulus: "Wir haben nicht Zeit für diesen Quatsch.",
     answer: "Wir haben keine Zeit für diesen Quatsch.",
+    translation: "We don't have time for this nonsense.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -4562,6 +4761,7 @@ export const negationLabTier1: ExerciseItem[] = [
     stimulus:
       "Glaube ____ von dem, was du hörst, und nur die Hälfte von dem, was du siehst.",
     answer: "nichts",
+    translation: "Believe none of what you hear and a half of what you see.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -4586,6 +4786,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Das schaut ____ allzu schwierig aus.",
     answer: "nicht",
+    translation: "That doesn't look too difficult.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -4610,6 +4811,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Ich kenne noch ____ einmal deine Adresse.",
     answer: "nicht",
+    translation: "I don't even know your address.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -4634,6 +4836,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Hier kannst du ____ parken.",
     answer: "nicht",
+    translation: "You can't park here.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -4658,6 +4861,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Hunde können ____ Farben unterscheiden.",
     answer: "keine",
+    translation: "Dogs can't distinguish between colors.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -4682,6 +4886,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fix the negation in this sentence:",
     stimulus: "Hunde können nicht Farben unterscheiden.",
     answer: "Hunde können keine Farben unterscheiden.",
+    translation: "Dogs can't distinguish between colors.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -4706,6 +4911,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Bisher hat ____ über irgendeinen von Johns Witzen gelacht.",
     answer: "niemand",
+    translation: "So far, nobody's laughed at any of John's jokes.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -4731,6 +4937,8 @@ export const negationLabTier1: ExerciseItem[] = [
     stimulus:
       "All das funktioniert anscheinend noch ____ ganz perfekt, aber das System ist interessant.",
     answer: "nicht",
+    translation:
+      "Apparently all that doesn't work perfectly yet, but the system is interesting.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -4755,6 +4963,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Ich kann ____ verstehen, worüber sie sich beschweren sollte.",
     answer: "nicht",
+    translation: "I can't understand what she has to complain about.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -4779,6 +4988,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Wir können uns Misstrauen ____ leisten.",
     answer: "nicht",
+    translation: "We can't afford not to trust each other.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -4803,6 +5013,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Ich werde deine Mutter ____ vermissen.",
     answer: "nicht",
+    translation: "I won't miss your mother.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -4827,6 +5038,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Es ist doch ____ Verbrechen.",
     answer: "kein",
+    translation: "It isn't a crime after all.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -4851,6 +5063,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fix the negation in this sentence:",
     stimulus: "Es ist doch nicht Verbrechen.",
     answer: "Es ist doch kein Verbrechen.",
+    translation: "It isn't a crime after all.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -4875,6 +5088,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Ich bin dafür verantwortlich, aber meine Freunde sind es ____.",
     answer: "nicht",
+    translation: "I am responsible for it, but my friends are not.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -4899,6 +5113,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Sie kann uns ____ aufhalten.",
     answer: "nicht",
+    translation: "She cannot stop us.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -4924,6 +5139,7 @@ export const negationLabTier1: ExerciseItem[] = [
     stimulus:
       "Ist es euch ____ in den Sinn gekommen, die Fenster zu schließen?",
     answer: "nicht",
+    translation: "Didn't it occur to you to close the windows?",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -4948,6 +5164,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Wir sollen hier ____ rauchen.",
     answer: "nicht",
+    translation: "We shouldn't smoke here.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -4972,6 +5189,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Das ist ____ die einzige Schwierigkeit.",
     answer: "nicht",
+    translation: "That's not the only difficulty.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -4996,6 +5214,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Ich konnte meine Hose ____ finden.",
     answer: "nicht",
+    translation: "I couldn't find my pants.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -5020,6 +5239,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Ich habe John noch ____ zuvor betrunken gesehen.",
     answer: "nie",
+    translation: "I'd never seen John drunk before.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -5044,6 +5264,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Das können Sie mir ____ befehlen.",
     answer: "nicht",
+    translation: "You can't order me to do that.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -5068,6 +5289,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "John weiß vermutlich ____, wer gut singen kann und wer nicht.",
     answer: "nicht",
+    translation: "John probably doesn't know who can sing well and who can't.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -5092,6 +5314,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Ich will meine Glückssträhne ____ brechen.",
     answer: "nicht",
+    translation: "I don't want to break my winning streak.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -5116,6 +5339,8 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Mütter müssen jedoch ____ Verantwortung dafür übernehmen.",
     answer: "keine",
+    translation:
+      "Mothers, however, do not have to take any responsibility for it.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -5140,6 +5365,8 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fix the negation in this sentence:",
     stimulus: "Mütter müssen jedoch nicht Verantwortung dafür übernehmen.",
     answer: "Mütter müssen jedoch keine Verantwortung dafür übernehmen.",
+    translation:
+      "Mothers, however, do not have to take any responsibility for it.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -5164,6 +5391,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Vergiss dein Versprechen ____, Schätzchen.",
     answer: "nicht",
+    translation: "Don't forget about your promise, sweetie.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -5188,6 +5416,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Es ist ____ zu fassen, dass du drei Töchter hast.",
     answer: "nicht",
+    translation: "It is hard to believe that you have three daughters.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -5212,6 +5441,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Warum kapierst du das ____?",
     answer: "nicht",
+    translation: "Why don't you understand it?",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -5236,6 +5466,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Ich will ihn ____ stören.",
     answer: "nicht",
+    translation: "I don't want to disturb him.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -5260,6 +5491,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Mir gefällt diese Farbe ____.",
     answer: "nicht",
+    translation: "I don't like this color.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -5284,6 +5516,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Das wollte ich um ____ in der Welt verpassen!",
     answer: "nichts",
+    translation: "I wouldn't miss it for anything.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -5308,6 +5541,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Warum willst du ____ mitkommen?",
     answer: "nicht",
+    translation: "Why don't you want to come along?",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -5332,6 +5566,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Es war gewiss ____ deine Schuld.",
     answer: "nicht",
+    translation: "It was certainly not your fault.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -5356,6 +5591,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Man kann hier ____ atmen.",
     answer: "nicht",
+    translation: "You can't breathe here.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -5380,6 +5616,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Wir wollen es gar ____ verbieten.",
     answer: "nicht",
+    translation: "We don't want to prohibit it.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -5405,6 +5642,7 @@ export const negationLabTier1: ExerciseItem[] = [
     stimulus:
       "Sie können es sich bei diesem Experiment ____ erlauben, unvorsichtig zu sein.",
     answer: "nicht",
+    translation: "You can't afford to be careless in this experiment.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -5429,6 +5667,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Ihre Wangen waren ____ rot.",
     answer: "nicht",
+    translation: "Her cheeks were not red.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -5453,6 +5692,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Ich will ____ zu Gewalt greifen.",
     answer: "nicht",
+    translation: "I don't want to resort to violence.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -5477,6 +5717,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "So beenden wir ____ den Unterricht.",
     answer: "nicht",
+    translation: "That's not how we end this class.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -5501,6 +5742,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Sie ist sich ihrer Schönheit ____ bewusst.",
     answer: "nicht",
+    translation: "She is not aware of her beauty.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -5525,6 +5767,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "John kann noch ____ schwimmen.",
     answer: "nicht",
+    translation: "John doesn't know how to swim yet.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -5549,6 +5792,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Es ist gewöhnlich ____ so dreckig.",
     answer: "nicht",
+    translation: "It's not usually this messy in here.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -5573,6 +5817,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Ich habe die Form ____ entworfen.",
     answer: "nicht",
+    translation: "I didn't design the form.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -5597,6 +5842,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Soviel ich weiß, ist er ____ verheiratet.",
     answer: "nicht",
+    translation: "As far as I know, he is not married.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -5621,6 +5867,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Du hast ____ Grund an mir zu zweifeln.",
     answer: "keinen",
+    translation: "There's no reason for you to doubt me.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -5645,6 +5892,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fix the negation in this sentence:",
     stimulus: "Du hast nicht Grund an mir zu zweifeln.",
     answer: "Du hast keinen Grund an mir zu zweifeln.",
+    translation: "There's no reason for you to doubt me.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -5669,6 +5917,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Ich würde das ____ weiter verfolgen.",
     answer: "nicht",
+    translation: "I wouldn't pursue this any further.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -5693,6 +5942,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Vielleicht durfte er den Staat ____ verlassen.",
     answer: "nicht",
+    translation: "Maybe he wasn't allowed to leave the state.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -5717,6 +5967,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Das Messer ist ____ scharf.",
     answer: "nicht",
+    translation: "The knife is not sharp.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -5741,6 +5992,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Ob wir eine Zugabe spielen oder ____, hängt vom Publikum ab.",
     answer: "nicht",
+    translation: "Whether or not we play an encore, depends on the audience.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -5766,6 +6018,7 @@ export const negationLabTier1: ExerciseItem[] = [
     stimulus:
       "Ihr kennt diesen Song ____, also versucht ihn nicht mitzusingen.",
     answer: "nicht",
+    translation: "You don't know this song, so don't try to sing along.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -5790,6 +6043,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Seitdem habe ich ____ wieder von ihm gehört.",
     answer: "nie",
+    translation: "I have never heard of him since then.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -5814,6 +6068,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Du solltest ____ egoistisch handeln.",
     answer: "nicht",
+    translation: "You shouldn't act selfishly.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -5838,6 +6093,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Du wirst mich ____ bemerken.",
     answer: "nicht",
+    translation: "You won't notice me.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -5862,6 +6118,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Die Einheimischen waren ____ freundlich.",
     answer: "nicht",
+    translation: "The locals were not friendly.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -5886,6 +6143,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Deswegen kann ich diese Auszeichnung ____ annehmen.",
     answer: "nicht",
+    translation: "This is why I can't accept this award.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -5910,6 +6168,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Lauf ____ nackt herum im Haus.",
     answer: "nicht",
+    translation: "Don't walk around naked inside the house.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -5934,6 +6193,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Eine so kurze Erklärung wäre mir ____ eingefallen.",
     answer: "nicht",
+    translation: "I couldn't think of a brief explanation.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -5958,6 +6218,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Du solltest wilde Tiere ____ füttern.",
     answer: "nicht",
+    translation: "You shouldn't feed wild animals.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -5982,6 +6243,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Am Montag arbeite ich ____.",
     answer: "nicht",
+    translation: "I don't work on Mondays.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -6007,6 +6269,7 @@ export const negationLabTier1: ExerciseItem[] = [
     stimulus:
       "Wenn Sie ____ über dieses Programm verfügen, können Sie es jetzt herunterladen.",
     answer: "nicht",
+    translation: "If you do not have this program, you can download it now.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -6031,6 +6294,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Er wurde ____ lebendig begraben.",
     answer: "nicht",
+    translation: "He wasn't buried alive.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -6055,6 +6319,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Davon ist die Kommission ____ überzeugt.",
     answer: "nicht",
+    translation: "The Commission is not convinced that this would be the case.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -6079,6 +6344,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Vielleicht sollten wir dir ____ trauen.",
     answer: "nicht",
+    translation: "Maybe we shouldn't trust you.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -6103,6 +6369,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Ich würde dort ____ allein hingehen.",
     answer: "nicht",
+    translation: "I wouldn't go there on my own.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -6127,6 +6394,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Ich wollte dich ____ eifersüchtig machen.",
     answer: "nicht",
+    translation: "I didn't want to make you jealous.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -6151,6 +6419,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Ich kann diese Stille ____ ertragen.",
     answer: "nicht",
+    translation: "I cannot bear this silence.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -6175,6 +6444,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Die Bedingung behagt mir ganz und gar ____.",
     answer: "nicht",
+    translation: "I am not at all pleased with the condition.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -6199,6 +6469,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Sie war offenbar ____ die einzige.",
     answer: "nicht",
+    translation: "She wasn't the only one, apparently.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -6223,6 +6494,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "John will ____ heute ausgehen.",
     answer: "nicht",
+    translation: "John doesn't want to go out today.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -6247,6 +6519,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Die sind alle zusammen ____ so schlau wie du.",
     answer: "nicht",
+    translation: "All of them combined aren't as smart as you.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -6271,6 +6544,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "John wollte ____ mit Jane streiten.",
     answer: "nicht",
+    translation: "John didn't want to argue with Jane.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -6295,6 +6569,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Ich will auch ____ verwirrt werden.",
     answer: "nicht",
+    translation: "I don't want to be confused, either.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -6319,6 +6594,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Aber diese Sachen musst du ____ erwähnen.",
     answer: "nicht",
+    translation: "But you don't have to mention those things.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -6343,6 +6619,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Ich weiß ____ über ein Gift.",
     answer: "nichts",
+    translation: "I don't know anything about any poison.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -6367,6 +6644,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Ich sollte Sie ____ begleiten.",
     answer: "nicht",
+    translation: "It would be better if l didn't accompany you.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -6391,6 +6669,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Geben Sie ____ Zucker ins Wasser.",
     answer: "keinen",
+    translation: "Don't put any sugar in the water.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -6415,6 +6694,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fix the negation in this sentence:",
     stimulus: "Geben Sie nicht Zucker ins Wasser.",
     answer: "Geben Sie keinen Zucker ins Wasser.",
+    translation: "Don't put any sugar in the water.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -6439,6 +6719,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "So etwas wollen wir ____ erleben.",
     answer: "nicht",
+    translation: "This is not something we want to experience.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -6463,6 +6744,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Und versucht bloß ____ zu fliehen.",
     answer: "nicht",
+    translation: "And don't think about trying to escape.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -6487,6 +6769,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Das ist ____ mein Stil.",
     answer: "nicht",
+    translation: "It's not my style.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -6511,6 +6794,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Ich wusste ____ von der Flucht.",
     answer: "nichts",
+    translation: "I knew nothing about the escape.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -6535,6 +6819,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Wir sind ____ hier, um zu punkten.",
     answer: "nicht",
+    translation: "We are not here to score points.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -6560,6 +6845,8 @@ export const negationLabTier1: ExerciseItem[] = [
     stimulus:
       "Um eine Republik zu gründen, braucht man Politik, ____ nur Schlachten.",
     answer: "nicht",
+    translation:
+      "To establish a Republic we need not only battles but also politics.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -6584,6 +6871,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Ich bin schwanger, ____ fett.",
     answer: "nicht",
+    translation: "I'm pregnant, not fat.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -6608,6 +6896,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Sei heute ____ gemein zu mir.",
     answer: "nicht",
+    translation: "Don't be mean to me today.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -6632,6 +6921,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Sonntags ist das Museum ____ geöffnet.",
     answer: "nicht",
+    translation: "On Sundays, the museum is not open.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -6656,6 +6946,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Ich sterbe ____ mit leerem Magen.",
     answer: "nicht",
+    translation: "I'm not dying on an empty stomach.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -6680,6 +6971,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Den Fehler werde ich gewiss ____ wiederholen.",
     answer: "nie",
+    translation: "Never again will I make that mistake.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -6704,6 +6996,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Sie dürfen die Spieler ____ anfassen.",
     answer: "nicht",
+    translation: "You aren't allowed to touch the players.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -6728,6 +7021,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Ich hätte ____ erwartet, ihm dort zu begegnen.",
     answer: "nie",
+    translation: "Never did I expect that I would meet him there.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -6752,6 +7046,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Ich würde diese Freundschaft gegen ____ eintauschen.",
     answer: "nichts",
+    translation: "I wouldn't exchange that friendship for anything.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -6776,6 +7071,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Du kannst deinem Körper ____ Schlimmeres antun.",
     answer: "nichts",
+    translation: "It's the worst thing you could do to your body.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -6800,6 +7096,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Ich will ____ ihre Sicherheit riskieren.",
     answer: "nicht",
+    translation: "I am unwilling to risk her safety.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -6824,6 +7121,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Ich bin ____ derjenige, der aufgibt.",
     answer: "nicht",
+    translation: "I'm not the one giving up.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -6848,6 +7146,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Vergiss ____, den Müll rauszubringen.",
     answer: "nicht",
+    translation: "Don't forget to take out the garbage.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -6872,6 +7171,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Wir können ____ ins Studio gehen.",
     answer: "nicht",
+    translation: "We cannot go into the studio.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -6896,6 +7196,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Ich wollte deine Rede ____ ruinieren.",
     answer: "nicht",
+    translation: "I didn't want to ruin your speech.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -6920,6 +7221,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Ich kann damit im Moment ____ umgehen.",
     answer: "nicht",
+    translation: "I can't deal with this right now.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -6944,6 +7246,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "John ist noch ____ soweit, Besuch zu empfangen.",
     answer: "nicht",
+    translation: "John isn't ready yet to receive visitors.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -6968,6 +7271,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Der Reifen war gar ____ platt.",
     answer: "nicht",
+    translation: "The tire was not flat after all.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -6992,6 +7296,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Mit seiner Gesundheit sollte man ____ spielen.",
     answer: "nicht",
+    translation: "You shouldn't play games with your health.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -7016,6 +7321,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "John ist ____ mehr der Mann, der er einst war.",
     answer: "nicht",
+    translation: "John isn't the man he once used to be.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -7040,6 +7346,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Ich konnte ____ zur Beerdigung kommen.",
     answer: "nicht",
+    translation: "I couldn't come to the funeral.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -7064,6 +7371,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Das Kreuz funktioniert ____ bei allen Vampiren.",
     answer: "nicht",
+    translation: "The cross does not work on all vampires.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -7088,6 +7396,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Ich werde ____ zulassen, dass du ihr etwas tust.",
     answer: "nicht",
+    translation: "I won't let you harm her.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -7112,6 +7421,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Ein Schuss ins Dunkle ist besser als ____.",
     answer: "nichts",
+    translation: "A shot in the dark is better than nothing.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -7136,6 +7446,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Das Essen war ____ gut, aber immerhin preiswert.",
     answer: "nicht",
+    translation: "The food wasn't good, but at least it was cheap.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -7160,6 +7471,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Fahrräder haben ____ Flügel.",
     answer: "keine",
+    translation: "There are no wings on bicycles.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -7184,6 +7496,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fix the negation in this sentence:",
     stimulus: "Fahrräder haben nicht Flügel.",
     answer: "Fahrräder haben keine Flügel.",
+    translation: "There are no wings on bicycles.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -7208,6 +7521,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Ich drücke den Knopf aber ____ passiert.",
     answer: "nichts",
+    translation: "I keep pressing the button, and nothing is happening.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -7232,6 +7546,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Seine Antwort war ____ negativ.",
     answer: "nicht",
+    translation: "His answer was not negative.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -7256,6 +7571,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Sie ist ____ fähig zu lügen.",
     answer: "nicht",
+    translation: "She isn't capable of lying.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -7281,6 +7597,8 @@ export const negationLabTier1: ExerciseItem[] = [
     stimulus:
       "Betriebswirtschaftslehre wird ____ immer aus Leidenschaft studiert.",
     answer: "nicht",
+    translation:
+      "Business administration is not always studied out of a passion for the subject.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -7305,6 +7623,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Streifen ____ mit der Nadel berühren.",
     answer: "nicht",
+    translation: "Do not allow the needle to touch the strip.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -7329,6 +7648,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Ich wollte eure Unterhaltung ____ belauschen.",
     answer: "nicht",
+    translation: "I didn't mean to eavesdrop on your conversation.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -7353,6 +7673,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Sie möchten mich ____ loswerden.",
     answer: "nicht",
+    translation: "They don't want to get rid of me.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -7377,6 +7698,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Pizza und Ananas gehören ____ in denselben Luftraum.",
     answer: "nicht",
+    translation: "Pizza and pineapple do not belong in the same airspace.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -7401,6 +7723,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Das ist ja auch ____ echte Kanone.",
     answer: "keine",
+    translation: "This is not a real gun.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -7425,6 +7748,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Du kannst mich ____ dafür bestrafen.",
     answer: "nicht",
+    translation: "You can't punish me for that.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -7449,6 +7773,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Er ist blind, ____ taub.",
     answer: "nicht",
+    translation: "He is blind, not deaf.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -7473,6 +7798,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "John kann sich ____ konzentrieren.",
     answer: "nicht",
+    translation: "John can't concentrate.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -7497,6 +7823,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "John konnte seine Wut ____ unterdrücken.",
     answer: "nicht",
+    translation: "John could not suppress his anger.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -7521,6 +7848,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Es ist ____ an uns das Urteil zu fällen.",
     answer: "nicht",
+    translation: "The judgment isn't ours to make.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -7545,6 +7873,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Wir haben ____ genug Seil dabei.",
     answer: "nicht",
+    translation: "We don't have enough rope.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -7569,6 +7898,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Sie behaupten, John wusste ____ davon.",
     answer: "nichts",
+    translation: "They claim John didn't know anything about it.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -7593,6 +7923,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Ich habe ____ Recht über jemanden zu urteilen.",
     answer: "kein",
+    translation: "I have no right to judge you or any man.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -7617,6 +7948,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fix the negation in this sentence:",
     stimulus: "Ich habe nicht Recht über jemanden zu urteilen.",
     answer: "Ich habe kein Recht über jemanden zu urteilen.",
+    translation: "I have no right to judge you or any man.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -7641,6 +7973,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Ich nehme die Einladung ____ an.",
     answer: "nicht",
+    translation: "I don't accept the invitation.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -7665,6 +7998,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Die Kinder waren so laut, dass ich ____ studieren konnte.",
     answer: "nicht",
+    translation: "The children were so noisy that I couldn't study.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -7689,6 +8023,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Ich kann diesen Behälter ____ heben.",
     answer: "nicht",
+    translation: "I cannot lift this box.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -7713,6 +8048,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Wohltätigkeit ist ____ Sünde, Jane.",
     answer: "keine",
+    translation: "There's no sin in charity, Jane.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -7737,6 +8073,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fix the negation in this sentence:",
     stimulus: "Wohltätigkeit ist nicht Sünde, Jane.",
     answer: "Wohltätigkeit ist keine Sünde, Jane.",
+    translation: "There's no sin in charity, Jane.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -7761,6 +8098,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Setze es ____ dem Regen aus.",
     answer: "nicht",
+    translation: "Don't expose it to the rain.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -7785,6 +8123,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Du kannst mich hier ____ einsperren.",
     answer: "nicht",
+    translation: "You can't lock me up here.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -7809,6 +8148,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "So kann es ____ weitergehen.",
     answer: "nicht",
+    translation: "It can't go on like this.",
     metadata: {
       cefr: "B1",
       system: "syntax",
@@ -7833,6 +8173,7 @@ export const negationLabTier1: ExerciseItem[] = [
     prompt: "Fill in the correct negation:",
     stimulus: "Die Fotos dürfen ____ nass werden.",
     answer: "nicht",
+    translation: "The photos cannot get wet.",
     metadata: {
       cefr: "B1",
       system: "syntax",

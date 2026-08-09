@@ -7,6 +7,7 @@ import {
 import {
   canonicalizeContractions,
   foldGermanAscii,
+  foldUmlautBase,
 } from "@/lib/validators/normalize";
 
 describe("normalizeLoose", () => {
@@ -86,6 +87,13 @@ describe("fuzzyMatch", () => {
     expect(fuzzyMatch("Straße", "Strasse")).toBe(true);
   });
 
+  it("accepts umlauts dropped to their base letter (no digraph expansion)", () => {
+    expect(fuzzyMatch("schön", "schon")).toBe(true);
+    expect(fuzzyMatch("hätte", "hatte")).toBe(true);
+    expect(fuzzyMatch("würde", "wurde")).toBe(true);
+    expect(fuzzyMatch("könnte", "konnte")).toBe(true);
+  });
+
   it("accepts common preposition contractions either way", () => {
     expect(
       fuzzyMatch("Ich gehe zum Bahnhof.", "Ich gehe zu dem Bahnhof."),
@@ -104,6 +112,13 @@ describe("normalize helpers", () => {
     expect(foldGermanAscii("schön")).toBe("schoen");
     expect(foldGermanAscii("müde")).toBe("muede");
     expect(foldGermanAscii("groß")).toBe("gross");
+  });
+
+  it("foldUmlautBase drops umlauts to the plain base letter", () => {
+    expect(foldUmlautBase("schön")).toBe("schon");
+    expect(foldUmlautBase("hätte")).toBe("hatte");
+    expect(foldUmlautBase("würde")).toBe("wurde");
+    expect(foldUmlautBase("groß")).toBe("gross");
   });
 
   it("canonicalizeContractions folds toward the contracted form", () => {
@@ -137,5 +152,30 @@ describe("matchAnyFuzzy", () => {
     // Case forms of confusable short words must match exactly, not fuzzily.
     const r = matchAnyFuzzy(["der"], "den");
     expect(r.ok).toBe(false);
+  });
+
+  it("succeeds with a note when only the umlaut-base fold matches", () => {
+    const r = matchAnyFuzzy(["hätte"], "hatte");
+    expect(r.ok).toBe(true);
+    if (r.ok) expect(r.note).toMatch(/umlaut/i);
+  });
+
+  it("does not attach a note for an ordinary exact or digraph match", () => {
+    const exact = matchAnyFuzzy(["der"], "der");
+    expect(exact.ok).toBe(true);
+    if (exact.ok) expect(exact.note).toBeUndefined();
+
+    const digraph = matchAnyFuzzy(["schön"], "schoen");
+    expect(digraph.ok).toBe(true);
+    if (digraph.ok) expect(digraph.note).toBeUndefined();
+  });
+
+  it("prefers an exact match over an umlaut-fold match across candidates", () => {
+    // "konnte" (a real, different word: simple past of können) is an exact
+    // acceptable answer here, so it should win over folding "können" down to
+    // "konnte" via the umlaut-base tier.
+    const r = matchAnyFuzzy(["könnte", "konnte"], "konnte");
+    expect(r.ok).toBe(true);
+    if (r.ok) expect(r.note).toBeUndefined();
   });
 });

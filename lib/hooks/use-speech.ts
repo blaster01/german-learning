@@ -4,6 +4,19 @@ import { useCallback, useEffect, useState } from "react";
 
 let cachedVoices: SpeechSynthesisVoice[] = [];
 
+/**
+ * Replace blank markers with the spoken German word for "gap" so speech
+ * synthesis says something coherent instead of spelling out underscores (or
+ * silently dropping them). Handles both full blanks ("____") and partial
+ * word fragments ("d____", "sein____") since content uses both forms.
+ */
+export function toSpeakableGerman(text: string): string {
+  return text
+    .replace(/[^\s.,!?;:]*_{2,}[^\s.,!?;:]*/g, "Lücke")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
 function pickGermanVoice(): SpeechSynthesisVoice | undefined {
   if (typeof window === "undefined" || !("speechSynthesis" in window))
     return undefined;
@@ -40,7 +53,7 @@ export function useSpeech() {
 
   const speak = useCallback((text: string) => {
     if (typeof window === "undefined" || !("speechSynthesis" in window)) return;
-    const trimmed = text.trim();
+    const trimmed = toSpeakableGerman(text);
     if (!trimmed) return;
     window.speechSynthesis.cancel();
     const utterance = new SpeechSynthesisUtterance(trimmed);

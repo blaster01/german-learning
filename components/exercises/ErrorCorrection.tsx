@@ -1,10 +1,11 @@
 "use client";
 
-import { useState } from "react";
+import { useRef, useState } from "react";
 import type { FixitItem } from "@/lib/content/schema";
 import type { EngineProps } from "@/lib/engines/types";
 import { Button } from "@/components/ui/button";
 import { SpeakButton } from "@/components/ui/speak-button";
+import { UmlautKeys } from "@/components/ui/umlaut-keys";
 
 export function ErrorCorrection({
   item,
@@ -12,6 +13,7 @@ export function ErrorCorrection({
   onSubmit,
 }: EngineProps<FixitItem>) {
   const [value, setValue] = useState("");
+  const ref = useRef<HTMLTextAreaElement>(null);
 
   return (
     <div className="space-y-5">
@@ -27,6 +29,7 @@ export function ErrorCorrection({
         Corrected sentence
       </label>
       <textarea
+        ref={ref}
         id={`fix-${item.id}`}
         className="min-h-[88px] w-full rounded-2xl border border-border bg-card px-4 py-3 text-base outline-none transition placeholder:text-muted-foreground focus:border-primary focus:ring-2 focus:ring-primary/30 disabled:opacity-50"
         value={value}
@@ -34,13 +37,19 @@ export function ErrorCorrection({
         placeholder="Type the corrected version… (Enter to check)"
         onChange={(e) => setValue(e.target.value)}
         onKeyDown={(e) => {
-          if (e.key === "Enter" && !e.shiftKey) {
+          if (e.key === "Enter" && !e.shiftKey && !e.repeat) {
             e.preventDefault();
             if (!disabled) onSubmit(value.trim());
           }
         }}
         autoComplete="off"
         autoFocus
+      />
+      <UmlautKeys
+        targetRef={ref}
+        value={value}
+        onInsert={setValue}
+        disabled={disabled}
       />
       <Button
         type="button"

@@ -6,6 +6,8 @@ export type LastResult = {
   ok: boolean;
   errorTags: string[];
   hint?: string;
+  /** Extra note shown alongside the result, e.g. flagging an umlaut-folded match. */
+  note?: string;
 };
 
 export type SessionSnapshot = {
@@ -20,7 +22,11 @@ export type SessionSnapshot = {
   resolved: string[];
   /** Denominator for progress bar (original session length, usually 15). */
   targetCount: number;
+  /** Count of items resolved as correct (subset of `resolved`). */
+  correctCount: number;
   lastResult?: LastResult;
   /** Correct answer text to show in FeedbackPanel on a wrong response. */
   lastCorrectAnswer?: string;
+  /** True when the "done" phase was reached via an explicit early exit, not natural completion. */
+  endedEarly?: boolean;
 };

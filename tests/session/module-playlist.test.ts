@@ -66,23 +66,9 @@ describe("buildModulePlaylist — new mode", () => {
     }
   });
 
-  it("caps the number of returned items at newCardBudget", () => {
-    const result = buildModulePlaylist("fake", "new", new Map(), {
-      target: 10,
-      newCardBudget: 1,
-    });
-    // budget=1 still returns at least one whole group (>=1 item), but no more
-    // than needed to satisfy that budget.
-    expect(result.length).toBeGreaterThan(0);
-    expect(result.length).toBeLessThanOrEqual(2);
-  });
-
-  it("returns nothing when the new-card budget is exhausted", () => {
-    const result = buildModulePlaylist("fake", "new", new Map(), {
-      target: 10,
-      newCardBudget: 0,
-    });
-    expect(result).toEqual([]);
+  it("has no daily cap — returns all unseen items up to target", () => {
+    const result = buildModulePlaylist("fake", "new", new Map(), 10);
+    expect(result).toHaveLength(FAKE_ITEMS.length);
   });
 });
 

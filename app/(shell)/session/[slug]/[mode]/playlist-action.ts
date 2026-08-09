@@ -11,8 +11,6 @@ export type PlaylistPayload = {
   slug: string;
   mode: SessionMode;
   seenEntries: SeenEntry[];
-  /** Remaining daily new-card budget; omit for unlimited. */
-  newCardBudget?: number;
 };
 
 /**
@@ -22,7 +20,7 @@ export type PlaylistPayload = {
 export async function buildPlaylistAction(
   payload: PlaylistPayload,
 ): Promise<ExerciseItem[]> {
-  const { slug, mode, seenEntries, newCardBudget } = payload;
+  const { slug, mode, seenEntries } = payload;
 
   const seenIds = new Map(
     seenEntries.map((e) => [
@@ -32,7 +30,6 @@ export async function buildPlaylistAction(
   );
 
   return buildModulePlaylist(slug, mode, seenIds, {
-    newCardBudget,
     now: Date.now(),
   });
 }

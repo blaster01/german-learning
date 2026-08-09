@@ -19,6 +19,7 @@ export const passivTier3: ExerciseItem[] = [
     prompt: "Rewrite in the passive voice (Perfekt):",
     stimulus: "Man hat das Problem schnell gelöst.",
     answer: "Das Problem ist schnell gelöst worden.",
+    translation: "They solved the problem quickly.",
     feedback: FEEDBACK,
     metadata: {
       cefr: "B2",
@@ -34,6 +35,7 @@ export const passivTier3: ExerciseItem[] = [
     prompt: "Rewrite in the passive voice (Perfekt):",
     stimulus: "Die Arbeiter haben die Brücke repariert.",
     answer: "Die Brücke ist von den Arbeitern repariert worden.",
+    translation: "The workers repaired the bridge.",
     feedback: FEEDBACK,
     metadata: {
       cefr: "B2",
@@ -49,6 +51,7 @@ export const passivTier3: ExerciseItem[] = [
     prompt: "Rewrite in the impersonal passive voice:",
     stimulus: "Man sollte hier nicht rauchen.",
     answer: "Hier sollte nicht geraucht werden.",
+    translation: "One shouldn't smoke here.",
     feedback: FEEDBACK,
     metadata: {
       cefr: "B2",
@@ -65,6 +68,7 @@ export const passivTier3: ExerciseItem[] = [
     stimulus: "Man tanzte die ganze Nacht.",
     answer: "Es wurde die ganze Nacht getanzt.",
     acceptableAnswers: ["Die ganze Nacht wurde getanzt."],
+    translation: "They danced all night.",
     feedback: FEEDBACK,
     metadata: {
       cefr: "B2",
@@ -85,6 +89,7 @@ export const passivTier3: ExerciseItem[] = [
       "Der Brief wird geschrieben worden.",
     ],
     answer: 0,
+    translation: "The letter has been written.",
     feedback: FEEDBACK,
     metadata: {
       cefr: "B2",
@@ -105,6 +110,7 @@ export const passivTier3: ExerciseItem[] = [
       "Hier hat viel gelacht.",
     ],
     answer: 0,
+    translation: "There's a lot of laughing here.",
     feedback: FEEDBACK,
     metadata: {
       cefr: "B2",

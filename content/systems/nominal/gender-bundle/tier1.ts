@@ -9,6 +9,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Weg"',
     options: ["der", "die", "das"],
     answer: 0,
+    translation: "the way / road / away",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -34,6 +35,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Weg",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the way / road / away",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -58,6 +60,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Lasst uns diesen ____ gehen.",
     answer: "Weg",
+    translation: "Let's go this way.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -82,6 +85,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Leben"',
     options: ["der", "die", "das"],
     answer: 2,
+    translation: "the life",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -107,6 +111,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Leben",
     answer: "das",
     acceptableAnswers: ["Das"],
+    translation: "the life",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -131,6 +136,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Dein ____ wird solch ein wunderbares Abenteuer sein.",
     answer: "Leben",
+    translation: "Your life is going to be such a marvelous adventure.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -155,6 +161,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Zeit"',
     options: ["der", "das", "die"],
     answer: 2,
+    translation: "the time",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -180,6 +187,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Zeit",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the time",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -204,6 +212,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Die ____ für eine Reise kann ich mir nicht leisten.",
     answer: "Zeit",
+    translation: "I can't afford the time for a journey.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -228,6 +237,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Leid"',
     options: ["das", "die", "der"],
     answer: 0,
+    translation: "the sorrow",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -253,6 +263,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Leid",
     answer: "das",
     acceptableAnswers: ["Das"],
+    translation: "the sorrow",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -278,6 +289,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus:
       "Es tut mir leid, aber dadurch wurde das ____ der Familie noch vergrößert.",
     answer: "Leid",
+    translation: "I'm sorry, but this added to the sorrow of the family.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -302,6 +314,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Geld"',
     options: ["die", "das", "der"],
     answer: 1,
+    translation: "the money",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -327,6 +340,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Geld",
     answer: "das",
     acceptableAnswers: ["Das"],
+    translation: "the money",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -351,6 +365,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Teilen Sie das ____ unter sich auf!",
     answer: "Geld",
+    translation: "Divide the money among you.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -375,6 +390,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Tag"',
     options: ["der", "die", "das"],
     answer: 0,
+    translation: "the day",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -400,6 +416,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Tag",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the day",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -424,6 +441,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Ich gehe jeden ____ spazieren.",
     answer: "Tag",
+    translation: "I take a walk every day.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -448,6 +466,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Nacht"',
     options: ["das", "die", "der"],
     answer: 1,
+    translation: "the night",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -473,6 +492,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Nacht",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the night",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -497,6 +517,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Halloween ist eine ____ voller Überraschungen.",
     answer: "Nacht",
+    translation: "Halloween is a night full of surprises.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -521,6 +542,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Liebe"',
     options: ["der", "die", "das"],
     answer: 1,
+    translation: "the love",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -546,6 +568,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Liebe",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the love",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -570,6 +593,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Nur die ____ kann die Welt verändern.",
     answer: "Liebe",
+    translation: "Only love can change the world.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -594,6 +618,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Herr"',
     options: ["die", "das", "der"],
     answer: 2,
+    translation: "the Mister",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -619,6 +644,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Herr",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the Mister",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -643,6 +669,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Ordnung"',
     options: ["das", "die", "der"],
     answer: 1,
+    translation: "the order",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -668,6 +695,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Ordnung",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the order",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -692,6 +720,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Ich will die ____ nicht umstoßen. Es ist in Ordnung.",
     answer: "Ordnung",
+    translation: "I don't want to upset the order. It's OK.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -716,6 +745,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Freund"',
     options: ["der", "das", "die"],
     answer: 0,
+    translation: "the friend / boyfriend",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -741,6 +771,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Freund",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the friend / boyfriend",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -765,6 +796,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Ein alter ____ kam zum Abendessen.",
     answer: "Freund",
+    translation: "An old friend came by for dinner.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -789,6 +821,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Welt"',
     options: ["die", "das", "der"],
     answer: 0,
+    translation: "the world",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -814,6 +847,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Welt",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the world",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -838,6 +872,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Warum hat Gott die ____ gerade so erschaffen?",
     answer: "Welt",
+    translation: "Why did God make the world the way He did?",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -862,6 +897,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Haus"',
     options: ["der", "das", "die"],
     answer: 1,
+    translation: "the house",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -887,6 +923,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Haus",
     answer: "das",
     acceptableAnswers: ["Das"],
+    translation: "the house",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -911,6 +948,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Dieses ____ ist wirklich alt.",
     answer: "Haus",
+    translation: "This house is really old.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -935,6 +973,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Abend"',
     options: ["die", "das", "der"],
     answer: 2,
+    translation: "the evening",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -960,6 +999,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Abend",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the evening",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -984,6 +1024,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Wir hatten gestern einen wundervollen ____.",
     answer: "Abend",
+    translation: "We were having a wonderful evening last night.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -1008,6 +1049,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Scheiße"',
     options: ["der", "das", "die"],
     answer: 2,
+    translation: "the shit",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -1033,6 +1075,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Scheiße",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the shit",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -1057,6 +1100,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Ihm steht die ____ bis zum Hals.",
     answer: "Scheiße",
+    translation: "He is in deep shit.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -1081,6 +1125,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Jahr"',
     options: ["das", "die", "der"],
     answer: 0,
+    translation: "the year",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -1106,6 +1151,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Jahr",
     answer: "das",
     acceptableAnswers: ["Das"],
+    translation: "the year",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -1130,6 +1176,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Der Umsatz dieses Unternehmens ist dieses ____ um % gestiegen.",
     answer: "Jahr",
+    translation: "The business has expanded by 50% this year.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -1154,6 +1201,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Sohn"',
     options: ["das", "die", "der"],
     answer: 2,
+    translation: "the son",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -1179,6 +1227,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Sohn",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the son",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -1203,6 +1252,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Mein ____ liest sehr gerne Dinosaurierbücher.",
     answer: "Sohn",
+    translation: "My son loves to read books about dinosaurs.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -1227,6 +1277,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Kind"',
     options: ["die", "der", "das"],
     answer: 2,
+    translation: "the child",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -1252,6 +1303,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Kind",
     answer: "das",
     acceptableAnswers: ["Das"],
+    translation: "the child",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -1276,6 +1328,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Ein Prinz kann kein ____ aufziehen.",
     answer: "Kind",
+    translation: "A prince should not be raising a child.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -1300,6 +1353,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Musik"',
     options: ["das", "die", "der"],
     answer: 1,
+    translation: "the music",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -1325,6 +1379,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Musik",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the music",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -1349,6 +1404,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Was magst du lieber, Rockmusik oder klassische ____?",
     answer: "Musik",
+    translation: "Which do you like better, rock music or classical music?",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -1373,6 +1429,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Kopf"',
     options: ["das", "die", "der"],
     answer: 2,
+    translation: "the head",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -1398,6 +1455,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Kopf",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the head",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -1422,6 +1480,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Es wird mir nicht zu ____ steigen.",
     answer: "Kopf",
+    translation: "I won't let it go to my head.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -1446,6 +1505,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Sache"',
     options: ["der", "das", "die"],
     answer: 2,
+    translation: "the thing",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -1471,6 +1531,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Sache",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the thing",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -1495,6 +1556,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Die ganze ____ dauerte keine Stunde.",
     answer: "Sache",
+    translation: "The whole thing took less than an hour.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -1519,6 +1581,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Name"',
     options: ["der", "das", "die"],
     answer: 0,
+    translation: "the name",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -1544,6 +1607,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Name",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the name",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -1568,6 +1632,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Gedankenverloren hörte er, wie sein ____ gerufen wurde.",
     answer: "Name",
+    translation: "While he was lost in thought, he heard his name called.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -1592,6 +1657,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Minute"',
     options: ["die", "der", "das"],
     answer: 0,
+    translation: "the minute",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -1617,6 +1683,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Minute",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the minute",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -1641,6 +1708,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Könnten Sie mir eine ____ lang zuhören?",
     answer: "Minute",
+    translation: "Can you listen to me for a minute?",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -1665,6 +1733,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Hilfe"',
     options: ["die", "das", "der"],
     answer: 0,
+    translation: "the help",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -1690,6 +1759,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Hilfe",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the help",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -1714,6 +1784,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Wir bedürfen deiner ____ nicht.",
     answer: "Hilfe",
+    translation: "We don't need your help.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -1738,6 +1809,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Baby"',
     options: ["der", "die", "das"],
     answer: 2,
+    translation: "the baby",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -1763,6 +1835,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Baby",
     answer: "das",
     acceptableAnswers: ["Das"],
+    translation: "the baby",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -1787,6 +1860,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Das ____ gleicht seiner Mutter.",
     answer: "Baby",
+    translation: "The baby takes after his mother.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -1811,6 +1885,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Glück"',
     options: ["der", "die", "das"],
     answer: 2,
+    translation: "the luck / happiness",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -1836,6 +1911,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Glück",
     answer: "das",
     acceptableAnswers: ["Das"],
+    translation: "the luck / happiness",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -1860,6 +1936,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Ich wünsche euch viel ____.",
     answer: "Glück",
+    translation: "I wish you the best of luck.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -1884,6 +1961,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Tür"',
     options: ["die", "das", "der"],
     answer: 0,
+    translation: "the door",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -1909,6 +1987,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Tür",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the door",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -1933,6 +2012,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Kannst du bitte die ____ schließen?",
     answer: "Tür",
+    translation: "Can you please close the door?",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -1957,6 +2037,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Wasser"',
     options: ["der", "die", "das"],
     answer: 2,
+    translation: "the water",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -1982,6 +2063,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Wasser",
     answer: "das",
     acceptableAnswers: ["Das"],
+    translation: "the water",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -2006,6 +2088,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Nur ____ für mich, danke.",
     answer: "Wasser",
+    translation: "Only water for me, thank you.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -2030,6 +2113,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Auto"',
     options: ["der", "das", "die"],
     answer: 1,
+    translation: "the car",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -2055,6 +2139,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Auto",
     answer: "das",
     acceptableAnswers: ["Das"],
+    translation: "the car",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -2079,6 +2164,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Das ____ ist eine wunderbare Erfindung.",
     answer: "Auto",
+    translation: "The automobile is a wonderful invention.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -2103,6 +2189,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Ruhe"',
     options: ["das", "die", "der"],
     answer: 1,
+    translation: "the silence",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -2128,6 +2215,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Ruhe",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the silence",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -2152,6 +2240,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "____, bitte. Die Kinder schlafen.",
     answer: "Ruhe",
+    translation: "Silence, please. The children are sleeping.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -2176,6 +2265,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Krieg"',
     options: ["die", "der", "das"],
     answer: 1,
+    translation: "the war",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -2201,6 +2291,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Krieg",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the war",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -2225,6 +2316,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Der ____ dauerte drei Jahre.",
     answer: "Krieg",
+    translation: "The war lasted for two years.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -2249,6 +2341,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Ding"',
     options: ["die", "der", "das"],
     answer: 2,
+    translation: "the thing",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -2274,6 +2367,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Ding",
     answer: "das",
     acceptableAnswers: ["Das"],
+    translation: "the thing",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -2298,6 +2392,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Ich versuche, das ____ zu reparieren.",
     answer: "Ding",
+    translation: "I will try to fix the thing.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -2322,6 +2417,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Mama"',
     options: ["die", "der", "das"],
     answer: 0,
+    translation: "the mom",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -2347,6 +2443,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Mama",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the mom",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -2371,6 +2468,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "____, ich muss jetzt gehen.",
     answer: "Mama",
+    translation: "Mom, I have to go now.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -2395,6 +2493,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Wagen"',
     options: ["der", "die", "das"],
     answer: 0,
+    translation: "the car / dare",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -2420,6 +2519,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Wagen",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the car / dare",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -2444,6 +2544,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Ich sagte dir doch, dass du im ____ bleiben sollst!",
     answer: "Wagen",
+    translation: "I told you to stay in the car.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -2468,6 +2569,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Geschichte"',
     options: ["der", "das", "die"],
     answer: 2,
+    translation: "the history / story",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -2493,6 +2595,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Geschichte",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the history / story",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -2517,6 +2620,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Er hat französische ____ studiert.",
     answer: "Geschichte",
+    translation: "He studied French history.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -2541,6 +2645,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Zimmer"',
     options: ["der", "das", "die"],
     answer: 1,
+    translation: "the room",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -2566,6 +2671,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Zimmer",
     answer: "das",
     acceptableAnswers: ["Das"],
+    translation: "the room",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -2590,6 +2696,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Mein ____ ist echt groß.",
     answer: "Zimmer",
+    translation: "My room is really big.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -2614,6 +2721,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Job"',
     options: ["der", "die", "das"],
     answer: 0,
+    translation: "the job",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -2639,6 +2747,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Job",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the job",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -2663,6 +2772,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Ich hasse meinen ____ nicht.",
     answer: "Job",
+    translation: "I don't hate my job.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -2687,6 +2797,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Art"',
     options: ["die", "der", "das"],
     answer: 0,
+    translation: "the type",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -2712,6 +2823,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Art",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the type",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -2736,6 +2848,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Kerl"',
     options: ["der", "die", "das"],
     answer: 0,
+    translation: "the guy",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -2761,6 +2874,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Kerl",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the guy",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -2786,6 +2900,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus:
       "Der ____ ist offensichtlich etwas verloren ohne seine Partnerin.",
     answer: "Kerl",
+    translation: "Clearly, the guy is a little lost without his partner.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -2810,6 +2925,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Schwester"',
     options: ["die", "der", "das"],
     answer: 0,
+    translation: "the sister / nurse",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -2835,6 +2951,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Schwester",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the sister / nurse",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -2859,6 +2976,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Meine ____ ist zu jung, um in die Schule zu gehen.",
     answer: "Schwester",
+    translation: "My sister is too young to go to school.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -2883,6 +3001,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Film"',
     options: ["die", "das", "der"],
     answer: 2,
+    translation: "the movie",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -2908,6 +3027,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Film",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the movie",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -2932,6 +3052,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Es ist nur ein ____, Jane.",
     answer: "Film",
+    translation: "It's only a movie, Jane.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -2956,6 +3077,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Bett"',
     options: ["der", "das", "die"],
     answer: 1,
+    translation: "the bed",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -2981,6 +3103,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Bett",
     answer: "das",
     acceptableAnswers: ["Das"],
+    translation: "the bed",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -3005,6 +3128,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Du solltest im ____ bleiben.",
     answer: "Bett",
+    translation: "You should stay in bed.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -3029,6 +3153,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Seite"',
     options: ["das", "der", "die"],
     answer: 2,
+    translation: "the page / site",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -3054,6 +3179,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Seite",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the page / site",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -3078,6 +3204,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Auf ____ finden Sie weitere Informationen.",
     answer: "Seite",
+    translation: "Go to page 25 for more information.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -3102,6 +3229,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Stunde"',
     options: ["das", "der", "die"],
     answer: 2,
+    translation: "the hour",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -3127,6 +3255,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Stunde",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the hour",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -3151,6 +3280,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Herz"',
     options: ["die", "das", "der"],
     answer: 1,
+    translation: "the heart",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -3176,6 +3306,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Herz",
     answer: "das",
     acceptableAnswers: ["Das"],
+    translation: "the heart",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -3200,6 +3331,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Es ist das ____ der Insel.",
     answer: "Herz",
+    translation: "It's the heart of the island.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -3224,6 +3356,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Mensch"',
     options: ["die", "das", "der"],
     answer: 2,
+    translation: "the human / person",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -3249,6 +3382,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Mensch",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the human / person",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -3274,6 +3408,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus:
       "Der ____ hat sich seit der Steinzeit nicht allzu sehr verändert.",
     answer: "Mensch",
+    translation: "Humans haven't changed much since the Stone Age.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -3298,6 +3433,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Gesicht"',
     options: ["die", "der", "das"],
     answer: 2,
+    translation: "the face",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -3323,6 +3459,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Gesicht",
     answer: "das",
     acceptableAnswers: ["Das"],
+    translation: "the face",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -3347,6 +3484,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Ein großes Licht strahlt aus deinem ____.",
     answer: "Gesicht",
+    translation: "There is a great light shining from your face.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -3371,6 +3509,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Fall"',
     options: ["die", "der", "das"],
     answer: 1,
+    translation: "the case / fall",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -3396,6 +3535,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Fall",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the case / fall",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -3420,6 +3560,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "In diesem ____ denke ich, dass er Recht hat.",
     answer: "Fall",
+    translation: "I think he is right in this case.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -3444,6 +3585,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Fest"',
     options: ["das", "die", "der"],
     answer: 0,
+    translation: "the celebration / firm / firmly",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -3469,6 +3611,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Fest",
     answer: "das",
     acceptableAnswers: ["Das"],
+    translation: "the celebration / firm / firmly",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -3493,6 +3636,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Das wäre kein so lustiges ____.",
     answer: "Fest",
+    translation: "That wouldn't be such a fun celebration.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -3517,6 +3661,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Idee"',
     options: ["das", "die", "der"],
     answer: 1,
+    translation: "the idea",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -3542,6 +3687,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Idee",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the idea",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -3566,6 +3712,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Sie hat eine ____, wie man eine Kunstsprache schaffen kann.",
     answer: "Idee",
+    translation: "She has an idea of how to create an artificial language.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -3590,6 +3737,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Nummer"',
     options: ["die", "der", "das"],
     answer: 0,
+    translation: "the number",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -3615,6 +3763,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Nummer",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the number",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -3639,6 +3788,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Die befinden sich im Gang ____ zwei.",
     answer: "Nummer",
+    translation: "They're in aisle number two.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -3663,6 +3813,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Entschuldigung"',
     options: ["der", "das", "die"],
     answer: 2,
+    translation: "the apology / sorry",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -3688,6 +3839,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Entschuldigung",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the apology / sorry",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -3712,6 +3864,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "____, etwas ist schiefgegangen.",
     answer: "Entschuldigung",
+    translation: "Sorry, something went wrong.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -3736,6 +3889,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Schule"',
     options: ["die", "der", "das"],
     answer: 0,
+    translation: "the school",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -3761,6 +3915,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Schule",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the school",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -3785,6 +3940,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Mein Sohn geht in die ____.",
     answer: "Schule",
+    translation: "My son goes to school.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -3809,6 +3965,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Feuer"',
     options: ["der", "die", "das"],
     answer: 2,
+    translation: "the fire",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -3834,6 +3991,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Feuer",
     answer: "das",
     acceptableAnswers: ["Das"],
+    translation: "the fire",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -3858,6 +4016,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Spiel nicht mit dem ____.",
     answer: "Feuer",
+    translation: "Don't play with fire.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -3882,6 +4041,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Schuld"',
     options: ["das", "der", "die"],
     answer: 2,
+    translation: "the fault / debt",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -3907,6 +4067,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Schuld",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the fault / debt",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -3931,6 +4092,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Es war nicht meine ____.",
     answer: "Schuld",
+    translation: "It wasn't my fault.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -3955,6 +4117,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Platz"',
     options: ["die", "der", "das"],
     answer: 1,
+    translation: "the place",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -3980,6 +4143,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Platz",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the place",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -4004,6 +4168,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Das ist doch mein ____.",
     answer: "Platz",
+    translation: "But it is my place.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -4028,6 +4193,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Papa"',
     options: ["der", "die", "das"],
     answer: 0,
+    translation: "the dad",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -4053,6 +4219,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Papa",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the dad",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -4077,6 +4244,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Das sage ich meinem ____!",
     answer: "Papa",
+    translation: "I'll tell my dad!",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -4101,6 +4269,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Spaß"',
     options: ["das", "der", "die"],
     answer: 1,
+    translation: "the fun",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -4126,6 +4295,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Spaß",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the fun",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -4150,6 +4320,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Glaubst du, das würde ____ machen?",
     answer: "Spaß",
+    translation: "Do you think it would be fun to do that?",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -4174,6 +4345,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Blut"',
     options: ["das", "der", "die"],
     answer: 0,
+    translation: "the blood",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -4199,6 +4371,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Blut",
     answer: "das",
     acceptableAnswers: ["Das"],
+    translation: "the blood",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -4223,6 +4396,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Das ____ an meinem Hemd ist das meines Bruders.",
     answer: "Blut",
+    translation: "The blood on my shirt is my brother's.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -4247,6 +4421,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Freundin"',
     options: ["die", "der", "das"],
     answer: 0,
+    translation: "the girlfriend / friend",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -4272,6 +4447,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Freundin",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the girlfriend / friend",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -4296,6 +4472,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Meine Eltern mögen meine ____ nicht.",
     answer: "Freundin",
+    translation: "My parents don't like my girlfriend.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -4320,6 +4497,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Telefon"',
     options: ["die", "der", "das"],
     answer: 2,
+    translation: "the phone",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -4345,6 +4523,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Telefon",
     answer: "das",
     acceptableAnswers: ["Das"],
+    translation: "the phone",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -4370,6 +4549,8 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus:
       "Letzte Nacht bin ich eingeschlafen, während ich mit Jane am ____ sprach.",
     answer: "Telefon",
+    translation:
+      "Last night, I fell asleep while talking with Jane on the phone.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -4394,6 +4575,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Himmel"',
     options: ["die", "das", "der"],
     answer: 2,
+    translation: "the sky",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -4419,6 +4601,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Himmel",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the sky",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -4443,6 +4626,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Der ____ ist heute grau.",
     answer: "Himmel",
+    translation: "The sky is gray today.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -4467,6 +4651,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Luft"',
     options: ["der", "die", "das"],
     answer: 1,
+    translation: "the air / breath",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -4492,6 +4677,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Luft",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the air / breath",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -4516,6 +4702,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "John hob Jane in die ____.",
     answer: "Luft",
+    translation: "John lifted Jane in the air.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -4540,6 +4727,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Licht"',
     options: ["die", "das", "der"],
     answer: 1,
+    translation: "the light",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -4565,6 +4753,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Licht",
     answer: "das",
     acceptableAnswers: ["Das"],
+    translation: "the light",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -4589,6 +4778,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Ich wollte nur das ____ ausmachen.",
     answer: "Licht",
+    translation: "I was just going to turn off the light.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -4613,6 +4803,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Menge"',
     options: ["der", "die", "das"],
     answer: 1,
+    translation: "the amount",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -4638,6 +4829,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Menge",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the amount",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -4662,6 +4854,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Erde"',
     options: ["die", "der", "das"],
     answer: 0,
+    translation: "the earth",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -4687,6 +4880,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Erde",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the earth",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -4711,6 +4905,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Die ____ ist viereinhalb Milliarde alt.",
     answer: "Erde",
+    translation: "The earth is four and a half billion years old.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -4735,6 +4930,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Mädchen"',
     options: ["der", "das", "die"],
     answer: 1,
+    translation: "the girl",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -4760,6 +4956,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Mädchen",
     answer: "das",
     acceptableAnswers: ["Das"],
+    translation: "the girl",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -4784,6 +4981,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "John verkleidete sich zu Halloween als ein ____.",
     answer: "Mädchen",
+    translation: "John dressed as a girl for Halloween.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -4808,6 +5006,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Stück"',
     options: ["die", "der", "das"],
     answer: 2,
+    translation: "the piece",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -4833,6 +5032,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Stück",
     answer: "das",
     acceptableAnswers: ["Das"],
+    translation: "the piece",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -4857,6 +5057,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Ich möchte ein ____ Kuchen.",
     answer: "Stück",
+    translation: "I'd like a piece of cake.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -4881,6 +5082,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Doktor"',
     options: ["das", "die", "der"],
     answer: 2,
+    translation: "the doctor",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -4906,6 +5108,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Doktor",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the doctor",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -4931,6 +5134,8 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus:
       "Obwohl der ____ sein Bestes gab, erholte sich der Patient nur langsam.",
     answer: "Doktor",
+    translation:
+      "Though the doctor did his best, the patient's recovery was slow.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -4955,6 +5160,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Kaffee"',
     options: ["das", "der", "die"],
     answer: 1,
+    translation: "the coffee",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -4980,6 +5186,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Kaffee",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the coffee",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -5004,6 +5211,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Was sagen Sie zu einer Tasse ____?",
     answer: "Kaffee",
+    translation: "How about a cup of coffee?",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -5028,6 +5236,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Arzt"',
     options: ["der", "die", "das"],
     answer: 0,
+    translation: "the doctor",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -5053,6 +5262,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Arzt",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the doctor",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -5077,6 +5287,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Der ____ war vom guten Gesundheitszustand des Babys erfreut.",
     answer: "Arzt",
+    translation: "The doctor was pleased with the baby's good health.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -5101,6 +5312,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Büro"',
     options: ["der", "die", "das"],
     answer: 2,
+    translation: "the office",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -5126,6 +5338,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Büro",
     answer: "das",
     acceptableAnswers: ["Das"],
+    translation: "the office",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -5151,6 +5364,8 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus:
       "Wenn ich nicht hier wäre, würde dieses ____ in drei Tagen ins Chaos versinken.",
     answer: "Büro",
+    translation:
+      "If I wasn't here, this office would be in chaos in three days.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -5175,6 +5390,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Problem"',
     options: ["die", "der", "das"],
     answer: 2,
+    translation: "the problem",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -5200,6 +5416,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Problem",
     answer: "das",
     acceptableAnswers: ["Das"],
+    translation: "the problem",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -5224,6 +5441,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Aber das führt schon zu einem ____, oder?",
     answer: "Problem",
+    translation: "It does cause a problem, doesn't it?",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -5248,6 +5466,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Wert"',
     options: ["der", "das", "die"],
     answer: 0,
+    translation: "the value",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -5273,6 +5492,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Wert",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the value",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -5297,6 +5517,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Ich sehe den ____ der Arbeit dieses Mannes nicht.",
     answer: "Wert",
+    translation: "I don't see the value of this man's work.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -5321,6 +5542,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Körper"',
     options: ["der", "die", "das"],
     answer: 0,
+    translation: "the body",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -5346,6 +5568,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Körper",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the body",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -5370,6 +5593,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Sie hat überall am ____ rote Flecken.",
     answer: "Körper",
+    translation: "She has red spots all over her body.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -5394,6 +5618,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Typ"',
     options: ["das", "die", "der"],
     answer: 2,
+    translation: "the type",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -5419,6 +5644,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Typ",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the type",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -5444,6 +5670,8 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus:
       "Ich bin der ____, der vor Leuten nervös wird, deshalb bin ich ein schlechter Redner.",
     answer: "Typ",
+    translation:
+      "I'm the type who gets nervous in front of people, so I'm bad at speech making.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -5468,6 +5696,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Schlüssel"',
     options: ["der", "das", "die"],
     answer: 0,
+    translation: "the key",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -5493,6 +5722,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Schlüssel",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the key",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -5517,6 +5747,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Ich habe meinen ____ verloren.",
     answer: "Schlüssel",
+    translation: "I've lost my key.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -5541,6 +5772,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Schiff"',
     options: ["der", "das", "die"],
     answer: 1,
+    translation: "the ship",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -5566,6 +5798,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Schiff",
     answer: "das",
     acceptableAnswers: ["Das"],
+    translation: "the ship",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -5590,6 +5823,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Ich wollte immer ein ____ kommandieren.",
     answer: "Schiff",
+    translation: "I have always wanted to command my own ship.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -5614,6 +5848,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Vater"',
     options: ["die", "der", "das"],
     answer: 1,
+    translation: "the father",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -5639,6 +5874,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Vater",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the father",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -5664,6 +5900,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus:
       "Stell dir vor, dein ____ würde uns zusammen sehen, was würde er sagen?",
     answer: "Vater",
+    translation: "Suppose your father saw us together, what would he say?",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -5688,6 +5925,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Party"',
     options: ["das", "der", "die"],
     answer: 2,
+    translation: "the party",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -5713,6 +5951,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Party",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the party",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -5737,6 +5976,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Sie hat ihm erklärt, warum sie zu spät zu seiner ____ kam.",
     answer: "Party",
+    translation: "She explained to him why she was late for his party.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -5761,6 +6001,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Kumpel"',
     options: ["das", "die", "der"],
     answer: 2,
+    translation: "the mate (coll)",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -5786,6 +6027,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Kumpel",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the mate (coll)",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -5810,6 +6052,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Du willst bloß streiten, ____.",
     answer: "Kumpel",
+    translation: "You're looking for an argument, mate.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -5834,6 +6077,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "General"',
     options: ["die", "das", "der"],
     answer: 2,
+    translation: "the general",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -5859,6 +6103,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ General",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the general",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -5883,6 +6128,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Er wurde zum ____ befördert.",
     answer: "General",
+    translation: "He was advanced to the rank of general.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -5907,6 +6153,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Liebling"',
     options: ["die", "das", "der"],
     answer: 2,
+    translation: "the darling",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -5932,6 +6179,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Liebling",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the darling",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -5956,6 +6204,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "____, mach jetzt keine Witze.",
     answer: "Liebling",
+    translation: "Now, darling, don't try to be funny.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -5980,6 +6229,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Zeug"',
     options: ["die", "das", "der"],
     answer: 1,
+    translation: "the stuff",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -6005,6 +6255,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Zeug",
     answer: "das",
     acceptableAnswers: ["Das"],
+    translation: "the stuff",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -6029,6 +6280,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Was ist all das ____?",
     answer: "Zeug",
+    translation: "What is all this stuff?",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -6053,6 +6305,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Mist"',
     options: ["die", "das", "der"],
     answer: 2,
+    translation: "the shit / manure",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -6078,6 +6331,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Mist",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the shit / manure",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -6102,6 +6356,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "____, sie haben mich entdeckt.",
     answer: "Mist",
+    translation: "Shit, they have spotted me.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -6126,6 +6381,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Zug"',
     options: ["der", "die", "das"],
     answer: 0,
+    translation: "the train",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -6151,6 +6407,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Zug",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the train",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -6175,6 +6432,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Er könnte den falschen ____ genommen haben.",
     answer: "Zug",
+    translation: "He may have taken the wrong train.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -6199,6 +6457,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Geschäft"',
     options: ["das", "der", "die"],
     answer: 0,
+    translation: "the business / shop",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -6224,6 +6483,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Geschäft",
     answer: "das",
     acceptableAnswers: ["Das"],
+    translation: "the business / shop",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -6248,6 +6508,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Er beabsichtigt sein ____ zu eröffnen.",
     answer: "Geschäft",
+    translation: "He is planning to launch his business.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -6272,6 +6533,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Klasse"',
     options: ["das", "die", "der"],
     answer: 1,
+    translation: "the class",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -6297,6 +6559,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Klasse",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the class",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -6321,6 +6584,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Sie ist das beliebteste Mädchen in der ____.",
     answer: "Klasse",
+    translation: "She's the most popular girl in the class.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -6345,6 +6609,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Boss"',
     options: ["die", "das", "der"],
     answer: 2,
+    translation: "the boss",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -6370,6 +6635,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Boss",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the boss",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -6394,6 +6660,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Der ____ muss dir Medizin geben.",
     answer: "Boss",
+    translation: "The boss has to give you some medicine.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -6418,6 +6685,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Laden"',
     options: ["das", "der", "die"],
     answer: 1,
+    translation: "the shop / load",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -6443,6 +6711,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Laden",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the shop / load",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -6467,6 +6736,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Dieser ____ wird um neun Uhr geschlossen.",
     answer: "Laden",
+    translation: "This shop is closed at nine.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -6491,6 +6761,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Mai"',
     options: ["der", "die", "das"],
     answer: 0,
+    translation: "the May",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -6516,6 +6787,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Mai",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the May",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -6541,6 +6813,8 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus:
       "John fiel aufgrund seiner Alkoholkrankheit im Januar ins Koma und starb im ____.",
     answer: "Mai",
+    translation:
+      "John fell into a coma caused by his alcoholism in January and died in May.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -6565,6 +6839,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Ärger"',
     options: ["der", "das", "die"],
     answer: 0,
+    translation: "the trouble",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -6590,6 +6865,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Ärger",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the trouble",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -6614,6 +6890,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Versuch Jane keinen ____ zu machen.",
     answer: "Ärger",
+    translation: "Try not to give Jane any trouble.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -6638,6 +6915,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Verzeihung"',
     options: ["der", "die", "das"],
     answer: 1,
+    translation: "the sorry / forgiveness",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -6663,6 +6941,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Verzeihung",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the sorry / forgiveness",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -6687,6 +6966,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "____, Ich muss zur Toilette.",
     answer: "Verzeihung",
+    translation: "Sorry, I must use the restroom.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -6711,6 +6991,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Nachricht"',
     options: ["die", "der", "das"],
     answer: 0,
+    translation: "the message / news",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -6736,6 +7017,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Nachricht",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the message / news",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -6760,6 +7042,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Diese ____ macht mich traurig.",
     answer: "Nachricht",
+    translation: "This news makes me sad.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -6784,6 +7067,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Gefängnis"',
     options: ["das", "die", "der"],
     answer: 0,
+    translation: "the prison",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -6809,6 +7093,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Gefängnis",
     answer: "das",
     acceptableAnswers: ["Das"],
+    translation: "the prison",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -6833,6 +7118,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Er eröffnete mir, dass er im ____ gewesen war.",
     answer: "Gefängnis",
+    translation: "He disclosed to me that he had been in prison.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -6857,6 +7143,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Krankenhaus"',
     options: ["die", "der", "das"],
     answer: 2,
+    translation: "the hospital",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -6882,6 +7169,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Krankenhaus",
     answer: "das",
     acceptableAnswers: ["Das"],
+    translation: "the hospital",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -6907,6 +7195,8 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus:
       "Der alte Mann wurde von einem Auto angefahren und sofort ins ____ gebracht.",
     answer: "Krankenhaus",
+    translation:
+      "The old man was hit by a car and was immediately taken to the hospital.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -6931,6 +7221,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Sinn"',
     options: ["der", "die", "das"],
     answer: 0,
+    translation: "the sense / meaning",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -6956,6 +7247,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Sinn",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the sense / meaning",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -6980,6 +7272,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Es macht leider keinen ____.",
     answer: "Sinn",
+    translation: "Unfortunately, it makes no sense.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -7004,6 +7297,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Arm"',
     options: ["das", "der", "die"],
     answer: 1,
+    translation: "the arm / poor",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -7029,6 +7323,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Arm",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the arm / poor",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -7053,6 +7348,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Er legte seinen ____ um ihre Taille.",
     answer: "Arm",
+    translation: "He put his arm around her waist.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -7077,6 +7373,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Bild"',
     options: ["der", "die", "das"],
     answer: 2,
+    translation: "the picture",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -7102,6 +7399,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Bild",
     answer: "das",
     acceptableAnswers: ["Das"],
+    translation: "the picture",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -7126,6 +7424,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Das ____ erinnert mich an meine Studentenzeit.",
     answer: "Bild",
+    translation: "This picture reminds me of when I was a student.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -7150,6 +7449,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Vertrauen"',
     options: ["der", "das", "die"],
     answer: 1,
+    translation: "the trust",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -7175,6 +7475,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Vertrauen",
     answer: "das",
     acceptableAnswers: ["Das"],
+    translation: "the trust",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -7199,6 +7500,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Bewegung"',
     options: ["der", "die", "das"],
     answer: 1,
+    translation: "the movement",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -7224,6 +7526,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Bewegung",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the movement",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -7248,6 +7551,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Jede ____ des Tänzers war perfekt.",
     answer: "Bewegung",
+    translation: "Each movement of the dancer was perfect.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -7272,6 +7576,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Augenblick"',
     options: ["der", "die", "das"],
     answer: 0,
+    translation: "the moment",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -7297,6 +7602,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Augenblick",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the moment",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -7321,6 +7627,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "John sagt, er habe im ____ nicht sehr viel Geld bei sich.",
     answer: "Augenblick",
+    translation: "John says he doesn't have very much money on him right now.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -7345,6 +7652,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Auge"',
     options: ["der", "die", "das"],
     answer: 2,
+    translation: "the eye",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -7370,6 +7678,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Auge",
     answer: "das",
     acceptableAnswers: ["Das"],
+    translation: "the eye",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -7394,6 +7703,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "John hat ein ____ für moderne Kunst.",
     answer: "Auge",
+    translation: "John has an eye for modern art.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -7418,6 +7728,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Tisch"',
     options: ["die", "das", "der"],
     answer: 2,
+    translation: "the table",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -7443,6 +7754,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Tisch",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the table",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -7467,6 +7779,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Manchmal wartet man Minuten auf einen ____.",
     answer: "Tisch",
+    translation: "Sometimes it takes 30 minutes to get a table.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -7491,6 +7804,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Antwort"',
     options: ["der", "das", "die"],
     answer: 2,
+    translation: "the answer",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -7516,6 +7830,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Antwort",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the answer",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -7540,6 +7855,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "John wartet noch immer auf eine ____.",
     answer: "Antwort",
+    translation: "John is still waiting for an answer.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -7564,6 +7880,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Wort"',
     options: ["das", "die", "der"],
     answer: 0,
+    translation: "the word",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -7589,6 +7906,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Wort",
     answer: "das",
     acceptableAnswers: ["Das"],
+    translation: "the word",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -7613,6 +7931,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Ich kann seinem ____ nicht trauen.",
     answer: "Wort",
+    translation: "I can't trust his word.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -7637,6 +7956,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Vorsicht"',
     options: ["das", "die", "der"],
     answer: 1,
+    translation: "the caution / care",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -7662,6 +7982,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Vorsicht",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the caution / care",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -7686,6 +8007,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Ich möchte jedoch zur ____ mahnen.",
     answer: "Vorsicht",
+    translation: "I want to add a word of caution.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -7710,6 +8032,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Armee"',
     options: ["das", "der", "die"],
     answer: 2,
+    translation: "the army",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -7735,6 +8058,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Armee",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the army",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -7759,6 +8083,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Die Regierung sollte ihre ____ ein für alle Mal stärken!",
     answer: "Armee",
+    translation: "The government should strengthen its army once and for all!",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -7783,6 +8108,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Finger"',
     options: ["die", "das", "der"],
     answer: 2,
+    translation: "the finger",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -7808,6 +8134,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Finger",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the finger",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -7832,6 +8159,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Sie hatte ein Pflaster am ____.",
     answer: "Finger",
+    translation: "She had a Band-Aid on her finger.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -7856,6 +8184,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Sicherheit"',
     options: ["der", "das", "die"],
     answer: 2,
+    translation: "the safety",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -7881,6 +8210,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Sicherheit",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the safety",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -7905,6 +8235,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "John macht sich Sorgen um deine ____.",
     answer: "Sicherheit",
+    translation: "John is worried about your safety.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -7929,6 +8260,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Seele"',
     options: ["der", "das", "die"],
     answer: 2,
+    translation: "the soul",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -7954,6 +8286,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Seele",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the soul",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -7978,6 +8311,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Das Auge ist der Spiegel der ____.",
     answer: "Seele",
+    translation: "The eye is the mirror of the soul.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -8002,6 +8336,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Sonne"',
     options: ["das", "die", "der"],
     answer: 1,
+    translation: "the sun",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -8027,6 +8362,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Sonne",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the sun",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -8051,6 +8387,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Es ist ein optimaler Schutz bei ____ und Regen.",
     answer: "Sonne",
+    translation: "It's optimum protection against sun and rain.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -8075,6 +8412,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Team"',
     options: ["der", "die", "das"],
     answer: 2,
+    translation: "the team",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -8100,6 +8438,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Team",
     answer: "das",
     acceptableAnswers: ["Das"],
+    translation: "the team",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -8124,6 +8463,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Wir müssen ein ____ sein.",
     answer: "Team",
+    translation: "We must be a team.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -8148,6 +8488,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Anfang"',
     options: ["das", "der", "die"],
     answer: 1,
+    translation: "the beginning",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -8173,6 +8514,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Anfang",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the beginning",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -8197,6 +8539,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Am ____ hatten wir nur sechs Mitarbeiter.",
     answer: "Anfang",
+    translation: "In the beginning, we only had six employees.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -8221,6 +8564,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Sex"',
     options: ["der", "die", "das"],
     answer: 0,
+    translation: "the sex",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -8246,6 +8590,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Sex",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the sex",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -8270,6 +8615,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Hatten Sie wirklich ____ mit ihm?",
     answer: "Sex",
+    translation: "Did you really have sex with him?",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -8294,6 +8640,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Reise"',
     options: ["das", "die", "der"],
     answer: 1,
+    translation: "the journey",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -8319,6 +8666,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Reise",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the journey",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -8343,6 +8691,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Das Leben ist eine ____.",
     answer: "Reise",
+    translation: "Life is a journey.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -8367,6 +8716,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Grund"',
     options: ["der", "das", "die"],
     answer: 0,
+    translation: "the reason",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -8392,6 +8742,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Grund",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the reason",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -8416,6 +8767,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Ich sehe keinen ____ dafür.",
     answer: "Grund",
+    translation: "I don't see any reason for it.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -8440,6 +8792,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Amerika"',
     options: ["der", "die", "das"],
     answer: 2,
+    translation: "the America",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -8465,6 +8818,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Amerika",
     answer: "das",
     acceptableAnswers: ["Das"],
+    translation: "the America",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -8489,6 +8843,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Ich möchte nach ____ fahren.",
     answer: "Amerika",
+    translation: "I would like to go to America.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -8513,6 +8868,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Monat"',
     options: ["der", "die", "das"],
     answer: 0,
+    translation: "the month",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -8538,6 +8894,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Monat",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the month",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -8563,6 +8920,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus:
       "Er hat sich im vergangenen ____ von seiner Frau scheiden lassen.",
     answer: "Monat",
+    translation: "He divorced his wife last month.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -8587,6 +8945,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Präsident"',
     options: ["die", "das", "der"],
     answer: 2,
+    translation: "the president",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -8612,6 +8971,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Präsident",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the president",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -8636,6 +8996,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Der ____ wollte die heikle Frage nicht beantworten.",
     answer: "Präsident",
+    translation: "The president declined to answer the delicate question.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -8660,6 +9021,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Schluss"',
     options: ["die", "der", "das"],
     answer: 1,
+    translation: "the end",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -8685,6 +9047,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Schluss",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the end",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -8709,6 +9072,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Am ____ waren wir gute Freunde.",
     answer: "Schluss",
+    translation: "By the end, we were great friends.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -8733,6 +9097,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Chef"',
     options: ["der", "die", "das"],
     answer: 0,
+    translation: "the boss",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -8758,6 +9123,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Chef",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the boss",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -8782,6 +9148,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Sie weiß es immer besser als der ____.",
     answer: "Chef",
+    translation: "She always knows better than the boss.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -8806,6 +9173,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Mord"',
     options: ["das", "die", "der"],
     answer: 2,
+    translation: "the murder",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -8831,6 +9199,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Mord",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the murder",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -8855,6 +9224,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Ich möchte einen mehrfachen ____ melden.",
     answer: "Mord",
+    translation: "I would like to report a multiple murder.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -8879,6 +9249,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Nähe"',
     options: ["das", "der", "die"],
     answer: 2,
+    translation: "the vicinity",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -8904,6 +9275,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Nähe",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the vicinity",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -8928,6 +9300,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "John lebt in der ____ des Schlosses.",
     answer: "Nähe",
+    translation: "John lives in the vicinity of the castle.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -8952,6 +9325,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Beispiel"',
     options: ["die", "der", "das"],
     answer: 2,
+    translation: "the example",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -8977,6 +9351,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Beispiel",
     answer: "das",
     acceptableAnswers: ["Das"],
+    translation: "the example",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -9001,6 +9376,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Zum ____, magst du Deutsch?",
     answer: "Beispiel",
+    translation: "For example, do you like German?",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -9025,6 +9401,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Schwein"',
     options: ["der", "das", "die"],
     answer: 1,
+    translation: "the pig / pork (coll)",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -9050,6 +9427,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Schwein",
     answer: "das",
     acceptableAnswers: ["Das"],
+    translation: "the pig / pork (coll)",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -9074,6 +9452,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Ein ____ in einem Schloss ist immer noch ein Schwein.",
     answer: "Schwein",
+    translation: "A pig who lives in a castle is still a pig.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -9098,6 +9477,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Geist"',
     options: ["der", "die", "das"],
     answer: 0,
+    translation: "the spirit / mind / ghost",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -9123,6 +9503,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Geist",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the spirit / mind / ghost",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -9147,6 +9528,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Moderater Sport erfrischt Körper und ____.",
     answer: "Geist",
+    translation: "Moderate exercise will refresh both body and mind.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -9171,6 +9553,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Anwalt"',
     options: ["das", "die", "der"],
     answer: 2,
+    translation: "the lawyer",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -9196,6 +9579,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Anwalt",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the lawyer",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -9220,6 +9604,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Er ist kein Politiker, sondern ein ____.",
     answer: "Anwalt",
+    translation: "He is not a politician but a lawyer.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -9244,6 +9629,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Show"',
     options: ["der", "die", "das"],
     answer: 1,
+    translation: "the show",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -9269,6 +9655,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Show",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the show",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -9293,6 +9680,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Die ____ dauerte zwei Stunden.",
     answer: "Show",
+    translation: "The show lasted for two hours.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -9317,6 +9705,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Heim"',
     options: ["das", "die", "der"],
     answer: 0,
+    translation: "the home",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -9342,6 +9731,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Heim",
     answer: "das",
     acceptableAnswers: ["Das"],
+    translation: "the home",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -9366,6 +9756,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Ein Haus macht noch kein ____.",
     answer: "Heim",
+    translation: "A house is not a home.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -9390,6 +9781,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Wunder"',
     options: ["die", "das", "der"],
     answer: 1,
+    translation: "the miracle",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -9415,6 +9807,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Wunder",
     answer: "das",
     acceptableAnswers: ["Das"],
+    translation: "the miracle",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -9439,6 +9832,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "____ heißen Wunder, weil sie nicht passieren!",
     answer: "Wunder",
+    translation: "Miracles are called miracles because they don't happen!",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -9463,6 +9857,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Opfer"',
     options: ["die", "der", "das"],
     answer: 2,
+    translation: "the victim",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -9488,6 +9883,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Opfer",
     answer: "das",
     acceptableAnswers: ["Das"],
+    translation: "the victim",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -9512,6 +9908,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Du hast früher nie ____ gespielt.",
     answer: "Opfer",
+    translation: "I have never seen you play the victim.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -9536,6 +9933,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Rücken"',
     options: ["der", "das", "die"],
     answer: 0,
+    translation: "the back / move",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -9561,6 +9959,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Rücken",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the back / move",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -9585,6 +9984,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Wende mir nicht den ____ zu.",
     answer: "Rücken",
+    translation: "Don't turn your back on me.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -9609,6 +10009,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Partner"',
     options: ["der", "die", "das"],
     answer: 0,
+    translation: "the partner",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -9634,6 +10035,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Partner",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the partner",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -9658,6 +10060,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Ich bin jetzt Ihr ____.",
     answer: "Partner",
+    translation: "I'm your partner now.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -9682,6 +10085,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Gefahr"',
     options: ["die", "der", "das"],
     answer: 0,
+    translation: "the danger",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -9707,6 +10111,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Gefahr",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the danger",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -9731,6 +10136,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Sein Leben war in ____.",
     answer: "Gefahr",
+    translation: "His life was in danger.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -9755,6 +10161,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Regel"',
     options: ["der", "die", "das"],
     answer: 1,
+    translation: "the rule",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -9780,6 +10187,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Regel",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the rule",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -9804,6 +10212,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Die ____ ist nicht mehr wirksam.",
     answer: "Regel",
+    translation: "The rule is no longer effective.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -9828,6 +10237,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Befehl"',
     options: ["die", "das", "der"],
     answer: 2,
+    translation: "the command / order",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -9853,6 +10263,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Befehl",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the command / order",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -9877,6 +10288,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "John, das ist ein ____.",
     answer: "Befehl",
+    translation: "John, that is an order.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -9901,6 +10313,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Wette"',
     options: ["das", "der", "die"],
     answer: 2,
+    translation: "the bet",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -9926,6 +10339,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Wette",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the bet",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -9950,6 +10364,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Ich verlor eine ____ gegen John.",
     answer: "Wette",
+    translation: "I lost a bet to John.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -9974,6 +10389,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Kraft"',
     options: ["die", "der", "das"],
     answer: 0,
+    translation: "the force / by virtue",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -9999,6 +10415,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Kraft",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the force / by virtue",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -10023,6 +10440,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Möge die ____ mit dir sein!",
     answer: "Kraft",
+    translation: "May the Force be with you!",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -10047,6 +10465,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Bar"',
     options: ["der", "die", "das"],
     answer: 1,
+    translation: "the bar / cash",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -10072,6 +10491,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Bar",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the bar / cash",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -10096,6 +10516,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "In dieser ____ musst du bar zahlen.",
     answer: "Bar",
+    translation: "You have to pay cash in this bar.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -10120,6 +10541,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Richtung"',
     options: ["der", "das", "die"],
     answer: 2,
+    translation: "the direction",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -10145,6 +10567,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Richtung",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the direction",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -10169,6 +10592,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Wir eilten in ____ des Feuers.",
     answer: "Richtung",
+    translation: "We hurried in the direction of the fire.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -10193,6 +10617,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Professor"',
     options: ["der", "die", "das"],
     answer: 0,
+    translation: "the professor",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -10218,6 +10643,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Professor",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the professor",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -10242,6 +10668,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "John sieht nicht wie ein ____ aus.",
     answer: "Professor",
+    translation: "John doesn't look like a professor.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -10266,6 +10693,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Weise"',
     options: ["die", "der", "das"],
     answer: 0,
+    translation: "the way / wise",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -10291,6 +10719,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Weise",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the way / wise",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -10315,6 +10744,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Es ist ziemlich komisch auf eine furchtbare ____.",
     answer: "Weise",
+    translation: "That is pretty funny in a horrible way.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -10339,6 +10769,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Frieden"',
     options: ["der", "die", "das"],
     answer: 0,
+    translation: "the peace / tranquility",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -10364,6 +10795,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Frieden",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the peace / tranquility",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -10388,6 +10820,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Wir leben hier in ____.",
     answer: "Frieden",
+    translation: "We live in peace here.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -10412,6 +10845,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Raum"',
     options: ["der", "die", "das"],
     answer: 0,
+    translation: "the room",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -10437,6 +10871,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Raum",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the room",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -10461,6 +10896,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Ich sagte ihm, er solle den ____ verlassen.",
     answer: "Raum",
+    translation: "I told him to leave the room.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -10485,6 +10921,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Regierung"',
     options: ["das", "die", "der"],
     answer: 1,
+    translation: "the government",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -10510,6 +10947,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Regierung",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the government",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -10534,6 +10972,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Die ____ sollte diese alten Vorschriften abschaffen.",
     answer: "Regierung",
+    translation: "The government should do away with those old regulations.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -10558,6 +10997,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Karte"',
     options: ["die", "das", "der"],
     answer: 0,
+    translation: "the map / card",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -10583,6 +11023,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Karte",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the map / card",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -10607,6 +11048,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Kannst du mir sagen, wo auf dieser ____ ich mich befinde?",
     answer: "Karte",
+    translation: "Can you tell me where I am on this map?",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -10631,6 +11073,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Hunger"',
     options: ["die", "das", "der"],
     answer: 2,
+    translation: "the hunger",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -10656,6 +11099,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Hunger",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the hunger",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -10680,6 +11124,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Das Essen stillte seinen ____. Jetzt hat er keinen Hunger mehr.",
     answer: "Hunger",
+    translation: "The meal satisfied his hunger. He isn't hungry anymore.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -10704,6 +11149,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Preis"',
     options: ["die", "der", "das"],
     answer: 1,
+    translation: "the price / award",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -10729,6 +11175,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Preis",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the price / award",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -10753,6 +11200,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Der ____ ist niedrig, aber die Qualität ist nicht sehr gut.",
     answer: "Preis",
+    translation: "The price is low, but the quality isn't very good.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -10777,6 +11225,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Geschenk"',
     options: ["der", "die", "das"],
     answer: 2,
+    translation: "the present",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -10802,6 +11251,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Geschenk",
     answer: "das",
     acceptableAnswers: ["Das"],
+    translation: "the present",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -10826,6 +11276,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Packe dieses ____ zuerst aus.",
     answer: "Geschenk",
+    translation: "Open this present first.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -10850,6 +11301,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Lage"',
     options: ["der", "die", "das"],
     answer: 1,
+    translation: "the location",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -10875,6 +11327,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Lage",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the location",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -10899,6 +11352,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Die ____ des Hotels ist sehr gut.",
     answer: "Lage",
+    translation: "The location of the hotel is very good.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -10923,6 +11377,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Willen"',
     options: ["die", "der", "das"],
     answer: 1,
+    translation: "the (for) sake / will",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -10948,6 +11403,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Willen",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the (for) sake / will",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -10972,6 +11428,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Bescheid"',
     options: ["das", "die", "der"],
     answer: 2,
+    translation: "the decision / notification",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -10997,6 +11454,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Bescheid",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the decision / notification",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -11021,6 +11479,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Sie haben einen Monat Zeit, einen ____ anzufechten.",
     answer: "Bescheid",
+    translation: "You have one month to challenge a decision.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -11045,6 +11504,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Bulle"',
     options: ["das", "die", "der"],
     answer: 2,
+    translation: "the bull / cop (coll)",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -11070,6 +11530,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Bulle",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the bull / cop (coll)",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -11094,6 +11555,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "John ist ____ von Beruf.",
     answer: "Bulle",
+    translation: "John is a cop.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -11118,6 +11580,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Gericht"',
     options: ["das", "die", "der"],
     answer: 0,
+    translation: "the dish / court",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -11143,6 +11606,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Gericht",
     answer: "das",
     acceptableAnswers: ["Das"],
+    translation: "the dish / court",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -11167,6 +11631,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Geburtstag"',
     options: ["die", "der", "das"],
     answer: 1,
+    translation: "the birthday",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -11192,6 +11657,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Geburtstag",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the birthday",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -11216,6 +11682,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "John hat am März ____.",
     answer: "Geburtstag",
+    translation: "John's birthday is on March 25th.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -11240,6 +11707,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Schaden"',
     options: ["das", "der", "die"],
     answer: 1,
+    translation: "the damage",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -11265,6 +11733,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Schaden",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the damage",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -11289,6 +11758,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Der ____ durch den Taifun war immens.",
     answer: "Schaden",
+    translation: "The damage from the typhoon was enormous.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -11313,6 +11783,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Gesellschaft"',
     options: ["die", "der", "das"],
     answer: 0,
+    translation: "the society / company",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -11338,6 +11809,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Gesellschaft",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the society / company",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -11363,6 +11835,8 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus:
       "Heute spreche ich über die Bedeutung des Sports in der modernen ____.",
     answer: "Gesellschaft",
+    translation:
+      "Today, I'm going to talk about the importance of sport in modern society.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -11387,6 +11861,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Punkt"',
     options: ["das", "die", "der"],
     answer: 2,
+    translation: "the point",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -11412,6 +11887,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Punkt",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the point",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -11436,6 +11912,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Diesen ____ habe ich bereits beantwortet.",
     answer: "Punkt",
+    translation: "I have already responded to this point.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -11460,6 +11937,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Freiheit"',
     options: ["das", "der", "die"],
     answer: 2,
+    translation: "the freedom",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -11485,6 +11963,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Freiheit",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the freedom",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -11509,6 +11988,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Die geretteten Flüchtlinge sehnten sich nach ____.",
     answer: "Freiheit",
+    translation: "The rescued refugees were longing for freedom.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -11533,6 +12013,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Weile"',
     options: ["das", "die", "der"],
     answer: 1,
+    translation: "the while",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -11558,6 +12039,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Weile",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the while",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -11582,6 +12064,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Er ist hier eine ____ geblieben.",
     answer: "Weile",
+    translation: "He stayed here for a while.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -11606,6 +12089,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Maul"',
     options: ["die", "das", "der"],
     answer: 1,
+    translation: "the mouth (coll)",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -11631,6 +12115,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Maul",
     answer: "das",
     acceptableAnswers: ["Das"],
+    translation: "the mouth (coll)",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -11655,6 +12140,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Einem geschenkten Gaul schaut man nicht ins ____.",
     answer: "Maul",
+    translation: "Don't look a gift horse in the mouth.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -11679,6 +12165,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Foto"',
     options: ["das", "der", "die"],
     answer: 0,
+    translation: "the photo",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -11704,6 +12191,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Foto",
     answer: "das",
     acceptableAnswers: ["Das"],
+    translation: "the photo",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -11728,6 +12216,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Gerade habe ich mir das ____ angesehen.",
     answer: "Foto",
+    translation: "I was just looking at the photo.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -11752,6 +12241,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Tee"',
     options: ["das", "die", "der"],
     answer: 2,
+    translation: "the tea",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -11777,6 +12267,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Tee",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the tea",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -11801,6 +12292,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Dies ist ein sehr guter ____.",
     answer: "Tee",
+    translation: "This is a very good tea.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -11825,6 +12317,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Wein"',
     options: ["die", "das", "der"],
     answer: 2,
+    translation: "the wine",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -11850,6 +12343,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Wein",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the wine",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -11874,6 +12368,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Die Italiener trinken immer ____.",
     answer: "Wein",
+    translation: "Italians always drink wine.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -11898,6 +12393,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Weihnachten"',
     options: ["das", "der", "die"],
     answer: 0,
+    translation: "the Christmas",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -11923,6 +12419,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Weihnachten",
     answer: "das",
     acceptableAnswers: ["Das"],
+    translation: "the Christmas",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -11947,6 +12444,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "In Russland feiert man ____ am Januar.",
     answer: "Weihnachten",
+    translation: "Christmas is celebrated on January 7th in Russia.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -11971,6 +12469,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Lust"',
     options: ["das", "die", "der"],
     answer: 1,
+    translation: "the desire / pleasure",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -11996,6 +12495,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Lust",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the desire / pleasure",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -12020,6 +12520,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Ich habe keine ____ sie zu küssen.",
     answer: "Lust",
+    translation: "I have no desire to kiss her.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -12044,6 +12545,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Bein"',
     options: ["die", "das", "der"],
     answer: 1,
+    translation: "the leg",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -12069,6 +12571,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Bein",
     answer: "das",
     acceptableAnswers: ["Das"],
+    translation: "the leg",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -12093,6 +12596,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Ich fühle mein linkes ____ kaum noch.",
     answer: "Bein",
+    translation: "I'm losing feeling in my left leg.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -12117,6 +12621,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Firma"',
     options: ["der", "das", "die"],
     answer: 2,
+    translation: "the company",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -12142,6 +12647,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Firma",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the company",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -12166,6 +12672,8 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Der Hersteller des Fernsehers ist eine japanische ____.",
     answer: "Firma",
+    translation:
+      "The manufacturer of the television set is a Japanese company.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -12190,6 +12698,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Ball"',
     options: ["die", "das", "der"],
     answer: 2,
+    translation: "the ball",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -12215,6 +12724,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Ball",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the ball",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -12239,6 +12749,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Wirf den ____ nicht so hoch.",
     answer: "Ball",
+    translation: "Don't throw the ball so high.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -12263,6 +12774,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Haar"',
     options: ["die", "der", "das"],
     answer: 2,
+    translation: "the hair",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -12288,6 +12800,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Haar",
     answer: "das",
     acceptableAnswers: ["Das"],
+    translation: "the hair",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -12312,6 +12825,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Vergnügen"',
     options: ["das", "der", "die"],
     answer: 0,
+    translation: "the pleasure / have fun",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -12337,6 +12851,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Vergnügen",
     answer: "das",
     acceptableAnswers: ["Das"],
+    translation: "the pleasure / have fun",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -12361,6 +12876,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Das ist mir ein großes ____.",
     answer: "Vergnügen",
+    translation: "That gives me great pleasure.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -12385,6 +12901,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Zuhause"',
     options: ["der", "die", "das"],
     answer: 2,
+    translation: "the home",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -12410,6 +12927,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Zuhause",
     answer: "das",
     acceptableAnswers: ["Das"],
+    translation: "the home",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -12434,6 +12952,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Mein ____ ist nicht bei dir.",
     answer: "Zuhause",
+    translation: "My home is not with you.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -12458,6 +12977,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Zeichen"',
     options: ["das", "die", "der"],
     answer: 0,
+    translation: "the sign",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -12483,6 +13003,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Zeichen",
     answer: "das",
     acceptableAnswers: ["Das"],
+    translation: "the sign",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -12507,6 +13028,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Liste"',
     options: ["die", "das", "der"],
     answer: 0,
+    translation: "the list",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -12532,6 +13054,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Liste",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the list",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -12556,6 +13079,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Dies ist eine ____ aller Tipps des Tages.",
     answer: "Liste",
+    translation: "This is a list of all tips of the day.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -12580,6 +13104,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Blick"',
     options: ["das", "die", "der"],
     answer: 2,
+    translation: "the look",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -12605,6 +13130,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Blick",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the look",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -12629,6 +13155,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Das wäre wohl einen ____ wert.",
     answer: "Blick",
+    translation: "That would be worth a look.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -12653,6 +13180,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Hals"',
     options: ["die", "der", "das"],
     answer: 1,
+    translation: "the throat / neck",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -12678,6 +13206,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Hals",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the throat / neck",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -12702,6 +13231,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Er trägt es um seinen ____.",
     answer: "Hals",
+    translation: "He's wearing it around his neck.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -12726,6 +13256,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Glas"',
     options: ["die", "das", "der"],
     answer: 1,
+    translation: "the glass",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -12751,6 +13282,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Glas",
     answer: "das",
     acceptableAnswers: ["Das"],
+    translation: "the glass",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -12775,6 +13307,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Ich möchte gern ein ____ Wein.",
     answer: "Glas",
+    translation: "I would like to have a glass of wine.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -12799,6 +13332,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Feind"',
     options: ["die", "der", "das"],
     answer: 1,
+    translation: "the enemy",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -12824,6 +13358,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Feind",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the enemy",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -12848,6 +13383,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Dann haben wir den gleichen ____.",
     answer: "Feind",
+    translation: "Well then, we share a common enemy.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -12872,6 +13408,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Madame"',
     options: ["das", "der", "die"],
     answer: 2,
+    translation: "the madame",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -12897,6 +13434,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Madame",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the madame",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -12921,6 +13459,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "____ würde gern Ihr Haus besichtigen.",
     answer: "Madame",
+    translation: "Madame would like to see your house.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -12945,6 +13484,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Entscheidung"',
     options: ["das", "der", "die"],
     answer: 2,
+    translation: "the decision",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -12970,6 +13510,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Entscheidung",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the decision",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -12994,6 +13535,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Das hängt von deiner ____ ab.",
     answer: "Entscheidung",
+    translation: "It rests on your decision.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -13018,6 +13560,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Schuh"',
     options: ["die", "das", "der"],
     answer: 2,
+    translation: "the shoe",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -13043,6 +13586,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Schuh",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the shoe",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -13067,6 +13611,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Ein solcher ____ kann bei nassem Untergrund rutschig sein.",
     answer: "Schuh",
+    translation: "This kind of shoe is apt to slip on wet ground.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -13091,6 +13636,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Sekunde"',
     options: ["das", "die", "der"],
     answer: 1,
+    translation: "the second",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -13116,6 +13662,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Sekunde",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the second",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -13140,6 +13687,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Insel"',
     options: ["der", "das", "die"],
     answer: 2,
+    translation: "the island",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -13165,6 +13713,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Insel",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the island",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -13189,6 +13738,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Aus der Ferne betrachtet, ähnelte die ____ einer Wolke.",
     answer: "Insel",
+    translation: "Viewed from a distance, the island looked like a cloud.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -13213,6 +13763,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Gruppe"',
     options: ["der", "die", "das"],
     answer: 1,
+    translation: "the group",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -13238,6 +13789,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Gruppe",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the group",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -13262,6 +13814,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Ich war vom Auftritt der ____ begeistert.",
     answer: "Gruppe",
+    translation: "I was enchanted by the performance of the group.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -13286,6 +13839,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Drink"',
     options: ["das", "der", "die"],
     answer: 1,
+    translation: "the drink",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -13311,6 +13865,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Drink",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the drink",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -13335,6 +13890,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Jetzt will ich lieber einen ____.",
     answer: "Drink",
+    translation: "Right now I'd rather have a drink.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -13359,6 +13915,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Fuß"',
     options: ["das", "die", "der"],
     answer: 2,
+    translation: "the foot",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -13384,6 +13941,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Fuß",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the foot",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -13408,6 +13966,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Das war mein ____, Jane.",
     answer: "Fuß",
+    translation: "That was my foot, Jane.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -13432,6 +13991,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Geheimnis"',
     options: ["die", "der", "das"],
     answer: 2,
+    translation: "the secret",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -13457,6 +14017,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Geheimnis",
     answer: "das",
     acceptableAnswers: ["Das"],
+    translation: "the secret",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -13481,6 +14042,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Ihr ____ ist bei uns sicher.",
     answer: "Geheimnis",
+    translation: "Your secret is safe with us.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -13505,6 +14067,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Buch"',
     options: ["der", "die", "das"],
     answer: 2,
+    translation: "the book",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -13530,6 +14093,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Buch",
     answer: "das",
     acceptableAnswers: ["Das"],
+    translation: "the book",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -13554,6 +14118,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Er schrieb ein ____ über China.",
     answer: "Buch",
+    translation: "He wrote a book on China.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -13578,6 +14143,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Weib"',
     options: ["die", "das", "der"],
     answer: 1,
+    translation: "the woman (coll)",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -13603,6 +14169,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Weib",
     answer: "das",
     acceptableAnswers: ["Das"],
+    translation: "the woman (coll)",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -13627,6 +14194,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Du jammerst wie ein altes ____.",
     answer: "Weib",
+    translation: "You sound like an old woman.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -13651,6 +14219,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Zeitung"',
     options: ["die", "das", "der"],
     answer: 0,
+    translation: "the newspaper",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -13676,6 +14245,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Zeitung",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the newspaper",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -13700,6 +14270,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Wir sind die wichtigste ____ der Welt.",
     answer: "Zeitung",
+    translation: "We're the most important newspaper in the whole world.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -13724,6 +14295,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Loch"',
     options: ["das", "der", "die"],
     answer: 0,
+    translation: "the hole",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -13749,6 +14321,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Loch",
     answer: "das",
     acceptableAnswers: ["Das"],
+    translation: "the hole",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -13773,6 +14346,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Wir müssen dieses ____ mit irgendetwas füllen.",
     answer: "Loch",
+    translation: "We have got to fill this hole with something.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -13797,6 +14371,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Teufel"',
     options: ["der", "die", "das"],
     answer: 0,
+    translation: "the devil",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -13822,6 +14397,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Teufel",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the devil",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -13846,6 +14422,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Wer zum ____ war das?",
     answer: "Teufel",
+    translation: "Who the devil was that?",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -13870,6 +14447,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Anruf"',
     options: ["das", "die", "der"],
     answer: 2,
+    translation: "the call",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -13895,6 +14473,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Anruf",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the call",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -13919,6 +14498,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Ich warte auf seinen ____.",
     answer: "Anruf",
+    translation: "I'm waiting for his call.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -13943,6 +14523,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Traum"',
     options: ["die", "der", "das"],
     answer: 1,
+    translation: "the dream",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -13968,6 +14549,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Traum",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the dream",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -13992,6 +14574,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Das war nur ein böser ____.",
     answer: "Traum",
+    translation: "It was only a bad dream.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -14016,6 +14599,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Fisch"',
     options: ["der", "das", "die"],
     answer: 0,
+    translation: "the fish",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -14041,6 +14625,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Fisch",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the fish",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -14065,6 +14650,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Ich sollte auch mehr ____ essen.",
     answer: "Fisch",
+    translation: "I should eat more fish, too.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -14089,6 +14675,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Kontakt"',
     options: ["der", "das", "die"],
     answer: 0,
+    translation: "the contact",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -14114,6 +14701,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Kontakt",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the contact",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -14138,6 +14726,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Ich halte ____ zwischen John und den Kunden.",
     answer: "Kontakt",
+    translation: "I keep contact between John and the customers.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -14162,6 +14751,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Küche"',
     options: ["die", "der", "das"],
     answer: 0,
+    translation: "the kitchen / cuisine",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -14187,6 +14777,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Küche",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the kitchen / cuisine",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -14211,6 +14802,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Die Spüle in der ____ war voll schmutzigen Geschirrs.",
     answer: "Küche",
+    translation: "The kitchen sink was full of dirty dishes.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -14235,6 +14827,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Überraschung"',
     options: ["die", "das", "der"],
     answer: 0,
+    translation: "the surprise",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -14260,6 +14853,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Überraschung",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the surprise",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -14284,6 +14878,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Was er als Nächstes tat, war für mich schon eine ____.",
     answer: "Überraschung",
+    translation: "What he did next was quite a surprise to me.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -14308,6 +14903,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Gebäude"',
     options: ["das", "der", "die"],
     answer: 0,
+    translation: "the building",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -14333,6 +14929,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Gebäude",
     answer: "das",
     acceptableAnswers: ["Das"],
+    translation: "the building",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -14357,6 +14954,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Das ____ wurde total zerstört.",
     answer: "Gebäude",
+    translation: "The building was completely destroyed.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -14381,6 +14979,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Eis"',
     options: ["die", "das", "der"],
     answer: 1,
+    translation: "the ice / ice cream",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -14406,6 +15005,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Eis",
     answer: "das",
     acceptableAnswers: ["Das"],
+    translation: "the ice / ice cream",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -14430,6 +15030,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Das ____ wird unter unserem Gewicht brechen.",
     answer: "Eis",
+    translation: "The ice will crack beneath our weight.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -14454,6 +15055,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Koffer"',
     options: ["das", "die", "der"],
     answer: 2,
+    translation: "the suitcase",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -14479,6 +15081,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Koffer",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the suitcase",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -14503,6 +15106,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Ich werde seinen ____ nicht packen.",
     answer: "Koffer",
+    translation: "I'm not going to pack his suitcase.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -14527,6 +15131,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Mann"',
     options: ["das", "der", "die"],
     answer: 1,
+    translation: "the man",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -14552,6 +15157,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Mann",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the man",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -14576,6 +15182,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Der ____ stöhnte vor Schmerzen.",
     answer: "Mann",
+    translation: "The man groaned in pain.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -14600,6 +15207,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Kleid"',
     options: ["die", "das", "der"],
     answer: 1,
+    translation: "the dress",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -14625,6 +15233,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Kleid",
     answer: "das",
     acceptableAnswers: ["Das"],
+    translation: "the dress",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -14649,6 +15258,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Du solltest ein blaues ____ tragen.",
     answer: "Kleid",
+    translation: "You should wear a blue dress.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -14673,6 +15283,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Verbindung"',
     options: ["der", "die", "das"],
     answer: 1,
+    translation: "the connection",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -14698,6 +15309,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Verbindung",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the connection",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -14722,6 +15334,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Menschen wie Sie suchen normalerweise keine emotionale ____.",
     answer: "Verbindung",
+    translation: "People like you don't usually seek an emotional connection.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -14746,6 +15359,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Königin"',
     options: ["das", "der", "die"],
     answer: 2,
+    translation: "the queen",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -14771,6 +15385,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Königin",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the queen",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -14795,6 +15410,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Das geht alles zurück auf ____ Elisabeth.",
     answer: "Königin",
+    translation: "It all goes back to Queen Elizabeth.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -14819,6 +15435,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Ecke"',
     options: ["der", "die", "das"],
     answer: 1,
+    translation: "the corner",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -14844,6 +15461,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Ecke",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the corner",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -14868,6 +15486,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "An dieser ____ ist eine Telefonzelle.",
     answer: "Ecke",
+    translation: "There is a public telephone on that corner.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -14892,6 +15511,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Bericht"',
     options: ["das", "die", "der"],
     answer: 2,
+    translation: "the report",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -14917,6 +15537,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Bericht",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the report",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -14941,6 +15562,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Jeder muss einen ____ darüber schreiben, was er gesehen hat.",
     answer: "Bericht",
+    translation: "Each of them has to write a report about what he saw.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -14965,6 +15587,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Vergangenheit"',
     options: ["die", "das", "der"],
     answer: 0,
+    translation: "the past",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -14990,6 +15613,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Vergangenheit",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the past",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -15014,6 +15638,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Johns ____ hat ihn eingeholt.",
     answer: "Vergangenheit",
+    translation: "John's past caught up with him.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -15038,6 +15663,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Radio"',
     options: ["die", "das", "der"],
     answer: 1,
+    translation: "the radio",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -15063,6 +15689,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Radio",
     answer: "das",
     acceptableAnswers: ["Das"],
+    translation: "the radio",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -15087,6 +15714,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Das ____ geht mir auf die Nerven.",
     answer: "Radio",
+    translation: "The radio gets on my nerves.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -15111,6 +15739,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Beziehung"',
     options: ["die", "der", "das"],
     answer: 0,
+    translation: "the relationship",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -15136,6 +15765,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Beziehung",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the relationship",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -15160,6 +15790,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Wir haben eine offene ____.",
     answer: "Beziehung",
+    translation: "We have an open relationship.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -15184,6 +15815,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Maschine"',
     options: ["die", "das", "der"],
     answer: 0,
+    translation: "the machine",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -15209,6 +15841,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Maschine",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the machine",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -15233,6 +15866,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Ich stellte fest, dass die ____ nutzlos war.",
     answer: "Maschine",
+    translation: "I found that the machine was of no use.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -15257,6 +15891,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Gefühl"',
     options: ["die", "der", "das"],
     answer: 2,
+    translation: "the feeling",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -15282,6 +15917,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Gefühl",
     answer: "das",
     acceptableAnswers: ["Das"],
+    translation: "the feeling",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -15306,6 +15942,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Ich hatte ein sehr schlechtes ____.",
     answer: "Gefühl",
+    translation: "I had a very bad feeling.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -15330,6 +15967,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Quatsch"',
     options: ["der", "das", "die"],
     answer: 0,
+    translation: "the nonsense (coll)",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -15355,6 +15993,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Quatsch",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the nonsense (coll)",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -15379,6 +16018,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Wir haben keine Zeit für diesen ____.",
     answer: "Quatsch",
+    translation: "We don't have time for this nonsense.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -15403,6 +16043,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Hälfte"',
     options: ["der", "das", "die"],
     answer: 2,
+    translation: "the half",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -15428,6 +16069,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Hälfte",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the half",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -15453,6 +16095,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus:
       "Glaube nichts von dem, was du hörst, und nur die ____ von dem, was du siehst.",
     answer: "Hälfte",
+    translation: "Believe none of what you hear and a half of what you see.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -15477,6 +16120,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "England"',
     options: ["der", "die", "das"],
     answer: 2,
+    translation: "the England",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -15502,6 +16146,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ England",
     answer: "das",
     acceptableAnswers: ["Das"],
+    translation: "the England",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -15526,6 +16171,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Wann wurde Amerika unabhängig von ____?",
     answer: "England",
+    translation: "When did America become independent of England?",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -15550,6 +16196,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Respekt"',
     options: ["das", "der", "die"],
     answer: 1,
+    translation: "the respect",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -15575,6 +16222,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Respekt",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the respect",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -15599,6 +16247,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Ein bisschen mehr ____, bitte!",
     answer: "Respekt",
+    translation: "A little more respect, please!",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -15623,6 +16272,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Adresse"',
     options: ["das", "die", "der"],
     answer: 1,
+    translation: "the address",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -15648,6 +16298,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Adresse",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the address",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -15672,6 +16323,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Ich kenne noch nicht einmal deine ____.",
     answer: "Adresse",
+    translation: "I don't even know your address.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -15696,6 +16348,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Flug"',
     options: ["die", "das", "der"],
     answer: 2,
+    translation: "the flight",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -15721,6 +16374,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Flug",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the flight",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -15745,6 +16399,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Ich habe meinen ____ verpasst.",
     answer: "Flug",
+    translation: "I missed my flight.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -15769,6 +16424,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Agent"',
     options: ["der", "das", "die"],
     answer: 0,
+    translation: "the agent",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -15794,6 +16450,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Agent",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the agent",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -15818,6 +16475,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Ich bin ein ehemaliger FBI-____.",
     answer: "Agent",
+    translation: "I'm a former FBI agent.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -15842,6 +16500,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Hund"',
     options: ["der", "die", "das"],
     answer: 0,
+    translation: "the dog",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -15867,6 +16526,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Hund",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the dog",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -15891,6 +16551,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Wir möchten einen ____ haben.",
     answer: "Hund",
+    translation: "We would like to have a dog.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -15915,6 +16576,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Schritt"',
     options: ["der", "die", "das"],
     answer: 0,
+    translation: "the step",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -15940,6 +16602,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Schritt",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the step",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -15964,6 +16627,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Ich bin bereit einen ____ vorwärts zu machen.",
     answer: "Schritt",
+    translation: "I'm ready to take a step to the future.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -15988,6 +16652,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Bombe"',
     options: ["der", "das", "die"],
     answer: 2,
+    translation: "the bomb",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -16013,6 +16678,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Bombe",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the bomb",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -16037,6 +16703,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Angeblich soll hier eine ____ sein.",
     answer: "Bombe",
+    translation: "Supposedly, there is a bomb here.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -16061,6 +16728,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Aufgabe"',
     options: ["das", "der", "die"],
     answer: 2,
+    translation: "the task",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -16086,6 +16754,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Aufgabe",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the task",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -16110,6 +16779,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Ich habe eine ____ für dich.",
     answer: "Aufgabe",
+    translation: "I've got a task for you.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -16134,6 +16804,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Prinzessin"',
     options: ["die", "das", "der"],
     answer: 0,
+    translation: "the princess",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -16159,6 +16830,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Prinzessin",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the princess",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -16183,6 +16855,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Ich will eine ____ heiraten.",
     answer: "Prinzessin",
+    translation: "I want to marry a princess.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -16207,6 +16880,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Fluss"',
     options: ["das", "die", "der"],
     answer: 2,
+    translation: "the river",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -16232,6 +16906,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Fluss",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the river",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -16256,6 +16931,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Ich angle gerne im ____.",
     answer: "Fluss",
+    translation: "I like to fish in the river.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -16280,6 +16956,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Tor"',
     options: ["die", "der", "das"],
     answer: 2,
+    translation: "the gate / goal",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -16305,6 +16982,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Tor",
     answer: "das",
     acceptableAnswers: ["Das"],
+    translation: "the gate / goal",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -16330,6 +17008,8 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus:
       "Das Brandenburger ____ ist eines der berühmtesten Wahrzeichen Deutschlands.",
     answer: "Tor",
+    translation:
+      "The Brandenburg Gate is one of the most famous landmarks in Germany.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -16354,6 +17034,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Glückwunsch"',
     options: ["das", "die", "der"],
     answer: 2,
+    translation: "the congratulation",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -16379,6 +17060,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Glückwunsch",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the congratulation",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -16403,6 +17085,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Herzlichen ____, Sie haben gewonnen.",
     answer: "Glückwunsch",
+    translation: "Congratulations, you have won.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -16427,6 +17110,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Hintern"',
     options: ["die", "der", "das"],
     answer: 1,
+    translation: "the butt / behind the",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -16452,6 +17136,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Hintern",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the butt / behind the",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -16476,6 +17161,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Mein ____ sah darin fantastisch aus.",
     answer: "Hintern",
+    translation: "My butt looked fantastic in them.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -16500,6 +17186,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Dach"',
     options: ["das", "der", "die"],
     answer: 0,
+    translation: "the roof",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -16525,6 +17212,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Dach",
     answer: "das",
     acceptableAnswers: ["Das"],
+    translation: "the roof",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -16549,6 +17237,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Ich schlafe unter meinem eigenen ____.",
     answer: "Dach",
+    translation: "I sleep under my own roof.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -16573,6 +17262,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Pistole"',
     options: ["das", "der", "die"],
     answer: 2,
+    translation: "the gun",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -16598,6 +17288,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Pistole",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the gun",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -16622,6 +17313,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Er trägt eine ____ im Schultergurt.",
     answer: "Pistole",
+    translation: "He carries a gun in a shoulder holster.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -16646,6 +17338,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "System"',
     options: ["die", "das", "der"],
     answer: 1,
+    translation: "the system",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -16671,6 +17364,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ System",
     answer: "das",
     acceptableAnswers: ["Das"],
+    translation: "the system",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -16696,6 +17390,8 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus:
       "All das funktioniert anscheinend noch nicht ganz perfekt, aber das ____ ist interessant.",
     answer: "System",
+    translation:
+      "Apparently all that doesn't work perfectly yet, but the system is interesting.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -16720,6 +17416,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Rennen"',
     options: ["der", "die", "das"],
     answer: 2,
+    translation: "the race / run",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -16745,6 +17442,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Rennen",
     answer: "das",
     acceptableAnswers: ["Das"],
+    translation: "the race / run",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -16769,6 +17467,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Dieses ____ muss er wirklich gewinnen.",
     answer: "Rennen",
+    translation: "This is a race he really has to win.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -16793,6 +17492,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Verbrechen"',
     options: ["der", "das", "die"],
     answer: 1,
+    translation: "the crime / commit a crime",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -16818,6 +17518,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Verbrechen",
     answer: "das",
     acceptableAnswers: ["Das"],
+    translation: "the crime / commit a crime",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -16842,6 +17543,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Es ist doch kein ____.",
     answer: "Verbrechen",
+    translation: "It isn't a crime after all.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -16866,6 +17568,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Natur"',
     options: ["die", "das", "der"],
     answer: 0,
+    translation: "the nature / countryside",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -16891,6 +17594,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Natur",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the nature / countryside",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -16915,6 +17619,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Die erste Frage ist eher meteorologischer ____.",
     answer: "Natur",
+    translation: "The first question is rather of a meteorological nature.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -16939,6 +17644,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Lächeln"',
     options: ["die", "der", "das"],
     answer: 2,
+    translation: "the smile",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -16964,6 +17670,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Lächeln",
     answer: "das",
     acceptableAnswers: ["Das"],
+    translation: "the smile",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -16988,6 +17695,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Auftrag"',
     options: ["der", "das", "die"],
     answer: 0,
+    translation: "the order / contract",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -17013,6 +17721,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Auftrag",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the order / contract",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -17037,6 +17746,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "John kommt im ____ der amerikanischen Regierung.",
     answer: "Auftrag",
+    translation: "John is here by order of the American government.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -17061,6 +17771,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Baum"',
     options: ["die", "das", "der"],
     answer: 2,
+    translation: "the tree",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -17086,6 +17797,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Baum",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the tree",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -17110,6 +17822,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Jetzt kann ich kaum noch auf einen ____ klettern.",
     answer: "Baum",
+    translation: "Now I can barely climb a tree.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -17134,6 +17847,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Wand"',
     options: ["der", "das", "die"],
     answer: 2,
+    translation: "the wall",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -17159,6 +17873,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Wand",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the wall",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -17183,6 +17898,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Da ist Blut an der ____.",
     answer: "Wand",
+    translation: "There is blood on the wall.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -17207,6 +17923,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Schwierigkeit"',
     options: ["die", "der", "das"],
     answer: 0,
+    translation: "the difficulty",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -17232,6 +17949,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Schwierigkeit",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the difficulty",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -17256,6 +17974,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Das ist nicht die einzige ____.",
     answer: "Schwierigkeit",
+    translation: "That's not the only difficulty.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -17280,6 +17999,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Stein"',
     options: ["der", "das", "die"],
     answer: 0,
+    translation: "the stone",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -17305,6 +18025,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Stein",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the stone",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -17329,6 +18050,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Ich suche nach einem großen ____.",
     answer: "Stein",
+    translation: "I'm looking for a big stone.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -17353,6 +18075,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Hose"',
     options: ["die", "der", "das"],
     answer: 0,
+    translation: "the pants",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -17378,6 +18101,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Hose",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the pants",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -17402,6 +18126,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Ich konnte meine ____ nicht finden.",
     answer: "Hose",
+    translation: "I couldn't find my pants.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -17426,6 +18151,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Beruf"',
     options: ["das", "die", "der"],
     answer: 2,
+    translation: "the profession",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -17451,6 +18177,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Beruf",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the profession",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -17475,6 +18202,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Jane hasst ihren ____ aus vielen Gründen.",
     answer: "Beruf",
+    translation: "Jane hates her profession for many reasons.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -17499,6 +18227,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Pause"',
     options: ["das", "der", "die"],
     answer: 2,
+    translation: "the pause / break",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -17524,6 +18253,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Pause",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the pause / break",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -17548,6 +18278,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Sollen wir eine ____ machen?",
     answer: "Pause",
+    translation: "Let's take a break, shall we?",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -17572,6 +18303,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Nachmittag"',
     options: ["der", "das", "die"],
     answer: 0,
+    translation: "the afternoon",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -17597,6 +18329,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Nachmittag",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the afternoon",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -17621,6 +18354,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "John ist heute ____ beschäftigt.",
     answer: "Nachmittag",
+    translation: "John is busy this afternoon.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -17645,6 +18379,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Schätzchen"',
     options: ["die", "der", "das"],
     answer: 2,
+    translation: "the sweetie",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -17670,6 +18405,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Schätzchen",
     answer: "das",
     acceptableAnswers: ["Das"],
+    translation: "the sweetie",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -17694,6 +18430,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Vergiss dein Versprechen nicht, ____.",
     answer: "Schätzchen",
+    translation: "Don't forget about your promise, sweetie.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -17718,6 +18455,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Rock"',
     options: ["das", "der", "die"],
     answer: 1,
+    translation: "the skirt / rock music",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -17743,6 +18481,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Rock",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the skirt / rock music",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -17767,6 +18506,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Kann ich einen ____ zu einem Rockkonzert tragen?",
     answer: "Rock",
+    translation: "Can I wear a skirt to a rock concert?",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -17791,6 +18531,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Farbe"',
     options: ["der", "die", "das"],
     answer: 1,
+    translation: "the color",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -17816,6 +18557,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Farbe",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the color",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -17840,6 +18582,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Mir gefällt diese ____ nicht.",
     answer: "Farbe",
+    translation: "I don't like this color.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -17864,6 +18607,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Mission"',
     options: ["das", "der", "die"],
     answer: 2,
+    translation: "the mission",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -17889,6 +18633,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Mission",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the mission",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -17913,6 +18658,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Das ist eine gefährliche ____.",
     answer: "Mission",
+    translation: "This is a dangerous mission.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -17937,6 +18683,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Unternehmen"',
     options: ["das", "der", "die"],
     answer: 0,
+    translation: "the company",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -17962,6 +18709,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Unternehmen",
     answer: "das",
     acceptableAnswers: ["Das"],
+    translation: "the company",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -17986,6 +18734,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Es ist ein großes ____.",
     answer: "Unternehmen",
+    translation: "It's a big company.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -18010,6 +18759,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Spur"',
     options: ["die", "das", "der"],
     answer: 0,
+    translation: "the track",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -18035,6 +18785,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Spur",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the track",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -18059,6 +18810,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Frühstück"',
     options: ["die", "das", "der"],
     answer: 1,
+    translation: "the breakfast",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -18084,6 +18836,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Frühstück",
     answer: "das",
     acceptableAnswers: ["Das"],
+    translation: "the breakfast",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -18108,6 +18861,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "In ein paar Minuten servieren wir ____.",
     answer: "Frühstück",
+    translation: "We'll be serving breakfast in a few minutes.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -18132,6 +18886,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Mörder"',
     options: ["der", "die", "das"],
     answer: 0,
+    translation: "the murderer",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -18157,6 +18912,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Mörder",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the murderer",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -18181,6 +18937,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Der ____ hielt sich in den Bergen versteckt.",
     answer: "Mörder",
+    translation: "The murderer hid in the mountains.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -18205,6 +18962,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Stock"',
     options: ["der", "das", "die"],
     answer: 0,
+    translation: "the floor / stock / stick",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -18230,6 +18988,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Stock",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the floor / stock / stick",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -18254,6 +19013,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Die Spielzeugabteilung ist im fünften ____.",
     answer: "Stock",
+    translation: "The toy department is on the fifth floor.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -18278,6 +19038,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Reihe"',
     options: ["der", "die", "das"],
     answer: 1,
+    translation: "the line",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -18303,6 +19064,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Reihe",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the line",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -18327,6 +19089,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Stell dich in die ____.",
     answer: "Reihe",
+    translation: "Get in line.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -18351,6 +19114,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Gang"',
     options: ["der", "die", "das"],
     answer: 0,
+    translation: "the gear / aisle gang",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -18376,6 +19140,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Gang",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the gear / aisle gang",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -18400,6 +19165,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "John geht den ____ entlang.",
     answer: "Gang",
+    translation: "John is walking down the aisle.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -18424,6 +19190,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Restaurant"',
     options: ["der", "die", "das"],
     answer: 2,
+    translation: "the restaurant",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -18449,6 +19216,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Restaurant",
     answer: "das",
     acceptableAnswers: ["Das"],
+    translation: "the restaurant",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -18474,6 +19242,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus:
       "John kann es sich leisten, jeden Tag in einem teuren ____ zu essen.",
     answer: "Restaurant",
+    translation: "John can afford to eat at an expensive restaurant every day.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -18498,6 +19267,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Dreck"',
     options: ["die", "der", "das"],
     answer: 1,
+    translation: "the dirt",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -18523,6 +19293,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Dreck",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the dirt",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -18547,6 +19318,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Ich brauche etwas ____ über Jane.",
     answer: "Dreck",
+    translation: "I need some dirt on Jane.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -18571,6 +19343,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Untertitel"',
     options: ["das", "der", "die"],
     answer: 1,
+    translation: "the subtitle",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -18596,6 +19369,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Untertitel",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the subtitle",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -18620,6 +19394,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Der ____ des ursprünglichen Angebots wurde entfernt.",
     answer: "Untertitel",
+    translation: "Your subtitle from the original listing has been removed.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -18644,6 +19419,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Lager"',
     options: ["die", "das", "der"],
     answer: 1,
+    translation: "the stock / camp",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -18669,6 +19445,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Lager",
     answer: "das",
     acceptableAnswers: ["Das"],
+    translation: "the stock / camp",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -18693,6 +19470,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Wir haben alles auf ____.",
     answer: "Lager",
+    translation: "We have everything in stock.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -18717,6 +19495,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Gespräch"',
     options: ["das", "die", "der"],
     answer: 0,
+    translation: "the talk",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -18742,6 +19521,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Gespräch",
     answer: "das",
     acceptableAnswers: ["Das"],
+    translation: "the talk",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -18766,6 +19546,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Wir müssen darüber ein ernsthaftes ____ führen.",
     answer: "Gespräch",
+    translation: "We have to have a serious talk about this.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -18790,6 +19571,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Flughafen"',
     options: ["die", "das", "der"],
     answer: 2,
+    translation: "the airport",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -18815,6 +19597,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Flughafen",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the airport",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -18839,6 +19622,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Wir sind am falschen ____ gelandet.",
     answer: "Flughafen",
+    translation: "We landed at the wrong airport.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -18863,6 +19647,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Operation"',
     options: ["das", "die", "der"],
     answer: 1,
+    translation: "the operation",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -18888,6 +19673,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Operation",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the operation",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -18912,6 +19698,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Sie halfen ihm, die ____ durchzuführen.",
     answer: "Operation",
+    translation: "They assisted him in performing the operation.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -18936,6 +19723,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Gelegenheit"',
     options: ["die", "der", "das"],
     answer: 0,
+    translation: "the opportunity",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -18961,6 +19749,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Gelegenheit",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the opportunity",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -18985,6 +19774,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "John ergriff die ____ mit beiden Händen.",
     answer: "Gelegenheit",
+    translation: "John grabbed the opportunity with both hands.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -19009,6 +19799,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Thema"',
     options: ["die", "der", "das"],
     answer: 2,
+    translation: "the theme",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -19034,6 +19825,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Thema",
     answer: "das",
     acceptableAnswers: ["Das"],
+    translation: "the theme",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -19058,6 +19850,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "In der Unterhaltung kam ein neues ____ auf.",
     answer: "Thema",
+    translation: "A new topic came up in conversation.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -19082,6 +19875,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Verantwortung"',
     options: ["der", "die", "das"],
     answer: 1,
+    translation: "the responsibility",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -19107,6 +19901,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Verantwortung",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the responsibility",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -19131,6 +19926,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Diese ____ ist eine Last für ihn.",
     answer: "Verantwortung",
+    translation: "That responsibility is a burden to him.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -19155,6 +19951,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Nerv"',
     options: ["der", "die", "das"],
     answer: 0,
+    translation: "the nerve",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -19180,6 +19977,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Nerv",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the nerve",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -19204,6 +20002,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Gast"',
     options: ["das", "die", "der"],
     answer: 2,
+    translation: "the guest",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -19229,6 +20028,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Gast",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the guest",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -19253,6 +20053,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Außerdem hast du einen neuen ____.",
     answer: "Gast",
+    translation: "And, besides, you got a new guest.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -19277,6 +20078,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Erfahrung"',
     options: ["das", "der", "die"],
     answer: 2,
+    translation: "the experience",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -19302,6 +20104,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Erfahrung",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the experience",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -19326,6 +20129,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Diese Woche war eine wunderbare ____.",
     answer: "Erfahrung",
+    translation: "This week has been an amazing experience.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -19350,6 +20154,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Gewalt"',
     options: ["das", "der", "die"],
     answer: 2,
+    translation: "the violence",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -19375,6 +20180,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Gewalt",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the violence",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -19399,6 +20205,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Ich will nicht zu ____ greifen.",
     answer: "Gewalt",
+    translation: "I don't want to resort to violence.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -19423,6 +20230,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Strand"',
     options: ["der", "das", "die"],
     answer: 0,
+    translation: "the beach",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -19448,6 +20256,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Strand",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the beach",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -19472,6 +20281,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Ich sah nur eine Person am ____.",
     answer: "Strand",
+    translation: "I only saw one person on the beach.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -19496,6 +20306,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Angebot"',
     options: ["das", "der", "die"],
     answer: 0,
+    translation: "the offer",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -19521,6 +20332,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Angebot",
     answer: "das",
     acceptableAnswers: ["Das"],
+    translation: "the offer",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -19545,6 +20357,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Wir haben ein ____ vorbereitet.",
     answer: "Angebot",
+    translation: "We have prepared an offer.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -19569,6 +20382,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Post"',
     options: ["der", "das", "die"],
     answer: 2,
+    translation: "the post office",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -19594,6 +20408,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Post",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the post office",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -19618,6 +20433,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Ich gehe jetzt zur ____.",
     answer: "Post",
+    translation: "I am going to the post office.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -19642,6 +20458,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Rolle"',
     options: ["der", "die", "das"],
     answer: 1,
+    translation: "the role",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -19667,6 +20484,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Rolle",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the role",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -19691,6 +20509,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Die Schauspielerin lernt ihre ____.",
     answer: "Rolle",
+    translation: "The actress is studying her role.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -19715,6 +20534,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Frankreich"',
     options: ["das", "der", "die"],
     answer: 0,
+    translation: "the France",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -19740,6 +20560,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Frankreich",
     answer: "das",
     acceptableAnswers: ["Das"],
+    translation: "the France",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -19764,6 +20585,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Künstler werden in ____ hoch geschätzt.",
     answer: "Frankreich",
+    translation: "Artists are highly respected in France.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -19788,6 +20610,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Gentleman"',
     options: ["die", "der", "das"],
     answer: 1,
+    translation: "the gentleman",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -19813,6 +20636,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Gentleman",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the gentleman",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -19837,6 +20661,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Wir müssen ihn als ____ großziehen.",
     answer: "Gentleman",
+    translation: "We need to bring him up as a gentleman.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -19861,6 +20686,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Kugel"',
     options: ["das", "der", "die"],
     answer: 2,
+    translation: "the bullet / globe",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -19886,6 +20712,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Kugel",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the bullet / globe",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -19910,6 +20737,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Die ____ durchschoss seinen Arm.",
     answer: "Kugel",
+    translation: "The bullet pierced his arm.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -19934,6 +20762,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Milch"',
     options: ["die", "der", "das"],
     answer: 0,
+    translation: "the milk",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -19959,6 +20788,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Milch",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the milk",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -19983,6 +20813,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Die Kuh gibt uns ____.",
     answer: "Milch",
+    translation: "A cow gives us milk.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -20007,6 +20838,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Kuss"',
     options: ["das", "der", "die"],
     answer: 1,
+    translation: "the kiss",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -20032,6 +20864,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Kuss",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the kiss",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -20056,6 +20889,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Gib mir wenigstens noch einen ____.",
     answer: "Kuss",
+    translation: "At least give me another kiss.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -20080,6 +20914,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Knie"',
     options: ["das", "der", "die"],
     answer: 0,
+    translation: "the knee",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -20105,6 +20940,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Knie",
     answer: "das",
     acceptableAnswers: ["Das"],
+    translation: "the knee",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -20129,6 +20965,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "John fiel auf die ____.",
     answer: "Knie",
+    translation: "John dropped to his knees.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -20153,6 +20990,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Schande"',
     options: ["der", "die", "das"],
     answer: 1,
+    translation: "the shame",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -20178,6 +21016,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Schande",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the shame",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -20202,6 +21041,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "____, denn ich mochte diesen Pulli irgendwie.",
     answer: "Schande",
+    translation: "That's a shame because I kind of liked that sweater.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -20226,6 +21066,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Schönheit"',
     options: ["die", "der", "das"],
     answer: 0,
+    translation: "the beauty",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -20251,6 +21092,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Schönheit",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the beauty",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -20275,6 +21117,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Sie ist sich ihrer ____ nicht bewusst.",
     answer: "Schönheit",
+    translation: "She is not aware of her beauty.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -20299,6 +21142,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Schatten"',
     options: ["das", "der", "die"],
     answer: 1,
+    translation: "the shade",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -20324,6 +21168,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Schatten",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the shade",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -20348,6 +21193,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Der alte Baum spendet ____.",
     answer: "Schatten",
+    translation: "The old tree provides shade.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -20372,6 +21218,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Badezimmer"',
     options: ["die", "das", "der"],
     answer: 1,
+    translation: "the bathroom",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -20397,6 +21244,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Badezimmer",
     answer: "das",
     acceptableAnswers: ["Das"],
+    translation: "the bathroom",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -20421,6 +21269,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Wir bieten ebenfalls zwei Zimmer mit separatem ____.",
     answer: "Badezimmer",
+    translation: "We also have two rooms with a separate bathroom.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -20445,6 +21294,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Plan"',
     options: ["die", "der", "das"],
     answer: 1,
+    translation: "the plan / plain",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -20470,6 +21320,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Plan",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the plan / plain",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -20494,6 +21345,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Ich bin absolut gegen den ____.",
     answer: "Plan",
+    translation: "I'm dead set against the plan.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -20518,6 +21370,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Zufall"',
     options: ["der", "das", "die"],
     answer: 0,
+    translation: "the chance / coincidence",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -20543,6 +21396,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Zufall",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the chance / coincidence",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -20567,6 +21421,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Das war lediglich ein ____.",
     answer: "Zufall",
+    translation: "That was just a coincidence.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -20591,6 +21446,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Scherz"',
     options: ["die", "der", "das"],
     answer: 1,
+    translation: "the joke",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -20616,6 +21472,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Scherz",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the joke",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -20640,6 +21497,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Es ist nur ein ____.",
     answer: "Scherz",
+    translation: "It is only a joke.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -20664,6 +21522,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Form"',
     options: ["das", "die", "der"],
     answer: 1,
+    translation: "the form",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -20689,6 +21548,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Form",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the form",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -20713,6 +21573,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Ich habe die ____ nicht entworfen.",
     answer: "Form",
+    translation: "I didn't design the form.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -20737,6 +21598,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Fahrer"',
     options: ["das", "die", "der"],
     answer: 2,
+    translation: "the driver",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -20762,6 +21624,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Fahrer",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the driver",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -20786,6 +21649,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Der ____ überholte das Auto.",
     answer: "Fahrer",
+    translation: "The driver overtook the car.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -20810,6 +21674,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Verhalten"',
     options: ["die", "das", "der"],
     answer: 1,
+    translation: "the behavior / behave / cautious",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -20835,6 +21700,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Verhalten",
     answer: "das",
     acceptableAnswers: ["Das"],
+    translation: "the behavior / behave / cautious",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -20859,6 +21725,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Jedes auffällige ____ wird gemeldet und untersucht.",
     answer: "Verhalten",
+    translation: "Any unusual behavior is to be reported and investigated.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -20883,6 +21750,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Garten"',
     options: ["die", "der", "das"],
     answer: 1,
+    translation: "the garden",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -20908,6 +21776,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Garten",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the garden",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -20932,6 +21801,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Das Haus hat einen großen ____.",
     answer: "Garten",
+    translation: "The house has a big garden.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -20956,6 +21826,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Großvater"',
     options: ["das", "der", "die"],
     answer: 1,
+    translation: "the grandfather",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -20981,6 +21852,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Großvater",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the grandfather",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -21005,6 +21877,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Dein ____ war ein guter Mensch.",
     answer: "Großvater",
+    translation: "Your grandfather was a good man.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -21029,6 +21902,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Energie"',
     options: ["die", "das", "der"],
     answer: 0,
+    translation: "the energy",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -21054,6 +21928,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Energie",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the energy",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -21079,6 +21954,8 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus:
       "Man kann dadurch ____ sparen, dass man beim Verlassen eines Zimmers das Licht ausschaltet.",
     answer: "Energie",
+    translation:
+      "You can save energy by turning off the lights when you leave a room.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -21103,6 +21980,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Star"',
     options: ["die", "das", "der"],
     answer: 2,
+    translation: "the star",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -21128,6 +22006,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Star",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the star",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -21152,6 +22031,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Der ____ der Show war John.",
     answer: "Star",
+    translation: "The star of the show was John.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -21176,6 +22056,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Kunst"',
     options: ["der", "die", "das"],
     answer: 1,
+    translation: "the art",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -21201,6 +22082,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Kunst",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the art",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -21225,6 +22107,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Der Hausherr beschäftigte sich schon früh mit ____.",
     answer: "Kunst",
+    translation: "The landlord already got involved with art quite early on.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -21249,6 +22132,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Mädel"',
     options: ["die", "der", "das"],
     answer: 2,
+    translation: "the girl (coll)",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -21274,6 +22158,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Mädel",
     answer: "das",
     acceptableAnswers: ["Das"],
+    translation: "the girl (coll)",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -21298,6 +22183,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Hol mir die Stiefel, ____.",
     answer: "Mädel",
+    translation: "Get those boots for me, girl.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -21322,6 +22208,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Priester"',
     options: ["die", "das", "der"],
     answer: 2,
+    translation: "the priest",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -21347,6 +22234,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Priester",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the priest",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -21371,6 +22259,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Der ____ beteiligte sich bei den Spielen der Kinder.",
     answer: "Priester",
+    translation: "The priest participated in the children's games.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -21395,6 +22284,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Zustand"',
     options: ["das", "der", "die"],
     answer: 1,
+    translation: "the condition",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -21420,6 +22310,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Zustand",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the condition",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -21444,6 +22335,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Sein ____ hat sich verbessert.",
     answer: "Zustand",
+    translation: "His condition changed for the better.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -21468,6 +22360,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Grenze"',
     options: ["die", "der", "das"],
     answer: 0,
+    translation: "the border",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -21493,6 +22386,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Grenze",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the border",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -21517,6 +22411,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Die ____ ist jetzt geschlossen.",
     answer: "Grenze",
+    translation: "The border is now closed.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -21541,6 +22436,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Interesse"',
     options: ["die", "das", "der"],
     answer: 1,
+    translation: "the interest",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -21566,6 +22462,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Interesse",
     answer: "das",
     acceptableAnswers: ["Das"],
+    translation: "the interest",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -21591,6 +22488,8 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus:
       "Wenn du ____ hast, sag Bescheid; dann gebe ich dir seine Nummer.",
     answer: "Interesse",
+    translation:
+      "If you're interested, let me know, and I'll give you his number.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -21615,6 +22514,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Berg"',
     options: ["das", "die", "der"],
     answer: 2,
+    translation: "the mountain",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -21640,6 +22540,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Berg",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the mountain",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -21664,6 +22565,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Sieh mal diesen hohen ____.",
     answer: "Berg",
+    translation: "Look at this high mountain.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -21688,6 +22590,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Story"',
     options: ["die", "der", "das"],
     answer: 0,
+    translation: "the story",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -21713,6 +22616,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Story",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the story",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -21738,6 +22642,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus:
       "Egal welche Zeitung du liest, die ____ wird immer die gleiche sein.",
     answer: "Story",
+    translation: "Any paper you read will tell the same story.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -21762,6 +22667,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Sonntag"',
     options: ["das", "der", "die"],
     answer: 1,
+    translation: "the Sunday",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -21787,6 +22693,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Sonntag",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the Sunday",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -21812,6 +22719,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus:
       "Der Geburtstag meines Vaters fällt in diesem Jahr auf einen ____.",
     answer: "Sonntag",
+    translation: "My father's birthday falls on Sunday this year.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -21836,6 +22744,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Kurs"',
     options: ["die", "der", "das"],
     answer: 1,
+    translation: "the course",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -21861,6 +22770,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Kurs",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the course",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -21885,6 +22795,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Der Kapitän des Schiffes entschied sich den ____ zu ändern.",
     answer: "Kurs",
+    translation: "The captain of the ship decided to change course.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -21909,6 +22820,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Einheit"',
     options: ["das", "der", "die"],
     answer: 2,
+    translation: "the unit / unity",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -21934,6 +22846,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Einheit",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the unit / unity",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -21958,6 +22871,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Einen schönen Tag der Deutschen ____!",
     answer: "Einheit",
+    translation: "Happy German Unity Day!",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -21982,6 +22896,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Mantel"',
     options: ["der", "die", "das"],
     answer: 0,
+    translation: "the coat",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -22007,6 +22922,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Mantel",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the coat",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -22031,6 +22947,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Ich werde meinen ____ darunter legen.",
     answer: "Mantel",
+    translation: "I'm going to put my coat underneath.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -22055,6 +22972,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Schüler"',
     options: ["das", "der", "die"],
     answer: 1,
+    translation: "the student",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -22080,6 +22998,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Schüler",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the student",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -22104,6 +23023,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "John ist einer meiner ____.",
     answer: "Schüler",
+    translation: "John is one of my students.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -22128,6 +23048,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Großmutter"',
     options: ["der", "die", "das"],
     answer: 1,
+    translation: "the grandmother",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -22153,6 +23074,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Großmutter",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the grandmother",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -22177,6 +23099,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Das ist die Halskette meiner ____.",
     answer: "Großmutter",
+    translation: "This is my grandmother's necklace.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -22201,6 +23124,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Dieb"',
     options: ["die", "der", "das"],
     answer: 1,
+    translation: "the thief",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -22226,6 +23150,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Dieb",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the thief",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -22250,6 +23175,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Der ____ bräuchte alle vier Schlüssel.",
     answer: "Dieb",
+    translation: "A thief would have to get all four keys.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -22274,6 +23200,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Zahn"',
     options: ["die", "der", "das"],
     answer: 1,
+    translation: "the tooth",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -22299,6 +23226,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Zahn",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the tooth",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -22323,6 +23251,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "John wurde gestern ein ____ gezogen.",
     answer: "Zahn",
+    translation: "John had a tooth pulled out yesterday.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -22347,6 +23276,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Erinnerung"',
     options: ["das", "die", "der"],
     answer: 1,
+    translation: "the memory",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -22372,6 +23302,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Erinnerung",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the memory",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -22396,6 +23327,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Sie wird immer in unserer ____ weiterleben.",
     answer: "Erinnerung",
+    translation: "She will forever live on in our memories.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -22420,6 +23352,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Norden"',
     options: ["die", "der", "das"],
     answer: 1,
+    translation: "the north",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -22445,6 +23378,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Norden",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the north",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -22469,6 +23403,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Wir bewegen uns nach ____.",
     answer: "Norden",
+    translation: "We are heading north.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -22493,6 +23428,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Koch"',
     options: ["die", "der", "das"],
     answer: 1,
+    translation: "the cook",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -22518,6 +23454,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Koch",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the cook",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -22542,6 +23479,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Der ____ sitzt in der Küche.",
     answer: "Koch",
+    translation: "The cook is sitting in the kitchen.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -22566,6 +23504,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Handy"',
     options: ["das", "der", "die"],
     answer: 0,
+    translation: "the cell phone",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -22591,6 +23530,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Handy",
     answer: "das",
     acceptableAnswers: ["Das"],
+    translation: "the cell phone",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -22615,6 +23555,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Dieses ____ ist wirklich teuer.",
     answer: "Handy",
+    translation: "This cell phone is really expensive.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -22639,6 +23580,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Gebiet"',
     options: ["das", "der", "die"],
     answer: 0,
+    translation: "the area",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -22664,6 +23606,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Gebiet",
     answer: "das",
     acceptableAnswers: ["Das"],
+    translation: "the area",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -22688,6 +23631,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Ich wohne in einem ländlichen ____.",
     answer: "Gebiet",
+    translation: "I live in a rural area.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -22712,6 +23656,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Abteilung"',
     options: ["der", "die", "das"],
     answer: 1,
+    translation: "the department",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -22737,6 +23682,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Abteilung",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the department",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -22761,6 +23707,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "In welcher ____ arbeitet ihr?",
     answer: "Abteilung",
+    translation: "In which department do you work?",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -22785,6 +23732,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Kohle"',
     options: ["das", "die", "der"],
     answer: 1,
+    translation: "the coal / money (coll)",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -22810,6 +23758,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Kohle",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the coal / money (coll)",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -22834,6 +23783,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Sie ersetzten ____ durch Öl.",
     answer: "Kohle",
+    translation: "They replaced coal with oil.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -22858,6 +23808,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Staat"',
     options: ["der", "die", "das"],
     answer: 0,
+    translation: "the state",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -22883,6 +23834,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Staat",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the state",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -22907,6 +23859,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Vielleicht durfte er den ____ nicht verlassen.",
     answer: "Staat",
+    translation: "Maybe he wasn't allowed to leave the state.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -22931,6 +23884,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Publikum"',
     options: ["das", "der", "die"],
     answer: 0,
+    translation: "the audience",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -22956,6 +23910,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Publikum",
     answer: "das",
     acceptableAnswers: ["Das"],
+    translation: "the audience",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -22980,6 +23935,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Ob wir eine Zugabe spielen oder nicht, hängt vom ____ ab.",
     answer: "Publikum",
+    translation: "Whether or not we play an encore, depends on the audience.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -23004,6 +23960,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Hemd"',
     options: ["das", "der", "die"],
     answer: 0,
+    translation: "the shirt",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -23029,6 +23986,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Hemd",
     answer: "das",
     acceptableAnswers: ["Das"],
+    translation: "the shirt",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -23053,6 +24011,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Ich will das ____ ausziehen.",
     answer: "Hemd",
+    translation: "I want to take the shirt off.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -23077,6 +24036,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Stuhl"',
     options: ["das", "der", "die"],
     answer: 1,
+    translation: "the chair",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -23102,6 +24062,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Stuhl",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the chair",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -23126,6 +24087,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Der ____ hat eine bemerkenswerte Geschichte.",
     answer: "Stuhl",
+    translation: "There is a strange story about that chair.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -23150,6 +24112,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Krankheit"',
     options: ["die", "das", "der"],
     answer: 0,
+    translation: "the illness",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -23175,6 +24138,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Krankheit",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the illness",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -23199,6 +24163,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Die ____ hat Ihren Organismus geschwächt.",
     answer: "Krankheit",
+    translation: "The illness has weakened your organism.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -23223,6 +24188,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Inspektor"',
     options: ["der", "die", "das"],
     answer: 0,
+    translation: "the inspector",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -23248,6 +24214,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Inspektor",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the inspector",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -23272,6 +24239,8 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Die Mitgliedstaaten stellen jedem ____ einen Ausweis aus.",
     answer: "Inspektor",
+    translation:
+      "The Member States shall issue an identity document to each inspector.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -23296,6 +24265,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Nachbar"',
     options: ["das", "die", "der"],
     answer: 2,
+    translation: "the neighbor",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -23321,6 +24291,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Nachbar",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the neighbor",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -23345,6 +24316,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Mein ____ ist auch Italiener.",
     answer: "Nachbar",
+    translation: "I have an Italian neighbor, too.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -23369,6 +24341,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Song"',
     options: ["der", "das", "die"],
     answer: 0,
+    translation: "the song",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -23394,6 +24367,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Song",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the song",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -23419,6 +24393,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus:
       "Ihr kennt diesen ____ nicht, also versucht ihn nicht mitzusingen.",
     answer: "Song",
+    translation: "You don't know this song, so don't try to sing along.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -23443,6 +24418,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Winter"',
     options: ["der", "das", "die"],
     answer: 0,
+    translation: "the winter",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -23468,6 +24444,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Winter",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the winter",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -23492,6 +24469,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Wir haben viel Schnee im ____.",
     answer: "Winter",
+    translation: "We have a lot of snow in the winter.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -23516,6 +24494,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Vorstellung"',
     options: ["der", "das", "die"],
     answer: 2,
+    translation: "the idea / presentation",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -23541,6 +24520,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Vorstellung",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the idea / presentation",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -23565,6 +24545,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Ich persönlich halte diese ____ für ziemlich romantisch.",
     answer: "Vorstellung",
+    translation: "Personally, I conceive this idea as quite romantic, though.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -23589,6 +24570,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Medizin"',
     options: ["das", "die", "der"],
     answer: 1,
+    translation: "the medicine",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -23614,6 +24596,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Medizin",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the medicine",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -23638,6 +24621,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Ich studiere ____ im Hauptfach.",
     answer: "Medizin",
+    translation: "I am majoring in medicine.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -23662,6 +24646,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Rechnung"',
     options: ["die", "der", "das"],
     answer: 0,
+    translation: "the bill",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -23687,6 +24672,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Rechnung",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the bill",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -23711,6 +24697,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "John hat die ____ bezahlt.",
     answer: "Rechnung",
+    translation: "John paid the bill.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -23735,6 +24722,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Presse"',
     options: ["die", "der", "das"],
     answer: 0,
+    translation: "the press",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -23760,6 +24748,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Presse",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the press",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -23784,6 +24773,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Die ____ bestätigte die Gerüchte.",
     answer: "Presse",
+    translation: "The press confirmed the rumors.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -23808,6 +24798,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Zunge"',
     options: ["das", "der", "die"],
     answer: 2,
+    translation: "the tongue",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -23833,6 +24824,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Zunge",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the tongue",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -23857,6 +24849,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Meine ____ fühlte sich behaart an.",
     answer: "Zunge",
+    translation: "My tongue felt like it had hair on it.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -23881,6 +24874,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Streit"',
     options: ["der", "die", "das"],
     answer: 0,
+    translation: "the dispute",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -23906,6 +24900,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Streit",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the dispute",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -23930,6 +24925,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Ein ____ entfremdete die Jungen einander.",
     answer: "Streit",
+    translation: "A dispute estranged one boy from the other.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -23954,6 +24950,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Toilette"',
     options: ["das", "die", "der"],
     answer: 1,
+    translation: "the toilet",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -23979,6 +24976,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Toilette",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the toilet",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -24003,6 +25001,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Es gibt eine separate ____ mit Waschbecken.",
     answer: "Toilette",
+    translation: "There is a separate toilet with a washbasin.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -24027,6 +25026,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Trick"',
     options: ["die", "das", "der"],
     answer: 2,
+    translation: "the trick",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -24052,6 +25052,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Trick",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the trick",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -24076,6 +25077,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Das gestern war ein guter ____.",
     answer: "Trick",
+    translation: "That was a neat trick you did yesterday.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -24100,6 +25102,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Termin"',
     options: ["die", "der", "das"],
     answer: 1,
+    translation: "the appointment / deadline",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -24125,6 +25128,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Termin",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the appointment / deadline",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -24149,6 +25153,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Haben Sie bei ihm einen ____?",
     answer: "Termin",
+    translation: "Do you have an appointment with him?",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -24173,6 +25178,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Bauch"',
     options: ["der", "die", "das"],
     answer: 0,
+    translation: "the stomach",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -24198,6 +25204,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Bauch",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the stomach",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -24222,6 +25229,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Lege dich auf den ____.",
     answer: "Bauch",
+    translation: "Lie on your stomach.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -24246,6 +25254,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Aufmerksamkeit"',
     options: ["die", "das", "der"],
     answer: 0,
+    translation: "the attention",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -24271,6 +25280,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Aufmerksamkeit",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the attention",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -24295,6 +25305,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Unsere Kinder verlangen ständige ____.",
     answer: "Aufmerksamkeit",
+    translation: "Our children always demand our attention.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -24319,6 +25330,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Führer"',
     options: ["der", "das", "die"],
     answer: 0,
+    translation: "the leader / guide",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -24344,6 +25356,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Führer",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the leader / guide",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -24368,6 +25381,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Ihr Vater hat unseren geliebten ____ erschossen.",
     answer: "Führer",
+    translation: "Her father shot and killed our beloved leader.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -24392,6 +25406,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Hintergrund"',
     options: ["der", "die", "das"],
     answer: 0,
+    translation: "the background",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -24417,6 +25432,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Hintergrund",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the background",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -24441,6 +25457,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Das zeigt seinen theoretischen ____.",
     answer: "Hintergrund",
+    translation: "That shows his theoretical background.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -24465,6 +25482,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Tatsache"',
     options: ["der", "das", "die"],
     answer: 2,
+    translation: "the fact",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -24490,6 +25508,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Tatsache",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the fact",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -24514,6 +25533,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Wir haben diese wichtige ____ außer Acht gelassen.",
     answer: "Tatsache",
+    translation: "We have overlooked this important fact.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -24538,6 +25558,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Roboter"',
     options: ["die", "das", "der"],
     answer: 2,
+    translation: "the robot",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -24563,6 +25584,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Roboter",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the robot",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -24587,6 +25609,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Jeder Android ist ein ____.",
     answer: "Roboter",
+    translation: "Every android is a robot.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -24611,6 +25634,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Treppe"',
     options: ["der", "die", "das"],
     answer: 1,
+    translation: "the stairs",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -24636,6 +25660,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Treppe",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the stairs",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -24660,6 +25685,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Gehen Sie die ____ hinauf.",
     answer: "Treppe",
+    translation: "Go up the stairs.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -24684,6 +25710,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Erklärung"',
     options: ["die", "der", "das"],
     answer: 0,
+    translation: "the explanation",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -24709,6 +25736,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Erklärung",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the explanation",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -24733,6 +25761,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Eine so kurze ____ wäre mir nicht eingefallen.",
     answer: "Erklärung",
+    translation: "I couldn't think of a brief explanation.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -24757,6 +25786,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Decke"',
     options: ["der", "das", "die"],
     answer: 2,
+    translation: "the blanket",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -24782,6 +25812,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Decke",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the blanket",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -24806,6 +25837,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Ich brauche eine ____ für ihn.",
     answer: "Decke",
+    translation: "I need a blanket for him.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -24830,6 +25862,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Montag"',
     options: ["die", "das", "der"],
     answer: 2,
+    translation: "the Monday",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -24855,6 +25888,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Montag",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the Monday",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -24879,6 +25913,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Am ____ arbeite ich nicht.",
     answer: "Montag",
+    translation: "I don't work on Mondays.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -24903,6 +25938,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Programm"',
     options: ["das", "die", "der"],
     answer: 0,
+    translation: "the program",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -24928,6 +25964,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Programm",
     answer: "das",
     acceptableAnswers: ["Das"],
+    translation: "the program",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -24953,6 +25990,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus:
       "Wenn Sie nicht über dieses ____ verfügen, können Sie es jetzt herunterladen.",
     answer: "Programm",
+    translation: "If you do not have this program, you can download it now.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -24977,6 +26015,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Einsatz"',
     options: ["der", "die", "das"],
     answer: 0,
+    translation: "the use / commitment",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -25002,6 +26041,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Einsatz",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the use / commitment",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -25026,6 +26066,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Kann man den ____ von Gewalt rechtfertigen?",
     answer: "Einsatz",
+    translation: "Can you justify the use of violence?",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -25050,6 +26091,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Wüste"',
     options: ["das", "die", "der"],
     answer: 1,
+    translation: "the desert",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -25075,6 +26117,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Wüste",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the desert",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -25099,6 +26142,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Die Sahara ist eine ____.",
     answer: "Wüste",
+    translation: "The Sahara is a desert.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -25123,6 +26167,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Schnee"',
     options: ["das", "der", "die"],
     answer: 1,
+    translation: "the snow",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -25148,6 +26193,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Schnee",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the snow",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -25172,6 +26218,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Der ganze ____ auf dem Berg ist verschwunden.",
     answer: "Schnee",
+    translation: "All the snow on the mountain has disappeared.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -25196,6 +26243,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Signal"',
     options: ["die", "das", "der"],
     answer: 1,
+    translation: "the signal",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -25221,6 +26269,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Signal",
     answer: "das",
     acceptableAnswers: ["Das"],
+    translation: "the signal",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -25245,6 +26294,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Moment, ich empfange ein ____.",
     answer: "Signal",
+    translation: "Just a second, I'm picking up a signal.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -25269,6 +26319,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Bedingung"',
     options: ["der", "die", "das"],
     answer: 1,
+    translation: "the condition",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -25294,6 +26345,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Bedingung",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the condition",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -25318,6 +26370,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Die ____ behagt mir ganz und gar nicht.",
     answer: "Bedingung",
+    translation: "I am not at all pleased with the condition.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -25342,6 +26395,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Unrecht"',
     options: ["die", "der", "das"],
     answer: 2,
+    translation: "the injustice / wrong",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -25367,6 +26421,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Unrecht",
     answer: "das",
     acceptableAnswers: ["Das"],
+    translation: "the injustice / wrong",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -25391,6 +26446,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Ich hatte ____ und habe überreagiert.",
     answer: "Unrecht",
+    translation: "I was wrong, and I overreacted.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -25415,6 +26471,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Truppe"',
     options: ["die", "das", "der"],
     answer: 0,
+    translation: "the troops",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -25440,6 +26497,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Truppe",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the troops",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -25464,6 +26522,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Der General inspizierte die ____.",
     answer: "Truppe",
+    translation: "The general inspected the troops.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -25488,6 +26547,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Bedeutung"',
     options: ["die", "das", "der"],
     answer: 0,
+    translation: "the meaning",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -25513,6 +26573,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Bedeutung",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the meaning",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -25537,6 +26598,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Dieses Gefühl verleiht deiner Arbeit ____.",
     answer: "Bedeutung",
+    translation: "It's that feeling that will give your work meaning.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -25561,6 +26623,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Jacke"',
     options: ["die", "der", "das"],
     answer: 0,
+    translation: "the jacket / coat",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -25586,6 +26649,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Jacke",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the jacket / coat",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -25610,6 +26674,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Machen Sie den dritten Knopf ihrer teuren ____ zu.",
     answer: "Jacke",
+    translation: "Do up the third button of your expensive jacket.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -25634,6 +26699,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Erlaubnis"',
     options: ["der", "die", "das"],
     answer: 1,
+    translation: "the permission",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -25659,6 +26725,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Erlaubnis",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the permission",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -25683,6 +26750,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Du brauchst die ____ der beiden.",
     answer: "Erlaubnis",
+    translation: "You have to get their permission first.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -25707,6 +26775,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Bahn"',
     options: ["der", "die", "das"],
     answer: 1,
+    translation: "the railroad / train",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -25732,6 +26801,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Bahn",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the railroad / train",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -25756,6 +26826,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Wir haben die ____ verpasst.",
     answer: "Bahn",
+    translation: "We missed the train.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -25780,6 +26851,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Kuh"',
     options: ["das", "die", "der"],
     answer: 1,
+    translation: "the cow",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -25805,6 +26877,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Kuh",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the cow",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -25829,6 +26902,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Nicole hier ist so gelassen wie eine hinduistische ____.",
     answer: "Kuh",
+    translation: "Nicole here is as calm as a Hindu cow.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -25853,6 +26927,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Träne"',
     options: ["das", "der", "die"],
     answer: 2,
+    translation: "the tear",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -25878,6 +26953,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Träne",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the tear",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -25902,6 +26978,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Geschmack"',
     options: ["das", "die", "der"],
     answer: 2,
+    translation: "the taste",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -25927,6 +27004,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Geschmack",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the taste",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -25952,6 +27030,8 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus:
       "Diese Frucht hat die Form einer Orange und den ____ einer Ananas.",
     answer: "Geschmack",
+    translation:
+      "This fruit is shaped like an orange and tastes like a pineapple.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -25976,6 +27056,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Absicht"',
     options: ["das", "die", "der"],
     answer: 1,
+    translation: "the intention",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -26001,6 +27082,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Absicht",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the intention",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -26025,6 +27107,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Ich rede über die ____ dahinter.",
     answer: "Absicht",
+    translation: "I'm talking about the intention behind it.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -26049,6 +27132,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Labor"',
     options: ["der", "die", "das"],
     answer: 2,
+    translation: "the laboratory",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -26074,6 +27158,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Labor",
     answer: "das",
     acceptableAnswers: ["Das"],
+    translation: "the laboratory",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -26098,6 +27183,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Ich werde diese Probe zum ____ weiterleiten.",
     answer: "Labor",
+    translation: "I'll run this specimen over to the laboratory.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -26122,6 +27208,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Eindruck"',
     options: ["der", "die", "das"],
     answer: 0,
+    translation: "the impression",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -26147,6 +27234,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Eindruck",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the impression",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -26171,6 +27259,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Ich muss einen positiven ____ machen.",
     answer: "Eindruck",
+    translation: "I must make a good impression.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -26195,6 +27284,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Prozent"',
     options: ["die", "das", "der"],
     answer: 1,
+    translation: "the percent",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -26220,6 +27310,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Prozent",
     answer: "das",
     acceptableAnswers: ["Das"],
+    translation: "the percent",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -26244,6 +27335,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Wir kriegen fünf ____ pro Tisch.",
     answer: "Prozent",
+    translation: "We get five percent of every table.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -26268,6 +27360,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Mühe"',
     options: ["der", "das", "die"],
     answer: 2,
+    translation: "the effort",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -26293,6 +27386,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Mühe",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the effort",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -26317,6 +27411,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Mit viel ____ wurde diese Union möglich.",
     answer: "Mühe",
+    translation: "Much effort has gone into making this union possible",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -26341,6 +27436,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Code"',
     options: ["das", "die", "der"],
     answer: 2,
+    translation: "the code",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -26366,6 +27462,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Code",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the code",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -26390,6 +27487,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Ich habe den ____ vergessen.",
     answer: "Code",
+    translation: "I have forgotten the code.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -26414,6 +27512,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Linie"',
     options: ["das", "die", "der"],
     answer: 1,
+    translation: "the line",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -26439,6 +27538,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Linie",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the line",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -26463,6 +27563,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Standardmäßig ist die erste ____ des Rasters bereits vorhanden.",
     answer: "Linie",
+    translation: "By default, the first line of the grid is already present.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -26487,6 +27588,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Gift"',
     options: ["das", "die", "der"],
     answer: 0,
+    translation: "the poison",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -26512,6 +27614,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Gift",
     answer: "das",
     acceptableAnswers: ["Das"],
+    translation: "the poison",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -26536,6 +27639,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Ich weiß nichts über ein ____.",
     answer: "Gift",
+    translation: "I don't know anything about any poison.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -26560,6 +27664,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Brief"',
     options: ["der", "das", "die"],
     answer: 0,
+    translation: "the letter",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -26585,6 +27690,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Brief",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the letter",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -26609,6 +27715,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Ich erhielt einen freundlichen ____.",
     answer: "Brief",
+    translation: "I received a friendly letter.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -26633,6 +27740,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Zucker"',
     options: ["die", "das", "der"],
     answer: 2,
+    translation: "the sugar",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -26658,6 +27766,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Zucker",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the sugar",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -26682,6 +27791,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Geben Sie keinen ____ ins Wasser.",
     answer: "Zucker",
+    translation: "Don't put any sugar in the water.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -26706,6 +27816,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Untersuchung"',
     options: ["das", "die", "der"],
     answer: 1,
+    translation: "the investigation / examination",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -26731,6 +27842,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Untersuchung",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the investigation / examination",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -26755,6 +27867,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Damit ist Ihre ____ offiziell beendet.",
     answer: "Untersuchung",
+    translation: "This officially concludes your investigation.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -26779,6 +27892,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Stil"',
     options: ["die", "das", "der"],
     answer: 2,
+    translation: "the style",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -26804,6 +27918,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Stil",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the style",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -26828,6 +27943,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Das ist nicht mein ____.",
     answer: "Stil",
+    translation: "It's not my style.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -26852,6 +27968,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Kiste"',
     options: ["der", "das", "die"],
     answer: 2,
+    translation: "the box",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -26877,6 +27994,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Kiste",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the box",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -26901,6 +28019,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Sie ist immer noch in einer ____.",
     answer: "Kiste",
+    translation: "She is still in a box.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -26925,6 +28044,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Flucht"',
     options: ["der", "die", "das"],
     answer: 1,
+    translation: "the escape",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -26950,6 +28070,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Flucht",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the escape",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -26974,6 +28095,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Ich wusste nichts von der ____.",
     answer: "Flucht",
+    translation: "I knew nothing about the escape.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -26998,6 +28120,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Kleidung"',
     options: ["der", "die", "das"],
     answer: 1,
+    translation: "the clothes",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -27023,6 +28146,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Kleidung",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the clothes",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -27047,6 +28171,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Wie oft wäschst du deine ____?",
     answer: "Kleidung",
+    translation: "How often do you wash your clothes?",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -27071,6 +28196,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Projekt"',
     options: ["der", "das", "die"],
     answer: 1,
+    translation: "the project",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -27096,6 +28222,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Projekt",
     answer: "das",
     acceptableAnswers: ["Das"],
+    translation: "the project",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -27121,6 +28248,8 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus:
       "Wir brauchen noch einmal drei Millionen Dollar, um dieses ____ zu Ende zu führen.",
     answer: "Projekt",
+    translation:
+      "We need another three million dollars to complete this project.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -27145,6 +28274,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Gerechtigkeit"',
     options: ["das", "die", "der"],
     answer: 1,
+    translation: "the justice",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -27170,6 +28300,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Gerechtigkeit",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the justice",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -27194,6 +28325,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Man kann hier keine ____ erwarten.",
     answer: "Gerechtigkeit",
+    translation: "You can't expect justice here.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -27218,6 +28350,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Ei"',
     options: ["die", "der", "das"],
     answer: 2,
+    translation: "the egg",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -27243,6 +28376,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Ei",
     answer: "das",
     acceptableAnswers: ["Das"],
+    translation: "the egg",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -27267,6 +28401,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Not"',
     options: ["der", "das", "die"],
     answer: 2,
+    translation: "the need / distress",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -27292,6 +28427,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Not",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the need / distress",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -27316,6 +28452,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Sie würde niemanden in ____ wegschicken.",
     answer: "Not",
+    translation: "She won't turn away any man in need.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -27340,6 +28477,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Strom"',
     options: ["die", "das", "der"],
     answer: 2,
+    translation: "the current / electricity",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -27365,6 +28503,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Strom",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the current / electricity",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -27389,6 +28528,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Diese Maschine erzeugt ____ für unseren täglichen Bedarf.",
     answer: "Strom",
+    translation: "This machine produces electricity for our daily use.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -27413,6 +28553,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Mittag"',
     options: ["das", "der", "die"],
     answer: 1,
+    translation: "the noon",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -27438,6 +28579,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Mittag",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the noon",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -27462,6 +28604,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Wir essen gegen ____ Mittagessen.",
     answer: "Mittag",
+    translation: "We have lunch at about noon.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -27486,6 +28629,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Explosion"',
     options: ["die", "das", "der"],
     answer: 0,
+    translation: "the explosion",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -27511,6 +28655,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Explosion",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the explosion",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -27535,6 +28680,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Es kam einer ____ gefährlich nahe.",
     answer: "Explosion",
+    translation: "It was dangerously close to an explosion.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -27559,6 +28705,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Gnade"',
     options: ["der", "die", "das"],
     answer: 1,
+    translation: "the mercy",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -27584,6 +28731,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Gnade",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the mercy",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -27608,6 +28756,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Ich unterwerfe mich der ____ des Gerichts.",
     answer: "Gnade",
+    translation: "I'm throwing myself on the mercy of the court.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -27632,6 +28781,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Künstler"',
     options: ["das", "der", "die"],
     answer: 1,
+    translation: "the artist",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -27657,6 +28807,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Künstler",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the artist",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -27681,6 +28832,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Sie sind ein sehr begabter ____.",
     answer: "Künstler",
+    translation: "You're a very gifted artist.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -27705,6 +28857,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Scheck"',
     options: ["das", "die", "der"],
     answer: 2,
+    translation: "the check",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -27730,6 +28883,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Scheck",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the check",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -27754,6 +28908,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Ich schreibe meine Telefonnummer auf den ____.",
     answer: "Scheck",
+    translation: "I'll write my phone number on the check.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -27778,6 +28933,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Person"',
     options: ["der", "die", "das"],
     answer: 1,
+    translation: "the person",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -27803,6 +28959,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Person",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the person",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -27827,6 +28984,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Er ist die längste ____ in der Klasse.",
     answer: "Person",
+    translation: "He is the tallest person in the class.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -27851,6 +29009,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Bürger"',
     options: ["das", "der", "die"],
     answer: 1,
+    translation: "the citizen",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -27876,6 +29035,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Bürger",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the citizen",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -27900,6 +29060,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Ein guter ____ folgt dem Gesetz.",
     answer: "Bürger",
+    translation: "A good citizen obeys the laws.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -27924,6 +29085,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Gegenteil"',
     options: ["der", "das", "die"],
     answer: 1,
+    translation: "the opposite",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -27949,6 +29111,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Gegenteil",
     answer: "das",
     acceptableAnswers: ["Das"],
+    translation: "the opposite",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -27973,6 +29136,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Er hat das ____ getan.",
     answer: "Gegenteil",
+    translation: "He did the opposite.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -27997,6 +29161,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Benehmen"',
     options: ["die", "das", "der"],
     answer: 1,
+    translation: "the behavior / behave",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -28022,6 +29187,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Benehmen",
     answer: "das",
     acceptableAnswers: ["Das"],
+    translation: "the behavior / behave",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -28046,6 +29212,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Ich trage die Verantwortung für Janes ____.",
     answer: "Benehmen",
+    translation: "I have to take responsibility for Jane's behavior.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -28070,6 +29237,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Magen"',
     options: ["das", "die", "der"],
     answer: 2,
+    translation: "the stomach",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -28095,6 +29263,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Magen",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the stomach",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -28119,6 +29288,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Ich sterbe nicht mit leerem ____.",
     answer: "Magen",
+    translation: "I'm not dying on an empty stomach.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -28143,6 +29313,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Hof"',
     options: ["das", "die", "der"],
     answer: 2,
+    translation: "the yard",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -28168,6 +29339,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Hof",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the yard",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -28192,6 +29364,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Aus dem ____ riecht es sehr ausgereift.",
     answer: "Hof",
+    translation: "It smells pretty ripe out in that yard.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -28216,6 +29389,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Hütte"',
     options: ["das", "der", "die"],
     answer: 2,
+    translation: "the hut",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -28241,6 +29415,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Hütte",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the hut",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -28265,6 +29440,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Wir sahen eine alte ____ am Waldesrand stehen.",
     answer: "Hütte",
+    translation: "We saw an old hut standing at the margin of the forest.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -28289,6 +29465,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Fabrik"',
     options: ["der", "das", "die"],
     answer: 2,
+    translation: "the factory",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -28314,6 +29491,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Fabrik",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the factory",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -28338,6 +29516,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Die ____ stellt Elektroherde her.",
     answer: "Fabrik",
+    translation: "This factory manufactures electric stoves.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -28362,6 +29541,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Titel"',
     options: ["die", "der", "das"],
     answer: 1,
+    translation: "the title",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -28387,6 +29567,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Titel",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the title",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -28411,6 +29592,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Diesen neuen ____ empfehlen wir vorbehaltlos.",
     answer: "Titel",
+    translation: "This is the title which we warmly recommend.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -28435,6 +29617,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Uniform"',
     options: ["der", "die", "das"],
     answer: 1,
+    translation: "the uniform",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -28460,6 +29643,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Uniform",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the uniform",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -28484,6 +29668,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Als Erstes müssen Sie diese ____ loswerden.",
     answer: "Uniform",
+    translation: "First, you have to get rid of that uniform.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -28508,6 +29693,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Kollege"',
     options: ["das", "die", "der"],
     answer: 2,
+    translation: "the colleague",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -28533,6 +29719,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Kollege",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the colleague",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -28557,6 +29744,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Mein ____ hat einen Kollegen.",
     answer: "Kollege",
+    translation: "My colleague has a colleague.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -28581,6 +29769,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Benzin"',
     options: ["der", "das", "die"],
     answer: 1,
+    translation: "the petrol",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -28606,6 +29795,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Benzin",
     answer: "das",
     acceptableAnswers: ["Das"],
+    translation: "the petrol",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -28631,6 +29821,8 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus:
       "Ich lebe in einem Land, in dem ein Liter ____ billiger als ein Liter Wasser ist.",
     answer: "Benzin",
+    translation:
+      "I live in a country where a liter of petrol is cheaper than a liter of water.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -28655,6 +29847,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Freundschaft"',
     options: ["der", "die", "das"],
     answer: 1,
+    translation: "the friendship",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -28680,6 +29873,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Freundschaft",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the friendship",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -28704,6 +29898,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Ich würde diese ____ gegen nichts eintauschen.",
     answer: "Freundschaft",
+    translation: "I wouldn't exchange that friendship for anything.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -28728,6 +29923,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Markt"',
     options: ["die", "der", "das"],
     answer: 1,
+    translation: "the market",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -28753,6 +29949,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Markt",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the market",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -28777,6 +29974,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Normalerweise gehe ich am Freitag auf den ____.",
     answer: "Markt",
+    translation: "I usually go to the market on Friday.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -28801,6 +29999,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Cousin"',
     options: ["der", "das", "die"],
     answer: 0,
+    translation: "the cousin",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -28826,6 +30025,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Cousin",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the cousin",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -28850,6 +30050,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Sie erinnern mich an einen entfernten ____.",
     answer: "Cousin",
+    translation: "You remind me of a distant cousin.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -28874,6 +30075,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Aufnahme"',
     options: ["der", "die", "das"],
     answer: 1,
+    translation: "the admission / recording",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -28899,6 +30101,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Aufnahme",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the admission / recording",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -28923,6 +30126,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Danke für die schnelle ____.",
     answer: "Aufnahme",
+    translation: "Thank you for the quick admission.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -28947,6 +30151,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Sand"',
     options: ["das", "der", "die"],
     answer: 1,
+    translation: "the sand",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -28972,6 +30177,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Sand",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the sand",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -28996,6 +30202,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Jane grub ihre Zehen in den warmen ____.",
     answer: "Sand",
+    translation: "Jane buried her toes in the warm sand.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -29020,6 +30227,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Narr"',
     options: ["das", "der", "die"],
     answer: 1,
+    translation: "the fool",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -29045,6 +30253,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Narr",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the fool",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -29069,6 +30278,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Müll"',
     options: ["das", "der", "die"],
     answer: 1,
+    translation: "the garbage",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -29094,6 +30304,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Müll",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the garbage",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -29118,6 +30329,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Vergiss nicht, den ____ rauszubringen.",
     answer: "Müll",
+    translation: "Don't forget to take out the garbage.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -29142,6 +30354,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Studio"',
     options: ["der", "das", "die"],
     answer: 1,
+    translation: "the studio",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -29167,6 +30380,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Studio",
     answer: "das",
     acceptableAnswers: ["Das"],
+    translation: "the studio",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -29191,6 +30405,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Wir können nicht ins ____ gehen.",
     answer: "Studio",
+    translation: "We cannot go into the studio.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -29215,6 +30430,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Ratte"',
     options: ["der", "das", "die"],
     answer: 2,
+    translation: "the rat",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -29240,6 +30456,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Ratte",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the rat",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -29264,6 +30481,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Die ____ hat mich heute sitzen lassen.",
     answer: "Ratte",
+    translation: "Actually, the rat stood me up today.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -29288,6 +30506,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Figur"',
     options: ["die", "das", "der"],
     answer: 0,
+    translation: "the figure",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -29313,6 +30532,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Figur",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the figure",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -29337,6 +30557,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Sie hat eine perfekte ____.",
     answer: "Figur",
+    translation: "She has a perfect figure.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -29361,6 +30582,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Datum"',
     options: ["die", "der", "das"],
     answer: 2,
+    translation: "the date",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -29386,6 +30608,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Datum",
     answer: "das",
     acceptableAnswers: ["Das"],
+    translation: "the date",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -29410,6 +30633,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Meine Uhr gibt das ____ an.",
     answer: "Datum",
+    translation: "My watch tells the date.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -29434,6 +30658,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Scheidung"',
     options: ["das", "der", "die"],
     answer: 2,
+    translation: "the divorce / separation",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -29459,6 +30684,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Scheidung",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the divorce / separation",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -29483,6 +30709,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Ich machte auch gerade eine ____ durch.",
     answer: "Scheidung",
+    translation: "Anyway, I was also going through a divorce.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -29507,6 +30734,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Verbrecher"',
     options: ["die", "das", "der"],
     answer: 2,
+    translation: "the criminal",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -29532,6 +30760,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Verbrecher",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the criminal",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -29556,6 +30785,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Oder verfolge einen echten ____.",
     answer: "Verbrecher",
+    translation: "Or you can go after a real criminal.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -29580,6 +30810,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Universum"',
     options: ["die", "das", "der"],
     answer: 1,
+    translation: "the universe",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -29605,6 +30836,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Universum",
     answer: "das",
     acceptableAnswers: ["Das"],
+    translation: "the universe",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -29629,6 +30861,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Ich mache diesem vergifteten ____ ein Ende.",
     answer: "Universum",
+    translation: "And I will put an end to this poisoned universe.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -29653,6 +30886,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Schrank"',
     options: ["der", "die", "das"],
     answer: 0,
+    translation: "the cabinet",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -29678,6 +30912,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Schrank",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the cabinet",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -29702,6 +30937,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Es ist im ____ hinter den Spirituosenflaschen.",
     answer: "Schrank",
+    translation: "It's in the cabinet behind the liquor bottles.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -29726,6 +30962,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Reifen"',
     options: ["die", "das", "der"],
     answer: 2,
+    translation: "the tire / mature",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -29751,6 +30988,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Reifen",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the tire / mature",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -29775,6 +31013,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Der ____ war gar nicht platt.",
     answer: "Reifen",
+    translation: "The tire was not flat after all.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -29799,6 +31038,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Besitzer"',
     options: ["das", "der", "die"],
     answer: 1,
+    translation: "the owner",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -29824,6 +31064,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Besitzer",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the owner",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -29848,6 +31089,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "John ist der ____ dieses Grundstücks.",
     answer: "Besitzer",
+    translation: "John is the owner of this land.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -29872,6 +31114,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Notfall"',
     options: ["der", "das", "die"],
     answer: 0,
+    translation: "the emergency",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -29897,6 +31140,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Notfall",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the emergency",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -29921,6 +31165,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Es ist ein ____, John.",
     answer: "Notfall",
+    translation: "It's an emergency, John.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -29945,6 +31190,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Gesundheit"',
     options: ["das", "der", "die"],
     answer: 2,
+    translation: "the health",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -29970,6 +31216,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Gesundheit",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the health",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -29994,6 +31241,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Mit seiner ____ sollte man nicht spielen.",
     answer: "Gesundheit",
+    translation: "You shouldn't play games with your health.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -30018,6 +31266,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Ware"',
     options: ["das", "die", "der"],
     answer: 1,
+    translation: "the goods",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -30043,6 +31292,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Ware",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the goods",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -30067,6 +31317,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Die ____ wird erst mit Zahlungseingang versandt.",
     answer: "Ware",
+    translation: "The goods will be shipped with receipt of payment.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -30091,6 +31342,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "West"',
     options: ["der", "die", "das"],
     answer: 0,
+    translation: "the west",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -30116,6 +31368,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ West",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the west",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -30140,6 +31393,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Er fuhr von ____ nach Ost.",
     answer: "West",
+    translation: "He was heading west to east.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -30164,6 +31418,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Mitglied"',
     options: ["die", "der", "das"],
     answer: 2,
+    translation: "the member",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -30189,6 +31444,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Mitglied",
     answer: "das",
     acceptableAnswers: ["Das"],
+    translation: "the member",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -30213,6 +31469,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Ich bin ein ____ der Mannschaft.",
     answer: "Mitglied",
+    translation: "I'm a member of the team.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -30237,6 +31494,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Beerdigung"',
     options: ["die", "das", "der"],
     answer: 0,
+    translation: "the funeral",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -30262,6 +31520,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Beerdigung",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the funeral",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -30286,6 +31545,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Ich konnte nicht zur ____ kommen.",
     answer: "Beerdigung",
+    translation: "I couldn't come to the funeral.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -30310,6 +31570,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Kreuz"',
     options: ["der", "die", "das"],
     answer: 2,
+    translation: "the cross",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -30335,6 +31596,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Kreuz",
     answer: "das",
     acceptableAnswers: ["Das"],
+    translation: "the cross",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -30359,6 +31621,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Das ____ funktioniert nicht bei allen Vampiren.",
     answer: "Kreuz",
+    translation: "The cross does not work on all vampires.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -30383,6 +31646,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Theorie"',
     options: ["der", "das", "die"],
     answer: 2,
+    translation: "the theory",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -30408,6 +31672,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Theorie",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the theory",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -30432,6 +31697,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Die ____ ist mir zu abstrakt.",
     answer: "Theorie",
+    translation: "The theory is too abstract for me.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -30456,6 +31722,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Pilot"',
     options: ["die", "das", "der"],
     answer: 2,
+    translation: "the pilot",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -30481,6 +31748,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Pilot",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the pilot",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -30505,6 +31773,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "John ist ein hervorragender ____.",
     answer: "Pilot",
+    translation: "John is an excellent pilot.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -30529,6 +31798,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Gedanke"',
     options: ["das", "die", "der"],
     answer: 2,
+    translation: "the thought",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -30554,6 +31824,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Gedanke",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the thought",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -30578,6 +31849,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Der ____ macht mich krank.",
     answer: "Gedanke",
+    translation: "The thought of it makes me sick.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -30602,6 +31874,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Realität"',
     options: ["der", "das", "die"],
     answer: 2,
+    translation: "the reality",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -30627,6 +31900,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Realität",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the reality",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -30651,6 +31925,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Das ist die harte ____ unseres Berufs.",
     answer: "Realität",
+    translation: "It's the harsh reality of our profession.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -30675,6 +31950,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Ursache"',
     options: ["die", "der", "das"],
     answer: 0,
+    translation: "the cause",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -30700,6 +31976,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Ursache",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the cause",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -30724,6 +32001,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Forschen Sie nach der ____!",
     answer: "Ursache",
+    translation: "Investigate the cause of it.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -30748,6 +32026,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Schuss"',
     options: ["der", "das", "die"],
     answer: 0,
+    translation: "the shot",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -30773,6 +32052,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Schuss",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the shot",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -30797,6 +32077,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Ein ____ ins Dunkle ist besser als nichts.",
     answer: "Schuss",
+    translation: "A shot in the dark is better than nothing.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -30821,6 +32102,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Suppe"',
     options: ["die", "der", "das"],
     answer: 0,
+    translation: "the soup",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -30846,6 +32128,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Suppe",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the soup",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -30870,6 +32153,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Ich würde die ____ gern bezahlen.",
     answer: "Suppe",
+    translation: "I'd like to pay for the soup.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -30894,6 +32178,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Land"',
     options: ["die", "das", "der"],
     answer: 1,
+    translation: "the country",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -30919,6 +32204,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Land",
     answer: "das",
     acceptableAnswers: ["Das"],
+    translation: "the country",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -30944,6 +32230,8 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus:
       "Das Erdbeben führte zu einer Katastrophe, größer als jede, die das ____ je gesehen hatte.",
     answer: "Land",
+    translation:
+      "The earthquake caused a catastrophe greater than any the country had ever known.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -30968,6 +32256,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Unterstützung"',
     options: ["die", "der", "das"],
     answer: 0,
+    translation: "the support",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -30993,6 +32282,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Unterstützung",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the support",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -31017,6 +32307,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Du hast unsere volle ____.",
     answer: "Unterstützung",
+    translation: "You have our full support.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -31041,6 +32332,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Sicht"',
     options: ["der", "die", "das"],
     answer: 1,
+    translation: "the view",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -31066,6 +32358,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Sicht",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the view",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -31090,6 +32383,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Aus meiner ____ hast du Unrecht.",
     answer: "Sicht",
+    translation: "In my view, you are wrong.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -31114,6 +32408,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Verteidigung"',
     options: ["der", "das", "die"],
     answer: 2,
+    translation: "the defense",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -31139,6 +32434,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Verteidigung",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the defense",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -31163,6 +32459,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Unsere Footballmannschaft hat eine gute ____.",
     answer: "Verteidigung",
+    translation: "Our football team has a good defense.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -31187,6 +32484,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Flügel"',
     options: ["der", "die", "das"],
     answer: 0,
+    translation: "the wing",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -31212,6 +32510,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Flügel",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the wing",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -31236,6 +32535,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Fahrräder haben keine ____.",
     answer: "Flügel",
+    translation: "There are no wings on bicycles.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -31260,6 +32560,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Krebs"',
     options: ["die", "der", "das"],
     answer: 1,
+    translation: "the cancer / crab",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -31285,6 +32586,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Krebs",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the cancer / crab",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -31309,6 +32611,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Es gibt keinerlei Anzeichen von ____.",
     answer: "Krebs",
+    translation: "There's no sign of cancer at all.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -31333,6 +32636,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Knopf"',
     options: ["der", "das", "die"],
     answer: 0,
+    translation: "the button",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -31358,6 +32662,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Knopf",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the button",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -31382,6 +32687,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Ich drücke den ____ aber nichts passiert.",
     answer: "Knopf",
+    translation: "I keep pressing the button, and nothing is happening.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -31406,6 +32712,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Verabredung"',
     options: ["das", "der", "die"],
     answer: 2,
+    translation: "the appointment",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -31431,6 +32738,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Verabredung",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the appointment",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -31455,6 +32763,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Ich komme zu spät zu einer anderen ____.",
     answer: "Verabredung",
+    translation: "I'm late for another appointment.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -31479,6 +32788,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Stellung"',
     options: ["das", "die", "der"],
     answer: 1,
+    translation: "the position",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -31504,6 +32814,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Stellung",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the position",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -31528,6 +32839,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Er will eine neue ____.",
     answer: "Stellung",
+    translation: "He is looking for a new position.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -31552,6 +32864,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Bahnhof"',
     options: ["der", "das", "die"],
     answer: 0,
+    translation: "the station",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -31577,6 +32890,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Bahnhof",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the station",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -31601,6 +32915,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Ich bin heute Morgen am ____ angekommen.",
     answer: "Bahnhof",
+    translation: "I got to the station this morning.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -31625,6 +32940,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Krankenwagen"',
     options: ["das", "der", "die"],
     answer: 1,
+    translation: "the ambulance",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -31650,6 +32966,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Krankenwagen",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the ambulance",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -31674,6 +32991,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Wir besorgen dir gleich einen ____.",
     answer: "Krankenwagen",
+    translation: "We'll get you an ambulance right away.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -31698,6 +33016,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Manager"',
     options: ["das", "der", "die"],
     answer: 1,
+    translation: "the manager",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -31723,6 +33042,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Manager",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the manager",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -31747,6 +33067,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Der ____ lobte seine Verdienste.",
     answer: "Manager",
+    translation: "The manager complimented him on his achievement.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -31771,6 +33092,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Text"',
     options: ["der", "die", "das"],
     answer: 0,
+    translation: "the text",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -31796,6 +33118,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Text",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the text",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -31821,6 +33144,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus:
       "Nachdem du jeden ____ gehört hast, schreibe einen kurzen Bericht.",
     answer: "Text",
+    translation: "After listening to each text, write a short report.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -31845,6 +33169,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Gedächtnis"',
     options: ["die", "das", "der"],
     answer: 1,
+    translation: "the memory",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -31870,6 +33195,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Gedächtnis",
     answer: "das",
     acceptableAnswers: ["Das"],
+    translation: "the memory",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -31894,6 +33220,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Der Unfall ist ihm noch lebhaft im ____.",
     answer: "Gedächtnis",
+    translation: "The accident is still vivid in his memory.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -31918,6 +33245,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Wissenschaft"',
     options: ["die", "der", "das"],
     answer: 0,
+    translation: "the science",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -31943,6 +33271,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Wissenschaft",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the science",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -31967,6 +33296,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Er verschrieb sein ganzes Leben der ____.",
     answer: "Wissenschaft",
+    translation: "He devoted his whole life to science.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -31991,6 +33321,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Bande"',
     options: ["das", "die", "der"],
     answer: 1,
+    translation: "the gang",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -32016,6 +33347,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Bande",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the gang",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -32040,6 +33372,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Eine ____ von Dieben brach in die Bank ein.",
     answer: "Bande",
+    translation: "A gang of thieves broke into the bank.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -32064,6 +33397,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Leidenschaft"',
     options: ["die", "der", "das"],
     answer: 0,
+    translation: "the passion",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -32089,6 +33423,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Leidenschaft",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the passion",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -32113,6 +33448,8 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Betriebswirtschaftslehre wird nicht immer aus ____ studiert.",
     answer: "Leidenschaft",
+    translation:
+      "Business administration is not always studied out of a passion for the subject.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -32137,6 +33474,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Unterhaltung"',
     options: ["der", "die", "das"],
     answer: 1,
+    translation: "the entertainment / conversation",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -32162,6 +33500,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Unterhaltung",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the entertainment / conversation",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -32186,6 +33525,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Ich wollte eure ____ nicht belauschen.",
     answer: "Unterhaltung",
+    translation: "I didn't mean to eavesdrop on your conversation.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -32210,6 +33550,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Donnerstag"',
     options: ["die", "der", "das"],
     answer: 1,
+    translation: "the Thursday",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -32235,6 +33576,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Donnerstag",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the Thursday",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -32260,6 +33602,8 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus:
       "Eine Woche hat sieben Tage: Montag, Dienstag, Mittwoch, ____, Freitag, Samstag und Sonntag.",
     answer: "Donnerstag",
+    translation:
+      "A week has seven days: Monday, Tuesday, Wednesday, Thursday, Friday, Saturday and Sunday.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -32284,6 +33628,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Gesetz"',
     options: ["die", "der", "das"],
     answer: 2,
+    translation: "the law",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -32309,6 +33654,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Gesetz",
     answer: "das",
     acceptableAnswers: ["Das"],
+    translation: "the law",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -32333,6 +33679,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Wir sollten dem ____ gehorchen.",
     answer: "Gesetz",
+    translation: "We ought to obey the law.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -32357,6 +33704,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Start"',
     options: ["das", "der", "die"],
     answer: 1,
+    translation: "the start",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -32382,6 +33730,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Start",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the start",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -32406,6 +33755,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Okay, du hattest einen schlechten ____.",
     answer: "Start",
+    translation: "Okay, so you had a rough start.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -32430,6 +33780,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Zweck"',
     options: ["die", "das", "der"],
     answer: 2,
+    translation: "the purpose",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -32455,6 +33806,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Zweck",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the purpose",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -32479,6 +33831,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "John erläuterte Jane den ____ des Projekts.",
     answer: "Zweck",
+    translation: "John explained the purpose of the project to Jane.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -32503,6 +33856,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Revolution"',
     options: ["das", "die", "der"],
     answer: 1,
+    translation: "the revolution",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -32528,6 +33882,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Revolution",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the revolution",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -32552,6 +33907,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Wir brauchen eine politische ____.",
     answer: "Revolution",
+    translation: "We need a political revolution.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -32576,6 +33932,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Pizza"',
     options: ["die", "der", "das"],
     answer: 0,
+    translation: "the pizza",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -32601,6 +33958,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Pizza",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the pizza",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -32625,6 +33983,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "____ und Ananas gehören nicht in denselben Luftraum.",
     answer: "Pizza",
+    translation: "Pizza and pineapple do not belong in the same airspace.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -32649,6 +34008,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Kanone"',
     options: ["der", "die", "das"],
     answer: 1,
+    translation: "the gun",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -32674,6 +34034,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Kanone",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the gun",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -32698,6 +34059,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Das ist ja auch keine echte ____.",
     answer: "Kanone",
+    translation: "This is not a real gun.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -32722,6 +34084,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Versagen"',
     options: ["die", "das", "der"],
     answer: 1,
+    translation: "the failure / fail",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -32747,6 +34110,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Versagen",
     answer: "das",
     acceptableAnswers: ["Das"],
+    translation: "the failure / fail",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -32771,6 +34135,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Du hast mein ____ im Krieg gesehen.",
     answer: "Versagen",
+    translation: "You saw my failure in the war.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -32795,6 +34160,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Schauspieler"',
     options: ["das", "die", "der"],
     answer: 2,
+    translation: "the actor",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -32820,6 +34186,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Schauspieler",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the actor",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -32844,6 +34211,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "John ist ein guter ____.",
     answer: "Schauspieler",
+    translation: "John is a good actor.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -32868,6 +34236,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Reporter"',
     options: ["der", "die", "das"],
     answer: 0,
+    translation: "the reporter",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -32893,6 +34262,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Reporter",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the reporter",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -32917,6 +34287,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Der ____ notierte alles, was gesagt wurde.",
     answer: "Reporter",
+    translation: "The reporter took down everything that was said.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -32941,6 +34312,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Braut"',
     options: ["der", "das", "die"],
     answer: 2,
+    translation: "the bride",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -32966,6 +34338,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Braut",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the bride",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -32990,6 +34363,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Die ____ sah wunderschön aus.",
     answer: "Braut",
+    translation: "The bride looked stunning.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -33014,6 +34388,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Vermögen"',
     options: ["das", "die", "der"],
     answer: 0,
+    translation: "the fortune / achieve",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -33039,6 +34414,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Vermögen",
     answer: "das",
     acceptableAnswers: ["Das"],
+    translation: "the fortune / achieve",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -33063,6 +34439,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Ich habe ein beachtliches ____ aufgegeben.",
     answer: "Vermögen",
+    translation: "I've just given up a sizable fortune.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -33087,6 +34464,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Legende"',
     options: ["die", "das", "der"],
     answer: 0,
+    translation: "the legend",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -33112,6 +34490,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Legende",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the legend",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -33136,6 +34515,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Das ist bloß eine städtische ____.",
     answer: "Legende",
+    translation: "It is only an urban legend.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -33160,6 +34540,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Wut"',
     options: ["die", "das", "der"],
     answer: 0,
+    translation: "the anger",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -33185,6 +34566,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Wut",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the anger",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -33209,6 +34591,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "John konnte seine ____ nicht unterdrücken.",
     answer: "Wut",
+    translation: "John could not suppress his anger.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -33233,6 +34616,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Seil"',
     options: ["das", "der", "die"],
     answer: 0,
+    translation: "the rope",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -33258,6 +34642,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Seil",
     answer: "das",
     acceptableAnswers: ["Das"],
+    translation: "the rope",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -33282,6 +34667,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Wir haben nicht genug ____ dabei.",
     answer: "Seil",
+    translation: "We don't have enough rope.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -33306,6 +34692,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Einstellung"',
     options: ["das", "die", "der"],
     answer: 1,
+    translation: "the attitude / setting",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -33331,6 +34718,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Einstellung",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the attitude / setting",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -33355,6 +34743,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Versuche, zu allen Dingen eine positive ____ einzunehmen.",
     answer: "Einstellung",
+    translation: "Try to have a positive attitude about everything.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -33379,6 +34768,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Höhe"',
     options: ["die", "der", "das"],
     answer: 0,
+    translation: "the height",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -33404,6 +34794,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Höhe",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the height",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -33428,6 +34819,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Die ____ des Objekts ist unwichtig.",
     answer: "Höhe",
+    translation: "The height of the object is not important.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -33452,6 +34844,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Jungfrau"',
     options: ["die", "der", "das"],
     answer: 0,
+    translation: "the virgin",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -33477,6 +34870,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Jungfrau",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the virgin",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -33501,6 +34895,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Wenigstens war ich freiwillig eine ____.",
     answer: "Jungfrau",
+    translation: "At least I was a virgin by choice.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -33525,6 +34920,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Anweisung"',
     options: ["die", "das", "der"],
     answer: 0,
+    translation: "the instruction",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -33550,6 +34946,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Anweisung",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the instruction",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -33574,6 +34971,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Schulter"',
     options: ["die", "der", "das"],
     answer: 0,
+    translation: "the shoulder",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -33599,6 +34997,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Schulter",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the shoulder",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -33623,6 +35022,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Mir tut die ____ weh.",
     answer: "Schulter",
+    translation: "My shoulder hurts.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -33647,6 +35047,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Applaus"',
     options: ["das", "der", "die"],
     answer: 1,
+    translation: "the applause",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -33672,6 +35073,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Applaus",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the applause",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -33696,6 +35098,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Ich fand den wilden ____ etwas übertrieben.",
     answer: "Applaus",
+    translation: "I thought the wild applause was a bit excessive.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -33720,6 +35123,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Mittel"',
     options: ["die", "das", "der"],
     answer: 1,
+    translation: "the means / medium",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -33745,6 +35149,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Mittel",
     answer: "das",
     acceptableAnswers: ["Das"],
+    translation: "the means / medium",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -33769,6 +35174,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Der Zweck heiligt die ____.",
     answer: "Mittel",
+    translation: "The end justifies the means.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -33793,6 +35199,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Japan"',
     options: ["die", "das", "der"],
     answer: 1,
+    translation: "the Japan",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -33818,6 +35225,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Japan",
     answer: "das",
     acceptableAnswers: ["Das"],
+    translation: "the Japan",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -33842,6 +35250,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "John will nach ____ gehen.",
     answer: "Japan",
+    translation: "John wants to go to Japan.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -33866,6 +35275,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Stärke"',
     options: ["die", "das", "der"],
     answer: 0,
+    translation: "the strength",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -33891,6 +35301,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Stärke",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the strength",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -33915,6 +35326,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Klinik"',
     options: ["der", "das", "die"],
     answer: 2,
+    translation: "the clinic",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -33940,6 +35352,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Klinik",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the clinic",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -33964,6 +35377,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Jane war hier in der ____.",
     answer: "Klinik",
+    translation: "Jane was here at the clinic.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -33988,6 +35402,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Einladung"',
     options: ["das", "der", "die"],
     answer: 2,
+    translation: "the invitation",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -34013,6 +35428,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Einladung",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the invitation",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -34037,6 +35453,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Ich nehme die ____ nicht an.",
     answer: "Einladung",
+    translation: "I don't accept the invitation.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -34061,6 +35478,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Ruhm"',
     options: ["das", "die", "der"],
     answer: 2,
+    translation: "the fame / glory",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -34086,6 +35504,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Ruhm",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the fame / glory",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -34110,6 +35529,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Es bringt uns weder Geld noch ____.",
     answer: "Ruhm",
+    translation: "It will bring us neither money nor fame.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -34134,6 +35554,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Verdacht"',
     options: ["der", "das", "die"],
     answer: 0,
+    translation: "the suspicion",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -34159,6 +35580,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Verdacht",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the suspicion",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -34183,6 +35605,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Es ist nur ein ____, den ich habe.",
     answer: "Verdacht",
+    translation: "It is just a suspicion I have.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -34207,6 +35630,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Fan"',
     options: ["das", "die", "der"],
     answer: 2,
+    translation: "the fan",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -34232,6 +35656,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Fan",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the fan",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -34256,6 +35681,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Sie ist ein ____ der italienischen Oper.",
     answer: "Fan",
+    translation: "She's a fan of Italian opera.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -34280,6 +35706,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Belohnung"',
     options: ["die", "der", "das"],
     answer: 0,
+    translation: "the reward",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -34305,6 +35732,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Belohnung",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the reward",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -34329,6 +35757,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Als ____ habe ich Spaghetti gemacht.",
     answer: "Belohnung",
+    translation: "As a reward, I made spaghetti.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -34353,6 +35782,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Bereich"',
     options: ["das", "der", "die"],
     answer: 1,
+    translation: "the area",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -34378,6 +35808,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Bereich",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the area",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -34402,6 +35833,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "In diesem ____ sollte man auch weiterkommen.",
     answer: "Bereich",
+    translation: "We should also be able to make progress in this area.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -34426,6 +35858,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Universität"',
     options: ["der", "die", "das"],
     answer: 1,
+    translation: "the university",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -34451,6 +35884,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Universität",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the university",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -34475,6 +35909,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "John ist Student an der ____.",
     answer: "Universität",
+    translation: "John is a university student.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -34499,6 +35934,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Hügel"',
     options: ["das", "die", "der"],
     answer: 2,
+    translation: "the hill",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -34524,6 +35960,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Hügel",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the hill",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -34548,6 +35985,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Das Haus, das auf dem ____ steht, ist sehr alt.",
     answer: "Hügel",
+    translation: "The house which stands on the hill is very old.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -34572,6 +36010,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Sünde"',
     options: ["das", "die", "der"],
     answer: 1,
+    translation: "the sin",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -34597,6 +36036,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Sünde",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the sin",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -34621,6 +36061,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Wohltätigkeit ist keine ____, Jane.",
     answer: "Sünde",
+    translation: "There's no sin in charity, Jane.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -34645,6 +36086,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Regen"',
     options: ["die", "das", "der"],
     answer: 2,
+    translation: "the rain / move",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -34670,6 +36112,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Regen",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the rain / move",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -34694,6 +36137,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Setze es nicht dem ____ aus.",
     answer: "Regen",
+    translation: "Don't expose it to the rain.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -34718,6 +36162,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Tunnel"',
     options: ["die", "der", "das"],
     answer: 1,
+    translation: "the tunnel",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -34743,6 +36188,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Tunnel",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the tunnel",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -34767,6 +36213,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Aus dem ____ kam das dumpfe Geräusch einer Zugpfeife.",
     answer: "Tunnel",
+    translation: "The muted sound of a train whistle came from the tunnel.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -34791,6 +36238,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Ausweis"',
     options: ["der", "das", "die"],
     answer: 0,
+    translation: "the ID",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -34816,6 +36264,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Ausweis",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the ID",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -34840,6 +36289,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Wir brauchen einen ____, bitte.",
     answer: "Ausweis",
+    translation: "We need an ID, please.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -34864,6 +36314,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "See"',
     options: ["die", "der", "das"],
     answer: 0,
+    translation: "the sea / lake",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -34889,6 +36340,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ See",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the sea / lake",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -34913,6 +36365,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Ich liebe diesen ____ über alles.",
     answer: "See",
+    translation: "I love this lake more than anything else.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -34937,6 +36390,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Angelegenheit"',
     options: ["das", "die", "der"],
     answer: 1,
+    translation: "the matter",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -34962,6 +36416,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Angelegenheit",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the matter",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -34986,6 +36441,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Das ist natürlich eine interne ____.",
     answer: "Angelegenheit",
+    translation: "That is, of course, an internal matter.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -35010,6 +36466,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Posten"',
     options: ["der", "die", "das"],
     answer: 0,
+    translation: "the post / item",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -35035,6 +36492,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Posten",
     answer: "der",
     acceptableAnswers: ["Der"],
+    translation: "the post / item",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -35059,6 +36517,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Gehen Sie auf ihre ____.",
     answer: "Posten",
+    translation: "Go to your posts.",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -35083,6 +36542,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Puppe"',
     options: ["das", "der", "die"],
     answer: 2,
+    translation: "the doll",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -35108,6 +36568,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Puppe",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the doll",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -35132,6 +36593,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: 'Choose the correct article for: "Mauer"',
     options: ["die", "der", "das"],
     answer: 0,
+    translation: "the wall",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -35157,6 +36619,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     stimulus: "___ Mauer",
     answer: "die",
     acceptableAnswers: ["Die"],
+    translation: "the wall",
     metadata: {
       cefr: "B1",
       system: "nominal",
@@ -35181,6 +36644,7 @@ export const genderBundleTier1: ExerciseItem[] = [
     prompt: "Fill in the missing noun:",
     stimulus: "Diese ____ umgibt den ganzen Park.",
     answer: "Mauer",
+    translation: "This wall surrounds the whole park.",
     metadata: {
       cefr: "B1",
       system: "nominal",

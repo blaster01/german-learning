@@ -21,6 +21,7 @@ export const valencyTier2: ExerciseItem[] = [
     stimulus: "Ich gebe ____ das Geschenk.",
     options: ["ihr", "sie", "ihre", "sich"],
     answer: 0,
+    translation: "I'm giving her the present.",
     feedback: FEEDBACK,
     metadata: {
       cefr: "B1",
@@ -38,6 +39,7 @@ export const valencyTier2: ExerciseItem[] = [
     stimulus: "Er zeigt ____ den Weg.",
     options: ["uns", "wir", "unser", "uns selbst"],
     answer: 0,
+    translation: "He's showing us the way.",
     feedback: FEEDBACK,
     metadata: {
       cefr: "B1",
@@ -55,6 +57,7 @@ export const valencyTier2: ExerciseItem[] = [
     stimulus: "Wir warten auf ____.",
     options: ["ihn", "er", "ihm", "sein"],
     answer: 0,
+    translation: "We're waiting for him.",
     feedback: FEEDBACK,
     metadata: {
       cefr: "B1",
@@ -72,6 +75,7 @@ export const valencyTier2: ExerciseItem[] = [
     stimulus: "Ich freue mich über ____ Erfolg.",
     options: ["deinen", "dein", "deinem", "deines"],
     answer: 0,
+    translation: "I'm happy about your success.",
     feedback: FEEDBACK,
     metadata: {
       cefr: "B1",
@@ -89,6 +93,7 @@ export const valencyTier2: ExerciseItem[] = [
     stimulus: "Er interessiert sich für ____ Musik.",
     options: ["klassische", "klassischer", "klassischen", "klassisches"],
     answer: 0,
+    translation: "He's interested in classical music.",
     feedback: FEEDBACK,
     metadata: {
       cefr: "B1",
@@ -105,6 +110,7 @@ export const valencyTier2: ExerciseItem[] = [
       "Fill in the correct dative pronoun (erklären: person=dative, thing=accusative):",
     stimulus: "Der Lehrer erklärt ____ die Regel noch einmal.",
     answer: "uns",
+    translation: "The teacher is explaining the rule to us again.",
     feedback: FEEDBACK,
     metadata: {
       cefr: "B1",
@@ -121,6 +127,7 @@ export const valencyTier2: ExerciseItem[] = [
       "Fill in the correct fixed-preposition case (sich beschweren über + accusative):",
     stimulus: "Sie beschwert sich über d____ Lärm.",
     answer: "en",
+    translation: "She's complaining about the noise.",
     feedback: FEEDBACK,
     metadata: {
       cefr: "B2",

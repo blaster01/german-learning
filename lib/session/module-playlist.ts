@@ -92,12 +92,6 @@ export type PlaylistOptions = {
   target?: number;
   /** Epoch ms "now", injectable for tests. */
   now?: number;
-  /**
-   * Remaining daily new-card budget (see DAILY_NEW_CARD_LIMIT in
-   * lib/storage/local.ts). "new" items are capped at this count; undefined
-   * means unlimited (used when the caller doesn't track a budget).
-   */
-  newCardBudget?: number;
 };
 
 /**
@@ -110,9 +104,9 @@ export type PlaylistOptions = {
  * Returns up to `target` items (usually 15), respecting group boundaries
  * so related exercises (same groupId) travel together.
  *
- * new    — groups where no item has a seen card, shuffled daily, capped by newCardBudget.
+ * new    — groups where no item has a seen card, shuffled daily.
  * review — only items that are actually due (due <= now), sorted due-first, groups preserved.
- * mixed  — 70% new (capped) + 30% due review, interleaved, falling back if one side is empty.
+ * mixed  — 70% new + 30% due review, interleaved, falling back if one side is empty.
  */
 export function buildModulePlaylist(
   slug: string,
@@ -155,11 +149,7 @@ export function buildModulePlaylist(
       g.items.every((item) => !seenIds.has(item.id)),
     );
     const shuffled = shuffleWithSeed(newGroups, dailySeed(slug));
-    const newTarget =
-      opts.newCardBudget !== undefined
-        ? Math.min(target, Math.max(0, opts.newCardBudget))
-        : target;
-    return takeGroups(shuffled, newTarget);
+    return takeGroups(shuffled, target);
   }
 
   if (mode === "review") {
@@ -173,13 +163,8 @@ export function buildModulePlaylist(
     return takeGroups(dueGroups, target);
   }
 
-  // mixed: 70% new (capped by newCardBudget), 30% due review
-  const newTarget = Math.min(
-    Math.ceil(target * 0.7),
-    opts.newCardBudget !== undefined
-      ? Math.max(0, opts.newCardBudget)
-      : Infinity,
-  );
+  // mixed: 70% new, 30% due review
+  const newTarget = Math.ceil(target * 0.7);
   const reviewTarget = Math.floor(target * 0.3);
 
   const newGroups = shuffleWithSeed(

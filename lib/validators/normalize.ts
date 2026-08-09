@@ -27,6 +27,23 @@ export function foldGermanAscii(s: string): string {
 }
 
 /**
+ * Fold German umlauts and ß down to their plain base letter (ä→a, ö→o, ü→u,
+ * ß→ss) rather than the ASCII digraph expansion. Umlauts are hard to type on
+ * non-German keyboards, and learners often drop the diacritic entirely
+ * ("schon" for "schön") instead of expanding it ("schoen"). This tier is
+ * intentionally lossy — "schon" and "schön" are different words — so a match
+ * made only through this fold should be flagged to the learner rather than
+ * silently accepted. Input is expected to already be lowercased.
+ */
+export function foldUmlautBase(s: string): string {
+  return s
+    .replace(/ä/g, "a")
+    .replace(/ö/g, "o")
+    .replace(/ü/g, "u")
+    .replace(/ß/g, "ss");
+}
+
+/**
  * Canonicalize the small set of obligatory/common preposition+article
  * contractions so "zu dem" and "zum" (etc.) compare equal. Always folds
  * toward the contracted form. Word-boundary safe; expects lowercased input.

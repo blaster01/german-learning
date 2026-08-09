@@ -1,10 +1,11 @@
 "use client";
 
-import { useState } from "react";
+import { useRef, useState } from "react";
 import type { TransformItem } from "@/lib/content/schema";
 import type { EngineProps } from "@/lib/engines/types";
 import { Button } from "@/components/ui/button";
 import { SpeakButton } from "@/components/ui/speak-button";
+import { UmlautKeys } from "@/components/ui/umlaut-keys";
 
 export function Transformation({
   item,
@@ -12,6 +13,7 @@ export function Transformation({
   onSubmit,
 }: EngineProps<TransformItem>) {
   const [value, setValue] = useState("");
+  const ref = useRef<HTMLTextAreaElement>(null);
 
   return (
     <div className="space-y-5">
@@ -23,13 +25,14 @@ export function Transformation({
         </div>
       ) : null}
       <textarea
+        ref={ref}
         className="min-h-[88px] w-full rounded-2xl border border-border bg-card px-4 py-3 text-base outline-none transition placeholder:text-muted-foreground focus:border-primary focus:ring-2 focus:ring-primary/30 disabled:opacity-50"
         value={value}
         disabled={disabled}
         placeholder="Type your rewrite… (Enter to check)"
         onChange={(e) => setValue(e.target.value)}
         onKeyDown={(e) => {
-          if (e.key === "Enter" && !e.shiftKey) {
+          if (e.key === "Enter" && !e.shiftKey && !e.repeat) {
             e.preventDefault();
             if (!disabled) onSubmit(value.trim());
           }
@@ -37,6 +40,12 @@ export function Transformation({
         autoComplete="off"
         aria-label="Your rewrite"
         autoFocus
+      />
+      <UmlautKeys
+        targetRef={ref}
+        value={value}
+        onInsert={setValue}
+        disabled={disabled}
       />
       <Button
         type="button"

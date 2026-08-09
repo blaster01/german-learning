@@ -20,6 +20,7 @@ export const relativeClausesTier1: ExerciseItem[] = [
     stimulus: "Der Mann, ____ dort steht, ist mein Onkel.",
     options: ["der", "den", "dem", "die"],
     answer: 0,
+    translation: "The man who is standing there is my uncle.",
     feedback: FEEDBACK,
     metadata: {
       cefr: "B1",
@@ -36,6 +37,7 @@ export const relativeClausesTier1: ExerciseItem[] = [
     stimulus: "Die Frau, ____ ich gestern getroffen habe, ist Ärztin.",
     options: ["die", "der", "das", "den"],
     answer: 0,
+    translation: "The woman I met yesterday is a doctor.",
     feedback: FEEDBACK,
     metadata: {
       cefr: "B1",
@@ -52,6 +54,7 @@ export const relativeClausesTier1: ExerciseItem[] = [
     stimulus: "Das Kind, ____ im Garten spielt, heißt Lisa.",
     options: ["das", "die", "der", "den"],
     answer: 0,
+    translation: "The child playing in the garden is named Lisa.",
     feedback: FEEDBACK,
     metadata: {
       cefr: "B1",
@@ -68,6 +71,7 @@ export const relativeClausesTier1: ExerciseItem[] = [
     stimulus: "Der Film, ____ wir gestern gesehen haben, war spannend.",
     options: ["den", "der", "dem", "die"],
     answer: 0,
+    translation: "The movie we watched yesterday was exciting.",
     feedback: FEEDBACK,
     metadata: {
       cefr: "B1",
@@ -84,6 +88,7 @@ export const relativeClausesTier1: ExerciseItem[] = [
     stimulus: "Die Bücher, ____ auf dem Tisch liegen, gehören mir.",
     options: ["die", "der", "denen", "das"],
     answer: 0,
+    translation: "The books lying on the table belong to me.",
     feedback: FEEDBACK,
     metadata: {
       cefr: "B1",
@@ -99,6 +104,7 @@ export const relativeClausesTier1: ExerciseItem[] = [
     prompt: "Build the sentence with a relative clause in the correct order:",
     tokens: ["Der", "Mann,", "der", "dort", "steht,", "ist", "mein", "Chef."],
     solution: ["Der", "Mann,", "der", "dort", "steht,", "ist", "mein", "Chef."],
+    translation: "The man standing there is my boss.",
     feedback: FEEDBACK,
     metadata: {
       cefr: "B1",
@@ -114,6 +120,7 @@ export const relativeClausesTier1: ExerciseItem[] = [
     prompt: "Fill in the correct relative pronoun:",
     stimulus: "Ich kenne den Mann, ____ das Auto gehört.",
     answer: "dem",
+    translation: "I know the man the car belongs to.",
     feedback: FEEDBACK,
     metadata: {
       cefr: "B1",

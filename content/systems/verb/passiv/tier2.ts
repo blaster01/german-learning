@@ -19,6 +19,7 @@ export const passivTier2: ExerciseItem[] = [
     prompt: "Rewrite in the passive voice (modal passive):",
     stimulus: "Man muss die Regeln beachten.",
     answer: "Die Regeln müssen beachtet werden.",
+    translation: "One must follow the rules.",
     feedback: FEEDBACK,
     metadata: {
       cefr: "B1",
@@ -35,6 +36,7 @@ export const passivTier2: ExerciseItem[] = [
     stimulus: "Der Sturm zerstörte das Dach.",
     answer: "Das Dach wurde von dem Sturm zerstört.",
     acceptableAnswers: ["Das Dach wurde vom Sturm zerstört."],
+    translation: "The storm destroyed the roof.",
     feedback: FEEDBACK,
     metadata: {
       cefr: "B1",
@@ -50,6 +52,7 @@ export const passivTier2: ExerciseItem[] = [
     prompt: "Rewrite in the passive voice (Präteritum):",
     stimulus: "Die Regierung erhöhte die Steuern.",
     answer: "Die Steuern wurden von der Regierung erhöht.",
+    translation: "The government raised taxes.",
     feedback: FEEDBACK,
     metadata: {
       cefr: "B1",
@@ -65,6 +68,7 @@ export const passivTier2: ExerciseItem[] = [
     prompt: "Rewrite in the passive voice (modal passive):",
     stimulus: "Man kann dieses Problem leicht lösen.",
     answer: "Dieses Problem kann leicht gelöst werden.",
+    translation: "One can easily solve this problem.",
     feedback: FEEDBACK,
     metadata: {
       cefr: "B1",
@@ -80,6 +84,7 @@ export const passivTier2: ExerciseItem[] = [
     prompt: "Rewrite in the passive voice (modal passive):",
     stimulus: "Die Studenten müssen die Aufgabe abgeben.",
     answer: "Die Aufgabe muss von den Studenten abgegeben werden.",
+    translation: "The students have to hand in the assignment.",
     feedback: FEEDBACK,
     metadata: {
       cefr: "B1",
@@ -96,6 +101,7 @@ export const passivTier2: ExerciseItem[] = [
     stimulus: "Die Aufgabe ____ noch gemacht werden.",
     options: ["muss", "hat", "ist", "wird"],
     answer: 0,
+    translation: "The task still needs to be done.",
     feedback: FEEDBACK,
     metadata: {
       cefr: "B1",
@@ -116,6 +122,7 @@ export const passivTier2: ExerciseItem[] = [
       "Das Haus ist gebaut werden.",
     ],
     answer: 0,
+    translation: "The house was built.",
     feedback: FEEDBACK,
     metadata: {
       cefr: "B1",

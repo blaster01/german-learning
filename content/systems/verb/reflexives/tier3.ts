@@ -11,6 +11,8 @@ export const reflexivesTier3: ExerciseItem[] = [
       "Ist es denn so entsetzlich für Sie, dass ____ jemand um Sie sorgt?",
     options: ["mich", "dich", "sich", "uns"],
     answer: 2,
+    translation:
+      "Is it so terrible for you to know that someone cares about you?",
     metadata: {
       cefr: "B2",
       system: "verb",
@@ -35,6 +37,7 @@ export const reflexivesTier3: ExerciseItem[] = [
     stimulus: "Ein wahrer Freund würde ____ beraten.",
     options: ["uns", "euch", "mich", "dich"],
     answer: 3,
+    translation: "A true friend would advise you.",
     metadata: {
       cefr: "B2",
       system: "verb",
@@ -59,6 +62,7 @@ export const reflexivesTier3: ExerciseItem[] = [
     stimulus: "Ich habe die Tomaten für ____ gewaschen.",
     options: ["dich", "mich", "euch", "uns"],
     answer: 0,
+    translation: "I washed the tomatoes for you.",
     metadata: {
       cefr: "B2",
       system: "verb",
@@ -83,6 +87,7 @@ export const reflexivesTier3: ExerciseItem[] = [
     stimulus: "Es gibt ein ganzes Lagerhaus, in dem ____ nur Gemälde befinden.",
     options: ["sich", "uns", "euch", "dich"],
     answer: 0,
+    translation: "There's an entire warehouse with just paintings.",
     metadata: {
       cefr: "B2",
       system: "verb",
@@ -107,6 +112,7 @@ export const reflexivesTier3: ExerciseItem[] = [
     stimulus: "Ich erinnere ____, dass ich einen begrenzten Vorrat hatte.",
     options: ["uns", "mich", "sich", "euch"],
     answer: 1,
+    translation: "I remember having a limited supply.",
     metadata: {
       cefr: "B2",
       system: "verb",
@@ -132,6 +138,8 @@ export const reflexivesTier3: ExerciseItem[] = [
       "Ich will das Massaker rächen, aber ich erinnere ____ auch daran und habe Angst.",
     options: ["dich", "euch", "uns", "mich"],
     answer: 3,
+    translation:
+      "I wish to avenge the massacre, but I remember it too well, and I'm afraid.",
     metadata: {
       cefr: "B2",
       system: "verb",
@@ -156,6 +164,7 @@ export const reflexivesTier3: ExerciseItem[] = [
     stimulus: "Dann werde ich ____ bei der Station absetzen.",
     options: ["dich", "sich", "euch", "uns"],
     answer: 0,
+    translation: "So, I'll drop you off at the station.",
     metadata: {
       cefr: "B2",
       system: "verb",
@@ -180,6 +189,7 @@ export const reflexivesTier3: ExerciseItem[] = [
     stimulus: "Wir treffen ____ mittags in der Klinik.",
     options: ["sich", "mich", "uns", "euch"],
     answer: 2,
+    translation: "I'll meet you at the hospital at noon.",
     metadata: {
       cefr: "B2",
       system: "verb",
@@ -204,6 +214,7 @@ export const reflexivesTier3: ExerciseItem[] = [
     stimulus: "Ich trug einen Mantel, um ____ nicht zu erkälten.",
     options: ["euch", "mich", "uns", "dich"],
     answer: 1,
+    translation: "I wore a coat so I wouldn't catch a cold.",
     metadata: {
       cefr: "B2",
       system: "verb",
@@ -228,6 +239,7 @@ export const reflexivesTier3: ExerciseItem[] = [
     stimulus: "Wir haben einen Grund ____ zu verspäten.",
     options: ["dich", "mich", "euch", "uns"],
     answer: 3,
+    translation: "We have a reason to be late.",
     metadata: {
       cefr: "B2",
       system: "verb",
@@ -252,6 +264,7 @@ export const reflexivesTier3: ExerciseItem[] = [
     stimulus: "Wenn du vorsprechen willst, setz ____ hin.",
     options: ["dich", "mich", "sich", "uns"],
     answer: 0,
+    translation: "If you want to audition, sit down.",
     metadata: {
       cefr: "B2",
       system: "verb",
@@ -276,6 +289,7 @@ export const reflexivesTier3: ExerciseItem[] = [
     stimulus: "Es wird ____ nur kurz komisch anfühlen.",
     options: ["uns", "mich", "sich", "euch"],
     answer: 2,
+    translation: "It will feel strange for a little while.",
     metadata: {
       cefr: "B2",
       system: "verb",
@@ -301,6 +315,7 @@ export const reflexivesTier3: ExerciseItem[] = [
       "Du darfst ____ nicht zu sehr auf die äußere Erscheinung verlassen.",
     options: ["uns", "dich", "sich", "euch"],
     answer: 1,
+    translation: "You must not rely too much on appearance.",
     metadata: {
       cefr: "B2",
       system: "verb",
@@ -325,6 +340,7 @@ export const reflexivesTier3: ExerciseItem[] = [
     stimulus: "Der Unteroffizier kümmert ____ um Sie.",
     options: ["sich", "mich", "dich", "euch"],
     answer: 0,
+    translation: "The sergeant will take care of you.",
     metadata: {
       cefr: "B2",
       system: "verb",
@@ -349,6 +365,7 @@ export const reflexivesTier3: ExerciseItem[] = [
     stimulus: "Rezeption und Lobby befinden ____ im Hauptgebäude.",
     options: ["mich", "uns", "euch", "sich"],
     answer: 3,
+    translation: "The reception and lobby are located in the main building.",
     metadata: {
       cefr: "B2",
       system: "verb",
@@ -373,6 +390,7 @@ export const reflexivesTier3: ExerciseItem[] = [
     stimulus: "Es würde ____ nur verwirren.",
     options: ["sich", "uns", "euch", "dich"],
     answer: 3,
+    translation: "It would only confuse you.",
     metadata: {
       cefr: "B2",
       system: "verb",
@@ -397,6 +415,7 @@ export const reflexivesTier3: ExerciseItem[] = [
     stimulus: "Janes Büro befindet ____ zwei Meilen westlich von ihrem Haus.",
     options: ["uns", "euch", "dich", "sich"],
     answer: 3,
+    translation: "Jane's office is two miles west of her house.",
     metadata: {
       cefr: "B2",
       system: "verb",
@@ -421,6 +440,7 @@ export const reflexivesTier3: ExerciseItem[] = [
     stimulus: "Ich wachte auf und fühlte ____ wieder total schwindlig.",
     options: ["uns", "euch", "mich", "dich"],
     answer: 2,
+    translation: "I woke up and I felt all dizzy again.",
     metadata: {
       cefr: "B2",
       system: "verb",
@@ -445,6 +465,7 @@ export const reflexivesTier3: ExerciseItem[] = [
     stimulus: "Ich fühle ____ durchaus imstande, das Kind alleine aufzuziehen.",
     options: ["euch", "sich", "mich", "uns"],
     answer: 2,
+    translation: "I feel quite able to raise this child alone.",
     metadata: {
       cefr: "B2",
       system: "verb",
@@ -469,6 +490,7 @@ export const reflexivesTier3: ExerciseItem[] = [
     stimulus: "Dieser Söldner interessiert ____ nur für Geld.",
     options: ["mich", "euch", "uns", "sich"],
     answer: 3,
+    translation: "The only thing this mercenary cares for is money.",
     metadata: {
       cefr: "B2",
       system: "verb",
@@ -493,6 +515,7 @@ export const reflexivesTier3: ExerciseItem[] = [
     stimulus: "Man sollte ____ seine Freunde sehr sorgfältig auswählen.",
     options: ["sich", "uns", "euch", "dich"],
     answer: 0,
+    translation: "You should choose your friends very carefully.",
     metadata: {
       cefr: "B2",
       system: "verb",
@@ -518,6 +541,8 @@ export const reflexivesTier3: ExerciseItem[] = [
       "Gleichfalls müssen wir klarmachen, dass die Europäische Union ____ verändern muss.",
     options: ["sich", "uns", "euch", "mich"],
     answer: 0,
+    translation:
+      "We must also make it clear that the European Union has to change.",
     metadata: {
       cefr: "B2",
       system: "verb",
@@ -542,6 +567,7 @@ export const reflexivesTier3: ExerciseItem[] = [
     stimulus: "Ich dachte, die Rückkehr deiner Tochter würde ____ erfreuen.",
     options: ["euch", "sich", "dich", "uns"],
     answer: 2,
+    translation: "I thought your daughter's return would please you.",
     metadata: {
       cefr: "B2",
       system: "verb",
@@ -567,6 +593,7 @@ export const reflexivesTier3: ExerciseItem[] = [
       "Diejenigen, die ____ widersetzen wollen, müssen zusammenarbeiten.",
     options: ["uns", "dich", "sich", "mich"],
     answer: 2,
+    translation: "Those willing to resist must work together.",
     metadata: {
       cefr: "B2",
       system: "verb",
@@ -591,6 +618,7 @@ export const reflexivesTier3: ExerciseItem[] = [
     stimulus: "Setzen Sie ____ hin, bevor Sie umfallen.",
     options: ["mich", "sich", "dich", "uns"],
     answer: 1,
+    translation: "Sit down before you fall down.",
     metadata: {
       cefr: "B2",
       system: "verb",
@@ -615,6 +643,7 @@ export const reflexivesTier3: ExerciseItem[] = [
     stimulus: "Man kann ____ entweder anmelden oder als Gast abstimmen.",
     options: ["dich", "sich", "uns", "euch"],
     answer: 1,
+    translation: "You can either register or vote as a guest.",
     metadata: {
       cefr: "B2",
       system: "verb",
@@ -639,6 +668,8 @@ export const reflexivesTier3: ExerciseItem[] = [
     stimulus: "Jetzt entschuldige ____, ich muss jemanden abhören.",
     options: ["mich", "uns", "sich", "dich"],
     answer: 0,
+    translation:
+      "Now, if you'll excuse me, I've got a little eavesdropping to do.",
     metadata: {
       cefr: "B2",
       system: "verb",
@@ -664,6 +695,8 @@ export const reflexivesTier3: ExerciseItem[] = [
       "Eines wird ____ nicht ändern: unser Engagement unseren Kunden gegenüber.",
     options: ["sich", "euch", "dich", "mich"],
     answer: 0,
+    translation:
+      "One thing that won't change is our commitment to our customers.",
     metadata: {
       cefr: "B2",
       system: "verb",
@@ -689,6 +722,7 @@ export const reflexivesTier3: ExerciseItem[] = [
       "Wir werden ____ diesem antidemokratischen Manöver kompromisslos widersetzen.",
     options: ["uns", "euch", "dich", "sich"],
     answer: 0,
+    translation: "We will staunchly oppose this anti-democratic maneuver.",
     metadata: {
       cefr: "B2",
       system: "verb",
@@ -713,6 +747,7 @@ export const reflexivesTier3: ExerciseItem[] = [
     stimulus: "Mit dem Helm fühlte ich ____ unbesiegbar.",
     options: ["dich", "euch", "mich", "uns"],
     answer: 2,
+    translation: "Every time I put on this helmet, I feel invincible.",
     metadata: {
       cefr: "B2",
       system: "verb",
@@ -737,6 +772,7 @@ export const reflexivesTier3: ExerciseItem[] = [
     stimulus: "Sie verdienten ____ Respekt und Bewunderung.",
     options: ["sich", "dich", "mich", "uns"],
     answer: 0,
+    translation: "You've earned respect and admiration.",
     metadata: {
       cefr: "B2",
       system: "verb",
@@ -761,6 +797,7 @@ export const reflexivesTier3: ExerciseItem[] = [
     stimulus: "Wir haben ____ beeilt wegen der Ausgangssperre.",
     options: ["uns", "sich", "dich", "mich"],
     answer: 0,
+    translation: "We were hurrying because of curfew.",
     metadata: {
       cefr: "B2",
       system: "verb",
@@ -785,6 +822,7 @@ export const reflexivesTier3: ExerciseItem[] = [
     stimulus: "Liebe Mitbürger, wir befinden ____ im Krieg.",
     options: ["euch", "dich", "mich", "uns"],
     answer: 3,
+    translation: "My fellow citizens, we are at war.",
     metadata: {
       cefr: "B2",
       system: "verb",
@@ -810,6 +848,7 @@ export const reflexivesTier3: ExerciseItem[] = [
       "Er erinnerte ____ an ihre Haare und ihre lackierten Fingernägel.",
     options: ["mich", "uns", "sich", "euch"],
     answer: 2,
+    translation: "He remembered her hair and her painted fingernails.",
     metadata: {
       cefr: "B2",
       system: "verb",
@@ -835,6 +874,8 @@ export const reflexivesTier3: ExerciseItem[] = [
       "Aber nun bist du Single und fühlst ____ miserabel, weil du glaubst, es ist",
     options: ["euch", "dich", "uns", "mich"],
     answer: 1,
+    translation:
+      "But now you're single, and that makes you miserable because you think it's",
     metadata: {
       cefr: "B2",
       system: "verb",
@@ -859,6 +900,7 @@ export const reflexivesTier3: ExerciseItem[] = [
     stimulus: "Du fängst an ____ zu irritieren.",
     options: ["mich", "euch", "uns", "dich"],
     answer: 0,
+    translation: "You're beginning to irritate me.",
     metadata: {
       cefr: "B2",
       system: "verb",
@@ -883,6 +925,7 @@ export const reflexivesTier3: ExerciseItem[] = [
     stimulus: "Ungewöhnlich, aber es breitet ____ sehr schnell aus.",
     options: ["sich", "mich", "dich", "euch"],
     answer: 0,
+    translation: "It's not common, but it's spreading very quickly.",
     metadata: {
       cefr: "B2",
       system: "verb",
@@ -907,6 +950,7 @@ export const reflexivesTier3: ExerciseItem[] = [
     stimulus: "Es gibt ein Kopfgeld auf ____, mein Freund.",
     options: ["uns", "dich", "sich", "euch"],
     answer: 1,
+    translation: "There's a bounty on your head, my friend.",
     metadata: {
       cefr: "B2",
       system: "verb",
@@ -931,6 +975,7 @@ export const reflexivesTier3: ExerciseItem[] = [
     stimulus: "Nun, Sie können ____ vorstellen, es war mein Ruin.",
     options: ["dich", "mich", "sich", "euch"],
     answer: 2,
+    translation: "Well, you can imagine, it was my undoing.",
     metadata: {
       cefr: "B2",
       system: "verb",
@@ -955,6 +1000,7 @@ export const reflexivesTier3: ExerciseItem[] = [
     stimulus: "Ich würde ____ grässlich fühlen.",
     options: ["uns", "dich", "sich", "mich"],
     answer: 3,
+    translation: "I would feel dreadful.",
     metadata: {
       cefr: "B2",
       system: "verb",
@@ -979,6 +1025,7 @@ export const reflexivesTier3: ExerciseItem[] = [
     stimulus: "Die Eisenbahnstrecke befindet ____ nun im Aufbau.",
     options: ["sich", "uns", "dich", "euch"],
     answer: 0,
+    translation: "The railroad is now in the process of construction.",
     metadata: {
       cefr: "B2",
       system: "verb",
@@ -1004,6 +1051,7 @@ export const reflexivesTier3: ExerciseItem[] = [
       "Ich bin intellektuell neugierig, aber meine Meinung hat ____ nicht geändert.",
     options: ["sich", "mich", "uns", "dich"],
     answer: 0,
+    translation: "I am intellectually curious, but my opinion hasn't changed.",
     metadata: {
       cefr: "B2",
       system: "verb",
@@ -1028,6 +1076,7 @@ export const reflexivesTier3: ExerciseItem[] = [
     stimulus: "Ich fühlte ____ so geehrt, dabei zu sein.",
     options: ["mich", "euch", "dich", "sich"],
     answer: 0,
+    translation: "I was so honored to be there.",
     metadata: {
       cefr: "B2",
       system: "verb",
@@ -1052,6 +1101,7 @@ export const reflexivesTier3: ExerciseItem[] = [
     stimulus: "Mit dir an meiner Seite fühle ich ____ unschlagbar.",
     options: ["euch", "mich", "uns", "sich"],
     answer: 1,
+    translation: "I feel invincible with you by my side.",
     metadata: {
       cefr: "B2",
       system: "verb",
@@ -1076,6 +1126,7 @@ export const reflexivesTier3: ExerciseItem[] = [
     stimulus: "Er verliebte ____ augenblicklich in sie.",
     options: ["sich", "mich", "euch", "dich"],
     answer: 0,
+    translation: "He instantly fell in love with her.",
     metadata: {
       cefr: "B2",
       system: "verb",
@@ -1100,6 +1151,7 @@ export const reflexivesTier3: ExerciseItem[] = [
     stimulus: "Du musst ____ nächstes Semester bewerben.",
     options: ["dich", "uns", "mich", "sich"],
     answer: 0,
+    translation: "You're going to have to apply next semester.",
     metadata: {
       cefr: "B2",
       system: "verb",
@@ -1124,6 +1176,7 @@ export const reflexivesTier3: ExerciseItem[] = [
     stimulus: "Halt ____ am Geländer fest.",
     options: ["euch", "dich", "sich", "mich"],
     answer: 1,
+    translation: "Hold on to the handrail.",
     metadata: {
       cefr: "B2",
       system: "verb",
@@ -1148,6 +1201,7 @@ export const reflexivesTier3: ExerciseItem[] = [
     stimulus: "Setz ____ da vorn hin, ich werde sie runterholen.",
     options: ["mich", "sich", "euch", "dich"],
     answer: 3,
+    translation: "Take a seat through there, I'll bring it down.",
     metadata: {
       cefr: "B2",
       system: "verb",
@@ -1172,6 +1226,7 @@ export const reflexivesTier3: ExerciseItem[] = [
     stimulus: "Ich fühle ____ so leicht und erhaben.",
     options: ["uns", "sich", "euch", "mich"],
     answer: 3,
+    translation: "I feel all sort of far off and lofty.",
     metadata: {
       cefr: "B2",
       system: "verb",
@@ -1196,6 +1251,7 @@ export const reflexivesTier3: ExerciseItem[] = [
     stimulus: "Ihre freundlichen Worte werden ____ motivieren.",
     options: ["mich", "uns", "dich", "sich"],
     answer: 0,
+    translation: "Your kind words will continue to motivate me.",
     metadata: {
       cefr: "B2",
       system: "verb",
@@ -1220,6 +1276,7 @@ export const reflexivesTier3: ExerciseItem[] = [
     stimulus: "Seine Brüder interessieren ____ nur für Pferderennen.",
     options: ["uns", "dich", "sich", "euch"],
     answer: 2,
+    translation: "His brothers are only interested in horse racing.",
     metadata: {
       cefr: "B2",
       system: "verb",
@@ -1244,6 +1301,7 @@ export const reflexivesTier3: ExerciseItem[] = [
     stimulus: "Wieso fühlst du ____ so panisch?",
     options: ["mich", "sich", "dich", "uns"],
     answer: 2,
+    translation: "Why should you be feeling panicked?",
     metadata: {
       cefr: "B2",
       system: "verb",
@@ -1268,6 +1326,7 @@ export const reflexivesTier3: ExerciseItem[] = [
     stimulus: "Ich habe Freunde, die ____ da auskennen.",
     options: ["euch", "uns", "mich", "sich"],
     answer: 3,
+    translation: "I have friends who are well informed.",
     metadata: {
       cefr: "B2",
       system: "verb",
@@ -1292,6 +1351,8 @@ export const reflexivesTier3: ExerciseItem[] = [
     stimulus: "Warum sollte unser Volk ____ solchem Verhalten hingeben?",
     options: ["uns", "sich", "dich", "euch"],
     answer: 1,
+    translation:
+      "Why would any of my people want to indulge in that kind of behavior?",
     metadata: {
       cefr: "B2",
       system: "verb",
@@ -1316,6 +1377,7 @@ export const reflexivesTier3: ExerciseItem[] = [
     stimulus: "Morgen werde ich aufwachen und ____ hoffnungsvoll fühlen.",
     options: ["euch", "sich", "uns", "mich"],
     answer: 3,
+    translation: "Tomorrow, I'll wake up feeling hopeful.",
     metadata: {
       cefr: "B2",
       system: "verb",
@@ -1341,6 +1403,7 @@ export const reflexivesTier3: ExerciseItem[] = [
       "Ich habe es in einem Schaufenster gesehen und ____ darin verliebt.",
     options: ["dich", "uns", "euch", "mich"],
     answer: 3,
+    translation: "I saw it in a shop window and fell in love with it.",
     metadata: {
       cefr: "B2",
       system: "verb",
@@ -1365,6 +1428,7 @@ export const reflexivesTier3: ExerciseItem[] = [
     stimulus: "Meine Mitfahrgelegenheit hat ____ an der Kreuzung abgesetzt.",
     options: ["sich", "euch", "uns", "mich"],
     answer: 3,
+    translation: "Well, my ride dropped me off at the crossroads.",
     metadata: {
       cefr: "B2",
       system: "verb",
@@ -1389,6 +1453,7 @@ export const reflexivesTier3: ExerciseItem[] = [
     stimulus: "Sie setzt ____ aufs Pferd und husch!",
     options: ["uns", "euch", "dich", "sich"],
     answer: 3,
+    translation: "She hops on her horse and whoosh!",
     metadata: {
       cefr: "B2",
       system: "verb",
@@ -1413,6 +1478,7 @@ export const reflexivesTier3: ExerciseItem[] = [
     stimulus: "Treffen wir ____ also im Foyer des Hotels.",
     options: ["uns", "sich", "euch", "mich"],
     answer: 0,
+    translation: "Let's meet in the lobby of the hotel.",
     metadata: {
       cefr: "B2",
       system: "verb",
@@ -1437,6 +1503,7 @@ export const reflexivesTier3: ExerciseItem[] = [
     stimulus: "Wo befindet ____ das nächste Reisebüro?",
     options: ["euch", "dich", "uns", "sich"],
     answer: 3,
+    translation: "Where is the closest travel agency?",
     metadata: {
       cefr: "B2",
       system: "verb",
@@ -1461,6 +1528,7 @@ export const reflexivesTier3: ExerciseItem[] = [
     stimulus: "Ich interessiere ____ für Fotografie.",
     options: ["sich", "uns", "mich", "dich"],
     answer: 2,
+    translation: "I have an interest in photography.",
     metadata: {
       cefr: "B2",
       system: "verb",
@@ -1485,6 +1553,7 @@ export const reflexivesTier3: ExerciseItem[] = [
     stimulus: "Der Rest davon befindet ____ in der Mappe.",
     options: ["sich", "uns", "euch", "mich"],
     answer: 0,
+    translation: "But the rest of it is in that folder.",
     metadata: {
       cefr: "B2",
       system: "verb",
@@ -1509,6 +1578,7 @@ export const reflexivesTier3: ExerciseItem[] = [
     stimulus: "Ich werde ____ mit dem Innenminister treffen.",
     options: ["mich", "sich", "uns", "dich"],
     answer: 0,
+    translation: "I'm going to go and see the Home Secretary.",
     metadata: {
       cefr: "B2",
       system: "verb",
@@ -1534,6 +1604,7 @@ export const reflexivesTier3: ExerciseItem[] = [
       "Ich darf sagen, es freut ____, Sie wieder hier zu erblicken, Sir.",
     options: ["euch", "mich", "uns", "sich"],
     answer: 1,
+    translation: "May I say what a pleasure it is to see you here again, sir?",
     metadata: {
       cefr: "B2",
       system: "verb",
@@ -1559,6 +1630,7 @@ export const reflexivesTier3: ExerciseItem[] = [
       "Wir freuen ____, für die Weihnachtszeit ein weiteres Konzert bestätigen zu",
     options: ["euch", "uns", "mich", "sich"],
     answer: 1,
+    translation: "We are glad to announce another concert for Christmas time.",
     metadata: {
       cefr: "B2",
       system: "verb",
@@ -1583,6 +1655,7 @@ export const reflexivesTier3: ExerciseItem[] = [
     stimulus: "Astronomie interessiert ____ nicht sehr.",
     options: ["mich", "sich", "euch", "dich"],
     answer: 0,
+    translation: "I am not interested in astronomy.",
     metadata: {
       cefr: "B2",
       system: "verb",
@@ -1608,6 +1681,7 @@ export const reflexivesTier3: ExerciseItem[] = [
       "Ich fühle ____ wie ein Kind bei seiner eigenen Überraschungsparty.",
     options: ["mich", "euch", "uns", "sich"],
     answer: 0,
+    translation: "I feel like a kid at his own surprise party.",
     metadata: {
       cefr: "B2",
       system: "verb",
@@ -1632,6 +1706,7 @@ export const reflexivesTier3: ExerciseItem[] = [
     stimulus: "Vorerst möchte ich ____ hierauf konzentrieren.",
     options: ["sich", "mich", "dich", "euch"],
     answer: 1,
+    translation: "For now, I'd like to concentrate on this.",
     metadata: {
       cefr: "B2",
       system: "verb",
@@ -1656,6 +1731,7 @@ export const reflexivesTier3: ExerciseItem[] = [
     stimulus: "Und deine Freunde halten ____ für geistreich.",
     options: ["euch", "mich", "sich", "dich"],
     answer: 3,
+    translation: "And yet your friends consider you witty.",
     metadata: {
       cefr: "B2",
       system: "verb",
@@ -1680,6 +1756,7 @@ export const reflexivesTier3: ExerciseItem[] = [
     stimulus: "Wenn Sie ____ entschuldigen, ich muss die Wache postieren.",
     options: ["mich", "euch", "uns", "sich"],
     answer: 0,
+    translation: "If you will excuse me, I must post the guard now.",
     metadata: {
       cefr: "B2",
       system: "verb",
@@ -1705,6 +1782,8 @@ export const reflexivesTier3: ExerciseItem[] = [
       "Die vorliegenden Änderungsanträge lassen ____, grob gesprochen, in drei",
     options: ["uns", "euch", "mich", "sich"],
     answer: 3,
+    translation:
+      "Roughly speaking, we can divide the amendments into three groups.",
     metadata: {
       cefr: "B2",
       system: "verb",
@@ -1729,6 +1808,8 @@ export const reflexivesTier3: ExerciseItem[] = [
     stimulus: "Mittlerweile interessieren ____ zunehmend mehr Männer für die",
     options: ["uns", "dich", "sich", "euch"],
     answer: 2,
+    translation:
+      "In the meantime, men are increasingly interested in beauty surgery.",
     metadata: {
       cefr: "B2",
       system: "verb",
@@ -1754,6 +1835,7 @@ export const reflexivesTier3: ExerciseItem[] = [
       "Körperlich fühle ich ____, als könnte ich einen Panzer demolieren.",
     options: ["mich", "dich", "euch", "sich"],
     answer: 0,
+    translation: "Physically, I feel like I could demolish a tank.",
     metadata: {
       cefr: "B2",
       system: "verb",
@@ -1778,6 +1860,7 @@ export const reflexivesTier3: ExerciseItem[] = [
     stimulus: "Aber wie konnten Sie ____ überholen?",
     options: ["dich", "uns", "sich", "mich"],
     answer: 1,
+    translation: "How did you manage to overtake us?",
     metadata: {
       cefr: "B2",
       system: "verb",
@@ -1802,6 +1885,7 @@ export const reflexivesTier3: ExerciseItem[] = [
     stimulus: "Ich entschuldige ____ für meinen plötzlichen Aufbruch.",
     options: ["uns", "euch", "sich", "mich"],
     answer: 3,
+    translation: "I apologize for my sudden departure.",
     metadata: {
       cefr: "B2",
       system: "verb",
@@ -1826,6 +1910,7 @@ export const reflexivesTier3: ExerciseItem[] = [
     stimulus: "In diesem Atom befindet ____ ein Proton.",
     options: ["mich", "dich", "euch", "sich"],
     answer: 3,
+    translation: "In that atom, there is a proton.",
     metadata: {
       cefr: "B2",
       system: "verb",
@@ -1850,6 +1935,7 @@ export const reflexivesTier3: ExerciseItem[] = [
     stimulus: "Dann lassen Sie ____ Ihre Erinnerung auffrischen.",
     options: ["mich", "uns", "euch", "dich"],
     answer: 0,
+    translation: "Well, here, let me refresh your memory.",
     metadata: {
       cefr: "B2",
       system: "verb",
@@ -1875,6 +1961,7 @@ export const reflexivesTier3: ExerciseItem[] = [
       "Die beiden Übergangsbogen krümmen ____ in entgegengesetzte Richtungen.",
     options: ["mich", "euch", "uns", "sich"],
     answer: 3,
+    translation: "The two spirals bend in opposite directions.",
     metadata: {
       cefr: "B2",
       system: "verb",
@@ -1899,6 +1986,7 @@ export const reflexivesTier3: ExerciseItem[] = [
     stimulus: "Ich erinnere ____ auch an das Hundegebell.",
     options: ["sich", "dich", "mich", "uns"],
     answer: 2,
+    translation: "I remember the dog barking too.",
     metadata: {
       cefr: "B2",
       system: "verb",
@@ -1924,6 +2012,7 @@ export const reflexivesTier3: ExerciseItem[] = [
       "Er kann glitzern und leuchten, er kann ____ bewegen und Geräusche machen.",
     options: ["uns", "sich", "mich", "dich"],
     answer: 1,
+    translation: "It can sparkle and glow, move and create sound.",
     metadata: {
       cefr: "B2",
       system: "verb",
@@ -1949,6 +2038,8 @@ export const reflexivesTier3: ExerciseItem[] = [
       "Es ist bewegend zu sehen, wie ____ eine große Familie im Unglück vereint.",
     options: ["euch", "sich", "mich", "uns"],
     answer: 1,
+    translation:
+      "It's touching to see how the family unites over this tragedy.",
     metadata: {
       cefr: "B2",
       system: "verb",
@@ -1973,6 +2064,7 @@ export const reflexivesTier3: ExerciseItem[] = [
     stimulus: "Du kannst ____ deiner neuen Gouvernante vorstellen.",
     options: ["uns", "sich", "mich", "dich"],
     answer: 2,
+    translation: "You can introduce me to your new governess.",
     metadata: {
       cefr: "B2",
       system: "verb",
@@ -1998,6 +2090,8 @@ export const reflexivesTier3: ExerciseItem[] = [
       "Die Geschichte ist mit Fällen übersät, in denen ____ alle geirrt haben.",
     options: ["sich", "mich", "uns", "euch"],
     answer: 0,
+    translation:
+      "History is strewn with the cases when they've all got it wrong.",
     metadata: {
       cefr: "B2",
       system: "verb",
@@ -2023,6 +2117,7 @@ export const reflexivesTier3: ExerciseItem[] = [
       "Ich glaube, ich war es leid, ____ zu fühlen, als würde ich nicht dazugehören.",
     options: ["euch", "mich", "dich", "uns"],
     answer: 1,
+    translation: "I guess I was tired of feeling like I didn't belong.",
     metadata: {
       cefr: "B2",
       system: "verb",
@@ -2048,6 +2143,8 @@ export const reflexivesTier3: ExerciseItem[] = [
       "Außerdem sollten wir ____ darum kümmern, wie wir in Europa Investitionen",
     options: ["sich", "dich", "uns", "euch"],
     answer: 2,
+    translation:
+      "We also need to look at how to mobilize investments in Europe.",
     metadata: {
       cefr: "B2",
       system: "verb",
@@ -2072,6 +2169,7 @@ export const reflexivesTier3: ExerciseItem[] = [
     stimulus: "An mein damaliges Leben erinnere ich ____ nicht sehr gut.",
     options: ["mich", "uns", "dich", "euch"],
     answer: 0,
+    translation: "I don't remember my life then very well.",
     metadata: {
       cefr: "B2",
       system: "verb",
@@ -2096,6 +2194,7 @@ export const reflexivesTier3: ExerciseItem[] = [
     stimulus: "Ich kann fühlen, wie ____ meine Poren festigen.",
     options: ["euch", "sich", "mich", "dich"],
     answer: 1,
+    translation: "I can feel my pores tightening.",
     metadata: {
       cefr: "B2",
       system: "verb",
@@ -2120,6 +2219,7 @@ export const reflexivesTier3: ExerciseItem[] = [
     stimulus: "Warum sollte ____ dein Nerz interessieren?",
     options: ["sich", "dich", "mich", "euch"],
     answer: 2,
+    translation: "Why should I take an interest in your mink?",
     metadata: {
       cefr: "B2",
       system: "verb",
@@ -2145,6 +2245,7 @@ export const reflexivesTier3: ExerciseItem[] = [
       "Wo ist dieses utopische Wunderland, das sie ____ versprochen hat?",
     options: ["mich", "euch", "uns", "dich"],
     answer: 2,
+    translation: "Where is that Utopian wonderland she promised us?",
     metadata: {
       cefr: "B2",
       system: "verb",
@@ -2169,6 +2270,7 @@ export const reflexivesTier3: ExerciseItem[] = [
     stimulus: "Ich fühle ____ wie Kind am Weihnachtstag.",
     options: ["mich", "sich", "uns", "euch"],
     answer: 0,
+    translation: "I feel like a child on Christmas Day.",
     metadata: {
       cefr: "B2",
       system: "verb",
@@ -2194,6 +2296,8 @@ export const reflexivesTier3: ExerciseItem[] = [
       "Das traditionsreiche Hotel-Restaurant befindet ____ am westlichen Stadtrand",
     options: ["mich", "dich", "sich", "euch"],
     answer: 2,
+    translation:
+      "The long-standing Hotel-Restaurant is located on the western outskirts of",
     metadata: {
       cefr: "B2",
       system: "verb",
@@ -2219,6 +2323,8 @@ export const reflexivesTier3: ExerciseItem[] = [
       "Ich denke gern daran zurück, wie freundschaftlich ____ unsere Wege trennten.",
     options: ["uns", "dich", "sich", "mich"],
     answer: 2,
+    translation:
+      "I like to look back at it as an amicable parting of the ways.",
     metadata: {
       cefr: "B2",
       system: "verb",
@@ -2243,6 +2349,7 @@ export const reflexivesTier3: ExerciseItem[] = [
     stimulus: "Mama, es ist dein Bad, du musst ____ wohlfühlen.",
     options: ["mich", "uns", "sich", "dich"],
     answer: 3,
+    translation: "Mum, it's your bathroom, you have to feel comfortable.",
     metadata: {
       cefr: "B2",
       system: "verb",
@@ -2268,6 +2375,8 @@ export const reflexivesTier3: ExerciseItem[] = [
       "Ich fühlte ____ ruhelos und führungslos und ich dachte, die Schule würde mir",
     options: ["dich", "mich", "sich", "uns"],
     answer: 1,
+    translation:
+      "I felt restless and undirected, and I thought the school would give me some",
     metadata: {
       cefr: "B2",
       system: "verb",
@@ -2292,6 +2401,7 @@ export const reflexivesTier3: ExerciseItem[] = [
     stimulus: "Ich fühle ____ gerade nicht sehr gastfreundlich.",
     options: ["uns", "mich", "sich", "dich"],
     answer: 1,
+    translation: "I'm not feeling really hospitable right now.",
     metadata: {
       cefr: "B2",
       system: "verb",
@@ -2316,6 +2426,7 @@ export const reflexivesTier3: ExerciseItem[] = [
     stimulus: "Sie interessieren ____ für den Beruf der Kosmetikerin.",
     options: ["uns", "dich", "sich", "mich"],
     answer: 2,
+    translation: "They are interested in the profession of a cosmetician.",
     metadata: {
       cefr: "B2",
       system: "verb",
@@ -2340,6 +2451,7 @@ export const reflexivesTier3: ExerciseItem[] = [
     stimulus: "Er setzte ____ auf einen Kirchturm, als wäre es ein Thron.",
     options: ["mich", "uns", "euch", "sich"],
     answer: 3,
+    translation: "Then he sat upon a steeple as if it were a throne.",
     metadata: {
       cefr: "B2",
       system: "verb",
@@ -2364,6 +2476,8 @@ export const reflexivesTier3: ExerciseItem[] = [
     stimulus: "Hunde altern siebenmal schneller und beschweren ____ nicht.",
     options: ["sich", "euch", "uns", "dich"],
     answer: 0,
+    translation:
+      "Dogs age seven times faster and make not a peep of complaint.",
     metadata: {
       cefr: "B2",
       system: "verb",
@@ -2388,6 +2502,7 @@ export const reflexivesTier3: ExerciseItem[] = [
     stimulus: "Wir versuchen, ____ an das indianische Essen zu gewöhnen.",
     options: ["uns", "sich", "euch", "mich"],
     answer: 0,
+    translation: "We are trying to adapt to the Indian diet.",
     metadata: {
       cefr: "B2",
       system: "verb",
@@ -2413,6 +2528,8 @@ export const reflexivesTier3: ExerciseItem[] = [
       "Das Observatorium und Planetarium befinden ____ im Südteil der Stadt.",
     options: ["euch", "dich", "uns", "sich"],
     answer: 3,
+    translation:
+      "The Observatory and planetarium are located on the southern outskirts.",
     metadata: {
       cefr: "B2",
       system: "verb",
@@ -2438,6 +2555,8 @@ export const reflexivesTier3: ExerciseItem[] = [
       "Ich werde gehen und gucken, ob ich ____ mit den Kühen anfreunden kann.",
     options: ["dich", "uns", "euch", "mich"],
     answer: 3,
+    translation:
+      "I'm going to go and see if I can make friends with these cows.",
     metadata: {
       cefr: "B2",
       system: "verb",
@@ -2462,6 +2581,7 @@ export const reflexivesTier3: ExerciseItem[] = [
     stimulus: "Erinnerst du ____, eine weiße Tulpe bekommen zu haben?",
     options: ["uns", "sich", "dich", "euch"],
     answer: 2,
+    translation: "Do you remember getting a white tulip?",
     metadata: {
       cefr: "B2",
       system: "verb",
@@ -2487,6 +2607,8 @@ export const reflexivesTier3: ExerciseItem[] = [
       "Ich meine, erinnere ____ daran, als du dein Baby nicht anlächeln wolltest, weil",
     options: ["mich", "dich", "uns", "euch"],
     answer: 1,
+    translation:
+      "I mean, remember when you didn't smile at your baby because you thought it",
     metadata: {
       cefr: "B2",
       system: "verb",
@@ -2512,6 +2634,8 @@ export const reflexivesTier3: ExerciseItem[] = [
       "Es wundert ____ nicht, dass ich noch immer die Äste hinter mir knistern höre",
     options: ["dich", "sich", "mich", "uns"],
     answer: 2,
+    translation:
+      "It does not surprise me that I still hear the branches crackle behind me under",
     metadata: {
       cefr: "B2",
       system: "verb",

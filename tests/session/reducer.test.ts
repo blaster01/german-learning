@@ -151,6 +151,65 @@ describe("sessionReducer SUBMIT — wrong answers", () => {
   });
 });
 
+describe("sessionReducer correctCount", () => {
+  it("increments only on newly-resolved correct answers", () => {
+    let state = sessionReducer(createInitialSession(), {
+      type: "INIT",
+      items: [mc, cloze],
+    });
+    state = sessionReducer(state, { type: "SUBMIT", attempt: 1 }); // mc correct
+    expect(state.correctCount).toBe(1);
+    state = sessionReducer(state, { type: "CONTINUE" });
+    state = sessionReducer(state, { type: "SUBMIT", attempt: "wrong" }); // cloze wrong
+    expect(state.correctCount).toBe(1);
+  });
+});
+
+describe("sessionReducer END", () => {
+  it("jumps to done from the prompt phase and flags endedEarly", () => {
+    let state = sessionReducer(createInitialSession(), {
+      type: "INIT",
+      items: [mc, cloze],
+    });
+    state = sessionReducer(state, { type: "END" });
+    expect(state.phase).toBe("done");
+    expect(state.endedEarly).toBe(true);
+  });
+
+  it("jumps to done from the feedback phase", () => {
+    let state = sessionReducer(createInitialSession(), {
+      type: "INIT",
+      items: [mc, cloze],
+    });
+    state = sessionReducer(state, { type: "SUBMIT", attempt: 1 });
+    state = sessionReducer(state, { type: "END" });
+    expect(state.phase).toBe("done");
+    expect(state.endedEarly).toBe(true);
+  });
+
+  it("is a no-op when loading or already done", () => {
+    const loading = createInitialSession();
+    expect(sessionReducer(loading, { type: "END" })).toBe(loading);
+
+    let done = sessionReducer(createInitialSession(), {
+      type: "INIT",
+      items: [],
+    });
+    expect(sessionReducer(done, { type: "END" })).toBe(done);
+  });
+
+  it("does not set endedEarly on natural completion", () => {
+    let state = sessionReducer(createInitialSession(), {
+      type: "INIT",
+      items: [mc],
+    });
+    state = sessionReducer(state, { type: "SUBMIT", attempt: 1 });
+    state = sessionReducer(state, { type: "CONTINUE" });
+    expect(state.phase).toBe("done");
+    expect(state.endedEarly).toBeFalsy();
+  });
+});
+
 describe("sessionReducer CONTINUE", () => {
   it("advances the cursor back to prompt phase", () => {
     let state = sessionReducer(createInitialSession(), {

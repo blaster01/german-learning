@@ -32,8 +32,8 @@ export const CONTENT_MODULE_META: ContentModuleMeta[] = [
     description:
       "Fill in the correct pronoun (ich/mich/mir, du/dich/dir, er/ihn/ihm…) in real sentences.",
     idPrefix: "nom-pro",
-    tierCounts: [324, 278, 1372],
-    totalCount: 1974,
+    tierCounts: [324, 278, 1371],
+    totalCount: 1973,
   },
   {
     id: "reflexives",
@@ -131,8 +131,8 @@ export const CONTENT_MODULE_META: ContentModuleMeta[] = [
     description:
       "Reconstruct German sentences by putting shuffled words in the correct order.",
     idPrefix: "syn-sb",
-    tierCounts: [1479, 1490, 6984],
-    totalCount: 9953,
+    tierCounts: [1479, 1490, 6974],
+    totalCount: 9943,
   },
   {
     id: "negation-lab",
@@ -175,8 +175,8 @@ export const CONTENT_MODULE_META: ContentModuleMeta[] = [
     description:
       "Recall vocabulary in context: fill in the missing word in authentic sentences.",
     idPrefix: "voc-sc",
-    tierCounts: [1221, 1377, 6261],
-    totalCount: 8859,
+    tierCounts: [1221, 1377, 6257],
+    totalCount: 8855,
   },
   {
     id: "error-clinic",

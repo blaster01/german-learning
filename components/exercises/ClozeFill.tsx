@@ -5,6 +5,7 @@ import type { ClozeItem } from "@/lib/content/schema";
 import type { EngineProps } from "@/lib/engines/types";
 import { Button } from "@/components/ui/button";
 import { SpeakButton } from "@/components/ui/speak-button";
+import { UmlautKeys } from "@/components/ui/umlaut-keys";
 
 export function ClozeFill({
   item,
@@ -31,7 +32,7 @@ export function ClozeFill({
         placeholder="Type your answer…"
         onChange={(e) => setValue(e.target.value)}
         onKeyDown={(e) => {
-          if (e.key === "Enter" && !e.shiftKey) {
+          if (e.key === "Enter" && !e.shiftKey && !e.repeat) {
             e.preventDefault();
             if (!disabled) onSubmit(value);
           }
@@ -39,6 +40,12 @@ export function ClozeFill({
         aria-label="Your answer"
         autoComplete="off"
         autoFocus
+      />
+      <UmlautKeys
+        targetRef={ref}
+        value={value}
+        onInsert={setValue}
+        disabled={disabled}
       />
       <Button
         type="button"

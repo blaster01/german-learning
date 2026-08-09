@@ -20,6 +20,7 @@ export const konjunktivIiTier2: ExerciseItem[] = [
     stimulus: "Wenn ich an deiner Stelle ____, würde ich mich entschuldigen.",
     options: ["wäre", "bin", "war", "sei"],
     answer: 0,
+    translation: "If I were in your place, I would apologize.",
     feedback: FEEDBACK,
     metadata: {
       cefr: "B1",
@@ -36,6 +37,7 @@ export const konjunktivIiTier2: ExerciseItem[] = [
     stimulus: "____ Sie so freundlich und würden das Fenster schließen?",
     options: ["Wären", "Sind", "Waren", "Werden"],
     answer: 0,
+    translation: "Would you be so kind as to close the window?",
     feedback: FEEDBACK,
     metadata: {
       cefr: "B1",
@@ -52,6 +54,7 @@ export const konjunktivIiTier2: ExerciseItem[] = [
     stimulus: "Wenn wir mehr Geld ____, würden wir eine Reise machen.",
     options: ["hätten", "haben", "hatten", "würden"],
     answer: 0,
+    translation: "If we had more money, we would take a trip.",
     feedback: FEEDBACK,
     metadata: {
       cefr: "B1",
@@ -68,6 +71,7 @@ export const konjunktivIiTier2: ExerciseItem[] = [
     stimulus: "Er tut so, als ob er krank ____.",
     options: ["wäre", "ist", "war", "sei"],
     answer: 0,
+    translation: "He's acting as if he were sick.",
     feedback: FEEDBACK,
     metadata: {
       cefr: "B1",
@@ -84,6 +88,7 @@ export const konjunktivIiTier2: ExerciseItem[] = [
     stimulus: "Ich ____ das nicht sagen, wenn ich an deiner Stelle wäre.",
     options: ["würde", "werde", "wurde", "würdet"],
     answer: 0,
+    translation: "I wouldn't say that if I were in your place.",
     feedback: FEEDBACK,
     metadata: {
       cefr: "B1",
@@ -99,6 +104,7 @@ export const konjunktivIiTier2: ExerciseItem[] = [
     prompt: "Fill in the Konjunktiv II form of 'können':",
     stimulus: "____ du mir bitte das Salz geben?",
     answer: "Könntest",
+    translation: "Could you please pass me the salt?",
     feedback: FEEDBACK,
     metadata: {
       cefr: "B1",
@@ -114,6 +120,7 @@ export const konjunktivIiTier2: ExerciseItem[] = [
     prompt: "Fill in the Konjunktiv II form of 'müssen':",
     stimulus: "Du ____ eigentlich früher aufstehen.",
     answer: "müsstest",
+    translation: "You should actually get up earlier.",
     feedback: FEEDBACK,
     metadata: {
       cefr: "B1",
@@ -129,6 +136,7 @@ export const konjunktivIiTier2: ExerciseItem[] = [
     prompt: "Fill in the Konjunktiv II form of 'mögen' (polite 'would like'):",
     stimulus: "Ich ____ gern etwas fragen.",
     answer: "möchte",
+    translation: "I would like to ask something.",
     feedback: FEEDBACK,
     metadata: {
       cefr: "B1",

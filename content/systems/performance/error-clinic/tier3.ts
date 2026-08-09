@@ -9,6 +9,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Von dieser Illusion müssen wir ihm abbringen.",
     answer: "Von dieser Illusion müssen wir ihn abbringen.",
+    translation: "We must dissuade him of this delusion.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -31,6 +32,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Seine Leute verschwören sich, um mir zu stürzen.",
     answer: "Seine Leute verschwören sich, um mich zu stürzen.",
+    translation: "His people conspire to overthrow me.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -53,6 +55,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Dieser Besuch ist so unglaublich aufregend für mir.",
     answer: "Dieser Besuch ist so unglaublich aufregend für mich.",
+    translation: "It has been such a tremendous excitement for me, this visit.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -75,6 +78,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Sie dürfen die Packung kein öffnen.",
     answer: "Sie dürfen die Packung nicht öffnen.",
+    translation: "I can't let you open the package.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -97,6 +101,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Er kann jederzeit zurückfliegen und dir besuchen kommen.",
     answer: "Er kann jederzeit zurückfliegen und dich besuchen kommen.",
+    translation: "He can fly back when he wants to visit you.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -119,6 +124,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Aikido ist überwiegend defensiv und es gibt nicht Wettkämpfe.",
     answer: "Aikido ist überwiegend defensiv und es gibt keine Wettkämpfe.",
+    translation: "Aikido is mainly defensive and there are no competitions.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -143,6 +149,8 @@ export const errorClinicTier3: ExerciseItem[] = [
       "Die Versammlung wurde abgesagt, da auf beiden Seiten nicht Hoffnung auf",
     answer:
       "Die Versammlung wurde abgesagt, da auf beiden Seiten keine Hoffnung auf",
+    translation:
+      "The meeting was called off as there was no hope of agreement on either",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -167,6 +175,8 @@ export const errorClinicTier3: ExerciseItem[] = [
       "Es kostet eine Menge Mut, Hosenträger zu tragen, wenn man kein im Zirkus",
     answer:
       "Es kostet eine Menge Mut, Hosenträger zu tragen, wenn man nicht im Zirkus",
+    translation:
+      "It takes a lot of courage to wear suspenders when you're not in the circus.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -189,6 +199,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Und Sie müssen mir jetzt losmachen!",
     answer: "Und Sie müssen mich jetzt losmachen!",
+    translation: "You need to release me now!",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -211,6 +222,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Sie würden dein Visum widerrufen und dir abschieben.",
     answer: "Sie würden dein Visum widerrufen und dich abschieben.",
+    translation: "They'll revoke your visa, and you'll be deported.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -233,6 +245,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Ich werde kein lange genug drin sein, um zu ersticken.",
     answer: "Ich werde nicht lange genug drin sein, um zu ersticken.",
+    translation: "I won't be in there long enough to suffocate.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -255,6 +268,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Schließlich sollte nicht Schiff ohne seinen Kapitän untergehen.",
     answer: "Schließlich sollte kein Schiff ohne seinen Kapitän untergehen.",
+    translation: "After all, no ship should go down without her captain.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -277,6 +291,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Wenn der Sturm vorbei ist, zeig ich dich meinen Renner.",
     answer: "Wenn der Sturm vorbei ist, zeig ich dir meinen Renner.",
+    translation: "When the storm is over, I'll show you my racer.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -299,6 +314,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Wenn wir eingreifen, gibt es nicht Zurück mehr.",
     answer: "Wenn wir eingreifen, gibt es kein Zurück mehr.",
+    translation: "Once we engage, there'll be no turning back.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -321,6 +337,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Jane, wir müssen ihm taufen!",
     answer: "Jane, wir müssen ihn taufen!",
+    translation: "Jane, we have to baptize him!",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -343,6 +360,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Er wird jemand herschicken, der dir schützt.",
     answer: "Er wird jemand herschicken, der dich schützt.",
+    translation: "He will send somebody to keep you safe.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -365,6 +383,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Deshalb es wird Kap der Guten Hoffnung genannt.",
     answer: "Deshalb wird es Kap der Guten Hoffnung genannt.",
+    translation: "That's why they call it The Cape of Good Hope.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -387,6 +406,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Das ist kein ungewohntes Terrain für mir.",
     answer: "Das ist kein ungewohntes Terrain für mich.",
+    translation: "This isn't unfamiliar territory to me.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -409,6 +429,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Das ist nicht ungewohntes Terrain für mich.",
     answer: "Das ist kein ungewohntes Terrain für mich.",
+    translation: "This isn't unfamiliar territory to me.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -431,6 +452,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Ich will sie nur kein verschrecken.",
     answer: "Ich will sie nur nicht verschrecken.",
+    translation: "I just don't want to scare her off.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -453,6 +475,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Wir brauchen Strenge, gewiss, aber nicht Vorurteile.",
     answer: "Wir brauchen Strenge, gewiss, aber keine Vorurteile.",
+    translation: "Rigor is of course needed, but not prejudice.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -475,6 +498,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Sie sollen ihr Haar gut bedecken und sich kein schminken.",
     answer: "Sie sollen ihr Haar gut bedecken und sich nicht schminken.",
+    translation: "They must cover their hair and must not use any make-up.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -497,6 +521,8 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Außer seiner Erscheinung ist mich nichts vertraut.",
     answer: "Außer seiner Erscheinung ist mir nichts vertraut.",
+    translation:
+      "Except for his features, there is nothing about him I find familiar.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -519,6 +545,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Dennoch manche sind dieser Wölfe als Schafe getarnt.",
     answer: "Dennoch sind manche dieser Wölfe als Schafe getarnt.",
+    translation: "However, some of these wolves are disguised as sheep.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -541,6 +568,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Glaub mich, es ist unschön.",
     answer: "Glaub mir, es ist unschön.",
+    translation: "Trust me, it's messy.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -563,6 +591,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Ihre Talente hören nie auf mir zu verblüffen.",
     answer: "Ihre Talente hören nie auf mich zu verblüffen.",
+    translation: "Her talents never cease to amaze me.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -585,6 +614,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Ich lasse kein zu, dass Sie meinen Sohn ausbeuten.",
     answer: "Ich lasse nicht zu, dass Sie meinen Sohn ausbeuten.",
+    translation: "I will not let you exploit my son.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -607,6 +637,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Der Hausherr erlaubt ihn nicht, die Tür rot anzustreichen.",
     answer: "Der Hausherr erlaubt ihm nicht, die Tür rot anzustreichen.",
+    translation: "The landlord won't permit him to paint the door red.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -629,6 +660,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Der Hausherr erlaubt ihm kein, die Tür rot anzustreichen.",
     answer: "Der Hausherr erlaubt ihm nicht, die Tür rot anzustreichen.",
+    translation: "The landlord won't permit him to paint the door red.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -653,6 +685,8 @@ export const errorClinicTier3: ExerciseItem[] = [
       "Wir müssen unseren Kindern beibringen, dass die Welt kein unzerstörbar ist.",
     answer:
       "Wir müssen unseren Kindern beibringen, dass die Welt nicht unzerstörbar ist.",
+    translation:
+      "We have to teach the kids that the world is not indestructible.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -675,6 +709,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Können Sie mich ein Signal zu Ihrer Ortung geben?",
     answer: "Können Sie mir ein Signal zu Ihrer Ortung geben?",
+    translation: "Can you give me a signal of your location?",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -697,6 +732,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Er wird nachforschen und dir beobachten lassen.",
     answer: "Er wird nachforschen und dich beobachten lassen.",
+    translation: "He'll investigate you, have you shadowed.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -719,6 +755,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Beim Gähnen tränen mich manchmal die Augen.",
     answer: "Beim Gähnen tränen mir manchmal die Augen.",
+    translation: "My eyes leak sometimes when I yawn, that's all.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -741,6 +778,8 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Jetzt entschuldige mir, ich muss jemanden abhören.",
     answer: "Jetzt entschuldige mich, ich muss jemanden abhören.",
+    translation:
+      "Now, if you'll excuse me, I've got a little eavesdropping to do.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -763,6 +802,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Sorry, das ist kein die Parole.",
     answer: "Sorry, das ist nicht die Parole.",
+    translation: "Sorry, that's not the password.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -785,6 +825,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Wenn Sie fluchen, stottern Sie kein.",
     answer: "Wenn Sie fluchen, stottern Sie nicht.",
+    translation: "You don't stammer when you swear.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -807,6 +848,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Und sie will kein mal mehr kuscheln.",
     answer: "Und sie will nicht mal mehr kuscheln.",
+    translation: "And she doesn't even want to cuddle anymore.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -829,6 +871,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Und nichts wird mir umstimmen.",
     answer: "Und nichts wird mich umstimmen.",
+    translation: "And nothing will sway me from this.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -851,6 +894,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Nach Sekunde einer war die Kassette bereits am Ende.",
     answer: "Nach einer Sekunde war die Kassette bereits am Ende.",
+    translation: "The cartridge was already empty after one second.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -875,6 +919,7 @@ export const errorClinicTier3: ExerciseItem[] = [
       "Wir sind auf das Dach geklebt und wir können uns kein unterkriegen!",
     answer:
       "Wir sind auf das Dach geklebt und wir können uns nicht unterkriegen!",
+    translation: "We're stuck up on the roof, and we can't get down!",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -899,6 +944,8 @@ export const errorClinicTier3: ExerciseItem[] = [
       "Tippen Sie einen Zettel, auf dem steht, dass heute nicht Sprechstunde mehr ist.",
     answer:
       "Tippen Sie einen Zettel, auf dem steht, dass heute keine Sprechstunde mehr ist.",
+    translation:
+      "Why don't you type a notice to say that afternoon surgery is canceled?",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -921,6 +968,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Manchmal man musste ein klein wenig nachhelfen.",
     answer: "Manchmal musste man ein klein wenig nachhelfen.",
+    translation: "Sometimes, you had to help out a little.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -943,6 +991,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Das wollte ich auf nicht Fall andeuten.",
     answer: "Das wollte ich auf keinen Fall andeuten.",
+    translation: "I didn't mean to suggest that at all.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -965,6 +1014,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Ich lasse dich ein Exemplar signieren.",
     answer: "Ich lasse dir ein Exemplar signieren.",
+    translation: "I'll get him to sign you a copy.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -987,6 +1037,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Sie lässt sich kein durch Subventionen fabrizieren.",
     answer: "Sie lässt sich nicht durch Subventionen fabrizieren.",
+    translation: "It is not manufactured with the aid of subsidies.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -1009,6 +1060,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Ich kann die Reue meines Vaters kein ergründen.",
     answer: "Ich kann die Reue meines Vaters nicht ergründen.",
+    translation: "I cannot fathom my father's regret.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -1033,6 +1085,8 @@ export const errorClinicTier3: ExerciseItem[] = [
       "Denn du sobald die Augen schließt, verschwinden sechzig Prozent der Welt.",
     answer:
       "Denn sobald du die Augen schließt, verschwinden sechzig Prozent der Welt.",
+    translation:
+      "As soon as you close your eyes, sixty percent of the world disappears.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -1055,6 +1109,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Bist du verrückt, ihn Falschgeld zu geben?",
     answer: "Bist du verrückt, ihm Falschgeld zu geben?",
+    translation: "Are you crazy, giving him counterfeit money?",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -1077,6 +1132,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Ich konnte meinen Kaffee kein mal austrinken.",
     answer: "Ich konnte meinen Kaffee nicht mal austrinken.",
+    translation: "I never had a chance to finish my coffee.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -1099,6 +1155,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Die heruntergeladene Datei enthält nicht gültige Signatur.",
     answer: "Die heruntergeladene Datei enthält keine gültige Signatur.",
+    translation: "The downloaded file does not contain a valid signature.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -1121,6 +1178,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Ich weiß kein, was er hat, aber es ist nicht lebensgefährlich.",
     answer: "Ich weiß nicht, was er hat, aber es ist nicht lebensgefährlich.",
+    translation: "Whatever he's got, is not life-threatening.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -1143,6 +1201,8 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Seit Guatemala ist ein völlig unabhängiger Staat.",
     answer: "Seit ist Guatemala ein völlig unabhängiger Staat.",
+    translation:
+      "Guatemala is a country that became a fully independent state in 1839.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -1165,6 +1225,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Sie servieren ihn Rindfleisch mit Pommes.",
     answer: "Sie servieren ihm Rindfleisch mit Pommes.",
+    translation: "They're serving him beef with French fries.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -1189,6 +1250,7 @@ export const errorClinicTier3: ExerciseItem[] = [
       "Es ist kein so wie das Drücken auf die Tasten in deinem Autoradio.",
     answer:
       "Es ist nicht so wie das Drücken auf die Tasten in deinem Autoradio.",
+    translation: "It's not like punching in the presets on your car radio.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -1211,6 +1273,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Außerdem er hat einen Bluterguss am Brustkorb.",
     answer: "Außerdem hat er einen Bluterguss am Brustkorb.",
+    translation: "He's also got a nasty bruise on his ribcage.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -1233,6 +1296,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Ich würde für dir einhundertmal sterben.",
     answer: "Ich würde für dich einhundertmal sterben.",
+    translation: "I would die for you one hundred times over.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -1255,6 +1319,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Du wartest nach der Schule auf mir im Lehrerzimmer!",
     answer: "Du wartest nach der Schule auf mich im Lehrerzimmer!",
+    translation: "Wait for me after school in the teachers' room.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -1277,6 +1342,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Du musst mir jetzt herunterlassen!",
     answer: "Du musst mich jetzt herunterlassen!",
+    translation: "You can let me down now.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -1299,6 +1365,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Ich bin Taxifahrer, nicht Kopfgeldjäger.",
     answer: "Ich bin Taxifahrer, kein Kopfgeldjäger.",
+    translation: "I'm a taxi driver, not a bounty hunter.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -1321,6 +1388,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Ich bin nicht Fachmann auf dem Gebiet.",
     answer: "Ich bin kein Fachmann auf dem Gebiet.",
+    translation: "I'm not an expert in the field.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -1343,6 +1411,8 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Die Zentralregierung von Bosnien ist noch kein handlungsfähig.",
     answer: "Die Zentralregierung von Bosnien ist noch nicht handlungsfähig.",
+    translation:
+      "The central government of Bosnia is still incapable of acting.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -1365,6 +1435,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Dann schleusen sie ihm zwischen den anderen Verletzten raus.",
     answer: "Dann schleusen sie ihn zwischen den anderen Verletzten raus.",
+    translation: "Then, they smuggle him out with the rest of the injured.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -1387,6 +1458,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Wir wollten ihm auf dem Weg abfangen.",
     answer: "Wir wollten ihn auf dem Weg abfangen.",
+    translation: "Our plan was to intercept him.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -1409,6 +1481,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Verwenden Sie nicht Kugelschreiber oder Filzstift.",
     answer: "Verwenden Sie keinen Kugelschreiber oder Filzstift.",
+    translation: "Do not use a pen or a marker.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -1431,6 +1504,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Wir können ihre Redefreiheit kein einengen.",
     answer: "Wir können ihre Redefreiheit nicht einengen.",
+    translation: "We can't restrict their free speech.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -1453,6 +1527,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Ich mache ihm nicht zum Märtyrer.",
     answer: "Ich mache ihn nicht zum Märtyrer.",
+    translation: "I will not make him a martyr.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -1475,6 +1550,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Ich mache ihn kein zum Märtyrer.",
     answer: "Ich mache ihn nicht zum Märtyrer.",
+    translation: "I will not make him a martyr.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -1497,6 +1573,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Zuerst Sie müssen zurück in Ihr Hotelzimmer.",
     answer: "Zuerst müssen Sie zurück in Ihr Hotelzimmer.",
+    translation: "First, you need to return to your hotel room.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -1519,6 +1596,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Deine Anwesenheit hier dient nur dazu, ihm zu erzürnen.",
     answer: "Deine Anwesenheit hier dient nur dazu, ihn zu erzürnen.",
+    translation: "Your presence here only serves to anger him.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -1541,6 +1619,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Diese Gefühle kannst du kein verleugnen.",
     answer: "Diese Gefühle kannst du nicht verleugnen.",
+    translation: "You can't deny these feelings.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -1563,6 +1642,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Fleisch sollte kein roh gegessen werden.",
     answer: "Fleisch sollte nicht roh gegessen werden.",
+    translation: "Meat should not be eaten raw.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -1585,6 +1665,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Nun, atmen, aber kein inhalieren.",
     answer: "Nun, atmen, aber nicht inhalieren.",
+    translation: "Well, breathe, but don't inhale.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -1607,6 +1688,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Daher wir sind sehr auf Spenden angewiesen.",
     answer: "Daher sind wir sehr auf Spenden angewiesen.",
+    translation: "For that reason, we are dependent on contributions.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -1629,6 +1711,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Der Parasit ist im Blut kein festzustellen.",
     answer: "Der Parasit ist im Blut nicht festzustellen.",
+    translation: "The parasite is undetectable in the bloodstream.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -1653,6 +1736,8 @@ export const errorClinicTier3: ExerciseItem[] = [
       "Das schien mich in einer dermaßen heiklen Situation ein sehr vernünftiger",
     answer:
       "Das schien mir in einer dermaßen heiklen Situation ein sehr vernünftiger",
+    translation:
+      "This was a very sensible suggestion in such a difficult situation.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -1675,6 +1760,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Erstens produziert Afrika kein genug Nahrungsmittel.",
     answer: "Erstens produziert Afrika nicht genug Nahrungsmittel.",
+    translation: "First, Africa does not grow enough food.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -1697,6 +1783,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Und ich konnte nicht Moment länger wegbleiben.",
     answer: "Und ich konnte keinen Moment länger wegbleiben.",
+    translation: "And I couldn't stay away anymore.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -1719,6 +1806,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Jemand hat versucht mir auf dieser Kundgebung zu töten.",
     answer: "Jemand hat versucht mich auf dieser Kundgebung zu töten.",
+    translation: "Someone tried to kill me at that rally.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -1741,6 +1829,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Ich kann diesen Joint kein anzünden.",
     answer: "Ich kann diesen Joint nicht anzünden.",
+    translation: "I can't get this joint lit.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -1763,6 +1852,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Ich habe sowohl mir als auch meine Familie blamiert.",
     answer: "Ich habe sowohl mich als auch meine Familie blamiert.",
+    translation: "I have disgraced both myself and my family.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -1785,6 +1875,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Und selbst das hat er kein hinbekommen.",
     answer: "Und selbst das hat er nicht hinbekommen.",
+    translation: "He couldn't even get that done.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -1809,6 +1900,7 @@ export const errorClinicTier3: ExerciseItem[] = [
       "Es gibt immer noch nicht Beweis, dass die Besucher dahinterstecken.",
     answer:
       "Es gibt immer noch keinen Beweis, dass die Besucher dahinterstecken.",
+    translation: "There's still no proof the visitors are behind this.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -1831,6 +1923,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Ich bin kein hier, um zu schimpfen.",
     answer: "Ich bin nicht hier, um zu schimpfen.",
+    translation: "I'm not here to rant at you.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -1853,6 +1946,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Ich sage dich, wenn du würfeln musst.",
     answer: "Ich sage dir, wenn du würfeln musst.",
+    translation: "I'll tell you when to roll.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -1875,6 +1969,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Ich ruiniere mich seinetwegen nicht das Leben.",
     answer: "Ich ruiniere mir seinetwegen nicht das Leben.",
+    translation: "I'm not ruining my life because of him.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -1897,6 +1992,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Ich ruiniere mir seinetwegen kein das Leben.",
     answer: "Ich ruiniere mir seinetwegen nicht das Leben.",
+    translation: "I'm not ruining my life because of him.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -1919,6 +2015,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Dein Mietwagen hat kein einen Kratzer.",
     answer: "Dein Mietwagen hat nicht einen Kratzer.",
+    translation: "Your rental car doesn't even have a scratch on it.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -1941,6 +2038,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Ich lasse kein zu, dass dieser Schwindel weitergeht.",
     answer: "Ich lasse nicht zu, dass dieser Schwindel weitergeht.",
+    translation: "I will not let this fraud continue.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -1963,6 +2061,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Ich fühle mir so leicht und erhaben.",
     answer: "Ich fühle mich so leicht und erhaben.",
+    translation: "I feel all sort of far off and lofty.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -1985,6 +2084,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Ich bin Engländer, kein katholisch.",
     answer: "Ich bin Engländer, nicht katholisch.",
+    translation: "I'm English, not Catholic.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -2007,6 +2107,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Ich werde dich nachher einfach texten.",
     answer: "Ich werde dir nachher einfach texten.",
+    translation: "I'll just text you later.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -2029,6 +2130,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Es ist ein Zufluchtsort für mir.",
     answer: "Es ist ein Zufluchtsort für mich.",
+    translation: "It's really more of a sanctuary for me.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -2051,6 +2153,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Vergiss unseren Deal kein, John.",
     answer: "Vergiss unseren Deal nicht, John.",
+    translation: "Don't forget our deal, John.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -2073,6 +2176,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Doch zuerst werde ich dir foltern.",
     answer: "Doch zuerst werde ich dich foltern.",
+    translation: "But first, I will torture you.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -2095,6 +2199,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Wir wollen es kein verhexen.",
     answer: "Wir wollen es nicht verhexen.",
+    translation: "We don't want to jinx it.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -2117,6 +2222,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Ich wollte mich doch nur etwas Korn ausleihen.",
     answer: "Ich wollte mir doch nur etwas Korn ausleihen.",
+    translation: "I'm just here to borrow some grain.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -2139,6 +2245,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Das war nicht gute Idee mit dem Föhn.",
     answer: "Das war keine gute Idee mit dem Föhn.",
+    translation: "That was not a good idea with the hairdryer.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -2161,6 +2268,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Meine Mitfahrgelegenheit hat mir an der Kreuzung abgesetzt.",
     answer: "Meine Mitfahrgelegenheit hat mich an der Kreuzung abgesetzt.",
+    translation: "Well, my ride dropped me off at the crossroads.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -2183,6 +2291,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Wissen Sie, was für eine Gemeinheit Sie da von mich verlangen?",
     answer: "Wissen Sie, was für eine Gemeinheit Sie da von mir verlangen?",
+    translation: "Do you know what a dirty trick you're asking me to pull?",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -2205,6 +2314,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Und ich habe gute Rittmeister bei mich.",
     answer: "Und ich habe gute Rittmeister bei mir.",
+    translation: "And I have good captains with me.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -2229,6 +2339,7 @@ export const errorClinicTier3: ExerciseItem[] = [
       "Du glaubst doch kein ernsthaft, dass wir mit Heroin dealen, oder?",
     answer:
       "Du glaubst doch nicht ernsthaft, dass wir mit Heroin dealen, oder?",
+    translation: "You don't seriously think we deal in heroin, do you?",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -2251,6 +2362,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Ich habe nicht Schimmer, wo wir sind.",
     answer: "Ich habe keinen Schimmer, wo wir sind.",
+    translation: "I have no idea where we are.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -2273,6 +2385,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Dann werde ich dir bei der Station absetzen.",
     answer: "Dann werde ich dich bei der Station absetzen.",
+    translation: "So, I'll drop you off at the station.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -2295,6 +2408,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Ich will dein Wissen kein erben.",
     answer: "Ich will dein Wissen nicht erben.",
+    translation: "I don't want to inherit your wisdom.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -2317,6 +2431,8 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Ein Riesenfehler, zu dem mir meine Mutter zwang.",
     answer: "Ein Riesenfehler, zu dem mich meine Mutter zwang.",
+    translation:
+      "Well, that was a big mistake I let my mother pressurize me into.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -2339,6 +2455,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Nein, ich bin Kunsthändler, nicht Hehler.",
     answer: "Nein, ich bin Kunsthändler, kein Hehler.",
+    translation: "No, I'm an art dealer, not a fence.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -2361,6 +2478,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Und psychologisch macht es nicht Sinn.",
     answer: "Und psychologisch macht es keinen Sinn.",
+    translation: "And psychologically, it doesn't hold up.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -2383,6 +2501,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Ich will hier kein krepieren, wie mein Vater.",
     answer: "Ich will hier nicht krepieren, wie mein Vater.",
+    translation: "I don't want to die here like my father.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -2405,6 +2524,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Ich darf kein emotional verkrüppelt und alleine sterben.",
     answer: "Ich darf nicht emotional verkrüppelt und alleine sterben.",
+    translation: "I need to not die emotionally crippled and alone.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -2427,6 +2547,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Ich rege mir auf und kann mein Temperament nicht kontrollieren.",
     answer: "Ich rege mich auf und kann mein Temperament nicht kontrollieren.",
+    translation: "I get agitated and can't control my temper.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -2449,6 +2570,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Ich rege mich auf und kann mein Temperament kein kontrollieren.",
     answer: "Ich rege mich auf und kann mein Temperament nicht kontrollieren.",
+    translation: "I get agitated and can't control my temper.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -2471,6 +2593,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Das Volk will nicht Freiheit, sondern Sicherheit.",
     answer: "Das Volk will keine Freiheit, sondern Sicherheit.",
+    translation: "The people don't want freedom, they want security.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -2493,6 +2616,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Danach die kehrt Dichtung in den Ausgangszustand zurück.",
     answer: "Danach kehrt die Dichtung in den Ausgangszustand zurück.",
+    translation: "Afterward, the seal returns into the initial state.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -2515,6 +2639,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Jetzt ist nicht Zeit für Nickerchen.",
     answer: "Jetzt ist keine Zeit für Nickerchen.",
+    translation: "This isn't time for a nap.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -2537,6 +2662,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Eine Explosion könnte ihm streuen.",
     answer: "Eine Explosion könnte ihn streuen.",
+    translation: "An explosion could scatter it.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -2559,6 +2685,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Ich leugne das kein, das ist zweifelsohne der Fall.",
     answer: "Ich leugne das nicht, das ist zweifelsohne der Fall.",
+    translation: "I do not deny that; it is undoubtedly the case.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -2581,6 +2708,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Ihr braucht nicht Lichtmesser, die Frau glüht ja nahezu.",
     answer: "Ihr braucht keinen Lichtmesser, die Frau glüht ja nahezu.",
+    translation: "You don't need a light meter; the woman is glowing.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -2603,6 +2731,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Ich habe einen Vorsatz zu Neujahr für dir.",
     answer: "Ich habe einen Vorsatz zu Neujahr für dich.",
+    translation: "I have a New Year's resolution for you.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -2625,6 +2754,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Sie werden dir nicht deportieren, sie werden es versuchen.",
     answer: "Sie werden dich nicht deportieren, sie werden es versuchen.",
+    translation: "They won't deport you; they will just try.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -2647,6 +2777,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Sie werden dich kein deportieren, sie werden es versuchen.",
     answer: "Sie werden dich nicht deportieren, sie werden es versuchen.",
+    translation: "They won't deport you; they will just try.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -2669,6 +2800,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Außerdem heute ist der kanadische Unabhängigkeitstag.",
     answer: "Außerdem ist heute der kanadische Unabhängigkeitstag.",
+    translation: "Also, today is Canadian Independence Day.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -2691,6 +2823,8 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Ich denke, du musst dir zuerst psychisch darauf vorbereiten.",
     answer: "Ich denke, du musst dich zuerst psychisch darauf vorbereiten.",
+    translation:
+      "Well, first, I think you need to prepare yourself psychologically.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -2713,6 +2847,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Es ist Privatbesitz, nicht öffentlicher Spielplatz.",
     answer: "Es ist Privatbesitz, kein öffentlicher Spielplatz.",
+    translation: "It's private property, not a public playground.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -2735,6 +2870,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Wir dürfen den unbegründeten Ängsten kein nachgeben.",
     answer: "Wir dürfen den unbegründeten Ängsten nicht nachgeben.",
+    translation: "Let us not give in to unfounded fears.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -2757,6 +2893,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Er möchte sein Spiegelbild kein sehen.",
     answer: "Er möchte sein Spiegelbild nicht sehen.",
+    translation: "He doesn't want to see his reflection.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -2779,6 +2916,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Manche Leute reagieren kein gut auf Stress.",
     answer: "Manche Leute reagieren nicht gut auf Stress.",
+    translation: "Some people just don't react well to stress.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -2801,6 +2939,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Ohne mir seid ihr nur ein paar Hippies auf Sozialhilfe.",
     answer: "Ohne mich seid ihr nur ein paar Hippies auf Sozialhilfe.",
+    translation: "Without me, you're just a couple of hippies on welfare.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -2823,6 +2962,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Kannst du dich bitte was überziehen?",
     answer: "Kannst du dir bitte was überziehen?",
+    translation: "Can you cover your arms, please?",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -2845,6 +2985,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "John, lass sie kein das Buch aufschlagen!",
     answer: "John, lass sie nicht das Buch aufschlagen!",
+    translation: "John, do not let her open that book.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -2869,6 +3010,8 @@ export const errorClinicTier3: ExerciseItem[] = [
       "Insofern finde ich die Gesamtpolitik, wenn kein fehlerfrei, so doch schlüssig.",
     answer:
       "Insofern finde ich die Gesamtpolitik, wenn nicht fehlerfrei, so doch schlüssig.",
+    translation:
+      "To that extent, I believe that the overall policy is, if not perfect, at least",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -2891,6 +3034,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Und das hier ist nicht Sellerie, sondern Spargel.",
     answer: "Und das hier ist kein Sellerie, sondern Spargel.",
+    translation: "And it's asparagus, not celery.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -2914,6 +3058,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     stimulus:
       "Hör zu, ich will den Schmuck zurückkaufen, den ich dich verkaufte.",
     answer: "Hör zu, ich will den Schmuck zurückkaufen, den ich dir verkaufte.",
+    translation: "Look, I want to buy back the jewels I sold you.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -2936,6 +3081,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Ich mag ihm, aber er ist sonderbar.",
     answer: "Ich mag ihn, aber er ist sonderbar.",
+    translation: "I like him, but he's weird.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -2958,6 +3104,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Es gehört sich kein, auf einem Friedhof zu joggen.",
     answer: "Es gehört sich nicht, auf einem Friedhof zu joggen.",
+    translation: "It's really inappropriate to jog around a graveyard.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -2980,6 +3127,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Die Polizei soll Regeln durchsetzen, kein brechen.",
     answer: "Die Polizei soll Regeln durchsetzen, nicht brechen.",
+    translation: "Police are supposed to enforce the rules, not break them.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -3002,6 +3150,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Du kannst hier nicht Autos abschleppen!",
     answer: "Du kannst hier keine Autos abschleppen!",
+    translation: "You can't tow away cars here.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -3026,6 +3175,7 @@ export const errorClinicTier3: ExerciseItem[] = [
       "Ich werde zuerst hochklettern und dir dann hochziehen, in Ordnung?",
     answer:
       "Ich werde zuerst hochklettern und dich dann hochziehen, in Ordnung?",
+    translation: "I'll climb up first, and then I'll pull you up, all right?",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -3048,6 +3198,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Die meisten Leute würden mir für einen Freak halten.",
     answer: "Die meisten Leute würden mich für einen Freak halten.",
+    translation: "Most people would think I was a freak.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -3070,6 +3221,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Ich sagte, du sollst mir küssen, nicht lecken.",
     answer: "Ich sagte, du sollst mich küssen, nicht lecken.",
+    translation: "I said kiss me, not lick me.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -3092,6 +3244,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Ich sagte, du sollst mich küssen, kein lecken.",
     answer: "Ich sagte, du sollst mich küssen, nicht lecken.",
+    translation: "I said kiss me, not lick me.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -3114,6 +3267,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Das ist kein so eine Ausweichmanöver, oder?",
     answer: "Das ist nicht so eine Ausweichmanöver, oder?",
+    translation: "This isn't some kind of weird end run, is it?",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -3136,6 +3290,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Keine Gehaltserhöhung, kein eine Vergünstigung.",
     answer: "Keine Gehaltserhöhung, nicht eine Vergünstigung.",
+    translation: "Not one pay raise, not one perk",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -3158,6 +3313,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Das war sehr impulsiv, selbst für mir.",
     answer: "Das war sehr impulsiv, selbst für mich.",
+    translation: "It was pretty impulsive, even for me.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -3182,6 +3338,7 @@ export const errorClinicTier3: ExerciseItem[] = [
       "Schon einer in Woche können wir im Grünen Gewölbe diesen Fund zeigen.",
     answer:
       "Schon in einer Woche können wir im Grünen Gewölbe diesen Fund zeigen.",
+    translation: "After one week we can show this find in the Green Vault.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -3206,6 +3363,8 @@ export const errorClinicTier3: ExerciseItem[] = [
       "20.000 Datendurchläufe und nicht statistisch signifikanten Resultate.",
     answer:
       "20.000 Datendurchläufe und keine statistisch signifikanten Resultate.",
+    translation:
+      "Twenty thousand data runs and no statistically significant results.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -3228,6 +3387,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Das Hotel verfügt leider über nicht Lift.",
     answer: "Das Hotel verfügt leider über keinen Lift.",
+    translation: "Unfortunately, the hotel does not have a lift.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -3250,6 +3410,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Mein Leben war kein ausgelassen fröhlich.",
     answer: "Mein Leben war nicht ausgelassen fröhlich.",
+    translation: "My life was not exuberant.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -3272,6 +3433,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Nein, ich habe nicht Büffel gesehen.",
     answer: "Nein, ich habe keinen Büffel gesehen.",
+    translation: "No, I haven't seen any buffalo.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -3294,6 +3456,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Ich meine, er wird mich seine Niere geben.",
     answer: "Ich meine, er wird mir seine Niere geben.",
+    translation: "I mean, he'll give me his kidney.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -3318,6 +3481,7 @@ export const errorClinicTier3: ExerciseItem[] = [
       "Wir haben meilenweit nicht Menschenseele hier in der Gegend gesehen.",
     answer:
       "Wir haben meilenweit keine Menschenseele hier in der Gegend gesehen.",
+    translation: "We haven't seen another soul for miles around here.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -3340,6 +3504,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Wenn Sie kein binnen fünf Tagen die Miete zahlen, wird eine",
     answer: "Wenn Sie nicht binnen fünf Tagen die Miete zahlen, wird eine",
+    translation: "If you don't pay the rent in five days, you'll be evicted.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -3362,6 +3527,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Ich werde dir nie wieder anzweifeln.",
     answer: "Ich werde dich nie wieder anzweifeln.",
+    translation: "I'll never doubt you again.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -3386,6 +3552,8 @@ export const errorClinicTier3: ExerciseItem[] = [
       "Ich will kein taktlos sein, aber Sie sind wohl kaum gegen eine Tür gelaufen.",
     answer:
       "Ich will nicht taktlos sein, aber Sie sind wohl kaum gegen eine Tür gelaufen.",
+    translation:
+      "I don't mean to be tactless, but it doesn't look like you walked into a door.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -3408,6 +3576,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Komm, hilf mich das Segel flicken.",
     answer: "Komm, hilf mir das Segel flicken.",
+    translation: "Come and help me mend the sail.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -3432,6 +3601,8 @@ export const errorClinicTier3: ExerciseItem[] = [
       "Und wir dachten eigentlich, sie hätte nicht mütterlichen Funken im Körper.",
     answer:
       "Und wir dachten eigentlich, sie hätte keinen mütterlichen Funken im Körper.",
+    translation:
+      "And here we thought she didn't have a maternal bone in her body.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -3456,6 +3627,8 @@ export const errorClinicTier3: ExerciseItem[] = [
       "Eine Zeitung gilt als lokal, wenn sie kein landesweit verbreitet ist.",
     answer:
       "Eine Zeitung gilt als lokal, wenn sie nicht landesweit verbreitet ist.",
+    translation:
+      "A newspaper is considered local as long as it is not nationwide.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -3480,6 +3653,8 @@ export const errorClinicTier3: ExerciseItem[] = [
       "Wenn Sie mit Ihrem Anteil nicht zufrieden sind, werde ich ihm etwas attraktiver machen.",
     answer:
       "Wenn Sie mit Ihrem Anteil nicht zufrieden sind, werde ich ihn etwas attraktiver machen.",
+    translation:
+      "If you are not satisfied with your share, I'll make it a bit more attractive.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -3504,6 +3679,8 @@ export const errorClinicTier3: ExerciseItem[] = [
       "Wenn Sie mit Ihrem Anteil kein zufrieden sind, werde ich ihn etwas attraktiver machen.",
     answer:
       "Wenn Sie mit Ihrem Anteil nicht zufrieden sind, werde ich ihn etwas attraktiver machen.",
+    translation:
+      "If you are not satisfied with your share, I'll make it a bit more attractive.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -3528,6 +3705,8 @@ export const errorClinicTier3: ExerciseItem[] = [
       "Das Steigen der Hauspreise ermöglichte ihn, sein Haus mit großem Gewinn zu",
     answer:
       "Das Steigen der Hauspreise ermöglichte ihm, sein Haus mit großem Gewinn zu",
+    translation:
+      "The rise in house prices enabled him to sell his house at a big profit.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -3550,6 +3729,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Nach Unterlagen unseren ist er verstorben.",
     answer: "Nach unseren Unterlagen ist er verstorben.",
+    translation: "Our records indicate he's deceased.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -3574,6 +3754,7 @@ export const errorClinicTier3: ExerciseItem[] = [
       "Aber ich bin sicher, das Überwachungsvideo wird mir freisprechen.",
     answer:
       "Aber ich bin sicher, das Überwachungsvideo wird mich freisprechen.",
+    translation: "I'm sure the store's security footage will absolve me.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -3596,6 +3777,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Ich mag mein Rind rosa, aber kein roh.",
     answer: "Ich mag mein Rind rosa, aber nicht roh.",
+    translation: "Now, I like my beef pink, but not raw.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -3618,6 +3800,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Beachte, dass das Maximum kein immer existiert.",
     answer: "Beachte, dass das Maximum nicht immer existiert.",
+    translation: "Note that the maximum doesn't always exist.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -3640,6 +3823,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Ich will meine Premiere kein verpassen.",
     answer: "Ich will meine Premiere nicht verpassen.",
+    translation: "I don't want to miss my premiere.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -3662,6 +3846,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Ich musste furzen und wollte es kein vor ihr tun.",
     answer: "Ich musste furzen und wollte es nicht vor ihr tun.",
+    translation: "I had to fart, and I didn't want to do it in front of her.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -3684,6 +3869,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Ich habe kein alle Pommes gegessen, weil sie zu fettig waren.",
     answer: "Ich habe nicht alle Pommes gegessen, weil sie zu fettig waren.",
+    translation: "I didn't eat all the fries because they were too greasy.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -3708,6 +3894,7 @@ export const errorClinicTier3: ExerciseItem[] = [
       "Ein guter Rat kann kein befolgt werden, wenn er nicht verstanden wird.",
     answer:
       "Ein guter Rat kann nicht befolgt werden, wenn er nicht verstanden wird.",
+    translation: "Good advice can't be followed if it isn't understood.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -3730,6 +3917,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Natürlich ist dem Menschen Manipulation kein fremd.",
     answer: "Natürlich ist dem Menschen Manipulation nicht fremd.",
+    translation: "Now a human, of course, is no stranger to manipulation.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -3754,6 +3942,7 @@ export const errorClinicTier3: ExerciseItem[] = [
       "Hinweis: Promotion-Nummern können kein doppelt hinzugefügt werden.",
     answer:
       "Hinweis: Promotion-Nummern können nicht doppelt hinzugefügt werden.",
+    translation: "Note: You cannot add duplicate promotion codes.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -3776,6 +3965,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Sie sollen mir nicht für gierig halten.",
     answer: "Sie sollen mich nicht für gierig halten.",
+    translation: "I don't want you to think I'm greedy.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -3798,6 +3988,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Sie sollen mich kein für gierig halten.",
     answer: "Sie sollen mich nicht für gierig halten.",
+    translation: "I don't want you to think I'm greedy.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -3820,6 +4011,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Eine Umleitung; die kommt mich gerade recht.",
     answer: "Eine Umleitung; die kommt mir gerade recht.",
+    translation: "A detour, I really needed that right now.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -3842,6 +4034,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Ich werde vorgeben, dir nicht zu kennen.",
     answer: "Ich werde vorgeben, dich nicht zu kennen.",
+    translation: "And I'll pretend to meet you for the first time.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -3864,6 +4057,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Ich werde vorgeben, dich kein zu kennen.",
     answer: "Ich werde vorgeben, dich nicht zu kennen.",
+    translation: "And I'll pretend to meet you for the first time.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -3886,6 +4080,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Die Dinge sind kein so gelaufen wie vorgesehen.",
     answer: "Die Dinge sind nicht so gelaufen wie vorgesehen.",
+    translation: "Things didn't go as planned.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -3908,6 +4103,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Intelligenz ist nicht Privileg, sondern eine Gabe.",
     answer: "Intelligenz ist kein Privileg, sondern eine Gabe.",
+    translation: "Intelligence is not a privilege, it's a gift.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -3930,6 +4126,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Sie sind kein berechtigt, dieses Inserat zu überarbeiten.",
     answer: "Sie sind nicht berechtigt, dieses Inserat zu überarbeiten.",
+    translation: "You are not authorized to revise this Ad.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -3952,6 +4149,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Mein Enkel soll kein dasselbe Schicksal erleiden.",
     answer: "Mein Enkel soll nicht dasselbe Schicksal erleiden.",
+    translation: "I don't want my grandson to suffer the same fate.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -3974,6 +4172,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Sie könnten mich einen Drink einschenken.",
     answer: "Sie könnten mir einen Drink einschenken.",
+    translation: "Well, you can pour me a drink.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -3996,6 +4195,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Er sieht nervös aus, aber kein blutig.",
     answer: "Er sieht nervös aus, aber nicht blutig.",
+    translation: "He looks nervous, but he doesn't look bloody.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -4018,6 +4218,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Ich will ihr kein die Geburtstagsparty verderben.",
     answer: "Ich will ihr nicht die Geburtstagsparty verderben.",
+    translation: "I don't want to ruin her birthday party.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -4040,6 +4241,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Warum trocknest du dich die Haare?",
     answer: "Warum trocknest du dir die Haare?",
+    translation: "Why are you drying your hair?",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -4062,6 +4264,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Es war mich unmöglich, eine Erektion aufrechtzuerhalten.",
     answer: "Es war mir unmöglich, eine Erektion aufrechtzuerhalten.",
+    translation: "I was unable to maintain an erection.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -4084,6 +4287,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Du hast mir tagelang damit gequält.",
     answer: "Du hast mich tagelang damit gequält.",
+    translation: "You have been hounding me about this for days.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -4106,6 +4310,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Wenn du vorsprechen willst, setz dir hin.",
     answer: "Wenn du vorsprechen willst, setz dich hin.",
+    translation: "If you want to audition, sit down.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -4128,6 +4333,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Ich will kein, dass du eine Lungenentzündung bekommst.",
     answer: "Ich will nicht, dass du eine Lungenentzündung bekommst.",
+    translation: "I don't want you to get pneumonia.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -4150,6 +4356,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Was immer du machst, verliere den Sender kein.",
     answer: "Was immer du machst, verliere den Sender nicht.",
+    translation: "Whatever you do, don't lose that transmitter.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -4174,6 +4381,8 @@ export const errorClinicTier3: ExerciseItem[] = [
       "Nach schrecklichen einem Brandanschlag, heute Nachmittag, brannte ein",
     answer:
       "Nach einem schrecklichen Brandanschlag, heute Nachmittag, brannte ein",
+    translation:
+      "After a horrific act of arson this afternoon, a school bus was found burning.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -4196,6 +4405,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Er hat dich einen Schal besorgt.",
     answer: "Er hat dir einen Schal besorgt.",
+    translation: "He got you a scarf.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -4220,6 +4430,8 @@ export const errorClinicTier3: ExerciseItem[] = [
       "Deshalb wir können ausschließlich Journalisten den Zugang zum Download- Bereich gewähren.",
     answer:
       "Deshalb können wir ausschließlich Journalisten den Zugang zum Download- Bereich gewähren.",
+    translation:
+      "Therefore, we can only grant access to the download area to journalists.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -4242,6 +4454,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Sie versetzten dich damit einen Elektroschock.",
     answer: "Sie versetzten dir damit einen Elektroschock.",
+    translation: "They use it to give you an electric shock.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -4264,6 +4477,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Der Vorname hat kein das korrekte Format.",
     answer: "Der Vorname hat nicht das korrekte Format.",
+    translation: "The first name is in an incorrect format.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -4286,6 +4500,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Der vorliegende Bereich darf uns kein gleichgültig lassen.",
     answer: "Der vorliegende Bereich darf uns nicht gleichgültig lassen.",
+    translation: "This area should not leave us indifferent.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -4308,6 +4523,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Dennoch die sind Übergriffe nicht minder besorgniserregend.",
     answer: "Dennoch sind die Übergriffe nicht minder besorgniserregend.",
+    translation: "But this does not make the attacks any less worrying.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -4330,6 +4546,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Dennoch sind die Übergriffe kein minder besorgniserregend.",
     answer: "Dennoch sind die Übergriffe nicht minder besorgniserregend.",
+    translation: "But this does not make the attacks any less worrying.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -4352,6 +4569,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Reden Sie kein so laut, wenn Sie tratschen.",
     answer: "Reden Sie nicht so laut, wenn Sie tratschen.",
+    translation: "Don't be so loud when you gossip.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -4374,6 +4592,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Du scheinst mich plötzlich sehr verächtlich zu sein.",
     answer: "Du scheinst mir plötzlich sehr verächtlich zu sein.",
+    translation: "You seem quite contemptuous to me all of a sudden.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -4396,6 +4615,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Ich traf ihm bei seinem Kurs über keltische Mythologie.",
     answer: "Ich traf ihn bei seinem Kurs über keltische Mythologie.",
+    translation: "I met him here when I took his class on Celtic mythology.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -4418,6 +4638,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Das schäumt kein, komisches Shampoo.",
     answer: "Das schäumt nicht, komisches Shampoo.",
+    translation: "The shampoo is weird, it won't lather.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -4440,6 +4661,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Sie werden sie kapern und mich übergeben.",
     answer: "Sie werden sie kapern und mir übergeben.",
+    translation: "You will capture her and turn her over to me.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -4462,6 +4684,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Die Portion ist zu groß für mir.",
     answer: "Die Portion ist zu groß für mich.",
+    translation: "The portion is too big for me.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -4486,6 +4709,7 @@ export const errorClinicTier3: ExerciseItem[] = [
       "Wenn es der Verteiler ist, wird das Auto definitiv kein anspringen.",
     answer:
       "Wenn es der Verteiler ist, wird das Auto definitiv nicht anspringen.",
+    translation: "If the distributor is broken, the car won't start.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -4508,6 +4732,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Ich wollte nicht Trauerfeier, genau aus diesem Grund.",
     answer: "Ich wollte keine Trauerfeier, genau aus diesem Grund.",
+    translation: "I didn't want a funeral for this very reason.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -4530,6 +4755,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Mit dir an meiner Seite fühle ich mir unschlagbar.",
     answer: "Mit dir an meiner Seite fühle ich mich unschlagbar.",
+    translation: "I feel invincible with you by my side.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -4552,6 +4778,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Philologe bin ich, nicht Philosoph.",
     answer: "Philologe bin ich, kein Philosoph.",
+    translation: "I'm a philologist, not a philosopher.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -4574,6 +4801,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Warum muss ich mir ständig degradieren?",
     answer: "Warum muss ich mich ständig degradieren?",
+    translation: "Why do I have this constant need to degrade myself?",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -4596,6 +4824,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Ich kann dein Gelaber kein mehr hören.",
     answer: "Ich kann dein Gelaber nicht mehr hören.",
+    translation: "I'm sick of your shit.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -4618,6 +4847,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Zu viel davon wird dir erblinden lassen.",
     answer: "Zu viel davon wird dich erblinden lassen.",
+    translation: "Too much of that will make you go blind.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -4640,6 +4870,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Geschichte war kein mein bestes Fach.",
     answer: "Geschichte war nicht mein bestes Fach.",
+    translation: "History was never my best subject.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -4662,6 +4893,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Mein Vater versteckte mir im Wandschrank.",
     answer: "Mein Vater versteckte mich im Wandschrank.",
+    translation: "My father hid me in the closet.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -4686,6 +4918,8 @@ export const errorClinicTier3: ExerciseItem[] = [
       "Und ich habe ungeniert mit dir geflirtet und du mich gesagt hast, dass du",
     answer:
       "Und ich habe ungeniert mit dir geflirtet und du mir gesagt hast, dass du",
+    translation:
+      "And I just flirted with you shamelessly, and you had to tell me you were",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -4708,6 +4942,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Wir machen das ja kein zum Spaß, wir ackern!",
     answer: "Wir machen das ja nicht zum Spaß, wir ackern!",
+    translation: "We're not doing this for fun, we're working hard.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -4730,6 +4965,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Sie würden an ihm vorbeigehen, ohne ihm zu beachten.",
     answer: "Sie würden an ihm vorbeigehen, ohne ihn zu beachten.",
+    translation: "You would pass him without giving him a glance.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -4752,6 +4988,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Ich habe dir vorher noch nie zunähen müssen.",
     answer: "Ich habe dich vorher noch nie zunähen müssen.",
+    translation: "I've never had to stitch you up before.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -4774,6 +5011,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Vorerst möchte ich mir hierauf konzentrieren.",
     answer: "Vorerst möchte ich mich hierauf konzentrieren.",
+    translation: "For now, I'd like to concentrate on this.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -4796,6 +5034,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Vor Gebrauch jedem reinigen und sterilisieren.",
     answer: "Vor jedem Gebrauch reinigen und sterilisieren.",
+    translation: "Clean and sterilize prior to each use.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -4818,6 +5057,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Ohne Frieden ist nämlich der Wiederaufbau Afrikas kein möglich.",
     answer: "Ohne Frieden ist nämlich der Wiederaufbau Afrikas nicht möglich.",
+    translation: "Without peace, the reconstruction of Africa is not possible.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -4840,6 +5080,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Dann werde auch ich mir bessern.",
     answer: "Dann werde auch ich mich bessern.",
+    translation: "And I'll try to do better, too.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -4862,6 +5103,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Der Generalstaatsanwalt wird nicht Deal akzeptieren.",
     answer: "Der Generalstaatsanwalt wird keinen Deal akzeptieren.",
+    translation: "The Attorney General is not going to accept a deal.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -4884,6 +5126,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Jetzt wurde mich ein wenig bange.",
     answer: "Jetzt wurde mir ein wenig bange.",
+    translation: "Now I was getting a little anxious.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -4906,6 +5149,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Andere würden mir als einflussreich beschreiben.",
     answer: "Andere würden mich als einflussreich beschreiben.",
+    translation: "Others would describe me as influential.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -4928,6 +5172,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Das ist kein das erste Mal, dass ein Kriegsveteran durchknallt.",
     answer: "Das ist nicht das erste Mal, dass ein Kriegsveteran durchknallt.",
+    translation: "It's not the first time a war veteran goes crazy.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -4950,6 +5195,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Vergiss kein, einen Fotoapparat mitzunehmen.",
     answer: "Vergiss nicht, einen Fotoapparat mitzunehmen.",
+    translation: "Don't forget to take a camera with you.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -4973,6 +5219,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     stimulus:
       "Die Wahrheit ist, ich bin nicht sonderlich qualifizierter Captain.",
     answer: "Die Wahrheit ist, ich bin kein sonderlich qualifizierter Captain.",
+    translation: "The truth is, I'm not a particularly skilled captain.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -4995,6 +5242,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Verwechseln Sie das kein mit Begierde oder Mitgefühl.",
     answer: "Verwechseln Sie das nicht mit Begierde oder Mitgefühl.",
+    translation: "You mustn't mistake that for desire or empathy.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -5017,6 +5265,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Und ich will nicht Oberfeldwebel mehr werden.",
     answer: "Und ich will kein Oberfeldwebel mehr werden.",
+    translation: "I don't want to be a staff sergeant.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -5039,6 +5288,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Das war kein schwer zu erraten.",
     answer: "Das war nicht schwer zu erraten.",
+    translation: "That was not too difficult to guess.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -5061,6 +5311,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Wir können es kein absehen.",
     answer: "Wir können es nicht absehen.",
+    translation: "We cannot predict it.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -5083,6 +5334,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Ich fühle mir durchaus imstande, das Kind alleine aufzuziehen.",
     answer: "Ich fühle mich durchaus imstande, das Kind alleine aufzuziehen.",
+    translation: "I feel quite able to raise this child alone.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -5105,6 +5357,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Ein Familienmitglied stirbt und Sie beleidigen mir.",
     answer: "Ein Familienmitglied stirbt und Sie beleidigen mich.",
+    translation: "A family member dies, and you insult me.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -5127,6 +5380,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Er konnte uns überhaupt nicht Angst mehr einjagen.",
     answer: "Er konnte uns überhaupt keine Angst mehr einjagen.",
+    translation: "In fact, nothing he did seemed to scare us.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -5149,6 +5403,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Die eingegebene Artikelnummer ist kein mehr vorhanden.",
     answer: "Die eingegebene Artikelnummer ist nicht mehr vorhanden.",
+    translation: "The item number you entered is no longer available.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -5171,6 +5426,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Sie hat ihm ganz schön zugerichtet.",
     answer: "Sie hat ihn ganz schön zugerichtet.",
+    translation: "She hurt him pretty bad.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -5195,6 +5451,8 @@ export const errorClinicTier3: ExerciseItem[] = [
       "Eine internationale Rechtspersönlichkeit kann indes kein einfach einseitig",
     answer:
       "Eine internationale Rechtspersönlichkeit kann indes nicht einfach einseitig",
+    translation:
+      "But international legal personality cannot simply be asserted unilaterally.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -5217,6 +5475,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Ich werde ihn dich morgen annähen.",
     answer: "Ich werde ihn dir morgen annähen.",
+    translation: "I'll sew it on in the morning.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -5239,6 +5498,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Ich erinnere mir, dass ich einen begrenzten Vorrat hatte.",
     answer: "Ich erinnere mich, dass ich einen begrenzten Vorrat hatte.",
+    translation: "I remember having a limited supply.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -5261,6 +5521,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Aber ich will den Antrieb kein überlasten.",
     answer: "Aber ich will den Antrieb nicht überlasten.",
+    translation: "I don't want to overload the engines.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -5283,6 +5544,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Wir sind kein leichtfertig zu diesem Entschluss gekommen.",
     answer: "Wir sind nicht leichtfertig zu diesem Entschluss gekommen.",
+    translation: "This is not a decision that we arrived at lightly.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -5307,6 +5569,7 @@ export const errorClinicTier3: ExerciseItem[] = [
       "Aber Verführung ist kein das einzige Spiel, welches sie zu spielen weiß.",
     answer:
       "Aber Verführung ist nicht das einzige Spiel, welches sie zu spielen weiß.",
+    translation: "But seduction isn't the only game she knows how to play.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -5329,6 +5592,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Ich muss nicht Brille mehr tragen.",
     answer: "Ich muss keine Brille mehr tragen.",
+    translation: "I don't have to wear glasses anymore.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -5353,6 +5617,8 @@ export const errorClinicTier3: ExerciseItem[] = [
       "Ich habe nicht Folien, ich werde meine Grafiken mimen, nutzen Sie Ihre",
     answer:
       "Ich habe keine Folien, ich werde meine Grafiken mimen, nutzen Sie Ihre",
+    translation:
+      "I don't have any slides, so I'm going to mime my visuals, so use your",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -5375,6 +5641,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Mein Computer lässt sich kein anschalten oder hochfahren.",
     answer: "Mein Computer lässt sich nicht anschalten oder hochfahren.",
+    translation: "My computer does not turn on or start up successfully.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -5397,6 +5664,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Diese Regionen muss das Unionsprojekt also kein abdecken.",
     answer: "Diese Regionen muss das Unionsprojekt also nicht abdecken.",
+    translation: "The Union project does not need to cover those regions.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -5419,6 +5687,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Warum habe ich kein einfach Schachmatt gesagt?",
     answer: "Warum habe ich nicht einfach Schachmatt gesagt?",
+    translation: "Why didn't I just say checkmate?",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -5441,6 +5710,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Wir können hier kein rumstehen und das diskutieren.",
     answer: "Wir können hier nicht rumstehen und das diskutieren.",
+    translation: "We can't stand around discussing this.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -5463,6 +5733,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Sei ein braver Junge und hol mich ein Stöckchen, ja?",
     answer: "Sei ein braver Junge und hol mir ein Stöckchen, ja?",
+    translation: "Be a good lad and bring me a stick, won't you?",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -5485,6 +5756,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Wir wollen kein das Budget einfrieren.",
     answer: "Wir wollen nicht das Budget einfrieren.",
+    translation: "We do not want to freeze the budget.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -5507,6 +5779,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Kommen Sie bloß kein an den Abzug mit Ihren zittrigen Händen.",
     answer: "Kommen Sie bloß nicht an den Abzug mit Ihren zittrigen Händen.",
+    translation: "Don't let your shaking hands near the trigger.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -5530,6 +5803,8 @@ export const errorClinicTier3: ExerciseItem[] = [
     stimulus:
       "Unser Christus ist der wahre Prophet Gottes, kein euer Mohammed.",
     answer: "Unser Christus ist der wahre Prophet Gottes, nicht euer Mohammed.",
+    translation:
+      "Our Christ is the real prophet of God, and your Mohammed is not.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -5552,6 +5827,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "An der Absperrung wird man dir durchlassen.",
     answer: "An der Absperrung wird man dich durchlassen.",
+    translation: "When you get to a barricade you will be let through.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -5574,6 +5850,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Es ist nicht Schande verwundbar zu sein.",
     answer: "Es ist keine Schande verwundbar zu sein.",
+    translation: "There's no shame in being vulnerable.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -5596,6 +5873,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Jemand hat mich eine Nachricht in meinem Spind hinterlassen.",
     answer: "Jemand hat mir eine Nachricht in meinem Spind hinterlassen.",
+    translation: "Somebody left a note in my locker.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -5618,6 +5896,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Es ist für die Forschung, kein militärisch, so denke ich.",
     answer: "Es ist für die Forschung, nicht militärisch, so denke ich.",
+    translation: "I think it's research, not military.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -5640,6 +5919,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Die Britische Armee wird kein vor einem Pöbel zurückweichen.",
     answer: "Die Britische Armee wird nicht vor einem Pöbel zurückweichen.",
+    translation: "The British Army will not retreat in the face of a rabble.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -5662,6 +5942,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Warum grillen wir kein auf der Veranda?",
     answer: "Warum grillen wir nicht auf der Veranda?",
+    translation: "Why don't we barbecue on the veranda?",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -5684,6 +5965,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Mit dem Helm fühlte ich mir unbesiegbar.",
     answer: "Mit dem Helm fühlte ich mich unbesiegbar.",
+    translation: "Every time I put on this helmet, I feel invincible.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -5706,6 +5988,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Jane fährt kein mit uns Schi, oder?",
     answer: "Jane fährt nicht mit uns Schi, oder?",
+    translation: "Jane won't be skiing with us, will he?",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -5728,6 +6011,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Mein Gynäkologe riet mich, Aufregung zu vermeiden.",
     answer: "Mein Gynäkologe riet mir, Aufregung zu vermeiden.",
+    translation: "My gynecologist told me to avoid excitement.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -5750,6 +6034,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Es ist nicht einzelner Mordfall mehr.",
     answer: "Es ist kein einzelner Mordfall mehr.",
+    translation: "It's no longer a single murder case.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -5772,6 +6057,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Ich sollte ihn bei diesem Projekt assistieren.",
     answer: "Ich sollte ihm bei diesem Projekt assistieren.",
+    translation: "He asked me to assist with this project.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -5794,6 +6080,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Gebildet zu sein heißt kein, gelehrt oder intelligent zu sein.",
     answer: "Gebildet zu sein heißt nicht, gelehrt oder intelligent zu sein.",
+    translation: "Being cultured doesn't mean you are erudite or intelligent.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -5816,6 +6103,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Ich bin abgestoßen und angewidert und ich kann kein wegsehen.",
     answer: "Ich bin abgestoßen und angewidert und ich kann nicht wegsehen.",
+    translation: "I'm disgusted and repulsed, and I can't look away.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -5838,6 +6126,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "In dem Saustall kann man kein wohnen.",
     answer: "In dem Saustall kann man nicht wohnen.",
+    translation: "We can't go on living in this mess.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -5860,6 +6149,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Wir sollten ihn einen richtigen Denkzettel verpassen.",
     answer: "Wir sollten ihm einen richtigen Denkzettel verpassen.",
+    translation: "We need to teach him a lesson.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -5882,6 +6172,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Ich sah ihm in den Umkleideraum gehen.",
     answer: "Ich sah ihn in den Umkleideraum gehen.",
+    translation: "I saw him heading for the locker room.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -5904,6 +6195,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Ziemlich ergreifend, finden Sie kein?",
     answer: "Ziemlich ergreifend, finden Sie nicht?",
+    translation: "Rather poignant, don't you think?",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -5926,6 +6218,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Er hat auf beiden nicht Schub mehr, hat er gesagt.",
     answer: "Er hat auf beiden keinen Schub mehr, hat er gesagt.",
+    translation: "He lost thrust in both engines, he said.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -5948,6 +6241,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Jetzt lass uns darüber reden, wo wir dir einliefern können.",
     answer: "Jetzt lass uns darüber reden, wo wir dich einliefern können.",
+    translation: "Now let's talk about getting you hospitalized somewhere.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -5970,6 +6264,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Wünscht der auserwählte Krieger einen Zweikampf mit mich?",
     answer: "Wünscht der auserwählte Krieger einen Zweikampf mit mir?",
+    translation: "Should the chosen warrior fight a duel with me?",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -5992,6 +6287,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Es hat keinen Zweck, dir zu verkriechen.",
     answer: "Es hat keinen Zweck, dich zu verkriechen.",
+    translation: "It's useless to hide.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -6014,6 +6310,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Es hat nicht Zweck, dich zu verkriechen.",
     answer: "Es hat keinen Zweck, dich zu verkriechen.",
+    translation: "It's useless to hide.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -6036,6 +6333,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Ich glaube kein, dass Sie hier reinpassen.",
     answer: "Ich glaube nicht, dass Sie hier reinpassen.",
+    translation: "I don't think you'd fit in here.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -6058,6 +6356,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Ich weiß kein, ob du großartig oder furchterregend bist.",
     answer: "Ich weiß nicht, ob du großartig oder furchterregend bist.",
+    translation: "I don't know if you're awesome or terrifying.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -6080,6 +6379,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Ich war mit dich jahrelang geduldig.",
     answer: "Ich war mit dir jahrelang geduldig.",
+    translation: "I have been patient with you for years.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -6102,6 +6402,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Ich wollte Ihr Auto kein anfahren!",
     answer: "Ich wollte Ihr Auto nicht anfahren!",
+    translation: "I didn't mean to hit your car!",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -6124,6 +6425,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Jetzt lass mir meinen neuen Schwiegersohn umarmen.",
     answer: "Jetzt lass mich meinen neuen Schwiegersohn umarmen.",
+    translation: "Now let me give my new son-in-law a hug.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -6146,6 +6448,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Jahrelang haben Sie mir mit solcher Verachtung angeschaut.",
     answer: "Jahrelang haben Sie mich mit solcher Verachtung angeschaut.",
+    translation: "For years, you've looked at me with such contempt.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -6168,6 +6471,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Ich bin vielleicht dürr, aber nicht Feigling.",
     answer: "Ich bin vielleicht dürr, aber kein Feigling.",
+    translation: "I may be scrawny, but I'm not a coward.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -6190,6 +6494,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Jane, du musst mir hindurch leiten.",
     answer: "Jane, du musst mich hindurch leiten.",
+    translation: "Jane, you must guide me through it.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -6213,6 +6518,8 @@ export const errorClinicTier3: ExerciseItem[] = [
     stimulus:
       "Deshalb in ist der Vorstadt nichts irreleitender als ein Lächeln.",
     answer: "Deshalb ist in der Vorstadt nichts irreleitender als ein Lächeln.",
+    translation:
+      "That's why, in the suburbs, there is nothing more deceptive than a smile.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -6237,6 +6544,8 @@ export const errorClinicTier3: ExerciseItem[] = [
       "Leider kann zurzeit Ihr aktueller Kontostand kein angezeigt werden.",
     answer:
       "Leider kann zurzeit Ihr aktueller Kontostand nicht angezeigt werden.",
+    translation:
+      "Unfortunately, your current account balance cannot be displayed at this",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -6261,6 +6570,7 @@ export const errorClinicTier3: ExerciseItem[] = [
       "Eine alleinstehende Mutter kann in dieser Männerwelt kein gewinnen.",
     answer:
       "Eine alleinstehende Mutter kann in dieser Männerwelt nicht gewinnen.",
+    translation: "A single mother can't win in a man's world.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -6283,6 +6593,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Die Lohnkürzungen kamen bei der Belegschaft kein gut an.",
     answer: "Die Lohnkürzungen kamen bei der Belegschaft nicht gut an.",
+    translation: "The pay cuts didn't go down well with the company staff.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -6305,6 +6616,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Ich wollte meinen Mann kein betrügen.",
     answer: "Ich wollte meinen Mann nicht betrügen.",
+    translation: "I didn't want to deceive my husband.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -6329,6 +6641,8 @@ export const errorClinicTier3: ExerciseItem[] = [
       "Aber diese erste Feststellung veranlasst mir zu einigen zusätzlichen",
     answer:
       "Aber diese erste Feststellung veranlasst mich zu einigen zusätzlichen",
+    translation:
+      "This initial finding leads me to make a few additional comments, however.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -6351,6 +6665,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Na ja, lassen wir uns kein mitreißen.",
     answer: "Na ja, lassen wir uns nicht mitreißen.",
+    translation: "Well, let's not get carried away.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -6373,6 +6688,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Evolution ist nicht Meinung, sondern Fakt.",
     answer: "Evolution ist keine Meinung, sondern Fakt.",
+    translation: "Evolution isn't an opinion, it's fact.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -6395,6 +6711,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "An mein damaliges Leben erinnere ich mir nicht sehr gut.",
     answer: "An mein damaliges Leben erinnere ich mich nicht sehr gut.",
+    translation: "I don't remember my life then very well.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -6417,6 +6734,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "An mein damaliges Leben erinnere ich mich kein sehr gut.",
     answer: "An mein damaliges Leben erinnere ich mich nicht sehr gut.",
+    translation: "I don't remember my life then very well.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -6439,6 +6757,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Er musste dir aus der Bar zerren.",
     answer: "Er musste dich aus der Bar zerren.",
+    translation: "He had to drag you out of the bar.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -6461,6 +6780,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Vielleicht kann ich auch für dir die Erlaubnis erwirken.",
     answer: "Vielleicht kann ich auch für dich die Erlaubnis erwirken.",
+    translation: "Perhaps I will obtain permission for you, too.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -6483,6 +6803,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Die Frau ist vom Finanzamt und hinter mich her.",
     answer: "Die Frau ist vom Finanzamt und hinter mir her.",
+    translation: "That woman is from the tax office, she's after me.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -6505,6 +6826,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Anscheinend sind sie kein so untätig.",
     answer: "Anscheinend sind sie nicht so untätig.",
+    translation: "Apparently, they're not that idle.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -6527,6 +6849,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Lass mir nicht so verrecken, Mann.",
     answer: "Lass mich nicht so verrecken, Mann.",
+    translation: "Don't let me die like this, man.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -6549,6 +6872,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Lass mich kein so verrecken, Mann.",
     answer: "Lass mich nicht so verrecken, Mann.",
+    translation: "Don't let me die like this, man.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -6571,6 +6895,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Der Arzt gab dich gerade erst Entwarnung.",
     answer: "Der Arzt gab dir gerade erst Entwarnung.",
+    translation: "You just got the all-clear from your doctor.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -6593,6 +6918,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Ich möchte ihn das Haus nicht abkaufen.",
     answer: "Ich möchte ihm das Haus nicht abkaufen.",
+    translation: "I don't want to buy that house from him.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -6615,6 +6941,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Ich möchte ihm das Haus kein abkaufen.",
     answer: "Ich möchte ihm das Haus nicht abkaufen.",
+    translation: "I don't want to buy that house from him.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -6637,6 +6964,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Du kannst kein bestreiten, dass John charmant ist.",
     answer: "Du kannst nicht bestreiten, dass John charmant ist.",
+    translation: "You can't deny that John is charming.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -6659,6 +6987,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Ein Betrunkener kam über die Linie und traf mir frontal.",
     answer: "Ein Betrunkener kam über die Linie und traf mich frontal.",
+    translation: "A drunk driver came over the line and hit me head on.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -6683,6 +7012,7 @@ export const errorClinicTier3: ExerciseItem[] = [
       "Offenbar hatte ein Bürokrat sein Schmiergeld kein pünktlich bezahlt.",
     answer:
       "Offenbar hatte ein Bürokrat sein Schmiergeld nicht pünktlich bezahlt.",
+    translation: "Apparently, a bureaucrat didn't pay his bribe on time.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -6705,6 +7035,8 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Außerdem Korrekturen sind zugunsten einiger Mitgliedstaaten",
     answer: "Außerdem sind Korrekturen zugunsten einiger Mitgliedstaaten",
+    translation:
+      "Moreover, adjustments have been made in favor of certain Member States.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -6727,6 +7059,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Sag mich, dass ich paranoid oder so etwas bin.",
     answer: "Sag mir, dass ich paranoid oder so etwas bin.",
+    translation: "Tell me I'm paranoid or something.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -6749,6 +7082,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Wir sind nicht Teil der Allianz mehr.",
     answer: "Wir sind kein Teil der Allianz mehr.",
+    translation: "We are no longer a part of the Alliance.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -6772,6 +7106,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     stimulus:
       "Weiß der Pilot irgendetwas, welches zu mich zurückführen könnte?",
     answer: "Weiß der Pilot irgendetwas, welches zu mir zurückführen könnte?",
+    translation: "Does the pilot know anything that could lead back to me?",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -6794,6 +7129,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Wir sind sonst kein so unfreundlich.",
     answer: "Wir sind sonst nicht so unfreundlich.",
+    translation: "We're really not that unfriendly.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -6818,6 +7154,7 @@ export const errorClinicTier3: ExerciseItem[] = [
       "Ohne eine Transplantation hält ihre Leber nicht Stunden mehr durch.",
     answer:
       "Ohne eine Transplantation hält ihre Leber keine Stunden mehr durch.",
+    translation: "Without a transplant, her liver may not last 72 hours.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -6840,6 +7177,8 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Es würde mich guttun, einige Tage rauszukommen.",
     answer: "Es würde mir guttun, einige Tage rauszukommen.",
+    translation:
+      "It really would do me good to get out of here for a few days.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -6862,6 +7201,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Ich kann kein ewig solo auftreten.",
     answer: "Ich kann nicht ewig solo auftreten.",
+    translation: "I can't go solo forever.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -6884,6 +7224,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Der polnische Vorschlag ist ganz und gar kein polnisch.",
     answer: "Der polnische Vorschlag ist ganz und gar nicht polnisch.",
+    translation: "The Polish proposal is not Polish at all.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -6906,6 +7247,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Sie hatten kein mehr das Bedürfnis zu protestieren.",
     answer: "Sie hatten nicht mehr das Bedürfnis zu protestieren.",
+    translation: "They no longer felt a need to protest.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -6928,6 +7270,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Denn ist das es, wodurch man erwischt wird.",
     answer: "Denn das ist es, wodurch man erwischt wird.",
+    translation: "Because that is how you get caught.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -6950,6 +7293,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Sie sagte mich, ich solle ihm applaudieren.",
     answer: "Sie sagte mir, ich solle ihm applaudieren.",
+    translation: "She told me to applaud him.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -6972,6 +7316,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Die Welt wird in mich den Retter meines Volkes sehen.",
     answer: "Die Welt wird in mir den Retter meines Volkes sehen.",
+    translation: "The world will see me as the savior of my people.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -6994,6 +7339,8 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Die wollen nicht Glücksspiel neben Kirchen und Schulen.",
     answer: "Die wollen kein Glücksspiel neben Kirchen und Schulen.",
+    translation:
+      "They don't want to have gambling near the churches or the schools.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -7016,6 +7363,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Schwer zu glauben, dass irgendwas ihm überwältigen könnte.",
     answer: "Schwer zu glauben, dass irgendwas ihn überwältigen könnte.",
+    translation: "It's hard to imagine anything could overpower him.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -7040,6 +7388,7 @@ export const errorClinicTier3: ExerciseItem[] = [
       "Ein Mädchen tauschte mit mich eine Orange für ein Stückchen Kuchen.",
     answer:
       "Ein Mädchen tauschte mit mir eine Orange für ein Stückchen Kuchen.",
+    translation: "A girl gave me an orange in exchange for a piece of cake.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -7064,6 +7413,8 @@ export const errorClinicTier3: ExerciseItem[] = [
       "Vor habe Jahren ich den Leuten von der Drogenbehörde einen Gefallen getan.",
     answer:
       "Vor Jahren habe ich den Leuten von der Drogenbehörde einen Gefallen getan.",
+    translation:
+      "Years ago, I did a favor for the people at the drug enforcement agency.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -7086,6 +7437,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Sein Vorschlag ist kein der Rede wert.",
     answer: "Sein Vorschlag ist nicht der Rede wert.",
+    translation: "His proposal is not worth talking about.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -7108,6 +7460,8 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Hunde altern siebenmal schneller und beschweren sich kein.",
     answer: "Hunde altern siebenmal schneller und beschweren sich nicht.",
+    translation:
+      "Dogs age seven times faster and make not a peep of complaint.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -7130,6 +7484,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Sag mich einfach, wo ich es hinstellen soll.",
     answer: "Sag mir einfach, wo ich es hinstellen soll.",
+    translation: "Just tell me where to put it.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -7152,6 +7507,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Ich würde an deiner Stelle kein in der Vergangenheit wühlen.",
     answer: "Ich würde an deiner Stelle nicht in der Vergangenheit wühlen.",
+    translation: "If I were you, I wouldn't dig into the past.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -7174,6 +7530,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Das neue Format unterstützt kein alle Exportoptionen.",
     answer: "Das neue Format unterstützt nicht alle Exportoptionen.",
+    translation: "Some export options are not supported for the new format.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -7196,6 +7553,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Du kannst das, was dir umbringt, herausschneiden.",
     answer: "Du kannst das, was dich umbringt, herausschneiden.",
+    translation: "You can cut out what's killing you.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -7218,6 +7576,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Es wird kein deine Tochter heimbringen.",
     answer: "Es wird nicht deine Tochter heimbringen.",
+    translation: "It won't bring your daughter home.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -7242,6 +7601,8 @@ export const errorClinicTier3: ExerciseItem[] = [
       "Er wurde vor Monaten von der Gegenseite umgedreht und jetzt haben sie ihm",
     answer:
       "Er wurde vor Monaten von der Gegenseite umgedreht und jetzt haben sie ihn",
+    translation:
+      "Turned by the opposition months ago and now they've sent him back to us.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -7264,6 +7625,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Sie werden meine Klientin kein einschüchtern.",
     answer: "Sie werden meine Klientin nicht einschüchtern.",
+    translation: "You will not intimidate my client.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -7286,6 +7648,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Mit den Einnahmen von heute kann ich dir ausbezahlen.",
     answer: "Mit den Einnahmen von heute kann ich dich ausbezahlen.",
+    translation: "With today's receipts, I'll have enough to pay you off.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -7308,6 +7671,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Ich möchte nicht weitere Beschwerde über Sie hören.",
     answer: "Ich möchte keine weitere Beschwerde über Sie hören.",
+    translation: "I don't want to hear another complaint about you.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -7330,6 +7694,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Setz dir da vorn hin, ich werde sie runterholen.",
     answer: "Setz dich da vorn hin, ich werde sie runterholen.",
+    translation: "Take a seat through there, I'll bring it down.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -7352,6 +7717,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Lass mir dich ein wenig abtrocknen.",
     answer: "Lass mich dich ein wenig abtrocknen.",
+    translation: "Let me dry you off a little.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -7376,6 +7742,8 @@ export const errorClinicTier3: ExerciseItem[] = [
       "Aber das hat sie kein abgehalten, Jahre später eine stolze Summe für ihre Bücherei zu erbitten.",
     answer:
       "Aber das hat sie nicht abgehalten, Jahre später eine stolze Summe für ihre Bücherei zu erbitten.",
+    translation:
+      "But that didn't stop them from soliciting a hefty sum for their new library 30 years later.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -7398,6 +7766,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Sie hat ihm angeblich umgebracht.",
     answer: "Sie hat ihn angeblich umgebracht.",
+    translation: "She allegedly killed him.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -7422,6 +7791,8 @@ export const errorClinicTier3: ExerciseItem[] = [
       "Die Todesstrafe wurde kein abgeschafft, sondern nur eingeschränkt.",
     answer:
       "Die Todesstrafe wurde nicht abgeschafft, sondern nur eingeschränkt.",
+    translation:
+      "The death penalty has not been abolished but only restricted.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -7444,6 +7815,8 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Aber ich möchte lieber Lavendel und kein Sandelholz.",
     answer: "Aber ich möchte lieber Lavendel und nicht Sandelholz.",
+    translation:
+      "But I also think I want the lavender instead of the sandalwood.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -7466,6 +7839,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Das scheint kein sehr christlich zu sein.",
     answer: "Das scheint nicht sehr christlich zu sein.",
+    translation: "That doesn't seem very Christian.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -7489,6 +7863,8 @@ export const errorClinicTier3: ExerciseItem[] = [
     stimulus:
       "Vielleicht könnten Sie mich helfen, etwas davon zu rekonstruieren.",
     answer: "Vielleicht könnten Sie mir helfen, etwas davon zu rekonstruieren.",
+    translation:
+      "I thought you might be able to help me reconstruct some of it.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -7513,6 +7889,8 @@ export const errorClinicTier3: ExerciseItem[] = [
       "Manchmal selbst haben ihre dunkelsten Taten eine Logik, die schwierig zu",
     answer:
       "Manchmal haben selbst ihre dunkelsten Taten eine Logik, die schwierig zu",
+    translation:
+      "Sometimes, even her darkest deeds possess a logic that's difficult to refute.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -7535,6 +7913,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Manchmal das will Baby einfach nicht herauskommen.",
     answer: "Manchmal will das Baby einfach nicht herauskommen.",
+    translation: "Sometimes the baby just doesn't want to come out.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -7557,6 +7936,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Manchmal will das Baby einfach kein herauskommen.",
     answer: "Manchmal will das Baby einfach nicht herauskommen.",
+    translation: "Sometimes the baby just doesn't want to come out.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -7579,6 +7959,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Investitionen erscheinen kein in der Bilanz.",
     answer: "Investitionen erscheinen nicht in der Bilanz.",
+    translation: "Investment is not recorded in the balance sheet.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -7603,6 +7984,7 @@ export const errorClinicTier3: ExerciseItem[] = [
       "Griechenland kann kein ein Jahrzehnt in einer Depression verharren.",
     answer:
       "Griechenland kann nicht ein Jahrzehnt in einer Depression verharren.",
+    translation: "Greece cannot remain in a depression for a decade.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -7625,6 +8007,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Ich ahnte kein, wie verführerisch es sein kann.",
     answer: "Ich ahnte nicht, wie verführerisch es sein kann.",
+    translation: "I had no idea how seductive it could be.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -7647,6 +8030,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Es hilft, wenn ich mir wo anlehnen kann.",
     answer: "Es hilft, wenn ich mich wo anlehnen kann.",
+    translation: "It helps a lot if I lean against something.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -7669,6 +8053,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Aber du kannst es für mir anzünden, John.",
     answer: "Aber du kannst es für mich anzünden, John.",
+    translation: "But you can light it for me, John.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -7691,6 +8076,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Wir wollen kein in der Vergangenheit verweilen.",
     answer: "Wir wollen nicht in der Vergangenheit verweilen.",
+    translation: "Let's not dwell on the past.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -7715,6 +8101,7 @@ export const errorClinicTier3: ExerciseItem[] = [
       "Erst mussten Sie ihm davon überzeugen, sich wieder mit Jane zu versöhnen.",
     answer:
       "Erst mussten Sie ihn davon überzeugen, sich wieder mit Jane zu versöhnen.",
+    translation: "First, you needed to convince him to reconcile with Jane.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -7739,6 +8126,7 @@ export const errorClinicTier3: ExerciseItem[] = [
       "Erst Sie mussten ihn davon überzeugen, sich wieder mit Jane zu versöhnen.",
     answer:
       "Erst mussten Sie ihn davon überzeugen, sich wieder mit Jane zu versöhnen.",
+    translation: "First, you needed to convince him to reconcile with Jane.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -7761,6 +8149,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Du darfst bei Prüfungen kein schummeln.",
     answer: "Du darfst bei Prüfungen nicht schummeln.",
+    translation: "You're not allowed to cheat on tests.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -7783,6 +8172,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Und vergiss sein neues Halsband kein.",
     answer: "Und vergiss sein neues Halsband nicht.",
+    translation: "Don't forget his new collar.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -7805,6 +8195,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Ich will die Wut kein unterdrücken.",
     answer: "Ich will die Wut nicht unterdrücken.",
+    translation: "I won't suppress the anger.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -7827,6 +8218,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Ich bezahle dich nicht, um mir zu verspotten.",
     answer: "Ich bezahle dich nicht, um mich zu verspotten.",
+    translation: "I don't pay you to mock me.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -7849,6 +8241,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Ich bezahle dich kein, um mich zu verspotten.",
     answer: "Ich bezahle dich nicht, um mich zu verspotten.",
+    translation: "I don't pay you to mock me.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -7871,6 +8264,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Jedenfalls schmiere ich mich nicht eimerweise Pomade ins Haar.",
     answer: "Jedenfalls schmiere ich mir nicht eimerweise Pomade ins Haar.",
+    translation: "I'm not the one who puts a gallon of pomade in my hair.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -7893,6 +8287,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Jedenfalls schmiere ich mir kein eimerweise Pomade ins Haar.",
     answer: "Jedenfalls schmiere ich mir nicht eimerweise Pomade ins Haar.",
+    translation: "I'm not the one who puts a gallon of pomade in my hair.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -7916,6 +8311,8 @@ export const errorClinicTier3: ExerciseItem[] = [
     stimulus:
       "Beim Thema Sicherheit dürfen wir nicht Kompromisse machen, zumal",
     answer: "Beim Thema Sicherheit dürfen wir keine Kompromisse machen, zumal",
+    translation:
+      "We cannot compromise on safety, especially when the products concerned",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -7938,6 +8335,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Seid kein schlampig, wascht jeden Winkel.",
     answer: "Seid nicht schlampig, wascht jeden Winkel.",
+    translation: "Don't be sloppy, wash every corner.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -7960,6 +8358,8 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Aber wenn Sie dann kein weg sind, lasse ich Sie hinauswerfen.",
     answer: "Aber wenn Sie dann nicht weg sind, lasse ich Sie hinauswerfen.",
+    translation:
+      "But if you're not gone by then, I'm going to have you thrown out.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -7982,6 +8382,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Aber wir wollen eure Versorgung kein reduzieren.",
     answer: "Aber wir wollen eure Versorgung nicht reduzieren.",
+    translation: "But we don't wish to shorten your supply.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -8004,6 +8405,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Da steht ein Töpfchen, falls du dir übergeben musst.",
     answer: "Da steht ein Töpfchen, falls du dich übergeben musst.",
+    translation: "I put a potty there if you feel sick.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -8026,6 +8428,8 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Kann John sich kein erst einleben, bevor wir streiten?",
     answer: "Kann John sich nicht erst einleben, bevor wir streiten?",
+    translation:
+      "Can't we allow John a few days to settle in before we start fighting?",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -8048,6 +8452,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Das ist sehr undankbar von dich.",
     answer: "Das ist sehr undankbar von dir.",
+    translation: "It's very ungrateful of you.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -8070,6 +8475,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Die mächtigste Nation ist kein unverwundbar.",
     answer: "Die mächtigste Nation ist nicht unverwundbar.",
+    translation: "Even the strongest nation of all is not invulnerable.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -8092,6 +8498,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Er braucht Geld und sie soll es ihn beschaffen.",
     answer: "Er braucht Geld und sie soll es ihm beschaffen.",
+    translation: "He needs the money, and she's supposed to procure it.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -8114,6 +8521,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Sie können die Erde kein fluten.",
     answer: "Sie können die Erde nicht fluten.",
+    translation: "You can't flood the earth.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -8136,6 +8544,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Aber dein Leben muss kein bedeutungslos sein.",
     answer: "Aber dein Leben muss nicht bedeutungslos sein.",
+    translation: "But your life doesn't have to be meaningless.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -8158,6 +8567,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Du hast mir manipuliert und ausgenutzt.",
     answer: "Du hast mich manipuliert und ausgenutzt.",
+    translation: "You manipulated me and completely took advantage of me.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -8180,6 +8590,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Sie dürfen ihm unter keinen Umständen ausweisen.",
     answer: "Sie dürfen ihn unter keinen Umständen ausweisen.",
+    translation: "You are not to expel him.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -8202,6 +8613,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Sie dürfen ihn unter nicht Umständen ausweisen.",
     answer: "Sie dürfen ihn unter keinen Umständen ausweisen.",
+    translation: "You are not to expel him.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -8224,6 +8636,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Ich kann die Schaufel kein finden.",
     answer: "Ich kann die Schaufel nicht finden.",
+    translation: "I can't find the shovel.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -8246,6 +8659,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Du hattest kein Recht, ihm gefangen zu halten.",
     answer: "Du hattest kein Recht, ihn gefangen zu halten.",
+    translation: "You had no right to keep him captive.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -8268,6 +8682,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Du hattest nicht Recht, ihn gefangen zu halten.",
     answer: "Du hattest kein Recht, ihn gefangen zu halten.",
+    translation: "You had no right to keep him captive.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -8290,6 +8705,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Der Typ wollte kein mal einen Lügendetektortest machen.",
     answer: "Der Typ wollte nicht mal einen Lügendetektortest machen.",
+    translation: "The guy wouldn't even take a polygraph test.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -8312,6 +8728,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Mein Busen ist gewachsen und hat mich meine Balance ruiniert.",
     answer: "Mein Busen ist gewachsen und hat mir meine Balance ruiniert.",
+    translation: "My bosoms came in and ruined my balance.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -8334,6 +8751,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Da hast du dich ja ein höllisches Aufgebot zusammengestellt.",
     answer: "Da hast du dir ja ein höllisches Aufgebot zusammengestellt.",
+    translation: "You rounded up yourself a hell of a posse, here.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -8356,6 +8774,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Und das macht dir nicht schwach oder unwürdig.",
     answer: "Und das macht dich nicht schwach oder unwürdig.",
+    translation: "And that doesn't make you weak or unworthy.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -8378,6 +8797,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Und das macht dich kein schwach oder unwürdig.",
     answer: "Und das macht dich nicht schwach oder unwürdig.",
+    translation: "And that doesn't make you weak or unworthy.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -8400,6 +8820,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Du bist nicht Schwertkämpfer oder Gladiator.",
     answer: "Du bist kein Schwertkämpfer oder Gladiator.",
+    translation: "You're not a swordsman or a gladiator.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -8422,6 +8843,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Kohlendioxid ist an sich kein giftig.",
     answer: "Kohlendioxid ist an sich nicht giftig.",
+    translation: "Carbon dioxide is not a poison in itself.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -8446,6 +8868,8 @@ export const errorClinicTier3: ExerciseItem[] = [
       "Es ist kein für die Beförderung von Passagieren von mehr als Seemeilen",
     answer:
       "Es ist nicht für die Beförderung von Passagieren von mehr als Seemeilen",
+    translation:
+      "It is not constructed to carry passengers more than 20 nautical miles",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -8468,6 +8892,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Ich gehe kein oft zum Abendmahl.",
     answer: "Ich gehe nicht oft zum Abendmahl.",
+    translation: "I don't often go to communion.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -8492,6 +8917,8 @@ export const errorClinicTier3: ExerciseItem[] = [
       "Weil ich kein tatenlos zusehe, wie sich diese Tragödie entfaltet?",
     answer:
       "Weil ich nicht tatenlos zusehe, wie sich diese Tragödie entfaltet?",
+    translation:
+      "Because I won't just sit passively back and watch the tragedy unfold?",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -8514,6 +8941,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Eure Position der Überlegenheit wird kein gemindert werden.",
     answer: "Eure Position der Überlegenheit wird nicht gemindert werden.",
+    translation: "Your position of superiority won't be diminished.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -8536,6 +8964,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Sie werden mir zum Leuchtturm bringen.",
     answer: "Sie werden mich zum Leuchtturm bringen.",
+    translation: "They're going to take me to the lighthouse.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -8560,6 +8989,7 @@ export const errorClinicTier3: ExerciseItem[] = [
       "Mir ist aufgefallen, ich falle nicht so auf, wenn ich mir herausgeputzt habe.",
     answer:
       "Mir ist aufgefallen, ich falle nicht so auf, wenn ich mich herausgeputzt habe.",
+    translation: "I figured I'd stand out less if I dressed up.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -8584,6 +9014,7 @@ export const errorClinicTier3: ExerciseItem[] = [
       "Mir ist aufgefallen, ich falle kein so auf, wenn ich mich herausgeputzt habe.",
     answer:
       "Mir ist aufgefallen, ich falle nicht so auf, wenn ich mich herausgeputzt habe.",
+    translation: "I figured I'd stand out less if I dressed up.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -8606,6 +9037,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Ich entschuldige mir für meinen plötzlichen Aufbruch.",
     answer: "Ich entschuldige mich für meinen plötzlichen Aufbruch.",
+    translation: "I apologize for my sudden departure.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -8628,6 +9060,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Es hat mich ein Vöglein gezwitschert.",
     answer: "Es hat mir ein Vöglein gezwitschert.",
+    translation: "Well, a little birdie told me.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -8650,6 +9083,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Ich mag deinen herablassenden Ton kein.",
     answer: "Ich mag deinen herablassenden Ton nicht.",
+    translation: "I don't like your patronizing tone.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -8672,6 +9106,8 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Selbst ein Schlag auf den Kopf lässt ihm nur kurz verstummen.",
     answer: "Selbst ein Schlag auf den Kopf lässt ihn nur kurz verstummen.",
+    translation:
+      "Even a blow to the head could silence him for only a few short minutes.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -8694,6 +9130,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Wir haben ein besonderes Geburtstagsgeschenk für dir.",
     answer: "Wir haben ein besonderes Geburtstagsgeschenk für dich.",
+    translation: "We have a special birthday present for you.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -8716,6 +9153,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Vielleicht erlebt er eine Versöhnung kein mehr.",
     answer: "Vielleicht erlebt er eine Versöhnung nicht mehr.",
+    translation: "Maybe he won't be around for a reconciliation.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -8739,6 +9177,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     stimulus:
       "Wir sorgen dafür, dass ihr Andenken kein in Vergessenheit gerät.",
     answer: "Wir sorgen dafür, dass ihr Andenken nicht in Vergessenheit gerät.",
+    translation: "We will ensure that her memory does not fall into oblivion.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -8763,6 +9202,8 @@ export const errorClinicTier3: ExerciseItem[] = [
       "Nach Gewinn dem der Meisterschaft war die gesamte Fußballmannschaft auf Wolke sieben.",
     answer:
       "Nach dem Gewinn der Meisterschaft war die gesamte Fußballmannschaft auf Wolke sieben.",
+    translation:
+      "The whole soccer team was on cloud nine after winning the championship.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -8787,6 +9228,8 @@ export const errorClinicTier3: ExerciseItem[] = [
       "Ich war neugierig, ungeachtet von dem, was du sagst, ist sie mich wichtig.",
     answer:
       "Ich war neugierig, ungeachtet von dem, was du sagst, ist sie mir wichtig.",
+    translation:
+      "I was curious because despite what you say I do care about her.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -8809,6 +9252,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "So stinkend kommst du mich gar nicht vor.",
     answer: "So stinkend kommst du mir gar nicht vor.",
+    translation: "You don't seem that stinky.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -8831,6 +9275,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "So stinkend kommst du mir gar kein vor.",
     answer: "So stinkend kommst du mir gar nicht vor.",
+    translation: "You don't seem that stinky.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -8853,6 +9298,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "M/N Beim Striptease habe ich die ganze Zeit an dir gedacht.",
     answer: "M/N Beim Striptease habe ich die ganze Zeit an dich gedacht.",
+    translation: "I thought of you all the way through the striptease.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -8875,6 +9321,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Der Junge konnte einfach kein mit anderen klarkommen.",
     answer: "Der Junge konnte einfach nicht mit anderen klarkommen.",
+    translation: "The boy just didn't seem to get along with people.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -8897,6 +9344,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Mit der Kaffeemaschine stimmt etwas kein.",
     answer: "Mit der Kaffeemaschine stimmt etwas nicht.",
+    translation: "There's something wrong with the coffee machine.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -8919,6 +9367,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Gefühle dürfen dein Urteilsvermögen kein trüben.",
     answer: "Gefühle dürfen dein Urteilsvermögen nicht trüben.",
+    translation: "Don't let your emotions cloud your judgment.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -8941,6 +9390,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Aber ich will mir vergewissern, dass es derselbe Stein ist.",
     answer: "Aber ich will mich vergewissern, dass es derselbe Stein ist.",
+    translation: "I only wanted to make sure it was the same stone.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -8963,6 +9413,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Depressionen sind nicht Nebenwirkung von Krebs.",
     answer: "Depressionen sind keine Nebenwirkung von Krebs.",
+    translation: "Depression is not a side effect of cancer.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -8985,6 +9436,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Bitte befreit mir von meinem Gelübde.",
     answer: "Bitte befreit mich von meinem Gelübde.",
+    translation: "I beg you now to release me of my vows.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -9007,6 +9459,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Er würde so etwas kein verschweigen.",
     answer: "Er würde so etwas nicht verschweigen.",
+    translation: "He wouldn't conceal a thing like that.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -9031,6 +9484,7 @@ export const errorClinicTier3: ExerciseItem[] = [
       "Okay, aus Gründen, die ich dich nicht sagen darf, muss ich diese Hochzeit",
     answer:
       "Okay, aus Gründen, die ich dir nicht sagen darf, muss ich diese Hochzeit",
+    translation: "For reasons I cannot say, I have to stall this wedding.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -9055,6 +9509,7 @@ export const errorClinicTier3: ExerciseItem[] = [
       "Okay, aus Gründen, die ich dir kein sagen darf, muss ich diese Hochzeit",
     answer:
       "Okay, aus Gründen, die ich dir nicht sagen darf, muss ich diese Hochzeit",
+    translation: "For reasons I cannot say, I have to stall this wedding.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -9077,6 +9532,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Ich habe ein Weihnachtsgeschenk für dir.",
     answer: "Ich habe ein Weihnachtsgeschenk für dich.",
+    translation: "I've got a Christmas present for you.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -9099,6 +9555,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Es ist so winzig, mit dem bloßen Auge kein lesbar.",
     answer: "Es ist so winzig, mit dem bloßen Auge nicht lesbar.",
+    translation: "It's so tiny it can't be read by the naked eye.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -9121,6 +9578,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Meine Tochter ist noch kein volljährig.",
     answer: "Meine Tochter ist noch nicht volljährig.",
+    translation: "My daughter is not of legal age.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -9145,6 +9603,8 @@ export const errorClinicTier3: ExerciseItem[] = [
       "Unser geliebtes Töchterchen wurde geboren, aber es stimmte etwas kein",
     answer:
       "Unser geliebtes Töchterchen wurde geboren, aber es stimmte etwas nicht",
+    translation:
+      "Our precious baby daughter was born, but something was wrong with her",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -9167,6 +9627,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Mama, es ist dein Bad, du musst dir wohlfühlen.",
     answer: "Mama, es ist dein Bad, du musst dich wohlfühlen.",
+    translation: "Mum, it's your bathroom, you have to feel comfortable.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -9189,6 +9650,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Sie reden kein unentwegt ohne ersichtlichen Grund.",
     answer: "Sie reden nicht unentwegt ohne ersichtlichen Grund.",
+    translation: "They don't talk incessantly for no particular reason.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -9211,6 +9673,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Ich bin sicher, dass es nicht Mythos ist.",
     answer: "Ich bin sicher, dass es kein Mythos ist.",
+    translation: "I'm sure it is not a myth now.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -9233,6 +9696,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Warum kandidierst du kein für den Vorsitz?",
     answer: "Warum kandidierst du nicht für den Vorsitz?",
+    translation: "Why don't you run for chairmanship?",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -9255,6 +9719,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Und diesem Nazi werde ich kein trauen.",
     answer: "Und diesem Nazi werde ich nicht trauen.",
+    translation: "I don't trust that Nazi.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -9277,6 +9742,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Wieso fühlst du dir so panisch?",
     answer: "Wieso fühlst du dich so panisch?",
+    translation: "Why should you be feeling panicked?",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -9299,6 +9765,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Mich braucht nicht abführen, ich gehe von selbst.",
     answer: "Mich braucht keiner abführen, ich gehe von selbst.",
+    translation: "No one needs to lead me away; I'll go by myself.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -9321,6 +9788,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Ist es kein zu herb?",
     answer: "Ist es nicht zu herb?",
+    translation: "Isn't it too tart?",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -9343,6 +9811,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Jane, ich wollte Sie kein verkuppeln.",
     answer: "Jane, ich wollte Sie nicht verkuppeln.",
+    translation: "Jane, I wasn't trying to set you up.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -9365,6 +9834,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Ich möchte Sie nur vorwarnen, sie ist kein ganz sie selbst.",
     answer: "Ich möchte Sie nur vorwarnen, sie ist nicht ganz sie selbst.",
+    translation: "I just want to warn you, she's not herself right now.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -9387,6 +9857,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Die Zeit lässt sich kein zurückdrehen.",
     answer: "Die Zeit lässt sich nicht zurückdrehen.",
+    translation: "Well, you can't turn back time.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -9409,6 +9880,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Habe leider doch kein den passenden Frack gefunden.",
     answer: "Habe leider doch nicht den passenden Frack gefunden.",
+    translation: "Unfortunately, I couldn't find a tailcoat that fits.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -9433,6 +9905,7 @@ export const errorClinicTier3: ExerciseItem[] = [
       "Wenn der Toaster kein funktioniert, kann die Verkabelung schlecht sein.",
     answer:
       "Wenn der Toaster nicht funktioniert, kann die Verkabelung schlecht sein.",
+    translation: "If the toaster is not working, the wiring could be bad.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -9457,6 +9930,8 @@ export const errorClinicTier3: ExerciseItem[] = [
       "Das Thema Krankheit stand kein im Vordergrund und das war erfrischend.",
     answer:
       "Das Thema Krankheit stand nicht im Vordergrund und das war erfrischend.",
+    translation:
+      "The subject illness was not the center of attention, and that was refreshing.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -9479,6 +9954,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Ich kann es kein ausstehen, diese Streiterei mit anzusehen.",
     answer: "Ich kann es nicht ausstehen, diese Streiterei mit anzusehen.",
+    translation: "I hate to see everyone quarreling.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -9502,6 +9978,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     stimulus:
       "Manchmal Priester erliegen ihrer Schwachheit, wie alle Menschen.",
     answer: "Manchmal erliegen Priester ihrer Schwachheit, wie alle Menschen.",
+    translation: "Sometimes priests succumb to their weakness, as all men do.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -9524,6 +10001,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Seine Leistung entspricht kein dem Standard.",
     answer: "Seine Leistung entspricht nicht dem Standard.",
+    translation: "His work is not up to standard.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -9546,6 +10024,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Deshalb er hat sich so gequält.",
     answer: "Deshalb hat er sich so gequält.",
+    translation: "That's why he was so haunted.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -9570,6 +10049,8 @@ export const errorClinicTier3: ExerciseItem[] = [
       "Ich träume manchmal immer noch von ihn, nur wir zusammen, lachend.",
     answer:
       "Ich träume manchmal immer noch von ihm, nur wir zusammen, lachend.",
+    translation:
+      "I still dream about him sometimes, just us together, laughing.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -9594,6 +10075,8 @@ export const errorClinicTier3: ExerciseItem[] = [
       "Wie auch immer, ich habe kein die Befugnis, den Startschuss hierfür zu",
     answer:
       "Wie auch immer, ich habe nicht die Befugnis, den Startschuss hierfür zu",
+    translation:
+      "It doesn't matter either way because l don't have the authority to pull the",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -9616,6 +10099,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Warum gehen Sie kein nach Hause zum Genesen?",
     answer: "Warum gehen Sie nicht nach Hause zum Genesen?",
+    translation: "Why don't you go home and recuperate?",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -9640,6 +10124,7 @@ export const errorClinicTier3: ExerciseItem[] = [
       "Der Doktor sagte mich, ich solle langsam und tief ein- und ausatmen.",
     answer:
       "Der Doktor sagte mir, ich solle langsam und tief ein- und ausatmen.",
+    translation: "The doctor told me to inhale and exhale slowly and deeply.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -9664,6 +10149,7 @@ export const errorClinicTier3: ExerciseItem[] = [
       "Und ich kann mir unter diesen Umständen einfach nicht fortpflanzen.",
     answer:
       "Und ich kann mich unter diesen Umständen einfach nicht fortpflanzen.",
+    translation: "And I just can't procreate under these conditions!",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -9688,6 +10174,7 @@ export const errorClinicTier3: ExerciseItem[] = [
       "Und ich kann mich unter diesen Umständen einfach kein fortpflanzen.",
     answer:
       "Und ich kann mich unter diesen Umständen einfach nicht fortpflanzen.",
+    translation: "And I just can't procreate under these conditions!",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -9711,6 +10198,8 @@ export const errorClinicTier3: ExerciseItem[] = [
     stimulus:
       "Beachten Sie, dass der Kalender die Tageszeit kein aktualisiert.",
     answer: "Beachten Sie, dass der Kalender die Tageszeit nicht aktualisiert.",
+    translation:
+      "Notice that using the calendar does not update the time of day.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -9733,6 +10222,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Und man kann Kreide kein einfach so ausradieren.",
     answer: "Und man kann Kreide nicht einfach so ausradieren.",
+    translation: "You know, you can't just erase chalk.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -9755,6 +10245,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Ich bin in meinem Arbeitszimmer, wenn du mir brauchst.",
     answer: "Ich bin in meinem Arbeitszimmer, wenn du mich brauchst.",
+    translation: "I'll be in my study if you need me.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -9777,6 +10268,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Ich bin kein wirklich ein Trinker.",
     answer: "Ich bin nicht wirklich ein Trinker.",
+    translation: "I'm not really much of a drinker.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -9799,6 +10291,8 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Woher weiß ich, dass du sie oder John kein wegmachen wolltest?",
     answer: "Woher weiß ich, dass du sie oder John nicht wegmachen wolltest?",
+    translation:
+      "How do I know you didn't try to get rid of her, or John for that matter?",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -9821,6 +10315,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Das kann ich natürlich kein gutheißen.",
     answer: "Das kann ich natürlich nicht gutheißen.",
+    translation: "Of course, I cannot endorse that.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -9843,6 +10338,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Du bist biologisch dazu programmiert Gefühle für ihm zu haben.",
     answer: "Du bist biologisch dazu programmiert Gefühle für ihn zu haben.",
+    translation: "You're biologically programmed to have feelings for him.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -9865,6 +10361,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Ich will miterleben, wie die Mädchen ihn nachstellen.",
     answer: "Ich will miterleben, wie die Mädchen ihm nachstellen.",
+    translation: "I want to see the girls chasing after him.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -9887,6 +10384,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Seit kannst wann du Hebräisch lesen?",
     answer: "Seit wann kannst du Hebräisch lesen?",
+    translation: "Since when can you read Hebrew?",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -9909,6 +10407,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Wer zappelt denn kein in der Schule?",
     answer: "Wer zappelt denn nicht in der Schule?",
+    translation: "Who doesn't fidget in school?",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -9931,6 +10430,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Dann sag mich wenigstens, warum du grinst.",
     answer: "Dann sag mir wenigstens, warum du grinst.",
+    translation: "Tell me then at least why you're grinning.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -9955,6 +10455,8 @@ export const errorClinicTier3: ExerciseItem[] = [
       "Ich möchte mir wenigen Einzelheiten der Prioritätenliste zuwenden.",
     answer:
       "Ich möchte mich wenigen Einzelheiten der Prioritätenliste zuwenden.",
+    translation:
+      "I should like to turn my attention to a few details on the list of priorities.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -9977,6 +10479,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "In seiner Gegenwart ist mich unbehaglich zumute.",
     answer: "In seiner Gegenwart ist mir unbehaglich zumute.",
+    translation: "I feel awkward in his presence.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -10001,6 +10504,8 @@ export const errorClinicTier3: ExerciseItem[] = [
       "Daraus können wir das Argument ableiten, dass große Bevölkerungsverschiebungen kein das Resultat ökonomischer Veränderungen sind.",
     answer:
       "Daraus können wir das Argument ableiten, dass große Bevölkerungsverschiebungen nicht das Resultat ökonomischer Veränderungen sind.",
+    translation:
+      "From this, we can derive the argument that major population shifts are not the result of economic change.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -10023,6 +10528,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Und ich kann ihm durch eine Lüge jetzt nicht entehren.",
     answer: "Und ich kann ihn durch eine Lüge jetzt nicht entehren.",
+    translation: "And I can't dishonor him by telling a lie now.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -10045,6 +10551,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Und ich kann ihn durch eine Lüge jetzt kein entehren.",
     answer: "Und ich kann ihn durch eine Lüge jetzt nicht entehren.",
+    translation: "And I can't dishonor him by telling a lie now.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -10067,6 +10574,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Er kann mir nicht hier aussperren.",
     answer: "Er kann mich nicht hier aussperren.",
+    translation: "He cannot lock me out of here.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -10089,6 +10597,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Er kann mich kein hier aussperren.",
     answer: "Er kann mich nicht hier aussperren.",
+    translation: "He cannot lock me out of here.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -10113,6 +10622,7 @@ export const errorClinicTier3: ExerciseItem[] = [
       "Ich habe gehört, dass die neue Version kein ständig abstürzen soll.",
     answer:
       "Ich habe gehört, dass die neue Version nicht ständig abstürzen soll.",
+    translation: "I hear the new version doesn't crash repeatedly.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -10135,6 +10645,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Wenn er dir angreift, gehe schlapp.",
     answer: "Wenn er dich angreift, gehe schlapp.",
+    translation: "If he attacks you, go limp.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -10157,6 +10668,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Laut Wachmann verließ er das Zimmer kein.",
     answer: "Laut Wachmann verließ er das Zimmer nicht.",
+    translation: "The security guard said he never left the room.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -10179,6 +10691,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Ich möchte dich eine Frage stellen, hypothetisch.",
     answer: "Ich möchte dir eine Frage stellen, hypothetisch.",
+    translation: "Let me ask you a question, hypothetical.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -10201,6 +10714,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Politik hat mit Patriotismus zu tun, kein mit Religion.",
     answer: "Politik hat mit Patriotismus zu tun, nicht mit Religion.",
+    translation: "Politics is about patriotism, not religion.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -10223,6 +10737,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Sie nannten ihm seinerzeit einen Rückschritt.",
     answer: "Sie nannten ihn seinerzeit einen Rückschritt.",
+    translation: "They described it at the time as a backward step.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -10245,6 +10760,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Ich verbitte mich solche Ausdrücke!",
     answer: "Ich verbitte mir solche Ausdrücke!",
+    translation: "I won't tolerate such language!",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -10267,6 +10783,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Leider ist der Anlass kein so erfreulich.",
     answer: "Leider ist der Anlass nicht so erfreulich.",
+    translation: "Unfortunately, the reason is not so pleasant.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -10289,6 +10806,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Das Heilmittel war kein einmal richtig getestet.",
     answer: "Das Heilmittel war nicht einmal richtig getestet.",
+    translation: "The cure wasn't even properly tested.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -10311,6 +10829,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Das ist ein Bürgersteig, nicht Grab.",
     answer: "Das ist ein Bürgersteig, kein Grab.",
+    translation: "It's a sidewalk, not a grave.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -10333,6 +10852,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Es kann kein schwieriger sein als Sticken oder Putzen.",
     answer: "Es kann nicht schwieriger sein als Sticken oder Putzen.",
+    translation: "It cannot be as hard as embroidery or cleaning.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -10355,6 +10875,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Wir können kein noch mehr Zeit vertun.",
     answer: "Wir können nicht noch mehr Zeit vertun.",
+    translation: "We can't waste any more time.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -10379,6 +10900,8 @@ export const errorClinicTier3: ExerciseItem[] = [
       "Nun, ich würde mich nie verzeihen, mein größtes Kunststück zu verkaufen.",
     answer:
       "Nun, ich würde mir nie verzeihen, mein größtes Kunststück zu verkaufen.",
+    translation:
+      "Well, I wouldn't forgive myself for selling my greatest trick.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -10401,6 +10924,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Ich hoffe, Sie haben sein Naturell kein geerbt.",
     answer: "Ich hoffe, Sie haben sein Naturell nicht geerbt.",
+    translation: "Well, I hope you haven't inherited his disposition.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -10423,6 +10947,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Warum sollte das Kartell mir beklauen wollen?",
     answer: "Warum sollte das Kartell mich beklauen wollen?",
+    translation: "Why would the cartel want to steal from me?",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -10447,6 +10972,7 @@ export const errorClinicTier3: ExerciseItem[] = [
       "Ich könnte verrecken, ich könnte mir am Boden wälzen, es wäre ihnen egal.",
     answer:
       "Ich könnte verrecken, ich könnte mich am Boden wälzen, es wäre ihnen egal.",
+    translation: "I could die, I could roll on the ground, they wouldn't care.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -10469,6 +10995,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Ich würde mir gerne auf Kriminalrecht spezialisieren.",
     answer: "Ich würde mich gerne auf Kriminalrecht spezialisieren.",
+    translation: "I'd like to specialize in criminal law.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -10491,6 +11018,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Du musst meine Gefühle kein schonen.",
     answer: "Du musst meine Gefühle nicht schonen.",
+    translation: "You don't need to spare my feelings.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -10514,6 +11042,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     stimulus:
       "Ich wünschte, ich könnte mich ein Flugzeug kaufen und wegfliegen.",
     answer: "Ich wünschte, ich könnte mir ein Flugzeug kaufen und wegfliegen.",
+    translation: "I wish I were rich enough to buy a plane and fly away.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -10536,6 +11065,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Ihr könntet euch mit mich verbünden.",
     answer: "Ihr könntet euch mit mir verbünden.",
+    translation: "You could join forces with me.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -10558,6 +11088,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Vergessen Sie kein, Ihre Sonnencreme einzupacken.",
     answer: "Vergessen Sie nicht, Ihre Sonnencreme einzupacken.",
+    translation: "Don't forget to pack your sunscreen.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -10580,6 +11111,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Ich habe drei Wecker, um ja kein zu verschlafen.",
     answer: "Ich habe drei Wecker, um ja nicht zu verschlafen.",
+    translation: "I have three alarm clocks so as not to oversleep.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -10602,6 +11134,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Erinnerst du dir, eine weiße Tulpe bekommen zu haben?",
     answer: "Erinnerst du dich, eine weiße Tulpe bekommen zu haben?",
+    translation: "Do you remember getting a white tulip?",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -10624,6 +11157,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Sie müssen ihn keine Gefühle zuschreiben, meine Herren.",
     answer: "Sie müssen ihm keine Gefühle zuschreiben, meine Herren.",
+    translation: "Don't attribute feelings to him, gentlemen.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -10646,6 +11180,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Sie müssen ihm nicht Gefühle zuschreiben, meine Herren.",
     answer: "Sie müssen ihm keine Gefühle zuschreiben, meine Herren.",
+    translation: "Don't attribute feelings to him, gentlemen.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -10668,6 +11203,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Du bist wie ein Idol für mir.",
     answer: "Du bist wie ein Idol für mich.",
+    translation: "You're like an idol to me.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -10690,6 +11226,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Ich bin Waffenhändler, nicht Soldat.",
     answer: "Ich bin Waffenhändler, kein Soldat.",
+    translation: "I'm a weapons dealer, not a soldier.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -10712,6 +11249,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Versprechen Sie mich, dass Sie schnell wieder heimkehren?",
     answer: "Versprechen Sie mir, dass Sie schnell wieder heimkehren?",
+    translation: "Promise me that you will return home quickly.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -10734,6 +11272,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Ich entspreche kein mehr seinem Bild vom idealen Arier.",
     answer: "Ich entspreche nicht mehr seinem Bild vom idealen Arier.",
+    translation: "I no longer reflect his image of Aryan perfection.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -10756,6 +11295,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Du darfst das jetzt kein missverstehen.",
     answer: "Du darfst das jetzt nicht missverstehen.",
+    translation: "Now, look, you mustn't misunderstand.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -10778,6 +11318,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Oder wir könnten ihm einfach komplett rausnehmen.",
     answer: "Oder wir könnten ihn einfach komplett rausnehmen.",
+    translation: "Or we could just take it out completely.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -10800,6 +11341,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Warum habe ich mir mit diesem Alleinsein verurteilt?",
     answer: "Warum habe ich mich mit diesem Alleinsein verurteilt?",
+    translation: "Why did I doom myself to such loneliness?",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -10822,6 +11364,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Versuchen Sie nicht, mir zu trösten.",
     answer: "Versuchen Sie nicht, mich zu trösten.",
+    translation: "Don't try to console me.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -10844,6 +11387,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Versuchen Sie kein, mich zu trösten.",
     answer: "Versuchen Sie nicht, mich zu trösten.",
+    translation: "Don't try to console me.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -10866,6 +11410,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Es tut mich leid, aber wir sind komplett ausgebucht.",
     answer: "Es tut mir leid, aber wir sind komplett ausgebucht.",
+    translation: "I'm sorry, but we are fully booked.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -10888,6 +11433,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Brauchen wir kein, wir haben die Sonderausgabe.",
     answer: "Brauchen wir nicht, wir haben die Sonderausgabe.",
+    translation: "No need, we have the special edition.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -10910,6 +11456,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Ich will ihm zurück in die Schlacht geleiten.",
     answer: "Ich will ihn zurück in die Schlacht geleiten.",
+    translation: "I want to escort him back to the battle.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -10932,6 +11479,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Sie verleihen mich ihre jährliche humanitäre Auszeichnung.",
     answer: "Sie verleihen mir ihre jährliche humanitäre Auszeichnung.",
+    translation: "They're bestowing me with their annual Humanitarian Award.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -10954,6 +11502,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Deine Verrücktheit wird deine Bürde sein, kein meine.",
     answer: "Deine Verrücktheit wird deine Bürde sein, nicht meine.",
+    translation: "Your madness is your burden, not mine.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -10976,6 +11525,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Das macht mir wütend, das macht mich zornig.",
     answer: "Das macht mich wütend, das macht mich zornig.",
+    translation: "It doesn't make me angry, it makes me furious.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -10998,6 +11548,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Ich habe den Gefechtsstand kein verlegt!",
     answer: "Ich habe den Gefechtsstand nicht verlegt!",
+    translation: "I did not move my command post.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -11020,6 +11571,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Für mir sind Sie nur ein Untergebener.",
     answer: "Für mich sind Sie nur ein Untergebener.",
+    translation: "To me, you are just another subordinate.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -11042,6 +11594,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Bezahle ich dir fürs Schwatzen?",
     answer: "Bezahle ich dich fürs Schwatzen?",
+    translation: "Am I paying you to stand there and chat?",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -11064,6 +11617,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Benutzen Sie die Sprechanlage, wenn Sie mir brauchen.",
     answer: "Benutzen Sie die Sprechanlage, wenn Sie mich brauchen.",
+    translation: "If you need me, use the intercom.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -11088,6 +11642,8 @@ export const errorClinicTier3: ExerciseItem[] = [
       "Länder dürfen kein gezwungen und ihre Hungersnot nicht ausgenutzt werden.",
     answer:
       "Länder dürfen nicht gezwungen und ihre Hungersnot nicht ausgenutzt werden.",
+    translation:
+      "Countries should not be coerced, and it is unacceptable to take advantage of",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -11112,6 +11668,8 @@ export const errorClinicTier3: ExerciseItem[] = [
       "Seit war jeher die Gemeinde landwirtschaftlich relativ weit entwickelt.",
     answer:
       "Seit jeher war die Gemeinde landwirtschaftlich relativ weit entwickelt.",
+    translation:
+      "The village has always had relatively well-developed agriculture.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -11134,6 +11692,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Warum überdenken wir kein die ganze Idee?",
     answer: "Warum überdenken wir nicht die ganze Idee?",
+    translation: "Why don't we just rethink the whole idea?",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -11156,6 +11715,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Du kannst mir versohlen, weglaufen oder mir helfen.",
     answer: "Du kannst mich versohlen, weglaufen oder mir helfen.",
+    translation: "So you can either spank me, walk out or help me.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -11178,6 +11738,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Er fürchtete die ganze römische Armee kein.",
     answer: "Er fürchtete die ganze römische Armee nicht.",
+    translation: "He wasn't afraid of the whole Roman army.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -11200,6 +11761,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Farbe kann deine wahre Haut kein verdecken.",
     answer: "Farbe kann deine wahre Haut nicht verdecken.",
+    translation: "Paint can't hide your true skin.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -11222,6 +11784,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Es scheint mich ganz passend zu sein.",
     answer: "Es scheint mir ganz passend zu sein.",
+    translation: "It appears to be quite suitable.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -11246,6 +11809,8 @@ export const errorClinicTier3: ExerciseItem[] = [
       "Hier sollten wir Machbares doch kein mit Wunschvorstellungen verwechseln.",
     answer:
       "Hier sollten wir Machbares doch nicht mit Wunschvorstellungen verwechseln.",
+    translation:
+      "We should not confuse achievable goals with a wish list here.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -11268,6 +11833,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Du hast die Inspektion kein bestanden.",
     answer: "Du hast die Inspektion nicht bestanden.",
+    translation: "You didn't pass the inspection.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -11290,6 +11856,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Einige Ihrer Kollegen waren kein so diplomatisch.",
     answer: "Einige Ihrer Kollegen waren nicht so diplomatisch.",
+    translation: "Some of your colleagues haven't been quite so diplomatic.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -11312,6 +11879,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Manchmal meine ließ Mutti meine Krippe in der Auffahrt.",
     answer: "Manchmal ließ meine Mutti meine Krippe in der Auffahrt.",
+    translation: "Sometimes my mom kept my crib in the driveway.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -11334,6 +11902,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Ich werde sie dich in meinem Testament vermachen.",
     answer: "Ich werde sie dir in meinem Testament vermachen.",
+    translation: "I'll leave it for you in my will.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -11356,6 +11925,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Einzigartige Einfälle verhalfen ihn zu einem hohen Einkommen.",
     answer: "Einzigartige Einfälle verhalfen ihm zu einem hohen Einkommen.",
+    translation: "Unique ideas helped him to earn a high income.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -11380,6 +11950,7 @@ export const errorClinicTier3: ExerciseItem[] = [
       "Schau, das ist es, was mit ihnen passiert, wenn wir kein rundherum da sind.",
     answer:
       "Schau, das ist es, was mit ihnen passiert, wenn wir nicht rundherum da sind.",
+    translation: "Look, this is what happens to them when we're not around.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -11404,6 +11975,8 @@ export const errorClinicTier3: ExerciseItem[] = [
       "Nach schloss Jahren das Kloster aufgrund eines Mangels an Mönchen seine",
     answer:
       "Nach Jahren schloss das Kloster aufgrund eines Mangels an Mönchen seine",
+    translation:
+      "The monastery closed after 900 years due to a shortage of monks.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -11426,6 +11999,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Nun, eine ungerade Zahl funktioniert kein.",
     answer: "Nun, eine ungerade Zahl funktioniert nicht.",
+    translation: "Well, an odd number just won't do.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -11449,6 +12023,8 @@ export const errorClinicTier3: ExerciseItem[] = [
     stimulus:
       "Ich habe mich erlaubt, Ihre Familie in England zu telegrafieren.",
     answer: "Ich habe mir erlaubt, Ihre Familie in England zu telegrafieren.",
+    translation:
+      "I've taken the liberty of telegraphing your family in England.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -11471,6 +12047,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Können wir kein nur die verbrannten Teile abkratzen?",
     answer: "Können wir nicht nur die verbrannten Teile abkratzen?",
+    translation: "Can't we just scrape off the burnt parts?",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -11493,6 +12070,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Es lässt sich nur kein so leicht diagnostizieren.",
     answer: "Es lässt sich nur nicht so leicht diagnostizieren.",
+    translation: "It's just that it's more difficult to diagnose.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -11515,6 +12093,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Ich habe mit Staffel drei noch kein angefangen.",
     answer: "Ich habe mit Staffel drei noch nicht angefangen.",
+    translation: "I haven't started season three yet.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -11537,6 +12116,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Im Allgemeinen sind Schätzungen kein präzise.",
     answer: "Im Allgemeinen sind Schätzungen nicht präzise.",
+    translation: "In general, estimates may not be precise.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -11559,6 +12139,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Außerdem Sie können das System proaktiv absichern.",
     answer: "Außerdem können Sie das System proaktiv absichern.",
+    translation: "You can also secure the system proactively.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -11581,6 +12162,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Ich fand ihm schlafend am Strand.",
     answer: "Ich fand ihn schlafend am Strand.",
+    translation: "I found him asleep on the beach.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -11603,6 +12185,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Ich hätte kein gedacht, dass sie so zahlreich sind.",
     answer: "Ich hätte nicht gedacht, dass sie so zahlreich sind.",
+    translation: "I did not think they would be so numerous.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -11625,6 +12208,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Ich riskiere kein die Verdammnis dieser guten Leute.",
     answer: "Ich riskiere nicht die Verdammnis dieser guten Leute.",
+    translation: "I'll not risk damnation on these good people.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -11647,6 +12231,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Ihre Hand ist kein gebrochen, nur verstaucht.",
     answer: "Ihre Hand ist nicht gebrochen, nur verstaucht.",
+    translation: "Well, your hand isn't broken. It's just sprained.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -11669,6 +12254,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "John zeigt dich dein Quartier.",
     answer: "John zeigt dir dein Quartier.",
+    translation: "John will show you to your quarters.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -11691,6 +12277,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Wenn Sie stillhalten, tut es kein weh.",
     answer: "Wenn Sie stillhalten, tut es nicht weh.",
+    translation: "If you stand still, this won't hurt.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -11713,6 +12300,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Er stand vor dich, mit den Schlittschuhen, bereit.",
     answer: "Er stand vor dir, mit den Schlittschuhen, bereit.",
+    translation: "He was there right in front of you, skates in hand, ready.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -11735,6 +12323,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Das ist kein mehr erforderlich.",
     answer: "Das ist nicht mehr erforderlich.",
+    translation: "That's no longer necessary.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -11757,6 +12346,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Wir haben kein die Zeit, um diese ganzen Daten zu verarbeiten.",
     answer: "Wir haben nicht die Zeit, um diese ganzen Daten zu verarbeiten.",
+    translation: "We don't have time to process all this data.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -11781,6 +12371,7 @@ export const errorClinicTier3: ExerciseItem[] = [
       "Ich werde kein irgendeine Seite in irgendeinem Geschichtsbuch werden.",
     answer:
       "Ich werde nicht irgendeine Seite in irgendeinem Geschichtsbuch werden.",
+    translation: "I will not become a page in someone else's history book.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -11803,6 +12394,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Er kommt betrunken zurück, will über dir herfallen.",
     answer: "Er kommt betrunken zurück, will über dich herfallen.",
+    translation: "He comes back at night, drunk, tries to attack you.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -11825,6 +12417,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Dieses Hindernis ist aber kein unüberwindlich.",
     answer: "Dieses Hindernis ist aber nicht unüberwindlich.",
+    translation: "It is not an insurmountable obstacle, though.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -11849,6 +12442,7 @@ export const errorClinicTier3: ExerciseItem[] = [
       "Ich werde mir in meiner Antwort auf einige wenige Punkte beschränken.",
     answer:
       "Ich werde mich in meiner Antwort auf einige wenige Punkte beschränken.",
+    translation: "I will confine my reply to a few main points.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -11871,6 +12465,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Man stirbt kein an einem Schnupfen.",
     answer: "Man stirbt nicht an einem Schnupfen.",
+    translation: "You don't die from a cold.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -11893,6 +12488,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Wir hatten nicht Ahnung, dass seine Freundin aufkreuzen würde.",
     answer: "Wir hatten keine Ahnung, dass seine Freundin aufkreuzen würde.",
+    translation: "We had no idea his girlfriend would show up.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -11915,6 +12511,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Ich habe ihn geschickt, mich Blumen zu pflücken.",
     answer: "Ich habe ihn geschickt, mir Blumen zu pflücken.",
+    translation: "I sent him out to pick flowers for me.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -11937,6 +12534,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Ich werde John empfehlen, dir umgehend zu suspendieren.",
     answer: "Ich werde John empfehlen, dich umgehend zu suspendieren.",
+    translation: "I'm recommending that John suspend you immediately.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -11959,6 +12557,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Aber du kannst ihm zumindest wegen Meineid belangen.",
     answer: "Aber du kannst ihn zumindest wegen Meineid belangen.",
+    translation: "But you could at least charge him with perjury.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -11981,6 +12580,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Ich stelle mich eine Mischung aus Punk und Pop vor.",
     answer: "Ich stelle mir eine Mischung aus Punk und Pop vor.",
+    translation: "I want it to be punk meets pop.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -12003,6 +12603,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Ich räusperte mir, aber ich brachte kein Wort heraus.",
     answer: "Ich räusperte mich, aber ich brachte kein Wort heraus.",
+    translation: "I cleared my throat, but no words came.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -12025,6 +12626,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Ich räusperte mich, aber ich brachte nicht Wort heraus.",
     answer: "Ich räusperte mich, aber ich brachte kein Wort heraus.",
+    translation: "I cleared my throat, but no words came.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -12047,6 +12649,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Ich denke kein, dass du das herumliegen lassen solltest.",
     answer: "Ich denke nicht, dass du das herumliegen lassen solltest.",
+    translation: "I don't think you should leave it lying around.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -12069,6 +12672,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Ich will nicht Bräutigam, der im Armenhaus wohnt.",
     answer: "Ich will keinen Bräutigam, der im Armenhaus wohnt.",
+    translation: "I do not want a groom who lives in the poorhouse.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -12091,6 +12695,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Du hast versucht, mir zu bestehlen.",
     answer: "Du hast versucht, mich zu bestehlen.",
+    translation: "You tried to steal from me.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -12113,6 +12718,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Da kommt mich eine Idee, wie man an ihn herankommen könnte.",
     answer: "Da kommt mir eine Idee, wie man an ihn herankommen könnte.",
+    translation: "That gives me an idea as to how to approach him.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -12135,6 +12741,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Jeder denkt global, nicht will lokal handeln.",
     answer: "Jeder denkt global, keiner will lokal handeln.",
+    translation: "We all think globally; nobody wants to act locally.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -12157,6 +12764,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Wir haben in dem Reservat nicht Befugnis.",
     answer: "Wir haben in dem Reservat keine Befugnis.",
+    translation: "We have no jurisdiction on the reservation.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -12179,6 +12787,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Du musst mich nicht so unerfreulich drohen.",
     answer: "Du musst mir nicht so unerfreulich drohen.",
+    translation: "You don't have to make these unpleasant threats.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -12201,6 +12810,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Du musst mir kein so unerfreulich drohen.",
     answer: "Du musst mir nicht so unerfreulich drohen.",
+    translation: "You don't have to make these unpleasant threats.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -12225,6 +12835,8 @@ export const errorClinicTier3: ExerciseItem[] = [
       "Wenn man eine einzelne Biene aus einem Bienenstock nimmt, kann sie kein",
     answer:
       "Wenn man eine einzelne Biene aus einem Bienenstock nimmt, kann sie nicht",
+    translation:
+      "If you take a single bee out of a hive, it actually can't live on its own.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -12247,6 +12859,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Ich bin jedoch kein allzu skeptisch.",
     answer: "Ich bin jedoch nicht allzu skeptisch.",
+    translation: "I am, however, not too skeptical.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -12270,6 +12883,8 @@ export const errorClinicTier3: ExerciseItem[] = [
     stimulus:
       "Ich war in einer Talkshow und sagte Dinge, dir nicht nett waren.",
     answer: "Ich war in einer Talkshow und sagte Dinge, dich nicht nett waren.",
+    translation:
+      "I was on a talk show and I said some things I shouldn't have said.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -12293,6 +12908,8 @@ export const errorClinicTier3: ExerciseItem[] = [
     stimulus:
       "Ich war in einer Talkshow und sagte Dinge, dich kein nett waren.",
     answer: "Ich war in einer Talkshow und sagte Dinge, dich nicht nett waren.",
+    translation:
+      "I was on a talk show and I said some things I shouldn't have said.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -12315,6 +12932,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Und dafür möchte ich mir revanchieren.",
     answer: "Und dafür möchte ich mich revanchieren.",
+    translation: "And I would like to return the favor.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -12339,6 +12957,8 @@ export const errorClinicTier3: ExerciseItem[] = [
       "Vor neunzehn Jahren habe ich dir aus deinem Auto geholt und die Kohle von",
     answer:
       "Vor neunzehn Jahren habe ich dich aus deinem Auto geholt und die Kohle von",
+    translation:
+      "Nineteen years ago, I threw you from a car and stole your boss's money.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -12363,6 +12983,8 @@ export const errorClinicTier3: ExerciseItem[] = [
       "Vor Jahren neunzehn habe ich dich aus deinem Auto geholt und die Kohle von",
     answer:
       "Vor neunzehn Jahren habe ich dich aus deinem Auto geholt und die Kohle von",
+    translation:
+      "Nineteen years ago, I threw you from a car and stole your boss's money.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -12385,6 +13007,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Ich fühlte mir so geehrt, dabei zu sein.",
     answer: "Ich fühlte mich so geehrt, dabei zu sein.",
+    translation: "I was so honored to be there.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -12407,6 +13030,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Es hat nicht Sinn mehr, es zu verheimlichen.",
     answer: "Es hat keinen Sinn mehr, es zu verheimlichen.",
+    translation: "There's no use trying to conceal it now.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -12429,6 +13053,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Du musst rüberkommen und es dich ansehen.",
     answer: "Du musst rüberkommen und es dir ansehen.",
+    translation: "You have to come over and see it.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -12451,6 +13076,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Ich sprach langsam, sodass sie mir verstehen konnten.",
     answer: "Ich sprach langsam, sodass sie mich verstehen konnten.",
+    translation: "I spoke slowly so that they could understand me.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -12473,6 +13099,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Noch niemand hat mir bisher einen Flegel genannt.",
     answer: "Noch niemand hat mich bisher einen Flegel genannt.",
+    translation: "No one has ever called me a boor.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -12495,6 +13122,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Noch hat niemand mich bisher einen Flegel genannt.",
     answer: "Noch niemand hat mich bisher einen Flegel genannt.",
+    translation: "No one has ever called me a boor.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -12518,6 +13146,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     stimulus:
       "Mindestens eine Backup-Funktion funktioniert kein ordnungsgemäß.",
     answer: "Mindestens eine Backup-Funktion funktioniert nicht ordnungsgemäß.",
+    translation: "One or more backup functions are not operating properly.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -12540,6 +13169,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Ich fürchte, ich habe mich eine Geschlechtskrankheit zugezogen.",
     answer: "Ich fürchte, ich habe mir eine Geschlechtskrankheit zugezogen.",
+    translation: "I'm afraid I've contracted a venereal disease.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -12564,6 +13194,8 @@ export const errorClinicTier3: ExerciseItem[] = [
       "Die Konstruktion ist kein stark genug, um ein solches Gewicht zu tragen.",
     answer:
       "Die Konstruktion ist nicht stark genug, um ein solches Gewicht zu tragen.",
+    translation:
+      "The construction isn't strong enough to support so much weight.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -12588,6 +13220,8 @@ export const errorClinicTier3: ExerciseItem[] = [
       "Außerdem für werden die Verschlüsselung markierte Ordner nicht tatsächlich",
     answer:
       "Außerdem werden für die Verschlüsselung markierte Ordner nicht tatsächlich",
+    translation:
+      "Also, folders that are marked for encryption are not actually encrypted.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -12612,6 +13246,8 @@ export const errorClinicTier3: ExerciseItem[] = [
       "Außerdem werden für die Verschlüsselung markierte Ordner kein tatsächlich",
     answer:
       "Außerdem werden für die Verschlüsselung markierte Ordner nicht tatsächlich",
+    translation:
+      "Also, folders that are marked for encryption are not actually encrypted.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -12634,6 +13270,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Das ist Information, nicht Klatsch!",
     answer: "Das ist Information, kein Klatsch!",
+    translation: "This is not gossip, it's information.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -12656,6 +13293,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Noch Formulare zwei und die Einlieferung ist erledigt.",
     answer: "Noch zwei Formulare und die Einlieferung ist erledigt.",
+    translation: "Two more forms and her admission is complete.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -12678,6 +13316,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Ich wollte kein für das Ferngespräch zahlen.",
     answer: "Ich wollte nicht für das Ferngespräch zahlen.",
+    translation: "I didn't want to have to pay for the long-distance call.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -12702,6 +13341,8 @@ export const errorClinicTier3: ExerciseItem[] = [
       "Sie sagte, sie würde meine Arztrechnungen übernehmen und ich konnte es mich",
     answer:
       "Sie sagte, sie würde meine Arztrechnungen übernehmen und ich konnte es mir",
+    translation:
+      "She said she would cover my medical bills, and I couldn't afford to say no.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -12724,6 +13365,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Sie dürfen kein gehen, ohne diesen Strudel zu probieren.",
     answer: "Sie dürfen nicht gehen, ohne diesen Strudel zu probieren.",
+    translation: "You mustn't leave here without tasting this strudel.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -12746,6 +13388,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Wir hatten nicht Wahl, du Spatzenhirn.",
     answer: "Wir hatten keine Wahl, du Spatzenhirn.",
+    translation: "What choice did we have, birdbrain?",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -12768,6 +13411,8 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Herr Präsident, der Faschismus kommt im Allgemeinen kein völlig",
     answer: "Herr Präsident, der Faschismus kommt im Allgemeinen nicht völlig",
+    translation:
+      "Mr. President, fascism does not usually come to power unexpectedly.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -12790,6 +13435,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Wir werden ihm zerquetschen wie eine Laus.",
     answer: "Wir werden ihn zerquetschen wie eine Laus.",
+    translation: "We'll crush him like a bug.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -12812,6 +13458,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Ich bin da überhaupt kein übermütig.",
     answer: "Ich bin da überhaupt nicht übermütig.",
+    translation: "In that respect, I am by no means overconfident.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -12834,6 +13481,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Es verstößt kein vollständig gegen die Norm.",
     answer: "Es verstößt nicht vollständig gegen die Norm.",
+    translation: "It's not entirely out of the norm.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -12856,6 +13504,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Ich könnte mir nie mit einem Mann vermählen ohne Liebe.",
     answer: "Ich könnte mich nie mit einem Mann vermählen ohne Liebe.",
+    translation: "I could never marry a man without love.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -12878,6 +13527,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Ich besorgte ihn Arznei, das ist alles.",
     answer: "Ich besorgte ihm Arznei, das ist alles.",
+    translation: "I brought him medicine, that's all.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -12900,6 +13550,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Der nächste Streik macht mich Sorgen.",
     answer: "Der nächste Streik macht mir Sorgen.",
+    translation: "It's the next strike I'm worried about.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -12923,6 +13574,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     stimulus:
       "Es wäre mich unangenehm, Ihnen das Vergnügen meiner Anwesenheit zu",
     answer: "Es wäre mir unangenehm, Ihnen das Vergnügen meiner Anwesenheit zu",
+    translation: "I'd hate to deny you the pleasure of my company.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -12945,6 +13597,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Wieso konnten wir den Kern kein abstoßen?",
     answer: "Wieso konnten wir den Kern nicht abstoßen?",
+    translation: "Why couldn't we eject the core?",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -12967,6 +13620,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Ich kann diese Gruppe kein anführen.",
     answer: "Ich kann diese Gruppe nicht anführen.",
+    translation: "I can't lead this group.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -12989,6 +13643,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Sie kann sich kein zusammenreißen.",
     answer: "Sie kann sich nicht zusammenreißen.",
+    translation: "She can't control herself.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -13011,6 +13666,8 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Die Wirkungen dieses Urteils sind kein zeitlich zu begrenzen.",
     answer: "Die Wirkungen dieses Urteils sind nicht zeitlich zu begrenzen.",
+    translation:
+      "There is no need to limit the temporal effects of the present judgment.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -13033,6 +13690,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Ich wachte auf und fühlte mir wieder total schwindlig.",
     answer: "Ich wachte auf und fühlte mich wieder total schwindlig.",
+    translation: "I woke up and I felt all dizzy again.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -13055,6 +13713,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Sie können hier kein einfach hereinspazieren.",
     answer: "Sie können hier nicht einfach hereinspazieren.",
+    translation: "You can't just walk in here.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -13077,6 +13736,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Geld rinnt ihn geradezu durch die Finger.",
     answer: "Geld rinnt ihm geradezu durch die Finger.",
+    translation: "Money simply slips through his fingers.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -13099,6 +13759,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Fairerweise muss man sagen, dass kein nur du armselig bist.",
     answer: "Fairerweise muss man sagen, dass nicht nur du armselig bist.",
+    translation: "To be fair, you aren't the only one who is pathetic.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -13123,6 +13784,7 @@ export const errorClinicTier3: ExerciseItem[] = [
       "Die gegenwärtige Situation ist kein nur schlecht, sondern chaotisch.",
     answer:
       "Die gegenwärtige Situation ist nicht nur schlecht, sondern chaotisch.",
+    translation: "The current situation is not only bad but chaotic.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -13145,6 +13807,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Der Leopard greift dir nicht an.",
     answer: "Der Leopard greift dich nicht an.",
+    translation: "That leopard will not attack you.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -13167,6 +13830,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Der Leopard greift dich kein an.",
     answer: "Der Leopard greift dich nicht an.",
+    translation: "That leopard will not attack you.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -13189,6 +13853,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Du kannst kein so einfach mit der Frau durchbrennen.",
     answer: "Du kannst nicht so einfach mit der Frau durchbrennen.",
+    translation: "You can't just run away with the woman.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -13212,6 +13877,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     stimulus:
       "Das sind alles Oberbegriffe und überhaupt kein wissenschaftlich.",
     answer: "Das sind alles Oberbegriffe und überhaupt nicht wissenschaftlich.",
+    translation: "Those are all generic terms, and not at all scientific.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -13234,6 +13900,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Aber jemand wollte mich etwas anderes weismachen.",
     answer: "Aber jemand wollte mir etwas anderes weismachen.",
+    translation: "But someone was trying to make me believe otherwise.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -13256,6 +13923,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Mit einem Tischler wäre ich kein glücklich.",
     answer: "Mit einem Tischler wäre ich nicht glücklich.",
+    translation: "I don't think I'd be happy with a carpenter.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -13278,6 +13946,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Bin kein lebensmüde, nur sauer.",
     answer: "Bin nicht lebensmüde, nur sauer.",
+    translation: "I'm upset, not suicidal.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -13300,6 +13969,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Es gibt ein Kopfgeld auf dir, mein Freund.",
     answer: "Es gibt ein Kopfgeld auf dich, mein Freund.",
+    translation: "There's a bounty on your head, my friend.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -13322,6 +13992,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Vielleicht könnt ihr kein richtig hinsehen.",
     answer: "Vielleicht könnt ihr nicht richtig hinsehen.",
+    translation: "Perhaps you don't know how to look.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -13346,6 +14017,8 @@ export const errorClinicTier3: ExerciseItem[] = [
       "Positive Sonderbehandlung darf kein unüberlegt und automatisch eingesetzt",
     answer:
       "Positive Sonderbehandlung darf nicht unüberlegt und automatisch eingesetzt",
+    translation:
+      "Positive discrimination should not be used aimlessly and without thinking.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -13368,6 +14041,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Er ist noch kein mal krankhaft fett.",
     answer: "Er ist noch nicht mal krankhaft fett.",
+    translation: "He's not even morbidly obese.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -13390,6 +14064,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Wenn ich mir recht entsinne, war er ein Revolverheld.",
     answer: "Wenn ich mich recht entsinne, war er ein Revolverheld.",
+    translation: "My recollection is that he was a gunfighter.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -13412,6 +14087,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Ich sage das kein, weil ich eingebildet bin.",
     answer: "Ich sage das nicht, weil ich eingebildet bin.",
+    translation: "I'm not saying that to be conceited.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -13434,6 +14110,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Hören Sie, die Sache ist sehr schmerzlich für mir.",
     answer: "Hören Sie, die Sache ist sehr schmerzlich für mich.",
+    translation: "Now, look, this is a very painful thing for me.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -13456,6 +14133,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Wir können Sie kein weiterreden lassen.",
     answer: "Wir können Sie nicht weiterreden lassen.",
+    translation: "We can't let you keep talking.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -13478,6 +14156,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Fortan nennst du mir Madame.",
     answer: "Fortan nennst du mich Madame.",
+    translation: "From now on, you call me Madame.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -13500,6 +14179,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Ihre freundlichen Worte werden mir motivieren.",
     answer: "Ihre freundlichen Worte werden mich motivieren.",
+    translation: "Your kind words will continue to motivate me.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -13522,6 +14202,8 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Geheimniskrämerei reimt sich kein mit Dialog und demokratischer",
     answer: "Geheimniskrämerei reimt sich nicht mit Dialog und demokratischer",
+    translation:
+      "Secretiveness does not square with dialogue and democratic openness.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -13546,6 +14228,8 @@ export const errorClinicTier3: ExerciseItem[] = [
       "Die Volksrepublik behauptet, dass sie nicht territoriale Expansion anstrebt.",
     answer:
       "Die Volksrepublik behauptet, dass sie keine territoriale Expansion anstrebt.",
+    translation:
+      "The People's Republic claims that it does not seek territorial expansion.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -13568,6 +14252,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Tut mich leid, dass die Informationen verstreut sind.",
     answer: "Tut mir leid, dass die Informationen verstreut sind.",
+    translation: "I'm sorry this information is so scattered.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -13590,6 +14275,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Dieser Pfahl steht kein ganz senkrecht.",
     answer: "Dieser Pfahl steht nicht ganz senkrecht.",
+    translation: "That pole is not quite vertical.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -13612,6 +14298,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Ob das jetzt temporär oder dauerhaft ist, weiß ich kein.",
     answer: "Ob das jetzt temporär oder dauerhaft ist, weiß ich nicht.",
+    translation: "Now, whether that's temporary or permanent, I don't know.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -13634,6 +14321,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Ich sagte kein Asphalt, sondern Kies.",
     answer: "Ich sagte nicht Asphalt, sondern Kies.",
+    translation: "I didn't say asphalt, I said gravel.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -13656,6 +14344,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Ich sagte dich doch, dass er ein Angsthase ist.",
     answer: "Ich sagte dir doch, dass er ein Angsthase ist.",
+    translation: "I told you he was a coward.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -13680,6 +14369,8 @@ export const errorClinicTier3: ExerciseItem[] = [
       "Eines wird sich kein ändern: unser Engagement unseren Kunden gegenüber.",
     answer:
       "Eines wird sich nicht ändern: unser Engagement unseren Kunden gegenüber.",
+    translation:
+      "One thing that won't change is our commitment to our customers.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -13702,6 +14393,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Ich war kein mal qualifiziert, den Flammenwerfer zu bedienen.",
     answer: "Ich war nicht mal qualifiziert, den Flammenwerfer zu bedienen.",
+    translation: "I wasn't even qualified to use the flame thrower.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -13725,6 +14417,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     stimulus:
       "Wenn ich dich meinen Zauberstab gebe, kann ich nur noch von Hand",
     answer: "Wenn ich dir meinen Zauberstab gebe, kann ich nur noch von Hand",
+    translation: "If I give you my wand, I'll only be able to do hand magic.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -13747,6 +14440,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Einer der Bosse trug mir sogar huckepack.",
     answer: "Einer der Bosse trug mich sogar huckepack.",
+    translation: "One big boss even used to carry me piggyback.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -13769,6 +14463,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Er folgte mich in den Frachtraum.",
     answer: "Er folgte mir in den Frachtraum.",
+    translation: "He tracked me down to the cargo hold.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -13791,6 +14486,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Ich kann kein alle Inseln dazwischen umfahren.",
     answer: "Ich kann nicht alle Inseln dazwischen umfahren.",
+    translation: "I can't bypass all islands in between.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -13813,6 +14509,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Und selbst ich kann mir nicht überzeugend selbst auspeitschen.",
     answer: "Und selbst ich kann mich nicht überzeugend selbst auspeitschen.",
+    translation: "And even I cannot convincingly whip myself.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -13835,6 +14532,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Und selbst ich kann mich kein überzeugend selbst auspeitschen.",
     answer: "Und selbst ich kann mich nicht überzeugend selbst auspeitschen.",
+    translation: "And even I cannot convincingly whip myself.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -13857,6 +14555,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Keiner nennt dir anspruchsvoll oder unverschämt.",
     answer: "Keiner nennt dich anspruchsvoll oder unverschämt.",
+    translation: "No one calls you demanding or unreasonable.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -13881,6 +14580,7 @@ export const errorClinicTier3: ExerciseItem[] = [
       "Aber erlaube mich wenigstens dir zu danken für deine großmütigen Worte.",
     answer:
       "Aber erlaube mir wenigstens dir zu danken für deine großmütigen Worte.",
+    translation: "But let me thank you for your generous words, at least.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -13903,6 +14603,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Das ist nicht Gruß, John.",
     answer: "Das ist kein Gruß, John.",
+    translation: "It's not a greeting, John.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -13925,6 +14626,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Schließlich bedarf sein eigener Vortrag nicht Verbesserung.",
     answer: "Schließlich bedarf sein eigener Vortrag keiner Verbesserung.",
+    translation: "After all, his own performance needs no improvement.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -13947,6 +14649,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Ich rate dich, deine Entscheidungen sorgsam zu treffen.",
     answer: "Ich rate dir, deine Entscheidungen sorgsam zu treffen.",
+    translation: "I would encourage you to make your choices carefully.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -13969,6 +14672,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Sag mich, wann es kitzelt.",
     answer: "Sag mir, wann es kitzelt.",
+    translation: "Let me know if this tickles.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -13991,6 +14695,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Wir wollen sie mal kein überfordern.",
     answer: "Wir wollen sie mal nicht überfordern.",
+    translation: "We don't want to overwhelm her.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -14013,6 +14718,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Im Tresorraum ist kein viel Luft.",
     answer: "Im Tresorraum ist nicht viel Luft.",
+    translation: "There isn't much air in the vault.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -14035,6 +14741,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Ich kann ihm auch nicht vom Dach schubsen.",
     answer: "Ich kann ihn auch nicht vom Dach schubsen.",
+    translation: "And I can't push him off the roof.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -14057,6 +14764,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Ich kann ihn auch kein vom Dach schubsen.",
     answer: "Ich kann ihn auch nicht vom Dach schubsen.",
+    translation: "And I can't push him off the roof.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -14079,6 +14787,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Vor Tür seiner sitzt ein Marschall.",
     answer: "Vor seiner Tür sitzt ein Marschall.",
+    translation: "He's got a marshal sitting in front of his door.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -14101,6 +14810,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Sie hat es nicht getan, um dir zu beschämen.",
     answer: "Sie hat es nicht getan, um dich zu beschämen.",
+    translation: "She didn't do it to embarrass you.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -14123,6 +14833,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Sie hat es kein getan, um dich zu beschämen.",
     answer: "Sie hat es nicht getan, um dich zu beschämen.",
+    translation: "She didn't do it to embarrass you.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -14145,6 +14856,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Würdest du ranfahren und mir fahren lassen?",
     answer: "Würdest du ranfahren und mich fahren lassen?",
+    translation: "Would you pull over and let me drive?",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -14167,6 +14879,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Heute schmecken sie kein so bitter.",
     answer: "Heute schmecken sie nicht so bitter.",
+    translation: "Today they're not so bitter.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -14189,6 +14902,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Ich kann mich diese Pein kaum vorstellen.",
     answer: "Ich kann mir diese Pein kaum vorstellen.",
+    translation: "I really can't imagine the torment.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -14211,6 +14925,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Ich bin Künstler, nicht Erpresser.",
     answer: "Ich bin Künstler, kein Erpresser.",
+    translation: "I'm an artist, not a blackmailer.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -14233,6 +14948,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Zuerst ich muss ein anderes Crewmitglied aufsuchen.",
     answer: "Zuerst muss ich ein anderes Crewmitglied aufsuchen.",
+    translation: "There is a crew member I must see first.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -14257,6 +14973,7 @@ export const errorClinicTier3: ExerciseItem[] = [
       "Wenn man sich ihnen kein zuwendet, sie nicht versorgt, verwelken sie.",
     answer:
       "Wenn man sich ihnen nicht zuwendet, sie nicht versorgt, verwelken sie.",
+    translation: "If you don't tend to them, nourish them, they wither.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -14279,6 +14996,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Ich kann kein glauben, dass du das liebenswert findest.",
     answer: "Ich kann nicht glauben, dass du das liebenswert findest.",
+    translation: "I can't believe you find this endearing.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -14301,6 +15019,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Ich habe die Tomaten für dir gewaschen.",
     answer: "Ich habe die Tomaten für dich gewaschen.",
+    translation: "I washed the tomatoes for you.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -14325,6 +15044,8 @@ export const errorClinicTier3: ExerciseItem[] = [
       "Ich habe ihn erklärt, dass wir ein paar Grundregeln festlegen müssen, es wurde",
     answer:
       "Ich habe ihm erklärt, dass wir ein paar Grundregeln festlegen müssen, es wurde",
+    translation:
+      "I told him we need to lay down some ground rules; it got a little heated.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -14347,6 +15068,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Doch in ihrer Gesamtheit ist diese Tätigkeit nicht Kritik.",
     answer: "Doch in ihrer Gesamtheit ist diese Tätigkeit keine Kritik.",
+    translation: "In its entirety, however, this activity is not a critique.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -14369,6 +15091,8 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Doch nicht physiologischen Hinweise deuten auf solche Kräfte.",
     answer: "Doch keine physiologischen Hinweise deuten auf solche Kräfte.",
+    translation:
+      "There's no physiological evidence to indicate that he would possess such powers.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -14393,6 +15117,8 @@ export const errorClinicTier3: ExerciseItem[] = [
       "Sollte ich Sie dann hier noch antreffen, bin ich kein mehr für Ihre Sicherheit",
     answer:
       "Sollte ich Sie dann hier noch antreffen, bin ich nicht mehr für Ihre Sicherheit",
+    translation:
+      "If I find you here, I will not be responsible for your safety.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -14415,6 +15141,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Dies auszusprechen ist kein gerade beliebt.",
     answer: "Dies auszusprechen ist nicht gerade beliebt.",
+    translation: "Now, that's not a popular thing to say.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -14437,6 +15164,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Und kein nur die Christen fasten.",
     answer: "Und nicht nur die Christen fasten.",
+    translation: "And it's not just Christians that fast.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -14459,6 +15187,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Diese Einsicht darf kein unterschätzt werden.",
     answer: "Diese Einsicht darf nicht unterschätzt werden.",
+    translation: "The value of this insight cannot be underestimated.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -14481,6 +15210,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Sie sind aber nicht Vietnamese.",
     answer: "Sie sind aber kein Vietnamese.",
+    translation: "But you're not Vietnamese.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -14505,6 +15235,7 @@ export const errorClinicTier3: ExerciseItem[] = [
       "Obgleich die Argumente sehr vernünftig waren, war er kein überzeugt.",
     answer:
       "Obgleich die Argumente sehr vernünftig waren, war er nicht überzeugt.",
+    translation: "Although the arguments were rational, he was not convinced.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -14527,6 +15258,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Reife Eizellen können kein mehr in die Gebärmutter gelangen.",
     answer: "Reife Eizellen können nicht mehr in die Gebärmutter gelangen.",
+    translation: "Mature eggs can no longer enter the uterus.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -14549,6 +15281,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Dieser Eifer ist kein neu in China.",
     answer: "Dieser Eifer ist nicht neu in China.",
+    translation: "None of this zeal is new in China.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -14573,6 +15306,7 @@ export const errorClinicTier3: ExerciseItem[] = [
       "Und wir dachten, dass Sie ihm vielleicht etwas aufheitern könnten.",
     answer:
       "Und wir dachten, dass Sie ihn vielleicht etwas aufheitern könnten.",
+    translation: "And we thought maybe you could cheer him up.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -14595,6 +15329,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Zuerst sie kreieren diese Basis von Gleichheit.",
     answer: "Zuerst kreieren sie diese Basis von Gleichheit.",
+    translation: "So, they first create this foundation of equality.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -14617,6 +15352,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Aber das soll deinen Entschluss kein beeinflussen.",
     answer: "Aber das soll deinen Entschluss nicht beeinflussen.",
+    translation: "But this shouldn't influence your decision.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -14639,6 +15375,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Sehr nett, aber mein Chauffeur wartet auf mir.",
     answer: "Sehr nett, aber mein Chauffeur wartet auf mich.",
+    translation: "That's very nice of you, but my chauffeur is waiting for me.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -14661,6 +15398,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Wieso hat sie ihm beschatten lassen?",
     answer: "Wieso hat sie ihn beschatten lassen?",
+    translation: "Then why would she want someone to tail him?",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -14683,6 +15421,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Er war ganz betört von mich.",
     answer: "Er war ganz betört von mir.",
+    translation: "He was quite infatuated with me.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -14707,6 +15446,8 @@ export const errorClinicTier3: ExerciseItem[] = [
       "Da die Regenzeit noch kein vorbei ist, müssen diese Menschen dort",
     answer:
       "Da die Regenzeit noch nicht vorbei ist, müssen diese Menschen dort",
+    translation:
+      "As the rainy season is not yet over, the people will have to stay there for",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -14729,6 +15470,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Ich kann verstehen, warum Sie mich vielleicht misstrauen.",
     answer: "Ich kann verstehen, warum Sie mir vielleicht misstrauen.",
+    translation: "I can understand why you might mistrust me.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -14751,6 +15493,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Sie können nicht Konzern wie unseren leiten.",
     answer: "Sie können keinen Konzern wie unseren leiten.",
+    translation: "You can't run a group like this.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -14773,6 +15516,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Ich muss ihm mit etwas zudecken.",
     answer: "Ich muss ihn mit etwas zudecken.",
+    translation: "I need something to cover him up with.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -14795,6 +15539,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Ich will mit den indischen Behörden nicht Ärger bekommen.",
     answer: "Ich will mit den indischen Behörden keinen Ärger bekommen.",
+    translation: "I don't want any trouble with the Indian authorities.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -14817,6 +15562,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Er wird sich mit mich befassen müssen.",
     answer: "Er wird sich mit mir befassen müssen.",
+    translation: "He'll have to deal with me.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -14841,6 +15587,8 @@ export const errorClinicTier3: ExerciseItem[] = [
       "Ich wünschte nur, der ganze Altersunterschied würde das kein so unangenehm",
     answer:
       "Ich wünschte nur, der ganze Altersunterschied würde das nicht so unangenehm",
+    translation:
+      "I just wish the whole age difference didn't make this so awkward.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -14865,6 +15613,8 @@ export const errorClinicTier3: ExerciseItem[] = [
       "Stattdessen ich möchte eine politische Frage aufgreifen, die meines",
     answer:
       "Stattdessen möchte ich eine politische Frage aufgreifen, die meines",
+    translation:
+      "I want instead to address a political issue that I believe to be a major issue.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -14887,6 +15637,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Ich brachte dir nicht als Schiedsrichter beim Boxkampf hierher.",
     answer: "Ich brachte dich nicht als Schiedsrichter beim Boxkampf hierher.",
+    translation: "I didn't bring you down here to referee a boxing match.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -14909,6 +15660,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Ich brachte dich kein als Schiedsrichter beim Boxkampf hierher.",
     answer: "Ich brachte dich nicht als Schiedsrichter beim Boxkampf hierher.",
+    translation: "I didn't bring you down here to referee a boxing match.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -14931,6 +15683,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Wir bringen ihm auf die Intensivstation.",
     answer: "Wir bringen ihn auf die Intensivstation.",
+    translation: "Let's get him to ICU.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -14953,6 +15706,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Du kannst mir deiner neuen Gouvernante vorstellen.",
     answer: "Du kannst mich deiner neuen Gouvernante vorstellen.",
+    translation: "You can introduce me to your new governess.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -14975,6 +15729,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Wir können unsere Arbeitslast kein beibehalten.",
     answer: "Wir können unsere Arbeitslast nicht beibehalten.",
+    translation: "We will not be able to maintain our workload.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -14997,6 +15752,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Denn wollte ich schon immer etwas rammen.",
     answer: "Denn ich wollte schon immer etwas rammen.",
+    translation: "Because I've always wanted to ram something.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -15019,6 +15775,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Warum sollte mir dein Nerz interessieren?",
     answer: "Warum sollte mich dein Nerz interessieren?",
+    translation: "Why should I take an interest in your mink?",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -15041,6 +15798,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Zuerst wir müssen diese kaputte Röhre entfernen.",
     answer: "Zuerst müssen wir diese kaputte Röhre entfernen.",
+    translation: "First of all, we've got to remove this damaged tube.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -15063,6 +15821,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Ich glaube, dich ist unwohl.",
     answer: "Ich glaube, dir ist unwohl.",
+    translation: "I think you must be unwell.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -15085,6 +15844,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Ich war eindeutig nicht spiritueller Guru.",
     answer: "Ich war eindeutig kein spiritueller Guru.",
+    translation: "I was decidedly not a spiritual guru.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -15107,6 +15867,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Den Motor kein weiter als nötig kippen.",
     answer: "Den Motor nicht weiter als nötig kippen.",
+    translation: "Do not tilt the engine more than necessary.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -15131,6 +15892,8 @@ export const errorClinicTier3: ExerciseItem[] = [
       "Noch es gibt Orte, an denen das Meer so unberührt ist, wie ich es als Kind",
     answer:
       "Noch gibt es Orte, an denen das Meer so unberührt ist, wie ich es als Kind",
+    translation:
+      "There are still places in the sea as pristine as I knew as a child.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -15153,6 +15916,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Ich muss mich wirklich ein Auto zulegen.",
     answer: "Ich muss mir wirklich ein Auto zulegen.",
+    translation: "I really got to get a car.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -15175,6 +15939,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Unsere Pläne sind noch kein konkret.",
     answer: "Unsere Pläne sind noch nicht konkret.",
+    translation: "Our plans are not yet concrete.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -15197,6 +15962,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Möglicherweise können Sie nicht geschützten Inhalte abspielen.",
     answer: "Möglicherweise können Sie keine geschützten Inhalte abspielen.",
+    translation: "You may not be able to play protected content.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -15219,6 +15985,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Sag ihnen, ich werde kein anbeißen.",
     answer: "Sag ihnen, ich werde nicht anbeißen.",
+    translation: "But tell them I'm not going to bite.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -15241,6 +16008,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Sollten wir kein erstmals John fragen?",
     answer: "Sollten wir nicht erstmals John fragen?",
+    translation: "Shouldn't we ask John first?",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -15263,6 +16031,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Wir müssen uns kein gegenseitig ausfragen.",
     answer: "Wir müssen uns nicht gegenseitig ausfragen.",
+    translation: "We don't have to interrogate each other.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -15285,6 +16054,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Selbst wenn wir die Frequenz finden, können wir kein mithören.",
     answer: "Selbst wenn wir die Frequenz finden, können wir nicht mithören.",
+    translation: "Even if we scan their frequency, we can't listen in.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -15309,6 +16079,8 @@ export const errorClinicTier3: ExerciseItem[] = [
       "Selbstverständlich markieren diese Veränderungen nicht Bruch mit der Vergangenheit.",
     answer:
       "Selbstverständlich markieren diese Veränderungen keinen Bruch mit der Vergangenheit.",
+    translation:
+      "Of course, these changes do not mark a sharp break with the past.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -15331,6 +16103,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Ich sagte, dass es nicht Ratschlag ist.",
     answer: "Ich sagte, dass es kein Ratschlag ist.",
+    translation: "I said this is not advice.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -15353,6 +16126,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Ich möchte diese Passage für dir zusammenfassen.",
     answer: "Ich möchte diese Passage für dich zusammenfassen.",
+    translation: "I want to sum up this passage for you.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -15375,6 +16149,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Sie quiekt und bringt mir zum Quieken.",
     answer: "Sie quiekt und bringt mich zum Quieken.",
+    translation: "She squeals, she makes me squeal.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -15397,6 +16172,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Können Sie mir bitte zur Polizeistation durchstellen?",
     answer: "Können Sie mich bitte zur Polizeistation durchstellen?",
+    translation: "Could you connect me with the police station, please?",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -15421,6 +16197,8 @@ export const errorClinicTier3: ExerciseItem[] = [
       "Das ist wahrscheinlich ein vorübergehender Fehltritt und kein das, wer sie",
     answer:
       "Das ist wahrscheinlich ein vorübergehender Fehltritt und nicht das, wer sie",
+    translation:
+      "This is obviously a temporary lapse and not who you truly are.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -15445,6 +16223,7 @@ export const errorClinicTier3: ExerciseItem[] = [
       "Server können möglicherweise kein auf Festplattenlaufwerke zugreifen.",
     answer:
       "Server können möglicherweise nicht auf Festplattenlaufwerke zugreifen.",
+    translation: "Servers may not be able to access disk drives.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -15467,6 +16246,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Nach Überschwemmung der wurden drei Menschen vermisst.",
     answer: "Nach der Überschwemmung wurden drei Menschen vermisst.",
+    translation: "Three people were missing after the flood.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -15489,6 +16269,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Und nicht verwöhnter Playboy sollte ihr Erbe zerstören dürfen.",
     answer: "Und kein verwöhnter Playboy sollte ihr Erbe zerstören dürfen.",
+    translation: "And no pampered playboy is going to destroy their legacy.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -15511,6 +16292,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Meine Anmeldedaten kein für zukünftige Besuche speichern.",
     answer: "Meine Anmeldedaten nicht für zukünftige Besuche speichern.",
+    translation: "Do not remember my account for future log in.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -15533,6 +16315,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Ich habe ihn ein Mittel gegen Verstopfung gegeben.",
     answer: "Ich habe ihm ein Mittel gegen Verstopfung gegeben.",
+    translation: "I gave him some medicine for constipation.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -15555,6 +16338,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Ich hätte dich nicht so zusetzen sollen.",
     answer: "Ich hätte dir nicht so zusetzen sollen.",
+    translation: "I shouldn't have nagged you like that.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -15577,6 +16361,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Ich hätte dir kein so zusetzen sollen.",
     answer: "Ich hätte dir nicht so zusetzen sollen.",
+    translation: "I shouldn't have nagged you like that.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -15599,6 +16384,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Ich sagte dem Portier, dass Sie mir erwarten.",
     answer: "Ich sagte dem Portier, dass Sie mich erwarten.",
+    translation: "I told the porter you were expecting me.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -15621,6 +16407,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Ich will ihm rehabilitieren, nicht sein Leben beenden.",
     answer: "Ich will ihn rehabilitieren, nicht sein Leben beenden.",
+    translation: "I prefer to rehabilitate him, not to end his life.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -15643,6 +16430,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Ich will ihn rehabilitieren, kein sein Leben beenden.",
     answer: "Ich will ihn rehabilitieren, nicht sein Leben beenden.",
+    translation: "I prefer to rehabilitate him, not to end his life.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -15665,6 +16453,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Ein Meteorit kann sich kein aufblasen.",
     answer: "Ein Meteorit kann sich nicht aufblasen.",
+    translation: "Meteorites don't inflate like a balloon.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -15688,6 +16477,8 @@ export const errorClinicTier3: ExerciseItem[] = [
     stimulus:
       "Der kombinierte Höchstfördersatz darf jedoch % kein übersteigen.",
     answer: "Der kombinierte Höchstfördersatz darf jedoch % nicht übersteigen.",
+    translation:
+      "However, the maximum combined support rate shall not exceed 90%.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -15712,6 +16503,7 @@ export const errorClinicTier3: ExerciseItem[] = [
       "Es waren nicht Eintrittskarten für die Vorstellung am Freitag verfügbar.",
     answer:
       "Es waren keine Eintrittskarten für die Vorstellung am Freitag verfügbar.",
+    translation: "There were no tickets available for Friday's exhibition.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -15734,6 +16526,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Ich möchte die Polizei kein im Kreuzfeuer haben.",
     answer: "Ich möchte die Polizei nicht im Kreuzfeuer haben.",
+    translation: "I don't want the police caught in the crossfire.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -15756,6 +16549,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Er ist kein weit, hinter der Schlucht.",
     answer: "Er ist nicht weit, hinter der Schlucht.",
+    translation: "He's not far, just past that ravine.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -15778,6 +16572,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Das Öl selbst ist kein giftig.",
     answer: "Das Öl selbst ist nicht giftig.",
+    translation: "The oil itself isn't poisonous.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -15800,6 +16595,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Die Erholung der Weltwirtschaft ist noch kein in Sicht.",
     answer: "Die Erholung der Weltwirtschaft ist noch nicht in Sicht.",
+    translation: "Recovery of the world economy is not yet in sight.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -15824,6 +16620,7 @@ export const errorClinicTier3: ExerciseItem[] = [
       "Ist es kein besser, die Zeichen zu entstellen, statt sie zu zerstören?",
     answer:
       "Ist es nicht besser, die Zeichen zu entstellen, statt sie zu zerstören?",
+    translation: "Is it not better to distort the signs than to destroy them?",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -15846,6 +16643,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Entschuldige mal, ich habe kein gemogelt.",
     answer: "Entschuldige mal, ich habe nicht gemogelt.",
+    translation: "Excuse me, I did not cheat.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -15868,6 +16666,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Sie sehen kein sehr außerirdisch aus.",
     answer: "Sie sehen nicht sehr außerirdisch aus.",
+    translation: "They don't look very alien.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -15892,6 +16691,8 @@ export const errorClinicTier3: ExerciseItem[] = [
       "Diese ursprüngliche Faszination hat uns bis heute kein losgelassen.",
     answer:
       "Diese ursprüngliche Faszination hat uns bis heute nicht losgelassen.",
+    translation:
+      "This original fascination has not been relinquished to this day.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -15914,6 +16715,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Behinderte können es kein ertragen, wenn Leute sie bemitleiden.",
     answer: "Behinderte können es nicht ertragen, wenn Leute sie bemitleiden.",
+    translation: "Disabled people can't stand it when people pity them.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -15938,6 +16740,8 @@ export const errorClinicTier3: ExerciseItem[] = [
       "Zuckt in Nordamerika jemand mit den Schultern, heißt das: Ich weiß kein.",
     answer:
       "Zuckt in Nordamerika jemand mit den Schultern, heißt das: Ich weiß nicht.",
+    translation:
+      "In North America, when a person shrugs his shoulders it means: I don't",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -15960,6 +16764,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Vom Geruch von Makkaroni mit Käse wird mich schlecht.",
     answer: "Vom Geruch von Makkaroni mit Käse wird mir schlecht.",
+    translation: "The smell of macaroni and cheese makes me nauseous.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -15984,6 +16789,7 @@ export const errorClinicTier3: ExerciseItem[] = [
       "Ich persönlich habe kein den Eindruck, dass Sie herablassend sind.",
     answer:
       "Ich persönlich habe nicht den Eindruck, dass Sie herablassend sind.",
+    translation: "I don't think you're condescending at all.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -16006,6 +16812,8 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Die Inhaftierung ist zu vermeiden, wenn sie kein notwendig oder",
     answer: "Die Inhaftierung ist zu vermeiden, wenn sie nicht notwendig oder",
+    translation:
+      "Detention should be avoided where it is unnecessary or inappropriate.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -16028,6 +16836,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Normales Gewebe kann dem Druck kein standhalten.",
     answer: "Normales Gewebe kann dem Druck nicht standhalten.",
+    translation: "Normal tissue can't withstand the strain.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -16050,6 +16859,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Er hat mir aus der Schusslinie gezogen.",
     answer: "Er hat mich aus der Schusslinie gezogen.",
+    translation: "He dragged me out of the line of fire.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -16074,6 +16884,7 @@ export const errorClinicTier3: ExerciseItem[] = [
       "Das heißt natürlich kein, dass ich nicht überglücklich war, Sie wohlbehalten",
     answer:
       "Das heißt natürlich nicht, dass ich nicht überglücklich war, Sie wohlbehalten",
+    translation: "That's not to say I wasn't elated to see you safe and sound.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -16096,6 +16907,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Das halten viele für ehrgeizig, aber kein für unrealistisch.",
     answer: "Das halten viele für ehrgeizig, aber nicht für unrealistisch.",
+    translation: "Many regard this as ambitious, but not unrealistic.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -16118,6 +16930,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Der Projektor ist noch kein aufgebaut.",
     answer: "Der Projektor ist noch nicht aufgebaut.",
+    translation: "I haven't even set the projector up.",
     metadata: {
       cefr: "B2",
       system: "performance",
@@ -16140,6 +16953,7 @@ export const errorClinicTier3: ExerciseItem[] = [
     prompt: "Correct the error in this sentence:",
     stimulus: "Denn muss ich wieder einen Aufsatz schreiben.",
     answer: "Denn ich muss wieder einen Aufsatz schreiben.",
+    translation: "I have to write an essay again.",
     metadata: {
       cefr: "B2",
       system: "performance",

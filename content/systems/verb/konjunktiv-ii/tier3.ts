@@ -22,6 +22,7 @@ export const konjunktivIiTier3: ExerciseItem[] = [
     stimulus: "Hätte ich das gewusst, ____ ich anders gehandelt.",
     options: ["hätte", "habe", "werde", "würde"],
     answer: 0,
+    translation: "Had I known that, I would have acted differently.",
     feedback: FEEDBACK,
     metadata: {
       cefr: "B2",
@@ -38,6 +39,7 @@ export const konjunktivIiTier3: ExerciseItem[] = [
     stimulus: "Wenn sie früher gegangen wäre, ____ sie den Bus nicht verpasst.",
     options: ["hätte", "habe", "würde", "ist"],
     answer: 0,
+    translation: "If she had left earlier, she wouldn't have missed the bus.",
     feedback: FEEDBACK,
     metadata: {
       cefr: "B2",
@@ -53,6 +55,7 @@ export const konjunktivIiTier3: ExerciseItem[] = [
     prompt: "Fill in the past Konjunktiv II auxiliary for 'sein':",
     stimulus: "Wenn ich das gewusst hätte, ____ ich nicht gekommen.",
     answer: "wäre",
+    translation: "If I had known that, I wouldn't have come.",
     feedback: FEEDBACK,
     metadata: {
       cefr: "B2",
@@ -68,6 +71,7 @@ export const konjunktivIiTier3: ExerciseItem[] = [
     prompt: "Fill in the missing word (past hypothetical):",
     stimulus: "An seiner Stelle ____ ich das Angebot sofort angenommen.",
     answer: "hätte",
+    translation: "In his place, I would have accepted the offer immediately.",
     feedback: FEEDBACK,
     metadata: {
       cefr: "B2",
@@ -84,6 +88,7 @@ export const konjunktivIiTier3: ExerciseItem[] = [
     stimulus: "Es sieht so aus, als ____ es gleich regnen.",
     options: ["würde", "wird", "werde", "wurde"],
     answer: 0,
+    translation: "It looks like it's about to rain.",
     feedback: FEEDBACK,
     metadata: {
       cefr: "B2",
@@ -99,6 +104,7 @@ export const konjunktivIiTier3: ExerciseItem[] = [
     prompt: "Fill in the Konjunktiv II form of 'wissen':",
     stimulus: "Wenn ich die Antwort ____, würde ich es dir sagen.",
     answer: "wüsste",
+    translation: "If I knew the answer, I would tell you.",
     feedback: FEEDBACK,
     metadata: {
       cefr: "B2",
@@ -115,6 +121,7 @@ export const konjunktivIiTier3: ExerciseItem[] = [
     answer: "ich hätte",
     acceptableAnswers: ["hätte"],
     timeLimitSec: 20,
+    translation: "I would have",
     feedback: FEEDBACK,
     metadata: {
       cefr: "B2",
@@ -131,6 +138,7 @@ export const konjunktivIiTier3: ExerciseItem[] = [
     answer: "es wäre",
     acceptableAnswers: ["wäre"],
     timeLimitSec: 20,
+    translation: "it would be",
     feedback: FEEDBACK,
     metadata: {
       cefr: "B2",

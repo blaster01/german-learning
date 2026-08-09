@@ -2,6 +2,7 @@ import { failure, success, type ValidationResult } from "./types";
 import {
   canonicalizeContractions,
   foldGermanAscii,
+  foldUmlautBase,
   normalizeGermanText,
 } from "./normalize";
 
@@ -22,14 +23,25 @@ export function normalizeLoose(s: string): string {
  * All the normalized forms worth comparing for a given string, from least
  * to most aggressively folded: loose punctuation/whitespace normalization,
  * then contracted prepositions (zu dem → zum), then ASCII-folded umlauts/ß
- * (schön → schoen, groß → gross). Order matters only for `candidateForms`'s
- * last entry, which is used as the base for edit-distance comparison.
+ * (schön → schoen, groß → gross). These three are all treated as equally
+ * "exact" — they're just different valid spellings of the same word.
  */
-function candidateForms(s: string): string[] {
+function exactForms(s: string): string[] {
   const loose = normalizeLoose(s);
   const contracted = canonicalizeContractions(loose);
-  const folded = foldGermanAscii(contracted);
-  return Array.from(new Set([loose, contracted, folded]));
+  const digraph = foldGermanAscii(contracted);
+  return Array.from(new Set([loose, contracted, digraph]));
+}
+
+/**
+ * The base-letter-folded form (ä/ö/ü/ß → a/o/u/ss), used both as an
+ * equivalence tier of its own (dropped umlauts, e.g. "schon" for "schön")
+ * and as the base string for edit-distance comparison. Unlike `exactForms`,
+ * a match found only through this fold is a real spelling difference and
+ * should be flagged to the learner rather than silently accepted.
+ */
+function umlautBaseForm(s: string): string {
+  return foldUmlautBase(canonicalizeContractions(normalizeLoose(s)));
 }
 
 /**
@@ -141,12 +153,20 @@ const CONFUSABLE_SHORT_WORDS = new Set([
   "eurer",
 ]);
 
+/** Which equivalence tier a match was found at, from strictest to loosest. */
+type MatchKind = "exact" | "umlaut" | "fuzzy" | "none";
+
 /**
- * Fuzzy match: accept if
- *   1. normalizeGermanText matches (case-insensitive, whitespace-collapsed), OR
- *   2. any normalized form (loose / contraction-canonicalized / ASCII-folded)
- *      of one side equals any normalized form of the other, OR
- *   3. Damerau-Levenshtein on the most-normalized forms is <= 1
+ * Fuzzy match, from strictest to loosest:
+ *   1. "exact" — normalizeGermanText matches, or any normalized form (loose /
+ *      contraction-canonicalized / ASCII-digraph-folded) of one side equals
+ *      any normalized form of the other. These are just alternate valid
+ *      spellings, so no note is warranted.
+ *   2. "umlaut" — the base-letter-folded forms (ä/ö/ü/ß → a/o/u/ss) match,
+ *      but no exact form did. The learner dropped a diacritic instead of
+ *      expanding it ("schon" for "schön"); this is accepted for full credit
+ *      but is a real spelling difference worth flagging.
+ *   3. "fuzzy" — Damerau-Levenshtein on the base-letter-folded forms is <= 1
  *      (covers a single missing/extra/swapped/transposed character) —
  *      unless either side is one of the CONFUSABLE_SHORT_WORDS, in which
  *      case an exact match is required so e.g. "den" is never accepted
@@ -155,39 +175,56 @@ const CONFUSABLE_SHORT_WORDS = new Set([
  * Intentionally NOT applied to MC or Builder engines
  * (those use tap/click, not typed input).
  */
-export function fuzzyMatch(expected: string, attempt: string): boolean {
+function fuzzyMatchKind(expected: string, attempt: string): MatchKind {
   const expStd = normalizeGermanText(expected);
   const attStd = normalizeGermanText(attempt);
-  if (expStd === attStd) return true;
+  if (expStd === attStd) return "exact";
 
-  const expForms = candidateForms(expected);
-  const attForms = candidateForms(attempt);
+  const expForms = exactForms(expected);
+  const attForms = exactForms(attempt);
   for (const e of expForms) {
     for (const a of attForms) {
-      if (e === a) return true;
+      if (e === a) return "exact";
     }
   }
 
-  const expBase = expForms[expForms.length - 1]!;
-  const attBase = attForms[attForms.length - 1]!;
+  const expBase = umlautBaseForm(expected);
+  const attBase = umlautBaseForm(attempt);
+  if (expBase === attBase) return "umlaut";
+
   const isConfusable =
     CONFUSABLE_SHORT_WORDS.has(expBase) || CONFUSABLE_SHORT_WORDS.has(attBase);
   if (!isConfusable && expBase.length >= 2 && attBase.length >= 2) {
-    if (damerauLevenshtein(expBase, attBase) <= 1) return true;
+    if (damerauLevenshtein(expBase, attBase) <= 1) return "fuzzy";
   }
 
-  return false;
+  return "none";
+}
+
+export function fuzzyMatch(expected: string, attempt: string): boolean {
+  return fuzzyMatchKind(expected, attempt) !== "none";
 }
 
 /**
  * Returns success if `attempt` fuzzy-matches any entry in `acceptable`.
+ * Prefers the strictest match found across all acceptable answers; if the
+ * best match anywhere was only via the umlaut-base fold, the success carries
+ * a note so the UI can tell the learner what happened.
  */
 export function matchAnyFuzzy(
   acceptable: string[],
   attempt: string,
 ): ValidationResult {
+  let best: MatchKind = "none";
   for (const e of acceptable) {
-    if (fuzzyMatch(e, attempt)) return success();
+    const kind = fuzzyMatchKind(e, attempt);
+    if (kind === "exact") return success();
+    if (kind === "umlaut" && best === "none") best = "umlaut";
+    if (kind === "fuzzy" && best === "none") best = "fuzzy";
   }
+  if (best === "umlaut") {
+    return success("Note the spelling — this word has an umlaut (ä/ö/ü) or ß.");
+  }
+  if (best === "fuzzy") return success();
   return failure(["match:any"], "Does not match any acceptable answer.");
 }

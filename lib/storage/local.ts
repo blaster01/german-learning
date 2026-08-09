@@ -13,7 +13,6 @@ import {
   type TagMastery,
 } from "@/lib/storage/repo";
 import { daysBetween, todayKey } from "@/lib/date/day";
-import { DAILY_NEW_CARD_LIMIT } from "@/lib/storage/constants";
 
 /* ------------------------------------------------------------------ */
 /*  Serialization helpers                                               */

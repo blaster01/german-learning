@@ -9,6 +9,7 @@ export const connectorsTier2: ExerciseItem[] = [
     prompt: "Fill in the correct connector:",
     stimulus: "Sieh zu, ____ du pünktlich zurück bist.",
     answer: "dass",
+    translation: "Make sure to get back on time.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -35,6 +36,7 @@ export const connectorsTier2: ExerciseItem[] = [
     stimulus: "Sieh zu, ____ du pünktlich zurück bist.",
     options: ["als", "obwohl", "damit", "dass"],
     answer: 3,
+    translation: "Make sure to get back on time.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -60,6 +62,7 @@ export const connectorsTier2: ExerciseItem[] = [
     prompt: "Fill in the correct connector:",
     stimulus: "Bald sind wir pleite, ____ wir nicht aufhören, Geld auszugeben.",
     answer: "wenn",
+    translation: "We'll be broke soon if we don't stop spending money.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -86,6 +89,7 @@ export const connectorsTier2: ExerciseItem[] = [
     stimulus: "Bald sind wir pleite, ____ wir nicht aufhören, Geld auszugeben.",
     options: ["als", "dass", "wenn", "während"],
     answer: 2,
+    translation: "We'll be broke soon if we don't stop spending money.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -112,6 +116,7 @@ export const connectorsTier2: ExerciseItem[] = [
     stimulus:
       "Die Granate ist explodiert, ____ der Terrorist sie werfen konnte.",
     answer: "bevor",
+    translation: "The grenade blew up before the terrorist could throw it.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -139,6 +144,7 @@ export const connectorsTier2: ExerciseItem[] = [
       "Die Granate ist explodiert, ____ der Terrorist sie werfen konnte.",
     options: ["dass", "falls", "bevor", "während"],
     answer: 2,
+    translation: "The grenade blew up before the terrorist could throw it.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -164,6 +170,7 @@ export const connectorsTier2: ExerciseItem[] = [
     prompt: "Fill in the correct connector:",
     stimulus: "Meine Quellen sagen mir, ____ die Russen etwas planen.",
     answer: "dass",
+    translation: "My sources tell me the Russians are planning something.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -190,6 +197,7 @@ export const connectorsTier2: ExerciseItem[] = [
     stimulus: "Meine Quellen sagen mir, ____ die Russen etwas planen.",
     options: ["dass", "nachdem", "seitdem", "als"],
     answer: 0,
+    translation: "My sources tell me the Russians are planning something.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -215,6 +223,7 @@ export const connectorsTier2: ExerciseItem[] = [
     prompt: "Fill in the correct connector:",
     stimulus: "Sie betrachten es ____ eine Vorsichtsmaßnahme.",
     answer: "als",
+    translation: "They consider it to be a precautionary measure.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -241,6 +250,7 @@ export const connectorsTier2: ExerciseItem[] = [
     stimulus: "Sie betrachten es ____ eine Vorsichtsmaßnahme.",
     options: ["damit", "seitdem", "als", "dass"],
     answer: 2,
+    translation: "They consider it to be a precautionary measure.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -266,6 +276,7 @@ export const connectorsTier2: ExerciseItem[] = [
     prompt: "Fill in the correct connector:",
     stimulus: "John machte mir ein Angebot, ____ ich nicht ablehnen konnte.",
     answer: "dass",
+    translation: "John made me an offer I couldn't refuse.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -292,6 +303,7 @@ export const connectorsTier2: ExerciseItem[] = [
     stimulus: "John machte mir ein Angebot, ____ ich nicht ablehnen konnte.",
     options: ["bevor", "obwohl", "falls", "dass"],
     answer: 3,
+    translation: "John made me an offer I couldn't refuse.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -317,6 +329,7 @@ export const connectorsTier2: ExerciseItem[] = [
     prompt: "Fill in the correct connector:",
     stimulus: "Ich bin froh, ____ ich dich amüsiere.",
     answer: "dass",
+    translation: "I'm glad I amuse you.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -343,6 +356,7 @@ export const connectorsTier2: ExerciseItem[] = [
     stimulus: "Ich bin froh, ____ ich dich amüsiere.",
     options: ["dass", "wenn", "nachdem", "bevor"],
     answer: 0,
+    translation: "I'm glad I amuse you.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -368,6 +382,7 @@ export const connectorsTier2: ExerciseItem[] = [
     prompt: "Fill in the correct connector:",
     stimulus: "Ich dachte mir, ich sollte dort ____ Erstes nachsehen.",
     answer: "als",
+    translation: "I thought I'd check there first.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -394,6 +409,7 @@ export const connectorsTier2: ExerciseItem[] = [
     stimulus: "Ich dachte mir, ich sollte dort ____ Erstes nachsehen.",
     options: ["bevor", "obwohl", "seitdem", "als"],
     answer: 3,
+    translation: "I thought I'd check there first.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -419,6 +435,7 @@ export const connectorsTier2: ExerciseItem[] = [
     prompt: "Fill in the correct connector:",
     stimulus: "Du weißt, ____ es bescheuert ist, oder?",
     answer: "dass",
+    translation: "You know this is nuts, right?",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -445,6 +462,7 @@ export const connectorsTier2: ExerciseItem[] = [
     stimulus: "Du weißt, ____ es bescheuert ist, oder?",
     options: ["dass", "sobald", "während", "obwohl"],
     answer: 0,
+    translation: "You know this is nuts, right?",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -470,6 +488,7 @@ export const connectorsTier2: ExerciseItem[] = [
     prompt: "Fill in the correct connector:",
     stimulus: "Wenn du hinsiehst, wird dir auffallen, ____ er links abbiegt.",
     answer: "dass",
+    translation: "If you look, you'll notice that he's turning left.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -496,6 +515,7 @@ export const connectorsTier2: ExerciseItem[] = [
     stimulus: "Wenn du hinsiehst, wird dir auffallen, ____ er links abbiegt.",
     options: ["obwohl", "damit", "seitdem", "dass"],
     answer: 3,
+    translation: "If you look, you'll notice that he's turning left.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -521,6 +541,7 @@ export const connectorsTier2: ExerciseItem[] = [
     prompt: "Fill in the correct connector:",
     stimulus: "Er will, ____ wir einsteigen.",
     answer: "dass",
+    translation: "He wants us to get in.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -547,6 +568,7 @@ export const connectorsTier2: ExerciseItem[] = [
     stimulus: "Er will, ____ wir einsteigen.",
     options: ["obwohl", "während", "dass", "seitdem"],
     answer: 2,
+    translation: "He wants us to get in.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -572,6 +594,7 @@ export const connectorsTier2: ExerciseItem[] = [
     prompt: "Fill in the correct connector:",
     stimulus: "Der Dichter lebte etwas mehr ____ zwanzig Jahre hier.",
     answer: "als",
+    translation: "That poet lived here a little over twenty years.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -598,6 +621,7 @@ export const connectorsTier2: ExerciseItem[] = [
     stimulus: "Der Dichter lebte etwas mehr ____ zwanzig Jahre hier.",
     options: ["seitdem", "als", "damit", "dass"],
     answer: 1,
+    translation: "That poet lived here a little over twenty years.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -624,6 +648,7 @@ export const connectorsTier2: ExerciseItem[] = [
     stimulus:
       "Bitte lass es mich bis Mittwoch wissen, ____ du nicht teilnehmen kannst.",
     answer: "wenn",
+    translation: "Please let me know by Wednesday if you can't attend.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -651,6 +676,7 @@ export const connectorsTier2: ExerciseItem[] = [
       "Bitte lass es mich bis Mittwoch wissen, ____ du nicht teilnehmen kannst.",
     options: ["damit", "seitdem", "als", "wenn"],
     answer: 3,
+    translation: "Please let me know by Wednesday if you can't attend.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -676,6 +702,7 @@ export const connectorsTier2: ExerciseItem[] = [
     prompt: "Fill in the correct connector:",
     stimulus: "Ich muss verschwinden, ____ sie auftauchen.",
     answer: "bevor",
+    translation: "I need to get out of here before they show up.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -702,6 +729,7 @@ export const connectorsTier2: ExerciseItem[] = [
     stimulus: "Ich muss verschwinden, ____ sie auftauchen.",
     options: ["weil", "als", "bevor", "seitdem"],
     answer: 2,
+    translation: "I need to get out of here before they show up.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -728,6 +756,8 @@ export const connectorsTier2: ExerciseItem[] = [
     stimulus:
       "Ich denke, es ist gut, ____ Bücher noch existieren, aber sie machen mich schläfrig.",
     answer: "dass",
+    translation:
+      "I think it is good that books still exist, but they do make me sleepy.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -755,6 +785,8 @@ export const connectorsTier2: ExerciseItem[] = [
       "Ich denke, es ist gut, ____ Bücher noch existieren, aber sie machen mich schläfrig.",
     options: ["bevor", "weil", "seitdem", "dass"],
     answer: 3,
+    translation:
+      "I think it is good that books still exist, but they do make me sleepy.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -780,6 +812,7 @@ export const connectorsTier2: ExerciseItem[] = [
     prompt: "Fill in the correct connector:",
     stimulus: "Wir sind schneller gegangen ____ üblich.",
     answer: "als",
+    translation: "We walked more quickly than usual.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -806,6 +839,7 @@ export const connectorsTier2: ExerciseItem[] = [
     stimulus: "Wir sind schneller gegangen ____ üblich.",
     options: ["sobald", "nachdem", "als", "weil"],
     answer: 2,
+    translation: "We walked more quickly than usual.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -831,6 +865,7 @@ export const connectorsTier2: ExerciseItem[] = [
     prompt: "Fill in the correct connector:",
     stimulus: "Benutze deinen Schlüssel, ____ die Glocke ertönt.",
     answer: "wenn",
+    translation: "When the bell sounds, use your key.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -857,6 +892,7 @@ export const connectorsTier2: ExerciseItem[] = [
     stimulus: "Benutze deinen Schlüssel, ____ die Glocke ertönt.",
     options: ["falls", "während", "obwohl", "wenn"],
     answer: 3,
+    translation: "When the bell sounds, use your key.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -882,6 +918,7 @@ export const connectorsTier2: ExerciseItem[] = [
     prompt: "Fill in the correct connector:",
     stimulus: "Sie denkt, ich sei mieser ____ Abschaum.",
     answer: "als",
+    translation: "She thinks I'm lower than scum.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -908,6 +945,7 @@ export const connectorsTier2: ExerciseItem[] = [
     stimulus: "Sie denkt, ich sei mieser ____ Abschaum.",
     options: ["sobald", "seitdem", "wenn", "als"],
     answer: 3,
+    translation: "She thinks I'm lower than scum.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -934,6 +972,8 @@ export const connectorsTier2: ExerciseItem[] = [
     stimulus:
       "Letztendlich wird jemand John sagen müssen, ____ er sich zu benehmen hat.",
     answer: "dass",
+    translation:
+      "Eventually, someone is going to have to tell John that he needs to behave himself.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -961,6 +1001,8 @@ export const connectorsTier2: ExerciseItem[] = [
       "Letztendlich wird jemand John sagen müssen, ____ er sich zu benehmen hat.",
     options: ["dass", "sobald", "obwohl", "bevor"],
     answer: 0,
+    translation:
+      "Eventually, someone is going to have to tell John that he needs to behave himself.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -986,6 +1028,7 @@ export const connectorsTier2: ExerciseItem[] = [
     prompt: "Fill in the correct connector:",
     stimulus: "Standardmäßig ist das Zeichenblatt höher ____ breit.",
     answer: "als",
+    translation: "By default, the page is taller than it is wide.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -1012,6 +1055,7 @@ export const connectorsTier2: ExerciseItem[] = [
     stimulus: "Standardmäßig ist das Zeichenblatt höher ____ breit.",
     options: ["falls", "bevor", "obwohl", "als"],
     answer: 3,
+    translation: "By default, the page is taller than it is wide.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -1037,6 +1081,7 @@ export const connectorsTier2: ExerciseItem[] = [
     prompt: "Fill in the correct connector:",
     stimulus: "Ich denke, ____ du genial bist.",
     answer: "dass",
+    translation: "I think you are brilliant.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -1063,6 +1108,7 @@ export const connectorsTier2: ExerciseItem[] = [
     stimulus: "Ich denke, ____ du genial bist.",
     options: ["bevor", "nachdem", "seitdem", "dass"],
     answer: 3,
+    translation: "I think you are brilliant.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -1088,6 +1134,7 @@ export const connectorsTier2: ExerciseItem[] = [
     prompt: "Fill in the correct connector:",
     stimulus: "Er verdient mehr Geld, ____ er ausgeben kann.",
     answer: "als",
+    translation: "He earns more money than he can spend.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -1114,6 +1161,7 @@ export const connectorsTier2: ExerciseItem[] = [
     stimulus: "Er verdient mehr Geld, ____ er ausgeben kann.",
     options: ["als", "falls", "damit", "wenn"],
     answer: 0,
+    translation: "He earns more money than he can spend.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -1139,6 +1187,7 @@ export const connectorsTier2: ExerciseItem[] = [
     prompt: "Fill in the correct connector:",
     stimulus: "Diese Verschwörung reicht höher hinauf ____ gedacht.",
     answer: "als",
+    translation: "This conspiracy goes a lot higher than we thought.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -1165,6 +1214,7 @@ export const connectorsTier2: ExerciseItem[] = [
     stimulus: "Diese Verschwörung reicht höher hinauf ____ gedacht.",
     options: ["während", "falls", "sobald", "als"],
     answer: 3,
+    translation: "This conspiracy goes a lot higher than we thought.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -1190,6 +1240,7 @@ export const connectorsTier2: ExerciseItem[] = [
     prompt: "Fill in the correct connector:",
     stimulus: "Er war brillant, sogar ____ Junge.",
     answer: "als",
+    translation: "He was brilliant, even as a boy.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -1216,6 +1267,7 @@ export const connectorsTier2: ExerciseItem[] = [
     stimulus: "Er war brillant, sogar ____ Junge.",
     options: ["weil", "als", "dass", "wenn"],
     answer: 1,
+    translation: "He was brilliant, even as a boy.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -1241,6 +1293,7 @@ export const connectorsTier2: ExerciseItem[] = [
     prompt: "Fill in the correct connector:",
     stimulus: "Wir sind lediglich ____ neugierige Beobachter gekommen.",
     answer: "als",
+    translation: "We have come only as curious observers.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -1267,6 +1320,7 @@ export const connectorsTier2: ExerciseItem[] = [
     stimulus: "Wir sind lediglich ____ neugierige Beobachter gekommen.",
     options: ["bevor", "als", "nachdem", "dass"],
     answer: 1,
+    translation: "We have come only as curious observers.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -1292,6 +1346,7 @@ export const connectorsTier2: ExerciseItem[] = [
     prompt: "Fill in the correct connector:",
     stimulus: "Meine Freundin glaubt, ____ sie kotzen muss.",
     answer: "dass",
+    translation: "My girlfriend thinks she needs to puke.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -1318,6 +1373,7 @@ export const connectorsTier2: ExerciseItem[] = [
     stimulus: "Meine Freundin glaubt, ____ sie kotzen muss.",
     options: ["dass", "bevor", "wenn", "weil"],
     answer: 0,
+    translation: "My girlfriend thinks she needs to puke.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -1343,6 +1399,7 @@ export const connectorsTier2: ExerciseItem[] = [
     prompt: "Fill in the correct connector:",
     stimulus: "Das war ____ ernsthafter Kommentar gedacht.",
     answer: "als",
+    translation: "I meant it as a serious comment.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -1369,6 +1426,7 @@ export const connectorsTier2: ExerciseItem[] = [
     stimulus: "Das war ____ ernsthafter Kommentar gedacht.",
     options: ["obwohl", "sobald", "falls", "als"],
     answer: 3,
+    translation: "I meant it as a serious comment.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -1395,6 +1453,7 @@ export const connectorsTier2: ExerciseItem[] = [
     stimulus:
       "Das Gehalt eines Lehrers ist niedriger ____ das eines Rechtsanwalts.",
     answer: "als",
+    translation: "A teacher's salary is less than an attorney's.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -1422,6 +1481,7 @@ export const connectorsTier2: ExerciseItem[] = [
       "Das Gehalt eines Lehrers ist niedriger ____ das eines Rechtsanwalts.",
     options: ["während", "als", "falls", "seitdem"],
     answer: 1,
+    translation: "A teacher's salary is less than an attorney's.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -1447,6 +1507,7 @@ export const connectorsTier2: ExerciseItem[] = [
     prompt: "Fill in the correct connector:",
     stimulus: "Ihr habt mir nichts, ____ Schmerz und Elend gebracht.",
     answer: "als",
+    translation: "You have brought me nothing but pain and misery.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -1473,6 +1534,7 @@ export const connectorsTier2: ExerciseItem[] = [
     stimulus: "Ihr habt mir nichts, ____ Schmerz und Elend gebracht.",
     options: ["als", "sobald", "wenn", "seitdem"],
     answer: 0,
+    translation: "You have brought me nothing but pain and misery.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -1498,6 +1560,7 @@ export const connectorsTier2: ExerciseItem[] = [
     prompt: "Fill in the correct connector:",
     stimulus: "Wir bezeichneten unsere Bewegung nie ____ politisch.",
     answer: "als",
+    translation: "We have never designated our movement to be political.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -1524,6 +1587,7 @@ export const connectorsTier2: ExerciseItem[] = [
     stimulus: "Wir bezeichneten unsere Bewegung nie ____ politisch.",
     options: ["während", "weil", "damit", "als"],
     answer: 3,
+    translation: "We have never designated our movement to be political.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -1549,6 +1613,7 @@ export const connectorsTier2: ExerciseItem[] = [
     prompt: "Fill in the correct connector:",
     stimulus: "Ich konnte nicht ahnen, ____ das passieren würde.",
     answer: "dass",
+    translation: "I couldn't anticipate that it would happen.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -1575,6 +1640,7 @@ export const connectorsTier2: ExerciseItem[] = [
     stimulus: "Ich konnte nicht ahnen, ____ das passieren würde.",
     options: ["während", "dass", "weil", "wenn"],
     answer: 1,
+    translation: "I couldn't anticipate that it would happen.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -1600,6 +1666,7 @@ export const connectorsTier2: ExerciseItem[] = [
     prompt: "Fill in the correct connector:",
     stimulus: "Ich juble einfach, ____ alle anderen jubeln.",
     answer: "wenn",
+    translation: "I just cheer when everyone else does.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -1626,6 +1693,7 @@ export const connectorsTier2: ExerciseItem[] = [
     stimulus: "Ich juble einfach, ____ alle anderen jubeln.",
     options: ["obwohl", "als", "wenn", "damit"],
     answer: 2,
+    translation: "I just cheer when everyone else does.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -1652,6 +1720,8 @@ export const connectorsTier2: ExerciseItem[] = [
     stimulus:
       "Beide Restaurants servieren sowohl lokale ____ auch kontinentale Spezialitäten.",
     answer: "als",
+    translation:
+      "In both restaurants, local cuisine is served as well as continental.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -1679,6 +1749,8 @@ export const connectorsTier2: ExerciseItem[] = [
       "Beide Restaurants servieren sowohl lokale ____ auch kontinentale Spezialitäten.",
     options: ["als", "seitdem", "während", "obwohl"],
     answer: 0,
+    translation:
+      "In both restaurants, local cuisine is served as well as continental.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -1705,6 +1777,7 @@ export const connectorsTier2: ExerciseItem[] = [
     stimulus:
       "Ich verspreche, ____ diese Diskussion die letzte ihrer sein wird.",
     answer: "dass",
+    translation: "I promise that this discussion will be the last of its kind.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -1732,6 +1805,7 @@ export const connectorsTier2: ExerciseItem[] = [
       "Ich verspreche, ____ diese Diskussion die letzte ihrer sein wird.",
     options: ["dass", "seitdem", "falls", "als"],
     answer: 0,
+    translation: "I promise that this discussion will be the last of its kind.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -1757,6 +1831,7 @@ export const connectorsTier2: ExerciseItem[] = [
     prompt: "Fill in the correct connector:",
     stimulus: "Sie würde zittern, ____ du sie berührst.",
     answer: "wenn",
+    translation: "She'll tremble when you touch her.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -1783,6 +1858,7 @@ export const connectorsTier2: ExerciseItem[] = [
     stimulus: "Sie würde zittern, ____ du sie berührst.",
     options: ["wenn", "damit", "seitdem", "falls"],
     answer: 0,
+    translation: "She'll tremble when you touch her.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -1808,6 +1884,7 @@ export const connectorsTier2: ExerciseItem[] = [
     prompt: "Fill in the correct connector:",
     stimulus: "Er war nie besser ____ unter Johns Regie.",
     answer: "als",
+    translation: "He was never better than under John's direction.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -1834,6 +1911,7 @@ export const connectorsTier2: ExerciseItem[] = [
     stimulus: "Er war nie besser ____ unter Johns Regie.",
     options: ["als", "sobald", "obwohl", "wenn"],
     answer: 0,
+    translation: "He was never better than under John's direction.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -1859,6 +1937,7 @@ export const connectorsTier2: ExerciseItem[] = [
     prompt: "Fill in the correct connector:",
     stimulus: "Ich glaube nicht, ____ John an dem Skandal beteiligt war.",
     answer: "dass",
+    translation: "I don't think John was involved in the scandal.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -1885,6 +1964,7 @@ export const connectorsTier2: ExerciseItem[] = [
     stimulus: "Ich glaube nicht, ____ John an dem Skandal beteiligt war.",
     options: ["als", "obwohl", "wenn", "dass"],
     answer: 3,
+    translation: "I don't think John was involved in the scandal.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -1910,6 +1990,7 @@ export const connectorsTier2: ExerciseItem[] = [
     prompt: "Fill in the correct connector:",
     stimulus: "Ich möchte, ____ Sie das Treffen organisieren.",
     answer: "dass",
+    translation: "I want you to organize a meeting.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -1936,6 +2017,7 @@ export const connectorsTier2: ExerciseItem[] = [
     stimulus: "Ich möchte, ____ Sie das Treffen organisieren.",
     options: ["dass", "wenn", "als", "seitdem"],
     answer: 0,
+    translation: "I want you to organize a meeting.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -1962,6 +2044,7 @@ export const connectorsTier2: ExerciseItem[] = [
     stimulus:
       "Ich habe es meinem Arzt zu verdanken, ____ ich noch am Leben bin.",
     answer: "dass",
+    translation: "I owe it to my doctor that I am still alive.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -1989,6 +2072,7 @@ export const connectorsTier2: ExerciseItem[] = [
       "Ich habe es meinem Arzt zu verdanken, ____ ich noch am Leben bin.",
     options: ["dass", "damit", "obwohl", "nachdem"],
     answer: 0,
+    translation: "I owe it to my doctor that I am still alive.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -2014,6 +2098,7 @@ export const connectorsTier2: ExerciseItem[] = [
     prompt: "Fill in the correct connector:",
     stimulus: "Dann ist es kein Wunder, ____ sie deine Ex ist.",
     answer: "dass",
+    translation: "No wonder she is your ex-girlfriend then.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -2040,6 +2125,7 @@ export const connectorsTier2: ExerciseItem[] = [
     stimulus: "Dann ist es kein Wunder, ____ sie deine Ex ist.",
     options: ["damit", "bevor", "dass", "als"],
     answer: 2,
+    translation: "No wonder she is your ex-girlfriend then.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -2066,6 +2152,7 @@ export const connectorsTier2: ExerciseItem[] = [
     stimulus:
       "Anderenfalls kann es vorkommen, ____ Objekte nicht einheitlich dargestellt werden.",
     answer: "dass",
+    translation: "Otherwise, inconsistent display of objects might occur.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -2093,6 +2180,7 @@ export const connectorsTier2: ExerciseItem[] = [
       "Anderenfalls kann es vorkommen, ____ Objekte nicht einheitlich dargestellt werden.",
     options: ["bevor", "dass", "obwohl", "weil"],
     answer: 1,
+    translation: "Otherwise, inconsistent display of objects might occur.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -2118,6 +2206,7 @@ export const connectorsTier2: ExerciseItem[] = [
     prompt: "Fill in the correct connector:",
     stimulus: "Ich arbeitete ____ Buchhalter im Familienunternehmen.",
     answer: "als",
+    translation: "I work as an accountant in a family business.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -2144,6 +2233,7 @@ export const connectorsTier2: ExerciseItem[] = [
     stimulus: "Ich arbeitete ____ Buchhalter im Familienunternehmen.",
     options: ["wenn", "nachdem", "als", "seitdem"],
     answer: 2,
+    translation: "I work as an accountant in a family business.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -2169,6 +2259,7 @@ export const connectorsTier2: ExerciseItem[] = [
     prompt: "Fill in the correct connector:",
     stimulus: "Sie muss sich ____ Wertegemeinschaft erweisen.",
     answer: "als",
+    translation: "It must prove itself to be a community of values.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -2195,6 +2286,7 @@ export const connectorsTier2: ExerciseItem[] = [
     stimulus: "Sie muss sich ____ Wertegemeinschaft erweisen.",
     options: ["als", "seitdem", "wenn", "während"],
     answer: 0,
+    translation: "It must prove itself to be a community of values.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -2220,6 +2312,7 @@ export const connectorsTier2: ExerciseItem[] = [
     prompt: "Fill in the correct connector:",
     stimulus: "Sag mir, ____ du ein Feuerzeug hast.",
     answer: "dass",
+    translation: "Tell me you have got a lighter",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -2246,6 +2339,7 @@ export const connectorsTier2: ExerciseItem[] = [
     stimulus: "Sag mir, ____ du ein Feuerzeug hast.",
     options: ["obwohl", "falls", "dass", "wenn"],
     answer: 2,
+    translation: "Tell me you have got a lighter",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -2271,6 +2365,7 @@ export const connectorsTier2: ExerciseItem[] = [
     prompt: "Fill in the correct connector:",
     stimulus: "Ich habe einen Kellner eingestellt, ____ du gehen kannst.",
     answer: "damit",
+    translation: "I have hired a waiter, so you can go.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -2297,6 +2392,7 @@ export const connectorsTier2: ExerciseItem[] = [
     stimulus: "Ich habe einen Kellner eingestellt, ____ du gehen kannst.",
     options: ["seitdem", "obwohl", "weil", "damit"],
     answer: 3,
+    translation: "I have hired a waiter, so you can go.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -2322,6 +2418,7 @@ export const connectorsTier2: ExerciseItem[] = [
     prompt: "Fill in the correct connector:",
     stimulus: "Ich hasse Staub mehr ____ alles andere.",
     answer: "als",
+    translation: "I hate dust more than anything.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -2348,6 +2445,7 @@ export const connectorsTier2: ExerciseItem[] = [
     stimulus: "Ich hasse Staub mehr ____ alles andere.",
     options: ["als", "weil", "nachdem", "falls"],
     answer: 0,
+    translation: "I hate dust more than anything.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -2373,6 +2471,7 @@ export const connectorsTier2: ExerciseItem[] = [
     prompt: "Fill in the correct connector:",
     stimulus: "Diese Rechtsgrundlage erscheint somit ____ geeignet.",
     answer: "als",
+    translation: "This legal basis thus seems to be the appropriate one.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -2399,6 +2498,7 @@ export const connectorsTier2: ExerciseItem[] = [
     stimulus: "Diese Rechtsgrundlage erscheint somit ____ geeignet.",
     options: ["bevor", "wenn", "falls", "als"],
     answer: 3,
+    translation: "This legal basis thus seems to be the appropriate one.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -2424,6 +2524,7 @@ export const connectorsTier2: ExerciseItem[] = [
     prompt: "Fill in the correct connector:",
     stimulus: "Einige Leute könnten das ____ Verhaltensmuster bezeichnen.",
     answer: "als",
+    translation: "Some people might call this a behavioral pattern.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -2450,6 +2551,7 @@ export const connectorsTier2: ExerciseItem[] = [
     stimulus: "Einige Leute könnten das ____ Verhaltensmuster bezeichnen.",
     options: ["als", "falls", "damit", "weil"],
     answer: 0,
+    translation: "Some people might call this a behavioral pattern.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -2475,6 +2577,7 @@ export const connectorsTier2: ExerciseItem[] = [
     prompt: "Fill in the correct connector:",
     stimulus: "Ich glaube, ____ wir uns eventuell nicht ganz verstanden haben.",
     answer: "dass",
+    translation: "I think we have possibly not understood one another.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -2501,6 +2604,7 @@ export const connectorsTier2: ExerciseItem[] = [
     stimulus: "Ich glaube, ____ wir uns eventuell nicht ganz verstanden haben.",
     options: ["seitdem", "sobald", "dass", "falls"],
     answer: 2,
+    translation: "I think we have possibly not understood one another.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -2526,6 +2630,7 @@ export const connectorsTier2: ExerciseItem[] = [
     prompt: "Fill in the correct connector:",
     stimulus: "Ich hatte ____ Kind eine Katze.",
     answer: "als",
+    translation: "I had a cat once when I was a child.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -2552,6 +2657,7 @@ export const connectorsTier2: ExerciseItem[] = [
     stimulus: "Ich hatte ____ Kind eine Katze.",
     options: ["falls", "als", "damit", "während"],
     answer: 1,
+    translation: "I had a cat once when I was a child.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -2578,6 +2684,7 @@ export const connectorsTier2: ExerciseItem[] = [
     stimulus:
       "Selbst ____ sie dich umbringen, wird dein Name ewig weiterleben.",
     answer: "wenn",
+    translation: "Even if they kill you, your name will live on forever.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -2605,6 +2712,7 @@ export const connectorsTier2: ExerciseItem[] = [
       "Selbst ____ sie dich umbringen, wird dein Name ewig weiterleben.",
     options: ["nachdem", "wenn", "während", "sobald"],
     answer: 1,
+    translation: "Even if they kill you, your name will live on forever.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -2631,6 +2739,7 @@ export const connectorsTier2: ExerciseItem[] = [
     stimulus:
       "Du solltest jetzt einfach auflegen, ____ ich eine Pizza bestellen kann.",
     answer: "damit",
+    translation: "You should just hang up now so I can order a pizza.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -2658,6 +2767,7 @@ export const connectorsTier2: ExerciseItem[] = [
       "Du solltest jetzt einfach auflegen, ____ ich eine Pizza bestellen kann.",
     options: ["falls", "obwohl", "dass", "damit"],
     answer: 3,
+    translation: "You should just hang up now so I can order a pizza.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -2683,6 +2793,7 @@ export const connectorsTier2: ExerciseItem[] = [
     prompt: "Fill in the correct connector:",
     stimulus: "Ich kann mich gelegentlich ____ identifizieren.",
     answer: "damit",
+    translation: "I can occasionally identify with that.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -2709,6 +2820,7 @@ export const connectorsTier2: ExerciseItem[] = [
     stimulus: "Ich kann mich gelegentlich ____ identifizieren.",
     options: ["nachdem", "weil", "damit", "sobald"],
     answer: 2,
+    translation: "I can occasionally identify with that.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -2734,6 +2846,7 @@ export const connectorsTier2: ExerciseItem[] = [
     prompt: "Fill in the correct connector:",
     stimulus: "Sag ihr, ____ ich später zurückrufe.",
     answer: "dass",
+    translation: "Tell her I'll call back later.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -2760,6 +2873,7 @@ export const connectorsTier2: ExerciseItem[] = [
     stimulus: "Sag ihr, ____ ich später zurückrufe.",
     options: ["obwohl", "dass", "seitdem", "während"],
     answer: 1,
+    translation: "Tell her I'll call back later.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -2785,6 +2899,7 @@ export const connectorsTier2: ExerciseItem[] = [
     prompt: "Fill in the correct connector:",
     stimulus: "Er erwartet, ____ das ganze Koks hier ist.",
     answer: "dass",
+    translation: "He is expecting all that coke to be here.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -2811,6 +2926,7 @@ export const connectorsTier2: ExerciseItem[] = [
     stimulus: "Er erwartet, ____ das ganze Koks hier ist.",
     options: ["bevor", "falls", "nachdem", "dass"],
     answer: 3,
+    translation: "He is expecting all that coke to be here.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -2837,6 +2953,7 @@ export const connectorsTier2: ExerciseItem[] = [
     stimulus:
       "Deine Großmutter hat immer gesagt, ____ du ein schlechter Same bist.",
     answer: "dass",
+    translation: "Your grandmother always said you were a bad seed.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -2864,6 +2981,7 @@ export const connectorsTier2: ExerciseItem[] = [
       "Deine Großmutter hat immer gesagt, ____ du ein schlechter Same bist.",
     options: ["weil", "dass", "obwohl", "falls"],
     answer: 1,
+    translation: "Your grandmother always said you were a bad seed.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -2890,6 +3008,8 @@ export const connectorsTier2: ExerciseItem[] = [
     stimulus:
       "Erstens sind große Unternehmen heutzutage multinational, ____ Regierungen weiter national sind.",
     answer: "während",
+    translation:
+      "First, big companies are now multinational, while governments remain national.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -2917,6 +3037,8 @@ export const connectorsTier2: ExerciseItem[] = [
       "Erstens sind große Unternehmen heutzutage multinational, ____ Regierungen weiter national sind.",
     options: ["während", "bevor", "als", "wenn"],
     answer: 0,
+    translation:
+      "First, big companies are now multinational, while governments remain national.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -2943,6 +3065,7 @@ export const connectorsTier2: ExerciseItem[] = [
     stimulus:
       "Wir sind der Meinung, ____ seine Suspendierung vollkommen ungerecht war.",
     answer: "dass",
+    translation: "We all feel that his suspension was completely unjust.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -2970,6 +3093,7 @@ export const connectorsTier2: ExerciseItem[] = [
       "Wir sind der Meinung, ____ seine Suspendierung vollkommen ungerecht war.",
     options: ["dass", "bevor", "damit", "nachdem"],
     answer: 0,
+    translation: "We all feel that his suspension was completely unjust.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -2995,6 +3119,7 @@ export const connectorsTier2: ExerciseItem[] = [
     prompt: "Fill in the correct connector:",
     stimulus: "Das Stillen ist einfacher, ____ das Baby neben dir schläft.",
     answer: "wenn",
+    translation: "It's easier to breastfeed if you sleep together.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -3021,6 +3146,7 @@ export const connectorsTier2: ExerciseItem[] = [
     stimulus: "Das Stillen ist einfacher, ____ das Baby neben dir schläft.",
     options: ["als", "dass", "wenn", "weil"],
     answer: 2,
+    translation: "It's easier to breastfeed if you sleep together.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -3046,6 +3172,7 @@ export const connectorsTier2: ExerciseItem[] = [
     prompt: "Fill in the correct connector:",
     stimulus: "Leute verkleiden sich ____ ihre Lieblingsfilmfigur.",
     answer: "als",
+    translation: "People dress up as their favorite movie character.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -3072,6 +3199,7 @@ export const connectorsTier2: ExerciseItem[] = [
     stimulus: "Leute verkleiden sich ____ ihre Lieblingsfilmfigur.",
     options: ["als", "nachdem", "während", "seitdem"],
     answer: 0,
+    translation: "People dress up as their favorite movie character.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -3098,6 +3226,8 @@ export const connectorsTier2: ExerciseItem[] = [
     stimulus:
       "Der architektonische Stil der Kirche ist sowohl elegant ____ auch streng.",
     answer: "als",
+    translation:
+      "The church has an architectural style which is both elegant and, at the same time, severe.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -3125,6 +3255,8 @@ export const connectorsTier2: ExerciseItem[] = [
       "Der architektonische Stil der Kirche ist sowohl elegant ____ auch streng.",
     options: ["obwohl", "nachdem", "als", "während"],
     answer: 2,
+    translation:
+      "The church has an architectural style which is both elegant and, at the same time, severe.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -3150,6 +3282,7 @@ export const connectorsTier2: ExerciseItem[] = [
     prompt: "Fill in the correct connector:",
     stimulus: "Pass auf, ____ du Sporen nicht einatmest; sie sind tödlich.",
     answer: "dass",
+    translation: "Be careful not to inhale the spores; they're deadly.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -3176,6 +3309,7 @@ export const connectorsTier2: ExerciseItem[] = [
     stimulus: "Pass auf, ____ du Sporen nicht einatmest; sie sind tödlich.",
     options: ["dass", "sobald", "damit", "seitdem"],
     answer: 0,
+    translation: "Be careful not to inhale the spores; they're deadly.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -3201,6 +3335,7 @@ export const connectorsTier2: ExerciseItem[] = [
     prompt: "Fill in the correct connector:",
     stimulus: "Nicht ____ eines Gewitters anschließen oder verwenden.",
     answer: "während",
+    translation: "Do not connect or use during a lightning storm.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -3227,6 +3362,7 @@ export const connectorsTier2: ExerciseItem[] = [
     stimulus: "Nicht ____ eines Gewitters anschließen oder verwenden.",
     options: ["dass", "seitdem", "während", "bevor"],
     answer: 2,
+    translation: "Do not connect or use during a lightning storm.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -3253,6 +3389,8 @@ export const connectorsTier2: ExerciseItem[] = [
     stimulus:
       "Sie können den Wochentag ausschreiben oder ____ Abkürzung eingeben.",
     answer: "als",
+    translation:
+      "You can enter a weekday using the full name or an abbreviation.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -3280,6 +3418,8 @@ export const connectorsTier2: ExerciseItem[] = [
       "Sie können den Wochentag ausschreiben oder ____ Abkürzung eingeben.",
     options: ["obwohl", "weil", "als", "sobald"],
     answer: 2,
+    translation:
+      "You can enter a weekday using the full name or an abbreviation.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -3305,6 +3445,7 @@ export const connectorsTier2: ExerciseItem[] = [
     prompt: "Fill in the correct connector:",
     stimulus: "Ich glaube, du hast mehr zu beichten ____ jeder andere hier.",
     answer: "als",
+    translation: "I imagine you have more to confess than anybody here.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -3331,6 +3472,7 @@ export const connectorsTier2: ExerciseItem[] = [
     stimulus: "Ich glaube, du hast mehr zu beichten ____ jeder andere hier.",
     options: ["als", "obwohl", "dass", "während"],
     answer: 0,
+    translation: "I imagine you have more to confess than anybody here.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -3356,6 +3498,7 @@ export const connectorsTier2: ExerciseItem[] = [
     prompt: "Fill in the correct connector:",
     stimulus: "Ich weiß, ____ du keine Nutte bist.",
     answer: "dass",
+    translation: "I know you're no whore.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -3382,6 +3525,7 @@ export const connectorsTier2: ExerciseItem[] = [
     stimulus: "Ich weiß, ____ du keine Nutte bist.",
     options: ["falls", "bevor", "dass", "während"],
     answer: 2,
+    translation: "I know you're no whore.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -3407,6 +3551,7 @@ export const connectorsTier2: ExerciseItem[] = [
     prompt: "Fill in the correct connector:",
     stimulus: "Ich befürchte, ____ ich mich dort langweile.",
     answer: "dass",
+    translation: "I'm afraid I'll get bored there.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -3433,6 +3578,7 @@ export const connectorsTier2: ExerciseItem[] = [
     stimulus: "Ich befürchte, ____ ich mich dort langweile.",
     options: ["während", "falls", "dass", "nachdem"],
     answer: 2,
+    translation: "I'm afraid I'll get bored there.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -3459,6 +3605,7 @@ export const connectorsTier2: ExerciseItem[] = [
     stimulus:
       "Ich hoffe, er ist auch mal so aufgelöst, ____ er mit mir Schluss macht.",
     answer: "wenn",
+    translation: "I hope he's this upset if he ever breaks up with me.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -3486,6 +3633,7 @@ export const connectorsTier2: ExerciseItem[] = [
       "Ich hoffe, er ist auch mal so aufgelöst, ____ er mit mir Schluss macht.",
     options: ["damit", "weil", "dass", "wenn"],
     answer: 3,
+    translation: "I hope he's this upset if he ever breaks up with me.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -3511,6 +3659,7 @@ export const connectorsTier2: ExerciseItem[] = [
     prompt: "Fill in the correct connector:",
     stimulus: "Wenigstens hoffe ich, ____ er ein Schwindler ist.",
     answer: "dass",
+    translation: "At least I hope he's a fraud.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -3537,6 +3686,7 @@ export const connectorsTier2: ExerciseItem[] = [
     stimulus: "Wenigstens hoffe ich, ____ er ein Schwindler ist.",
     options: ["bevor", "sobald", "dass", "seitdem"],
     answer: 2,
+    translation: "At least I hope he's a fraud.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -3562,6 +3712,7 @@ export const connectorsTier2: ExerciseItem[] = [
     prompt: "Fill in the correct connector:",
     stimulus: "Lies sorgfältig die Anweisungen, ____ du anfängst.",
     answer: "bevor",
+    translation: "Read the instructions carefully before you begin.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -3588,6 +3739,7 @@ export const connectorsTier2: ExerciseItem[] = [
     stimulus: "Lies sorgfältig die Anweisungen, ____ du anfängst.",
     options: ["sobald", "als", "seitdem", "bevor"],
     answer: 3,
+    translation: "Read the instructions carefully before you begin.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -3614,6 +3766,8 @@ export const connectorsTier2: ExerciseItem[] = [
     stimulus:
       "Mehr ____ dreißig Jahre lebte ich mit Gefühl, ich sei ein Ausgestoßener.",
     answer: "als",
+    translation:
+      "For more than thirty years I had a feeling that I was a social outcast.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -3641,6 +3795,8 @@ export const connectorsTier2: ExerciseItem[] = [
       "Mehr ____ dreißig Jahre lebte ich mit Gefühl, ich sei ein Ausgestoßener.",
     options: ["sobald", "als", "während", "seitdem"],
     answer: 1,
+    translation:
+      "For more than thirty years I had a feeling that I was a social outcast.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -3666,6 +3822,7 @@ export const connectorsTier2: ExerciseItem[] = [
     prompt: "Fill in the correct connector:",
     stimulus: "Verzeih, ____ ich etwas misstrauisch bin.",
     answer: "wenn",
+    translation: "Forgive me if I'm still a bit wary.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -3692,6 +3849,7 @@ export const connectorsTier2: ExerciseItem[] = [
     stimulus: "Verzeih, ____ ich etwas misstrauisch bin.",
     options: ["wenn", "weil", "als", "seitdem"],
     answer: 0,
+    translation: "Forgive me if I'm still a bit wary.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -3717,6 +3875,7 @@ export const connectorsTier2: ExerciseItem[] = [
     prompt: "Fill in the correct connector:",
     stimulus: "Die Fußabdrücke besagen, ____ ein Mensch verantwortlich ist.",
     answer: "dass",
+    translation: "The footprints indicate a human is responsible.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -3743,6 +3902,7 @@ export const connectorsTier2: ExerciseItem[] = [
     stimulus: "Die Fußabdrücke besagen, ____ ein Mensch verantwortlich ist.",
     options: ["seitdem", "damit", "weil", "dass"],
     answer: 3,
+    translation: "The footprints indicate a human is responsible.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -3768,6 +3928,7 @@ export const connectorsTier2: ExerciseItem[] = [
     prompt: "Fill in the correct connector:",
     stimulus: "Lass uns ____ Karten spielen.",
     answer: "stattdessen",
+    translation: "Let's play cards instead.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -3794,6 +3955,7 @@ export const connectorsTier2: ExerciseItem[] = [
     stimulus: "Lass uns ____ Karten spielen.",
     options: ["jedoch", "deshalb", "außerdem", "stattdessen"],
     answer: 3,
+    translation: "Let's play cards instead.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -3819,6 +3981,7 @@ export const connectorsTier2: ExerciseItem[] = [
     prompt: "Fill in the correct connector:",
     stimulus: "Weil ich verzweifelt bin, ____.",
     answer: "deshalb",
+    translation: "Because I'm desperate, that's why.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -3845,6 +4008,7 @@ export const connectorsTier2: ExerciseItem[] = [
     stimulus: "Weil ich verzweifelt bin, ____.",
     options: ["daher", "denn", "stattdessen", "deshalb"],
     answer: 3,
+    translation: "Because I'm desperate, that's why.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -3870,6 +4034,8 @@ export const connectorsTier2: ExerciseItem[] = [
     prompt: "Fill in the correct connector:",
     stimulus: "Ich werde ____ den Standpunkt der Kommission getreu vertreten.",
     answer: "jedoch",
+    translation:
+      "I shall, however, faithfully represent the view of the Commission.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -3896,6 +4062,8 @@ export const connectorsTier2: ExerciseItem[] = [
     stimulus: "Ich werde ____ den Standpunkt der Kommission getreu vertreten.",
     options: ["denn", "daher", "sondern", "jedoch"],
     answer: 3,
+    translation:
+      "I shall, however, faithfully represent the view of the Commission.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -3921,6 +4089,7 @@ export const connectorsTier2: ExerciseItem[] = [
     prompt: "Fill in the correct connector:",
     stimulus: "Das Schaf Dolly ändert ____ alles.",
     answer: "jedoch",
+    translation: "Dolly the sheep, however, changes everything.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -3947,6 +4116,7 @@ export const connectorsTier2: ExerciseItem[] = [
     stimulus: "Das Schaf Dolly ändert ____ alles.",
     options: ["sondern", "hingegen", "denn", "jedoch"],
     answer: 3,
+    translation: "Dolly the sheep, however, changes everything.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -3973,6 +4143,8 @@ export const connectorsTier2: ExerciseItem[] = [
     stimulus:
       "Ich fühle mich nicht mehr sehr britisch, ____ immer schottischer.",
     answer: "sondern",
+    translation:
+      "I don't feel very British any more, rather more and more Scottish.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -4000,6 +4172,8 @@ export const connectorsTier2: ExerciseItem[] = [
       "Ich fühle mich nicht mehr sehr britisch, ____ immer schottischer.",
     options: ["deshalb", "außerdem", "dennoch", "sondern"],
     answer: 3,
+    translation:
+      "I don't feel very British any more, rather more and more Scottish.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -4025,6 +4199,7 @@ export const connectorsTier2: ExerciseItem[] = [
     prompt: "Fill in the correct connector:",
     stimulus: "Ihrer Meinung nach könnten ____ noch Konflikte entstehen.",
     answer: "trotzdem",
+    translation: "You say that, in this case, conflicts could still arise.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -4051,6 +4226,7 @@ export const connectorsTier2: ExerciseItem[] = [
     stimulus: "Ihrer Meinung nach könnten ____ noch Konflikte entstehen.",
     options: ["stattdessen", "hingegen", "daher", "trotzdem"],
     answer: 3,
+    translation: "You say that, in this case, conflicts could still arise.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -4077,6 +4253,8 @@ export const connectorsTier2: ExerciseItem[] = [
     stimulus:
       "Und kein Golf donnerstags, ____ du musst Jane ins Ballett bringen.",
     answer: "denn",
+    translation:
+      "And no golf on Thursdays, because you'll have to take Jane to the ballet class.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -4104,6 +4282,8 @@ export const connectorsTier2: ExerciseItem[] = [
       "Und kein Golf donnerstags, ____ du musst Jane ins Ballett bringen.",
     options: ["deshalb", "daher", "trotzdem", "denn"],
     answer: 3,
+    translation:
+      "And no golf on Thursdays, because you'll have to take Jane to the ballet class.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -4129,6 +4309,7 @@ export const connectorsTier2: ExerciseItem[] = [
     prompt: "Fill in the correct connector:",
     stimulus: "Das ist nicht lila, ____ Lavendel.",
     answer: "sondern",
+    translation: "It's not purple. It's lavender.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -4155,6 +4336,7 @@ export const connectorsTier2: ExerciseItem[] = [
     stimulus: "Das ist nicht lila, ____ Lavendel.",
     options: ["sondern", "stattdessen", "außerdem", "daher"],
     answer: 0,
+    translation: "It's not purple. It's lavender.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -4180,6 +4362,7 @@ export const connectorsTier2: ExerciseItem[] = [
     prompt: "Fill in the correct connector:",
     stimulus: "Die infizierten Datendateien verbreiten den Virus ____ nicht.",
     answer: "jedoch",
+    translation: "However, the infected data files do not spread the virus.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -4206,6 +4389,7 @@ export const connectorsTier2: ExerciseItem[] = [
     stimulus: "Die infizierten Datendateien verbreiten den Virus ____ nicht.",
     options: ["sondern", "trotzdem", "jedoch", "dennoch"],
     answer: 2,
+    translation: "However, the infected data files do not spread the virus.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -4231,6 +4415,8 @@ export const connectorsTier2: ExerciseItem[] = [
     prompt: "Fill in the correct connector:",
     stimulus: "Der Zusatzstoff sollte ____ unbefristet zugelassen werden.",
     answer: "daher",
+    translation:
+      "This additive should, therefore, be authorized for an unlimited period.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -4257,6 +4443,8 @@ export const connectorsTier2: ExerciseItem[] = [
     stimulus: "Der Zusatzstoff sollte ____ unbefristet zugelassen werden.",
     options: ["trotzdem", "daher", "denn", "hingegen"],
     answer: 1,
+    translation:
+      "This additive should, therefore, be authorized for an unlimited period.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -4283,6 +4471,7 @@ export const connectorsTier2: ExerciseItem[] = [
     stimulus:
       "Andere Aktionen können ____ einen kontinuierlichen Wert erzeugen.",
     answer: "jedoch",
+    translation: "Other events, however, might generate a continuous value.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -4310,6 +4499,7 @@ export const connectorsTier2: ExerciseItem[] = [
       "Andere Aktionen können ____ einen kontinuierlichen Wert erzeugen.",
     options: ["deshalb", "außerdem", "jedoch", "trotzdem"],
     answer: 2,
+    translation: "Other events, however, might generate a continuous value.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -4335,6 +4525,7 @@ export const connectorsTier2: ExerciseItem[] = [
     prompt: "Fill in the correct connector:",
     stimulus: "Vielleicht war er ____ so aufgebracht.",
     answer: "deshalb",
+    translation: "Maybe that's why he was so upset.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -4361,6 +4552,7 @@ export const connectorsTier2: ExerciseItem[] = [
     stimulus: "Vielleicht war er ____ so aufgebracht.",
     options: ["hingegen", "denn", "deshalb", "stattdessen"],
     answer: 2,
+    translation: "Maybe that's why he was so upset.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -4387,6 +4579,8 @@ export const connectorsTier2: ExerciseItem[] = [
     stimulus:
       "Einige Wirkungen sind ____ universal oder zumindest sehr verbreitet.",
     answer: "jedoch",
+    translation:
+      "Some of the effects, however, are universal, or at least widespread.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -4414,6 +4608,8 @@ export const connectorsTier2: ExerciseItem[] = [
       "Einige Wirkungen sind ____ universal oder zumindest sehr verbreitet.",
     options: ["sondern", "deshalb", "dennoch", "jedoch"],
     answer: 3,
+    translation:
+      "Some of the effects, however, are universal, or at least widespread.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -4439,6 +4635,8 @@ export const connectorsTier2: ExerciseItem[] = [
     prompt: "Fill in the correct connector:",
     stimulus: "Genau ____ warten wir nicht auf einen Durchsuchungsbefehl.",
     answer: "deshalb",
+    translation:
+      "Which is exactly why we are not waiting around for a warrant.",
     metadata: {
       cefr: "B1",
       system: "flow",
@@ -4465,6 +4663,8 @@ export const connectorsTier2: ExerciseItem[] = [
     stimulus: "Genau ____ warten wir nicht auf einen Durchsuchungsbefehl.",
     options: ["deshalb", "denn", "hingegen", "dennoch"],
     answer: 0,
+    translation:
+      "Which is exactly why we are not waiting around for a warrant.",
     metadata: {
       cefr: "B1",
       system: "flow",

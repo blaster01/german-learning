@@ -79,6 +79,8 @@ type PartialExercise = {
   tokens?: string[];
   solution?: string[];
   solutionAlternates?: string[][];
+  translation?: string;
+  translationVisibility?: "always" | "onDemand";
   feedback?: {
     correct?: string;
     common?: Record<string, string>;
@@ -736,6 +738,7 @@ function genGenderBundle(
       prompt: `Choose the correct article for: "${n.lemma}"`,
       options: mcOpts,
       answer: mcAns,
+      translation: n.gloss,
       metadata: meta("nominal", "gender-bundle", tier, ["grammar:gender"], gid),
     });
 
@@ -746,6 +749,7 @@ function genGenderBundle(
       stimulus: `___ ${n.lemma}`,
       answer: correct,
       acceptableAnswers: [correct.charAt(0).toUpperCase() + correct.slice(1)],
+      translation: n.gloss,
       metadata: meta(
         "nominal",
         "gender-bundle",
@@ -764,6 +768,7 @@ function genGenderBundle(
           prompt: "Fill in the missing noun:",
           stimulus: blanked,
           answer: n.lemma,
+          translation: n.enSentence || n.gloss,
           metadata: meta(
             "nominal",
             "gender-bundle",
@@ -863,6 +868,10 @@ function genSentenceCloze(
     if (!CONTENT_POS.has(s.targetPos)) continue;
     if (!containsWholeWord(s.de, s.targetLemma)) continue;
     if (wordCount(s.de) > 18) continue;
+    // Without the English sentence, the German alone can leave more than one
+    // word grammatically valid in the blank — the translation is what makes
+    // the item unambiguous, so skip anything the CSV didn't translate.
+    if (!s.en || !s.en.trim()) continue;
 
     const blanked = replaceWholeWordFirst(s.de, s.targetLemma, "____");
     if (blanked === s.de) continue;
@@ -875,6 +884,8 @@ function genSentenceCloze(
       prompt: "Fill in the missing word:",
       stimulus: blanked,
       answer: s.targetLemma,
+      translation: s.en,
+      translationVisibility: "always",
       metadata: meta(
         "vocab",
         "sentence-cloze",
@@ -961,6 +972,9 @@ function genSentenceBuilder(
   for (const s of sentences) {
     const toks = tokenize(s.de);
     if (toks.length < 4 || toks.length > 14) continue;
+    // The English sentence is the entire point of this exercise (the learner
+    // reconstructs German from it), so an item with no translation is unusable.
+    if (!s.en || !s.en.trim()) continue;
 
     const seed = `sb-${s.rank}-${s.de.length}`;
     let shuffled = shuffleWithSeed(toks, seed);
@@ -978,11 +992,12 @@ function genSentenceBuilder(
     out.push({
       engine: "builder",
       prompt: "Put the words in the correct order:",
-      stimulus: s.en,
       tokens: shuffled,
       solution: toks,
       ...(alt ? { solutionAlternates: [alt] } : {}),
       // No `answer` field — builder engine validates against `solution`
+      translation: s.en,
+      translationVisibility: "always",
       metadata: meta(
         "syntax",
         "sentence-builder",
@@ -1022,6 +1037,7 @@ function genConnectors(mined: MinedData, idx: Indices): PartialExercise[] {
       prompt: "Fill in the correct connector:",
       stimulus: blanked,
       answer: connector,
+      translation: s.en,
       metadata: meta(
         "flow",
         "connectors",
@@ -1047,6 +1063,7 @@ function genConnectors(mined: MinedData, idx: Indices): PartialExercise[] {
       stimulus: blanked,
       options,
       answer,
+      translation: s.en,
       metadata: meta(
         "flow",
         "connectors",
@@ -1075,6 +1092,7 @@ function genConnectors(mined: MinedData, idx: Indices): PartialExercise[] {
       prompt: "Fill in the correct connector:",
       stimulus: blanked,
       answer: connector,
+      translation: s.en,
       metadata: meta("flow", "connectors", tier, ["connector:main"], gid),
     });
 
@@ -1094,6 +1112,7 @@ function genConnectors(mined: MinedData, idx: Indices): PartialExercise[] {
         stimulus: blanked,
         options,
         answer,
+        translation: s.en,
         metadata: meta(
           "flow",
           "connectors",
@@ -1119,6 +1138,10 @@ function genPronouns(mined: MinedData, idx: Indices): PartialExercise[] {
     const prn = sentenceContainsAny(s.de, SAFE_PRONOUNS);
     if (!prn) continue;
     if (wordCount(s.de) > 15) continue;
+    // Several pronoun forms (mich/dich/uns/ihn...) are all grammatically
+    // valid in most slots — only the English sentence picks out the one
+    // right answer, so an item without a translation is unanswerable.
+    if (!s.en || !s.en.trim()) continue;
 
     // Skip if the pronoun appears more than once (ambiguous which to blank)
     const re = new RegExp(
@@ -1139,6 +1162,8 @@ function genPronouns(mined: MinedData, idx: Indices): PartialExercise[] {
       prompt: "Fill in the correct pronoun:",
       stimulus: blanked,
       answer: prn,
+      translation: s.en,
+      translationVisibility: "always",
       metadata: meta(
         "nominal",
         "pronouns",
@@ -1200,6 +1225,7 @@ function genReflexives(mined: MinedData, idx: Indices): PartialExercise[] {
       stimulus: blanked,
       options,
       answer,
+      translation: s.en,
       metadata: meta(
         "verb",
         "reflexives",
@@ -1239,6 +1265,7 @@ function genNegationLab(mined: MinedData, idx: Indices): PartialExercise[] {
       prompt: "Fill in the correct negation:",
       stimulus: blanked,
       answer: neg,
+      translation: s.en,
       metadata: meta(
         "syntax",
         "negation-lab",
@@ -1278,6 +1305,7 @@ function genNegationLab(mined: MinedData, idx: Indices): PartialExercise[] {
             prompt: "Fix the negation in this sentence:",
             stimulus: corrupted,
             answer: s.de,
+            translation: s.en,
             metadata: meta(
               "syntax",
               "negation-lab",
@@ -1396,6 +1424,7 @@ function genErrorClinic(
         prompt: "Correct the error in this sentence:",
         stimulus: corrupted,
         answer: s.de,
+        translation: s.en,
         metadata: meta(
           "performance",
           "error-clinic",

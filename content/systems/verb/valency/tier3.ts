@@ -20,6 +20,7 @@ export const valencyTier3: ExerciseItem[] = [
     stimulus: "Ich erinnere mich gut an ____ Kindheit.",
     options: ["meine", "meiner", "meinen", "meines"],
     answer: 0,
+    translation: "I remember my childhood well.",
     feedback: FEEDBACK,
     metadata: {
       cefr: "B2",
@@ -36,6 +37,7 @@ export const valencyTier3: ExerciseItem[] = [
     stimulus: "Er schämte sich sein____ Verhaltens.",
     options: ["es", "em", "en", "e"],
     answer: 0,
+    translation: "He was ashamed of his behavior.",
     feedback: FEEDBACK,
     metadata: {
       cefr: "C1",
@@ -52,6 +54,7 @@ export const valencyTier3: ExerciseItem[] = [
     stimulus: "Dieser Plan bedarf noch ein____ genauen Prüfung.",
     options: ["er", "e", "es", "em"],
     answer: 0,
+    translation: "This plan still needs a thorough review.",
     feedback: FEEDBACK,
     metadata: {
       cefr: "C1",
@@ -67,6 +70,7 @@ export const valencyTier3: ExerciseItem[] = [
     prompt: "Rewrite as a single sentence, keeping the verb's fixed case:",
     stimulus: "Man muss auf die Kollegin warten. Sie kommt gleich.",
     answer: "Man muss auf die Kollegin warten, die gleich kommt.",
+    translation: "You have to wait for the colleague. She's coming soon.",
     feedback: FEEDBACK,
     metadata: {
       cefr: "C1",
@@ -82,6 +86,7 @@ export const valencyTier3: ExerciseItem[] = [
     prompt: "Fill in the correct case ending (sich erinnern an + accusative):",
     stimulus: "Erinnerst du dich noch an d____ Sommer 2010?",
     answer: "en",
+    translation: "Do you still remember the summer of 2010?",
     feedback: FEEDBACK,
     metadata: {
       cefr: "B2",
@@ -97,6 +102,7 @@ export const valencyTier3: ExerciseItem[] = [
     prompt: "Fill in the correct dative pronoun (misstrauen + dative):",
     stimulus: "Sie misstraut ____ von Anfang an.",
     answer: "ihm",
+    translation: "She has distrusted him from the beginning.",
     feedback: FEEDBACK,
     metadata: {
       cefr: "C1",

@@ -20,6 +20,7 @@ export const relativeClausesTier2: ExerciseItem[] = [
     stimulus: "Der Kollege, ____ ich geholfen habe, hat sich bedankt.",
     options: ["dem", "den", "der", "die"],
     answer: 0,
+    translation: "The colleague I helped said thank you.",
     feedback: FEEDBACK,
     metadata: {
       cefr: "B2",
@@ -36,6 +37,7 @@ export const relativeClausesTier2: ExerciseItem[] = [
     stimulus: "Das ist der Freund, mit ____ ich verreist bin.",
     options: ["dem", "den", "der", "die"],
     answer: 0,
+    translation: "That's the friend I traveled with.",
     feedback: FEEDBACK,
     metadata: {
       cefr: "B2",
@@ -52,6 +54,7 @@ export const relativeClausesTier2: ExerciseItem[] = [
     stimulus: "Die Firma, für ____ ich arbeite, ist sehr bekannt.",
     options: ["die", "der", "den", "dem"],
     answer: 0,
+    translation: "The company I work for is very well known.",
     feedback: FEEDBACK,
     metadata: {
       cefr: "B2",
@@ -68,6 +71,7 @@ export const relativeClausesTier2: ExerciseItem[] = [
     stimulus: "Die Nachbarn, ____ wir oft helfen, sind sehr nett.",
     options: ["denen", "die", "der", "deren"],
     answer: 0,
+    translation: "The neighbors we often help are very nice.",
     feedback: FEEDBACK,
     metadata: {
       cefr: "B2",
@@ -84,6 +88,7 @@ export const relativeClausesTier2: ExerciseItem[] = [
     stimulus: "Die Kollegen, mit ____ ich zusammenarbeite, sind kompetent.",
     options: ["denen", "die", "der", "das"],
     answer: 0,
+    translation: "The colleagues I work with are competent.",
     feedback: FEEDBACK,
     metadata: {
       cefr: "B2",
@@ -99,6 +104,7 @@ export const relativeClausesTier2: ExerciseItem[] = [
     prompt: "Fill in the correct relative pronoun (with preposition):",
     stimulus: "Das Thema, über ____ wir gesprochen haben, war kompliziert.",
     answer: "das",
+    translation: "The topic we talked about was complicated.",
     feedback: FEEDBACK,
     metadata: {
       cefr: "B2",
@@ -115,6 +121,7 @@ export const relativeClausesTier2: ExerciseItem[] = [
       "Build the sentence with a prepositional relative clause in the correct order:",
     tokens: ["Der", "Tisch,", "an", "dem", "wir", "sitzen,", "ist", "alt."],
     solution: ["Der", "Tisch,", "an", "dem", "wir", "sitzen,", "ist", "alt."],
+    translation: "The table we're sitting at is old.",
     feedback: FEEDBACK,
     metadata: {
       cefr: "B2",

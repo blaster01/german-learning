@@ -11,6 +11,7 @@ export function FeedbackPanel({
   result,
   correctMessage,
   correctAnswerText,
+  translation,
   xpAwarded,
   onContinue,
 }: {
@@ -18,6 +19,8 @@ export function FeedbackPanel({
   correctMessage?: string;
   /** Shown when the answer was wrong — the text of the correct answer. */
   correctAnswerText?: string;
+  /** English translation, always shown after submitting regardless of outcome. */
+  translation?: string;
   xpAwarded?: number;
   onContinue: () => void;
 }) {
@@ -92,6 +95,16 @@ export function FeedbackPanel({
                 ) : null}
               </div>
             )}
+            {result.note ? (
+              <p className="text-xs italic text-muted-foreground">
+                {result.note}
+              </p>
+            ) : null}
+            {translation ? (
+              <p className="text-sm italic text-muted-foreground">
+                {translation}
+              </p>
+            ) : null}
           </div>
         </div>
         <Button

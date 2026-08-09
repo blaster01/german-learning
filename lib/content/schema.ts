@@ -32,6 +32,16 @@ const baseItem = z.object({
   stimulus: z.string().optional(),
   feedback: feedbackSchema,
   metadata: metadataSchema,
+  /** English translation of the stimulus/prompt content, for learner support. */
+  translation: z.string().optional(),
+  /**
+   * "always" — the German alone is ambiguous (e.g. a pronoun-case cloze with
+   * more than one grammatical answer), so the translation is shown with the
+   * prompt to disambiguate. "onDemand" (default when a translation exists) —
+   * shown behind a "Show translation" toggle so it doesn't give away answers
+   * that are otherwise gettable from German alone.
+   */
+  translationVisibility: z.enum(["always", "onDemand"]).optional(),
 });
 
 export const mcItemSchema = baseItem.extend({

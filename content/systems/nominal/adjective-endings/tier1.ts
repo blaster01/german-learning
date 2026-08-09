@@ -20,6 +20,7 @@ export const adjectiveEndingsTier1: ExerciseItem[] = [
     stimulus: "Der klein____ Hund schläft.",
     options: ["e", "en", "es", "er"],
     answer: 0,
+    translation: "The small dog is sleeping.",
     feedback: FEEDBACK,
     metadata: {
       cefr: "B1",
@@ -36,6 +37,7 @@ export const adjectiveEndingsTier1: ExerciseItem[] = [
     stimulus: "Ich sehe die klein____ Katze.",
     options: ["e", "en", "es", "em"],
     answer: 0,
+    translation: "I see the small cat.",
     feedback: FEEDBACK,
     metadata: {
       cefr: "B1",
@@ -52,6 +54,7 @@ export const adjectiveEndingsTier1: ExerciseItem[] = [
     stimulus: "Das klein____ Kind spielt im Garten.",
     options: ["e", "en", "es", "er"],
     answer: 0,
+    translation: "The small child is playing in the garden.",
     feedback: FEEDBACK,
     metadata: {
       cefr: "B1",
@@ -68,6 +71,7 @@ export const adjectiveEndingsTier1: ExerciseItem[] = [
     stimulus: "Ich kaufe den rot____ Apfel.",
     options: ["en", "e", "es", "er"],
     answer: 0,
+    translation: "I'm buying the red apple.",
     feedback: FEEDBACK,
     metadata: {
       cefr: "B1",
@@ -84,6 +88,7 @@ export const adjectiveEndingsTier1: ExerciseItem[] = [
     stimulus: "Die neu____ Studenten sitzen vorne.",
     options: ["en", "e", "es", "er"],
     answer: 0,
+    translation: "The new students sit in front.",
     feedback: FEEDBACK,
     metadata: {
       cefr: "B1",
@@ -99,6 +104,7 @@ export const adjectiveEndingsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct adjective ending:",
     stimulus: "Der alt____ Mann liest die Zeitung.",
     answer: "e",
+    translation: "The old man is reading the newspaper.",
     feedback: FEEDBACK,
     metadata: {
       cefr: "B1",
@@ -114,6 +120,7 @@ export const adjectiveEndingsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct adjective ending:",
     stimulus: "Ich mag das groß____ Haus am See.",
     answer: "e",
+    translation: "I like the big house by the lake.",
     feedback: FEEDBACK,
     metadata: {
       cefr: "B1",
@@ -129,6 +136,7 @@ export const adjectiveEndingsTier1: ExerciseItem[] = [
     prompt: "Fill in the correct adjective ending:",
     stimulus: "Wir besuchen die klein____ Stadt im Süden.",
     answer: "e",
+    translation: "We're visiting the small town in the south.",
     feedback: FEEDBACK,
     metadata: {
       cefr: "B1",

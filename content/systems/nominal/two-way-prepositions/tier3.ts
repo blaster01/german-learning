@@ -19,6 +19,7 @@ export const twoWayPrepositionsTier3: ExerciseItem[] = [
     prompt: "Rewrite using the contracted preposition form:",
     stimulus: "Wir treffen uns in dem Café.",
     answer: "Wir treffen uns im Café.",
+    translation: "We're meeting at the café.",
     feedback: FEEDBACK,
     metadata: {
       cefr: "B2",
@@ -34,6 +35,7 @@ export const twoWayPrepositionsTier3: ExerciseItem[] = [
     prompt: "Rewrite using the contracted preposition form:",
     stimulus: "Er geht an das Fenster.",
     answer: "Er geht ans Fenster.",
+    translation: "He's walking over to the window.",
     feedback: FEEDBACK,
     metadata: {
       cefr: "B2",
@@ -49,6 +51,7 @@ export const twoWayPrepositionsTier3: ExerciseItem[] = [
     prompt: "Rewrite using the contracted preposition form:",
     stimulus: "Das Poster hängt an dem Schrank.",
     answer: "Das Poster hängt am Schrank.",
+    translation: "The poster is hanging on the cabinet.",
     feedback: FEEDBACK,
     metadata: {
       cefr: "B2",
@@ -64,6 +67,7 @@ export const twoWayPrepositionsTier3: ExerciseItem[] = [
     prompt: "Rewrite using the contracted preposition form:",
     stimulus: "Sie legt das Handy auf das Regal.",
     answer: "Sie legt das Handy aufs Regal.",
+    translation: "She's putting the phone on the shelf.",
     feedback: FEEDBACK,
     metadata: {
       cefr: "B2",
@@ -84,6 +88,7 @@ export const twoWayPrepositionsTier3: ExerciseItem[] = [
       "Ich bin beim Arzt das.",
     ],
     answer: 0,
+    translation: "I'm at the doctor's.",
     feedback: FEEDBACK,
     metadata: {
       cefr: "B2",
@@ -101,6 +106,7 @@ export const twoWayPrepositionsTier3: ExerciseItem[] = [
     stimulus: "Wir fahren im Sommer an d____ See.",
     options: ["en", "em", "er", "es"],
     answer: 0,
+    translation: "In the summer we go to the lake.",
     feedback: FEEDBACK,
     metadata: {
       cefr: "C1",

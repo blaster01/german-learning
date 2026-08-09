@@ -20,6 +20,7 @@ export const twoWayPrepositionsTier2: ExerciseItem[] = [
     stimulus: "Ich warte auf d____ Bus.",
     options: ["en", "em", "er", "es"],
     answer: 0,
+    translation: "I'm waiting for the bus.",
     feedback: FEEDBACK,
     metadata: {
       cefr: "B1",
@@ -36,6 +37,7 @@ export const twoWayPrepositionsTier2: ExerciseItem[] = [
     stimulus: "Ich denke oft an mein____ Familie.",
     options: ["e", "en", "er", "es"],
     answer: 0,
+    translation: "I often think about my family.",
     feedback: FEEDBACK,
     metadata: {
       cefr: "B1",
@@ -52,6 +54,7 @@ export const twoWayPrepositionsTier2: ExerciseItem[] = [
     stimulus: "Der Schlüssel liegt zwischen d____ Büchern.",
     options: ["en", "em", "er", "es"],
     answer: 0,
+    translation: "The key is lying between the books.",
     feedback: FEEDBACK,
     metadata: {
       cefr: "B1",
@@ -68,6 +71,7 @@ export const twoWayPrepositionsTier2: ExerciseItem[] = [
     stimulus: "Er stellt den Stuhl zwischen d____ Tisch und die Wand.",
     options: ["en", "em", "er", "es"],
     answer: 0,
+    translation: "He's putting the chair between the table and the wall.",
     feedback: FEEDBACK,
     metadata: {
       cefr: "B1",
@@ -84,6 +88,7 @@ export const twoWayPrepositionsTier2: ExerciseItem[] = [
     stimulus: "Ich freue mich auf d____ Wochenende.",
     options: ["as", "em", "en", "er"],
     answer: 0,
+    translation: "I'm looking forward to the weekend.",
     feedback: FEEDBACK,
     metadata: {
       cefr: "B1",
@@ -100,6 +105,7 @@ export const twoWayPrepositionsTier2: ExerciseItem[] = [
     stimulus: "Das Auto steht vor d____ Haus.",
     options: ["em", "en", "er", "es"],
     answer: 0,
+    translation: "The car is parked in front of the house.",
     feedback: FEEDBACK,
     metadata: {
       cefr: "B1",
@@ -115,6 +121,7 @@ export const twoWayPrepositionsTier2: ExerciseItem[] = [
     prompt: "Fill in the correct article ending (motion, 'über'):",
     stimulus: "Die Katze springt über d____ Zaun.",
     answer: "en",
+    translation: "The cat is jumping over the fence.",
     feedback: FEEDBACK,
     metadata: {
       cefr: "B1",
@@ -131,6 +138,7 @@ export const twoWayPrepositionsTier2: ExerciseItem[] = [
       "Fill in the correct article ending (idiom: sich interessieren für + Akk):",
     stimulus: "Er interessiert sich für d____ Politik.",
     answer: "ie",
+    translation: "He's interested in politics.",
     feedback: FEEDBACK,
     metadata: {
       cefr: "B1",

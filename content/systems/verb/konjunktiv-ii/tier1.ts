@@ -20,6 +20,7 @@ export const konjunktivIiTier1: ExerciseItem[] = [
     stimulus: "Wenn ich Zeit ____, würde ich dich besuchen.",
     options: ["hätte", "habe", "hatte", "haben"],
     answer: 0,
+    translation: "If I had time, I would visit you.",
     feedback: FEEDBACK,
     metadata: {
       cefr: "B1",
@@ -37,6 +38,7 @@ export const konjunktivIiTier1: ExerciseItem[] = [
     stimulus: "An deiner Stelle ____ ich das nicht tun.",
     options: ["würde", "werde", "wurde", "werden"],
     answer: 0,
+    translation: "In your place, I wouldn't do that.",
     feedback: FEEDBACK,
     metadata: {
       cefr: "B1",
@@ -53,6 +55,7 @@ export const konjunktivIiTier1: ExerciseItem[] = [
     stimulus: "Wenn er reich ____, würde er ein Haus kaufen.",
     options: ["wäre", "ist", "war", "sei"],
     answer: 0,
+    translation: "If he were rich, he would buy a house.",
     feedback: FEEDBACK,
     metadata: {
       cefr: "B1",
@@ -69,6 +72,7 @@ export const konjunktivIiTier1: ExerciseItem[] = [
     stimulus: "____ du mir bitte helfen?",
     options: ["Könntest", "Kannst", "Konntest", "Könnest"],
     answer: 0,
+    translation: "Could you please help me?",
     feedback: FEEDBACK,
     metadata: {
       cefr: "B1",
@@ -85,6 +89,7 @@ export const konjunktivIiTier1: ExerciseItem[] = [
     stimulus: "Ich ____ gern einen Kaffee.",
     options: ["hätte", "habe", "hatte", "würde"],
     answer: 0,
+    translation: "I would like a coffee.",
     feedback: FEEDBACK,
     metadata: {
       cefr: "B1",
@@ -101,6 +106,7 @@ export const konjunktivIiTier1: ExerciseItem[] = [
     stimulus: "Du ____ wirklich mehr Sport machen.",
     options: ["solltest", "sollst", "solltet", "sollest"],
     answer: 0,
+    translation: "You really should exercise more.",
     feedback: FEEDBACK,
     metadata: {
       cefr: "B1",
@@ -116,6 +122,7 @@ export const konjunktivIiTier1: ExerciseItem[] = [
     prompt: "Fill in the Konjunktiv II form of 'sein':",
     stimulus: "Wenn das Wetter besser ____, würden wir spazieren gehen.",
     answer: "wäre",
+    translation: "If the weather were better, we would go for a walk.",
     feedback: FEEDBACK,
     metadata: {
       cefr: "B1",
@@ -131,6 +138,7 @@ export const konjunktivIiTier1: ExerciseItem[] = [
     prompt: "Fill in the Konjunktiv II form of 'haben':",
     stimulus: "Wenn ich mehr Geduld ____, wäre das einfacher.",
     answer: "hätte",
+    translation: "If I had more patience, that would be easier.",
     feedback: FEEDBACK,
     metadata: {
       cefr: "B1",

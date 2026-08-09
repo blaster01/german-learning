@@ -20,6 +20,7 @@ export const nDeklinationTier2: ExerciseItem[] = [
     stimulus: "Das Büro des ____ ist im dritten Stock.",
     options: ["Chefs", "Chef", "Chefen", "Chefe"],
     answer: 0,
+    translation: "The boss's office is on the third floor.",
     feedback: {
       correct:
         "Right — 'Chef' is a regular masculine noun (genitive -s), not an n-Deklination noun. Not every masculine noun is weak.",
@@ -43,6 +44,7 @@ export const nDeklinationTier2: ExerciseItem[] = [
     stimulus: "Das Auto des ____ wurde gestohlen.",
     options: ["Kollegen", "Kollege", "Kolleges", "Kolleg"],
     answer: 0,
+    translation: "The colleague's car was stolen.",
     feedback: FEEDBACK,
     metadata: {
       cefr: "B2",
@@ -59,6 +61,7 @@ export const nDeklinationTier2: ExerciseItem[] = [
     stimulus: "Wir besuchen den ____ im Krankenhaus.",
     options: ["Patienten", "Patient", "Patiente", "Patientes"],
     answer: 0,
+    translation: "We're visiting the patient in the hospital.",
     feedback: FEEDBACK,
     metadata: {
       cefr: "B2",
@@ -75,6 +78,7 @@ export const nDeklinationTier2: ExerciseItem[] = [
     stimulus: "Sie erzählt dem ____ die ganze Geschichte.",
     options: ["Nachbarn", "Nachbar", "Nachbare", "Nachbares"],
     answer: 0,
+    translation: "She's telling the neighbor the whole story.",
     feedback: FEEDBACK,
     metadata: {
       cefr: "B2",
@@ -91,6 +95,7 @@ export const nDeklinationTier2: ExerciseItem[] = [
     stimulus: "Der ____ wohnt seit Jahren nebenan.",
     options: ["Nachbar", "Nachbarn", "Nachbare", "Nachbars"],
     answer: 0,
+    translation: "The neighbor has lived next door for years.",
     feedback: FEEDBACK,
     metadata: {
       cefr: "B2",
@@ -106,6 +111,7 @@ export const nDeklinationTier2: ExerciseItem[] = [
     prompt: "Fill in the correct ending (genitive):",
     stimulus: "Das ist die Meinung des Expert____.",
     answer: "en",
+    translation: "That is the expert's opinion.",
     feedback: FEEDBACK,
     metadata: {
       cefr: "B2",
@@ -121,6 +127,7 @@ export const nDeklinationTier2: ExerciseItem[] = [
     prompt: "Fill in the correct form (accusative):",
     stimulus: "Ich habe den ____ noch nie gesehen.",
     answer: "Herrn",
+    translation: "I've never seen that gentleman before.",
     feedback: FEEDBACK,
     metadata: {
       cefr: "B2",

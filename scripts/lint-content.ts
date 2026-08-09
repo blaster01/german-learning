@@ -56,6 +56,16 @@ for (const item of allExerciseItems) {
       errors++;
     }
   }
+
+  // "always" visibility exists to disambiguate/translate up front — an item
+  // that sets it without an actual translation string is a no-op that would
+  // silently leave the item ambiguous.
+  if (item.translationVisibility === "always" && !item.translation?.trim()) {
+    console.error(
+      `translationVisibility "always" without a translation: ${item.id}`,
+    );
+    errors++;
+  }
 }
 
 if (errors > 0) {
