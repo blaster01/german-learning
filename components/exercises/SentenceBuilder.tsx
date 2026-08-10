@@ -26,6 +26,7 @@ export function SentenceBuilder({
   item,
   disabled,
   onSubmit,
+  translationSlot,
 }: EngineProps<BuilderItem>) {
   const initialPool = useMemo<Tok[]>(
     () =>
@@ -84,6 +85,7 @@ export function SentenceBuilder({
       {item.stimulus ? (
         <p className="text-sm text-muted-foreground">{item.stimulus}</p>
       ) : null}
+      {translationSlot}
 
       {/* built sentence area */}
       <div>

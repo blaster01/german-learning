@@ -11,6 +11,7 @@ export function ClozeFill({
   item,
   disabled,
   onSubmit,
+  translationSlot,
 }: EngineProps<ClozeItem>) {
   const [value, setValue] = useState("");
   const ref = useRef<HTMLInputElement>(null);
@@ -24,6 +25,7 @@ export function ClozeFill({
           <SpeakButton text={item.stimulus} size="sm" />
         </div>
       ) : null}
+      {translationSlot}
       <input
         ref={ref}
         className="w-full rounded-full border border-border bg-card px-5 py-3 text-base shadow-sm outline-none transition placeholder:text-muted-foreground focus:border-primary focus:ring-2 focus:ring-primary/30 disabled:opacity-50"

@@ -9,6 +9,7 @@ export function MultipleChoice({
   item,
   disabled,
   onSubmit,
+  translationSlot,
 }: EngineProps<McItem>) {
   return (
     <div className="space-y-4">
@@ -19,6 +20,7 @@ export function MultipleChoice({
           <SpeakButton text={item.stimulus} size="sm" />
         </div>
       ) : null}
+      {translationSlot}
       <div className="grid gap-3 sm:grid-cols-2">
         {item.options.map((opt, i) => (
           <button

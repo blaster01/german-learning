@@ -320,26 +320,6 @@ export function SessionRunner({
       ) : null}
       {/* work card */}
       <div className="rounded-2xl border border-border/60 bg-card p-6 shadow-card">
-        {showEngine && item?.translation ? (
-          <div className="mb-4">
-            {translationRevealed ? (
-              <p className="rounded-lg bg-muted/60 px-3 py-2 text-sm italic text-muted-foreground">
-                {item.translation}
-              </p>
-            ) : (
-              <Button
-                type="button"
-                variant="ghost"
-                size="sm"
-                className="gap-1.5 px-2 text-muted-foreground"
-                onClick={() => setRevealedTranslationFor(item.id)}
-              >
-                <Languages className="h-3.5 w-3.5" />
-                Show translation
-              </Button>
-            )}
-          </div>
-        ) : null}
         {showEngine && item && Engine
           ? createElement(Engine, {
               item,
@@ -347,6 +327,24 @@ export function SessionRunner({
               onSubmit: (a) => {
                 void submit(a);
               },
+              translationSlot: item.translation ? (
+                translationRevealed ? (
+                  <p className="rounded-lg bg-muted/60 px-3 py-2 text-sm italic text-muted-foreground">
+                    {item.translation}
+                  </p>
+                ) : (
+                  <Button
+                    type="button"
+                    variant="ghost"
+                    size="sm"
+                    className="gap-1.5 px-2 text-muted-foreground"
+                    onClick={() => setRevealedTranslationFor(item.id)}
+                  >
+                    <Languages className="h-3.5 w-3.5" />
+                    Show translation
+                  </Button>
+                )
+              ) : undefined,
             })
           : null}
       </div>

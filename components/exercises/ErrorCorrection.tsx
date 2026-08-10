@@ -11,6 +11,7 @@ export function ErrorCorrection({
   item,
   disabled,
   onSubmit,
+  translationSlot,
 }: EngineProps<FixitItem>) {
   const [value, setValue] = useState("");
   const ref = useRef<HTMLTextAreaElement>(null);
@@ -22,6 +23,7 @@ export function ErrorCorrection({
         <p className="flex-1">{item.stimulus}</p>
         <SpeakButton text={item.stimulus} size="sm" />
       </div>
+      {translationSlot}
       <label
         className="block text-xs font-semibold uppercase tracking-wide text-muted-foreground"
         htmlFor={`fix-${item.id}`}

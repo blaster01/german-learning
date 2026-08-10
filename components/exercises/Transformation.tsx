@@ -11,6 +11,7 @@ export function Transformation({
   item,
   disabled,
   onSubmit,
+  translationSlot,
 }: EngineProps<TransformItem>) {
   const [value, setValue] = useState("");
   const ref = useRef<HTMLTextAreaElement>(null);
@@ -24,6 +25,7 @@ export function Transformation({
           <SpeakButton text={item.stimulus} size="sm" />
         </div>
       ) : null}
+      {translationSlot}
       <textarea
         ref={ref}
         className="min-h-[88px] w-full rounded-2xl border border-border bg-card px-4 py-3 text-base outline-none transition placeholder:text-muted-foreground focus:border-primary focus:ring-2 focus:ring-primary/30 disabled:opacity-50"
